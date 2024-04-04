@@ -64,11 +64,11 @@ You can change your username later, but better to get this right the first time.
 
 ### {{< fa pen-clip >}} Step 3: Fill out our registration form
 
-- Fill out this form: <https://forms.gle/JvPfVubntbaDrNZQ8>
+- Fill out this form: <https://forms.gle/MP5rNYZagBdfG2ZRA>
 
 ### {{< fa headset >}} Step 4: Register for the scheduled Zoom meetings
 
-- Register here: <https://ethz.zoom.us/meeting/register/u5EsdO6vqjkqGtBNj9qCUXVOXy8hPobo3hI2>
+- Register here: New link to be provided
 
 ## Thanks for signing up!
 
