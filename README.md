@@ -1,4 +1,4 @@
-# Website for data science for openwashdata course 001 
+# Website for data science for openwashdata course 002
 
 This course is offered by the [openwashdata community](https://openwashdata.org/). 
 
