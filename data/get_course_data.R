@@ -15,21 +15,27 @@ library(dplyr)
 
 # gs4_auth()
 
-googlesheets4::read_sheet("18vF8LFHg3CBrcRqZZcE13G9UxgFXWmQwTnTUi_H8yGU") |> 
+link_schedule <- "https://docs.google.com/spreadsheets/d/199p3suC7ZfyP19F6uWaFeCOnZN1Idr8teMJx25c5VBA/edit?gid=264935232#gid=264935232"
+
+googlesheets4::read_sheet(link_schedule) |> 
   mutate(title = case_when(
     is.na(page_link) == FALSE ~  paste0("[", title, "](", page_link, ")"),
     TRUE ~ title
   )) |>
-  write_csv(here::here("data/tbl-01-ds4owd-001-course-schedule.csv"))
+  write_csv(here::here("data/tbl-01-ds4owd-002-course-schedule.csv"))
 
 # learning-objectives
 
-googlesheets4::read_sheet("10LvSpaCo1Hdyx0MDZKrmNXAPL-xlDyu7yMp5vroQw9Y") |> 
-  write_csv(here::here("data/tbl-02-ds4owd-001-learning-objectives.csv"))
+link_learning_objectives <- "https://docs.google.com/spreadsheets/d/1ud0QjaLenVRe4oyUXYuNjbw7yd5De2ryj7fOHn09ljY/edit?gid=623298307#gid=623298307"
+
+googlesheets4::read_sheet(link_learning_objectives) |> 
+  write_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv"))
 
 # capstone project
 
+link_project <- "https://docs.google.com/spreadsheets/d/1CZGESzUGO9fWWM15gs_f1NLhB6tmfi_ubX6m7ZbRwL4/edit?gid=0#gid=0"
+
 googlesheets4::read_sheet("18-onMxZi0sBf-fEMR7bR5RuT4Qy4t7D-bZ12gdoNYXI") |> 
-  write_csv(here::here("data/tbl-08-ds4owd-001-capstone-project-elements"))
+  write_csv(here::here("data/tbl-03-ds4owd-002-capstone-project-elements"))
 
 
