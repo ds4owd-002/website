@@ -28,7 +28,8 @@ googlesheets4::read_sheet(link_schedule) |>
 
 link_learning_objectives <- "https://docs.google.com/spreadsheets/d/1ud0QjaLenVRe4oyUXYuNjbw7yd5De2ryj7fOHn09ljY/edit?gid=623298307#gid=623298307"
 
-googlesheets4::read_sheet(link_learning_objectives) |> 
+googlesheets4::read_sheet(link_learning_objectives) |>
+  select(date:learning_objectives) |> 
   write_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv"))
 
 # capstone project
