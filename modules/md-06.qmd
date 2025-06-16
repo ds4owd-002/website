@@ -20,7 +20,7 @@ library(epoxy)
 ```{r}
 #| label: learning-objectives
 
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-001-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
 
@@ -32,7 +32,7 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-001-learning-objectives.c
 
 ## {{< fa display >}} Slides
 
-[View slides in full screen](../slides/lec-06-vectors.html) | [Download slides as PDF](https://github.com/ds4owd-001/website/raw/main/slides/lec-06-vectors.pdf)
+[View slides in full screen](../slides/lec-06-vectors.html) | [Download slides as PDF](https://github.com/ds4owd-002/website/raw/main/slides/lec-06-vectors.pdf)
 
 ```{=html}
 <iframe class="slide-deck" src="../slides/lec-06-vectors.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>

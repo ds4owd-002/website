@@ -9,13 +9,12 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.549">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Lars Schöbitz">
-  <meta name="dcterms.date" content="2023-11-28">
-  <title>data science for openwashdata - Conditions &amp; Dates &amp; Tables</title>
+  <title>data science for openwashdata – Conditions &amp; Dates &amp; Tables</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -46,7 +45,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -74,7 +73,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -88,7 +87,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -427,10 +426,13 @@
 <div class="quarto-title-author-name">
 Lars Schöbitz 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            ETH Zurich
+          </p>
+    </div>
 </div>
 
-  <p class="date">2023-11-28</p>
+  <p class="date">Oct 9, 2025</p>
 </section>
 <section id="learning-objectives-for-this-week" class="slide level2">
 <h2>Learning Objectives (for this week)</h2>
@@ -462,7 +464,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_f2e3501d" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_3d06faea" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -492,8 +494,7 @@ Lars Schöbitz
 <li>Number of users</li>
 <li>System (pit latrine / septic tank)</li>
 </ul>
-</div>
-</div>
+</div></div>
 </div>
 </section>
 <section id="data-dictionary-codebook" class="slide level2">
@@ -503,7 +504,7 @@ Lars Schöbitz
 <li>data dictionaries / codebooks are separate files</li>
 </ul>
 <div class="fragment">
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 17%">
 <col style="width: 82%">
@@ -552,7 +553,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_9435abd1" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_ad6d3528" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -565,7 +566,7 @@ Lars Schöbitz
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_22a9b747" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_b8ab980c" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -587,7 +588,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_834a02d6" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_765bbfef" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -608,23 +609,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="qucwzsmsxa" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qucwzsmsxa table {
+<div id="shnteocwki" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#shnteocwki table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#qucwzsmsxa thead, #qucwzsmsxa tbody, #qucwzsmsxa tfoot, #qucwzsmsxa tr, #qucwzsmsxa td, #qucwzsmsxa th {
+#shnteocwki thead, #shnteocwki tbody, #shnteocwki tfoot, #shnteocwki tr, #shnteocwki td, #shnteocwki th {
   border-style: none;
 }
 
-#qucwzsmsxa p {
+#shnteocwki p {
   margin: 0;
   padding: 0;
 }
 
-#qucwzsmsxa .gt_table {
+#shnteocwki .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -650,12 +651,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_caption {
+#shnteocwki .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#qucwzsmsxa .gt_title {
+#shnteocwki .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -667,7 +668,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#qucwzsmsxa .gt_subtitle {
+#shnteocwki .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -679,7 +680,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#qucwzsmsxa .gt_heading {
+#shnteocwki .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -691,13 +692,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_bottom_border {
+#shnteocwki .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_col_headings {
+#shnteocwki .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -712,7 +713,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_col_heading {
+#shnteocwki .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -732,7 +733,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#qucwzsmsxa .gt_column_spanner_outer {
+#shnteocwki .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -744,15 +745,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#qucwzsmsxa .gt_column_spanner_outer:first-child {
+#shnteocwki .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#qucwzsmsxa .gt_column_spanner_outer:last-child {
+#shnteocwki .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#qucwzsmsxa .gt_column_spanner {
+#shnteocwki .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -764,11 +765,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#qucwzsmsxa .gt_spanner_row {
+#shnteocwki .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#qucwzsmsxa .gt_group_heading {
+#shnteocwki .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -794,7 +795,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#qucwzsmsxa .gt_empty_group_heading {
+#shnteocwki .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -809,15 +810,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#qucwzsmsxa .gt_from_md > :first-child {
+#shnteocwki .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#qucwzsmsxa .gt_from_md > :last-child {
+#shnteocwki .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#qucwzsmsxa .gt_row {
+#shnteocwki .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -836,7 +837,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#qucwzsmsxa .gt_stub {
+#shnteocwki .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -849,7 +850,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#qucwzsmsxa .gt_stub_row_group {
+#shnteocwki .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -863,15 +864,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#qucwzsmsxa .gt_row_group_first td {
+#shnteocwki .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#qucwzsmsxa .gt_row_group_first th {
+#shnteocwki .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#qucwzsmsxa .gt_summary_row {
+#shnteocwki .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -881,16 +882,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#qucwzsmsxa .gt_first_summary_row {
+#shnteocwki .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_first_summary_row.thick {
+#shnteocwki .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#qucwzsmsxa .gt_last_summary_row {
+#shnteocwki .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -900,7 +901,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_grand_summary_row {
+#shnteocwki .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -910,7 +911,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#qucwzsmsxa .gt_first_grand_summary_row {
+#shnteocwki .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -920,7 +921,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_last_grand_summary_row_top {
+#shnteocwki .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -930,11 +931,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_striped {
+#shnteocwki .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#qucwzsmsxa .gt_table_body {
+#shnteocwki .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -943,7 +944,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_footnotes {
+#shnteocwki .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -957,7 +958,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_footnote {
+#shnteocwki .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -966,7 +967,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#qucwzsmsxa .gt_sourcenotes {
+#shnteocwki .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -980,7 +981,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#qucwzsmsxa .gt_sourcenote {
+#shnteocwki .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -988,68 +989,77 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#qucwzsmsxa .gt_left {
+#shnteocwki .gt_left {
   text-align: left;
 }
 
-#qucwzsmsxa .gt_center {
+#shnteocwki .gt_center {
   text-align: center;
 }
 
-#qucwzsmsxa .gt_right {
+#shnteocwki .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#qucwzsmsxa .gt_font_normal {
+#shnteocwki .gt_font_normal {
   font-weight: normal;
 }
 
-#qucwzsmsxa .gt_font_bold {
+#shnteocwki .gt_font_bold {
   font-weight: bold;
 }
 
-#qucwzsmsxa .gt_font_italic {
+#shnteocwki .gt_font_italic {
   font-style: italic;
 }
 
-#qucwzsmsxa .gt_super {
+#shnteocwki .gt_super {
   font-size: 65%;
 }
 
-#qucwzsmsxa .gt_footnote_marks {
+#shnteocwki .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#qucwzsmsxa .gt_asterisk {
+#shnteocwki .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#qucwzsmsxa .gt_indent_1 {
+#shnteocwki .gt_indent_1 {
   text-indent: 5px;
 }
 
-#qucwzsmsxa .gt_indent_2 {
+#shnteocwki .gt_indent_2 {
   text-indent: 10px;
 }
 
-#qucwzsmsxa .gt_indent_3 {
+#shnteocwki .gt_indent_3 {
   text-indent: 15px;
 }
 
-#qucwzsmsxa .gt_indent_4 {
+#shnteocwki .gt_indent_4 {
   text-indent: 20px;
 }
 
-#qucwzsmsxa .gt_indent_5 {
+#shnteocwki .gt_indent_5 {
   text-indent: 25px;
+}
+
+#shnteocwki .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#shnteocwki div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
 }
 </style>
 
-<table class="gt_table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="header gt_col_headings">
 <th id="id" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">id</th>
@@ -1242,23 +1252,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="hivtmuqtre" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#hivtmuqtre table {
+<div id="cegpzzaila" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#cegpzzaila table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#hivtmuqtre thead, #hivtmuqtre tbody, #hivtmuqtre tfoot, #hivtmuqtre tr, #hivtmuqtre td, #hivtmuqtre th {
+#cegpzzaila thead, #cegpzzaila tbody, #cegpzzaila tfoot, #cegpzzaila tr, #cegpzzaila td, #cegpzzaila th {
   border-style: none;
 }
 
-#hivtmuqtre p {
+#cegpzzaila p {
   margin: 0;
   padding: 0;
 }
 
-#hivtmuqtre .gt_table {
+#cegpzzaila .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1284,12 +1294,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_caption {
+#cegpzzaila .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#hivtmuqtre .gt_title {
+#cegpzzaila .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1301,7 +1311,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#hivtmuqtre .gt_subtitle {
+#cegpzzaila .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1313,7 +1323,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#hivtmuqtre .gt_heading {
+#cegpzzaila .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1325,13 +1335,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_bottom_border {
+#cegpzzaila .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_col_headings {
+#cegpzzaila .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1346,7 +1356,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_col_heading {
+#cegpzzaila .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1366,7 +1376,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#hivtmuqtre .gt_column_spanner_outer {
+#cegpzzaila .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1378,15 +1388,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#hivtmuqtre .gt_column_spanner_outer:first-child {
+#cegpzzaila .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#hivtmuqtre .gt_column_spanner_outer:last-child {
+#cegpzzaila .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#hivtmuqtre .gt_column_spanner {
+#cegpzzaila .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1398,11 +1408,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#hivtmuqtre .gt_spanner_row {
+#cegpzzaila .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#hivtmuqtre .gt_group_heading {
+#cegpzzaila .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1428,7 +1438,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#hivtmuqtre .gt_empty_group_heading {
+#cegpzzaila .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1443,15 +1453,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#hivtmuqtre .gt_from_md > :first-child {
+#cegpzzaila .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#hivtmuqtre .gt_from_md > :last-child {
+#cegpzzaila .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#hivtmuqtre .gt_row {
+#cegpzzaila .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1470,7 +1480,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#hivtmuqtre .gt_stub {
+#cegpzzaila .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1483,7 +1493,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#hivtmuqtre .gt_stub_row_group {
+#cegpzzaila .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1497,15 +1507,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#hivtmuqtre .gt_row_group_first td {
+#cegpzzaila .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#hivtmuqtre .gt_row_group_first th {
+#cegpzzaila .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#hivtmuqtre .gt_summary_row {
+#cegpzzaila .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1515,16 +1525,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#hivtmuqtre .gt_first_summary_row {
+#cegpzzaila .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_first_summary_row.thick {
+#cegpzzaila .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#hivtmuqtre .gt_last_summary_row {
+#cegpzzaila .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1534,7 +1544,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_grand_summary_row {
+#cegpzzaila .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1544,7 +1554,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#hivtmuqtre .gt_first_grand_summary_row {
+#cegpzzaila .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1554,7 +1564,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_last_grand_summary_row_top {
+#cegpzzaila .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1564,11 +1574,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_striped {
+#cegpzzaila .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#hivtmuqtre .gt_table_body {
+#cegpzzaila .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1577,7 +1587,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_footnotes {
+#cegpzzaila .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1591,7 +1601,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_footnote {
+#cegpzzaila .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1600,7 +1610,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#hivtmuqtre .gt_sourcenotes {
+#cegpzzaila .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1614,7 +1624,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#hivtmuqtre .gt_sourcenote {
+#cegpzzaila .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1622,68 +1632,77 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#hivtmuqtre .gt_left {
+#cegpzzaila .gt_left {
   text-align: left;
 }
 
-#hivtmuqtre .gt_center {
+#cegpzzaila .gt_center {
   text-align: center;
 }
 
-#hivtmuqtre .gt_right {
+#cegpzzaila .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#hivtmuqtre .gt_font_normal {
+#cegpzzaila .gt_font_normal {
   font-weight: normal;
 }
 
-#hivtmuqtre .gt_font_bold {
+#cegpzzaila .gt_font_bold {
   font-weight: bold;
 }
 
-#hivtmuqtre .gt_font_italic {
+#cegpzzaila .gt_font_italic {
   font-style: italic;
 }
 
-#hivtmuqtre .gt_super {
+#cegpzzaila .gt_super {
   font-size: 65%;
 }
 
-#hivtmuqtre .gt_footnote_marks {
+#cegpzzaila .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#hivtmuqtre .gt_asterisk {
+#cegpzzaila .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#hivtmuqtre .gt_indent_1 {
+#cegpzzaila .gt_indent_1 {
   text-indent: 5px;
 }
 
-#hivtmuqtre .gt_indent_2 {
+#cegpzzaila .gt_indent_2 {
   text-indent: 10px;
 }
 
-#hivtmuqtre .gt_indent_3 {
+#cegpzzaila .gt_indent_3 {
   text-indent: 15px;
 }
 
-#hivtmuqtre .gt_indent_4 {
+#cegpzzaila .gt_indent_4 {
   text-indent: 20px;
 }
 
-#hivtmuqtre .gt_indent_5 {
+#cegpzzaila .gt_indent_5 {
   text-indent: 25px;
+}
+
+#cegpzzaila .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#cegpzzaila div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
 }
 </style>
 
-<table class="gt_table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="header gt_col_headings">
 <th id="id" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">id</th>
@@ -1885,23 +1904,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="gclvqzxkmq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#gclvqzxkmq table {
+<div id="oyeubemaxe" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#oyeubemaxe table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#gclvqzxkmq thead, #gclvqzxkmq tbody, #gclvqzxkmq tfoot, #gclvqzxkmq tr, #gclvqzxkmq td, #gclvqzxkmq th {
+#oyeubemaxe thead, #oyeubemaxe tbody, #oyeubemaxe tfoot, #oyeubemaxe tr, #oyeubemaxe td, #oyeubemaxe th {
   border-style: none;
 }
 
-#gclvqzxkmq p {
+#oyeubemaxe p {
   margin: 0;
   padding: 0;
 }
 
-#gclvqzxkmq .gt_table {
+#oyeubemaxe .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1927,12 +1946,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_caption {
+#oyeubemaxe .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#gclvqzxkmq .gt_title {
+#oyeubemaxe .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1944,7 +1963,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#gclvqzxkmq .gt_subtitle {
+#oyeubemaxe .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1956,7 +1975,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#gclvqzxkmq .gt_heading {
+#oyeubemaxe .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1968,13 +1987,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_bottom_border {
+#oyeubemaxe .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_col_headings {
+#oyeubemaxe .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1989,7 +2008,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_col_heading {
+#oyeubemaxe .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2009,7 +2028,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#gclvqzxkmq .gt_column_spanner_outer {
+#oyeubemaxe .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2021,15 +2040,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#gclvqzxkmq .gt_column_spanner_outer:first-child {
+#oyeubemaxe .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#gclvqzxkmq .gt_column_spanner_outer:last-child {
+#oyeubemaxe .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#gclvqzxkmq .gt_column_spanner {
+#oyeubemaxe .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2041,11 +2060,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#gclvqzxkmq .gt_spanner_row {
+#oyeubemaxe .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#gclvqzxkmq .gt_group_heading {
+#oyeubemaxe .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2071,7 +2090,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#gclvqzxkmq .gt_empty_group_heading {
+#oyeubemaxe .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2086,15 +2105,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#gclvqzxkmq .gt_from_md > :first-child {
+#oyeubemaxe .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#gclvqzxkmq .gt_from_md > :last-child {
+#oyeubemaxe .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#gclvqzxkmq .gt_row {
+#oyeubemaxe .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2113,7 +2132,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#gclvqzxkmq .gt_stub {
+#oyeubemaxe .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2126,7 +2145,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#gclvqzxkmq .gt_stub_row_group {
+#oyeubemaxe .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2140,15 +2159,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#gclvqzxkmq .gt_row_group_first td {
+#oyeubemaxe .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#gclvqzxkmq .gt_row_group_first th {
+#oyeubemaxe .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#gclvqzxkmq .gt_summary_row {
+#oyeubemaxe .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2158,16 +2177,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#gclvqzxkmq .gt_first_summary_row {
+#oyeubemaxe .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_first_summary_row.thick {
+#oyeubemaxe .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#gclvqzxkmq .gt_last_summary_row {
+#oyeubemaxe .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2177,7 +2196,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_grand_summary_row {
+#oyeubemaxe .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2187,7 +2206,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#gclvqzxkmq .gt_first_grand_summary_row {
+#oyeubemaxe .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2197,7 +2216,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_last_grand_summary_row_top {
+#oyeubemaxe .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2207,11 +2226,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_striped {
+#oyeubemaxe .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#gclvqzxkmq .gt_table_body {
+#oyeubemaxe .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2220,7 +2239,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_footnotes {
+#oyeubemaxe .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2234,7 +2253,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_footnote {
+#oyeubemaxe .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2243,7 +2262,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#gclvqzxkmq .gt_sourcenotes {
+#oyeubemaxe .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2257,7 +2276,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#gclvqzxkmq .gt_sourcenote {
+#oyeubemaxe .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2265,68 +2284,77 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#gclvqzxkmq .gt_left {
+#oyeubemaxe .gt_left {
   text-align: left;
 }
 
-#gclvqzxkmq .gt_center {
+#oyeubemaxe .gt_center {
   text-align: center;
 }
 
-#gclvqzxkmq .gt_right {
+#oyeubemaxe .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#gclvqzxkmq .gt_font_normal {
+#oyeubemaxe .gt_font_normal {
   font-weight: normal;
 }
 
-#gclvqzxkmq .gt_font_bold {
+#oyeubemaxe .gt_font_bold {
   font-weight: bold;
 }
 
-#gclvqzxkmq .gt_font_italic {
+#oyeubemaxe .gt_font_italic {
   font-style: italic;
 }
 
-#gclvqzxkmq .gt_super {
+#oyeubemaxe .gt_super {
   font-size: 65%;
 }
 
-#gclvqzxkmq .gt_footnote_marks {
+#oyeubemaxe .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#gclvqzxkmq .gt_asterisk {
+#oyeubemaxe .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#gclvqzxkmq .gt_indent_1 {
+#oyeubemaxe .gt_indent_1 {
   text-indent: 5px;
 }
 
-#gclvqzxkmq .gt_indent_2 {
+#oyeubemaxe .gt_indent_2 {
   text-indent: 10px;
 }
 
-#gclvqzxkmq .gt_indent_3 {
+#oyeubemaxe .gt_indent_3 {
   text-indent: 15px;
 }
 
-#gclvqzxkmq .gt_indent_4 {
+#oyeubemaxe .gt_indent_4 {
   text-indent: 20px;
 }
 
-#gclvqzxkmq .gt_indent_5 {
+#oyeubemaxe .gt_indent_5 {
   text-indent: 25px;
+}
+
+#oyeubemaxe .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#oyeubemaxe div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
 }
 </style>
 
-<table class="gt_table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="header gt_col_headings">
 <th id="id" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">id</th>
@@ -2539,23 +2567,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="amatkshdfo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#amatkshdfo table {
+<div id="yzmzfminbt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#yzmzfminbt table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#amatkshdfo thead, #amatkshdfo tbody, #amatkshdfo tfoot, #amatkshdfo tr, #amatkshdfo td, #amatkshdfo th {
+#yzmzfminbt thead, #yzmzfminbt tbody, #yzmzfminbt tfoot, #yzmzfminbt tr, #yzmzfminbt td, #yzmzfminbt th {
   border-style: none;
 }
 
-#amatkshdfo p {
+#yzmzfminbt p {
   margin: 0;
   padding: 0;
 }
 
-#amatkshdfo .gt_table {
+#yzmzfminbt .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2581,12 +2609,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_caption {
+#yzmzfminbt .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#amatkshdfo .gt_title {
+#yzmzfminbt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2598,7 +2626,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#amatkshdfo .gt_subtitle {
+#yzmzfminbt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2610,7 +2638,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#amatkshdfo .gt_heading {
+#yzmzfminbt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2622,13 +2650,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_bottom_border {
+#yzmzfminbt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_col_headings {
+#yzmzfminbt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2643,7 +2671,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_col_heading {
+#yzmzfminbt .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2663,7 +2691,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#amatkshdfo .gt_column_spanner_outer {
+#yzmzfminbt .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2675,15 +2703,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#amatkshdfo .gt_column_spanner_outer:first-child {
+#yzmzfminbt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#amatkshdfo .gt_column_spanner_outer:last-child {
+#yzmzfminbt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#amatkshdfo .gt_column_spanner {
+#yzmzfminbt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2695,11 +2723,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#amatkshdfo .gt_spanner_row {
+#yzmzfminbt .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#amatkshdfo .gt_group_heading {
+#yzmzfminbt .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2725,7 +2753,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#amatkshdfo .gt_empty_group_heading {
+#yzmzfminbt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2740,15 +2768,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#amatkshdfo .gt_from_md > :first-child {
+#yzmzfminbt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#amatkshdfo .gt_from_md > :last-child {
+#yzmzfminbt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#amatkshdfo .gt_row {
+#yzmzfminbt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2767,7 +2795,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#amatkshdfo .gt_stub {
+#yzmzfminbt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2780,7 +2808,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#amatkshdfo .gt_stub_row_group {
+#yzmzfminbt .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2794,15 +2822,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#amatkshdfo .gt_row_group_first td {
+#yzmzfminbt .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#amatkshdfo .gt_row_group_first th {
+#yzmzfminbt .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#amatkshdfo .gt_summary_row {
+#yzmzfminbt .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2812,16 +2840,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#amatkshdfo .gt_first_summary_row {
+#yzmzfminbt .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_first_summary_row.thick {
+#yzmzfminbt .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#amatkshdfo .gt_last_summary_row {
+#yzmzfminbt .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2831,7 +2859,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_grand_summary_row {
+#yzmzfminbt .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2841,7 +2869,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#amatkshdfo .gt_first_grand_summary_row {
+#yzmzfminbt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2851,7 +2879,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_last_grand_summary_row_top {
+#yzmzfminbt .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2861,11 +2889,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_striped {
+#yzmzfminbt .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#amatkshdfo .gt_table_body {
+#yzmzfminbt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2874,7 +2902,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_footnotes {
+#yzmzfminbt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2888,7 +2916,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_footnote {
+#yzmzfminbt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2897,7 +2925,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#amatkshdfo .gt_sourcenotes {
+#yzmzfminbt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2911,7 +2939,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#amatkshdfo .gt_sourcenote {
+#yzmzfminbt .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2919,68 +2947,77 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#amatkshdfo .gt_left {
+#yzmzfminbt .gt_left {
   text-align: left;
 }
 
-#amatkshdfo .gt_center {
+#yzmzfminbt .gt_center {
   text-align: center;
 }
 
-#amatkshdfo .gt_right {
+#yzmzfminbt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#amatkshdfo .gt_font_normal {
+#yzmzfminbt .gt_font_normal {
   font-weight: normal;
 }
 
-#amatkshdfo .gt_font_bold {
+#yzmzfminbt .gt_font_bold {
   font-weight: bold;
 }
 
-#amatkshdfo .gt_font_italic {
+#yzmzfminbt .gt_font_italic {
   font-style: italic;
 }
 
-#amatkshdfo .gt_super {
+#yzmzfminbt .gt_super {
   font-size: 65%;
 }
 
-#amatkshdfo .gt_footnote_marks {
+#yzmzfminbt .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#amatkshdfo .gt_asterisk {
+#yzmzfminbt .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#amatkshdfo .gt_indent_1 {
+#yzmzfminbt .gt_indent_1 {
   text-indent: 5px;
 }
 
-#amatkshdfo .gt_indent_2 {
+#yzmzfminbt .gt_indent_2 {
   text-indent: 10px;
 }
 
-#amatkshdfo .gt_indent_3 {
+#yzmzfminbt .gt_indent_3 {
   text-indent: 15px;
 }
 
-#amatkshdfo .gt_indent_4 {
+#yzmzfminbt .gt_indent_4 {
   text-indent: 20px;
 }
 
-#amatkshdfo .gt_indent_5 {
+#yzmzfminbt .gt_indent_5 {
   text-indent: 25px;
+}
+
+#yzmzfminbt .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#yzmzfminbt div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
 }
 </style>
 
-<table class="gt_table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="header gt_col_headings">
 <th id="ts_cat" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">ts_cat</th>
@@ -3029,7 +3066,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_ffe76f56" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_08424caa" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -3042,7 +3079,7 @@ Lars Schöbitz
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_ac61a164" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_8319b678" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -3077,7 +3114,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_60434255" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_ac3adfd2" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">30</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -3115,30 +3152,30 @@ Lars Schöbitz
 <span id="cb5-5"><a></a><span class="in">head(penguins) |&gt; </span></span>
 <span id="cb5-6"><a></a><span class="in">  gt()</span></span>
 <span id="cb5-7"><a></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-penguins" class="cell quarto-float">
+<div id="tbl-penguins" class="cell quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-tbl">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-penguins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: A few penguins
 </figcaption>
 <div aria-describedby="tbl-penguins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="pwavnsujnz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#pwavnsujnz table {
+<div id="fjdukrmccp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fjdukrmccp table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#pwavnsujnz thead, #pwavnsujnz tbody, #pwavnsujnz tfoot, #pwavnsujnz tr, #pwavnsujnz td, #pwavnsujnz th {
+#fjdukrmccp thead, #fjdukrmccp tbody, #fjdukrmccp tfoot, #fjdukrmccp tr, #fjdukrmccp td, #fjdukrmccp th {
   border-style: none;
 }
 
-#pwavnsujnz p {
+#fjdukrmccp p {
   margin: 0;
   padding: 0;
 }
 
-#pwavnsujnz .gt_table {
+#fjdukrmccp .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3164,12 +3201,12 @@ Table&nbsp;1: A few penguins
   border-left-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_caption {
+#fjdukrmccp .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#pwavnsujnz .gt_title {
+#fjdukrmccp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3181,7 +3218,7 @@ Table&nbsp;1: A few penguins
   border-bottom-width: 0;
 }
 
-#pwavnsujnz .gt_subtitle {
+#fjdukrmccp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3193,7 +3230,7 @@ Table&nbsp;1: A few penguins
   border-top-width: 0;
 }
 
-#pwavnsujnz .gt_heading {
+#fjdukrmccp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3205,13 +3242,13 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_bottom_border {
+#fjdukrmccp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_col_headings {
+#fjdukrmccp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3226,7 +3263,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_col_heading {
+#fjdukrmccp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3246,7 +3283,7 @@ Table&nbsp;1: A few penguins
   overflow-x: hidden;
 }
 
-#pwavnsujnz .gt_column_spanner_outer {
+#fjdukrmccp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3258,15 +3295,15 @@ Table&nbsp;1: A few penguins
   padding-right: 4px;
 }
 
-#pwavnsujnz .gt_column_spanner_outer:first-child {
+#fjdukrmccp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pwavnsujnz .gt_column_spanner_outer:last-child {
+#fjdukrmccp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pwavnsujnz .gt_column_spanner {
+#fjdukrmccp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3278,11 +3315,11 @@ Table&nbsp;1: A few penguins
   width: 100%;
 }
 
-#pwavnsujnz .gt_spanner_row {
+#fjdukrmccp .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#pwavnsujnz .gt_group_heading {
+#fjdukrmccp .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3308,7 +3345,7 @@ Table&nbsp;1: A few penguins
   text-align: left;
 }
 
-#pwavnsujnz .gt_empty_group_heading {
+#fjdukrmccp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3323,15 +3360,15 @@ Table&nbsp;1: A few penguins
   vertical-align: middle;
 }
 
-#pwavnsujnz .gt_from_md > :first-child {
+#fjdukrmccp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pwavnsujnz .gt_from_md > :last-child {
+#fjdukrmccp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pwavnsujnz .gt_row {
+#fjdukrmccp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3350,7 +3387,7 @@ Table&nbsp;1: A few penguins
   overflow-x: hidden;
 }
 
-#pwavnsujnz .gt_stub {
+#fjdukrmccp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3363,7 +3400,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#pwavnsujnz .gt_stub_row_group {
+#fjdukrmccp .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3377,15 +3414,15 @@ Table&nbsp;1: A few penguins
   vertical-align: top;
 }
 
-#pwavnsujnz .gt_row_group_first td {
+#fjdukrmccp .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#pwavnsujnz .gt_row_group_first th {
+#fjdukrmccp .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#pwavnsujnz .gt_summary_row {
+#fjdukrmccp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3395,16 +3432,16 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#pwavnsujnz .gt_first_summary_row {
+#fjdukrmccp .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_first_summary_row.thick {
+#fjdukrmccp .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#pwavnsujnz .gt_last_summary_row {
+#fjdukrmccp .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3414,7 +3451,7 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_grand_summary_row {
+#fjdukrmccp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3424,7 +3461,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#pwavnsujnz .gt_first_grand_summary_row {
+#fjdukrmccp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3434,7 +3471,7 @@ Table&nbsp;1: A few penguins
   border-top-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_last_grand_summary_row_top {
+#fjdukrmccp .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3444,11 +3481,11 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_striped {
+#fjdukrmccp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pwavnsujnz .gt_table_body {
+#fjdukrmccp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3457,7 +3494,7 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_footnotes {
+#fjdukrmccp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3471,7 +3508,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_footnote {
+#fjdukrmccp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3480,7 +3517,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#pwavnsujnz .gt_sourcenotes {
+#fjdukrmccp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3494,7 +3531,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#pwavnsujnz .gt_sourcenote {
+#fjdukrmccp .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3502,68 +3539,77 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#pwavnsujnz .gt_left {
+#fjdukrmccp .gt_left {
   text-align: left;
 }
 
-#pwavnsujnz .gt_center {
+#fjdukrmccp .gt_center {
   text-align: center;
 }
 
-#pwavnsujnz .gt_right {
+#fjdukrmccp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pwavnsujnz .gt_font_normal {
+#fjdukrmccp .gt_font_normal {
   font-weight: normal;
 }
 
-#pwavnsujnz .gt_font_bold {
+#fjdukrmccp .gt_font_bold {
   font-weight: bold;
 }
 
-#pwavnsujnz .gt_font_italic {
+#fjdukrmccp .gt_font_italic {
   font-style: italic;
 }
 
-#pwavnsujnz .gt_super {
+#fjdukrmccp .gt_super {
   font-size: 65%;
 }
 
-#pwavnsujnz .gt_footnote_marks {
+#fjdukrmccp .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#pwavnsujnz .gt_asterisk {
+#fjdukrmccp .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#pwavnsujnz .gt_indent_1 {
+#fjdukrmccp .gt_indent_1 {
   text-indent: 5px;
 }
 
-#pwavnsujnz .gt_indent_2 {
+#fjdukrmccp .gt_indent_2 {
   text-indent: 10px;
 }
 
-#pwavnsujnz .gt_indent_3 {
+#fjdukrmccp .gt_indent_3 {
   text-indent: 15px;
 }
 
-#pwavnsujnz .gt_indent_4 {
+#fjdukrmccp .gt_indent_4 {
   text-indent: 20px;
 }
 
-#pwavnsujnz .gt_indent_5 {
+#fjdukrmccp .gt_indent_5 {
   text-indent: 25px;
+}
+
+#fjdukrmccp .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#fjdukrmccp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
 }
 </style>
 
-<table class="gt_table do-not-create-environment cell" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="header gt_col_headings">
 <th id="species" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">species</th>
@@ -3655,8 +3701,8 @@ Table&nbsp;1: A few penguins
 <section id="module-5-documentation" class="slide level2">
 <h2>Module 5 documentation</h2>
 <div class="learn-more">
-<p><a href="https://ds4owd-001.github.io/website/modules/md-05.html">ds4owd-001.github.io/website/modules/md-05.html</a></p>
-<iframe src="https://ds4owd-001.github.io/website/modules/md-05.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 5 documentation"></iframe>
+<p><a href="https://ds4owd-002.github.io/website//modules/md-05.html">ds4owd-002.github.io/website//modules/md-05.html</a></p>
+<iframe src="https://ds4owd-002.github.io/website//modules/md-05.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 5 documentation"></iframe>
 </div>
 </section>
 <section id="bring-your-own-data-for-the-capstone-project" class="slide level2">
@@ -3689,7 +3735,7 @@ Table&nbsp;1: A few penguins
 </section>
 <section id="thanks" class="slide level2">
 <h2>Thanks! 🌻</h2>
-<p>Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as <a href="https://github.com/ds4owd-001/website/raw/main/slides/lec-03-transformation.pdf">PDF on GitHub</a></p>
+<p>Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as <a href="https://github.com/ds4owd-002/website/raw/main/slides/lec-05-conditions.pdf">PDF on GitHub</a></p>
 <p>All material is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike 4.0 International</a>.</p>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
@@ -3698,7 +3744,7 @@ Table&nbsp;1: A few penguins
 <div class="quarto-auto-generated-content">
 <p><img src="../img/OWD-logo-20.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://ds4owd-001.github.io/website/"><i class="fa-solid fa-link" aria-label="link"></i> ds4owd-001.github.io/website/</a></p>
+<p><a href="https://ds4owd-002.github.io/website/"><i class="fa-solid fa-link" aria-label="link"></i> ds4owd-002.github.io/website/</a></p>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
@@ -3989,18 +4035,7 @@ Broman, Karl W., and Kara H. Woo. 2018. <span>“Data <span>Organization</span> 
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -4032,7 +4067,47 @@ Broman, Karl W., and Kara H. Woo. 2018. <span>“Data <span>Organization</span> 
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/ds4owd-001\.github\.io\/website\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -4069,7 +4144,11 @@ Broman, Karl W., and Kara H. Woo. 2018. <span>“Data <span>Organization</span> 
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

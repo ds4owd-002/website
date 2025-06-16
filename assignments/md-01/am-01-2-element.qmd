@@ -47,7 +47,7 @@ To set it up, please follow the steps below:
 ![](images/setup-element-07.png)
 9. Leave a message
 
-You are now in the lobby of the openwashdata community. [Leave a message]{.highlight-peach} to introduce yourself. You will be added to the room ds4owd-001 that is specifically for this course.
+You are now in the lobby of the openwashdata community. [Leave a message]{.highlight-peach} to introduce yourself. You will be added to the room ds4owd-002 that is specifically for this course.
 
 ![](images/setup-element-08.png)
 

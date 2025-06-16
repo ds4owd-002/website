@@ -1,46 +1,36 @@
 date,week,title,learning_objectives
-,,Welcome & get ready for the course,Learners can access the Posit Cloud workspace for the course.
-,,Welcome & get ready for the course,Learners can use the Element chat to introduce themselves.
-,,Welcome & get ready for the course,Learners can open an issue on GitHub and tag the course instructor.
-,,Welcome & get ready for the course,Learners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub.
-,,Welcome & get ready for the course,"Learners can identify four components of a Quarto file (YAML, code chunk, R code, markdown)."
-,,Data science lifecycle & Exploratory data analysis using visualization,Learners can list the six elements of the data science lifecycle.
-,,Data science lifecycle & Exploratory data analysis using visualization,Learners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.
-,,Data science lifecycle & Exploratory data analysis using visualization,Learners can control the colour scaling applied to a plot using colour as an aesthetic mapping.
-,,Data science lifecycle & Exploratory data analysis using visualization,"Learners can compare three different geoms (bar/col, histogram, point) and their use case."
-,,Data transformation with dplyr,Learners can apply ten functions from the dplyr R Package to generate a subset of data for use in a table or plot.
-,,Data import & Data organization in spreadsheets,Learners can import data from files in CSV and XLSX format located in sub-directories of the root directory.
-,,Data import & Data organization in spreadsheets,Learners can explain the difference between the vector class character and the vector class factor.
-,,Data import & Data organization in spreadsheets,"Learners can discuss the difference between unprocessed raw data, processed analysis-ready data, and data underlying a publication."
-,,Data import & Data organization in spreadsheets,Learners can apply 12 principles for data organisation in spreadsheets to the layout of a provided dataset.
-,,Conditions & Dates & Tables,Learners can apply functions from dplyr to change specific values of a variable in a dataframe.
-,,Conditions & Dates & Tables,Learners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.
-,,Conditions & Dates & Tables,Learners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.
-,,Data types & Vectors & For Loops,Learners can identify different ways of accessing a vector from a dataframe
-,,Data types & Vectors & For Loops,Learners can identify a for loop
-,,Data types & Vectors & For Loops,Learners can list the four main atomic vector types in R.
-,,Pivoting & joining data,Learners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.
-,,Pivoting & joining data,Learners can apply functions from the dplyr R Package to join multiple data sets.
-,,Pivoting & joining data,Learners can understand the relevance a data dictionary to describe variable names in a data set.
-,,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can add literature references to Quarto files using the navigation menu of RStudio visual editor.
-,,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can cross-reference figures and tables within an Quarto file.
-,,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can use the GitHub pages service to publish a repository as a standalone website.
-,,Bonus module: Use of AI for coding support,Learners are aware of the responsibility for using AI and critically and evaluating all its output.
-,,Bonus module: Use of AI for coding support,Learners can explain the basics of AI and its potential for improving software development workflows.
-,,Bonus module: Use of AI for coding support,Implement strategies to write and debug code using AI-based tools
-,,Work on Capstone project,Learners can apply the skills obtained during the course to write a short data analysis project report.
-,,Work on Capstone project,NA
-,,Final submission date of Capstone project,NA
-,,Graduation of openwashdata academy,Learners can find resources to continue their data science journey.
-,,Graduation of openwashdata academy,Learners can identify where and how to contact the openwashdata team for support with data sharing.
-,,Graduation of openwashdata academy,Learners can describe the skills and compentencies they have obtained in this course.
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
-,,NA,NA
+2025-09-11T00:00:00Z,1,Welcome & get ready for the course,Learners can access the Posit Cloud workspace for the course.
+2025-09-11T00:00:00Z,1,Welcome & get ready for the course,Learners can use the Element chat to introduce themselves.
+2025-09-11T00:00:00Z,1,Welcome & get ready for the course,Learners can open an issue on GitHub and tag the course instructor.
+2025-09-11T00:00:00Z,1,Welcome & get ready for the course,Learners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub.
+2025-09-11T00:00:00Z,1,Welcome & get ready for the course,"Learners can identify four components of a Quarto file (YAML, code chunk, R code, markdown)."
+2025-09-18T00:00:00Z,2,Data science lifecycle & Exploratory data analysis using visualization,Learners can list the six elements of the data science lifecycle.
+2025-09-18T00:00:00Z,2,Data science lifecycle & Exploratory data analysis using visualization,Learners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.
+2025-09-18T00:00:00Z,2,Data science lifecycle & Exploratory data analysis using visualization,Learners can control the colour scaling applied to a plot using colour as an aesthetic mapping.
+2025-09-18T00:00:00Z,2,Data science lifecycle & Exploratory data analysis using visualization,"Learners can compare three different geoms (bar/col, histogram, point) and their use case."
+2025-09-25T00:00:00Z,3,Data transformation with dplyr,Learners can apply ten functions from the dplyr R Package to generate a subset of data for use in a table or plot.
+2025-10-02T00:00:00Z,4,Data import & Data organization in spreadsheets,Learners can import data from files in CSV and XLSX format located in sub-directories of the root directory.
+2025-10-02T00:00:00Z,4,Data import & Data organization in spreadsheets,Learners can explain the difference between the vector class character and the vector class factor.
+2025-10-02T00:00:00Z,4,Data import & Data organization in spreadsheets,"Learners can discuss the difference between unprocessed raw data, processed analysis-ready data, and data underlying a publication."
+2025-10-02T00:00:00Z,4,Data import & Data organization in spreadsheets,Learners can apply 12 principles for data organisation in spreadsheets to the layout of a provided dataset.
+2025-10-09T00:00:00Z,5,Conditions & Dates & Tables,Learners can apply functions from dplyr to change specific values of a variable in a dataframe.
+2025-10-09T00:00:00Z,5,Conditions & Dates & Tables,Learners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.
+2025-10-09T00:00:00Z,5,Conditions & Dates & Tables,Learners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.
+2025-10-16T00:00:00Z,6,Data types & Vectors & For Loops,Learners can identify different ways of accessing a vector from a dataframe
+2025-10-16T00:00:00Z,6,Data types & Vectors & For Loops,Learners can identify a for loop
+2025-10-16T00:00:00Z,6,Data types & Vectors & For Loops,Learners can list the four main atomic vector types in R.
+2025-10-23T00:00:00Z,7,Pivoting & joining data,Learners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.
+2025-10-23T00:00:00Z,7,Pivoting & joining data,Learners can apply functions from the dplyr R Package to join multiple data sets.
+2025-10-23T00:00:00Z,7,Pivoting & joining data,Learners can understand the relevance a data dictionary to describe variable names in a data set.
+2025-10-30T00:00:00Z,8,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can add literature references to Quarto files using the navigation menu of RStudio visual editor.
+2025-10-30T00:00:00Z,8,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can cross-reference figures and tables within an Quarto file.
+2025-10-30T00:00:00Z,8,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can use the GitHub pages service to publish a repository as a standalone website.
+2025-11-06T00:00:00Z,9,Bonus module: Use of AI for coding support,Learners are aware of the responsibility for using AI and critically and evaluating all its output.
+2025-11-06T00:00:00Z,9,Bonus module: Use of AI for coding support,Learners can explain the basics of AI and its potential for improving software development workflows.
+2025-11-06T00:00:00Z,9,Bonus module: Use of AI for coding support,Implement strategies to write and debug code using AI-based tools
+2025-11-13T00:00:00Z,10,Work on Capstone project,Learners can apply the skills obtained during the course to write a short data analysis project report.
+2025-11-20T00:00:00Z,10,Work on Capstone project,NA
+2025-11-27T00:00:00Z,11,Final submission date of Capstone project,NA
+2025-12-04T00:00:00Z,12,Graduation of openwashdata academy,Learners can find resources to continue their data science journey.
+2025-12-04T00:00:00Z,12,Graduation of openwashdata academy,Learners can identify where and how to contact the openwashdata team for support with data sharing.
+2025-12-04T00:00:00Z,12,Graduation of openwashdata academy,Learners can describe the skills and compentencies they have obtained in this course.

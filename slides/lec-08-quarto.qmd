@@ -2,7 +2,8 @@
 title: "{{< var md-08.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
-date: "2024-01-16"
+date-format: "MMM D, YYYY"
+date: "2025-10-30"
 format: 
   revealjs: 
     theme: slides.scss
@@ -50,7 +51,7 @@ You successfully complete the course and you  will receive a certificate of comp
 
 [hand in a complete capstone project report that uses a dataset of your choice by 13th February 2024]{.highlight-yellow}
 
-Required items: <https://ds4owd-001.github.io/website/project/>
+Required items: <{{< var course.site >}}/project/>
 
 This is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed.
 
@@ -59,7 +60,7 @@ This is the only requirement to successfully complete the course, independent of
 ```{r}
 #| label: learning-objectives
 #| echo: false
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-001-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
 
@@ -595,7 +596,7 @@ Photo by [Sincerely Media](https://unsplash.com/@sincerelymedia) on [unsplash.co
 ## Zotero setup guide
 
 - Not teaching how to use Zotero, but encourage you to learn and use it.
-- Prepared a setup guide: <https://ds4owd-001.github.io/website/guide/#zotero-reference-management>
+- Prepared a setup guide: <{{< var course.site >}}/guide/#zotero-reference-management>
 
 ## Scholarly Articles in Quarto
 
@@ -661,7 +662,7 @@ countdown(15)
 
 [Clone the repository from GitHub]{.highlight-yellow}
 
-1. Open github.com in your browser and navigate to the [GitHub organisation for the course](https://github.com/ds4owd-001/): <https://github.com/ds4owd-001/>.
+1. Open github.com in your browser and navigate to the [GitHub organisation for the course]({{< var course.github-org >}}): {{< var course.github-org >}}.
 2. Find the repository md-08-publish-USERNAME that [ends with your GitHub username]{.highlight-yellow}, and open it.
 3. Click on the green "Code" button.
 4. Copy the HTTPS URL to your clipboard.
@@ -696,7 +697,7 @@ knitr::include_graphics("img/lec-08/screenshot-gh-pages.png")
 ## Course Guide
 
 - Steps for publishing the capstone project report are described in course guide
-- <https://ds4owd-001.github.io/website/guide/#publish-to-github-pages>
+- <{{< var course.site >}}/guide/#publish-to-github-pages>
 
 ## Take a break
 
@@ -728,13 +729,13 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 - The submission due date is: [Tuesday, 13th February]{.highlight-yellow}.
 - You will need to work through Module 5 & Module 7 homework assignments to get started.
 - We will use the GitHub issue tracker to communicate and ask questions about the capstone project.
-- A list of required items for submission is covered on the course website: <https://ds4owd-001.github.io/website/project/>
+- A list of required items for submission is covered on the course website: <{{< var course.site >}}/project/>
 - If you require an extension, please reach to us via email: <ghe@mavt.ethz.ch>
 
 ## Your turn: Capstone project - Read and take notes
 
 ::: task
-1. Open: <https://ds4owd-001.github.io/website/project/>.
+1. Open: <{{< var course.site >}}/project/>.
 2. Read through the page.
 3. For the list in "Required items" note down the numbers of those that are unclear to you and why.
 4. After the time is up, you will join a break-out room and discuss the unclear items with your peers.
@@ -761,7 +762,7 @@ countdown(10)
 
 ::: task
 
-1. Open this repository: <https://github.com/ds4owd-001/project>.
+1. Open this repository: <{{< var course.github-org >}}/project>.
 2. Add your questions for unclear items to the issue tracker as described.
 
 :::
@@ -816,4 +817,4 @@ Content was re-used from a workshop hosted by [Mine Çetinkaya-Rundel](https://m
 
 ## Thanks! `r emo::ji("sunflower")`
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub](https://github.com/ds4owd-001/website/raw/main/slides/lec-08-quarto.pdf)
+Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-08-quarto.pdf)

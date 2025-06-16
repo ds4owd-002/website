@@ -155,7 +155,7 @@ knitr::include_graphics("images/screenshot-autopin-value-2.png")
 
 ### Navigate to your repository
 
-1. Open github.com in your browser and navigate to the GitHub organisation for the course: <https://github.com/ds4owd-001>.
+1. Open github.com in your browser and navigate to the GitHub organisation for the course: <https://github.com/ds4owd-002>.
 
 ```{r}
 knitr::include_graphics("images/gh-pages-01-gh-org.png")
