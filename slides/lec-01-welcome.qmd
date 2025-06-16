@@ -38,7 +38,7 @@ While we are getting ready, please check for this email from GitHub and [accept 
 ## Meet the team
 
 ::: columns
-::: {.column width="33%"}
+::: {.column width="50%"}
 **Lars Schöbitz**
 
 ![](img/lec-01/profile-lars.png){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
@@ -48,24 +48,17 @@ While we are getting ready, please check for this email from GitHub and [accept 
 -   [RStudio certified instructor](https://education.rstudio.com/trainers/)
 :::
 
-::: {.column width="33%"}
-**Mian Zhong**
+::: {.column width="50%"}
+**Adriana Clavijo**
 
-![](img/lec-01/profile-mian.png){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
+![](img/lec-01/profile-adriana.jpg){fig-alt="Headshot of Adriana Clavijo" fig-align="center"}
 
 -   Data Scientist
--   Advocate for data for social good
-:::
-
-::: {.column width="33%"}
-**Sophia Skorik**
-
-![](img/lec-01/profile-sophia.jpg){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
-
--   Computer Scientist
--   Technical support for the course
+-   Spanish language support
 :::
 :::
+
+
 
 ## Learning Goals (for the course)
 
@@ -283,7 +276,7 @@ Sit back and enjoy!
 :::
 
 ::: speaker-notes
-https://posit.cloud/spaces/426916/join?access_code=BcLC_jGc-2UB6QDLuV09M8zCyaT6xvY2HjM6CNs3
+{{< var platforms.posit-cloud >}}/{{< var platforms.posit-cloud-access >}}
 :::
 
 ```{r}

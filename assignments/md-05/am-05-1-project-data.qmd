@@ -37,7 +37,7 @@ If you do not have a dataset, you can use the following resources for inspriatio
 
 ## Step 2: Create a new repository on GitHub & clone to Posit Cloud
 
-1. Open the GitHub Organisation for the course <https://github.com/ds4owd-002>
+1. Open the GitHub Organisation for the course <{{< var course.github-org >}}>
 2. To right of the field ["Find a repository"]{.highlight-yellow}, click on the green ["New"]{.highlight-yellow} button.
 
 ```{r}

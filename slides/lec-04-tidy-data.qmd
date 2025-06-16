@@ -324,7 +324,7 @@ survey_data_small |>
 ## live-05a-vectors
 
 1. Head over to posit.cloud
-2. Open the workspace for the course [(cven5837-ss23)](https://posit.cloud/spaces/381404/content/all?sort=name_asc)
+2. Open the workspace for the course [{{< var course.iteration >}}]({{< var platforms.posit-cloud >}}/content/all?sort=name_asc)
 3. Open your "course-materials" project
 4. Follow along with me
 
@@ -577,7 +577,7 @@ ggplot(data = waste_data_tidy,
 ## live-05a-tidyr-pivoting
 
 1. Head over to posit.cloud
-2. Open the workspace for the course [(cven5837-ss23)](https://posit.cloud/spaces/381404/content/all?sort=name_asc)
+2. Open the workspace for the course [{{< var course.iteration >}}]({{< var platforms.posit-cloud >}}/content/all?sort=name_asc)
 3. Open your "course-materials" project
 4. Follow along with me
 
@@ -586,7 +586,7 @@ ggplot(data = waste_data_tidy,
 
 ## Homework due dates
 
--   All material on [course website](https://cven5873-ss23.github.io/website/weeks/wk-05.html)
+-   All material on [course website]({{< var course.site >}})
 -   Homework assignment & learning reflection due: **Friday, 7th July**
 
 # Thanks! `r emo::ji("sunflower")` {background-color="#0F4C81"}
