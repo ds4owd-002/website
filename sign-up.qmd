@@ -6,7 +6,7 @@ execute:
   warning: false
 ---
 
-Thank you for your interest in this course. Your course instructors: [Lars Schöbitz](https://openwashdata.org/about/lars/) & [Mian Zhong](https://openwashdata.org/about/mian/) & [Sophia Skorik](https://openwashdata.org/about/sophia/) are looking forward to meet you. 
+Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meet you. 
 
 We will meet on Zoom for 10 modules over 15 weeks at the following times: 
 

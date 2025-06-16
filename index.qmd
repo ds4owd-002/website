@@ -6,12 +6,12 @@ execute:
   warning: false
 ---
 
-Thank you for your interest in this course. Your course instructors: [Lars Schöbitz](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meet you.
+Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meet you.
 
-We will meet on Zoom for 10 modules over X weeks (see Course Calendar below) at the following times:
+We will meet on Zoom for 10 modules over 12 weeks (see Course Calendar below) at the following times:
 
--   **Start:** 31st October 2023 - 2 pm to 4:30 pm CET
--   **End:** 20th February 2024 - 2 pm to 4:30 pm CET
+-   **Start:** 11th September 2025 - 2 pm to 4:30 pm CET
+-   **End:** 4th December 2025 - 2 pm to 4:30 pm CET
 
 We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course start.
 
