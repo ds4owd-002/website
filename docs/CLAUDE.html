@@ -8,7 +8,7 @@
 
 <meta name="author" content="Lars Schöbitz">
 
-<title>Guide – data science for openwashdata</title>
+<title>claude – data science for openwashdata</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,22 +21,55 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../calendar.html" rel="prev">
-<link href="../img/OWD-logo-18.png" rel="icon" type="image/png">
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="./img/OWD-logo-18.png" rel="icon" type="image/png">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -55,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
 <script defer="" data-domain="ds4owd-001.github.io/website" src="https://plausible.io/js/script.js"></script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -67,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../guide/index.html">Guide</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -81,8 +114,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/OWD-logo-20.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./img/OWD-logo-20.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/ds4owd-001" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -97,26 +130,26 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../calendar.html" class="sidebar-item-text sidebar-link">
+  <a href="./calendar.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Calendar</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guide/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./guide/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guide</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-01.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 01</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -125,19 +158,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-1-posit.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-01/am-01-1-posit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Posit Cloud</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-2-element.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-01/am-01-2-element.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Element</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-3-github.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-01/am-01-3-github.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-03: GitHub</span></a>
   </div>
 </li>
@@ -145,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-02.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 02</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -154,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-02/am-02-1-data-visualisation.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-02/am-02-1-data-visualisation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Data visualization</span></a>
   </div>
 </li>
@@ -162,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-03.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 03</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -171,13 +204,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-1-data-transformation.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-03/am-03-1-data-transformation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Data transformation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-2-spreadsheet.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-03/am-03-2-spreadsheet.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Spreadsheet</span></a>
   </div>
 </li>
@@ -185,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-04.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 04</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -194,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-04/am-04-1-reading.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-04/am-04-1-reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Data organization</span></a>
   </div>
 </li>
@@ -202,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-05.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 05</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -211,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Project data</span></a>
   </div>
 </li>
@@ -219,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-06.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 06</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -228,13 +261,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-06/am-06-1-reading.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-06/am-06-1-reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Good enough practices</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Project data</span></a>
   </div>
 </li>
@@ -242,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-07.html" class="sidebar-item-text sidebar-link">
+            <a href="./modules/md-07.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 07</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -251,13 +284,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-07/am-07-1-pivoting.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-07/am-07-1-pivoting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Pivot data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-07/am-07-2-project-metadata.html" class="sidebar-item-text sidebar-link">
+  <a href="./assignments/md-07/am-07-2-project-metadata.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Capstone project</span></a>
   </div>
 </li>
@@ -265,20 +298,20 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-08.html" class="sidebar-item-text sidebar-link">
+  <a href="./modules/md-08.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 08</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-09.html" class="sidebar-item-text sidebar-link">
+  <a href="./modules/md-09.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 09</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project/index.html" class="sidebar-item-text sidebar-link">
+  <a href="./project/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Capstone project</span></a>
   </div>
 </li>
@@ -292,21 +325,40 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#switch-pipe-operator" id="toc-switch-pipe-operator" class="nav-link active" data-scroll-target="#switch-pipe-operator"><span class="header-section-number">1</span> Switch pipe operator</a></li>
-  <li><a href="#zotero-reference-management" id="toc-zotero-reference-management" class="nav-link" data-scroll-target="#zotero-reference-management"><span class="header-section-number">2</span> Zotero reference management</a>
+  <li><a href="#claude.md" id="toc-claude.md" class="nav-link active" data-scroll-target="#claude.md">CLAUDE.md</a>
   <ul class="collapse">
-  <li><a href="#get-zotero-account" id="toc-get-zotero-account" class="nav-link" data-scroll-target="#get-zotero-account"><span class="header-section-number">2.1</span> Get Zotero account</a></li>
-  <li><a href="#install-zotero-desktop-client" id="toc-install-zotero-desktop-client" class="nav-link" data-scroll-target="#install-zotero-desktop-client"><span class="header-section-number">2.2</span> Install Zotero desktop client</a></li>
-  <li><a href="#install-the-zotero-connector-for-your-browser" id="toc-install-the-zotero-connector-for-your-browser" class="nav-link" data-scroll-target="#install-the-zotero-connector-for-your-browser"><span class="header-section-number">2.3</span> Install the Zotero Connector for your browser</a></li>
-  <li><a href="#setup-add-ons-and-the-citation-key-format" id="toc-setup-add-ons-and-the-citation-key-format" class="nav-link" data-scroll-target="#setup-add-ons-and-the-citation-key-format"><span class="header-section-number">2.4</span> Setup Add-ons and the citation key format</a></li>
-  <li><a href="#change-the-setting-for-the-citekey-autopin-delay" id="toc-change-the-setting-for-the-citekey-autopin-delay" class="nav-link" data-scroll-target="#change-the-setting-for-the-citekey-autopin-delay"><span class="header-section-number">2.5</span> Change the setting for the citekey autopin delay</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#common-development-commands" id="toc-common-development-commands" class="nav-link" data-scroll-target="#common-development-commands">Common Development Commands</a>
+  <ul class="collapse">
+  <li><a href="#quarto-website-development" id="toc-quarto-website-development" class="nav-link" data-scroll-target="#quarto-website-development">Quarto Website Development</a></li>
+  <li><a href="#node.js-dependencies" id="toc-node.js-dependencies" class="nav-link" data-scroll-target="#node.js-dependencies">Node.js Dependencies</a></li>
   </ul></li>
-  <li><a href="#publish-to-github-pages" id="toc-publish-to-github-pages" class="nav-link" data-scroll-target="#publish-to-github-pages"><span class="header-section-number">3</span> Publish to GitHub Pages</a>
+  <li><a href="#architecture-and-key-patterns" id="toc-architecture-and-key-patterns" class="nav-link" data-scroll-target="#architecture-and-key-patterns">Architecture and Key Patterns</a>
   <ul class="collapse">
-  <li><a href="#navigate-to-your-repository" id="toc-navigate-to-your-repository" class="nav-link" data-scroll-target="#navigate-to-your-repository"><span class="header-section-number">3.1</span> Navigate to your repository</a></li>
-  <li><a href="#make-repo-public" id="toc-make-repo-public" class="nav-link" data-scroll-target="#make-repo-public"><span class="header-section-number">3.2</span> Make repo public</a></li>
-  <li><a href="#publish-with-github-pages" id="toc-publish-with-github-pages" class="nav-link" data-scroll-target="#publish-with-github-pages"><span class="header-section-number">3.3</span> Publish with GitHub Pages</a></li>
-  <li><a href="#edit-about-of-repository" id="toc-edit-about-of-repository" class="nav-link" data-scroll-target="#edit-about-of-repository"><span class="header-section-number">3.4</span> Edit “About” of repository</a></li>
+  <li><a href="#website-structure" id="toc-website-structure" class="nav-link" data-scroll-target="#website-structure">Website Structure</a></li>
+  <li><a href="#content-organization" id="toc-content-organization" class="nav-link" data-scroll-target="#content-organization">Content Organization</a></li>
+  <li><a href="#navigation-system" id="toc-navigation-system" class="nav-link" data-scroll-target="#navigation-system">Navigation System</a></li>
+  </ul></li>
+  <li><a href="#key-configuration-files" id="toc-key-configuration-files" class="nav-link" data-scroll-target="#key-configuration-files">Key Configuration Files</a>
+  <ul class="collapse">
+  <li><a href="#quarto.yml" id="toc-quarto.yml" class="nav-link" data-scroll-target="#quarto.yml"><code>_quarto.yml</code></a></li>
+  <li><a href="#variables.yml" id="toc-variables.yml" class="nav-link" data-scroll-target="#variables.yml"><code>_variables.yml</code></a></li>
+  <li><a href="#content-standards" id="toc-content-standards" class="nav-link" data-scroll-target="#content-standards">Content Standards</a></li>
+  </ul></li>
+  <li><a href="#deployment-architecture" id="toc-deployment-architecture" class="nav-link" data-scroll-target="#deployment-architecture">Deployment Architecture</a>
+  <ul class="collapse">
+  <li><a href="#github-pages-integration" id="toc-github-pages-integration" class="nav-link" data-scroll-target="#github-pages-integration">GitHub Pages Integration</a></li>
+  <li><a href="#course-infrastructure" id="toc-course-infrastructure" class="nav-link" data-scroll-target="#course-infrastructure">Course Infrastructure</a></li>
+  </ul></li>
+  <li><a href="#file-naming-conventions" id="toc-file-naming-conventions" class="nav-link" data-scroll-target="#file-naming-conventions">File Naming Conventions</a>
+  <ul class="collapse">
+  <li><a href="#content-files" id="toc-content-files" class="nav-link" data-scroll-target="#content-files">Content Files</a></li>
+  <li><a href="#data-organization" id="toc-data-organization" class="nav-link" data-scroll-target="#data-organization">Data Organization</a></li>
+  </ul></li>
+  <li><a href="#development-workflow" id="toc-development-workflow" class="nav-link" data-scroll-target="#development-workflow">Development Workflow</a></li>
+  <li><a href="#course-timeline-ds4owd-002" id="toc-course-timeline-ds4owd-002" class="nav-link" data-scroll-target="#course-timeline-ds4owd-002">Course Timeline (ds4owd-002)</a></li>
+  <li><a href="#project-management-with-github-cli" id="toc-project-management-with-github-cli" class="nav-link" data-scroll-target="#project-management-with-github-cli">Project Management with GitHub CLI</a></li>
+  <li><a href="#code-style-guidelines" id="toc-code-style-guidelines" class="nav-link" data-scroll-target="#code-style-guidelines">Code Style Guidelines</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -316,7 +368,6 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Guide</h1>
 </div>
 
 
@@ -346,474 +397,180 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can settings that need to be made or tips that we communicate during the live sessions.</p>
-<p>If you have a request, let us know and we will add guidance here.</p>
-<section id="switch-pipe-operator" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="switch-pipe-operator"><span class="header-section-number">1</span> Switch pipe operator</h2>
-<p>By default, R uses <code>%&gt;%</code> as the pipe operator from the <code>magrittr</code> package. Since R 4.1.0, the pipe operator is also available as <code>|&gt;</code> without loading any packages. The <code>|&gt;</code> operator is recommended to be used instead of <code>%&gt;%</code>.</p>
-<p>To switch to the native pipe operator, follow these steps:</p>
-<ol type="1">
-<li>Open your project on Posit Cloud</li>
-<li>On the menu bar of RStudio, click on <code>Tools</code> &gt; <code>Global Options...</code> (see <a href="#fig-global-options" class="quarto-xref">Figure&nbsp;1</a>)</li>
-<li>On the left panel, click on <code>Code</code></li>
-<li>On the right panel, select the 4th check-box from the top next to ’Use native pipe operator, |&gt; (requires R 4.1+) (see <a href="#fig-native-pipe" class="quarto-xref">Figure&nbsp;2</a>)</li>
-<li>Click on <code>Apply</code> and <code>OK</code></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-global-options" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-global-options-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/rstudio-tools-global-options.png" class="img-fluid figure-img" style="width:75.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-global-options-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: RStudio Global Options
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-native-pipe" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-native-pipe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/rstudio-code-native-pipe.png" class="img-fluid figure-img" style="width:75.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-native-pipe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: RStudio Code Options
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<section id="claude.md" class="level1">
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This is the <strong>website</strong> for the ds4owd-002 course iteration - the second offering of “Data Science for OpenWashData”. This Quarto-based educational website contains 9 progressive modules teaching data science using R with a focus on WASH (Water, Sanitation, Hygiene) data analysis.</p>
 </section>
-<section id="zotero-reference-management" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="zotero-reference-management"><span class="header-section-number">2</span> Zotero reference management</h2>
-<p>We recommend using Zotero as a tool for reference management, but do not teach how to use it in this course. The guidance below will support you in setting up Zotero.</p>
-<section id="get-zotero-account" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="get-zotero-account"><span class="header-section-number">2.1</span> Get Zotero account</h3>
-<ol type="1">
-<li>Open <a href="https://www.zotero.org/user/login/" class="uri">https://www.zotero.org/user/login/</a></li>
-<li>Click on Register for a free account</li>
-<li>Chose username, email, and password</li>
-<li>Click Register</li>
-<li>Open your email and verify your account</li>
-</ol>
+<section id="common-development-commands" class="level2">
+<h2 class="anchored" data-anchor-id="common-development-commands">Common Development Commands</h2>
+<section id="quarto-website-development" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-website-development">Quarto Website Development</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Render entire website</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview website with live reload  </span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Render specific document</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render filename.qmd</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and serve (alternative preview)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview <span class="at">--serve</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="install-zotero-desktop-client" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="install-zotero-desktop-client"><span class="header-section-number">2.2</span> Install Zotero desktop client</h3>
-<ol type="1">
-<li>Open <a href="https://www.zotero.org/download/" class="uri">https://www.zotero.org/download/</a></li>
-<li>Download Zotero for your operating system</li>
-<li>Install Zotero</li>
-<li>Log in to your Zotero account by opening <strong>Settings -&gt; Sync</strong> and typing the Username and Password you have previously set up</li>
-<li>Click on the green refresh button in the top-right corner of the Zotero window</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-zotero-desktop-client-refresh.png" class="img-fluid figure-img" width="962"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="node.js-dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="node.js-dependencies">Node.js Dependencies</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies (for Puppeteer PDF generation)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Update dependencies</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> update</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="install-the-zotero-connector-for-your-browser" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="install-the-zotero-connector-for-your-browser"><span class="header-section-number">2.3</span> Install the Zotero Connector for your browser</h3>
-<ol type="1">
-<li>Open <a href="https://www.zotero.org/download/" class="uri">https://www.zotero.org/download/</a></li>
-<li>Download the Zotero Connector for your browser</li>
-<li>Install the Zotero Connector</li>
-<li>Log in to your Zotero account</li>
-</ol>
 </section>
-<section id="setup-add-ons-and-the-citation-key-format" class="level3" data-number="2.4">
-<h3 data-number="2.4" class="anchored" data-anchor-id="setup-add-ons-and-the-citation-key-format"><span class="header-section-number">2.4</span> Setup Add-ons and the citation key format</h3>
-<ol type="1">
-<li>Go to <a href="https://retorque.re/zotero-better-bibtex/installation/" class="uri">https://retorque.re/zotero-better-bibtex/installation/</a></li>
-<li>Click on the latest release so you are redirected to github</li>
-<li>Find the .xpi file and right-click it. Click on <strong>Save Link As…</strong> and choose your location for saving the file.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-zotero-better-bibtex-addon.png" class="img-fluid figure-img" width="640"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="4" type="1">
-<li>Open <strong>Zotero</strong> -&gt; <strong>Tools</strong> -&gt; <strong>Add-ons</strong> -&gt; (Gear icon) -&gt; <strong>Install Add-on From File…</strong> -&gt; choose the .xpi file you have just saved</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-install-betterbibtex-addon.png" class="img-fluid figure-img" width="510"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="5" type="1">
-<li>Restart Zotero</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-restart-now.png" class="img-fluid figure-img" width="510"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="6" type="1">
-<li><p>Wait until the database fully loads. Only the first time is long; the next interactions with Zotero will be much faster.</p></li>
-<li><p>You may need to restart Zotero the second time. Please do so if you see a prompt after Better BibTeX is installed.</p></li>
-<li><p>Go to <strong>Zotero</strong> -&gt; <strong>Settings</strong> -&gt; <strong>Export</strong> -&gt; <strong>Default Format</strong> and change the default format to <strong>Better BibTeX Quick Copy: </strong></p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-install-betterbibtex-addon.png" class="img-fluid figure-img" width="510"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="9" type="1">
-<li>In the same setting window, go to <strong>Better BibTeX</strong> -&gt; <strong>Open Better BibTeX preferences…</strong></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-betterbibtex-preferences.png" class="img-fluid figure-img" width="311"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="10" type="1">
-<li>In the <strong>Citation keys</strong> tab, use the following Citation key formula for Better BibTeX: <code>[auth:lower][year][veryshorttitle1_0:lower]</code></li>
-</ol>
-<p>The line above means that the citation key will be build from:</p>
+<section id="architecture-and-key-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="architecture-and-key-patterns">Architecture and Key Patterns</h2>
+<section id="website-structure" class="level3">
+<h3 class="anchored" data-anchor-id="website-structure">Website Structure</h3>
 <ul>
-<li>First author’s last name in lowercase</li>
-<li>publication year</li>
-<li>The first word from the title in lowercase, not including the connectors such as “the” or “a”</li>
+<li><strong>Quarto project</strong> with configuration in <code>_quarto.yml</code></li>
+<li><strong>Course variables</strong> centralized in <code>_variables.yml</code> for easy updates</li>
+<li><strong>Modular content</strong> organized by progressive modules (md-01 through md-09)</li>
+<li><strong>Assignment integration</strong> with individual assignment pages per module</li>
+<li><strong>Responsive design</strong> using custom <code>theme.scss</code> and <code>styles.css</code></li>
 </ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-citation-keys.png" class="img-fluid figure-img" width="353"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="11" type="1">
-<li>Go to <strong>Export</strong> -&gt; <strong>Quick-Copy</strong> in the Better BibTeX preferences. Select <strong>Pandoc citation</strong>.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-pandoc-citation.png" class="img-fluid figure-img" width="963"></p>
-</figure>
-</div>
-</div>
-</div>
 </section>
-<section id="change-the-setting-for-the-citekey-autopin-delay" class="level3" data-number="2.5">
-<h3 data-number="2.5" class="anchored" data-anchor-id="change-the-setting-for-the-citekey-autopin-delay"><span class="header-section-number">2.5</span> Change the setting for the citekey autopin delay</h3>
+<section id="content-organization" class="level3">
+<h3 class="anchored" data-anchor-id="content-organization">Content Organization</h3>
+<ul>
+<li><strong><code>modules/</code></strong> - Core learning modules with progressive skill building</li>
+<li><strong><code>assignments/</code></strong> - Structured by module (<code>md-XX/</code>) with individual assignment files</li>
+<li><strong><code>slides/</code></strong> - Lecture presentations with reveal.js format</li>
+<li><strong><code>guide/</code></strong> - Setup and configuration instructions</li>
+<li><strong><code>project/</code></strong> - Capstone project documentation</li>
+<li><strong><code>img/</code></strong> - Course assets and diagrams</li>
+</ul>
+</section>
+<section id="navigation-system" class="level3">
+<h3 class="anchored" data-anchor-id="navigation-system">Navigation System</h3>
+<ul>
+<li><strong>Sidebar navigation</strong> configured in <code>_quarto.yml</code> with collapsible sections</li>
+<li><strong>Progressive disclosure</strong> - modules unlock sequentially</li>
+<li><strong>Assignment tracking</strong> integrated into module structure</li>
+<li><strong>GitHub integration</strong> links to course organization</li>
+</ul>
+</section>
+</section>
+<section id="key-configuration-files" class="level2">
+<h2 class="anchored" data-anchor-id="key-configuration-files">Key Configuration Files</h2>
+<section id="quarto.yml" class="level3">
+<h3 class="anchored" data-anchor-id="quarto.yml"><code>_quarto.yml</code></h3>
+<ul>
+<li>Website metadata and navigation structure</li>
+<li>Theme configuration (Litera + custom SCSS)</li>
+<li>Output directory settings (<code>docs/</code> for GitHub Pages)</li>
+<li>Analytics integration (Plausible)</li>
+</ul>
+</section>
+<section id="variables.yml" class="level3">
+<h3 class="anchored" data-anchor-id="variables.yml"><code>_variables.yml</code></h3>
+<ul>
+<li>Course iteration details (ds4owd-002)</li>
+<li>Module dates and titles (2025-09-11 to 2025-12-04)</li>
+<li>Platform URLs (Posit Cloud, GitHub organization)</li>
+<li>Instructor information</li>
+</ul>
+</section>
+<section id="content-standards" class="level3">
+<h3 class="anchored" data-anchor-id="content-standards">Content Standards</h3>
+<ul>
+<li><strong>Module naming</strong>: <code>md-XX-</code> prefix for sequential organization</li>
+<li><strong>Assignment naming</strong>: <code>am-XX-N-topic</code> for module assignments</li>
+<li><strong>Date formatting</strong>: ISO format (YYYY-MM-DD) in variables</li>
+<li><strong>Quarto execution</strong>: Freeze mode for reproducible builds</li>
+</ul>
+</section>
+</section>
+<section id="deployment-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-architecture">Deployment Architecture</h2>
+<section id="github-pages-integration" class="level3">
+<h3 class="anchored" data-anchor-id="github-pages-integration">GitHub Pages Integration</h3>
+<ul>
+<li><strong>Output directory</strong>: <code>docs/</code> (configured in <code>_quarto.yml</code>)</li>
+<li><strong>Freeze execution</strong>: Cached outputs in <code>_freeze/</code> directory</li>
+<li><strong>Site URL</strong>: <code>https://ds4owd-002.github.io/website/</code></li>
+<li><strong>Repository</strong>: Links to ds4owd-002 GitHub organization</li>
+</ul>
+</section>
+<section id="course-infrastructure" class="level3">
+<h3 class="anchored" data-anchor-id="course-infrastructure">Course Infrastructure</h3>
+<ul>
+<li><strong>Posit Cloud workspace</strong>: Centralized R environment for students</li>
+<li><strong>GitHub Classroom</strong>: Assignment distribution and collection</li>
+<li><strong>Matrix chat</strong>: Course communication platform</li>
+<li><strong>Plausible analytics</strong>: Privacy-focused website tracking</li>
+</ul>
+</section>
+</section>
+<section id="file-naming-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="file-naming-conventions">File Naming Conventions</h2>
+<section id="content-files" class="level3">
+<h3 class="anchored" data-anchor-id="content-files">Content Files</h3>
+<ul>
+<li><code>md-XX.qmd</code> - Module overview pages</li>
+<li><code>am-XX-N-topic.qmd</code> - Assignment files (N = assignment number)</li>
+<li><code>lec-XX-topic.qmd</code> - Lecture slides</li>
+<li>Complete solutions use <code>-complete</code> suffix</li>
+</ul>
+</section>
+<section id="data-organization" class="level3">
+<h3 class="anchored" data-anchor-id="data-organization">Data Organization</h3>
+<ul>
+<li>Course schedule: <code>tbl-01-ds4owd-002-course-schedule.csv</code></li>
+<li>Learning objectives: <code>tbl-02-ds4owd-002-learning-objectives.csv</code></li>
+<li>Project elements: <code>tbl-03-ds4owd-002-capstone-project-elements</code></li>
+</ul>
+</section>
+</section>
+<section id="development-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="development-workflow">Development Workflow</h2>
+<p>When working with this website:</p>
 <ol type="1">
-<li>Open Zotero advanced preferences (<strong>Zotero</strong> -&gt; <strong>Settings</strong> -&gt; <strong>Advanced</strong>)</li>
-<li>Open the <strong>Config Editor</strong> under the <strong>Advanced Configuration</strong> section</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-advanced-config.png" class="img-fluid figure-img" width="308"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>Click <strong>I accept the risk!</strong></li>
-<li>In the search bar, search for <strong>autopin</strong></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-autopin.png" class="img-fluid figure-img" width="508"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="5" type="1">
-<li>Double-click into the field under <strong>Value</strong></li>
-<li>In the new window called <strong>Enter integer value</strong>, change the existing <strong>0</strong> to <strong>2</strong></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/screenshot-autopin-value-2.png" class="img-fluid figure-img" width="508"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="7" type="1">
-<li>Click <strong>OK</strong></li>
-<li>Close all setting windows</li>
+<li><strong>Content updates</strong>: Modify <code>.qmd</code> files and render to test</li>
+<li><strong>Variable changes</strong>: Update <code>_variables.yml</code> for course-wide changes</li>
+<li><strong>Navigation changes</strong>: Modify <code>_quarto.yml</code> sidebar structure</li>
+<li><strong>Styling</strong>: Edit <code>theme.scss</code> or <code>styles.css</code> for visual changes</li>
+<li><strong>Testing</strong>: Use <code>quarto preview</code> for live development</li>
+<li><strong>Deployment</strong>: Render creates <code>docs/</code> for GitHub Pages</li>
 </ol>
 </section>
+<section id="course-timeline-ds4owd-002" class="level2">
+<h2 class="anchored" data-anchor-id="course-timeline-ds4owd-002">Course Timeline (ds4owd-002)</h2>
+<p>The course runs from September 2025 to December 2025: - Module 01-09: Weekly sessions (Sep 11 - Nov 6) - Module 10: Graduation event (Dec 4) - Platform: Posit Cloud workspace with GitHub integration</p>
+<p>When modifying content, ensure consistency with the established module progression and maintain the educational scaffolding across the 9-week curriculum.</p>
 </section>
-<section id="publish-to-github-pages" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="publish-to-github-pages"><span class="header-section-number">3</span> Publish to GitHub Pages</h2>
-<section id="navigate-to-your-repository" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="navigate-to-your-repository"><span class="header-section-number">3.1</span> Navigate to your repository</h3>
-<ol type="1">
-<li>Open github.com in your browser and navigate to the GitHub organisation for the course: &lt;https://github.com/ds4owd-002&gt;.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-01-gh-org.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="2" type="1">
-<li>Use the search field under “Repositories” to find your capstone project repository.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-02-search-repo.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>Open your capstone project repository.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-03-open-repo.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="project-management-with-github-cli" class="level2">
+<h2 class="anchored" data-anchor-id="project-management-with-github-cli">Project Management with GitHub CLI</h2>
+<ul>
+<li>Commit to <code>dev</code>, create branches from <code>dev</code> for issues</li>
+<li>List issues: <code>gh issue list</code></li>
+<li>View issue details: <code>gh issue view 80</code> (e.g., for issue #80 “Rename geographies parameter”)</li>
+<li>Create branch for issue: <code>gh issue develop 80</code></li>
+<li>Checkout branch: <code>git checkout 80-rename-geographies-parameter-to-entities</code></li>
+<li>Create pull request: <code>gh pr create --title "Rename geographies parameter to entities" --body "Implements #80"</code></li>
+<li>List pull requests: <code>gh pr list</code></li>
+<li>View pull request: <code>gh pr view PR_NUMBER</code></li>
+</ul>
 </section>
-<section id="make-repo-public" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="make-repo-public"><span class="header-section-number">3.2</span> Make repo public</h3>
-<p>If your repository’s visibility is set to “private” (indicated by a small padlock next to the repositories name), you first need to switch it to “public” by following these steps:</p>
-<ol type="1">
-<li>Click on “Settings”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-04-settings.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="2" type="1">
-<li>Stay on “General” and scroll down to the bottom of the page “Danger Zone”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-05-general.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>On the first sub-heading “Change repository visibility”, click “Change visibility”, then “Change to public”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-06-danger-zone.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="4" type="1">
-<li>Click “I want to make this repository public”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-07-public.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="5" type="1">
-<li>Click “I have read and understand these effects”.</li>
-<li>Click “Make this repository public”.</li>
-<li>Provide the requested credentials.</li>
-<li>Done.</li>
-</ol>
-</section>
-<section id="publish-with-github-pages" class="level3" data-number="3.3">
-<h3 data-number="3.3" class="anchored" data-anchor-id="publish-with-github-pages"><span class="header-section-number">3.3</span> Publish with GitHub Pages</h3>
-<ol type="1">
-<li>Open your capstone project repository, and click on “Settings”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-04-settings.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="2" type="1">
-<li>In the left navigation pane, click on “Pages” under “Code and automation”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-08-automation.png" class="img-fluid figure-img" width="514"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>Under “Build and deployment”, then under Branch, click the dropdown titled “None”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-09-dropdown.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="4" type="1">
-<li>In the dropdown, select “main”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-10-dropdown-main.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="5" type="1">
-<li>Click on the dropdown titled “/ (root)”. In the dropdown, select “/docs”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-11-root.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="6" type="1">
-<li>Click “Save”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-12-save.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="edit-about-of-repository" class="level3" data-number="3.4">
-<h3 data-number="3.4" class="anchored" data-anchor-id="edit-about-of-repository"><span class="header-section-number">3.4</span> Edit “About” of repository</h3>
-<ol type="1">
-<li>Open your capstone project repository.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-13-gear.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="2" type="1">
-<li>On right side, next to “About”, click on the gear icon.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-13-gear-click.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>Under “Description” you can add “This project report was prepared for the data science for openwashdata course.” or anything else that you would like to highlight.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-14-description.png" class="img-fluid figure-img" width="506"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="4" type="1">
-<li>Under “Website”, click “User your GitHub Pages website”.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-15-website.png" class="img-fluid figure-img" width="484"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="5" type="1">
-<li><p>Under “Include in the home page”, you can remove the checked boxes.</p></li>
-<li><p>Click “Save changes”.</p></li>
-<li><p>The public URL of your repository will now be shown under “About” on the right side.</p></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/gh-pages-17-about.png" class="img-fluid figure-img" width="502"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="8" type="1">
-<li>Open your published website and enjoy.</li>
-</ol>
+<section id="code-style-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="code-style-guidelines">Code Style Guidelines</h2>
+<ul>
+<li>Use 2 spaces for indentation (no tabs)</li>
+<li>Maximum 80 characters per line</li>
+<li>Use tidyverse style for R code (<code>dplyr</code>, <code>tidyr</code>, <code>purrr</code>)</li>
+<li>Use snake_case for function and variable names</li>
+</ul>
 
 
 </section>
@@ -1240,15 +997,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../calendar.html" class="pagination-link" aria-label="Course Calendar">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Course Calendar</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1261,7 +1009,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../code_of_conduct.html">
+    <a class="nav-link" href="./code_of_conduct.html">
 <p>Code of Conduct</p>
 </a>
   </li>  
