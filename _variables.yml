@@ -4,51 +4,57 @@ department: "Global Health Engineering"
 
 course:
   code: "ds4owd"
+  iteration: "ds4owd-002"
   short-title: "ds4owd"
   long-title: "ds4owd - data science for openwashdata"
   site: "https://ds4owd-002.github.io/website/"
   site-short: "ds4owd-002.github.io/website/"
   github-org: "https://github.com/ds4owd-002"
+  
+platforms:
+  posit-cloud: "https://posit.cloud/spaces/663318"
+  posit-cloud-access: "join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu"
+  pre-course-survey: "TODO"
 
 md-01:
   title: "Welcome & get ready for the course"
-  date: "2025-09-21"
+  date: "2025-09-11"
 
 md-02:
   title: "Data science lifecycle & Exploratory data analysis using visualization"
-  date: "2025-09-28"
+  date: "2025-09-18"
   
 md-03:
   title: "Data transformation with dplyr"
-  date: "2025-10-05"
+  date: "2025-09-25"
   
 md-04:
   title: "Data import & Data organization in spreadsheets"
-  date: "2025-10-12"
+  date: "2025-10-02"
   
 md-05:
   title: "Conditions & Dates & Tables"
-  date: "2025-10-19"
+  date: "2025-10-09"
   
 md-06:
   title: "Data types & Vectors & For Loops"
-  date: "2025-10-26"
+  date: "2025-10-16"
   
 md-07:
   title: "Pivoting & Joining & Metadata"
-  date: "2025-11-02"
+  date: "2025-10-23"
   
 md-08:
   title: "Creating and publishing scholarly articles with Quarto and GitHub pages"
-  date: "2025-11-09"
+  date: "2025-10-30"
 
 md-09:
   title: "Bonus module: Use of AI for coding support"
-  date: "2025-11-16"
+  date: "2025-11-06"
 
 md-10:
   title: "Graduation of openwashdata academy"
-  date: "2025-12-14"
+  date: "2025-12-04"
   
   
   

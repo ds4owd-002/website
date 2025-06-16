@@ -1,7 +1,7 @@
 ---
 title: "Module 4 - Assignment 1"
 subtitle: "Data organization in spreadsheets"
-bibliography: "../../ds4owd-001.bib"
+bibliography: "../../ds4owd-002.bib"
 ---
 
 This course introduces learners to tools and workflows for data science with R. Learners are also introduced to the concept of collaborative writing and coding using git and GitHub within the context of reproducible documents (i.e. Quarto). So far we have used data that is well structured and ready to be used. However, in reality a lot of data entry and storage is still managed in spreadsheets. This is why we also touch on some (research) data management topics (Data Organization in Spreadsheet).
