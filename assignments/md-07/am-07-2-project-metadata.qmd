@@ -38,7 +38,7 @@ A pre-requisite for this homework is that you worked created a repository for yo
 
 6. Enter the name "README.md" in field and click OK.
 
-7. Go to: <https://raw.githubusercontent.com/ds4owd-001/metadata-readme-template/main/README.md>
+7. Go to: <https://raw.githubusercontent.com/ds4owd-002/metadata-readme-template/main/README.md>
 
 8. Copy the content that's displayed in your browser and paste it into the `README.md` file you have just created.
 
