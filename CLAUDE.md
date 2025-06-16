@@ -133,3 +133,10 @@ When modifying content, ensure consistency with the established module progressi
 - Create pull request: `gh pr create --title "Rename geographies parameter to entities" --body "Implements #80"`
 - List pull requests: `gh pr list`
 - View pull request: `gh pr view PR_NUMBER`
+
+## Code Style Guidelines
+
+- Use 2 spaces for indentation (no tabs)
+- Maximum 80 characters per line
+- Use tidyverse style for R code (`dplyr`, `tidyr`, `purrr`)
+- Use snake_case for function and variable names
