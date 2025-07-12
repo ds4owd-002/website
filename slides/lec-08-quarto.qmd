@@ -783,26 +783,6 @@ countdown(10)
 - Every Friday, 2:00 to 3:30 PM (CET)
 - Final student hours: Friday, November 29, 2:00 to 3:30 PM (CET)
 
-## Next week: openwashdata webinar {.smaller}
-
--   **Date:** Thursday, November 13, 2:00 - 3:00 PM (CET)
--   **Zoom Registration**: <https://ethz.zoom.us/meeting/register/u50lce-vrD0iGN06ywPHr2gPU84Ljr_zmNAf>
-- More info: <https://openwashdata.org/pages/events/2025-11-13-webinar-data-publishing>
-
-
-```{r}
-#| tbl-colwidths: [15, 35, 15, 45]
-#| column: page
-
-agenda <- readr::read_csv("https://raw.githubusercontent.com/openwashdata/website/main/pages/events/2025-11-13-webinar-data-publishing/data/tbl-07-webinar-data-sharing-agenda.csv")
-
-agenda  |> 
-    dplyr::select(-start_time, -end_time, -speaker_link, -affiliation_link) |>
-    dplyr::relocate(time) |> 
-    dplyr::rename_with(~stringr::str_to_title(.x), everything()) |> 
-    knitr::kable()
-```
-
 ## Module 09: Using AI for software development in R
 
 - **Date:** Thursday, November 20, 2:00 - 4:30 PM (CET)
