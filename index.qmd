@@ -27,16 +27,7 @@ To participate in this course, you need to:
 - identify a dataset of your own or your organization that you're interested in sharing with the public
 - have an openness to new ideas and workflows that disrupt current practice
 
-## What do we offer?
 
-This course is:
-
-- **Free** and accessible to all
-- **Certificate** provided for successful completion
-- **Open source** - uses exclusively free and open source tools
-- **Personalized support** - 1:1 coding sessions between lectures and beyond
-- **Project-focused** - build a portfolio of real-world data analyses
-- **Community-driven** - join the openwashdata community of practice 
 
 ## Course Information
 

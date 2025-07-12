@@ -19,7 +19,7 @@
   {
     "objectID": "modules/md-09.html#slides",
     "href": "modules/md-09.html#slides",
-    "title": "Module 09",
+    "title": "Module 9",
     "section": " Slides",
     "text": "Slides\n\nIn preparation",
     "crumbs": [
@@ -31,7 +31,7 @@
     "href": "modules/md-06.html",
     "title": "Module 6",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
     "crumbs": [
       "Module 06"
     ]
@@ -41,7 +41,7 @@
     "href": "modules/md-06.html#learning-objectives",
     "title": "Module 6",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
     "crumbs": [
       "Module 06"
     ]
@@ -71,7 +71,7 @@
     "href": "modules/md-06.html#assignments",
     "title": "Module 6",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 11th December 2023.\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nPlease complete the following assignment by Monday, 28th October 2025.\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
     "crumbs": [
       "Module 06"
     ]
@@ -149,7 +149,7 @@
     "href": "modules/md-01.html#assignments",
     "title": "Module 1",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignments by Monday, 6th November 2023. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: Interaction with GitHub\n\nThank you for working through these assignments.",
+    "text": "Assignments\nPlease complete the following assignments by Monday, 16th September 2025. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: Interaction with GitHub\n\nThank you for working through these assignments.",
     "crumbs": [
       "Module 01"
     ]
@@ -199,7 +199,7 @@
     "href": "modules/md-03.html#assignments",
     "title": "Module 3",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 20th November 2023.\n\nAssignment 1: Data transformation\nAssignment 2: Create a spreadsheet\n\nThank you for working through this assignment.",
+    "text": "Assignments\nPlease complete the following assignment by Monday, 30th September 2025.\n\nAssignment 1: Data transformation\nAssignment 2: Create a spreadsheet\n\nThank you for working through this assignment.",
     "crumbs": [
       "Module 03"
     ]
@@ -209,7 +209,7 @@
     "href": "project/index.html",
     "title": "Capstone Project",
     "section": "",
-    "text": "The Capstone Project report is the final assignment for this course and a completion is required to receive a course certificate about successful participation.",
+    "text": "The Capstone Project report is the final assignment for this course and completion is required to receive a course certificate about successful participation.",
     "crumbs": [
       "Capstone project"
     ]
@@ -249,7 +249,7 @@
     "href": "project/index.html#submission-due-date",
     "title": "Capstone Project",
     "section": " Submission due date",
-    "text": "Submission due date\nThe due date for submission of the report is Tuesday, 13th February 2024.",
+    "text": "Submission due date\nThe due date for submission of the report is Tuesday, 3rd December 2025.",
     "crumbs": [
       "Capstone project"
     ]
@@ -325,14 +325,14 @@
     "href": "slides/lec-08-quarto.html#section",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "",
-    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and you will receive a certificate of completion if you:\nhand in a complete capstone project report that uses a dataset of your choice by 13th February 2024\nRequired items: &lt;https://ds4owd-002.github.io/website//project/&gt;\nThis is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed."
+    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and you will receive a certificate of completion if you:\nhand in a complete capstone project report that uses a dataset of your choice by 4th December 2025\nRequired items: &lt;https://ds4owd-002.github.io/website//project/&gt;\nThis is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed."
   },
   {
     "objectID": "slides/lec-08-quarto.html#learning-objectives-for-this-week",
     "href": "slides/lec-08-quarto.html#learning-objectives-for-this-week",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can find resources to continue their data science journey.\nLearners can identify where and how to contact the openwashdata team for support with data sharing.\nLearners can describe the skills and compentencies they have obtained in this course."
+    "text": "Learning Objectives (for this week)\n\n\nLearners can apply the skills obtained during the course to write a short data analysis project report."
   },
   {
     "objectID": "slides/lec-08-quarto.html#components",
@@ -346,7 +346,7 @@
     "href": "slides/lec-08-quarto.html#literate-programming",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Literate programming",
-    "text": "Literate programming\nLiterate programming is writing out the program logic in a human language with included (separated by a primitive markup) code snippets and macros.\n---\ntitle: \"ggplot2 demo\"\ndate: \"5/23/2023\"\nformat: html\n---\n\n## MPG\n\nThere is a relationship between city and highway mileage.\n\n```{r}\n#| label: fig-mpg\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = cty, y = hwy)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```\n\n\nSource: https://en.wikipedia.org/wiki/Literate_programming"
+    "text": "Literate programming\nLiterate programming is writing out the program logic in a human language with included (separated by a primitive markup) code snippets and macros.\n---\ntitle: \"ggplot2 demo\"\ndate: \"11/6/2025\"\nformat: html\n---\n\n## MPG\n\nThere is a relationship between city and highway mileage.\n\n```{r}\n#| label: fig-mpg\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = cty, y = hwy)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```\n\n\nSource: https://en.wikipedia.org/wiki/Literate_programming"
   },
   {
     "objectID": "slides/lec-08-quarto.html#yaml",
@@ -605,7 +605,7 @@
     "href": "slides/lec-08-quarto.html#submission",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Submission",
-    "text": "Submission\n\nThe submission due date is: Tuesday, 13th February.\nYou will need to work through Module 5 & Module 7 homework assignments to get started.\nWe will use the GitHub issue tracker to communicate and ask questions about the capstone project.\nA list of required items for submission is covered on the course website: &lt;https://ds4owd-002.github.io/website//project/&gt;\nIf you require an extension, please reach to us via email: ghe@mavt.ethz.ch"
+    "text": "Submission\n\nThe submission due date is: Wednesday, 4th December 2025.\nYou will need to work through Module 5 & Module 7 homework assignments to get started.\nWe will use the GitHub issue tracker to communicate and ask questions about the capstone project.\nA list of required items for submission is covered on the course website: &lt;https://ds4owd-002.github.io/website//project/&gt;\nIf you require an extension, please reach to us via email: ghe@mavt.ethz.ch"
   },
   {
     "objectID": "slides/lec-08-quarto.html#your-turn-capstone-project---read-and-take-notes",
@@ -640,21 +640,14 @@
     "href": "slides/lec-08-quarto.html#student-hours",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Student hours",
-    "text": "Student hours\n\nEvery Thursday, 2:00 to 3:30 PM (CET)\nFinal student hours: Thursday, February 08, 2:00 to 3:30 PM (CET)"
-  },
-  {
-    "objectID": "slides/lec-08-quarto.html#next-week-openwashdata-webinar",
-    "href": "slides/lec-08-quarto.html#next-week-openwashdata-webinar",
-    "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
-    "section": "Next week: openwashdata webinar",
-    "text": "Next week: openwashdata webinar\n\nDate: Tuesday, January 23, 2:00 - 3:00 PM (CET)\nZoom Registration: https://ethz.zoom.us/meeting/register/u50lce-vrD0iGN06ywPHr2gPU84Ljr_zmNAf\nMore info: https://openwashdata.org/pages/events/2023-01-24-webinar-data-publishing\n\n\n\n\n\n\n\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n02:00 - 02:05\nWelcome\nElizabeth Tilley\nProfessor at ETH Zurich, Global Health Engineering\n\n\n02:05 - 02:25\nopenwashdata community & workflow\nLars Schöbitz\nOpen Science Specialist at ETH Zurich, Global Health Engineering\n\n\n02:25 - 02:45\nOpen data: A publishers perspective\nLauren Cadwallader\nOpen Research Manager at Public Library of Science (PLOS)\n\n\n02:45 - 03:00\nDiscussion\nElizabeth Tilley\nProfessor at ETH Zurich, Global Health Engineering"
+    "text": "Student hours\n\nEvery Friday, 2:00 to 3:30 PM (CET)\nFinal student hours: Friday, November 29, 2:00 to 3:30 PM (CET)"
   },
   {
     "objectID": "slides/lec-08-quarto.html#module-09-using-ai-for-software-development-in-r",
     "href": "slides/lec-08-quarto.html#module-09-using-ai-for-software-development-in-r",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Module 09: Using AI for software development in R",
-    "text": "Module 09: Using AI for software development in R\n\nDate: Tuesday, January 30, 2:00 - 4:30 PM (CET)"
+    "text": "Module 09: Using AI for software development in R\n\nDate: Thursday, November 20, 2:00 - 4:30 PM (CET)"
   },
   {
     "objectID": "slides/lec-08-quarto.html#module-10-graduation-party",
@@ -668,7 +661,7 @@
     "href": "slides/lec-08-quarto.html#attribution",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Attribution",
-    "text": "Attribution\nContent was re-used from a workshop hosted by Mine Çetinkaya-Rundel at the 2023 Symposium on Data Science and Statistics and stored at https://github.com/mine-cetinkaya-rundel/quarto-sdss. The original content is licensed under a Creative Commons Attribution 4.0 International License."
+    "text": "Attribution\nContent was re-used from a workshop hosted by Mine Çetinkaya-Rundel at the 2025 Symposium on Data Science and Statistics and stored at https://github.com/mine-cetinkaya-rundel/quarto-sdss. The original content is licensed under a Creative Commons Attribution 4.0 International License."
   },
   {
     "objectID": "slides/lec-08-quarto.html#thanks",
@@ -1004,7 +997,7 @@
     "href": "slides/lec-03-transformation.html#homework-due-date",
     "title": "Data transformation with dplyr",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, November 20th\nCorrection & feedback phase up to: Thursday, November 23rd"
+    "text": "Homework due date\n\nHomework assignment due: Monday, September 29th 2025\nCorrection & feedback phase up to: Thursday, October 2nd 2025"
   },
   {
     "objectID": "slides/lec-03-transformation.html#thanks",
@@ -1256,7 +1249,7 @@
     "href": "slides/lec-02-visualisation.html#section",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "",
-    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and you will receive a certificate of completion if you:\nhand in a complete capstone project report that uses a dataset of your choice by 30 January 2024 (instructions will follow)\nThis is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed."
+    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and you will receive a certificate of completion if you:\nhand in a complete capstone project report that uses a dataset of your choice by 4 December 2025 (instructions will follow)\nThis is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-1",
@@ -1704,7 +1697,7 @@
     "href": "slides/lec-02-visualisation.html#homework-due-date",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, November 13th\nCorrection & feedback phase up to: Thursday, November 16th"
+    "text": "Homework due date\n\nHomework assignment due: Monday, September 22nd 2025\nCorrection & feedback phase up to: Thursday, September 25th 2025"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#thanks",
@@ -1734,21 +1727,11 @@
     ]
   },
   {
-    "objectID": "index.html#what-do-we-offer",
-    "href": "index.html#what-do-we-offer",
-    "title": "Course Overview",
-    "section": "What do we offer?",
-    "text": "What do we offer?\nThis course is:\n\nfree\nprovides you with a certificate for successful completion\nuses exclusively tools that are free and open source\noffers 1:1 coding support between lectures and beyond the course",
-    "crumbs": [
-      "Course Overview"
-    ]
-  },
-  {
     "objectID": "index.html#course-information",
     "href": "index.html#course-information",
     "title": "Course Overview",
     "section": "Course Information",
-    "text": "Course Information\nThis course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research, and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation.\nTopics include:\n\nThe data science life-cycle\nData organization in spreadsheets\nExploratory data analysis using visualization\nUsing AI for software development in R\nConcept of tidy data and data tidying\nData transformation and descriptive statistics\nData communication using the Quarto open-source scientific and technical publishing system",
+    "text": "Course Information\nThis course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research, and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation.\n\nProject-Based Learning Approach\nThis course emphasizes hands-on, project-based learning where you will:\n\nWork with real-world WASH data throughout the course\nBuild your data science portfolio with practical examples\nComplete a capstone project using your own dataset\nLearn by doing through interactive coding sessions\nReceive personalized feedback on your work\n\n\n\nOpen Data & Reproducible Workflow\nWe are committed to open science principles and will teach you how to:\n\nShare your data and code openly on GitHub\nCreate reproducible analyses that others can verify and build upon\nDocument your work for transparency and collaboration\nContribute to the openwashdata ecosystem\nFollow FAIR (Findable, Accessible, Interoperable, Reusable) data principles\n\nBy the end of this course, you’ll not only have technical skills but also understand how to work openly and collaboratively in the data science community.",
     "crumbs": [
       "Course Overview"
     ]
@@ -1758,7 +1741,7 @@
     "href": "index.html#learning-goals",
     "title": "Course Overview",
     "section": "Learning Goals",
-    "text": "Learning Goals\n\nBe able to use a common set of data science tools (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to illustrate and communicate the results of data analysis projects.\nLearn to use the Quarto file format and the RStudio IDE visual editing mode to produce scholarly documents with citations, footnotes, cross-references, figures, and tables.",
+    "text": "Learning Goals\n\nMaster data science tools - Use R, RStudio IDE, Git, GitHub, tidyverse, and Quarto to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators.",
     "crumbs": [
       "Course Overview"
     ]
@@ -2026,7 +2009,7 @@
     "href": "guide/index.html",
     "title": "Guide",
     "section": "",
-    "text": "This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can settings that need to be made or tips that we communicate during the live sessions.\nIf you have a request, let us know and we will add guidance here.",
+    "text": "This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can be settings that need to be made or tips that we communicate during the live sessions.\nIf you have a request, let us know and we will add guidance here.",
     "crumbs": [
       "Guide"
     ]
@@ -2046,7 +2029,7 @@
     "href": "guide/index.html#zotero-reference-management",
     "title": "Guide",
     "section": "2 Zotero reference management",
-    "text": "2 Zotero reference management\nWe recommend using Zotero as a tool for reference management, but do not teach how to use it in this course. The guidance below will support you in setting up Zotero.\n\n2.1 Get Zotero account\n\nOpen https://www.zotero.org/user/login/\nClick on Register for a free account\nChose username, email, and password\nClick Register\nOpen your email and verify your account\n\n\n\n2.2 Install Zotero desktop client\n\nOpen https://www.zotero.org/download/\nDownload Zotero for your operating system\nInstall Zotero\nLog in to your Zotero account by opening Settings -&gt; Sync and typing the Username and Password you have previously set up\nClick on the green refresh button in the top-right corner of the Zotero window\n\n\n\n\n\n\n\n\n\n\n\n\n2.3 Install the Zotero Connector for your browser\n\nOpen https://www.zotero.org/download/\nDownload the Zotero Connector for your browser\nInstall the Zotero Connector\nLog in to your Zotero account\n\n\n\n2.4 Setup Add-ons and the citation key format\n\nGo to https://retorque.re/zotero-better-bibtex/installation/\nClick on the latest release so you are redirected to github\nFind the .xpi file and right-click it. Click on Save Link As… and choose your location for saving the file.\n\n\n\n\n\n\n\n\n\n\n\nOpen Zotero -&gt; Tools -&gt; Add-ons -&gt; (Gear icon) -&gt; Install Add-on From File… -&gt; choose the .xpi file you have just saved\n\n\n\n\n\n\n\n\n\n\n\nRestart Zotero\n\n\n\n\n\n\n\n\n\n\n\nWait until the database fully loads. Only the first time is long; the next interactions with Zotero will be much faster.\nYou may need to restart Zotero the second time. Please do so if you see a prompt after Better BibTeX is installed.\nGo to Zotero -&gt; Settings -&gt; Export -&gt; Default Format and change the default format to Better BibTeX Quick Copy: \n\n\n\n\n\n\n\n\n\n\n\nIn the same setting window, go to Better BibTeX -&gt; Open Better BibTeX preferences…\n\n\n\n\n\n\n\n\n\n\n\nIn the Citation keys tab, use the following Citation key formula for Better BibTeX: [auth:lower][year][veryshorttitle1_0:lower]\n\nThe line above means that the citation key will be build from:\n\nFirst author’s last name in lowercase\npublication year\nThe first word from the title in lowercase, not including the connectors such as “the” or “a”\n\n\n\n\n\n\n\n\n\n\n\nGo to Export -&gt; Quick-Copy in the Better BibTeX preferences. Select Pandoc citation.\n\n\n\n\n\n\n\n\n\n\n\n\n2.5 Change the setting for the citekey autopin delay\n\nOpen Zotero advanced preferences (Zotero -&gt; Settings -&gt; Advanced)\nOpen the Config Editor under the Advanced Configuration section\n\n\n\n\n\n\n\n\n\n\n\nClick I accept the risk!\nIn the search bar, search for autopin\n\n\n\n\n\n\n\n\n\n\n\nDouble-click into the field under Value\nIn the new window called Enter integer value, change the existing 0 to 2\n\n\n\n\n\n\n\n\n\n\n\nClick OK\nClose all setting windows",
+    "text": "2 Zotero reference management\nWe recommend using Zotero as a tool for reference management, but do not teach how to use it in this course. The guidance below will support you in setting up Zotero.\n\n2.1 Get Zotero account\n\nOpen https://www.zotero.org/user/login/\nClick on Register for a free account\nChoose username, email, and password\nClick Register\nOpen your email and verify your account\n\n\n\n2.2 Install Zotero desktop client\n\nOpen https://www.zotero.org/download/\nDownload Zotero for your operating system\nInstall Zotero\nLog in to your Zotero account by opening Settings -&gt; Sync and typing the Username and Password you have previously set up\nClick on the green refresh button in the top-right corner of the Zotero window\n\n\n\n\n\n\n\n\n\n\n\n\n2.3 Install the Zotero Connector for your browser\n\nOpen https://www.zotero.org/download/\nDownload the Zotero Connector for your browser\nInstall the Zotero Connector\nLog in to your Zotero account\n\n\n\n2.4 Setup Add-ons and the citation key format\n\nGo to https://retorque.re/zotero-better-bibtex/installation/\nClick on the latest release so you are redirected to github\nFind the .xpi file and right-click it. Click on Save Link As… and choose your location for saving the file.\n\n\n\n\n\n\n\n\n\n\n\nOpen Zotero -&gt; Tools -&gt; Add-ons -&gt; (Gear icon) -&gt; Install Add-on From File… -&gt; choose the .xpi file you have just saved\n\n\n\n\n\n\n\n\n\n\n\nRestart Zotero\n\n\n\n\n\n\n\n\n\n\n\nWait until the database fully loads. Only the first time is long; the next interactions with Zotero will be much faster.\nYou may need to restart Zotero the second time. Please do so if you see a prompt after Better BibTeX is installed.\nGo to Zotero -&gt; Settings -&gt; Export -&gt; Default Format and change the default format to Better BibTeX Quick Copy: \n\n\n\n\n\n\n\n\n\n\n\nIn the same setting window, go to Better BibTeX -&gt; Open Better BibTeX preferences…\n\n\n\n\n\n\n\n\n\n\n\nIn the Citation keys tab, use the following Citation key formula for Better BibTeX: [auth:lower][year][veryshorttitle1_0:lower]\n\nThe line above means that the citation key will be built from:\n\nFirst author’s last name in lowercase\npublication year\nThe first word from the title in lowercase, not including the connectors such as “the” or “a”\n\n\n\n\n\n\n\n\n\n\n\nGo to Export -&gt; Quick-Copy in the Better BibTeX preferences. Select Pandoc citation.\n\n\n\n\n\n\n\n\n\n\n\n\n2.5 Change the setting for the citekey autopin delay\n\nOpen Zotero advanced preferences (Zotero -&gt; Settings -&gt; Advanced)\nOpen the Config Editor under the Advanced Configuration section\n\n\n\n\n\n\n\n\n\n\n\nClick I accept the risk!\nIn the search bar, search for autopin\n\n\n\n\n\n\n\n\n\n\n\nDouble-click into the field under Value\nIn the new window called Enter integer value, change the existing 0 to 2\n\n\n\n\n\n\n\n\n\n\n\nClick OK\nClose all setting windows",
     "crumbs": [
       "Guide"
     ]
@@ -2056,7 +2039,7 @@
     "href": "guide/index.html#publish-to-github-pages",
     "title": "Guide",
     "section": "3 Publish to GitHub Pages",
-    "text": "3 Publish to GitHub Pages\n\n3.1 Navigate to your repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course: &lt;https://github.com/ds4owd-002&gt;.\n\n\n\n\n\n\n\n\n\n\n\nUse the search field under “Repositories” to find your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\n\n3.2 Make repo public\nIf your repository’s visibility is set to “private” (indicated by a small padlock next to the repositories name), you first need to switch it to “public” by following these steps:\n\nClick on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nStay on “General” and scroll down to the bottom of the page “Danger Zone”.\n\n\n\n\n\n\n\n\n\n\n\nOn the first sub-heading “Change repository visibility”, click “Change visibility”, then “Change to public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I want to make this repository public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I have read and understand these effects”.\nClick “Make this repository public”.\nProvide the requested credentials.\nDone.\n\n\n\n3.3 Publish with GitHub Pages\n\nOpen your capstone project repository, and click on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nIn the left navigation pane, click on “Pages” under “Code and automation”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Build and deployment”, then under Branch, click the dropdown titled “None”.\n\n\n\n\n\n\n\n\n\n\n\nIn the dropdown, select “main”.\n\n\n\n\n\n\n\n\n\n\n\nClick on the dropdown titled “/ (root)”. In the dropdown, select “/docs”.\n\n\n\n\n\n\n\n\n\n\n\nClick “Save”.\n\n\n\n\n\n\n\n\n\n\n\n\n3.4 Edit “About” of repository\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOn right side, next to “About”, click on the gear icon.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Description” you can add “This project report was prepared for the data science for openwashdata course.” or anything else that you would like to highlight.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Website”, click “User your GitHub Pages website”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Include in the home page”, you can remove the checked boxes.\nClick “Save changes”.\nThe public URL of your repository will now be shown under “About” on the right side.\n\n\n\n\n\n\n\n\n\n\n\nOpen your published website and enjoy.",
+    "text": "3 Publish to GitHub Pages\n\n3.1 Navigate to your repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course: &lt;https://github.com/ds4owd-002&gt;.\n\n\n\n\n\n\n\n\n\n\n\nUse the search field under “Repositories” to find your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\n\n3.2 Make repo public\nIf your repository’s visibility is set to “private” (indicated by a small padlock next to the repositories name), you first need to switch it to “public” by following these steps:\n\nClick on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nStay on “General” and scroll down to the bottom of the page “Danger Zone”.\n\n\n\n\n\n\n\n\n\n\n\nOn the first sub-heading “Change repository visibility”, click “Change visibility”, then “Change to public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I want to make this repository public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I have read and understand these effects”.\nClick “Make this repository public”.\nProvide the requested credentials.\nDone.\n\n\n\n3.3 Publish with GitHub Pages\n\nOpen your capstone project repository, and click on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nIn the left navigation pane, click on “Pages” under “Code and automation”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Build and deployment”, then under Branch, click the dropdown titled “None”.\n\n\n\n\n\n\n\n\n\n\n\nIn the dropdown, select “main”.\n\n\n\n\n\n\n\n\n\n\n\nClick on the dropdown titled “/ (root)”. In the dropdown, select “/docs”.\n\n\n\n\n\n\n\n\n\n\n\nClick “Save”.\n\n\n\n\n\n\n\n\n\n\n\n\n3.4 Edit “About” of repository\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOn right side, next to “About”, click on the gear icon.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Description” you can add “This project report was prepared for the Data Science for OpenWashData course.” or anything else that you would like to highlight.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Website”, click “Use your GitHub Pages website”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Include in the home page”, you can remove the checked boxes.\nClick “Save changes”.\nThe public URL of your repository will now be shown under “About” on the right side.\n\n\n\n\n\n\n\n\n\n\n\nOpen your published website and enjoy.",
     "crumbs": [
       "Guide"
     ]
@@ -2374,7 +2357,7 @@
     "href": "slides/lec-07-pivoting-joining.html#learning-objectives-for-this-week",
     "title": "Pivoting & Joining & Metadata",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can apply functions from the dplyr R Package to join multiple data sets.\nLearners can understand the relevance a data dictionary to describe variable names in a data set."
+    "text": "Learning Objectives (for this week)\n\n\nLearners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R."
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
@@ -2647,7 +2630,7 @@
     "href": "slides/lec-07-pivoting-joining.html#directory-tree-of-a-project",
     "title": "Pivoting & Joining & Metadata",
     "section": "Directory tree of a project",
-    "text": "Directory tree of a project\nCapstone project of Rainbow Train: &lt;https://github.com/ds4owd-002/project-rainbow-train&gt;\n.\n├── R\n│   └── 01-data-preparation.R\n├── data\n│   ├── processed\n│   │   ├── README.md\n│   │   ├── dictionary.csv\n│   │   └── faecal-sludge-analysis.csv\n│   └── raw\n│       └── Faecal sludge Analysis_05112023.xlsx\n├── docs\n│   ├── index.html\n│   ├── index.qmd\n│   └── index_files\n│       └── libs\n└── project.Rproj"
+    "text": "Directory tree of a project\nCapstone project of Rainbow Train: &lt;https://github.com/ds4owd-002/project-rainbow-train&gt;\n.\n├── R\n│   └── 01-data-preparation.R\n├── data\n│   ├── processed\n│   │   ├── README.md\n│   │   ├── dictionary.csv\n│   │   └── faecal-sludge-analysis.csv\n│   └── raw\n│       └── Faecal sludge Analysis_05112025.xlsx\n├── docs\n│   ├── index.html\n│   ├── index.qmd\n│   └── index_files\n│       └── libs\n└── project.Rproj"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#directory-tree-of-a-project-1",
@@ -2689,21 +2672,14 @@
     "href": "slides/lec-07-pivoting-joining.html#homework-due-date",
     "title": "Pivoting & Joining & Metadata",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, December 18th\nFeedback until: Thursday, December 21st"
+    "text": "Homework due date\n\nHomework assignment due: Monday, November 3rd 2025\nFeedback until: Thursday, November 6th 2025"
   },
   {
-    "objectID": "slides/lec-07-pivoting-joining.html#final-student-hours-of-2023",
-    "href": "slides/lec-07-pivoting-joining.html#final-student-hours-of-2023",
+    "objectID": "slides/lec-07-pivoting-joining.html#student-hours",
+    "href": "slides/lec-07-pivoting-joining.html#student-hours",
     "title": "Pivoting & Joining & Metadata",
-    "section": "Final student hours of 2023",
-    "text": "Final student hours of 2023\n\nThursday, December 14th at 2 pm CET"
-  },
-  {
-    "objectID": "slides/lec-07-pivoting-joining.html#first-student-hours-of-2024",
-    "href": "slides/lec-07-pivoting-joining.html#first-student-hours-of-2024",
-    "title": "Pivoting & Joining & Metadata",
-    "section": "First student hours of 2024",
-    "text": "First student hours of 2024\n\nThursday, January 11th at 2 pm CET"
+    "section": "Student hours",
+    "text": "Student hours\n\nStudent hours continue as scheduled: Fridays at 2 pm CET"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#christmas-break",
@@ -2713,18 +2689,18 @@
     "text": "Christmas break\n\nLars will be on vacation from December 22nd until January 15th\nMian and Sophia will be on vacation from December 22nd until January 8th\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
-    "objectID": "slides/lec-07-pivoting-joining.html#first-lecture-of-2024",
-    "href": "slides/lec-07-pivoting-joining.html#first-lecture-of-2024",
+    "objectID": "slides/lec-07-pivoting-joining.html#next-module",
+    "href": "slides/lec-07-pivoting-joining.html#next-module",
     "title": "Pivoting & Joining & Metadata",
-    "section": "First lecture of 2024",
-    "text": "First lecture of 2024\nTuesday, January 16th at 2 pm CET\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "section": "Next module",
+    "text": "Next module\nTuesday, January 16th at 2 pm CET\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#course-calendar",
     "href": "slides/lec-07-pivoting-joining.html#course-calendar",
     "title": "Pivoting & Joining & Metadata",
     "section": "Course calendar",
-    "text": "Course calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nConditions & Dates & Tables\nmodule 5\n\n\n16 October 2025\n6\nData types & Vectors & For Loops\nmodule 6\n\n\n23 October 2025\n7\nPivoting & joining data\nmodule 7\n\n\n30 October 2025\n8\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n06 November 2025\n9\nBonus module: Use of AI for coding support\nmodule 9\n\n\n13 November 2025\n10\nWork on Capstone project\nNA\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nFinal submission date of Capstone project\nNA\n\n\n04 December 2025\n13\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNo class\n\n\n16 October 2025\n6\nConditions & Dates & Tables\nmodule 5\n\n\n23 October 2025\n7\nData types & Vectors & For Loops\nmodule 6\n\n\n30 October 2025\n8\nPivoting & joining data\nmodule 7\n\n\n06 November 2025\n9\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n13 November 2025\n10\nBonus module: Use of AI for coding support\nmodule 9\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nFinal submission date of Capstone project\nNA\n\n\n11 December 2025\n14\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#thanks",
@@ -2752,7 +2728,7 @@
     "href": "slides/lec-01-welcome.html#learning-goals-for-the-course",
     "title": "Welcome & get ready for the course",
     "section": "Learning Goals (for the course)",
-    "text": "Learning Goals (for the course)\n\nBe able to use a common set of data science tools (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to illustrate and communicate the results of data analysis projects.\nLearn to use the Quarto file format and the RStudio IDE visual editing mode to produce documents with citations, footnotes, cross-references, figures, and tables."
+    "text": "Learning Goals (for the course)\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
   },
   {
     "objectID": "slides/lec-01-welcome.html#your-turn-about-you",
@@ -2773,7 +2749,7 @@
     "href": "slides/lec-01-welcome.html#course-calendar",
     "title": "Welcome & get ready for the course",
     "section": "Course Calendar",
-    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nConditions & Dates & Tables\nmodule 5\n\n\n16 October 2025\n6\nData types & Vectors & For Loops\nmodule 6\n\n\n23 October 2025\n7\nPivoting & joining data\nmodule 7\n\n\n30 October 2025\n8\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n06 November 2025\n9\nBonus module: Use of AI for coding support\nmodule 9\n\n\n13 November 2025\n10\nWork on Capstone project\nNA\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nFinal submission date of Capstone project\nNA\n\n\n04 December 2025\n13\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNo class\n\n\n16 October 2025\n6\nConditions & Dates & Tables\nmodule 5\n\n\n23 October 2025\n7\nData types & Vectors & For Loops\nmodule 6\n\n\n30 October 2025\n8\nPivoting & joining data\nmodule 7\n\n\n06 November 2025\n9\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n13 November 2025\n10\nBonus module: Use of AI for coding support\nmodule 9\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nFinal submission date of Capstone project\nNA\n\n\n11 December 2025\n14\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-01-welcome.html#course-structure",
@@ -3123,7 +3099,7 @@
     "href": "slides/lec-01-welcome.html#weekly-structure",
     "title": "Welcome & get ready for the course",
     "section": "Weekly Structure",
-    "text": "Weekly Structure\n\n\n\n\n\n\n\nMonday\n\n\n\nTuesday\nModule from 2 pm to 4:30 pm CET\n\n\nWednesday\n\n\n\nThursday\nOffice hours on Zoom (2 pm to 3:30 pm CET)\n\n\nFriday"
+    "text": "Weekly Structure\n\n\n\nMonday\nHomework due (starting from Module 2)\n\n\nTuesday\n\n\n\nWednesday\n\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday\nOffice hours on Zoom (2 pm to 3:30 pm CET)"
   },
   {
     "objectID": "slides/lec-01-welcome.html#homework-assignments",
@@ -3151,7 +3127,7 @@
     "href": "slides/lec-01-welcome.html#homework-due-date",
     "title": "Welcome & get ready for the course",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, November 6th"
+    "text": "Homework due date\n\nHomework assignment due: Monday, September 15th 2025"
   },
   {
     "objectID": "slides/lec-01-welcome.html#thanks",
@@ -3354,7 +3330,7 @@
     "href": "slides/lec-04-spreadsheets.html#data-organization-in-spreadsheets-1",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Data Organization in Spreadsheets",
-    "text": "Data Organization in Spreadsheets\n\n\nScreenshot taken on 2023-11-21"
+    "text": "Data Organization in Spreadsheets\n\n\nScreenshot taken on 2025-10-02"
   },
   {
     "objectID": "slides/lec-04-spreadsheets.html#data-organization-in-spreadsheets-2",
@@ -3375,7 +3351,7 @@
     "href": "slides/lec-04-spreadsheets.html#data-organization-in-spreadsheets-4",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Data Organization in Spreadsheets",
-    "text": "Data Organization in Spreadsheets\nWhy? Because following a set of rules for organizing data everyone’s live a little better.\n\n\n\n\n\n\n\n\n\n\n\n\n\n3rd most viewed paper on The American Statistician\n310’000+ views\nwidely accepted as minimal standards\n\n\n\nJournal: The American Statistician, Screenshot taken on 2023-11-21"
+    "text": "Data Organization in Spreadsheets\nWhy? Because following a set of rules for organizing data everyone’s live a little better.\n\n\n\n\n\n\n\n\n\n\n\n\n\n3rd most viewed paper on The American Statistician\n310’000+ views\nwidely accepted as minimal standards\n\n\n\nJournal: The American Statistician, Screenshot taken on 2025-10-02"
   },
   {
     "objectID": "slides/lec-04-spreadsheets.html#data-organization-in-spreadsheets-5",
@@ -3396,7 +3372,7 @@
     "href": "slides/lec-04-spreadsheets.html#homework-due-date",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, November 20th\nCorrection & feedback phase up to: Thursday, November 23rd"
+    "text": "Homework due date\n\nHomework assignment due: Monday, October 6th 2025\nCorrection & feedback phase up to: Thursday, October 9th 2025"
   },
   {
     "objectID": "slides/lec-04-spreadsheets.html#thanks",
@@ -3410,7 +3386,7 @@
     "href": "slides/lec-05-conditions.html#learning-objectives-for-this-week",
     "title": "Conditions & Dates & Tables",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports."
+    "text": "Learning Objectives (for this week)"
   },
   {
     "objectID": "slides/lec-05-conditions.html#part-1-reading",
@@ -3578,7 +3554,7 @@
     "href": "slides/lec-05-conditions.html#homework-due-date",
     "title": "Conditions & Dates & Tables",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, December 4th\nCorrection & feedback phase up to: Thursday, December 7th"
+    "text": "Homework due date\n\nHomework assignment due: Monday, October 20th 2025\nCorrection & feedback phase up to: Thursday, October 23rd 2025"
   },
   {
     "objectID": "slides/lec-05-conditions.html#thanks",
@@ -3954,29 +3930,9 @@
     "href": "modules/md-02.html#assignments",
     "title": "Module 2",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 13th November 2023.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
+    "text": "Assignments\nPlease complete the following assignment by Monday, 23rd September 2025.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
     "crumbs": [
       "Module 02"
-    ]
-  },
-  {
-    "objectID": "modules/md-05.html",
-    "href": "modules/md-05.html",
-    "title": "Module 5",
-    "section": "",
-    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
-    "crumbs": [
-      "Module 05"
-    ]
-  },
-  {
-    "objectID": "modules/md-05.html#learning-objectives",
-    "href": "modules/md-05.html#learning-objectives",
-    "title": "Module 5",
-    "section": "",
-    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
-    "crumbs": [
-      "Module 05"
     ]
   },
   {
@@ -4004,7 +3960,7 @@
     "href": "modules/md-05.html#assignments",
     "title": "Module 5",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 27th November 2023.\n\nAssignment 1: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nPlease complete the following assignment by Monday, 21st October 2025.\n\nAssignment 1: Identify data for your capstone project\n\nThank you for working through this assignment.",
     "crumbs": [
       "Module 05"
     ]
@@ -4054,7 +4010,7 @@
     "href": "modules/md-04.html#assignments",
     "title": "Module 4",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 27th November 2023.\n\nAssignment 1: Data organisation in spreadsheets\n\nThank you for working through this assignment.",
+    "text": "Assignments\nPlease complete the following assignment by Monday, 7th October 2025.\n\nAssignment 1: Data organisation in spreadsheets\n\nThank you for working through this assignment.",
     "crumbs": [
       "Module 04"
     ]
@@ -4064,7 +4020,7 @@
     "href": "modules/md-07.html",
     "title": "Module 7",
     "section": "",
-    "text": "Learners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can apply functions from the dplyr R Package to join multiple data sets.\nLearners can understand the relevance a data dictionary to describe variable names in a data set.",
+    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
     "crumbs": [
       "Module 07"
     ]
@@ -4074,7 +4030,7 @@
     "href": "modules/md-07.html#learning-objectives",
     "title": "Module 7",
     "section": "",
-    "text": "Learners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can apply functions from the dplyr R Package to join multiple data sets.\nLearners can understand the relevance a data dictionary to describe variable names in a data set.",
+    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
     "crumbs": [
       "Module 07"
     ]
@@ -4104,7 +4060,7 @@
     "href": "modules/md-07.html#assignments",
     "title": "Module 7",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 18th December 2023.\n\nAssignment 1: Pivot your data\nAssignment 2: Get going with your capstone project\n\nThank you for working through this assignment. s",
+    "text": "Assignments\nPlease complete the following assignment by Monday, 4th November 2025.\n\nAssignment 1: Pivot your data\nAssignment 2: Get going with your capstone project\n\nThank you for working through this assignment.",
     "crumbs": [
       "Module 07"
     ]
