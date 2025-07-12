@@ -49,7 +49,7 @@ Q: How do I successfully complete the course?
 
 You successfully complete the course and you  will receive a certificate of completion if you:
 
-[hand in a complete capstone project report that uses a dataset of your choice by 30 January 2024 (instructions will follow)]{.highlight-yellow}
+[hand in a complete capstone project report that uses a dataset of your choice by 4 December 2025 (instructions will follow)]{.highlight-yellow}
 
 This is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed.
 
@@ -742,8 +742,8 @@ countdown(15)
 
 ## Homework due date
 
--   Homework assignment due: [Monday, November 13th]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, November 16th 
+-   Homework assignment due: [Monday, September 22nd 2025]{.highlight-yellow}
+-   Correction & feedback phase up to: Thursday, September 25th 2025 
 
 # Wrap-up {background-color="#4C326A"}
 

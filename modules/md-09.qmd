@@ -1,5 +1,5 @@
 ---
-title: "Module 09"
+title: "Module 9"
 subtitle: "{{< var md-09.title >}}"
 editor: source
 params:

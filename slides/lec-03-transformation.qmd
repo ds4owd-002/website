@@ -384,8 +384,8 @@ countdown(40)
 
 ## Homework due date
 
--   Homework assignment due: [Monday, November 20th]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, November 23rd 
+-   Homework assignment due: [Monday, September 29th 2025]{.highlight-yellow}
+-   Correction & feedback phase up to: Thursday, October 2nd 2025 
 
 # Wrap-up {background-color="#4C326A"}
 

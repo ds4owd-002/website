@@ -7,7 +7,7 @@ execute:
   echo: false
 ---
 
-This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can settings that need to be made or tips that we communicate during the live sessions. 
+This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can be settings that need to be made or tips that we communicate during the live sessions. 
 
 If you have a request, let us know and we will add guidance here.
 
@@ -45,7 +45,7 @@ We recommend using Zotero as a tool for reference management, but do not teach h
 
 1. Open <https://www.zotero.org/user/login/>
 2. Click on Register for a free account
-3. Chose username, email, and password
+3. Choose username, email, and password
 4. Click Register
 5. Open your email and verify your account
 
@@ -108,7 +108,7 @@ knitr::include_graphics("images/screenshot-betterbibtex-preferences.png")
 
 10. In the **Citation keys** tab, use the following Citation key formula for Better BibTeX: `[auth:lower][year][veryshorttitle1_0:lower]`
 
-The line above means that the citation key will be build from:
+The line above means that the citation key will be built from:
 
 - First author's last name in lowercase
 - publication year
@@ -258,13 +258,13 @@ knitr::include_graphics("images/gh-pages-13-gear.png")
 knitr::include_graphics("images/gh-pages-13-gear-click.png")
 ```
 
-3. Under "Description" you can add "This project report was prepared for the data science for openwashdata course." or anything else that you would like to highlight.
+3. Under "Description" you can add "This project report was prepared for the Data Science for OpenWashData course." or anything else that you would like to highlight.
 
 ```{r}
 knitr::include_graphics("images/gh-pages-14-description.png")
 ```
 
-4. Under "Website", click "User your GitHub Pages website".
+4. Under "Website", click "Use your GitHub Pages website".
 
 ```{r}
 knitr::include_graphics("images/gh-pages-15-website.png")

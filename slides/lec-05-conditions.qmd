@@ -391,8 +391,8 @@ head(penguins) |>
 
 ## Homework due date
 
--   Homework assignment due: [Monday, December 4th]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, December 7th
+-   Homework assignment due: [Monday, October 20th 2025]{.highlight-yellow}
+-   Correction & feedback phase up to: Thursday, October 23rd 2025
 
 # Wrap-up {background-color="#4C326A"}
 

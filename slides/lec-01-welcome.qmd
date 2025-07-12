@@ -62,9 +62,13 @@ While we are getting ready, please check for this email from GitHub and [accept 
 
 ## Learning Goals (for the course)
 
-1.  Be able to use a common set of data science tools [(R, RStudio IDE, Git, GitHub, tidyverse, Quarto)]{.highlight-yellow} to illustrate and communicate the results of data analysis projects.
+1.  **Master data science tools** - Use [(R, RStudio IDE, Git, GitHub, tidyverse, Quarto)]{.highlight-yellow} to analyze and communicate data effectively.
 
-2.  Learn to use the [Quarto file format]{.highlight-yellow} and the RStudio IDE visual editing mode to produce [documents]{.highlight-yellow} with citations, footnotes, cross-references, figures, and tables.
+2.  **Create reproducible documents** - Produce professional reports with [Quarto]{.highlight-yellow}, including citations, figures, and tables.
+
+3.  **Practice open science** - Share your data and code openly, following best practices for reproducibility and collaboration.
+
+4.  **Build a portfolio** - Complete real-world projects that demonstrate your skills to future employers or collaborators.
 
 ## Your turn: About you
 
@@ -803,11 +807,11 @@ Rules of `dplyr` functions:
 
 |          |                                           |
 |----------|-------------------------------------------|
-| **Monday**   |                |
-| **Tuesday**  |  Module from 2 pm to 4:30 pm CET                              |
-| **Wednesday** | |
-| **Thursday** | Office hours on Zoom (2 pm to 3:30 pm CET) |
-| **Friday**   |              |
+| **Monday**   | Homework due (starting from Module 2) |
+| **Tuesday**  |                                         |
+| **Wednesday** |                                        |
+| **Thursday** | Module from 2 pm to 4:30 pm CET |
+| **Friday**   | Office hours on Zoom (2 pm to 3:30 pm CET) |
 
 
 ## Homework assignments
@@ -837,7 +841,7 @@ Rules of `dplyr` functions:
 
 ## Homework due date
 
--   Homework assignment due: [Monday, November 6th]{.highlight-yellow}
+-   Homework assignment due: [Monday, September 15th 2025]{.highlight-yellow}
 
 # Wrap-up {background-color="#4C326A"}
 

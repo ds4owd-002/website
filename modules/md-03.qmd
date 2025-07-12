@@ -44,10 +44,10 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa code >}} Assignments
 
-Please complete the following assignment by Monday, 20th November 2023. 
+Please complete the following assignment by Monday, 30th September 2025. 
 
 -   [Assignment 1](../assignments/md-03/am-03-1-data-transformation.qmd): Data transformation
 -   [Assignment 2](../assignments/md-03/am-03-2-spreadsheet.qmd): Create a spreadsheet
 
-Thank you for working through this assignment. 
+Thank you for working through this assignment.
 

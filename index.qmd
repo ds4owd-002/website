@@ -6,14 +6,14 @@ execute:
   warning: false
 ---
 
-Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meet you.
+Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meeting you.
 
 We will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at the following times:
 
 -   **Start:** 11th September 2025 - 2 pm to 4:30 pm CET
 -   **End:** 4th December 2025 - 2 pm to 4:30 pm CET
 
-We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course start.
+We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.
 
 Sign up here: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD> (it will take about 15 minutes)
 
@@ -31,34 +31,52 @@ To participate in this course, you need to:
 
 This course is:
 
-- free
-- provides you with a certificate for successful completion
-- uses exclusively tools that are free and open source
-- offers 1:1 coding support between lectures and beyond the course 
+- **Free** and accessible to all
+- **Certificate** provided for successful completion
+- **Open source** - uses exclusively free and open source tools
+- **Personalized support** - 1:1 coding sessions between lectures and beyond
+- **Project-focused** - build a portfolio of real-world data analyses
+- **Community-driven** - join the openwashdata community of practice 
 
 ## Course Information
 
-This course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation. 
+This course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research, and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation.
 
-Topics include:
+### Project-Based Learning Approach
 
--   The data science life-cycle
--   Data organization in spreadsheets
--   Exploratory data analysis using visualization
--   Using AI for software development in R
--   Concept of tidy data and data tidying
--   Data transformation and descriptive statistics
--   Data communication using the Quarto open-source scientific and technical publishing system
+This course emphasizes **hands-on, project-based learning** where you will:
+
+- Work with real-world WASH data throughout the course
+- Build your data science portfolio with practical examples
+- Complete a capstone project using your own dataset
+- Learn by doing through interactive coding sessions
+- Receive personalized feedback on your work
+
+### Open Data & Reproducible Workflow
+
+We are committed to **open science principles** and will teach you how to:
+
+- Share your data and code openly on GitHub
+- Create reproducible analyses that others can verify and build upon
+- Document your work for transparency and collaboration
+- Contribute to the openwashdata ecosystem
+- Follow FAIR (Findable, Accessible, Interoperable, Reusable) data principles
+
+By the end of this course, you'll not only have technical skills but also understand how to work openly and collaboratively in the data science community. 
 
 ## Learning Goals
 
-1.  Be able to use a common set of data science tools (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to illustrate and communicate the results of data analysis projects.
+1.  **Master data science tools** - Use R, RStudio IDE, Git, GitHub, tidyverse, and Quarto to analyze and communicate data effectively.
 
-2.  Learn to use the Quarto file format and the RStudio IDE visual editing mode to produce scholarly documents with citations, footnotes, cross-references, figures, and tables.
+2.  **Create reproducible documents** - Produce professional reports with Quarto, including citations, figures, and tables.
+
+3.  **Practice open science** - Share your data and code openly, following best practices for reproducibility and collaboration.
+
+4.  **Build a portfolio** - Complete real-world projects that demonstrate your skills to future employers or collaborators.
 
 ## Textbooks and Materials
 
-We will rely entirely on open source and open access material for this course. We will use "R for Data Science" by Hadley Wickham, and "Tidyverse Skills for Data Science" by Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng, as complementary reading and learning material for this course. Additional readings will consist of blog posts, journal articles, and reports. All required readings and class material will be provided through this website.
+We will rely entirely on open source and open access material for this course. We will use "R for Data Science" by Hadley Wickham and "Tidyverse Skills for Data Science" by Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng, as complementary reading and learning material for this course. Additional readings will consist of blog posts, journal articles, and reports. All required readings and class material will be provided through this website.
 
 ## Course Calendar
 
@@ -84,11 +102,11 @@ readr::read_csv("data/tbl-01-ds4owd-002-course-schedule.csv") |>
 
 **Quiz**: A weekly quiz will be provided to test students' understanding of the material covered in the previous week. We expect the quiz to be completed within two weeks after the lecture. [Successful completion of the course will require students to complete all quizzes]{.highlight-peach}.
 
-**Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub.
+**Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1, are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub.
 
-**Readings**: Every week, additional readings will be provided that support students in learning the underlying concept that are taught during the class.
+**Readings**: Every week, additional readings will be provided that support students in learning the underlying concepts that are taught during the class.
 
-**Capstone Project**: A final capstone project provides students with an opportunity to apply their skills and techniques to real-world data sets. Detailed instructions for the capstone project will be provided. The project will be delivered as Quarto documents and students are asked to submit their work through GitHub. [Succesful completion of the capstone project is required for successful completion of the course]{.highlight-peach}.
+**Capstone Project**: A final capstone project provides students with an opportunity to apply their skills and techniques to real-world data sets. Detailed instructions for the capstone project will be provided. The project will be delivered as Quarto documents and students are asked to submit their work through GitHub. [Successful completion of the capstone project is required for successful completion of the course]{.highlight-peach}.
 
 # Attendance
 
@@ -96,4 +114,4 @@ We hope you can participate in the live lectures, as class participation improve
 
 # Code of Conduct
 
-This course and the openwashdata community follows a [code of conduct](code_of_conduct.html). Please ensure that you have read it.
+This course and the openwashdata community follow a [code of conduct](code_of_conduct.html). Please ensure that you have read it.
