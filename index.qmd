@@ -8,38 +8,37 @@ execute:
 
 Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meet you.
 
-We will meet on Zoom for 10 modules over 12 weeks (see Course Calendar below) at the following times:
+We will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at the following times:
 
 -   **Start:** 11th September 2025 - 2 pm to 4:30 pm CET
 -   **End:** 4th December 2025 - 2 pm to 4:30 pm CET
 
 We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course start.
 
-Sign up here: TODO (link will be shared soon)
+Sign up here: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD> (it will take about 15 minutes)
 
 ## Who can participate?
 
-To participate in this course, you need:
+To participate in this course, you need to:
 
--   to have a stable internet connection
--   to somewhat be connected to the greater Water, Sanitation and Hygiene (WASH) sector (yes, public health, solid waste management, global health engineering, and related topics also count)
--   to commit 10 \* 2.5 hours to participate in Zoom calls
--   to commit another 4 hours/week for readings and additional exercises for practice
--   to identify a dataset of your own or your organisation that you are interested to share with the public
--   an openess to new ideas and workflows that disrupt current practice
+- be somewhat connected to the greater Water, Sanitation and Hygiene (WASH) sector (yes, public health, solid waste management, global health engineering, and related topics also count)
+- commit 9 × 2.5 hours to participate in Zoom calls
+- commit another 3 hours/week for readings and additional exercises for practice
+- identify a dataset of your own or your organization that you're interested in sharing with the public
+- have an openness to new ideas and workflows that disrupt current practice
 
 ## What do we offer?
 
 This course is:
 
--   free
--   provides you with a certificate for successful completion
--   using exclusively tools that are free and open source
--   offers 1:1 coding support between lectures and beyond the course
+- free
+- provides you with a certificate for successful completion
+- uses exclusively tools that are free and open source
+- offers 1:1 coding support between lectures and beyond the course 
 
 ## Course Information
 
-This course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation. Students will learn how to help themselves using large language models (LLMs) and AI tools Perplexity and build upon the obtained skills to apply them to their data analysis projects.
+This course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation. 
 
 Topics include:
 
@@ -76,22 +75,24 @@ readr::read_csv("data/tbl-01-ds4owd-002-course-schedule.csv") |>
 |               |                                            |
 |---------------|--------------------------------------------|
 | **Monday**    |                                            |
-| **Tuesday**   | Module from 2 pm to 4:30 pm CET            |
+| **Tuesday**   | Office hours on Zoom from 2 pm to 3 pm CET |
 | **Wednesday** |                                            |
-| **Thursday**  | Office hours on Zoom (2 pm to 3:30 pm CET) |
+| **Thursday**  | Module on Zoom from 2 pm to 4:30 CET       |
 | **Friday**    |                                            |
 
 # Assignments
+
+**Quiz**: A weekly quiz will be provided to test students' understanding of the material covered in the previous week. We expect the quiz to be completed within two weeks after the lecture. [Successful completion of the course will require students to complete all quizzes]{.highlight-peach}.
 
 **Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub.
 
 **Readings**: Every week, additional readings will be provided that support students in learning the underlying concept that are taught during the class.
 
-**Capstone Project**: A final capstone project provides students with an opportunity to apply their skills and techniques to real-world data sets. Detailed instructions for the capstone project will be provided. The project will be delivered as Quarto documents and students are asked to submit their work through GitHub.
+**Capstone Project**: A final capstone project provides students with an opportunity to apply their skills and techniques to real-world data sets. Detailed instructions for the capstone project will be provided. The project will be delivered as Quarto documents and students are asked to submit their work through GitHub. [Succesful completion of the capstone project is required for successful completion of the course]{.highlight-peach}.
 
 # Attendance
 
-We hope you can participate in all classes. Class participation is an important component for successful completion of this course.
+We hope you can participate in the live lectures, as class participation improves your learning experience. [This year, we will record the Zoom sessions and make them available to all students. We will expect you to complete a homework quiz within two weeks after the lecture]{.highlight-peach}.
 
 # Code of Conduct
 
