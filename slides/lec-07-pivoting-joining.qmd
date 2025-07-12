@@ -702,7 +702,7 @@ Capstone project of Rainbow Train:
 │   │   ├── dictionary.csv
 │   │   └── faecal-sludge-analysis.csv
 │   └── raw
-│       └── Faecal sludge Analysis_05112023.xlsx
+│       └── Faecal sludge Analysis_05112025.xlsx
 ├── docs
 │   ├── index.html
 │   ├── index.qmd
@@ -755,18 +755,14 @@ countdown(10)
 
 ## Homework due date
 
-- Homework assignment due: [Monday, December 18th]{.highlight-yellow}
-- Feedback until: [Thursday, December 21st]{.highlight-yellow}
+- Homework assignment due: [Monday, November 3rd 2025]{.highlight-yellow}
+- Feedback until: [Thursday, November 6th 2025]{.highlight-yellow}
 
 # Wrap-up {background-color="#4C326A"}
 
-## Final student hours of 2023
+## Student hours
 
-- [Thursday, December 14th]{.highlight-yellow} at 2 pm CET
-
-## First student hours of 2024
-
-- [Thursday, January 11th]{.highlight-yellow} at 2 pm CET
+- Student hours continue as scheduled: [Fridays at 2 pm CET]{.highlight-yellow}
 
 ## Christmas break {.smaller}
 
@@ -779,7 +775,7 @@ countdown(10)
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
 
-## First lecture of 2024 {.smaller}
+## Next module {.smaller}
 
 [Tuesday, January 16th]{.highlight-yellow} at 2 pm CET
 

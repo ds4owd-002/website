@@ -677,7 +677,7 @@ knitr::include_graphics("img/lec-04/data-org-paper.png")
 ```
 
 ::: footer
-[Screenshot taken on 2023-11-21](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989?src=)
+[Screenshot taken on 2025-10-02](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989?src=)
 :::
 
 ## Data Organization in Spreadsheets
@@ -717,7 +717,7 @@ knitr::include_graphics("img/lec-04/data-org-views.png")
 
 
 ::: footer
-Journal: The American Statistician, [Screenshot taken on 2023-11-21](https://www.tandfonline.com/action/showMostReadArticles?journalCode=utas20)
+Journal: The American Statistician, [Screenshot taken on 2025-10-02](https://www.tandfonline.com/action/showMostReadArticles?journalCode=utas20)
 :::
 
 ## Data Organization in Spreadsheets
@@ -746,8 +746,8 @@ knitr::include_graphics("img/lec-04/data-org-license.png")
 
 ## Homework due date
 
--   Homework assignment due: [Monday, November 20th]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, November 23rd
+-   Homework assignment due: [Monday, October 6th 2025]{.highlight-yellow}
+-   Correction & feedback phase up to: Thursday, October 9th 2025
 
 # Wrap-up {background-color="#4C326A"}
 

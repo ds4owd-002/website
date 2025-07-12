@@ -803,11 +803,11 @@ Rules of `dplyr` functions:
 
 |          |                                           |
 |----------|-------------------------------------------|
-| **Monday**   |                |
-| **Tuesday**  |  Module from 2 pm to 4:30 pm CET                              |
-| **Wednesday** | |
-| **Thursday** | Office hours on Zoom (2 pm to 3:30 pm CET) |
-| **Friday**   |              |
+| **Monday**   | Homework due (starting from Module 2) |
+| **Tuesday**  |                                         |
+| **Wednesday** |                                        |
+| **Thursday** | Module from 2 pm to 4:30 pm CET |
+| **Friday**   | Office hours on Zoom (2 pm to 3:30 pm CET) |
 
 
 ## Homework assignments
@@ -837,7 +837,7 @@ Rules of `dplyr` functions:
 
 ## Homework due date
 
--   Homework assignment due: [Monday, November 6th]{.highlight-yellow}
+-   Homework assignment due: [Monday, September 15th 2025]{.highlight-yellow}
 
 # Wrap-up {background-color="#4C326A"}
 

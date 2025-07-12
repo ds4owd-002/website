@@ -17,7 +17,7 @@ library(tidyverse)
 grading <- read_csv(here::here("data/tbl-03-ds4owd-002-capstone-project-elements")) 
 ```
 
-The Capstone Project report is the final assignment for this course and a completion is required to receive a course certificate about successful participation.
+The Capstone Project report is the final assignment for this course and completion is required to receive a course certificate about successful participation.
 
 
 ## {{< fa bullseye >}} Learning Objectives
@@ -48,7 +48,7 @@ Establishing the GitHub repository with self-identified data was part of the hom
 - [Module 5 - Assignment 1](../assignments/md-05/am-05-1-project-data.qmd): Identify data for your capstone project
 - [Module 7 - Assignment 2](../assignments/md-07/am-07-2-project-metadata.qmd): Get going with your capstone project
 
-It is important that these two assignments are completed before continuing with the write up of the report as outlined on this page. 
+It is important that these two assignments are completed before continuing with the write up of the report as outlined on this page.
 
 ## {{< fa pen-clip >}} GitHub issue tracker
 
@@ -56,7 +56,7 @@ The GitHub issue tracker of each student's capstone project repository is used t
 
 ## {{< fa calendar-check >}} Submission due date
 
-The due date for submission of the report is **Tuesday, 13th February 2024**.
+The due date for submission of the report is **Tuesday, 3rd December 2025**.
 
 ## {{< fa list-check >}} Required items
 
