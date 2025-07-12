@@ -6,14 +6,14 @@ execute:
   warning: false
 ---
 
-Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meet you.
+Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meeting you.
 
 We will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at the following times:
 
 -   **Start:** 11th September 2025 - 2 pm to 4:30 pm CET
 -   **End:** 4th December 2025 - 2 pm to 4:30 pm CET
 
-We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course start.
+We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.
 
 Sign up here: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD> (it will take about 15 minutes)
 
@@ -38,7 +38,7 @@ This course is:
 
 ## Course Information
 
-This course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation. 
+This course provides learners with skills in using the collection of R tidyverse packages as a tool for data analysis, reproducible research, and communication. Lectures will be delivered through participatory live coding for students to learn how to write code in code-along exercises. We will use publicly available data related to waste management, air quality, and sanitation. 
 
 Topics include:
 
@@ -58,7 +58,7 @@ Topics include:
 
 ## Textbooks and Materials
 
-We will rely entirely on open source and open access material for this course. We will use "R for Data Science" by Hadley Wickham, and "Tidyverse Skills for Data Science" by Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng, as complementary reading and learning material for this course. Additional readings will consist of blog posts, journal articles, and reports. All required readings and class material will be provided through this website.
+We will rely entirely on open source and open access material for this course. We will use "R for Data Science" by Hadley Wickham and "Tidyverse Skills for Data Science" by Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng, as complementary reading and learning material for this course. Additional readings will consist of blog posts, journal articles, and reports. All required readings and class material will be provided through this website.
 
 ## Course Calendar
 
@@ -84,11 +84,11 @@ readr::read_csv("data/tbl-01-ds4owd-002-course-schedule.csv") |>
 
 **Quiz**: A weekly quiz will be provided to test students' understanding of the material covered in the previous week. We expect the quiz to be completed within two weeks after the lecture. [Successful completion of the course will require students to complete all quizzes]{.highlight-peach}.
 
-**Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1 are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub.
+**Homework assignments**: Each week will have at least one homework assignment. All assignments, but those for Week 1, are delivered as Quarto documents with instructions and some sample code. Students are required to submit their work through GitHub.
 
-**Readings**: Every week, additional readings will be provided that support students in learning the underlying concept that are taught during the class.
+**Readings**: Every week, additional readings will be provided that support students in learning the underlying concepts that are taught during the class.
 
-**Capstone Project**: A final capstone project provides students with an opportunity to apply their skills and techniques to real-world data sets. Detailed instructions for the capstone project will be provided. The project will be delivered as Quarto documents and students are asked to submit their work through GitHub. [Succesful completion of the capstone project is required for successful completion of the course]{.highlight-peach}.
+**Capstone Project**: A final capstone project provides students with an opportunity to apply their skills and techniques to real-world data sets. Detailed instructions for the capstone project will be provided. The project will be delivered as Quarto documents and students are asked to submit their work through GitHub. [Successful completion of the capstone project is required for successful completion of the course]{.highlight-peach}.
 
 # Attendance
 
@@ -96,4 +96,4 @@ We hope you can participate in the live lectures, as class participation improve
 
 # Code of Conduct
 
-This course and the openwashdata community follows a [code of conduct](code_of_conduct.html). Please ensure that you have read it.
+This course and the openwashdata community follow a [code of conduct](code_of_conduct.html). Please ensure that you have read it.
