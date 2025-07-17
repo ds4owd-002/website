@@ -15,7 +15,7 @@ We will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at 
 
 We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.
 
-Sign up here: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD> (it will take about 15 minutes)
+Sign up here: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD> (it will take about 15 minutes)
 
 ## Who can participate?
 
