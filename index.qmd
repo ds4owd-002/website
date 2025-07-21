@@ -17,6 +17,12 @@ We will use Posit Cloud infrastructure, so you do not need to install any softwa
 
 Sign up here: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD> (it will take about 15 minutes)
 
+## Q&A live event (2025-08-26)
+
+We are hosting a Q&A live event on **August 26th, 2025** at **1 pm CET**. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.
+
+Find all details here: <https://openwashdata.org/events/2025-08-26-ds4owd-qa/>
+
 ## Who can participate?
 
 To participate in this course, you need to:
@@ -26,8 +32,6 @@ To participate in this course, you need to:
 - commit another 3 hours/week for readings and additional exercises for practice
 - identify a dataset of your own or your organization that you're interested in sharing with the public
 - have an openness to new ideas and workflows that disrupt current practice
-
-
 
 ## Course Information
 
