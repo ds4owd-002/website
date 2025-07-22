@@ -4,7 +4,7 @@
     "href": "calendar.html",
     "title": "Course Calendar",
     "section": "",
-    "text": "date\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nConditions & Dates & Tables\nmodule 5\n\n\n16 October 2025\n6\nData types & Vectors & For Loops\nmodule 6\n\n\n23 October 2025\n7\nPivoting & joining data\nmodule 7\n\n\n30 October 2025\n8\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n06 November 2025\n9\nBonus module: Use of AI for coding support\nmodule 9\n\n\n13 November 2025\n10\nWork on Capstone project\nNA\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nFinal submission date of Capstone project\nNA\n\n\n04 December 2025\n13\nGraduation of openwashdata academy\nmodule 10",
+    "text": "date\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10",
     "crumbs": [
       "Course Calendar"
     ]
@@ -1018,7 +1018,7 @@
     "href": "slides/lec-04-tidy-data.html#learning-objectives-for-this-week",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\nLearners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports."
+    "text": "Learning Objectives (for this week)\n\nNA\nNA\nNA"
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#why-care-about-data-types",
@@ -1711,7 +1711,17 @@
     "href": "index.html",
     "title": "Course Overview",
     "section": "",
-    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nSign up here: https://ee-eu.kobotoolbox.org/single/7V3qeDYD (it will take about 15 minutes)",
+    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nSign up here: https://ee-eu.kobotoolbox.org/single/7V3qeDYD (it will take about 15 minutes)",
+    "crumbs": [
+      "Course Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#qa-live-event-2025-08-26",
+    "href": "index.html#qa-live-event-2025-08-26",
+    "title": "Course Overview",
+    "section": "Q&A live event (2025-08-26)",
+    "text": "Q&A live event (2025-08-26)\nWe are hosting a Q&A live event on August 26th, 2025 at 1 pm CET. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.\nFind all details here: https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/",
     "crumbs": [
       "Course Overview"
     ]
@@ -1757,11 +1767,11 @@
     ]
   },
   {
-    "objectID": "index.html#course-calendar",
-    "href": "index.html#course-calendar",
+    "objectID": "index.html#sec-course-calendar",
+    "href": "index.html#sec-course-calendar",
     "title": "Course Overview",
     "section": "Course Calendar",
-    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNo class\n\n\n16 October 2025\n6\nConditions & Dates & Tables\nmodule 5\n\n\n23 October 2025\n7\nData types & Vectors & For Loops\nmodule 6\n\n\n30 October 2025\n8\nPivoting & joining data\nmodule 7\n\n\n06 November 2025\n9\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n13 November 2025\n10\nBonus module: Use of AI for coding support\nmodule 9\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nFinal submission date of Capstone project\nNA\n\n\n11 December 2025\n14\nGraduation of openwashdata academy\nmodule 10",
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10",
     "crumbs": [
       "Course Overview"
     ]
@@ -2355,357 +2365,357 @@
   {
     "objectID": "slides/lec-07-pivoting-joining.html#learning-objectives-for-this-week",
     "href": "slides/lec-07-pivoting-joining.html#learning-objectives-for-this-week",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R."
+    "text": "Learning Objectives (for this week)\n\n\nLearners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports."
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
     "href": "slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Your turn: Discuss the reading",
     "text": "Your turn: Discuss the reading\n\nIn discussion groups of 3, share your examples and discuss how the recommendations would improve your workflows.\n\n\nIn your homework you have read Wilson et al. (2017): “Good enough practices in scientific computing”.\nYou chose one of the recommended practices (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:\nYou came up with a real-world example or scenario where the recommended practice could be applied in your research or academic work.\nYou are prepared to explain how the recommended practices would improve your workflows. This will be in the class setting as part of small discussion group (max 3 people).\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#pivoting-data",
     "href": "slides/lec-07-pivoting-joining.html#pivoting-data",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Pivoting data",
     "text": "Pivoting data"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#waste-characterisation-data",
     "href": "slides/lec-07-pivoting-joining.html#waste-characterisation-data",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Waste characterisation data",
     "text": "Waste characterisation data\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\ntotal\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n2.05\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n3.64\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n1.99\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n2.19\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n1.12\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n0.50\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n2.33\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99\n4.07"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#how-would-you-plot-this",
     "href": "slides/lec-07-pivoting-joining.html#how-would-you-plot-this",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "How would you plot this?",
     "text": "How would you plot this?"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#three-variables",
     "href": "slides/lec-07-pivoting-joining.html#three-variables",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Three variables",
     "text": "Three variables\n\n\n\n\n\nobjid\nlocation\ntotal\n\n\n\n\n900\neth\n2.05\n\n\n899\neth\n3.64\n\n\n921\nold_town\n1.99\n\n\n916\nold_town\n2.19\n\n\n900\neth\n1.12\n\n\n899\neth\n0.50\n\n\n921\nold_town\n2.33\n\n\n916\nold_town\n4.07"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics",
     "href": "slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Three variables -> three aesthetics",
     "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_untidy,\n       mapping = aes(x = objid, \n                     y = total, \n                     fill = location)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#and-how-to-plot-this",
     "href": "slides/lec-07-pivoting-joining.html#and-how-to-plot-this",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "And how to plot this?",
     "text": "And how to plot this?"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#reminder-data-in-wide-format",
     "href": "slides/lec-07-pivoting-joining.html#reminder-data-in-wide-format",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Reminder: Data (in wide format)",
     "text": "Reminder: Data (in wide format)\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#you-need-a-long-format",
     "href": "slides/lec-07-pivoting-joining.html#you-need-a-long-format",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "You need: A long format",
     "text": "You need: A long format\n\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics-1",
     "href": "slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Three variables -> three aesthetics",
     "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#how-to",
     "href": "slides/lec-07-pivoting-joining.html#how-to",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "How to",
     "text": "How to\n\nwaste_data_untidy \n\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#how-to-1",
     "href": "slides/lec-07-pivoting-joining.html#how-to-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "How to",
     "text": "How to\n\nwaste_data_untidy |&gt; \n  pivot_longer(cols = pet:other,\n               names_to = \"waste_category\",\n               values_to = \"weight\") \n\n\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics-2",
     "href": "slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics-2",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Three variables -> three aesthetics",
     "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises---pivoting-data",
     "href": "slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises---pivoting-data",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Your turn: md-07-exercises - pivoting data",
     "text": "Your turn: md-07-exercises - pivoting data\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-07a-pivoting-your-turn.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#take-a-break",
     "href": "slides/lec-07-pivoting-joining.html#take-a-break",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Take a break",
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#we",
     "href": "slides/lec-07-pivoting-joining.html#we",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "We…",
     "text": "We…\n…have multiple data frames\n…want to bring them together\n\nprofessions &lt;- read_csv(here::here(\"data/scientists/professions.csv\")) \ndates &lt;- read_csv(here::here(\"data/scientists/dates.csv\")) \nworks &lt;- read_csv(here::here(\"scientists/works.csv\"))"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#data-women-in-science",
     "href": "slides/lec-07-pivoting-joining.html#data-women-in-science",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Data: Women in science",
     "text": "Data: Women in science\nInformation on 10 women in science who changed the world\n\n\n\n\n\nname\n\n\n\n\nAda Lovelace\n\n\nMarie Curie\n\n\nJanaki Ammal\n\n\nChien-Shiung Wu\n\n\nKatherine Johnson\n\n\nRosalind Franklin\n\n\nVera Rubin\n\n\nGladys West\n\n\nFlossie Wong-Staal\n\n\nJennifer Doudna\n\n\n\n\n\n\n\nSource: Discover Magazine"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#inputs",
     "href": "slides/lec-07-pivoting-joining.html#inputs",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Inputs",
     "text": "Inputs\n\nprofessionsdatesworks\n\n\n\n\n\n\n\nname\nprofession\n\n\n\n\nAda Lovelace\nMathematician\n\n\nMarie Curie\nPhysicist and Chemist\n\n\nJanaki Ammal\nBotanist\n\n\nChien-Shiung Wu\nPhysicist\n\n\nKatherine Johnson\nMathematician\n\n\nRosalind Franklin\nChemist\n\n\nVera Rubin\nAstronomer\n\n\nGladys West\nMathematician\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n\n\nJennifer Doudna\nBiochemist\n\n\n\n\n\n\n\n\n\n\n\n\nname\nbirth_year\ndeath_year\n\n\n\n\nJanaki Ammal\n1897\n1984\n\n\nChien-Shiung Wu\n1912\n1997\n\n\nKatherine Johnson\n1918\n2020\n\n\nRosalind Franklin\n1920\n1958\n\n\nVera Rubin\n1928\n2016\n\n\nGladys West\n1930\nNA\n\n\nFlossie Wong-Staal\n1947\nNA\n\n\nJennifer Doudna\n1964\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nknown_for\n\n\n\n\nAda Lovelace\nfirst computer algorithm\n\n\nMarie Curie\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nVera Rubin\nexistence of dark matter\n\n\nGladys West\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#desired-output",
     "href": "slides/lec-07-pivoting-joining.html#desired-output",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Desired output",
     "text": "Desired output\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nBotanist\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\nMathematician\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\nChemist\n1920\n1958\nNA\n\n\nVera Rubin\nAstronomer\n1928\n2016\nexistence of dark matter\n\n\nGladys West\nMathematician\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\nBiochemist\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#inputs-reminder",
     "href": "slides/lec-07-pivoting-joining.html#inputs-reminder",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Inputs, reminder",
     "text": "Inputs, reminder\n\n\n\nnames(professions)\n\n[1] \"name\"       \"profession\"\n\nnames(dates)\n\n[1] \"name\"       \"birth_year\" \"death_year\"\n\nnames(works)\n\n[1] \"name\"      \"known_for\"\n\n\n\n\n\n\nnrow(professions)\n\n[1] 10\n\nnrow(dates)\n\n[1] 8\n\nnrow(works)\n\n[1] 9"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#joining-data-frames",
     "href": "slides/lec-07-pivoting-joining.html#joining-data-frames",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Joining data frames",
     "text": "Joining data frames\n\nsomething_join(x, y)\n\n\nleft_join(): all rows from x\nright_join(): all rows from y\nfull_join(): all rows from both x and y\n…"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#setup",
     "href": "slides/lec-07-pivoting-joining.html#setup",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Setup",
     "text": "Setup\nFor the next few slides…\n\n\n\nx &lt;- tibble(\n  id = c(1, 2, 3),\n  value_x = c(\"x1\", \"x2\", \"x3\")\n  )\n\n\nx\n\n# A tibble: 3 × 2\n     id value_x\n  &lt;dbl&gt; &lt;chr&gt;  \n1     1 x1     \n2     2 x2     \n3     3 x3     \n\n\n\n\n\n\ny &lt;- tibble(\n  id = c(1, 2, 4),\n  value_y = c(\"y1\", \"y2\", \"y4\")\n  )\n\n\ny\n\n# A tibble: 3 × 2\n     id value_y\n  &lt;dbl&gt; &lt;chr&gt;  \n1     1 y1     \n2     2 y2     \n3     4 y4"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#left_join",
     "href": "slides/lec-07-pivoting-joining.html#left_join",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "left_join()",
     "text": "left_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nleft_join(x, y)\n\n# A tibble: 3 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     3 x3      &lt;NA&gt;"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#left_join-1",
     "href": "slides/lec-07-pivoting-joining.html#left_join-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "left_join()",
     "text": "left_join()\n\nprofessions %&gt;%\n  left_join(dates) \n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\n\n\nJanaki Ammal\nBotanist\n1897\n1984\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\n\n\nKatherine Johnson\nMathematician\n1918\n2020\n\n\nRosalind Franklin\nChemist\n1920\n1958\n\n\nVera Rubin\nAstronomer\n1928\n2016\n\n\nGladys West\nMathematician\n1930\nNA\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\n\n\nJennifer Doudna\nBiochemist\n1964\nNA"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#right_join",
     "href": "slides/lec-07-pivoting-joining.html#right_join",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "right_join()",
     "text": "right_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nright_join(x, y)\n\n# A tibble: 3 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     4 &lt;NA&gt;    y4"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#right_join-1",
     "href": "slides/lec-07-pivoting-joining.html#right_join-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "right_join()",
     "text": "right_join()\n\nprofessions %&gt;%\n  right_join(dates)\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\n\n\n\n\nJanaki Ammal\nBotanist\n1897\n1984\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\n\n\nKatherine Johnson\nMathematician\n1918\n2020\n\n\nRosalind Franklin\nChemist\n1920\n1958\n\n\nVera Rubin\nAstronomer\n1928\n2016\n\n\nGladys West\nMathematician\n1930\nNA\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\n\n\nJennifer Doudna\nBiochemist\n1964\nNA"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#full_join",
     "href": "slides/lec-07-pivoting-joining.html#full_join",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "full_join()",
     "text": "full_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfull_join(x, y)\n\n# A tibble: 4 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     3 x3      &lt;NA&gt;   \n4     4 &lt;NA&gt;    y4"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#full_join-1",
     "href": "slides/lec-07-pivoting-joining.html#full_join-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "full_join()",
     "text": "full_join()\n\ndates %&gt;%\n  full_join(works) \n\n\n\n\n\n\n\n\n\n\n\n\nname\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nJanaki Ammal\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\n1920\n1958\nNA\n\n\nVera Rubin\n1928\n2016\nexistence of dark matter\n\n\nGladys West\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes\n\n\nAda Lovelace\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#putting-it-altogether",
     "href": "slides/lec-07-pivoting-joining.html#putting-it-altogether",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Putting it altogether",
     "text": "Putting it altogether\n\nprofessions %&gt;%\n  left_join(dates) %&gt;%\n  left_join(works) \n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nBotanist\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\nMathematician\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\nChemist\n1920\n1958\nNA\n\n\nVera Rubin\nAstronomer\n1928\n2016\nexistence of dark matter\n\n\nGladys West\nMathematician\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\nBiochemist\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#metadata-data-about-data",
     "href": "slides/lec-07-pivoting-joining.html#metadata-data-about-data",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Metadata: data about data",
     "text": "Metadata: data about data\nWHAT!?"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#faecal-sludge-samples",
     "href": "slides/lec-07-pivoting-joining.html#faecal-sludge-samples",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Faecal sludge samples",
     "text": "Faecal sludge samples\nImagine:\n\nyou are new to WASH research and you have never heard of feacal sludge management.\nyou are interested in learning more about the topic and you want to find some data to play with.\nyou find a publication with a dataset on faecal sludge characteristics."
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#faecal-sludge-samples-1",
     "href": "slides/lec-07-pivoting-joining.html#faecal-sludge-samples-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Faecal sludge samples",
     "text": "Faecal sludge samples\nYou download the XLSX file that contains the data and you open it in Excel. You see the following:"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#faecal-sludge-samples-2",
     "href": "slides/lec-07-pivoting-joining.html#faecal-sludge-samples-2",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Faecal sludge samples",
     "text": "Faecal sludge samples\n\n\nOpen questions:\n\nWhat unit does users refer to?\nWhat does ts stand for?\nThe date of what?\nWhere was this data collected?\nWhich method was used to collect the samples?\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestions that only the original author may have the answers to."
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#you-as-an-author",
     "href": "slides/lec-07-pivoting-joining.html#you-as-an-author",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "You as an author",
     "text": "You as an author\nhave the chance to document your data properly once to make it easier for everyone else to know what it contains."
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#documentation",
     "href": "slides/lec-07-pivoting-joining.html#documentation",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Documentation",
     "text": "Documentation\nGoes into a separate README file\n\nGeneral information (authors, title, date, geographic location, etc.)\nSharing / access information (license, links to publications, citation)\nMethodological information (sampling, analysis, etc.)"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#data-dictionary",
     "href": "slides/lec-07-pivoting-joining.html#data-dictionary",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Data dictionary",
     "text": "Data dictionary\nGoes into a separate file (dictionary.csv).\nMinimum required information\n\nVariable name\nVariable description"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples",
     "href": "slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Data dictionary for faecal sludge samples",
     "text": "Data dictionary for faecal sludge samples\n\nEdit in spreadsheet software (e.g. MS Excel)"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples-1",
     "href": "slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Data dictionary for faecal sludge samples",
     "text": "Data dictionary for faecal sludge samples\n\nSave as CSV file"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#directory-tree-of-a-project",
     "href": "slides/lec-07-pivoting-joining.html#directory-tree-of-a-project",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Directory tree of a project",
     "text": "Directory tree of a project\nCapstone project of Rainbow Train: &lt;https://github.com/ds4owd-002/project-rainbow-train&gt;\n.\n├── R\n│   └── 01-data-preparation.R\n├── data\n│   ├── processed\n│   │   ├── README.md\n│   │   ├── dictionary.csv\n│   │   └── faecal-sludge-analysis.csv\n│   └── raw\n│       └── Faecal sludge Analysis_05112025.xlsx\n├── docs\n│   ├── index.html\n│   ├── index.qmd\n│   └── index_files\n│       └── libs\n└── project.Rproj"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#directory-tree-of-a-project-1",
     "href": "slides/lec-07-pivoting-joining.html#directory-tree-of-a-project-1",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Directory tree of a project",
     "text": "Directory tree of a project\n\nR folder: R scripts for data cleaning\ndata folder: raw and processed data\ndocs folder: the actual report that imports the processed data\nproject.Rproj: RStudio project file"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#inside-the-data-folder",
     "href": "slides/lec-07-pivoting-joining.html#inside-the-data-folder",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Inside the data folder",
     "text": "Inside the data folder\n\nraw: data as it was downloaded / as you received it (e.g. Excel file)\nprocessed: data that is ready to be used in the report"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#inside-the-processed-folder",
     "href": "slides/lec-07-pivoting-joining.html#inside-the-processed-folder",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Inside the processed folder",
     "text": "Inside the processed folder\n\nREADME.md: general information about the data\ndictionary.csv: data dictionary\nfaecal-sludge-analysis.csv: cleaned data for which dictionary.csv applies"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#my-turn-a-tour-of-rainbow-trains-project",
     "href": "slides/lec-07-pivoting-joining.html#my-turn-a-tour-of-rainbow-trains-project",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "My turn: A tour of Rainbow Train’s project",
     "text": "My turn: A tour of Rainbow Train’s project\n\n\nSit back and enjoy!\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#module-7-documentation",
     "href": "slides/lec-07-pivoting-joining.html#module-7-documentation",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Module 7 documentation",
     "text": "Module 7 documentation\n\nds4owd-002.github.io/website//modules/md-07.html"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#homework-due-date",
     "href": "slides/lec-07-pivoting-joining.html#homework-due-date",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Homework due date",
     "text": "Homework due date\n\nHomework assignment due: Monday, November 3rd 2025\nFeedback until: Thursday, November 6th 2025"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#student-hours",
     "href": "slides/lec-07-pivoting-joining.html#student-hours",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Student hours",
     "text": "Student hours\n\nStudent hours continue as scheduled: Fridays at 2 pm CET"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#christmas-break",
     "href": "slides/lec-07-pivoting-joining.html#christmas-break",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Christmas break",
     "text": "Christmas break\n\nLars will be on vacation from December 22nd until January 15th\nMian and Sophia will be on vacation from December 22nd until January 8th\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#next-module",
     "href": "slides/lec-07-pivoting-joining.html#next-module",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Next module",
     "text": "Next module\nTuesday, January 16th at 2 pm CET\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#course-calendar",
     "href": "slides/lec-07-pivoting-joining.html#course-calendar",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Course calendar",
-    "text": "Course calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNo class\n\n\n16 October 2025\n6\nConditions & Dates & Tables\nmodule 5\n\n\n23 October 2025\n7\nData types & Vectors & For Loops\nmodule 6\n\n\n30 October 2025\n8\nPivoting & joining data\nmodule 7\n\n\n06 November 2025\n9\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n13 November 2025\n10\nBonus module: Use of AI for coding support\nmodule 9\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nFinal submission date of Capstone project\nNA\n\n\n11 December 2025\n14\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 Oktober 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 Oktober 2025\n5\nNo class\nNA\n\n\n16 Oktober 2025\n6\nNo class\nNA\n\n\n23 Oktober 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 Oktober 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 Dezember 2025\n13\nWork on Capstone project\nNA\n\n\n11 Dezember 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 Dezember 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#thanks",
     "href": "slides/lec-07-pivoting-joining.html#thanks",
-    "title": "Pivoting & Joining & Metadata",
+    "title": "Pivoting & joining data",
     "section": "Thanks! 🌻",
     "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub"
   },
@@ -2749,7 +2759,7 @@
     "href": "slides/lec-01-welcome.html#course-calendar",
     "title": "Welcome & get ready for the course",
     "section": "Course Calendar",
-    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNo class\n\n\n16 October 2025\n6\nConditions & Dates & Tables\nmodule 5\n\n\n23 October 2025\n7\nData types & Vectors & For Loops\nmodule 6\n\n\n30 October 2025\n8\nPivoting & joining data\nmodule 7\n\n\n06 November 2025\n9\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n13 November 2025\n10\nBonus module: Use of AI for coding support\nmodule 9\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nFinal submission date of Capstone project\nNA\n\n\n11 December 2025\n14\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 Oktober 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 Oktober 2025\n5\nNo class\nNA\n\n\n16 Oktober 2025\n6\nNo class\nNA\n\n\n23 Oktober 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 Oktober 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 Dezember 2025\n13\nWork on Capstone project\nNA\n\n\n11 Dezember 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 Dezember 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-01-welcome.html#course-structure",
@@ -3575,14 +3585,14 @@
     "href": "slides/lec-06-vectors.html#course-calendar",
     "title": "Data types & Vectors & For Loops",
     "section": "Course calendar",
-    "text": "Course calendar\nChanges to the course calendar\n\n19th December 2023: no class\n23rd January 2024: openwashdata webinar: a data sharing workflow that may please the publishers\n13th February 2024: submission of capstone project report\n\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nConditions & Dates & Tables\nmodule 5\n\n\n16 October 2025\n6\nData types & Vectors & For Loops\nmodule 6\n\n\n23 October 2025\n7\nPivoting & joining data\nmodule 7\n\n\n30 October 2025\n8\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n06 November 2025\n9\nBonus module: Use of AI for coding support\nmodule 9\n\n\n13 November 2025\n10\nWork on Capstone project\nNA\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nFinal submission date of Capstone project\nNA\n\n\n04 December 2025\n13\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course calendar\nChanges to the course calendar\n\n19th December 2023: no class\n23rd January 2024: openwashdata webinar: a data sharing workflow that may please the publishers\n13th February 2024: submission of capstone project report\n\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 Oktober 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 Oktober 2025\n5\nNo class\nNA\n\n\n16 Oktober 2025\n6\nNo class\nNA\n\n\n23 Oktober 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 Oktober 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 Dezember 2025\n13\nWork on Capstone project\nNA\n\n\n11 Dezember 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 Dezember 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-06-vectors.html#learning-objectives-for-this-week",
     "href": "slides/lec-06-vectors.html#learning-objectives-for-this-week",
     "title": "Data types & Vectors & For Loops",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R."
+    "text": "Learning Objectives (for this week)"
   },
   {
     "objectID": "slides/lec-06-vectors.html#cross-references",
