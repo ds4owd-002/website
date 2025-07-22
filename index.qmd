@@ -21,7 +21,7 @@ Sign up here: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD> (it will take abou
 
 We are hosting a [Q&A live event on **August 26th, 2025** at **1 pm CET**]{.highlight-peach}. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.
 
-Find all details here: <https://openwashdata.org/events/2025-08-26-ds4owd-qa/>
+Find all details here: <https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/>
 
 ## Who can participate?
 
