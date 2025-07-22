@@ -3,7 +3,7 @@ title: "{{< var md-05.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 date-format: "MMM D, YYYY"
-date: "2025-10-30"
+date: "2025-10-23"
 format: 
   revealjs: 
     theme: slides.scss
