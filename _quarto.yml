@@ -13,6 +13,11 @@ website:
   repo-url: "https://github.com/ds4owd-002"
   favicon: "img/OWD-logo-18.png"
   search: false
+    announcement:
+    content: "Join our Q&A live event on August 26th, 2025 at 1 pm CET! Ask questions about the course, content, or logistics. [More info →](https://openwashdata.org/events/2025-08-26-ds4owd-qa/)"
+    position: below-navbar
+    dismissable: true
+    icon: "mortarboard"
   page-footer: 
     left: | 
         This course is part of the [openwashdata project](https://openwashdata.org/) supported by the 
