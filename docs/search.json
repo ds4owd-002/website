@@ -1711,7 +1711,7 @@
     "href": "index.html",
     "title": "Course Overview",
     "section": "",
-    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nSign up here: https://ee-eu.kobotoolbox.org/single/7V3qeDYD (it will take about 15 minutes)",
+    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Section 0.6) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nSign up here: https://ee-eu.kobotoolbox.org/single/7V3qeDYD (it will take about 15 minutes)",
     "crumbs": [
       "Course Overview"
     ]
@@ -4201,5 +4201,15 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
+  },
+  {
+    "objectID": "index.html#sec-course-calendar",
+    "href": "index.html#sec-course-calendar",
+    "title": "Course Overview",
+    "section": "Course Calendar",
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNo class\n\n\n16 October 2025\n6\nConditions & Dates & Tables\nmodule 5\n\n\n23 October 2025\n7\nData types & Vectors & For Loops\nmodule 6\n\n\n30 October 2025\n8\nPivoting & joining data\nmodule 7\n\n\n06 November 2025\n9\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n13 November 2025\n10\nBonus module: Use of AI for coding support\nmodule 9\n\n\n20 November 2025\n11\nWork on Capstone project\nNA\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nFinal submission date of Capstone project\nNA\n\n\n11 December 2025\n14\nGraduation of openwashdata academy\nmodule 10",
+    "crumbs": [
+      "Course Overview"
+    ]
   }
 ]

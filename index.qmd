@@ -8,7 +8,7 @@ execute:
 
 Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meeting you.
 
-We will meet on Zoom for 9 modules over 12 weeks (see Course Calendar below) at the following times:
+We will meet on Zoom for 9 modules over 12 weeks (see @sec-course-calendar) at the following times:
 
 -   **Start:** 11th September 2025 - 2 pm to 4:30 pm CET
 -   **End:** 4th December 2025 - 2 pm to 4:30 pm CET
@@ -19,7 +19,7 @@ Sign up here: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD> (it will take abou
 
 ## Q&A live event (2025-08-26)
 
-We are hosting a Q&A live event on **August 26th, 2025** at **1 pm CET**. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.
+We are hosting a [Q&A live event on **August 26th, 2025** at **1 pm CET**]{.highlight-peach}. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.
 
 Find all details here: <https://openwashdata.org/events/2025-08-26-ds4owd-qa/>
 
@@ -73,7 +73,7 @@ By the end of this course, you'll not only have technical skills but also unders
 
 We will rely entirely on open source and open access material for this course. We will use "R for Data Science" by Hadley Wickham and "Tidyverse Skills for Data Science" by Carrie Wright, Shannon E. Ellis, Stephanie C. Hicks and Roger D. Peng, as complementary reading and learning material for this course. Additional readings will consist of blog posts, journal articles, and reports. All required readings and class material will be provided through this website.
 
-## Course Calendar
+## Course Calendar {#sec-course-calendar}
 
 ```{r}
 readr::read_csv("data/tbl-01-ds4owd-002-course-schedule.csv") |> 
