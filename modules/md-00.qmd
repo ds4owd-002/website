@@ -6,6 +6,14 @@ editor: source
 
 Welcome to the pre-course Q&A session for the data science for openwashdata course! This session was held before the official start of the course to address questions about the course content, logistics, and expectations.
 
+## {{< fa display >}} Slides
+
+[View slides in full screen](../slides/lec-00-qa-session.html) | [Download slides as PDF](https://github.com/ds4owd-002/website/raw/main/slides/lec-00-qa-session.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="../slides/lec-00-qa-session.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## {{< fa video >}} Session Recording
 
 You can access the Zoom recording of our live Q&A session held on August 26th, 2025 at 1 pm CET.
