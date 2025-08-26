@@ -50,3 +50,6 @@ node_modules/
 # CLAUDE.md files shouldn't be rendered
 CLAUDE.md
 docs/CLAUDE.html
+
+# registration form
+registration_form.xlsx
