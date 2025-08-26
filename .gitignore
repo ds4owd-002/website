@@ -46,3 +46,7 @@ vignettes/*.pdf
 _extensions/
 
 node_modules/
+
+# CLAUDE.md files shouldn't be rendered
+CLAUDE.md
+docs/CLAUDE.html
