@@ -16,6 +16,10 @@ platforms:
   posit-cloud-access: "join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu"
   pre-course-survey: "https://ee-eu.kobotoolbox.org/x/7V3qeDYD"
 
+md-00:
+  title: "Q&A Session - Questions about the course"
+  date: "2025-08-26"
+
 md-01:
   title: "Welcome & get ready for the course"
   date: "2025-09-11"

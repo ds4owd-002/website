@@ -1,0 +1,50 @@
+---
+title: "Pre-Course Q&A"
+subtitle: "{{< var md-00.title >}}"
+editor: source
+---
+
+Welcome to the pre-course Q&A session for the data science for openwashdata course! This session was held before the official start of the course to address questions about the course content, logistics, and expectations.
+
+## {{< fa video >}} Session Recording
+
+You can access the Zoom recording of our live Q&A session held on August 26th, 2025 at 1 pm CET.
+
+*Note: The video link will be shared once the recording is available.*
+
+## {{< fa calendar >}} Event Details
+
+For more information about the Q&A session, including the original event announcement and schedule, visit the [event page](https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/).
+
+## {{< fa file-lines >}} Shared Notes
+
+During the session, we used a collaborative Google Doc to capture questions and answers. Access the [Google Doc with shared notes](https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/#google-doc-notes) from our Q&A session.
+
+## {{< fa question-circle >}} Key Topics Covered
+
+During the Q&A session, we discussed:
+
+- Course prerequisites and technical requirements
+- Time commitment and course schedule
+- Capstone project expectations
+- Support resources and communication channels
+- Getting started with R and Posit Cloud
+- GitHub setup and collaboration
+
+## {{< fa arrow-right >}} Next Steps
+
+After reviewing this Q&A session:
+
+1. Complete the [pre-course survey]({{< var platforms.pre-course-survey >}}) if you haven't already
+2. Join the course [Posit Cloud workspace]({{< var platforms.posit-cloud >}})
+3. Set up your GitHub account
+4. Join the course communication channels (Element/Matrix)
+5. Get ready for [Module 1](md-01.qmd) starting on {{< var md-01.date >}}
+
+## {{< fa comments >}} Questions?
+
+If you have additional questions after watching the recording:
+
+- Post in the course Element/Matrix chat
+- Email the instructor at ghe@mavt.ethz.ch
+- Bring your questions to Module 1
