@@ -1808,7 +1808,7 @@
     "href": "assignments/md-01/am-01-1-posit.html",
     "title": "Working with R, RStudio on Posit Cloud",
     "section": "",
-    "text": "Log into Posit Cloud with GitHub account\nHere are the instructions to login to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: &lt;https://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu&gt;",
+    "text": "Log into Posit Cloud with GitHub account\nHere are the instructions to login to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu",
     "crumbs": [
       "Module 01",
       "am-01: Posit Cloud"
@@ -3990,7 +3990,7 @@
     "href": "modules/md-00.html#key-topics-covered",
     "title": "Pre-Course Q&A",
     "section": " Key Topics Covered",
-    "text": "Key Topics Covered\nDuring the Q&A session, we discussed:\n\nCourse prerequisites and technical requirements\nTime commitment and course schedule\nCapstone project expectations\nSupport resources and communication channels\nGetting started with R and Posit Cloud\nGitHub setup and collaboration",
+    "text": "Key Topics Covered\nDuring the Q&A session, we discussed:\n\nCourse prerequisites and technical requirements\nTime commitment and course schedule\nCapstone project expectations\nGitHub setup and collaboration",
     "crumbs": [
       "Pre-Course Q&A"
     ]

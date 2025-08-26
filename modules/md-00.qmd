@@ -27,8 +27,6 @@ During the Q&A session, we discussed:
 - Course prerequisites and technical requirements
 - Time commitment and course schedule
 - Capstone project expectations
-- Support resources and communication channels
-- Getting started with R and Posit Cloud
 - GitHub setup and collaboration
 
 ## {{< fa arrow-right >}} Next Steps
