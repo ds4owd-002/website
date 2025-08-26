@@ -16,4 +16,4 @@ Note that you will need to have a GitHub account in order to use this login meth
 
 ### Join the course workspace on Posit Cloud
 
--   Open this link: <{{< var platforms.posit-cloud >}}/{{< var platforms.posit-cloud-access >}}>
+-   Open this link: [{{< var platforms.posit-cloud >}}/{{< var platforms.posit-cloud-access >}}]({{< var platforms.posit-cloud >}}/{{< var platforms.posit-cloud-access >}})
