@@ -35,7 +35,7 @@ While we are getting ready, please check for this email from GitHub and [accept 
 
 # Welcome! `r emo::ji("wave")` {background-color="#4C326A"}
 
-## Meet the team
+## Meet the team (TODO: Add a third person Nicoló Massari with each person taking up 33% of the slide, make images smaller and align left)
 
 ::: columns
 ::: {.column width="50%"}
@@ -60,7 +60,7 @@ While we are getting ready, please check for this email from GitHub and [accept 
 
 
 
-## Learning Goals (for the course)
+## Learning Goals (for the course) (TODO: underline learning goals instead of bold)
 
 1.  **Master data science tools** - Use [(R, RStudio IDE, Git, GitHub, tidyverse, Quarto)]{.highlight-yellow} to analyze and communicate data effectively.
 
@@ -138,9 +138,9 @@ readr::read_csv("../data/tbl-01-ds4owd-002-course-schedule.csv") |>
 
 ## Getting help
 
--   During [my turn]{.highlight-yellow} and [our turn]{.highlight-yellow} segments: Please keep your microphone on mute. Send message to the [Zoom chat]{.highlight-yellow} Mian and Sophia will support you.
+-   During [my turn]{.highlight-yellow} and [our turn]{.highlight-yellow} segments: Please keep your microphone on mute. Send message to the [Zoom chat]{.highlight-yellow} Adriana and Nicoló will support you
 
--   During [your turn]{.highlight-yellow} segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in pairs. 
+-   During [your turn]{.highlight-yellow} segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in groups of 2 to 4 people.
 
 
 ## Platforms and Tools
@@ -155,6 +155,21 @@ readr::read_csv("../data/tbl-01-ds4owd-002-course-schedule.csv") |>
 ## Bookmark {.center-align .large}
 
 [{{< var course.site-short >}}]({{< var course.site >}})
+
+## Our turn
+
+::: task
+We will create a bookmarks folder for this course.
+:::
+
+```{r}
+knitr::include_graphics(here::here("slides/img/lec-01/github-notifications-settings.png"))
+```
+
+
+```{r}
+countdown(5)
+```
 
 ## Learning Objectives (for this week)
 
@@ -201,11 +216,11 @@ Artwork from [\@juliesquid](https://twitter.com/juliesquid) for [\@openscapes](h
 
 ::: columns
 ::: {.column width="50%"}
-One screen ![](img/lec-01/bram-naus-N1gUD_dCvJE-unsplash.jpg)
+One computer screen ![](img/lec-01/bram-naus-N1gUD_dCvJE-unsplash.jpg)
 :::
 
 ::: {.column width="50%"}
-Two screens or more ![](img/lec-01/daniel-korpai-vHVfpi3h5xk-unsplash.jpg)
+Two or more computer screens ![](img/lec-01/daniel-korpai-vHVfpi3h5xk-unsplash.jpg)
 :::
 :::
 

@@ -27,23 +27,23 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html",
-    "href": "modules/md-06.html",
-    "title": "Module 6",
-    "section": "",
-    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
+    "objectID": "modules/md-09.html#assignments",
+    "href": "modules/md-09.html#assignments",
+    "title": "Module 9",
+    "section": " Assignments",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-26\n\nNo assignments\nYou can work on your capstone project report",
     "crumbs": [
-      "Module 06"
+      "Module 09"
     ]
   },
   {
-    "objectID": "modules/md-06.html#learning-objectives",
-    "href": "modules/md-06.html#learning-objectives",
-    "title": "Module 6",
-    "section": "",
-    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
+    "objectID": "modules/md-09.html#quiz",
+    "href": "modules/md-09.html#quiz",
+    "title": "Module 9",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-12-03\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
-      "Module 06"
+      "Module 09"
     ]
   },
   {
@@ -71,7 +71,17 @@
     "href": "modules/md-06.html#assignments",
     "title": "Module 6",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 28th October 2025.\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-05\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 06"
+    ]
+  },
+  {
+    "objectID": "modules/md-06.html#quiz",
+    "href": "modules/md-06.html#quiz",
+    "title": "Module 6",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-12\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 06"
     ]
@@ -149,7 +159,17 @@
     "href": "modules/md-01.html#assignments",
     "title": "Module 1",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignments by Monday, 16th September 2025. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: Interaction with GitHub\n\nThank you for working through these assignments.",
+    "text": "Assignments\nDue date: Wednesday, 2025-09-17\nPlease complete the following assignments before the due date. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: Interaction with GitHub\n\nThank you for working through these assignments.",
+    "crumbs": [
+      "Module 01"
+    ]
+  },
+  {
+    "objectID": "modules/md-01.html#quiz",
+    "href": "modules/md-01.html#quiz",
+    "title": "Module 1",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-09-24\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 01"
     ]
@@ -199,7 +219,17 @@
     "href": "modules/md-02.html#assignments",
     "title": "Module 2",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 23rd September 2025.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-09-24\nPlease complete the following assignment before the due date.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 02"
+    ]
+  },
+  {
+    "objectID": "modules/md-02.html#quiz",
+    "href": "modules/md-02.html#quiz",
+    "title": "Module 2",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-10-01\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 02"
     ]
@@ -993,7 +1023,7 @@
     "href": "slides/lec-01-welcome.html#course-calendar",
     "title": "Welcome & get ready for the course",
     "section": "Course Calendar",
-    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 Oktober 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 Oktober 2025\n5\nNo class\nNA\n\n\n16 Oktober 2025\n6\nNo class\nNA\n\n\n23 Oktober 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 Oktober 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 Dezember 2025\n13\nWork on Capstone project\nNA\n\n\n11 Dezember 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 Dezember 2025\n15\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-01-welcome.html#course-structure",
@@ -1028,7 +1058,7 @@
     "href": "slides/lec-01-welcome.html#getting-help",
     "title": "Welcome & get ready for the course",
     "section": "Getting help",
-    "text": "Getting help\n\nDuring my turn and our turn segments: Please keep your microphone on mute. Send message to the Zoom chat Mian and Sophia will support you.\nDuring your turn segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in pairs."
+    "text": "Getting help\n\nDuring my turn and our turn segments: Please keep your microphone on mute. Send message to the Zoom chat Adriana and Nicoló will support you\nDuring your turn segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in groups of 2 to 4 people."
   },
   {
     "objectID": "slides/lec-01-welcome.html#platforms-and-tools",
@@ -1112,7 +1142,7 @@
     "href": "slides/lec-01-welcome.html#screen-setup---poll",
     "title": "Welcome & get ready for the course",
     "section": "Screen setup - Poll",
-    "text": "Screen setup - Poll\n\n\nOne screen \n\nTwo screens or more"
+    "text": "Screen setup - Poll\n\n\nOne computer screen \n\nTwo or more computer screens"
   },
   {
     "objectID": "slides/lec-01-welcome.html#meeting-you-where-you-are",
@@ -1343,14 +1373,14 @@
     "href": "slides/lec-01-welcome.html#weekly-structure",
     "title": "Welcome & get ready for the course",
     "section": "Weekly Structure",
-    "text": "Weekly Structure\n\n\n\nMonday\nHomework due (starting from Module 2)\n\n\nTuesday\n\n\n\nWednesday\n\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday\nOffice hours on Zoom (2 pm to 3:30 pm CET)"
+    "text": "Weekly Structure\n\n\n\nMonday\nHomework due (starting from Module 2)\n\n\nTuesday\nOffice hours on Zoom (2 pm to 3 pm CET)\n\n\nWednesday\n\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday"
   },
   {
     "objectID": "slides/lec-01-welcome.html#homework-assignments",
     "href": "slides/lec-01-welcome.html#homework-assignments",
     "title": "Welcome & get ready for the course",
     "section": "Homework assignments",
-    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
+    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nHomework due Wednesdays before next module\nQuiz due one week after homework\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
   },
   {
     "objectID": "slides/lec-01-welcome.html#capstone-project",
@@ -1371,7 +1401,7 @@
     "href": "slides/lec-01-welcome.html#homework-due-date",
     "title": "Welcome & get ready for the course",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, September 15th 2025"
+    "text": "Homework due date\n\nHomework assignment due: Wednesday, 2025-09-17\nQuiz due: Wednesday, 2025-09-24"
   },
   {
     "objectID": "slides/lec-01-welcome.html#thanks",
@@ -4052,7 +4082,17 @@
     "href": "modules/md-03.html#assignments",
     "title": "Module 3",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 30th September 2025.\n\nAssignment 1: Data transformation\nAssignment 2: Create a spreadsheet\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-10-01\n\nAssignment 1: Data transformation\nAssignment 2: Create a spreadsheet\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 03"
+    ]
+  },
+  {
+    "objectID": "modules/md-03.html#quiz",
+    "href": "modules/md-03.html#quiz",
+    "title": "Module 3",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-10-08\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 03"
     ]
@@ -4152,7 +4192,17 @@
     "href": "modules/md-05.html#assignments",
     "title": "Module 5",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 21st October 2025.\n\nAssignment 1: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-10-29\n\nAssignment 1: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 05"
+    ]
+  },
+  {
+    "objectID": "modules/md-05.html#quiz",
+    "href": "modules/md-05.html#quiz",
+    "title": "Module 5",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-05\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 05"
     ]
@@ -4202,7 +4252,17 @@
     "href": "modules/md-04.html#assignments",
     "title": "Module 4",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 7th October 2025.\n\nAssignment 1: Data organisation in spreadsheets\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-10-22\n\nAssignment 1: Data organisation in spreadsheets\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 04"
+    ]
+  },
+  {
+    "objectID": "modules/md-04.html#quiz",
+    "href": "modules/md-04.html#quiz",
+    "title": "Module 4",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-10-29\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 04"
     ]
@@ -4212,7 +4272,7 @@
     "href": "modules/md-07.html",
     "title": "Module 7",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
     "crumbs": [
       "Module 07"
     ]
@@ -4222,7 +4282,7 @@
     "href": "modules/md-07.html#learning-objectives",
     "title": "Module 7",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
     "crumbs": [
       "Module 07"
     ]
@@ -4252,7 +4312,17 @@
     "href": "modules/md-07.html#assignments",
     "title": "Module 7",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 4th November 2025.\n\nAssignment 1: Pivot your data\nAssignment 2: Get going with your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-12\n\nAssignment 1: Pivot your data\nAssignment 2: Get going with your capstone project\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 07"
+    ]
+  },
+  {
+    "objectID": "modules/md-07.html#quiz",
+    "href": "modules/md-07.html#quiz",
+    "title": "Module 7",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-19\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 07"
     ]
@@ -4262,7 +4332,7 @@
     "href": "modules/md-08.html",
     "title": "Module 8",
     "section": "",
-    "text": "Learners can find resources to continue their data science journey.\nLearners can identify where and how to contact the openwashdata team for support with data sharing.\nLearners can describe the skills and compentencies they have obtained in this course.",
+    "text": "Learners can apply the skills obtained during the course to write a short data analysis project report.",
     "crumbs": [
       "Module 08"
     ]
@@ -4272,7 +4342,7 @@
     "href": "modules/md-08.html#learning-objectives",
     "title": "Module 8",
     "section": "",
-    "text": "Learners can find resources to continue their data science journey.\nLearners can identify where and how to contact the openwashdata team for support with data sharing.\nLearners can describe the skills and compentencies they have obtained in this course.",
+    "text": "Learners can apply the skills obtained during the course to write a short data analysis project report.",
     "crumbs": [
       "Module 08"
     ]
@@ -4302,7 +4372,17 @@
     "href": "modules/md-08.html#assignments",
     "title": "Module 8",
     "section": " Assignments",
-    "text": "Assignments\n\nNo assignments\nYou can work on your capstone project report",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-19\n\nNo assignments\nYou can work on your capstone project report",
+    "crumbs": [
+      "Module 08"
+    ]
+  },
+  {
+    "objectID": "modules/md-08.html#quiz",
+    "href": "modules/md-08.html#quiz",
+    "title": "Module 8",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-26\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 08"
     ]
@@ -4383,5 +4463,33 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html",
+    "href": "slides/lec-01-welcome.html",
+    "title": "Welcome & get ready for the course",
+    "section": "",
+    "text": "While we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#meet-the-team-todo-add-a-third-person-nicoló-massari-with-each-person-taking-up-33-of-the-slide-make-images-smaller-and-align-left",
+    "href": "slides/lec-01-welcome.html#meet-the-team-todo-add-a-third-person-nicoló-massari-with-each-person-taking-up-33-of-the-slide-make-images-smaller-and-align-left",
+    "title": "Welcome & get ready for the course",
+    "section": "Meet the team (TODO: Add a third person Nicoló Massari with each person taking up 33% of the slide, make images smaller and align left)",
+    "text": "Meet the team (TODO: Add a third person Nicoló Massari with each person taking up 33% of the slide, make images smaller and align left)\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#learning-goals-for-the-course-todo-underline-learning-goals-instead-of-bold",
+    "href": "slides/lec-01-welcome.html#learning-goals-for-the-course-todo-underline-learning-goals-instead-of-bold",
+    "title": "Welcome & get ready for the course",
+    "section": "Learning Goals (for the course) (TODO: underline learning goals instead of bold)",
+    "text": "Learning Goals (for the course) (TODO: underline learning goals instead of bold)\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#our-turn",
+    "href": "slides/lec-01-welcome.html#our-turn",
+    "title": "Welcome & get ready for the course",
+    "section": "Our turn",
+    "text": "Our turn\n\nWe will create a bookmarks folder for this course.\n\n\n\n\n\n−+\n05:00"
   }
 ]
