@@ -11,7 +11,8 @@ Thank you for your interest in this course. Your course instructors: [{{< var au
 We will meet on Zoom for 9 modules over 12 weeks (see [Course Calendar](#sec-course-calendar)) at the following times:
 
 -   **Start:** 11th September 2025 - 2 pm to 4:30 pm CET
--   **End:** 4th December 2025 - 2 pm to 4:30 pm CET
+-   **Last Module:** 20th November 2025 - 2 pm to 4:30 pm CET
+-   **Graduation Event:** 18th December 2025 - 2 pm to 4:30 pm CET
 
 We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.
 

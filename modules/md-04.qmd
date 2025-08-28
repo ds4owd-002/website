@@ -45,10 +45,15 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa code >}} Assignments
 
-
-Please complete the following assignment by Monday, 7th October 2025. 
+**Due date:** Wednesday, {{< var md-04.homework-due >}}
 
 -   [Assignment 1](../assignments/md-04/am-04-1-reading.qmd): Data organisation in spreadsheets
 
 Thank you for working through this assignment.
+
+## {{< fa clipboard-question >}} Quiz
+
+**Due date:** Wednesday, {{< var md-04.quiz-due >}}
+
+Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
