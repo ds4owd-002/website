@@ -1,0 +1,45 @@
+---
+title: "Clone a GitHub repository"
+---
+
+## Clone a repository
+
+In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.
+
+1. Open github.com in your browser.
+
+![](images/screenshot-github-homepage.png){width=100%}
+
+2. Navigate to the GitHub organisation for the course.
+
+![](images/screenshot-github-org-search.png){width=100%}
+
+3. Find the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it.
+
+![](images/screenshot-github-repo-list.png){width=100%}
+
+4. Click on the green "Code" button.
+
+![](images/screenshot-github-code-button.png){width=100%}
+
+5. Copy the HTTPS URL to your clipboard.
+
+![](images/screenshot-github-https-url.png){width=100%}
+
+6. Open the ds4owd workspace on [posit.cloud](https://posit.cloud/spaces/663318/content/all?sort=name_asc)
+
+![](images/screenshot-posit-cloud-workspace.png){width=100%}
+
+7. Click New Project > New Project from Git Repository
+
+![](images/screenshot-posit-cloud-new-project.png){width=100%}
+
+8. Paste the HTTPS URL from GitHub into the "URL of your Git Repository" field.
+
+![](images/screenshot-posit-cloud-git-url.png){width=100%}
+
+9. Wait until the project is deployed
+
+![](images/screenshot-posit-cloud-deploying.png){width=100%}
+
+10. Continue with the next assignment.

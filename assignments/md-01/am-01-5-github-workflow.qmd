@@ -1,0 +1,109 @@
+---
+title: "GitHub workflow"
+---
+
+## Complete GitHub workflow
+
+In this assignment, you will configure Git, commit changes, and create an issue on GitHub.
+
+## Step 1: Introduce yourself to git
+
+1. In Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username.
+
+![](images/screenshot-posit-cloud-project.png){width=100%}
+
+2. Open the git-configuration.qmd file from the bottom right window of RStudio.
+
+![](images/screenshot-rstudio-files-pane.png){width=100%}
+
+3. Edit the code chunk under "Git configuration details" and replace the placeholders with your name and email address (these will be the details that git will use to identify you when you commit changes to the repository)
+
+![](images/screenshot-git-config-code.png){width=100%}
+
+4. Render the document
+
+![](images/screenshot-render-button.png){width=100%}
+
+5. Continue with the next step
+
+```{r}
+#| echo: true
+#| eval: false
+
+library(usethis)
+
+# Replace Your Name and Your Email with your details. Do not delete the quotes "".
+use_git_config(user.name = "Your Name", user.email = "Your Email")
+```
+
+## Step 2: Commit and push your changes
+
+1. Navigate to the Git pane in the top-right window of RStudio
+
+![](images/screenshot-rstudio-git-pane.png){width=100%}
+
+2. Check the box next to the git-configuration.qmd file to stage it for commit
+
+![](images/screenshot-git-stage-file.png){width=100%}
+
+3. Click on the "Commit" button
+
+![](images/screenshot-git-commit-button.png){width=100%}
+
+4. Enter a commit message in the "Commit message" field
+
+![](images/screenshot-git-commit-message.png){width=100%}
+
+5. Click on the "Commit" button
+
+![](images/screenshot-git-commit-confirm.png){width=100%}
+
+6. Click on the "Push" button
+
+![](images/screenshot-git-push-button.png){width=100%}
+
+7. Enter your GitHub username and GitHub Personal Access Token (PAT) in the "Username" and "Password" fields
+
+![](images/screenshot-git-credentials.png){width=100%}
+
+::: callout-important
+## Do not use your GitHub password
+
+You need to enter the GitHub Personal Access Token (PAT) you created in the previous assignment to push your changes back to GitHub.
+:::
+
+## Step 3: Open an issue on GitHub
+
+1. Open [github.com](https://github.com/) in your browser.
+
+![](images/screenshot-github-homepage-2.png){width=100%}
+
+2. Navigate to the GitHub organisation for the course.
+
+![](images/screenshot-github-org.png){width=100%}
+
+3. Find the repository md-01-assignments that ends with your GitHub username.
+
+![](images/screenshot-github-your-repo.png){width=100%}
+
+4. Click on the "Issues" tab.
+
+![](images/screenshot-github-issues-tab.png){width=100%}
+
+5. Click on the green "New issue" button.
+
+![](images/screenshot-github-new-issue.png){width=100%}
+
+6. In the "Title" field write: "Completed module 1 assignments".
+
+![](images/screenshot-github-issue-title.png){width=100%}
+
+7. In the "Leave a comment" field, tag the course instructors @larnsce @mianzg @sskorik01
+
+![](images/screenshot-github-issue-comment.png){width=100%}
+
+8. Click "Submit new issue"
+
+![](images/screenshot-github-submit-issue.png){width=100%}
+
+Congratulations! You have completed the GitHub workflow assignments.
