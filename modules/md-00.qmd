@@ -43,5 +43,5 @@ During the Q&A session, we discussed:
 
 After reviewing this Q&A session:
 
-1. Complete the Zoom registration for the weekly meetings:
+1. Complete the pre-course survey and Zoom registration for the course: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD>
 2. Join us for [Module 1: {{< var md-01.title >}}](../modules/md-01.qmd) on 11 September at 2 pm CET

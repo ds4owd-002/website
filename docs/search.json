@@ -1748,11 +1748,11 @@
     ]
   },
   {
-    "objectID": "index.html#qa-live-event-2025-08-26",
-    "href": "index.html#qa-live-event-2025-08-26",
+    "objectID": "index.html#qa-session-recording-available",
+    "href": "index.html#qa-session-recording-available",
     "title": "Course Overview",
-    "section": "Q&A live event (2025-08-26)",
-    "text": "Q&A live event (2025-08-26)\nWe are hosting a Q&A live event on August 26th, 2025 at 1 pm CET. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.\nFind all details here: https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/",
+    "section": "Q&A Session Recording Available",
+    "text": "Q&A Session Recording Available\nThe pre-course Q&A session from August 26th, 2025 is now available. Watch the recording to learn about course content, logistics, and see answers to questions from prospective students.\nAccess the recording and shared notes here: Pre-Course Q&A Session",
     "crumbs": [
       "Course Overview"
     ]
@@ -2397,22 +2397,22 @@
     "objectID": "slides/lec-00-qa-session.html#meet-the-team",
     "href": "slides/lec-00-qa-session.html#meet-the-team",
     "title": "Q&A Session - Questions about the course",
-    "section": "",
-    "text": "Lars Schöbitz\n\n\n\n\n\n\nEnvironmental Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support"
+    "section": "Meet the team",
+    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnvironmental Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support"
   },
   {
     "objectID": "slides/lec-00-qa-session.html#learning-goals-for-the-course",
     "href": "slides/lec-00-qa-session.html#learning-goals-for-the-course",
     "title": "Q&A Session - Questions about the course",
-    "section": "",
-    "text": "Master data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
+    "section": "Learning Goals (for the course)",
+    "text": "Learning Goals (for the course)\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
   },
   {
     "objectID": "slides/lec-00-qa-session.html#course-calendar",
     "href": "slides/lec-00-qa-session.html#course-calendar",
     "title": "Q&A Session - Questions about the course",
-    "section": "",
-    "text": "date\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
+    "section": "Course Calendar",
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-00-qa-session.html#weekly-structure",
@@ -4122,17 +4122,7 @@
     "href": "modules/md-00.html#next-steps",
     "title": "Pre-Course Q&A",
     "section": " Next Steps",
-    "text": "Next Steps\nAfter reviewing this Q&A session:\n\nComplete the Zoom registration for the weekly meetings:\nJoin us for Module 1: Welcome & get ready for the course on 11 September at 2 pm CET",
-    "crumbs": [
-      "Pre-Course Q&A"
-    ]
-  },
-  {
-    "objectID": "modules/md-00.html#questions",
-    "href": "modules/md-00.html#questions",
-    "title": "Pre-Course Q&A",
-    "section": " Questions?",
-    "text": "Questions?\nIf you have additional questions after watching the recording:\n\nPost in the course Element/Matrix chat\nEmail the instructor at ghe@mavt.ethz.ch\nBring your questions to Module 1",
+    "text": "Next Steps\nAfter reviewing this Q&A session:\n\nComplete the pre-course survey and Zoom registration for the course: https://ee-eu.kobotoolbox.org/single/7V3qeDYD\nJoin us for Module 1: Welcome & get ready for the course on 11 September at 2 pm CET",
     "crumbs": [
       "Pre-Course Q&A"
     ]
@@ -4393,12 +4383,5 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
-  },
-  {
-    "objectID": "slides/lec-00-qa-session.html",
-    "href": "slides/lec-00-qa-session.html",
-    "title": "Q&A Session - Questions about the course",
-    "section": "",
-    "text": "Lars Schöbitz\n\n\n\n\n\n\nEnvironmental Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support\n\n\n\n\n\n\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators.\n\n\n\n\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   }
 ]

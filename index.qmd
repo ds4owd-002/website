@@ -17,11 +17,11 @@ We will use Posit Cloud infrastructure, so you do not need to install any softwa
 
 Sign up here: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD> (it will take about 15 minutes)
 
-## Q&A live event (2025-08-26)
+## Q&A Session Recording Available
 
-We are hosting a [Q&A live event on **August 26th, 2025** at **1 pm CET**]{.highlight-peach}. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.
+The [pre-course Q&A session from **August 26th, 2025** is now available]{.highlight-peach}. Watch the recording to learn about course content, logistics, and see answers to questions from prospective students.
 
-Find all details here: <https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/>
+Access the recording and shared notes here: [Pre-Course Q&A Session](modules/md-00.qmd)
 
 ## Who can participate?
 
