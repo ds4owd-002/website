@@ -47,7 +47,7 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa code >}} Assignments
 
-**Due date:** Wednesday, {{< var md-07.homework-due >}}
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-07.homework-due >}}
 
 -   [Assignment 1](../assignments/md-07/am-07-1-pivoting.qmd): Pivot your data 
 -   [Assignment 2](../assignments/md-07/am-07-2-project-metadata.qmd): Get going with your capstone project
@@ -56,7 +56,9 @@ Thank you for working through this assignment.
 
 ## {{< fa clipboard-question >}} Quiz
 
-**Due date:** Wednesday, {{< var md-07.quiz-due >}}
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-07.quiz-due >}}
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
  
+[Quiz in preparation]{.highlight-yellow}
+

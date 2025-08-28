@@ -40,7 +40,8 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 [View slides in full screen](../slides/lec-01-welcome.html) | [Download slides as PDF](https://github.com/ds4owd-002/website/raw/main/slides/lec-01-welcome.pdf)
 
 ```{=html}
-<iframe class="slide-deck" src="../slides/lec-01-welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" src="../slides/lec-01
+-welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## {{< fa book >}} Readings
@@ -49,7 +50,7 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa code >}} Assignments
 
-**Due date:** Wednesday, {{< var md-01.homework-due >}}
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-01.homework-due >}}
 
 Please complete the following assignments before the due date. They are a pre-requisite for the second module.
 
@@ -61,6 +62,8 @@ Thank you for working through these assignments.
 
 ## {{< fa clipboard-question >}} Quiz
 
-**Due date:** Wednesday, {{< var md-01.quiz-due >}}
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-01.quiz-due >}}
 
-Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course. 
+Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
+
+[Quiz in preparation]{.highlight-yellow} 
