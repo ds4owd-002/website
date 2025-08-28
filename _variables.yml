@@ -23,38 +23,56 @@ md-00:
 md-01:
   title: "Welcome & get ready for the course"
   date: "2025-09-11"
+  homework-due: "2025-09-17"
+  quiz-due: "2025-09-24"
 
 md-02:
   title: "Data science lifecycle & Exploratory data analysis using visualization"
   date: "2025-09-18"
+  homework-due: "2025-09-24"
+  quiz-due: "2025-10-01"
   
 md-03:
   title: "Data transformation with dplyr"
   date: "2025-09-25"
+  homework-due: "2025-10-01"
+  quiz-due: "2025-10-08"
   
 md-04:
   title: "Data import & Data organization in spreadsheets"
   date: "2025-10-02"
+  homework-due: "2025-10-22"
+  quiz-due: "2025-10-29"
   
 md-05:
   title: "Conditions & Dates & Tables"
   date: "2025-10-23"
+  homework-due: "2025-10-29"
+  quiz-due: "2025-11-05"
   
 md-06:
   title: "Data types & Vectors & For Loops"
   date: "2025-10-30"
+  homework-due: "2025-11-05"
+  quiz-due: "2025-11-12"
   
 md-07:
   title: "Pivoting & joining data"
   date: "2025-11-06"
+  homework-due: "2025-11-12"
+  quiz-due: "2025-11-19"
   
 md-08:
   title: "Creating and publishing scholarly articles with Quarto and GitHub pages"
   date: "2025-11-13"
+  homework-due: "2025-11-19"
+  quiz-due: "2025-11-26"
 
 md-09:
   title: "Bonus module: Use of AI for coding support"
   date: "2025-11-20"
+  homework-due: "2025-11-26"
+  quiz-due: "2025-12-03"
 
 md-10:
   title: "Graduation of openwashdata academy"
