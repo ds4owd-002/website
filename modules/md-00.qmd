@@ -16,7 +16,9 @@ Welcome to the pre-course Q&A session for the data science for openwashdata cour
 
 ## {{< fa video >}} Session Recording
 
-You can access the Zoom recording of our live Q&A session held on August 26th, 2025 at 1 pm CET.
+You can access the Zoom recording of our live Q&A session held on August 26th, 2025. To watch the recording, you will need to register for it. This is also how we will share the recordings of each of the Modules. 
+
+Register for the recording at this link: <https://ethz.zoom.us/rec/share/zb-eVgB8kPq0Mdp4-T51rx0Ft9ir7GEWqE9nbdWTp0QEMZnPYsIlv4yYrfS-Xtn0.lldOTA5KliYmDd-x?startTime=1756206416000>
 
 *Note: The video link will be shared once the recording is available.*
 
@@ -26,7 +28,7 @@ For more information about the Q&A session, including the original event announc
 
 ## {{< fa file-lines >}} Shared Notes
 
-During the session, we used a collaborative Google Doc to capture questions and answers. Access the [Google Doc with shared notes](https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/#google-doc-notes) from our Q&A session.
+During the session, we used a collaborative Google Doc to capture questions and answers. Access the [Google Doc with shared notes](https://docs.google.com/document/d/1ryQ1H9lyU1TCmrAl-pjab3Vv4-sEa8cLir485uRjuuk/edit?tab=t.0#heading=h.scxq9z2ybmic) from our Q&A session.
 
 ## {{< fa question-circle >}} Key Topics Covered
 
@@ -41,16 +43,5 @@ During the Q&A session, we discussed:
 
 After reviewing this Q&A session:
 
-1. Complete the [pre-course survey]({{< var platforms.pre-course-survey >}}) if you haven't already
-2. Join the course [Posit Cloud workspace]({{< var platforms.posit-cloud >}})
-3. Set up your GitHub account
-4. Join the course communication channels (Element/Matrix)
-5. Get ready for [Module 1](md-01.qmd) starting on {{< var md-01.date >}}
-
-## {{< fa comments >}} Questions?
-
-If you have additional questions after watching the recording:
-
-- Post in the course Element/Matrix chat
-- Email the instructor at ghe@mavt.ethz.ch
-- Bring your questions to Module 1
+1. Complete the pre-course survey and Zoom registration for the course: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD>
+2. Join us for [Module 1: {{< var md-01.title >}}](../modules/md-01.qmd) on 11 September at 2 pm CET

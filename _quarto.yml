@@ -14,10 +14,10 @@ website:
   favicon: "img/OWD-logo-18.png"
   search: false
   announcement:
-    content: "Join our Q&A live event on August 26th, 2025 at 1 pm CET! Ask questions about the course, content, or logistics. [More info →](https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/)"
+    content: "The pre-course Q&A session recording is now available! Watch the recording and access shared notes with answers to questions. [Access recording →](https://ds4owd-002.github.io/website/modules/md-00.html)"
     position: below-navbar
     dismissable: true
-    icon: "chat-dots"
+    icon: "play-circle"
   page-footer: 
     left: | 
         This course is part of the [openwashdata project](https://openwashdata.org/) supported by the 

@@ -1748,11 +1748,11 @@
     ]
   },
   {
-    "objectID": "index.html#qa-live-event-2025-08-26",
-    "href": "index.html#qa-live-event-2025-08-26",
+    "objectID": "index.html#qa-session-recording-available",
+    "href": "index.html#qa-session-recording-available",
     "title": "Course Overview",
-    "section": "Q&A live event (2025-08-26)",
-    "text": "Q&A live event (2025-08-26)\nWe are hosting a Q&A live event on August 26th, 2025 at 1 pm CET. This is an opportunity for you to ask any questions you may have about the course, the content, or the logistics. We will document the questions and make them available on this website after the event.\nFind all details here: https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/",
+    "section": "Q&A Session Recording Available",
+    "text": "Q&A Session Recording Available\nThe pre-course Q&A session from August 26th, 2025 is now available. Watch the recording to learn about course content, logistics, and see answers to questions from prospective students.\nAccess the recording and shared notes here: Pre-Course Q&A Session",
     "crumbs": [
       "Course Overview"
     ]
@@ -4082,7 +4082,7 @@
     "href": "modules/md-00.html#session-recording",
     "title": "Pre-Course Q&A",
     "section": " Session Recording",
-    "text": "Session Recording\nYou can access the Zoom recording of our live Q&A session held on August 26th, 2025 at 1 pm CET.\nNote: The video link will be shared once the recording is available.",
+    "text": "Session Recording\nYou can access the Zoom recording of our live Q&A session held on August 26th, 2025. To watch the recording, you will need to register for it. This is also how we will share the recordings of each of the Modules.\nRegister for the recording at this link: https://ethz.zoom.us/rec/share/zb-eVgB8kPq0Mdp4-T51rx0Ft9ir7GEWqE9nbdWTp0QEMZnPYsIlv4yYrfS-Xtn0.lldOTA5KliYmDd-x?startTime=1756206416000\nNote: The video link will be shared once the recording is available.",
     "crumbs": [
       "Pre-Course Q&A"
     ]
@@ -4122,17 +4122,7 @@
     "href": "modules/md-00.html#next-steps",
     "title": "Pre-Course Q&A",
     "section": " Next Steps",
-    "text": "Next Steps\nAfter reviewing this Q&A session:\n\nComplete the pre-course survey if you haven’t already\nJoin the course Posit Cloud workspace\nSet up your GitHub account\nJoin the course communication channels (Element/Matrix)\nGet ready for Module 1 starting on 2025-09-11",
-    "crumbs": [
-      "Pre-Course Q&A"
-    ]
-  },
-  {
-    "objectID": "modules/md-00.html#questions",
-    "href": "modules/md-00.html#questions",
-    "title": "Pre-Course Q&A",
-    "section": " Questions?",
-    "text": "Questions?\nIf you have additional questions after watching the recording:\n\nPost in the course Element/Matrix chat\nEmail the instructor at ghe@mavt.ethz.ch\nBring your questions to Module 1",
+    "text": "Next Steps\nAfter reviewing this Q&A session:\n\nComplete the pre-course survey and Zoom registration for the course: https://ee-eu.kobotoolbox.org/single/7V3qeDYD\nJoin us for Module 1: Welcome & get ready for the course on 11 September at 2 pm CET",
     "crumbs": [
       "Pre-Course Q&A"
     ]
