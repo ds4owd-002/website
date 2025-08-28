@@ -687,26 +687,6 @@ format:
     toc: true
 ```
 
-## Quarto linting
-
-Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs.
-
-<br>
-
-![](img/lec-01/lint-rstudio.png){fig-alt="Linter showing message for badly formatted YAML."}
-
-::: aside
-Source: <https://en.wikipedia.org/wiki/Lint_(software)>
-:::
-
-## Quarto YAML Intelligence
-
-RStudio + VSCode provide rich tab-completion - start a word and tab to complete, or <kbd>`Ctrl + space`</kbd> to see all available options.
-
-<br>
-
-![](img/lec-01/quarto-tab-complete.png){fig-align="center" width="600"}
-
 # R fundamentals {background-color="#4C326A"}
 
 ## Packages {auto-animate="true"}
@@ -769,6 +749,22 @@ filter(.data = gapminder,
 -   Argument: `.data =`
 -   Arguments following: `year == 2007` **What do do with the data**
 
+
+## Functions & Arguments {auto-animate="true"}
+
+```{r}
+#| code-line-numbers: "3"
+#| eval: false
+#| echo: true
+library(dplyr)
+
+filter(gapminder, year == 2007)
+```
+
+-   Function: `filter()`
+-   Argument: `.data =` **Does not need to be be spelled out**
+-   Arguments following: `year == 2007` 
+
 ## Objects {auto-animate="true"}
 
 ```{r}
@@ -777,14 +773,15 @@ filter(.data = gapminder,
 #| echo: true
 library(dplyr)
 
-gapminder_yr_2007 <- filter(.data = gapminder, 
-                            year == 2007)
+gapminder_yr_2007 <- filter(gapminder, year == 2007)
 ```
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` **What do do with the data**
--   Object: `gapminder_yr_2007`
+-   Arguments following: `year == 2007` 
+-   Assignment operator: `<-` **Assigns the result to an object**
+-   Object: `gapminder_yr_2007` **Name of the object that stores result**
+
 
 ## Operators {auto-animate="true"}
 
@@ -800,10 +797,10 @@ gapminder_yr_2007 <- gapminder |>
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` **What do do with the data**
+-   Arguments following: `year == 2007`
 -   Object: `gapminder_yr_2007`
 -   Assignment operator: `<-`
--   Pipe operator: `|>`
+-   Pipe operator: `|>` **Passes the result into the first argument of the next function**
 
 ## Rules
 
@@ -816,15 +813,17 @@ Rules of `dplyr` functions:
 -   Don't modify in place
 :::
 
+## Repeated information many times (TODO: write a callout and a better title that I will repeat these fundamentals many times in the next weeks and participants are not expected to remember and/or fully understand this now)
+
 # Course information {background-color="#4C326A"}
 
 ## Weekly Structure
 
 |          |                                           |
 |----------|-------------------------------------------|
-| **Monday**   | Homework due (starting from Module 2) |
+| **Monday**   | Homework due                            |
 | **Tuesday**  | Office hours on Zoom (2 pm to 3 pm CET) |
-| **Wednesday** |                                        |
+| **Wednesday** | Homework due                           |
 | **Thursday** | Module from 2 pm to 4:30 pm CET |
 | **Friday**   |                                         |
 
@@ -832,8 +831,8 @@ Rules of `dplyr` functions:
 ## Homework assignments
 
 -   Weekly assignments ([module 1 homework is required for participation]{.highlight-yellow})
--   Homework due [Wednesdays before next module]{.highlight-yellow}
--   Quiz due [one week after homework]{.highlight-yellow}
+-   Homework assignment due [Wednesdays before next module]{.highlight-yellow}
+-   Quiz due [one week after homework assignment]{.highlight-yellow}
 -   Submitted as rendered Quarto documents on GitHub
 -   Reviewed by course instructors for errors
 -   Management and support through GitHub issue tracker
