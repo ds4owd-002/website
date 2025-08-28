@@ -342,10 +342,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#step-1-set-up-a-github-personal-access-token" id="toc-step-1-set-up-a-github-personal-access-token" class="nav-link active" data-scroll-target="#step-1-set-up-a-github-personal-access-token">Step 1: Set up a GitHub Personal Access Token</a></li>
+  <li><a href="#create-a-github-personal-access-token" id="toc-create-a-github-personal-access-token" class="nav-link" data-scroll-target="#create-a-github-personal-access-token">Create a GitHub Personal Access Token</a>
+  <ul class="collapse">
   <li><a href="#step-2-clone-a-repository" id="toc-step-2-clone-a-repository" class="nav-link" data-scroll-target="#step-2-clone-a-repository">Step 2: Clone a repository</a></li>
   <li><a href="#step-3-introduce-yourself-to-git" id="toc-step-3-introduce-yourself-to-git" class="nav-link" data-scroll-target="#step-3-introduce-yourself-to-git">Step 3: Introduce yourself to git</a></li>
   <li><a href="#step-4-commit-and-push-your-changes" id="toc-step-4-commit-and-push-your-changes" class="nav-link" data-scroll-target="#step-4-commit-and-push-your-changes">Step 4: Commit and push your changes</a></li>
   <li><a href="#step-5-open-an-issue-on-github" id="toc-step-5-open-an-issue-on-github" class="nav-link" data-scroll-target="#step-5-open-an-issue-on-github">Step 5: Open an issue on GitHub</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -399,39 +402,51 @@ Struggeling with the setup of GitHub?
 </div>
 <section id="step-1-set-up-a-github-personal-access-token" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-set-up-a-github-personal-access-token">Step 1: Set up a GitHub Personal Access Token</h2>
-<p>Here are the step-by-step instructions to set up a GitHub personal access token:</p>
+</section>
+<section id="create-a-github-personal-access-token" class="level1">
+<h1>Create a GitHub Personal Access Token</h1>
+<p>Here are the step-by-step instructions to set up a GitHub personal access token (PAT):</p>
 <div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Important
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>Treat your access tokens like passwords and keep them secure (e.g.&nbsp;a password managing software).</p>
 </div>
 </div>
-</div>
 <ol type="1">
-<li>Log in to your GitHub account.</li>
-<li>Click on your profile picture in the top-right corner of the page.</li>
-<li>Select “Settings” from the dropdown menu.</li>
-<li>In the left sidebar, click on “Developer settings”.</li>
-<li>Click on “Personal access tokens”.</li>
-<li>Click on <strong>“Tokens (classic)”</strong>.</li>
-<li>Click on “Generate new token” and from the dropdown menu select <strong>“Generate new token (classic)”.</strong></li>
-<li>In the “Note” field, give your token the name: GITHUB_PAT</li>
-<li>Under Expiration, select “No expiration”</li>
-<li>Under “Select scopes”, select: <strong>repo, workflow, user</strong></li>
-<li>Click on “Generate token”.</li>
-<li>Your personal access token will be displayed on the screen. Copy it and store it in a safe place.</li>
+<li><p>Log in to your GitHub account.</p></li>
+<li><p>Click on your profile picture in the top-right corner of the page.</p></li>
+<li><p>Select “Settings” from the dropdown menu.</p></li>
+<li><p>In the left sidebar, click on “Developer settings”.</p></li>
+<li><p>Click on “Personal access tokens”.</p></li>
+<li><p>Click on <strong>“Tokens (classic)”</strong>.</p></li>
+<li><p>Click on “Generate new token” and from the dropdown menu select <strong>“Generate new token (classic)”.</strong></p></li>
+<li><p>In the “Note” field, give your token the name: GITHUB_PAT</p></li>
+<li><p>Under Expiration, select “No expiration”</p></li>
+<li><p>Under “Select scopes”, select: <strong>repo, workflow, user</strong></p></li>
+<li><p>Click on “Generate token”.</p></li>
+<li><p>Your personal access token will be displayed on the screen.</p></li>
+<li><p>Do not copy and store the token in a Word Document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone.</p></li>
 </ol>
-<p>Remember to treat your access tokens like passwords and keep them secure (e.g.&nbsp;a password manager software).</p>
-</section>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you will need to generate a new one.</p>
+</div>
+</div>
 <section id="step-2-clone-a-repository" class="level2">
 <h2 class="anchored" data-anchor-id="step-2-clone-a-repository">Step 2: Clone a repository</h2>
 <ol type="1">
@@ -501,6 +516,7 @@ Do not use your GitHub password
 </ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

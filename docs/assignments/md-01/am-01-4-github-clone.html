@@ -8,7 +8,7 @@
 
 <meta name="author" content="Lars Schöbitz">
 
-<title>Module 1 – data science for openwashdata</title>
+<title>Clone a GitHub repository – data science for openwashdata</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +24,19 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../assignments/md-01/am-01-1-posit.html" rel="next">
-<link href="../img/OWD-logo-18.png" rel="icon" type="image/png">
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-88f072c1367792057673c98555ffc284.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../img/OWD-logo-18.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-88f072c1367792057673c98555ffc284.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -58,7 +55,7 @@ ul.task-list li input[type="checkbox"] {
 <script defer="" data-domain="ds4owd-002.github.io/website" src="https://plausible.io/js/script.js"></script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -70,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/md-01.html">Module 01</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Clone a GitHub repository</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -87,8 +84,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/OWD-logo-20.png" alt="openwashdata logo." class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../img/OWD-logo-20.png" alt="openwashdata logo." class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/ds4owd-002" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -103,54 +100,54 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../calendar.html" class="sidebar-item-text sidebar-link">
+  <a href="../../calendar.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Calendar</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guide/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../guide/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guide</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-00.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-00.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pre-Course Q&amp;A</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-01.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../modules/md-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 01</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-1-posit.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-1-posit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Posit Cloud</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-2-element.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-2-element.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Element</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-01/am-01-3-github.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-3-github.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-03: GitHub</span></a>
   </div>
 </li>
@@ -158,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-02.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 02</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -167,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-02/am-02-1-data-visualisation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-02/am-02-1-data-visualisation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Data visualization</span></a>
   </div>
 </li>
@@ -175,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-03.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 03</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -184,13 +181,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-1-data-transformation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-03/am-03-1-data-transformation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Data transformation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-03/am-03-2-spreadsheet.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-03/am-03-2-spreadsheet.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Spreadsheet</span></a>
   </div>
 </li>
@@ -198,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-04.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 04</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -207,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-04/am-04-1-reading.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-04/am-04-1-reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Data organization</span></a>
   </div>
 </li>
@@ -215,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-05.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 05</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -224,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Project data</span></a>
   </div>
 </li>
@@ -232,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-06.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 06</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -241,13 +238,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-06/am-06-1-reading.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-06/am-06-1-reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Good enough practices</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-05/am-05-1-project-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Project data</span></a>
   </div>
 </li>
@@ -255,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../modules/md-07.html" class="sidebar-item-text sidebar-link">
+            <a href="../../modules/md-07.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 07</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -264,13 +261,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-07/am-07-1-pivoting.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-07/am-07-1-pivoting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01: Pivot data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/md-07/am-07-2-project-metadata.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-07/am-07-2-project-metadata.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Capstone project</span></a>
   </div>
 </li>
@@ -278,20 +275,20 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-08.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-08.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 08</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/md-09.html" class="sidebar-item-text sidebar-link">
+  <a href="../../modules/md-09.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 09</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../project/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Capstone project</span></a>
   </div>
 </li>
@@ -305,11 +302,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings"><i class="fa-solid fa-book" aria-label="book"></i> Readings</a></li>
-  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments"><i class="fa-solid fa-code" aria-label="code"></i> Assignments</a></li>
-  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz"><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> Quiz</a></li>
+  <li><a href="#clone-a-repository" id="toc-clone-a-repository" class="nav-link active" data-scroll-target="#clone-a-repository">Clone a repository</a></li>
   </ul>
 </nav>
     </div>
@@ -318,8 +311,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Module 1</h1>
-<p class="subtitle lead">Welcome &amp; get ready for the course</p>
+<h1 class="title">Clone a GitHub repository</h1>
 </div>
 
 
@@ -349,49 +341,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This first week will be used to get you set up for the course.</p>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-<div class="cell">
+<section id="clone-a-repository" class="level2">
+<h2 class="anchored" data-anchor-id="clone-a-repository">Clone a repository</h2>
+<p>In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.</p>
 <ol type="1">
-<li>Learners can access the Posit Cloud workspace for the course.</li>
-<li>Learners can use the Element chat to introduce themselves.</li>
-<li>Learners can open an issue on GitHub and tag the course instructor.</li>
-<li>Learners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub.</li>
-<li>Learners can identify four components of a Quarto file (YAML, code chunk, R code, markdown).</li>
+<li>Open github.com in your browser.</li>
 </ol>
-</div>
-</section>
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides"><i class="fa-solid fa-display" aria-label="display"></i> Slides</h2>
-<p><a href="../slides/lec-01-welcome.html">View slides in full screen</a> | <a href="https://github.com/ds4owd-002/website/raw/main/slides/lec-01-welcome.pdf">Download slides as PDF</a></p>
-<iframe class="slide-deck" src="../slides/lec-01
--welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
-</section>
-<section id="readings" class="level2">
-<h2 class="anchored" data-anchor-id="readings"><i class="fa-solid fa-book" aria-label="book"></i> Readings</h2>
-<ul>
-<li>Read the <a href="../overview.html">Course Overview</a>.</li>
-</ul>
-</section>
-<section id="assignments" class="level2">
-<h2 class="anchored" data-anchor-id="assignments"><i class="fa-solid fa-code" aria-label="code"></i> Assignments</h2>
-<p><span class="highlight-yellow">Due date:</span> Wednesday, 2025-09-17</p>
-<p>Please complete the following assignments before the due date. They are a pre-requisite for the second module.</p>
-<ul>
-<li><a href="../assignments/md-01/am-01-1-posit.html">Assignment 1</a>: In class: Working with R, RStudio on Posit Cloud</li>
-<li><a href="../assignments/md-01/am-01-2-element.html">Assignment 2</a>: Homework: Communication in a chat</li>
-<li><a href="../assignments/md-01/am-01-3-github-pat.html">Assignment 3</a>: Homework: GitHub Personal Access Token <span class="highlight-yellow">in preparation</span></li>
-<li><a href="../assignments/md-01/am-01-4-github-clone.html">Assignment 4</a>: Homework: Clone a GitHub repository <span class="highlight-yellow">in preparation</span></li>
-<li><a href="../assignments/md-01/am-01-5-github-workflow.html">Assignment 5</a>: Homework: GitHub workflow <span class="highlight-yellow">in preparation</span></li>
-</ul>
-<p>Thank you for working through these assignments.</p>
-</section>
-<section id="quiz" class="level2">
-<h2 class="anchored" data-anchor-id="quiz"><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> Quiz</h2>
-<p><span class="highlight-yellow">Due date:</span> Wednesday, 2025-09-24</p>
-<p>Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.</p>
-<p><span class="highlight-yellow">Quiz in preparation</span></p>
+<p><img src="images/screenshot-github-homepage.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="2" type="1">
+<li>Navigate to the GitHub organisation for the course.</li>
+</ol>
+<p><img src="images/screenshot-github-org-search.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="3" type="1">
+<li>Find the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it.</li>
+</ol>
+<p><img src="images/screenshot-github-repo-list.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="4" type="1">
+<li>Click on the green “Code” button.</li>
+</ol>
+<p><img src="images/screenshot-github-code-button.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="5" type="1">
+<li>Copy the HTTPS URL to your clipboard.</li>
+</ol>
+<p><img src="images/screenshot-github-https-url.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="6" type="1">
+<li>Open the ds4owd workspace on <a href="https://posit.cloud/spaces/663318/content/all?sort=name_asc">posit.cloud</a></li>
+</ol>
+<p><img src="images/screenshot-posit-cloud-workspace.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="7" type="1">
+<li>Click New Project &gt; New Project from Git Repository</li>
+</ol>
+<p><img src="images/screenshot-posit-cloud-new-project.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="8" type="1">
+<li>Paste the HTTPS URL from GitHub into the “URL of your Git Repository” field.</li>
+</ol>
+<p><img src="images/screenshot-posit-cloud-git-url.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="9" type="1">
+<li>Wait until the project is deployed</li>
+</ol>
+<p><img src="images/screenshot-posit-cloud-deploying.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="10" type="1">
+<li>Continue with the next assignment.</li>
+</ol>
 
 
 </section>
@@ -796,15 +787,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../assignments/md-01/am-01-1-posit.html" class="pagination-link" aria-label="am-01: Posit Cloud">
-        <span class="nav-page-text">am-01: Posit Cloud</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -817,7 +799,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../code_of_conduct.html">
+    <a class="nav-link" href="../../code_of_conduct.html">
 <p>Code of Conduct</p>
 </a>
   </li>  
