@@ -995,7 +995,7 @@
     "href": "slides/lec-01-welcome.html#meet-the-team",
     "title": "Welcome & get ready for the course",
     "section": "Meet the team",
-    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support"
+    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support\n\n\nNicolò Massari\n\n\n\n\n\n\nTeaching Assistant\nTechnical support"
   },
   {
     "objectID": "slides/lec-01-welcome.html#learning-goals-for-the-course",
@@ -1352,14 +1352,14 @@
     "href": "slides/lec-01-welcome.html#objects",
     "title": "Welcome & get ready for the course",
     "section": "Objects",
-    "text": "Objects\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- filter(.data = gapminder, \n                            year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data\nObject: gapminder_yr_2007"
+    "text": "Objects\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- filter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007\nAssignment operator: &lt;- Assigns the result to an object\nObject: gapminder_yr_2007 Name of the object that stores result"
   },
   {
     "objectID": "slides/lec-01-welcome.html#operators",
     "href": "slides/lec-01-welcome.html#operators",
     "title": "Welcome & get ready for the course",
     "section": "Operators",
-    "text": "Operators\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data\nObject: gapminder_yr_2007\nAssignment operator: &lt;-\nPipe operator: |&gt;"
+    "text": "Operators\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007\nObject: gapminder_yr_2007\nAssignment operator: &lt;-\nPipe operator: |&gt; Passes the result into the first argument of the next function"
   },
   {
     "objectID": "slides/lec-01-welcome.html#rules",
@@ -1373,14 +1373,14 @@
     "href": "slides/lec-01-welcome.html#weekly-structure",
     "title": "Welcome & get ready for the course",
     "section": "Weekly Structure",
-    "text": "Weekly Structure\n\n\n\nMonday\nHomework due (starting from Module 2)\n\n\nTuesday\nOffice hours on Zoom (2 pm to 3 pm CET)\n\n\nWednesday\n\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday"
+    "text": "Weekly Structure\n\n\n\nMonday\n\n\n\nTuesday\nOffice hours on Zoom (2 pm to 3 pm CET)\n\n\nWednesday\nHomework due\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday"
   },
   {
     "objectID": "slides/lec-01-welcome.html#homework-assignments",
     "href": "slides/lec-01-welcome.html#homework-assignments",
     "title": "Welcome & get ready for the course",
     "section": "Homework assignments",
-    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nHomework due Wednesdays before next module\nQuiz due one week after homework\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
+    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nHomework assignment due Wednesdays before next module\nQuiz due one week after homework assignment\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
   },
   {
     "objectID": "slides/lec-01-welcome.html#capstone-project",
@@ -4491,5 +4491,26 @@
     "title": "Welcome & get ready for the course",
     "section": "Our turn",
     "text": "Our turn\n\nWe will create a bookmarks folder for this course.\n\n\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#functions-arguments-1",
+    "href": "slides/lec-01-welcome.html#functions-arguments-1",
+    "title": "Welcome & get ready for the course",
+    "section": "Functions & Arguments",
+    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data = Does not need to be be spelled out\nArguments following: year == 2007"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#does-this-sound-foreign-and-confusing",
+    "href": "slides/lec-01-welcome.html#does-this-sound-foreign-and-confusing",
+    "title": "Welcome & get ready for the course",
+    "section": "Does this sound foreign and confusing?",
+    "text": "Does this sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
+    "href": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
+    "title": "Welcome & get ready for the course",
+    "section": "Does this look and sound foreign and confusing?",
+    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
   }
 ]
