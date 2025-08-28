@@ -1075,6 +1075,13 @@
     "text": "Bookmark\nds4owd-002.github.io/website/"
   },
   {
+    "objectID": "slides/lec-01-welcome.html#our-turn",
+    "href": "slides/lec-01-welcome.html#our-turn",
+    "title": "Welcome & get ready for the course",
+    "section": "Our turn",
+    "text": "Our turn\n\nWe will create a bookmarks folder for this course.\n\n\n\n\n\n−+\n05:00"
+  },
+  {
     "objectID": "slides/lec-01-welcome.html#learning-objectives-for-this-week",
     "href": "slides/lec-01-welcome.html#learning-objectives-for-this-week",
     "title": "Welcome & get ready for the course",
@@ -1320,20 +1327,6 @@
     "text": "YAML validation\nThere are multiple ways of formatting valid YAML:\n\nValid: There’s a space after :\n\nformat: html\n\nValid: format: html with selections made with proper indentation\n\nformat: \n  html:\n    toc: true"
   },
   {
-    "objectID": "slides/lec-01-welcome.html#quarto-linting",
-    "href": "slides/lec-01-welcome.html#quarto-linting",
-    "title": "Welcome & get ready for the course",
-    "section": "Quarto linting",
-    "text": "Quarto linting\nLint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs.\n\n\n\n\nSource: https://en.wikipedia.org/wiki/Lint_(software)"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#quarto-yaml-intelligence",
-    "href": "slides/lec-01-welcome.html#quarto-yaml-intelligence",
-    "title": "Welcome & get ready for the course",
-    "section": "Quarto YAML Intelligence",
-    "text": "Quarto YAML Intelligence\nRStudio + VSCode provide rich tab-completion - start a word and tab to complete, or Ctrl + space to see all available options."
-  },
-  {
     "objectID": "slides/lec-01-welcome.html#packages",
     "href": "slides/lec-01-welcome.html#packages",
     "title": "Welcome & get ready for the course",
@@ -1346,6 +1339,13 @@
     "title": "Welcome & get ready for the course",
     "section": "Functions & Arguments",
     "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(.data = gapminder, \n       year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#functions-arguments-1",
+    "href": "slides/lec-01-welcome.html#functions-arguments-1",
+    "title": "Welcome & get ready for the course",
+    "section": "Functions & Arguments",
+    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data = Does not need to be be spelled out\nArguments following: year == 2007"
   },
   {
     "objectID": "slides/lec-01-welcome.html#objects",
@@ -1367,6 +1367,13 @@
     "title": "Welcome & get ready for the course",
     "section": "Rules",
     "text": "Rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
+    "href": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
+    "title": "Welcome & get ready for the course",
+    "section": "Does this look and sound foreign and confusing?",
+    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
   },
   {
     "objectID": "slides/lec-01-welcome.html#weekly-structure",
@@ -4463,54 +4470,5 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html",
-    "href": "slides/lec-01-welcome.html",
-    "title": "Welcome & get ready for the course",
-    "section": "",
-    "text": "While we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#meet-the-team-todo-add-a-third-person-nicoló-massari-with-each-person-taking-up-33-of-the-slide-make-images-smaller-and-align-left",
-    "href": "slides/lec-01-welcome.html#meet-the-team-todo-add-a-third-person-nicoló-massari-with-each-person-taking-up-33-of-the-slide-make-images-smaller-and-align-left",
-    "title": "Welcome & get ready for the course",
-    "section": "Meet the team (TODO: Add a third person Nicoló Massari with each person taking up 33% of the slide, make images smaller and align left)",
-    "text": "Meet the team (TODO: Add a third person Nicoló Massari with each person taking up 33% of the slide, make images smaller and align left)\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#learning-goals-for-the-course-todo-underline-learning-goals-instead-of-bold",
-    "href": "slides/lec-01-welcome.html#learning-goals-for-the-course-todo-underline-learning-goals-instead-of-bold",
-    "title": "Welcome & get ready for the course",
-    "section": "Learning Goals (for the course) (TODO: underline learning goals instead of bold)",
-    "text": "Learning Goals (for the course) (TODO: underline learning goals instead of bold)\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#our-turn",
-    "href": "slides/lec-01-welcome.html#our-turn",
-    "title": "Welcome & get ready for the course",
-    "section": "Our turn",
-    "text": "Our turn\n\nWe will create a bookmarks folder for this course.\n\n\n\n\n\n−+\n05:00"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#functions-arguments-1",
-    "href": "slides/lec-01-welcome.html#functions-arguments-1",
-    "title": "Welcome & get ready for the course",
-    "section": "Functions & Arguments",
-    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data = Does not need to be be spelled out\nArguments following: year == 2007"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#does-this-sound-foreign-and-confusing",
-    "href": "slides/lec-01-welcome.html#does-this-sound-foreign-and-confusing",
-    "title": "Welcome & get ready for the course",
-    "section": "Does this sound foreign and confusing?",
-    "text": "Does this sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
-    "href": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
-    "title": "Welcome & get ready for the course",
-    "section": "Does this look and sound foreign and confusing?",
-    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
   }
 ]
