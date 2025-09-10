@@ -531,7 +531,7 @@ countdown(5)
 4. Find the issue tracker
 5. Open an issue with the title "Support for module 1 homework" 
 6. Add your room partner to the list of Assignees on the right panel
-7. Add a comment to the issue and tag Mian with [@mianzg]{.highlight-yellow}, Sophia with [@sskorik01]{.highlight-yellow}, and your [room partner]{.highlight-yellow} to ask for support during the homework assignments
+7. Add a comment to the issue and tag [@seawaR]{.highlight-yellow}, [@massarin]{.highlight-yellow}, and Lars with [@larnsce]{.highlight-yellow}, and your [room partner]{.highlight-yellow} to ask for support during the homework assignments
 8. Click submit new issue
 9. Check if you have received a notification on GitHub, and open the inbox.
 10. Open the issue and respond to the comment of your room partner.

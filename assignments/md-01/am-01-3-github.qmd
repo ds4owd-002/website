@@ -104,5 +104,5 @@ You need to enter the GitHub Personal Access Token (PAT) you created in Step 1 t
 4. Click on the "Issues" tab.
 5. Click on the green "New issue" button.
 6. In the "Title" field write: "Completed module 1 assignments".
-7. In the "Leave a comment" field, tag the course instructors @larnsce @mianzg @sskorik01
+7. In the "Leave a comment" field, tag the course instructors `@seawaR` `@massarin` `@larnsce`
 

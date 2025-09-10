@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -69,7 +35,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a3b3c94c7f29129a6858cbee7a67a732.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f2fc12a6b52e3af673dc7daa4f7371aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -386,108 +352,125 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li>In Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username.</li>
 </ol>
-<p><img src="images/screenshot-posit-cloud-project.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-posit-cloud-project.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="2" type="1">
-<li>Open the git-configuration.qmd file from the bottom right window of RStudio.</li>
+<li>Open the <strong>git-configuration.qmd</strong> file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.</li>
 </ol>
-<p><img src="images/screenshot-rstudio-files-pane.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-rstudio-files-pane.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="3" type="1">
-<li>Edit the code chunk under “Git configuration details” and replace the placeholders with your name and email address (these will be the details that git will use to identify you when you commit changes to the repository)</li>
+<li><p>Under the heading <span class="highlight-yellow">Git configuration</span> edit the code in the code chunk:</p>
+<ul>
+<li>Replace the placeholder <span class="highlight-yellow">Your Name</span> with your GitHub username</li>
+<li>Replace <span class="highlight-yellow">Your Email</span> with your email address<br>
+</li>
+<li>Keep the quotes!</li>
+</ul>
+<p>These will be the details that git will use to identify you when you make changes to your work.</p></li>
 </ol>
-<p><img src="images/screenshot-git-config-code.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-git-config-code.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="4" type="1">
-<li>Render the document</li>
+<li><p>Save the file by clicking on the <span class="highlight-yellow">Save</span> icon in the Source pane or by pressing <code>Ctrl + S</code> (Windows/Linux) or <code>Cmd + S</code> (Mac).</p></li>
+<li><p>Render the document by clicking the <span class="highlight-yellow">Render</span> button in the Source pane.</p></li>
 </ol>
-<p><img src="images/screenshot-render-button.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="5" type="1">
+<p><img src="images/github-workflow/screenshot-render-button.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="6" type="1">
 <li>Continue with the next step</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(usethis)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace Your Name and Your Email with your details. Do not delete the quotes "".</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"Your Name"</span>, <span class="at">user.email =</span> <span class="st">"Your Email"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="step-2-commit-and-push-your-changes" class="level2">
 <h2 class="anchored" data-anchor-id="step-2-commit-and-push-your-changes">Step 2: Commit and push your changes</h2>
 <ol type="1">
 <li>Navigate to the Git pane in the top-right window of RStudio</li>
 </ol>
-<p><img src="images/screenshot-rstudio-git-pane.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-rstudio-git-pane.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="2" type="1">
 <li>Check the box next to the git-configuration.qmd file to stage it for commit</li>
 </ol>
-<p><img src="images/screenshot-git-stage-file.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-git-stage-file.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="3" type="1">
-<li>Click on the “Commit” button</li>
+<li>Click on the “Commit” button. A new window opens.</li>
 </ol>
-<p><img src="images/screenshot-git-commit-button.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-git-commit-button.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="4" type="1">
-<li>Enter a commit message in the “Commit message” field</li>
+<li>Enter a commit message in the “Commit message” field in the top right corner. For example: replaced placholders with my details</li>
 </ol>
-<p><img src="images/screenshot-git-commit-message.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-git-commit-message.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="5" type="1">
 <li>Click on the “Commit” button</li>
 </ol>
-<p><img src="images/screenshot-git-commit-confirm.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-git-commit-confirm.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="6" type="1">
-<li>Click on the “Push” button</li>
+<li>If you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on <strong>Close</strong>. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.</li>
+</ol>
+<p><img src="images/screenshot-git-commit-close.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="6" type="1">
+<li>Click on the “Push” button in the top right corner.</li>
 </ol>
 <p><img src="images/screenshot-git-push-button.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="7" type="1">
-<li>Enter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields</li>
+<li>Enter your GitHub username and click OK</li>
 </ol>
 <p><img src="images/screenshot-git-credentials.png" class="img-fluid" style="width:100.0%"></p>
-<div class="callout callout-style-default callout-important callout-titled">
+<ol start="8" type="1">
+<li>Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in <a href="../../assignments/md-01/am-01-3-github-pat.html">Assignment 1.3</a>.</li>
+</ol>
+<p>If you see a message similar to the screenshot below with <code>HEAD -&gt; main</code>, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. <strong>If you do not see this message</strong>, make sure you have entered your GitHub username and GitHub PAT correctly.</p>
+<p><img src="images/screenshot-git-credentials.png" class="img-fluid" style="width:100.0%"></p>
+<p>warning call out: warn learner that if the have stored their PAT in a Word file, then a blank space might have been copied along with the PAT. Recommend to use a TXT file using Notepad or Mac TextEdit, or a password manager to store the PAT.</p>
+</section>
+<section id="step-3-open-an-issue-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-open-an-issue-on-github">Step 3: Open an issue on GitHub</h2>
+<ol type="1">
+<li>Open <a href="https://github.com/" class="uri">https://github.com/</a> in your browser.</li>
+</ol>
+<p><img src="images/github-clone/screenshot-github-homepage.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="2" type="1">
+<li>Navigate to the GitHub organisation for the course: https://github.com/ds4owd-002</li>
+</ol>
+<p><img src="images/github-clone/screenshot-github-org-search.png" class="img-fluid" style="width:100.0%"></p>
+<ol start="3" type="1">
+<li>Find the repository <code>md-01-assignments-USERNAME</code> that <span class="highlight-yellow">ends with your GitHub username</span>, and open it by clicking on the repository name.</li>
+</ol>
+<ul>
+<li>Replace <code>USERNAME</code> with your actual GitHub username.</li>
+<li>For example, if your username is <code>johnsmith</code>, the repository will be <code>md-01-assignments-johnsmith</code>.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Do not use your GitHub password
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You need to enter the GitHub Personal Access Token (PAT) you created in the previous assignment to push your changes back to GitHub.</p>
+<p>You can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.</p>
 </div>
 </div>
-</section>
-<section id="step-3-open-an-issue-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-open-an-issue-on-github">Step 3: Open an issue on GitHub</h2>
-<ol type="1">
-<li>Open <a href="https://github.com/">github.com</a> in your browser.</li>
-</ol>
-<p><img src="images/screenshot-github-homepage-2.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="2" type="1">
-<li>Navigate to the GitHub organisation for the course.</li>
-</ol>
-<p><img src="images/screenshot-github-org.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="3" type="1">
-<li>Find the repository md-01-assignments that ends with your GitHub username.</li>
-</ol>
-<p><img src="images/screenshot-github-your-repo.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-clone/screenshot-github-repo-list.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="4" type="1">
-<li>Click on the “Issues” tab.</li>
+<li><p>You can verify here that your changes have been pushed to the remote repository by looking at the text next to the <code>git-configuration.qmd</code> file. It should display the commit message you entered in the previous step, e.g., “replaced placeholders with my details”. You can also verify by identifying the number of commits, here <strong>2 commits</strong>. Click on it and you can see them.</p></li>
+<li><p>Click on the “Issues” tab.</p></li>
 </ol>
-<p><img src="images/screenshot-github-issues-tab.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-github-issues-tab.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="5" type="1">
 <li>Click on the green “New issue” button.</li>
 </ol>
-<p><img src="images/screenshot-github-new-issue.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-github-new-issue.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="6" type="1">
-<li>In the “Title” field write: “Completed module 1 assignments”.</li>
+<li>In the “Title” field write: “Completed module 1 assignment”.</li>
 </ol>
-<p><img src="images/screenshot-github-issue-title.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-github-issue-title.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="7" type="1">
-<li>In the “Leave a comment” field, tag the course instructors <span class="citation" data-cites="larnsce">@larnsce</span> <span class="citation" data-cites="mianzg">@mianzg</span> <span class="citation" data-cites="sskorik01">@sskorik01</span></li>
+<li>In the “Leave a comment” field, tag the course instructors <code>@seawaR</code> <code>@massarin</code> <code>@larnsce</code> and write a short message, e.g., “I have completed the module 1 assignment. Please review my work.” You can also add any questions you have or other comments you would like to share with the instructors.</li>
 </ol>
-<p><img src="images/screenshot-github-issue-comment.png" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/github-workflow/screenshot-github-issue-comment.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="8" type="1">
-<li>Click “Submit new issue”</li>
+<li>Scroll down the page a bit and click the green <strong>Create</strong> button.</li>
 </ol>
-<p><img src="images/screenshot-github-submit-issue.png" class="img-fluid" style="width:100.0%"></p>
-<p>Congratulations! You have completed the GitHub workflow assignments.</p>
+<p><img src="images/github-workflow/screenshot-github-submit-issue.png" class="img-fluid" style="width:100.0%"></p>
+<p>Congratulations! You have completed the GitHub workflow assignment.</p>
 
 
 </section>

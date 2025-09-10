@@ -33,11 +33,11 @@ You can search for your repository by typing your username in the search bar jus
 
 ![](images/github-clone/screenshot-github-https-url.png){width=100%}
 
-6. Open the [Content]{.highlight-yellow} tab of the ds4owd-002 workspace on Posit Cloud: {{< var platforms.posit-cloud >}}/content/all?sort=name_asc
+6. Open the [Content]{.highlight-yellow} tab of the ds4owd-002 workspace on Posit Cloud: [{{< var platforms.posit-cloud >}}/content/all?sort=name_asc]({{< var platforms.posit-cloud >}}/content/all?sort=name_asc)
 
 ![](images/github-clone/screenshot-posit-cloud-workspace.png){width=100%}
 
-7. Click New Project > New Project from Git Repository
+7. Click [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
 
 ![](images/github-clone/screenshot-posit-cloud-new-project.png){width=100%}
 
