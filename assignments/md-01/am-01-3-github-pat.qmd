@@ -17,55 +17,59 @@ Treat your access tokens like passwords and keep them secure (e.g. a password ma
 
 1.  Log in to your GitHub account.
 
-![](images/screenshot-github-landing-page.png){width=100%}
+![](images/github-pat/screenshot-github-landing-page.png){width=100%}
 
 2.  Click on your profile picture in the top-right corner of the page.
 
-![](images/screenshot-github-profile-menu.png){width=100%}
+![](images/github-pat/screenshot-github-profile-menu.png){width=100%}
 
-3.  Select "Settings" from the dropdown menu.
+3.  Select [Settings]{.highlight-yellow} from the dropdown menu.
 
-![](images/screenshot-github-settings.png){width=100%}
+![](images/github-pat/screenshot-github-settings.png){width=100%}
 
-4.  In the left sidebar, click on "Developer settings".
+4.  In the left sidebar, click on [Developer settings]{.highlight-yellow}.
 
-![](images/screenshot-github-developer-settings.png){width=100%}
+![](images/github-pat/screenshot-github-developer-settings.png){width=100%}
 
-5.  Click on "Personal access tokens".
+5.  Click on [Personal access tokens]{.highlight-yellow}.
 
-![](images/screenshot-github-personal-access-tokens.png){width=100%}
+![](images/github-pat/screenshot-github-personal-access-tokens.png){width=100%}
 
-6.  Click on **"Tokens (classic)"**.
+6.  Click on ["Tokens (classic)"]{.highlight-yellow}.
 
-![](images/screenshot-github-tokens-classic.png){width=100%}
+![](images/github-pat/screenshot-github-tokens-classic.png){width=100%}
 
-7.  Click on "Generate new token" and from the dropdown menu select **"Generate new token (classic)".**
+7.  Click on [Generate new token]{.highlight-yellow} and from the dropdown menu select [Generate new token (classic)]{.highlight-yellow}.
 
-![](images/screenshot-github-generate-token.png){width=100%}
+TODO: Screenshot needs to be replaced.
 
-8.  In the "Note" field, give your token the name: GITHUB_PAT
+![](images/github-pat/screenshot-github-generate-token.png){width=100%}
 
-![](images/screenshot-github-token-note.png){width=100%}
+8.  In the [Note]{.highlight-yellow} field, give your token the name: GITHUB_PAT
 
-9.  Under Expiration, select "No expiration"
+![](images/github-pat/screenshot-github-token-note.png){width=100%}
 
-![](images/screenshot-github-token-expiration.png){width=100%}
+9.  Under Expiration, select [No expiration]{.highlight-yellow}
 
-10. Under "Select scopes", select: **repo, workflow, user**
+![](images/github-pat/screenshot-github-token-expiration.png){width=100%}
 
-![](images/screenshot-github-token-scopes.png){width=100%}
+10. Under [Select scopes]{.highlight-yellow}, select: [repo, workflow]{.highlight-yellow}
 
-11. Click on "Generate token".
+![](images/github-pat/screenshot-github-token-scopes.png){width=100%}
 
-![](images/screenshot-github-generate-token-button.png){width=100%}
+11. Also select [user]{.highlight-yellow} a bit further down the list.
+
+![](images/github-pat/screenshot-github-token-scopes-user.png){width=100%}
+
+11. Click on [Generate token]{.highlight-yellow}.
+
+![](images/github-pat/screenshot-github-generate-token.png){width=100%}
 
 12. Your personal access token will be displayed on the screen. 
 
-![](images/screenshot-github-token-created.png){width=100%}
+![](images/github-pat/screenshot-github-token-copy.png){width=100%}
 
 13. Do not copy and store the token in a Word Document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone.
-
-![](images/screenshot-password-manager.png){width=100%}
 
 ::: {.callout-tip}
 You will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you will need to generate a new one.

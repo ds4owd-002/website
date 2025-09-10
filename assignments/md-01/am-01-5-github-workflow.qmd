@@ -16,11 +16,10 @@ In this assignment, you will configure Git, commit changes, and create an issue 
 
 ![](images/screenshot-rstudio-files-pane.png){width=100%}
 
-3. Edit the code chunk under "Git configuration details" and replace the placeholders with your name and email address (these will be the details that git will use to identify you when you commit changes to the repository)
+3. Edit the code chunk under the heading **Git configuration** and replace the placeholders with your name and email address (these will be the details that git will use to identify you when you make changes to your work). 
 
 ![](images/screenshot-git-config-code.png){width=100%}
-
-4. Render the document
+4. Render the document by clicking the "Render" button at the top of the file.
 
 ![](images/screenshot-render-button.png){width=100%}
 
