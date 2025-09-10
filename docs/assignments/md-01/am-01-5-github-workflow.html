@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../assignments/md-01/am-01-3-github.html" class="sidebar-item-text sidebar-link">
+  <a href="../../assignments/md-01/am-01-3-github.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-03: GitHub</span></a>
   </div>
 </li>
@@ -347,23 +347,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="step-1-introduce-yourself-to-git" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-introduce-yourself-to-git">Step 1: Introduce yourself to git</h2>
 <ol type="1">
-<li>In Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username.</li>
+<li>In Posit Cloud, open the <span class="highlight-yellow">md-01-assignments-USERNAME</span> project that ends with your GitHub username. Ensure that you are in the workspace of <span class="highlight-yellow">ds4owd-002</span>. You can verify this by looking at the top left corner next to your repository name. If this says <span class="highlight-yellow">Your Workspace</span>, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the <span class="highlight-yellow">ds4owd-002</span> workspace.</li>
 </ol>
 <p><img src="images/github-workflow/screenshot-posit-cloud-project.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="2" type="1">
-<li>Open the <strong>git-configuration.qmd</strong> file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.</li>
+<li>Open the <span class="highlight-yellow">git-configuration.qmd</span> file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.</li>
 </ol>
 <p><img src="images/github-workflow/screenshot-rstudio-files-pane.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="3" type="1">
-<li><p>Under the heading <span class="highlight-yellow">Git configuration</span> edit the code in the code chunk:</p>
+<li>Under the heading <span class="highlight-yellow">Git configuration</span> edit the code in the code chunk:</li>
+</ol>
 <ul>
 <li>Replace the placeholder <span class="highlight-yellow">Your Name</span> with your GitHub username</li>
 <li>Replace <span class="highlight-yellow">Your Email</span> with your email address<br>
 </li>
 <li>Keep the quotes!</li>
 </ul>
-<p>These will be the details that git will use to identify you when you make changes to your work.</p></li>
-</ol>
+<p>These will be the details that git will use to identify you when you make changes to your work.</p>
 <p><img src="images/github-workflow/screenshot-git-config-code.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="4" type="1">
 <li><p>Save the file by clicking on the <span class="highlight-yellow">Save</span> icon in the Source pane or by pressing <code>Ctrl + S</code> (Windows/Linux) or <code>Cmd + S</code> (Mac).</p></li>
@@ -385,23 +385,23 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><img src="images/github-workflow/step2/screenshot-git-stage-file.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="3" type="1">
-<li>Click on the “Commit” button. A new window opens.</li>
+<li>Click on the <span class="highlight-yellow">Commit</span> button. A new window opens.</li>
 </ol>
 <p><img src="images/github-workflow/step2/screenshot-git-commit-button.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="4" type="1">
-<li>Enter a commit message in the “Commit message” field in the top right corner. For example: replaced placeholders with my details</li>
+<li>Enter a commit message in the <span class="highlight-yellow">Commit message</span> field in the top right corner. For example: replaced placeholders with my details</li>
 </ol>
 <p><img src="images/github-workflow/step2/screenshot-git-commit-message.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="5" type="1">
-<li>Click on the “Commit” button</li>
+<li>Click on the <span class="highlight-yellow">Commit</span> button</li>
 </ol>
 <p><img src="images/github-workflow/step2/screenshot-git-commit-confirm.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="6" type="1">
-<li>If you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on <strong>Close</strong>. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.</li>
+<li>If you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on <span class="highlight-yellow">Close</span>. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.</li>
 </ol>
 <p><img src="images/github-workflow/step2/screenshot-git-commit-close.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="7" type="1">
-<li>Click on the “Push” button in the top right corner.</li>
+<li>Click on the <span class="highlight-yellow">Push</span> button in the top right corner.</li>
 </ol>
 <p><img src="images/github-workflow/step2/screenshot-git-push-button.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="8" type="1">
@@ -411,9 +411,21 @@ ul.task-list li input[type="checkbox"] {
 <ol start="9" type="1">
 <li>Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in <a href="../../assignments/md-01/am-01-3-github-pat.html">Assignment 1.3</a>.</li>
 </ol>
-<p>If you see a message similar to the screenshot below with <code>HEAD -&gt; main</code>, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. <strong>If you do not see this message</strong>, make sure you have entered your GitHub username and GitHub PAT correctly.</p>
 <p><img src="images/github-workflow/step2/screenshot-git-credentials-pat.png" class="img-fluid" style="width:100.0%"></p>
-<p>TODO: warning call out: warn learner that if the have stored their PAT in a Word file, then a blank space might have been copied along with the PAT. Recommend to use a TXT file using Notepad or Mac TextEdit, or a password manager to store the PAT.</p>
+<p>If you see a message that says <code>HEAD -&gt; main</code>, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. <span class="highlight-yellow">If you do not see this message</span>, make sure you have entered your GitHub username and GitHub PAT correctly.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+PAT Storage Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.</p>
+</div>
+</div>
 </section>
 <section id="step-3-open-an-issue-on-github" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-open-an-issue-on-github">Step 3: Open an issue on GitHub</h2>
@@ -422,7 +434,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-homepage.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="2" type="1">
-<li>Navigate to the GitHub organisation for the course: https://github.com/ds4owd-002 TODO: turn this into hyperlink</li>
+<li>Navigate to the GitHub organisation for the course: <a href="https://github.com/ds4owd-002">https://github.com/ds4owd-002</a></li>
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-org-search.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="3" type="1">
@@ -442,35 +454,34 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.</p>
+<p>You can search for your repository by typing your username in the search bar just below the Repository heading. See <span class="highlight-yellow">rainbow-train</span> in screenshot.</p>
 </div>
 </div>
 <p><img src="images/github-workflow/step3/screenshot-github-repo-list.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="4" type="1">
-<li>You can verify here that your changes have been pushed to the remote repository by looking at the text next to the <code>git-configuration.qmd</code> file. It should display the commit message you entered in the previous step, e.g., “replaced placeholders with my details”. You can also verify by identifying the number of commits, here <strong>2 commits</strong>. Click on it and you can see them.</li>
+<li>You can verify here that your changes have been pushed to the remote repository by looking at the text next to the <code>git-configuration.qmd</code> file. It should display the commit message you entered in the previous step, e.g., <span class="highlight-yellow">replaced placeholders with my details</span>. You can also verify by identifying the number of commits, here <span class="highlight-yellow">2 commits</span>. Click on it and you can see them.</li>
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-commits.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="5" type="1">
-<li>Click on the “Issues” tab.</li>
+<li>Click on the <span class="highlight-yellow">Issues</span> tab.</li>
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-issues-tab.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="6" type="1">
-<li>Click on the green “New issue” button.</li>
+<li>Click on the green <span class="highlight-yellow">New issue</span> button.</li>
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-new-issue.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="7" type="1">
-<li>In the “Title” field write: “Completed module 1 assignment”.</li>
+<li>In the <span class="highlight-yellow">Title</span> field write: <span class="highlight-yellow">Completed module 1 assignment</span>.</li>
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-issue-title.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="8" type="1">
-<li>In the “Leave a comment” field, tag the course instructors <code>@seawaR</code> <code>@massarin</code> <code>@larnsce</code> and write a short message, e.g., “I have completed the module 1 assignment. Please review my work.” You can also add any questions you have or other comments you would like to share with the instructors.</li>
+<li>In the <span class="highlight-yellow">Leave a comment</span> field, tag the course instructors <code>@seawaR</code> <code>@massarin</code> <code>@larnsce</code> and write a short message, e.g., <span class="highlight-yellow">I have completed the module 1 assignment. Please review my work.</span> You can also add any questions you have or other comments you would like to share with the instructors.</li>
 </ol>
 <p><img src="images/github-workflow/step3/screenshot-github-issue-comment.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="9" type="1">
-<li>Scroll down the page a bit and click the green <strong>Create</strong> button.</li>
+<li>Scroll down the page a bit and click the green <span class="highlight-yellow">Create</span> button.</li>
 </ol>
-<p><img src="images/github-workflow/step3/screenshot-github-submit-issue.png" class="img-fluid" style="width:100.0%"></p>
-<p>Congratulations! You have completed the GitHub workflow assignment.</p>
+<p><img src="images/github-workflow/step3/screenshot-github-submit-issue.png" class="img-fluid" style="width:100.0%"> Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation.)</p>
 
 
 </section>

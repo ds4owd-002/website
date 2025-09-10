@@ -10,7 +10,7 @@ In this assignment, you will clone your personal assignment repository from GitH
 
 ![](images/github-clone/screenshot-github-homepage.png){width=100%}
 
-2. Navigate to the GitHub organisation for the course: {{< var course.github-org >}}
+2. Navigate to the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
 
 ![](images/github-clone/screenshot-github-org-search.png){width=100%}
 
@@ -37,7 +37,7 @@ You can search for your repository by typing your username in the search bar jus
 
 ![](images/github-clone/screenshot-posit-cloud-workspace.png){width=100%}
 
-7. Click [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
+7. Click the blue button [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
 
 ![](images/github-clone/screenshot-posit-cloud-new-project.png){width=100%}
 
@@ -45,8 +45,8 @@ You can search for your repository by typing your username in the search bar jus
 
 ![](images/github-clone/screenshot-posit-cloud-git-url.png){width=100%}
 
-9. Wait until the project is deployed
+9. Wait until the project is deployed. This may take a few minutes, depending on your internet connection.
 
 ![](images/github-clone/screenshot-posit-cloud-deploying.png){width=100%}
 
-10. Continue with the next assignment.
+10. Continue with the next assignment: [GitHub workflow](am-01-5-github-workflow.qmd).
