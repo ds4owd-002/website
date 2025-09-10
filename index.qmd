@@ -6,7 +6,7 @@ execute:
   warning: false
 ---
 
-Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) are looking forward to meeting you.
+Thank you for your interest in this course. Your course instructors: [{{< var author >}}](https://openwashdata.org/about/lars/) & [Adriana Clavijo](https://openwashdata.org/about/adriana/) & [Nicoló Massari](https://openwashdata.org/about/nicolo/) are looking forward to meeting you.
 
 We will meet on Zoom for 9 modules over 12 weeks (see [Course Calendar](#sec-course-calendar)) at the following times:
 
@@ -17,12 +17,6 @@ We will meet on Zoom for 9 modules over 12 weeks (see [Course Calendar](#sec-cou
 We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.
 
 The sign up for this course is now closed. If you are interested to receive updates about future courses, please subscribe to the openwashdata newsletter: <https://buttondown.com/openwashdata>.
-
-## Q&A Session Recording Available
-
-The [pre-course Q&A session from **August 26th, 2025** is now available]{.highlight-peach}. Watch the recording to learn about course content, logistics, and see answers to questions from prospective students.
-
-Access the recording and shared notes here: [Pre-Course Q&A Session](modules/md-00.qmd)
 
 ## Who can participate?
 

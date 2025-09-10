@@ -1268,7 +1268,7 @@
     "href": "slides/lec-01-welcome.html#your-turn-create-an-issue-on-github",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Create an issue on GitHub",
-    "text": "Your turn: Create an issue on GitHub\n\n\nOpen github.com in your browser and login with your credentials\nExchange your GitHub username with your room partner\nFind and open the md-01-assignments-USERNAME repository that ends with your GitHub username\nFind the issue tracker\nOpen an issue with the title “Support for module 1 homework”\nAdd your room partner to the list of Assignees on the right panel\nAdd a comment to the issue and tag Mian with @mianzg, Sophia with @sskorik01, and your room partner to ask for support during the homework assignments\nClick submit new issue\nCheck if you have received a notification on GitHub, and open the inbox.\nOpen the issue and respond to the comment of your room partner.\n\n\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: Create an issue on GitHub\n\n\nOpen github.com in your browser and login with your credentials\nExchange your GitHub username with your room partner\nFind and open the md-01-assignments-USERNAME repository that ends with your GitHub username\nFind the issue tracker\nOpen an issue with the title “Support for module 1 homework”\nAdd your room partner to the list of Assignees on the right panel\nAdd a comment to the issue and tag @seawaR, @massarin, and Lars with @larnsce, and your room partner to ask for support during the homework assignments\nClick submit new issue\nCheck if you have received a notification on GitHub, and open the inbox.\nOpen the issue and respond to the comment of your room partner.\n\n\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#take-a-break-1",
@@ -1779,7 +1779,7 @@
     "href": "index.html",
     "title": "Course Overview",
     "section": "",
-    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nSign up here: https://ee-eu.kobotoolbox.org/single/7V3qeDYD (it will take about 15 minutes)",
+    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo & Nicoló Massari are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nThe sign up for this course is now closed. If you are interested to receive updates about future courses, please subscribe to the openwashdata newsletter: https://buttondown.com/openwashdata.",
     "crumbs": [
       "Course Overview"
     ]
@@ -1904,7 +1904,7 @@
     "href": "assignments/md-01/am-01-3-github.html#step-5-open-an-issue-on-github",
     "title": "Interaction with GitHub",
     "section": "Step 5: Open an issue on GitHub",
-    "text": "Step 5: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-01-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 5: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-01-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 01",
       "am-03: GitHub"
@@ -2006,7 +2006,7 @@
     "href": "assignments/md-07/am-07-1-pivoting.html#step-3-open-an-issue-on-github",
     "title": "Data pivoting",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
@@ -2094,7 +2094,7 @@
     "href": "assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
     "title": "Data for your capstone project",
     "section": "Step 6: Open an issue on GitHub",
-    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 05",
       "am-01: Project data"
@@ -2160,7 +2160,7 @@
     "href": "assignments/md-03/am-03-2-spreadsheet.html#step-4-open-an-issue-on-github",
     "title": "Create a spreadsheet",
     "section": "Step 4: Open an issue on GitHub",
-    "text": "Step 4: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Create spreadsheet and upload to cloud”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 4: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Create spreadsheet and upload to cloud”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
@@ -2284,7 +2284,7 @@
     "href": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
     "title": "Data transformation with dplyr",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 03",
       "am-01: Data transformation"
@@ -2328,7 +2328,7 @@
     "href": "assignments/md-02/am-02-1-data-visualisation.html#step-3-open-an-issue-on-github",
     "title": "Data visualisation with ggplot2",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-02-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-02-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 02",
       "am-01: Data visualization"
@@ -2416,7 +2416,7 @@
     "href": "assignments/md-07/am-07-2-project-metadata.html#step-7-open-an-issue-on-github",
     "title": "Documentation for your capstone project",
     "section": "Step 7: Open an issue on GitHub",
-    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2470,14 +2470,14 @@
     "href": "assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
     "title": "GitHub workflow",
     "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit\n\n\n\nClick on the “Commit” button. A new window opens.\n\n\n\nEnter a commit message in the “Commit message” field in the top right corner. For example: replaced placholders with my details\n\n\n\nClick on the “Commit” button\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the “Push” button in the top right corner.\n\n\n\nEnter your GitHub username and click OK\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 1.3.\n\nIf you see a message similar to the screenshot below with HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\nwarning call out: warn learner that if the have stored their PAT in a Word file, then a blank space might have been copied along with the PAT. Recommend to use a TXT file using Notepad or Mac TextEdit, or a password manager to store the PAT."
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit\n\n\n\nClick on the “Commit” button. A new window opens.\n\n\n\nEnter a commit message in the “Commit message” field in the top right corner. For example: replaced placeholders with my details\n\n\n\nClick on the “Commit” button\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the “Push” button in the top right corner.\n\n\n\nEnter your GitHub username and click OK\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 1.3.\n\nIf you see a message similar to the screenshot below with HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\nTODO: warning call out: warn learner that if the have stored their PAT in a Word file, then a blank space might have been copied along with the PAT. Recommend to use a TXT file using Notepad or Mac TextEdit, or a password manager to store the PAT."
   },
   {
     "objectID": "assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
     "href": "assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
     "title": "GitHub workflow",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organisation for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the git-configuration.qmd file. It should display the commit message you entered in the previous step, e.g., “replaced placeholders with my details”. You can also verify by identifying the number of commits, here 2 commits. Click on it and you can see them.\nClick on the “Issues” tab.\n\n\n\nClick on the green “New issue” button.\n\n\n\nIn the “Title” field write: “Completed module 1 assignment”.\n\n\n\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce and write a short message, e.g., “I have completed the module 1 assignment. Please review my work.” You can also add any questions you have or other comments you would like to share with the instructors.\n\n\n\nScroll down the page a bit and click the green Create button.\n\n\nCongratulations! You have completed the GitHub workflow assignment."
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organisation for the course: https://github.com/ds4owd-002 TODO: turn this into hyperlink\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the git-configuration.qmd file. It should display the commit message you entered in the previous step, e.g., “replaced placeholders with my details”. You can also verify by identifying the number of commits, here 2 commits. Click on it and you can see them.\n\n\n\nClick on the “Issues” tab.\n\n\n\nClick on the green “New issue” button.\n\n\n\nIn the “Title” field write: “Completed module 1 assignment”.\n\n\n\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce and write a short message, e.g., “I have completed the module 1 assignment. Please review my work.” You can also add any questions you have or other comments you would like to share with the instructors.\n\n\n\nScroll down the page a bit and click the green Create button.\n\n\nCongratulations! You have completed the GitHub workflow assignment."
   },
   {
     "objectID": "assignments/md-01/am-01-3-github-pat.html",
@@ -2491,7 +2491,7 @@
     "href": "assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
     "title": "GitHub Personal Access Token",
     "section": "Create a GitHub Personal Access Token",
-    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g. a password managing software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen.\n\n\n\nDo not copy and store the token in a Word Document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you will need to generate a new one.\n\n\nContinue with the next assignment."
+    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g. a password managing software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\nTODO: Screenshot needs to be replaced.\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen.\n\n\n\nDo not copy and store the token in a Word Document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you will need to generate a new one.\n\n\nContinue with the next assignment."
   },
   {
     "objectID": "slides/lec-00-qa-session.html#meet-the-team",
