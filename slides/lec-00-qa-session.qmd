@@ -17,10 +17,6 @@ execute:
   freeze: auto
 editor_options: 
   chunk_output_type: console
-revealjs-plugins:
-  - editable
-filters:
-  - editable
 ---
 
 ```{r}

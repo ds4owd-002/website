@@ -27,23 +27,23 @@
     ]
   },
   {
-    "objectID": "modules/md-06.html",
-    "href": "modules/md-06.html",
-    "title": "Module 6",
-    "section": "",
-    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
+    "objectID": "modules/md-09.html#assignments",
+    "href": "modules/md-09.html#assignments",
+    "title": "Module 9",
+    "section": " Assignments",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-26\n\nNo assignments\nYou can work on your capstone project report",
     "crumbs": [
-      "Module 06"
+      "Module 09"
     ]
   },
   {
-    "objectID": "modules/md-06.html#learning-objectives",
-    "href": "modules/md-06.html#learning-objectives",
-    "title": "Module 6",
-    "section": "",
-    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
+    "objectID": "modules/md-09.html#quiz",
+    "href": "modules/md-09.html#quiz",
+    "title": "Module 9",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-12-03\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
-      "Module 06"
+      "Module 09"
     ]
   },
   {
@@ -71,7 +71,17 @@
     "href": "modules/md-06.html#assignments",
     "title": "Module 6",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 28th October 2025.\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-05\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 06"
+    ]
+  },
+  {
+    "objectID": "modules/md-06.html#quiz",
+    "href": "modules/md-06.html#quiz",
+    "title": "Module 6",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-12\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 06"
     ]
@@ -149,7 +159,17 @@
     "href": "modules/md-01.html#assignments",
     "title": "Module 1",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignments by Monday, 16th September 2025. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: Interaction with GitHub\n\nThank you for working through these assignments.",
+    "text": "Assignments\nDue date: Wednesday, 2025-09-17\nPlease complete the following assignments before the due date. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: GitHub Personal Access Token in preparation\nAssignment 4: Homework: Clone a GitHub repository in preparation\nAssignment 5: Homework: GitHub workflow in preparation\n\nThank you for working through these assignments.",
+    "crumbs": [
+      "Module 01"
+    ]
+  },
+  {
+    "objectID": "modules/md-01.html#quiz",
+    "href": "modules/md-01.html#quiz",
+    "title": "Module 1",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-09-24\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 01"
     ]
@@ -199,7 +219,17 @@
     "href": "modules/md-02.html#assignments",
     "title": "Module 2",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 23rd September 2025.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-09-24\nPlease complete the following assignment before the due date.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 02"
+    ]
+  },
+  {
+    "objectID": "modules/md-02.html#quiz",
+    "href": "modules/md-02.html#quiz",
+    "title": "Module 2",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-10-01\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 02"
     ]
@@ -965,7 +995,7 @@
     "href": "slides/lec-01-welcome.html#meet-the-team",
     "title": "Welcome & get ready for the course",
     "section": "Meet the team",
-    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support"
+    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support\n\n\nNicolò Massari\n\n\n\n\n\n\nTeaching Assistant\nTechnical support"
   },
   {
     "objectID": "slides/lec-01-welcome.html#learning-goals-for-the-course",
@@ -993,7 +1023,7 @@
     "href": "slides/lec-01-welcome.html#course-calendar",
     "title": "Welcome & get ready for the course",
     "section": "Course Calendar",
-    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 Oktober 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 Oktober 2025\n5\nNo class\nNA\n\n\n16 Oktober 2025\n6\nNo class\nNA\n\n\n23 Oktober 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 Oktober 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 Dezember 2025\n13\nWork on Capstone project\nNA\n\n\n11 Dezember 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 Dezember 2025\n15\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course Calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-01-welcome.html#course-structure",
@@ -1028,7 +1058,7 @@
     "href": "slides/lec-01-welcome.html#getting-help",
     "title": "Welcome & get ready for the course",
     "section": "Getting help",
-    "text": "Getting help\n\nDuring my turn and our turn segments: Please keep your microphone on mute. Send message to the Zoom chat Mian and Sophia will support you.\nDuring your turn segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in pairs."
+    "text": "Getting help\n\nDuring my turn and our turn segments: Please keep your microphone on mute. Send message to the Zoom chat Adriana and Nicoló will support you\nDuring your turn segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in groups of 2 to 4 people."
   },
   {
     "objectID": "slides/lec-01-welcome.html#platforms-and-tools",
@@ -1045,11 +1075,18 @@
     "text": "Bookmark\nds4owd-002.github.io/website/"
   },
   {
+    "objectID": "slides/lec-01-welcome.html#our-turn",
+    "href": "slides/lec-01-welcome.html#our-turn",
+    "title": "Welcome & get ready for the course",
+    "section": "Our turn",
+    "text": "Our turn\n\nWe will create a bookmarks folder for this course.\n\n\n\n\n\n−+\n05:00"
+  },
+  {
     "objectID": "slides/lec-01-welcome.html#learning-objectives-for-this-week",
     "href": "slides/lec-01-welcome.html#learning-objectives-for-this-week",
     "title": "Welcome & get ready for the course",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\nLearners can access the Posit Cloud workspace for the course.\nLearners can use the Element chat to introduce themselves.\nLearners can open an issue on GitHub and tag the course instructor.\nLearners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub."
+    "text": "Learning Objectives (for this week)\n\n\nLearners can access the Posit Cloud workspace for the course.\nLearners can use the Element chat to introduce themselves.\nLearners can open an issue on GitHub and tag the course instructor.\nLearners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub."
   },
   {
     "objectID": "slides/lec-01-welcome.html#section",
@@ -1112,7 +1149,7 @@
     "href": "slides/lec-01-welcome.html#screen-setup---poll",
     "title": "Welcome & get ready for the course",
     "section": "Screen setup - Poll",
-    "text": "Screen setup - Poll\n\n\nOne screen \n\nTwo screens or more"
+    "text": "Screen setup - Poll\n\n\nOne computer screen \n\nTwo or more computer screens"
   },
   {
     "objectID": "slides/lec-01-welcome.html#meeting-you-where-you-are",
@@ -1231,7 +1268,7 @@
     "href": "slides/lec-01-welcome.html#your-turn-create-an-issue-on-github",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Create an issue on GitHub",
-    "text": "Your turn: Create an issue on GitHub\n\n\nOpen github.com in your browser and login with your credentials\nExchange your GitHub username with your room partner\nFind and open the md-01-assignments-USERNAME repository that ends with your GitHub username\nFind the issue tracker\nOpen an issue with the title “Support for module 1 homework”\nAdd your room partner to the list of Assignees on the right panel\nAdd a comment to the issue and tag Mian with @mianzg, Sophia with @sskorik01, and your room partner to ask for support during the homework assignments\nClick submit new issue\nCheck if you have received a notification on GitHub, and open the inbox.\nOpen the issue and respond to the comment of your room partner.\n\n\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: Create an issue on GitHub\n\n\nOpen github.com in your browser and login with your credentials\nExchange your GitHub username with your room partner\nFind and open the md-01-assignments-USERNAME repository that ends with your GitHub username\nFind the issue tracker\nOpen an issue with the title “Support for module 1 homework”\nAdd your room partner to the list of Assignees on the right panel\nAdd a comment to the issue and tag @seawaR, @massarin, and Lars with @larnsce, and your room partner to ask for support during the homework assignments\nClick submit new issue\nCheck if you have received a notification on GitHub, and open the inbox.\nOpen the issue and respond to the comment of your room partner.\n\n\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#take-a-break-1",
@@ -1290,25 +1327,11 @@
     "text": "YAML validation\nThere are multiple ways of formatting valid YAML:\n\nValid: There’s a space after :\n\nformat: html\n\nValid: format: html with selections made with proper indentation\n\nformat: \n  html:\n    toc: true"
   },
   {
-    "objectID": "slides/lec-01-welcome.html#quarto-linting",
-    "href": "slides/lec-01-welcome.html#quarto-linting",
-    "title": "Welcome & get ready for the course",
-    "section": "Quarto linting",
-    "text": "Quarto linting\nLint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs.\n\n\n\n\nSource: https://en.wikipedia.org/wiki/Lint_(software)"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#quarto-yaml-intelligence",
-    "href": "slides/lec-01-welcome.html#quarto-yaml-intelligence",
-    "title": "Welcome & get ready for the course",
-    "section": "Quarto YAML Intelligence",
-    "text": "Quarto YAML Intelligence\nRStudio + VSCode provide rich tab-completion - start a word and tab to complete, or Ctrl + space to see all available options."
-  },
-  {
     "objectID": "slides/lec-01-welcome.html#packages",
     "href": "slides/lec-01-welcome.html#packages",
     "title": "Welcome & get ready for the course",
     "section": "Packages",
-    "text": "Packages\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
+    "text": "Packages\n\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
   },
   {
     "objectID": "slides/lec-01-welcome.html#functions-arguments",
@@ -1318,39 +1341,53 @@
     "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(.data = gapminder, \n       year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data"
   },
   {
+    "objectID": "slides/lec-01-welcome.html#functions-arguments-1",
+    "href": "slides/lec-01-welcome.html#functions-arguments-1",
+    "title": "Welcome & get ready for the course",
+    "section": "Functions & Arguments",
+    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data = Does not need to be be spelled out\nArguments following: year == 2007"
+  },
+  {
     "objectID": "slides/lec-01-welcome.html#objects",
     "href": "slides/lec-01-welcome.html#objects",
     "title": "Welcome & get ready for the course",
     "section": "Objects",
-    "text": "Objects\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- filter(.data = gapminder, \n                            year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data\nObject: gapminder_yr_2007"
+    "text": "Objects\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- filter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007\nAssignment operator: &lt;- Assigns the result to an object\nObject: gapminder_yr_2007 Name of the object that stores result"
   },
   {
     "objectID": "slides/lec-01-welcome.html#operators",
     "href": "slides/lec-01-welcome.html#operators",
     "title": "Welcome & get ready for the course",
     "section": "Operators",
-    "text": "Operators\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data\nObject: gapminder_yr_2007\nAssignment operator: &lt;-\nPipe operator: |&gt;"
+    "text": "Operators\n\nlibrary(dplyr)\n\ngapminder_yr_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007\nObject: gapminder_yr_2007\nAssignment operator: &lt;-\nPipe operator: |&gt; Passes the result into the first argument of the next function"
   },
   {
     "objectID": "slides/lec-01-welcome.html#rules",
     "href": "slides/lec-01-welcome.html#rules",
     "title": "Welcome & get ready for the course",
     "section": "Rules",
-    "text": "Rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
+    "text": "Rules\nRules of dplyr functions:\n\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
+    "href": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
+    "title": "Welcome & get ready for the course",
+    "section": "Does this look and sound foreign and confusing?",
+    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
   },
   {
     "objectID": "slides/lec-01-welcome.html#weekly-structure",
     "href": "slides/lec-01-welcome.html#weekly-structure",
     "title": "Welcome & get ready for the course",
     "section": "Weekly Structure",
-    "text": "Weekly Structure\n\n\n\nMonday\nHomework due (starting from Module 2)\n\n\nTuesday\n\n\n\nWednesday\n\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday\nOffice hours on Zoom (2 pm to 3:30 pm CET)"
+    "text": "Weekly Structure\n\n\n\nMonday\n\n\n\nTuesday\nOffice hours on Zoom (2 pm to 3 pm CET)\n\n\nWednesday\nHomework due\n\n\nThursday\nModule from 2 pm to 4:30 pm CET\n\n\nFriday"
   },
   {
     "objectID": "slides/lec-01-welcome.html#homework-assignments",
     "href": "slides/lec-01-welcome.html#homework-assignments",
     "title": "Welcome & get ready for the course",
     "section": "Homework assignments",
-    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
+    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nHomework assignment due Wednesdays before next module\nQuiz due one week after homework assignment\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
   },
   {
     "objectID": "slides/lec-01-welcome.html#capstone-project",
@@ -1371,7 +1408,7 @@
     "href": "slides/lec-01-welcome.html#homework-due-date",
     "title": "Welcome & get ready for the course",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, September 15th 2025"
+    "text": "Homework due date\n\nHomework assignment due: Wednesday, 2025-09-17\nQuiz due: Wednesday, 2025-09-24"
   },
   {
     "objectID": "slides/lec-01-welcome.html#thanks",
@@ -1742,17 +1779,7 @@
     "href": "index.html",
     "title": "Course Overview",
     "section": "",
-    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nSign up here: https://ee-eu.kobotoolbox.org/single/7V3qeDYD (it will take about 15 minutes)",
-    "crumbs": [
-      "Course Overview"
-    ]
-  },
-  {
-    "objectID": "index.html#qa-session-recording-available",
-    "href": "index.html#qa-session-recording-available",
-    "title": "Course Overview",
-    "section": "Q&A Session Recording Available",
-    "text": "Q&A Session Recording Available\nThe pre-course Q&A session from August 26th, 2025 is now available. Watch the recording to learn about course content, logistics, and see answers to questions from prospective students.\nAccess the recording and shared notes here: Pre-Course Q&A Session",
+    "text": "Thank you for your interest in this course. Your course instructors: Lars Schöbitz & Adriana Clavijo & Nicoló Massari are looking forward to meeting you.\nWe will meet on Zoom for 9 modules over 12 weeks (see Course Calendar) at the following times:\nWe will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.\nThe sign up for this course is now closed. If you are interested to receive updates about future courses, please subscribe to the openwashdata newsletter: https://buttondown.com/openwashdata.",
     "crumbs": [
       "Course Overview"
     ]
@@ -1808,47 +1835,69 @@
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-2-element.html",
-    "href": "assignments/md-01/am-01-2-element.html",
-    "title": "Communication in a chat",
+    "objectID": "assignments/md-01/am-01-5-github-workflow.html",
+    "href": "assignments/md-01/am-01-5-github-workflow.html",
+    "title": "GitHub workflow",
     "section": "",
-    "text": "Emails are not a very quick, responsive way of communication. We avoid them by prioritising other channels.\nWe want to communicate through a chat client called Element, providing the open source, free-of-charge Slack-like experience.\nOn Element, you can reach out to the course instructors and other students any time, and we have a way to stay in touch beyond the course itself.\nTo set it up, please follow the steps below:",
+    "text": "In this assignment, you will configure Git, commit changes, and create an issue on GitHub.",
     "crumbs": [
       "Module 01",
-      "am-02: Element"
+      "am-01-5: GitHub Workflow"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
-    "href": "assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
-    "title": "Communication in a chat",
-    "section": "Step 1: Join the chat",
-    "text": "Step 1: Join the chat\n\nOpen the following link in your browser: https://matrix.to/#/#openwashdata-lobby:staffchat.ethz.ch\nClick on Continue\n\n\n\nClick on Sign Up\n\n\n\nClick on the GitHub icon\n\n\n\nClick on Continue\n\n\n\nClick on the X to close the dialogue\n\n\n\nClick on “I’ll verify later” to close the dialogue\n\n 8. Click on “Join the Discussion”\n 9. Leave a message\nYou are now in the lobby of the openwashdata community. Leave a message to introduce yourself. You will be added to the room ds4owd-002 that is specifically for this course.",
+    "objectID": "assignments/md-01/am-01-5-github-workflow.html#complete-github-workflow",
+    "href": "assignments/md-01/am-01-5-github-workflow.html#complete-github-workflow",
+    "title": "GitHub workflow",
+    "section": "",
+    "text": "In this assignment, you will configure Git, commit changes, and create an issue on GitHub.",
     "crumbs": [
       "Module 01",
-      "am-02: Element"
+      "am-01-5: GitHub Workflow"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
-    "href": "assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
-    "title": "Communication in a chat",
-    "section": "Step 2: Verify element session",
-    "text": "Step 2: Verify element session\n\nClick on the icon in the top left corner\n\n\n\nClick on All settings\n\n\n\nSelect Sessions in the navigation pane on the left, click Verify session\n\n 4. Click Proceed with reset\n 5. Select Generate a Security Key and click Continue\n 6. Click Download and save downloaded security-key.txt securely\n 7. Click Continue\n\n\nYou have succesfully verified your session\n\nYou can download Element as an app for your computer and also your phone. If you proceed to do this, then use the stored security key to verify those additional sessions.",
+    "objectID": "assignments/md-01/am-01-5-github-workflow.html#step-1-introduce-yourself-to-git",
+    "href": "assignments/md-01/am-01-5-github-workflow.html#step-1-introduce-yourself-to-git",
+    "title": "GitHub workflow",
+    "section": "Step 1: Introduce yourself to git",
+    "text": "Step 1: Introduce yourself to git\n\nIn Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of ds4owd-002. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the ds4owd-002 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your GitHub username\nReplace Your Email with your email address\n\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\nContinue with the next step",
     "crumbs": [
       "Module 01",
-      "am-02: Element"
+      "am-01-5: GitHub Workflow"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
-    "href": "assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
-    "title": "Communication in a chat",
-    "section": "Step 3: Download Element (optional)",
-    "text": "Step 3: Download Element (optional)\n\nDownload and install Element: https://element.io/download\n\nIt’s available on Windows, Linux and Mac OS, as well as Android and iPhone.\n\nOpen the Element App on your device\nClick on Sign In\nSign in with GitHub\nClick on Verify with Security Key\n\n 6. Copy/paste the Security key from the downloaded security-key.txt you received when setting up the app in your browser. And hit Continue.\n\n\n\n\n\n\nI cannot click Continue\n\n\n\n\n\nIf a click on Continue does now work with your mouse, then hit the Return (Enter) key on your keyboard.\n\n\n\n 7. You have successfully verified your device",
+    "objectID": "assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
+    "href": "assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
+    "title": "GitHub workflow",
+    "section": "Step 2: Commit and push your changes",
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details\n\n\n\nClick on the Commit button\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 1.3.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.",
     "crumbs": [
       "Module 01",
-      "am-02: Element"
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
+    "href": "assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
+    "title": "GitHub workflow",
+    "section": "Step 3: Open an issue on GitHub",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See rainbow-train in screenshot.\n\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the git-configuration.qmd file. It should display the commit message you entered in the previous step, e.g., replaced placeholders with my details. You can also verify by identifying the number of commits, here 2 commits. Click on it and you can see them.\n\n\n\nClick on the Issues tab.\n\n\n\nClick on the green New issue button.\n\n\n\nIn the Title field write: Completed module 1 assignment.\n\n\n\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and write a short message, e.g., I have completed the module 1 assignment. Please review my work. You can also add any questions you have or other comments you would like to share with the instructors.\n\n\n\nScroll down the page a bit and click the green Create button.\n\n Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation).",
+    "crumbs": [
+      "Module 01",
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "assignments/md-01/am-01-1-posit.html",
+    "href": "assignments/md-01/am-01-1-posit.html",
+    "title": "Working with R, RStudio on Posit Cloud",
+    "section": "",
+    "text": "Log into Posit Cloud with GitHub account\nHere are the instructions to log in to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu",
+    "crumbs": [
+      "Module 01",
+      "am-01-1: Posit Cloud"
     ]
   },
   {
@@ -1944,7 +1993,7 @@
     "href": "assignments/md-07/am-07-2-project-metadata.html#step-7-open-an-issue-on-github",
     "title": "Documentation for your capstone project",
     "section": "Step 7: Open an issue on GitHub",
-    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -1988,7 +2037,7 @@
     "href": "assignments/md-02/am-02-1-data-visualisation.html#step-3-open-an-issue-on-github",
     "title": "Data visualisation with ggplot2",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-02-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-02-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 02",
       "am-01: Data visualization"
@@ -2032,7 +2081,7 @@
     "href": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
     "title": "Data transformation with dplyr",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 03",
       "am-01: Data transformation"
@@ -2178,7 +2227,7 @@
     "href": "assignments/md-03/am-03-2-spreadsheet.html#step-4-open-an-issue-on-github",
     "title": "Create a spreadsheet",
     "section": "Step 4: Open an issue on GitHub",
-    "text": "Step 4: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Create spreadsheet and upload to cloud”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 4: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Create spreadsheet and upload to cloud”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
@@ -2266,7 +2315,7 @@
     "href": "assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
     "title": "Data for your capstone project",
     "section": "Step 6: Open an issue on GitHub",
-    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 05",
       "am-01: Project data"
@@ -2310,87 +2359,98 @@
     "href": "assignments/md-07/am-07-1-pivoting.html#step-3-open-an-issue-on-github",
     "title": "Data pivoting",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-1-posit.html",
-    "href": "assignments/md-01/am-01-1-posit.html",
-    "title": "Working with R, RStudio on Posit Cloud",
+    "objectID": "assignments/md-01/am-01-4-github-clone.html",
+    "href": "assignments/md-01/am-01-4-github-clone.html",
+    "title": "Clone a GitHub repository",
     "section": "",
-    "text": "Log into Posit Cloud with GitHub account\nHere are the instructions to login to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu",
+    "text": "In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
     "crumbs": [
       "Module 01",
-      "am-01: Posit Cloud"
+      "am-01-4: GitHub Clone"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-3-github.html",
-    "href": "assignments/md-01/am-01-3-github.html",
-    "title": "Interaction with GitHub",
+    "objectID": "assignments/md-01/am-01-4-github-clone.html#clone-a-repository",
+    "href": "assignments/md-01/am-01-4-github-clone.html#clone-a-repository",
+    "title": "Clone a GitHub repository",
     "section": "",
-    "text": "Struggeling with the setup of GitHub?\n\n\n\n If we can support you to setup GitHub, get in touch with us via Email and we will schedule a call for a walk through.",
+    "text": "In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
     "crumbs": [
       "Module 01",
-      "am-03: GitHub"
+      "am-01-4: GitHub Clone"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-3-github.html#step-1-set-up-a-github-personal-access-token",
-    "href": "assignments/md-01/am-01-3-github.html#step-1-set-up-a-github-personal-access-token",
-    "title": "Interaction with GitHub",
-    "section": "Step 1: Set up a GitHub Personal Access Token",
-    "text": "Step 1: Set up a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token:\n\n\n\n\n\n\nImportant\n\n\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g. a password managing software).\n\n\n\n\nLog in to your GitHub account.\nClick on your profile picture in the top-right corner of the page.\nSelect “Settings” from the dropdown menu.\nIn the left sidebar, click on “Developer settings”.\nClick on “Personal access tokens”.\nClick on “Tokens (classic)”.\nClick on “Generate new token” and from the dropdown menu select “Generate new token (classic)”.\nIn the “Note” field, give your token the name: GITHUB_PAT\nUnder Expiration, select “No expiration”\nUnder “Select scopes”, select: repo, workflow, user\nClick on “Generate token”.\nYour personal access token will be displayed on the screen. Copy it and store it in a safe place.\n\nRemember to treat your access tokens like passwords and keep them secure (e.g. a password manager software).",
+    "objectID": "assignments/md-01/am-01-2-element.html",
+    "href": "assignments/md-01/am-01-2-element.html",
+    "title": "Communication in a chat",
+    "section": "",
+    "text": "Emails are not a very quick, responsive way of communication. We avoid them by prioritizing other channels.\nWe want to communicate through a chat client called Element, providing the open source, free-of-charge Slack-like experience.\nOn Element, you can reach out to the course instructors and other students any time, and we have a way to stay in touch beyond the course itself.\nTo set it up, please follow the steps below:",
     "crumbs": [
       "Module 01",
-      "am-03: GitHub"
+      "am-01-2: Element"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-3-github.html#step-2-clone-a-repository",
-    "href": "assignments/md-01/am-01-3-github.html#step-2-clone-a-repository",
-    "title": "Interaction with GitHub",
-    "section": "Step 2: Clone a repository",
-    "text": "Step 2: Clone a repository\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green “Code” button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed\nContinue with the next step",
+    "objectID": "assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
+    "href": "assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
+    "title": "Communication in a chat",
+    "section": "Step 1: Join the chat",
+    "text": "Step 1: Join the chat\n\nOpen the following link in your browser: https://matrix.to/#/#openwashdata-lobby:staffchat.ethz.ch\nClick on Continue\n\n\n\nClick on Sign Up\n\n\n\nClick on the GitHub icon\n\n\n\nClick on Continue\n\n\n\nClick on the X to close the dialogue\n\n\n\nClick on “I’ll verify later” to close the dialogue\n\n 8. Click on “Join the Discussion”\n 9. Leave a message\nYou are now in the lobby of the openwashdata community. Leave a message to introduce yourself. You will be added to the room ds4owd-002 that is specifically for this course.",
     "crumbs": [
       "Module 01",
-      "am-03: GitHub"
+      "am-01-2: Element"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-3-github.html#step-3-introduce-yourself-to-git",
-    "href": "assignments/md-01/am-01-3-github.html#step-3-introduce-yourself-to-git",
-    "title": "Interaction with GitHub",
-    "section": "Step 3: Introduce yourself to git",
-    "text": "Step 3: Introduce yourself to git\n\nIn Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username.\nOpen the git-configuration.qmd file from the bottom right window of RStudio.\nEdit the code chunk under “Git configuration details” and replace the placeholders with your name and email address (these will be the details that git will use to identify you when you commit changes to the repository)\nRender the document\nContinue with the next step\n\n\nlibrary(usethis)\n\n# Replace Your Name and Your Email with your details. Do not delete the quotes \"\".\nuse_git_config(user.name = \"Your Name\", user.email = \"Your Email\")",
+    "objectID": "assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
+    "href": "assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
+    "title": "Communication in a chat",
+    "section": "Step 2: Verify element session",
+    "text": "Step 2: Verify element session\n\nClick on the icon in the top left corner\n\n\n\nClick on All settings\n\n\n\nSelect Sessions in the navigation pane on the left, click Verify session\n\n 4. Click Proceed with reset\n 5. Select Generate a Security Key and click Continue\n 6. Click Download and save downloaded security-key.txt securely\n 7. Click Continue\n\n\nYou have successfully verified your session\n\nYou can download Element as an app for your computer and also your phone. If you proceed to do this, then use the stored security key to verify those additional sessions.",
     "crumbs": [
       "Module 01",
-      "am-03: GitHub"
+      "am-01-2: Element"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-3-github.html#step-4-commit-and-push-your-changes",
-    "href": "assignments/md-01/am-01-3-github.html#step-4-commit-and-push-your-changes",
-    "title": "Interaction with GitHub",
-    "section": "Step 4: Commit and push your changes",
-    "text": "Step 4: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to the git-configuration.qmd file to stage it for commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button$\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "objectID": "assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
+    "href": "assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
+    "title": "Communication in a chat",
+    "section": "Step 3: Download Element (optional)",
+    "text": "Step 3: Download Element (optional)\n\nDownload and install Element: https://element.io/download\n\nIt’s available on Windows, Linux and Mac OS, as well as Android and iPhone.\n\nOpen the Element App on your device\nClick on Sign In\nSign in with GitHub\nClick on Verify with Security Key\n\n 6. Copy/paste the Security key from the downloaded security-key.txt you received when setting up the app in your browser. And hit Continue.\n\n\n\n\n\n\nI cannot click Continue\n\n\n\n\n\nIf a click on Continue does not work with your mouse, then hit the Return (Enter) key on your keyboard.\n\n\n\n 7. You have successfully verified your device",
     "crumbs": [
       "Module 01",
-      "am-03: GitHub"
+      "am-01-2: Element"
     ]
   },
   {
-    "objectID": "assignments/md-01/am-01-3-github.html#step-5-open-an-issue-on-github",
-    "href": "assignments/md-01/am-01-3-github.html#step-5-open-an-issue-on-github",
-    "title": "Interaction with GitHub",
-    "section": "Step 5: Open an issue on GitHub",
-    "text": "Step 5: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-01-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @larnsce @mianzg @sskorik01",
+    "objectID": "assignments/md-01/am-01-3-github-pat.html",
+    "href": "assignments/md-01/am-01-3-github-pat.html",
+    "title": "GitHub Personal Access Token",
+    "section": "",
+    "text": "Struggling with the setup of GitHub?\n\n\n\n If we can support you to setup GitHub, get in touch with us via Email and we will schedule a call for a walk through.",
     "crumbs": [
       "Module 01",
-      "am-03: GitHub"
+      "am-01-3: GitHub PAT"
+    ]
+  },
+  {
+    "objectID": "assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
+    "href": "assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
+    "title": "GitHub Personal Access Token",
+    "section": "Create a GitHub Personal Access Token",
+    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g., in password management software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen. Copy it to your clipboard by clicking the copy icon next to the token. Make sure to copy it immediately, as you will not be able to see it again after you leave the page.\n\n\n\nDo not copy and store the token in a Word document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you can generate a new one.\n\n\nContinue with the next assignment: Clone a GitHub repository.",
+    "crumbs": [
+      "Module 01",
+      "am-01-3: GitHub PAT"
     ]
   },
   {
@@ -2531,7 +2591,7 @@
     "href": "slides/lec-02-visualisation.html#stack-overflow",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Stack Overflow",
-    "text": "Stack Overflow\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes\nThen, check out the “Linked” posts\nAlways give credit for the solution"
+    "text": "Stack Overflow\n\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes\nThen, check out the “Linked” posts\nAlways give credit for the solution"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools",
@@ -2916,7 +2976,7 @@
     "href": "slides/lec-02-visualisation.html#types-of-variables",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Types of variables",
-    "text": "Types of variables\n\n\nnumerical\ndiscrete variables\n\nnon-negative\nwhole numbers\ne.g. number of students, roll of a dice\n\ncontinuous variables\n\ninfinite number of values\nalso dates and times\ne.g. length, weight, size\n\n\nnon-numerical\ncategorical variables\n\nfinite number of values\ndistinct groups (e.g. EU countries, continents)\nordinal if levels have natural ordering (e.g. week days, school grades)"
+    "text": "Types of variables\n\n\n\nnumerical\ndiscrete variables\n\nnon-negative\nwhole numbers\ne.g. number of students, roll of a dice\n\ncontinuous variables\n\ninfinite number of values\nalso dates and times\ne.g. length, weight, size\n\n\nnon-numerical\ncategorical variables\n\nfinite number of values\ndistinct groups (e.g. EU countries, continents)\nordinal if levels have natural ordering (e.g. week days, school grades)"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#histogram",
@@ -3224,7 +3284,7 @@
     "href": "slides/lec-03-transformation.html#dplyr-rules",
     "title": "Data transformation with dplyr",
     "section": "dplyr rules",
-    "text": "dplyr rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
+    "text": "dplyr rules\nRules of dplyr functions:\n\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
   },
   {
     "objectID": "slides/lec-03-transformation.html#functions-arguments",
@@ -3700,7 +3760,7 @@
     "href": "slides/lec-08-quarto.html#whats-a-citation",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "What’s a Citation?",
-    "text": "What’s a Citation?\n\nInequality underpins waste management systems, structuring who can or cannot access services (Kalina et al., 2023).\nMany visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nIn Tilley & Kalina (2021), the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.\n\n\nExplanation A citation is a reference to the source of information used in your research. Any time you directly quote, paraphrase, or summarize the essential elements of someone else’s idea in your work, an in-text citation should follow. For example, in APA style, a citation might look like this: (Tilley and Kalina, 2021).\nAnalogy Think of a citation as a signpost on a road trip. It tells you where the information came from and points you in the direction of the full details (the destination), which can be found in the reference list."
+    "text": "What’s a Citation?\n\n\nInequality underpins waste management systems, structuring who can or cannot access services (Kalina et al., 2023).\nMany visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nIn Tilley & Kalina (2021), the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.\n\n\n\nExplanation A citation is a reference to the source of information used in your research. Any time you directly quote, paraphrase, or summarize the essential elements of someone else’s idea in your work, an in-text citation should follow. For example, in APA style, a citation might look like this: (Tilley and Kalina, 2021).\nAnalogy Think of a citation as a signpost on a road trip. It tells you where the information came from and points you in the direction of the full details (the destination), which can be found in the reference list."
   },
   {
     "objectID": "slides/lec-08-quarto.html#whats-a-citation-1",
@@ -3763,7 +3823,7 @@
     "href": "slides/lec-08-quarto.html#scholarly-articles-in-quarto",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Scholarly Articles in Quarto",
-    "text": "Scholarly Articles in Quarto\nQuarto supports\n\na standardized schema for authors and affiliations that can be expressed once int the source document,\nthe use of Citation Style Language (CSL) to automate the formatting of citations and bibliographies, and\noutputting to pdf, html, and docx with custom formatting,\n\n\naccording to the styles required for various journals,\n\n\nand creating the LaTeX required for submission to multiple journals."
+    "text": "Scholarly Articles in Quarto\nQuarto supports\n\n\na standardized schema for authors and affiliations that can be expressed once int the source document,\nthe use of Citation Style Language (CSL) to automate the formatting of citations and bibliographies, and\noutputting to pdf, html, and docx with custom formatting,\n\n\n\naccording to the styles required for various journals,\n\n\nand creating the LaTeX required for submission to multiple journals."
   },
   {
     "objectID": "slides/lec-08-quarto.html#front-matter",
@@ -4052,7 +4112,17 @@
     "href": "modules/md-03.html#assignments",
     "title": "Module 3",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 30th September 2025.\n\nAssignment 1: Data transformation\nAssignment 2: Create a spreadsheet\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-10-01\n\nAssignment 1: Data transformation\nAssignment 2: Create a spreadsheet\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 03"
+    ]
+  },
+  {
+    "objectID": "modules/md-03.html#quiz",
+    "href": "modules/md-03.html#quiz",
+    "title": "Module 3",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-10-08\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 03"
     ]
@@ -4152,7 +4222,17 @@
     "href": "modules/md-05.html#assignments",
     "title": "Module 5",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 21st October 2025.\n\nAssignment 1: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-10-29\n\nAssignment 1: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 05"
+    ]
+  },
+  {
+    "objectID": "modules/md-05.html#quiz",
+    "href": "modules/md-05.html#quiz",
+    "title": "Module 5",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-05\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 05"
     ]
@@ -4202,7 +4282,17 @@
     "href": "modules/md-04.html#assignments",
     "title": "Module 4",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 7th October 2025.\n\nAssignment 1: Data organisation in spreadsheets\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-10-22\n\nAssignment 1: Data organisation in spreadsheets\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 04"
+    ]
+  },
+  {
+    "objectID": "modules/md-04.html#quiz",
+    "href": "modules/md-04.html#quiz",
+    "title": "Module 4",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-10-29\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 04"
     ]
@@ -4212,7 +4302,7 @@
     "href": "modules/md-07.html",
     "title": "Module 7",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
     "crumbs": [
       "Module 07"
     ]
@@ -4222,7 +4312,7 @@
     "href": "modules/md-07.html#learning-objectives",
     "title": "Module 7",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.",
     "crumbs": [
       "Module 07"
     ]
@@ -4252,7 +4342,17 @@
     "href": "modules/md-07.html#assignments",
     "title": "Module 7",
     "section": " Assignments",
-    "text": "Assignments\nPlease complete the following assignment by Monday, 4th November 2025.\n\nAssignment 1: Pivot your data\nAssignment 2: Get going with your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-12\n\nAssignment 1: Pivot your data\nAssignment 2: Get going with your capstone project\n\nThank you for working through this assignment.",
+    "crumbs": [
+      "Module 07"
+    ]
+  },
+  {
+    "objectID": "modules/md-07.html#quiz",
+    "href": "modules/md-07.html#quiz",
+    "title": "Module 7",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-19\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 07"
     ]
@@ -4262,7 +4362,7 @@
     "href": "modules/md-08.html",
     "title": "Module 8",
     "section": "",
-    "text": "Learners can find resources to continue their data science journey.\nLearners can identify where and how to contact the openwashdata team for support with data sharing.\nLearners can describe the skills and compentencies they have obtained in this course.",
+    "text": "Learners can apply the skills obtained during the course to write a short data analysis project report.",
     "crumbs": [
       "Module 08"
     ]
@@ -4272,7 +4372,7 @@
     "href": "modules/md-08.html#learning-objectives",
     "title": "Module 8",
     "section": "",
-    "text": "Learners can find resources to continue their data science journey.\nLearners can identify where and how to contact the openwashdata team for support with data sharing.\nLearners can describe the skills and compentencies they have obtained in this course.",
+    "text": "Learners can apply the skills obtained during the course to write a short data analysis project report.",
     "crumbs": [
       "Module 08"
     ]
@@ -4302,7 +4402,17 @@
     "href": "modules/md-08.html#assignments",
     "title": "Module 8",
     "section": " Assignments",
-    "text": "Assignments\n\nNo assignments\nYou can work on your capstone project report",
+    "text": "Assignments\nDue date: Wednesday, 2025-11-19\n\nNo assignments\nYou can work on your capstone project report",
+    "crumbs": [
+      "Module 08"
+    ]
+  },
+  {
+    "objectID": "modules/md-08.html#quiz",
+    "href": "modules/md-08.html#quiz",
+    "title": "Module 8",
+    "section": " Quiz",
+    "text": "Quiz\nDue date: Wednesday, 2025-11-26\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 08"
     ]

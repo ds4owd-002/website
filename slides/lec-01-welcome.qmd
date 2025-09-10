@@ -38,23 +38,32 @@ While we are getting ready, please check for this email from GitHub and [accept 
 ## Meet the team
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="33%"}
 **Lars Schöbitz**
 
-![](img/lec-01/profile-lars.png){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
+![](img/lec-01/profile-lars.png){fig-alt="Headshot of Lars Schöbitz" fig-align="left" width="150"}
 
 -   Env. Engineer
-- retired WASH Researcher
+-   retired WASH Researcher
 -   [RStudio certified instructor](https://education.rstudio.com/trainers/)
 :::
 
-::: {.column width="50%"}
+::: {.column width="33%"}
 **Adriana Clavijo**
 
-![](img/lec-01/profile-adriana.jpg){fig-alt="Headshot of Adriana Clavijo" fig-align="center"}
+![](img/lec-01/profile-adriana.jpg){fig-alt="Headshot of Adriana Clavijo" fig-align="left" width="150"}
 
 -   Data Scientist
 -   Spanish language support
+:::
+
+::: {.column width="33%"}
+**Nicolò Massari**
+
+![](img/lec-01/profile-nicolo.jpg){fig-alt="Headshot of Nicolò Massari" fig-align="left" width="150"}
+
+-   Teaching Assistant
+-   Technical support
 :::
 :::
 
@@ -62,13 +71,13 @@ While we are getting ready, please check for this email from GitHub and [accept 
 
 ## Learning Goals (for the course)
 
-1.  **Master data science tools** - Use [(R, RStudio IDE, Git, GitHub, tidyverse, Quarto)]{.highlight-yellow} to analyze and communicate data effectively.
+1.  [Master data science tools]{.underline} - Use [(R, RStudio IDE, Git, GitHub, tidyverse, Quarto)]{.highlight-yellow} to analyze and communicate data effectively.
 
-2.  **Create reproducible documents** - Produce professional reports with [Quarto]{.highlight-yellow}, including citations, figures, and tables.
+2.  [Create reproducible documents]{.underline} - Produce professional reports with [Quarto]{.highlight-yellow}, including citations, figures, and tables.
 
-3.  **Practice open science** - Share your data and code openly, following best practices for reproducibility and collaboration.
+3.  [Practice open science]{.underline} - Share your data and code openly, following best practices for reproducibility and collaboration.
 
-4.  **Build a portfolio** - Complete real-world projects that demonstrate your skills to future employers or collaborators.
+4.  [Build a portfolio]{.underline} - Complete real-world projects that demonstrate your skills to future employers or collaborators.
 
 ## Your turn: About you
 
@@ -138,9 +147,9 @@ readr::read_csv("../data/tbl-01-ds4owd-002-course-schedule.csv") |>
 
 ## Getting help
 
--   During [my turn]{.highlight-yellow} and [our turn]{.highlight-yellow} segments: Please keep your microphone on mute. Send message to the [Zoom chat]{.highlight-yellow} Mian and Sophia will support you.
+-   During [my turn]{.highlight-yellow} and [our turn]{.highlight-yellow} segments: Please keep your microphone on mute. Send message to the [Zoom chat]{.highlight-yellow} Adriana and Nicoló will support you
 
--   During [your turn]{.highlight-yellow} segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in pairs. 
+-   During [your turn]{.highlight-yellow} segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in groups of 2 to 4 people.
 
 
 ## Platforms and Tools
@@ -155,6 +164,21 @@ readr::read_csv("../data/tbl-01-ds4owd-002-course-schedule.csv") |>
 ## Bookmark {.center-align .large}
 
 [{{< var course.site-short >}}]({{< var course.site >}})
+
+## Our turn
+
+::: task
+We will create a bookmarks folder for this course.
+:::
+
+```{r}
+knitr::include_graphics(here::here("slides/img/lec-01/github-notifications-settings.png"))
+```
+
+
+```{r}
+countdown(5)
+```
 
 ## Learning Objectives (for this week)
 
@@ -201,11 +225,11 @@ Artwork from [\@juliesquid](https://twitter.com/juliesquid) for [\@openscapes](h
 
 ::: columns
 ::: {.column width="50%"}
-One screen ![](img/lec-01/bram-naus-N1gUD_dCvJE-unsplash.jpg)
+One computer screen ![](img/lec-01/bram-naus-N1gUD_dCvJE-unsplash.jpg)
 :::
 
 ::: {.column width="50%"}
-Two screens or more ![](img/lec-01/daniel-korpai-vHVfpi3h5xk-unsplash.jpg)
+Two or more computer screens ![](img/lec-01/daniel-korpai-vHVfpi3h5xk-unsplash.jpg)
 :::
 :::
 
@@ -507,7 +531,7 @@ countdown(5)
 4. Find the issue tracker
 5. Open an issue with the title "Support for module 1 homework" 
 6. Add your room partner to the list of Assignees on the right panel
-7. Add a comment to the issue and tag Mian with [@mianzg]{.highlight-yellow}, Sophia with [@sskorik01]{.highlight-yellow}, and your [room partner]{.highlight-yellow} to ask for support during the homework assignments
+7. Add a comment to the issue and tag [@seawaR]{.highlight-yellow}, [@massarin]{.highlight-yellow}, and Lars with [@larnsce]{.highlight-yellow}, and your [room partner]{.highlight-yellow} to ask for support during the homework assignments
 8. Click submit new issue
 9. Check if you have received a notification on GitHub, and open the inbox.
 10. Open the issue and respond to the comment of your room partner.
@@ -672,26 +696,6 @@ format:
     toc: true
 ```
 
-## Quarto linting
-
-Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs.
-
-<br>
-
-![](img/lec-01/lint-rstudio.png){fig-alt="Linter showing message for badly formatted YAML."}
-
-::: aside
-Source: <https://en.wikipedia.org/wiki/Lint_(software)>
-:::
-
-## Quarto YAML Intelligence
-
-RStudio + VSCode provide rich tab-completion - start a word and tab to complete, or <kbd>`Ctrl + space`</kbd> to see all available options.
-
-<br>
-
-![](img/lec-01/quarto-tab-complete.png){fig-align="center" width="600"}
-
 # R fundamentals {background-color="#4C326A"}
 
 ## Packages {auto-animate="true"}
@@ -752,7 +756,23 @@ filter(.data = gapminder,
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` **What do do with the data**
+-   Arguments following: `year == 2007` [What do do with the data]{.highlight-yellow}
+
+
+## Functions & Arguments {auto-animate="true"}
+
+```{r}
+#| code-line-numbers: "3"
+#| eval: false
+#| echo: true
+library(dplyr)
+
+filter(gapminder, year == 2007)
+```
+
+-   Function: `filter()`
+-   Argument: `.data =` [Does not need to be be spelled out]{.highlight-yellow}
+-   Arguments following: `year == 2007` 
 
 ## Objects {auto-animate="true"}
 
@@ -762,14 +782,15 @@ filter(.data = gapminder,
 #| echo: true
 library(dplyr)
 
-gapminder_yr_2007 <- filter(.data = gapminder, 
-                            year == 2007)
+gapminder_yr_2007 <- filter(gapminder, year == 2007)
 ```
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` **What do do with the data**
--   Object: `gapminder_yr_2007`
+-   Arguments following: `year == 2007` 
+-   Assignment operator: `<-` [Assigns the result to an object]{.highlight-yellow} 
+-   Object: `gapminder_yr_2007` [Name of the object that stores result]{.highlight-yellow}
+
 
 ## Operators {auto-animate="true"}
 
@@ -785,10 +806,10 @@ gapminder_yr_2007 <- gapminder |>
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` **What do do with the data**
+-   Arguments following: `year == 2007`
 -   Object: `gapminder_yr_2007`
 -   Assignment operator: `<-`
--   Pipe operator: `|>`
+-   Pipe operator: `|>` [Passes the result into the first argument of the next function]{.highlight-yellow}
 
 ## Rules
 
@@ -801,22 +822,38 @@ Rules of `dplyr` functions:
 -   Don't modify in place
 :::
 
+## Does this look and sound foreign and confusing?
+
+::: {.callout-tip}
+## These concepts will be repeated many times
+
+We'll revisit these R fundamentals throughout the next 9 weeks:
+
+- **Week by week**, we'll build on these concepts gradually
+- **Practice will help** - you'll see these patterns repeatedly
+- **No need to memorize** - understanding will come with practice
+
+You're not expected to remember or fully understand everything right now. This is your first exposure!
+:::
+
 # Course information {background-color="#4C326A"}
 
 ## Weekly Structure
 
 |          |                                           |
 |----------|-------------------------------------------|
-| **Monday**   | Homework due (starting from Module 2) |
-| **Tuesday**  |                                         |
-| **Wednesday** |                                        |
+| **Monday**   |                             |
+| **Tuesday**  | Office hours on Zoom (2 pm to 3 pm CET) |
+| **Wednesday** | Homework due                           |
 | **Thursday** | Module from 2 pm to 4:30 pm CET |
-| **Friday**   | Office hours on Zoom (2 pm to 3:30 pm CET) |
+| **Friday**   |                                         |
 
 
 ## Homework assignments
 
 -   Weekly assignments ([module 1 homework is required for participation]{.highlight-yellow})
+-   Homework assignment due [Wednesdays before next module]{.highlight-yellow}
+-   Quiz due [one week after homework assignment]{.highlight-yellow}
 -   Submitted as rendered Quarto documents on GitHub
 -   Reviewed by course instructors for errors
 -   Management and support through GitHub issue tracker
@@ -841,7 +878,8 @@ Rules of `dplyr` functions:
 
 ## Homework due date
 
--   Homework assignment due: [Monday, September 15th 2025]{.highlight-yellow}
+-   Homework assignment due: [Wednesday, {{< var md-01.homework-due >}}]{.highlight-yellow}
+-   Quiz due: [Wednesday, {{< var md-01.quiz-due >}}]{.highlight-yellow}
 
 # Wrap-up {background-color="#4C326A"}
 

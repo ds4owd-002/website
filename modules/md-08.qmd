@@ -44,5 +44,15 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa code >}} Assignments
 
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-08.homework-due >}}
+
 - No assignments
 - You can work on your [capstone project report](../project/)
+
+## {{< fa clipboard-question >}} Quiz
+
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-08.quiz-due >}}
+
+Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
+
+[Quiz in preparation]{.highlight-yellow}

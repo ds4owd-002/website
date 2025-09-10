@@ -1,8 +1,8 @@
 {
-  "hash": "83d07c998c9f4e3f96d4e40ca30922ca",
+  "hash": "bb0aaac3683407582ae0ecad2af8b4e8",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Module 9\"\nsubtitle: \"{{< var md-09.title >}}\"\neditor: source\nparams:\n    week: 17\nexecute: \n  echo: false\n  warning: false\n---\n\n\n\n\n## {{< fa bullseye >}} Learning Objectives\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n1. \n0. \n:::\n\n\n\n\n\n## {{< fa display >}} Slides\n\n- In preparation\n",
+    "markdown": "---\ntitle: \"Module 9\"\nsubtitle: \"{{< var md-09.title >}}\"\neditor: source\nparams:\n    week: 17\nexecute: \n  echo: false\n  warning: false\n---\n\n## {{< fa bullseye >}} Learning Objectives\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n1. \n0. \n:::\n\n\n\n## {{< fa display >}} Slides\n\n- In preparation\n\n## {{< fa code >}} Assignments\n\n[Due date:]{.highlight-yellow} Wednesday, {{< var md-09.homework-due >}}\n\n- No assignments\n- You can work on your [capstone project report](../project/)\n\n## {{< fa clipboard-question >}} Quiz\n\n[Due date:]{.highlight-yellow} Wednesday, {{< var md-09.quiz-due >}}\n\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\n\n[Quiz in preparation]{.highlight-yellow}\n",
     "supporting": [
       "md-09_files"
     ],

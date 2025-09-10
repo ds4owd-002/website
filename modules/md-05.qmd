@@ -47,8 +47,16 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa code >}} Assignments
 
-Please complete the following assignment by Monday, 21st October 2025. 
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-05.homework-due >}}
 
 -   [Assignment 1](../assignments/md-05/am-05-1-project-data.qmd): Identify data for your capstone project
 
-Thank you for working through this assignment. 
+Thank you for working through this assignment.
+
+## {{< fa clipboard-question >}} Quiz
+
+[Due date:]{.highlight-yellow} Wednesday, {{< var md-05.quiz-due >}}
+
+Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course. 
+
+[Quiz in preparation]{.highlight-yellow}
