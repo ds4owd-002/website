@@ -25,6 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../assignments/md-01/am-01-4-github-clone.html" rel="next">
+<link href="../../assignments/md-01/am-01-2-element.html" rel="prev">
 <link href="../../img/OWD-logo-18.png" rel="icon" type="image/png">
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
@@ -68,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">GitHub Personal Access Token</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../modules/md-01.html">Module 01</a></li><li class="breadcrumb-item"><a href="../../assignments/md-01/am-01-3-github-pat.html">am-01-3: GitHub PAT</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -126,27 +128,39 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../modules/md-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 01</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../assignments/md-01/am-01-1-posit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">am-01: Posit Cloud</span></a>
+ <span class="menu-text">am-01-1: Posit Cloud</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../assignments/md-01/am-01-2-element.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">am-02: Element</span></a>
+ <span class="menu-text">am-01-2: Element</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../assignments/md-01/am-01-3-github.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">am-03: GitHub</span></a>
+  <a href="../../assignments/md-01/am-01-3-github-pat.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">am-01-3: GitHub PAT</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../assignments/md-01/am-01-4-github-clone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">am-01-4: GitHub Clone</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../assignments/md-01/am-01-5-github-workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">am-01-5: GitHub Workflow</span></a>
   </div>
 </li>
       </ul>
@@ -307,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../modules/md-01.html">Module 01</a></li><li class="breadcrumb-item"><a href="../../assignments/md-01/am-01-3-github-pat.html">am-01-3: GitHub PAT</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">GitHub Personal Access Token</h1>
 </div>
@@ -365,7 +379,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Treat your access tokens like passwords and keep them secure (e.g.&nbsp;a password managing software).</p>
+<p>Treat your access tokens like passwords and keep them secure (e.g., in password management software).</p>
 </div>
 </div>
 <ol type="1">
@@ -421,7 +435,7 @@ Important
 </ol>
 <p><img src="images/github-pat/screenshot-github-token-copy.png" class="img-fluid" style="width:100.0%"></p>
 <ol start="13" type="1">
-<li>Do <span class="highlight-yellow">not</span> copy and store the token in a <span class="highlight-yellow">Word Document (DOCX)</span>. Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.</li>
+<li>Do <span class="highlight-yellow">not</span> copy and store the token in a <span class="highlight-yellow">Word document (DOCX)</span>. Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.</li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -859,6 +873,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../assignments/md-01/am-01-2-element.html" class="pagination-link" aria-label="am-01-2: Element">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">am-01-2: Element</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../assignments/md-01/am-01-4-github-clone.html" class="pagination-link" aria-label="am-01-4: GitHub Clone">
+        <span class="nav-page-text">am-01-4: GitHub Clone</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

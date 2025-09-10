@@ -58,11 +58,15 @@ website:
         href: modules/md-01.qmd
         contents:
           - href: assignments/md-01/am-01-1-posit.qmd
-            text: "am-01: Posit Cloud"
+            text: "am-01-1: Posit Cloud"
           - href: assignments/md-01/am-01-2-element.qmd
-            text: "am-02: Element"
-          - href: assignments/md-01/am-01-3-github.qmd
-            text: "am-03: GitHub"
+            text: "am-01-2: Element"
+          - href: assignments/md-01/am-01-3-github-pat.qmd
+            text: "am-01-3: GitHub PAT"
+          - href: assignments/md-01/am-01-4-github-clone.qmd
+            text: "am-01-4: GitHub Clone"
+          - href: assignments/md-01/am-01-5-github-workflow.qmd
+            text: "am-01-5: GitHub Workflow"
       - section: "Module 02"
         href: modules/md-02.qmd
         contents:
