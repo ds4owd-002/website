@@ -16,7 +16,7 @@ We will meet on Zoom for 9 modules over 12 weeks (see [Course Calendar](#sec-cou
 
 We will use Posit Cloud infrastructure, so you do not need to install any software. You will hear from us about a week before the course starts.
 
-Sign up here: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD> (it will take about 15 minutes)
+The sign up for this course is now closed. If you are interested to receive updates about future courses, please subscribe to the openwashdata newsletter: <https://buttondown.com/openwashdata>.
 
 ## Q&A Session Recording Available
 
