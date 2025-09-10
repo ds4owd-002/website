@@ -4,7 +4,7 @@ title: "Working with R, RStudio on Posit Cloud"
 
 ### Log into Posit Cloud with GitHub account
 
-Here are the instructions to login to Posit Cloud using a GitHub account:
+Here are the instructions to log in to Posit Cloud using a GitHub account:
 
 1.  Go to the Posit Cloud Sign Up page: <https://login.posit.cloud/register>
 2.  Click on the ["Sign Up with GitHub"]{.highlight-peach} button.

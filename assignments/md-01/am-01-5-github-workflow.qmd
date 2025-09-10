@@ -88,7 +88,7 @@ If you have stored your PAT in a Word file, a blank space might have been copied
 
 ![](images/github-workflow/step3/screenshot-github-homepage.png){width=100%}
 
-2. Navigate to the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
 
 ![](images/github-workflow/step3/screenshot-github-org-search.png){width=100%}
 
@@ -119,11 +119,11 @@ You can search for your repository by typing your username in the search bar jus
 
 ![](images/github-workflow/step3/screenshot-github-issue-title.png){width=100%}
 
-8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce`  and write a short message, e.g., [I have completed the module 1 assignment. Please review my work.]{.highlight-yellow} You can also add any questions you have or other comments you would like to share with the instructors.
+8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and write a short message, e.g., [I have completed the module 1 assignment. Please review my work.]{.highlight-yellow} You can also add any questions you have or other comments you would like to share with the instructors.
 
 ![](images/github-workflow/step3/screenshot-github-issue-comment.png){width=100%}
 
 9. Scroll down the page a bit and click the green [Create]{.highlight-yellow} button. 
 
 ![](images/github-workflow/step3/screenshot-github-submit-issue.png){width=100%}
-Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation.)
+Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation).

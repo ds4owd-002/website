@@ -2,15 +2,15 @@
 title: "Communication in a chat"
 ---
 
-Emails are not a very quick, responsive way of communication. We avoid them by prioritising other channels.
+Emails are not a very quick, responsive way of communication. We avoid them by prioritizing other channels.
 
 We want to communicate through a chat client called Element, providing the open source, free-of-charge Slack-like experience.
 
 On Element, you can reach out to the course instructors and other students any time, and we have a way to stay in touch beyond the course itself. 
 
 ::: {.callout-tip}
-## Struggeling to setup Element?
-{{< fa envelope-circle-check >}} If we can support you to setup the chat, get in touch with us via <a href="mailto:ghe@mavt.ethz.ch?subject=ds4owd support: element" target="_blank">Email</a> and we will schedule a call for a walk through. 
+## Struggling to set up Element?
+{{< fa envelope-circle-check >}} If we can support you to set up the chat, get in touch with us via <a href="mailto:ghe@mavt.ethz.ch?subject=ds4owd support: element" target="_blank">Email</a> and we will schedule a call for a walk through. 
 :::
 
 To set it up, please follow the steps below:
@@ -77,7 +77,7 @@ You are now in the lobby of the openwashdata community. [Leave a message]{.highl
 
 ![](images/verify-element-session-07.png)
 
-8. You have succesfully verified your session
+8. You have successfully verified your session
 
 You can download Element as an app for your computer and also your phone. If you proceed to do this, then use the stored security key to verify those additional sessions.
 
@@ -103,7 +103,7 @@ It’s available on Windows, Linux and Mac OS, as well as Android and iPhone.
 ::: {.callout-warning collapse="false"}
 ## I cannot click Continue
 
-If a click on Continue does now work with your mouse, then hit the Return (Enter) key on your keyboard.
+If a click on Continue does not work with your mouse, then hit the Return (Enter) key on your keyboard.
 
 :::
 

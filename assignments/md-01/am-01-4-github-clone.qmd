@@ -10,7 +10,7 @@ In this assignment, you will clone your personal assignment repository from GitH
 
 ![](images/github-clone/screenshot-github-homepage.png){width=100%}
 
-2. Navigate to the GitHub organisation for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
 
 ![](images/github-clone/screenshot-github-org-search.png){width=100%}
 
