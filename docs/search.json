@@ -995,14 +995,14 @@
     "href": "slides/lec-01-welcome.html#meet-the-team",
     "title": "Welcome & get ready for the course",
     "section": "Meet the team",
-    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support\n\n\nNicolò Massari\n\n\n\n\n\n\nTeaching Assistant\nTechnical support"
+    "text": "Meet the team\n\n\nLars Schöbitz\n\n\n\n\n\n\nEnv. Engineer\nretired WASH Researcher\nRStudio certified instructor\n\n\nAdriana Clavijo\n\n\n\n\n\n\nData Scientist\nSpanish language support\nTechnical Support\n\n\nNicolò Massari\n\n\n\n\n\n\nResearch Software Engineer\nComputational Physicist\nTechnical Support"
   },
   {
-    "objectID": "slides/lec-01-welcome.html#learning-goals-for-the-course",
-    "href": "slides/lec-01-welcome.html#learning-goals-for-the-course",
+    "objectID": "slides/lec-01-welcome.html#overall-goals-for-the-course",
+    "href": "slides/lec-01-welcome.html#overall-goals-for-the-course",
     "title": "Welcome & get ready for the course",
-    "section": "Learning Goals (for the course)",
-    "text": "Learning Goals (for the course)\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
+    "section": "Overall Goals (for the course)",
+    "text": "Overall Goals (for the course)\n\nMaster data science tools - Use (R, RStudio IDE, Git, GitHub, tidyverse, Quarto) to analyze and communicate data effectively.\nCreate reproducible documents - Produce professional reports with Quarto, including citations, figures, and tables.\nPractice open science - Share your data and code openly, following best practices for reproducibility and collaboration.\nBuild a portfolio - Complete real-world projects that demonstrate your skills to future employers or collaborators."
   },
   {
     "objectID": "slides/lec-01-welcome.html#your-turn-about-you",
@@ -1016,7 +1016,7 @@
     "href": "slides/lec-01-welcome.html#in-break-out-rooms",
     "title": "Welcome & get ready for the course",
     "section": "In break-out rooms",
-    "text": "In break-out rooms\n\nTake 2 minutes each to share with your room partner:\nWhat does the item you have picked have to do with the reason for you being here?\n\n\n\n\n\n−+\n05:00"
+    "text": "In break-out rooms\n\nTake 1 minute each to share with your room partner:\nWhat does the item you have picked have to do with the reason for you being here?\n\n\n\n\n\n−+\n05:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#course-calendar",
@@ -1037,28 +1037,28 @@
     "href": "slides/lec-01-welcome.html#my-turn-lecture-segments-live-coding",
     "title": "Welcome & get ready for the course",
     "section": "My turn: Lecture segments + live coding",
-    "text": "My turn: Lecture segments + live coding\n\nInstructor writes and narrates code out loud\nInstructor explains concepts and principles that are relevant"
+    "text": "My turn: Lecture segments + live coding\n\nInstructor writes and narrates code out loud\nInstructor explains concepts and principles that are relevant\nLearners do not join, but rather watch and listen\nLearners are welcome to ask questions in the Zoom chat"
   },
   {
     "objectID": "slides/lec-01-welcome.html#our-turn-live-coding-follow-along",
     "href": "slides/lec-01-welcome.html#our-turn-live-coding-follow-along",
     "title": "Welcome & get ready for the course",
     "section": "Our turn: Live coding + follow along",
-    "text": "Our turn: Live coding + follow along\n\nInstructor writes and narrates code out loud\nInstructor explains concepts and principles that are relevant\nCode is displayed on second screen / split screen\nLearners join by writing and executing the same code"
+    "text": "Our turn: Live coding + follow along\n\nInstructor writes and narrates code out loud\nInstructor explains concepts and principles that are relevant\nIdeally, learners display their coding window on a second screen\nLearners join by writing and executing the same code"
   },
   {
     "objectID": "slides/lec-01-welcome.html#your-turn-exercises-in-break-out-rooms",
     "href": "slides/lec-01-welcome.html#your-turn-exercises-in-break-out-rooms",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Exercises in break-out rooms",
-    "text": "Your turn: Exercises in break-out rooms\n\nTwo learners work together in a break out session\nOne person (the driver) shares the screen and does the typing\nThe other person (the navigator) offers comments and suggestions\nRoles get switched"
+    "text": "Your turn: Exercises in break-out rooms\n\nTwo to four learners work together in a break out session\nOne person (the driver) shares the screen and does the typing\nThe other persons (the navigator) offers comments and suggestions and write on their own"
   },
   {
     "objectID": "slides/lec-01-welcome.html#getting-help",
     "href": "slides/lec-01-welcome.html#getting-help",
     "title": "Welcome & get ready for the course",
     "section": "Getting help",
-    "text": "Getting help\n\nDuring my turn and our turn segments: Please keep your microphone on mute. Send message to the Zoom chat Adriana and Nicoló will support you\nDuring your turn segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will always be working in groups of 2 to 4 people."
+    "text": "Getting help\n\nDuring my turn and our turn segments: Please keep your microphone on mute. Send a message to the Zoom chat, Adriana and Nicoló will support you\nDuring your turn segments: Due to the large number of participants, it will not be feasible to join individual break-out rooms, but you will hopefully always be working in groups of 2 to 4 people."
   },
   {
     "objectID": "slides/lec-01-welcome.html#platforms-and-tools",
@@ -1068,18 +1068,11 @@
     "text": "Platforms and Tools\n\nR\ntidyverse R Packages\nPosit Cloud\nRStudio IDE\nQuarto publishing system\nElement"
   },
   {
-    "objectID": "slides/lec-01-welcome.html#bookmark",
-    "href": "slides/lec-01-welcome.html#bookmark",
+    "objectID": "slides/lec-01-welcome.html#course-website",
+    "href": "slides/lec-01-welcome.html#course-website",
     "title": "Welcome & get ready for the course",
-    "section": "Bookmark",
-    "text": "Bookmark\nds4owd-002.github.io/website/"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html#our-turn",
-    "href": "slides/lec-01-welcome.html#our-turn",
-    "title": "Welcome & get ready for the course",
-    "section": "Our turn",
-    "text": "Our turn\n\nWe will create a bookmarks folder for this course.\n\n\n\n\n\n−+\n05:00"
+    "section": "Course website",
+    "text": "Course website\nBookmark this page in your browser\nds4owd-002.github.io/website/"
   },
   {
     "objectID": "slides/lec-01-welcome.html#learning-objectives-for-this-week",
@@ -1159,6 +1152,13 @@
     "text": "Meeting you where you are\n\n\n\nI’ll assume you\n\ndo not have R or git experience\nhave not worked in an IDE before (e.g. RStudio IDE)\nwant to learn about R\nwant to learn about Quarto and publishing\nwant to learn about project management with GitHub\n\n\n\n\nI’ll teach you\n\nR\nQuarto syntax and formats\nMarkdown\nGit via RStudio GUI\nGitHub issues, project management, and publishing"
   },
   {
+    "objectID": "slides/lec-01-welcome.html#programming-experience",
+    "href": "slides/lec-01-welcome.html#programming-experience",
+    "title": "Welcome & get ready for the course",
+    "section": "Programming experience",
+    "text": "Programming experience\n190 registrations on pre-course survey."
+  },
+  {
     "objectID": "slides/lec-01-welcome.html#quarto",
     "href": "slides/lec-01-welcome.html#quarto",
     "title": "Welcome & get ready for the course",
@@ -1177,21 +1177,21 @@
     "href": "slides/lec-01-welcome.html#your-turn-log-into-posit-cloud-with-github-account",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Log into Posit Cloud with GitHub account",
-    "text": "Your turn: Log into Posit Cloud with GitHub account\n\nGo to the Posit Cloud Sign Up page: login.posit.cloud/register\nClick on the Sign Up with GitHub button.\nEnter your GitHub username and password when prompted.\nOpen and accept the workspace invitation (Link is in the Zoom chat now).\nBookmark the address of the open tab in your browser.\n\n\n\n\n\n\n\nGitHub Authorisation\n\n\n\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\n\n\n\n\nhttps://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu\n\n\n\n\n−+\n05:00"
+    "text": "Your turn: Log into Posit Cloud with GitHub account\n\nGo to the Posit Cloud Sign Up page: login.posit.cloud/register\nClick on the Sign Up with GitHub button.\nEnter your GitHub username and password when prompted.\nOpen and accept the workspace invitation (Link is in the Zoom chat now).\nBookmark the address of the open tab in your browser.\n\n\n\n\n\n\n\nGitHub Authorisation\n\n\n\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\n\n\n\n\nhttps://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu\n\n\n\n\n−+\n08:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#take-a-break",
     "href": "slides/lec-01-welcome.html#take-a-break",
     "title": "Welcome & get ready for the course",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\n\nPhoto by Blake Wisz"
+    "text": "Take a break\nPlease get up and move!\n\n\n\n\n−+\n10:00\n\n\n\n\n\nPhoto by Blake Wisz"
   },
   {
     "objectID": "slides/lec-01-welcome.html#your-turn-md-01-exercises",
     "href": "slides/lec-01-welcome.html#your-turn-md-01-exercises",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: md-01-exercises",
-    "text": "Your turn: md-01-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-01-exercises.\nIn the File Manager in the bottom right window, locate the hello-quarto.qmd file and click on it to open it in the top left window.\nRender the document.\nAdd author: to the YAML header and add your name\nRe-render the document\nInspect components of the document and make one more update and re-render.\nDiscuss notes about updates you’ve made with your neighbor. Note any aspects of the document that are not clear after the tour and your first interaction with it.\n\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: md-01-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nIf you are not in the ds4owd-002 workspace, open it.\nClick Start next to md-01-exercises.\nIn the File Manager in the bottom right window, locate the hello-quarto.qmd file and click on it.\nClick the Render button to render the document. You may need to allow pop-ups in your browser.\nIn the YAML header, at the author: key replace Your Name with your name.\nRender the document again.\nInspect components of the document and make one more update and re-render.\nDiscuss notes about updates you’ve made with your room partners.\n\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#from-the-comfort-of-your-own-workspace",
@@ -1226,7 +1226,7 @@
     "href": "slides/lec-01-welcome.html#your-turn-create-a-new-quarto-document",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Create a new Quarto document",
-    "text": "Your turn: Create a new Quarto document\n\nIn your exercises project in RStudio on Posit Cloud, go to File &gt; New File &gt; Quarto document to create a Quarto document with HTML output.\n\nRender the document, which will ask you to give it a name – you can use my-first-document.qmd.\n\nUse the visual editor for the next steps.\n\nAdd a title and your name as the author.\nCreate four sections with headings of level 2 (Introduction, Methods, Results, Conclusions).\nStretch goal: Add a table of contents. Note: Watch out for the indentation.\nStretch goal: Change the html theme to sketchy. Tipp: Check quarto.org and use search function  with “HTML theming”\n\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: Create a new Quarto document\n\nIn your md-01-exercises project on Posit Cloud, go to File &gt; New File &gt; Quarto document to create a Quarto document with HTML output.\n\nRender the document, which will ask you to give it a name: you can use my-first-document.qmd.\n\nUse the visual editor for the next steps.\n\nAdd a title and your name as the author.\nCreate four sections with headings of level 2 (Introduction, Methods, Results, Conclusions).\nStretch goal: Change the html theme to sketchy. Tipp: Check quarto.org and use search function  with “HTML theming”\n\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#version-control-with-git-and-github",
@@ -1247,7 +1247,7 @@
     "href": "slides/lec-01-welcome.html#git-and-github",
     "title": "Welcome & get ready for the course",
     "section": "Git and GitHub",
-    "text": "Git and GitHub\n\n\n\n\n\n\n\n\n\n\n\n\nGit is a software for version control\nCreated in 2005\nPopular among programmers collaboratively developing code\nTracks changes in a set of files (directory/folder/repository)\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub is a hosting platform for version control using Git\nLaunched in 2008, aquired by Microsoft in in 2018, Microsoft for US$ 7.5 billion\n\n100 million Users (20.5 in 2022 alone) (October, 2023)\n\nSocial media for software developers"
+    "text": "Git and GitHub\n\n\n\n\n\n\n\n\n\n\n\n\nGit is a software for version control\nCreated in 2005\nPopular among programmers collaboratively developing code\nTracks changes in a set of files (directory/folder/repository)\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub is a hosting platform for version control using Git\nLaunched in 2008, aquired by Microsoft in 2018 for US$ 7.5 billion\n\n100 million Users (20.5 in 2022 alone) (October, 2023)\n\nSocial media for software developers"
   },
   {
     "objectID": "slides/lec-01-welcome.html#my-turn-a-tour-of-github",
@@ -1257,18 +1257,11 @@
     "text": "My turn: A tour of GitHub\n\nSit back and enjoy!"
   },
   {
-    "objectID": "slides/lec-01-welcome.html#our-turn-configure-notifications-settings",
-    "href": "slides/lec-01-welcome.html#our-turn-configure-notifications-settings",
-    "title": "Welcome & get ready for the course",
-    "section": "Our turn: Configure Notifications settings",
-    "text": "Our turn: Configure Notifications settings\n\nCurrently, you receive emails when someone mentions you in a comment on GitHub. Let’s change the settings to receive notifications On GitHub.\n\n\n\n\n\n−+\n05:00"
-  },
-  {
     "objectID": "slides/lec-01-welcome.html#your-turn-create-an-issue-on-github",
     "href": "slides/lec-01-welcome.html#your-turn-create-an-issue-on-github",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Create an issue on GitHub",
-    "text": "Your turn: Create an issue on GitHub\n\n\nOpen github.com in your browser and login with your credentials\nExchange your GitHub username with your room partner\nFind and open the md-01-assignments-USERNAME repository that ends with your GitHub username\nFind the issue tracker\nOpen an issue with the title “Support for module 1 homework”\nAdd your room partner to the list of Assignees on the right panel\nAdd a comment to the issue and tag @seawaR, @massarin, and Lars with @larnsce, and your room partner to ask for support during the homework assignments\nClick submit new issue\nCheck if you have received a notification on GitHub, and open the inbox.\nOpen the issue and respond to the comment of your room partner.\n\n\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: Create an issue on GitHub\n\n\nOpen github.com in your browser and login with your credentials\nExchange your GitHub username with your room partner by adding it into the Zoom chat.\nFind and open the md-01-issue repository\nFind the issue tracker (Issues tab) on the top menu bar\nClick on New issue to create a new issue\nAdd the title “My first issue on GitHub”\nAdd one of your room partners to the list of Assignees on the right panel by clicking on the gear icon and searching their username.\nAdd a comment to the issue and tag Adriana @seawaR, Nicoló @massarin, and Lars with @larnsce.\nClick Create to add the new issue.\nCheck if you have received a notification about the new issue (Email or Notifications Inbox in the top-right corner on github.com).\nOpen the issue you are tagged in and respond to the comment of your room partner.\n\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#take-a-break-1",
@@ -1387,7 +1380,7 @@
     "href": "slides/lec-01-welcome.html#homework-assignments",
     "title": "Welcome & get ready for the course",
     "section": "Homework assignments",
-    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nHomework assignment due Wednesdays before next module\nQuiz due one week after homework assignment\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors for errors\nManagement and support through GitHub issue tracker"
+    "text": "Homework assignments\n\nWeekly assignments (module 1 homework is required for participation)\nHomework assignment due Wednesdays before next module\nQuiz due one week after homework assignment and required for successful completion of the course\nSubmitted as rendered Quarto documents on GitHub\nReviewed by course instructors\nManagement and support through GitHub issue tracker"
   },
   {
     "objectID": "slides/lec-01-welcome.html#capstone-project",
