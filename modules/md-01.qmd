@@ -74,7 +74,7 @@ Thank you for working through these assignments.
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
-[Quiz in preparation]{.highlight-yellow}
+[In Preparation]{.highlight-yellow}
 
 ## {{< fa video >}} Session Recording
 

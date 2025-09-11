@@ -2,7 +2,25 @@
 title: "Pre-Course Q&A"
 subtitle: "{{< var md-00.title >}}"
 editor: source
+execute: 
+  echo: false
+  warning: false
 ---
+
+```{r}
+#| label: setup
+
+library(epoxy)
+```
+
+```{r}
+#| label: date-formatting
+
+# Read variables and format date
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-00`$date), "%B %d, %Y")
+
+```
 
 Welcome to the pre-course Q&A session for the data science for openwashdata course! This session was held before the official start of the course to address questions about the course content, logistics, and expectations.
 
@@ -16,7 +34,7 @@ Welcome to the pre-course Q&A session for the data science for openwashdata cour
 
 ## {{< fa video >}} Session Recording
 
-You can access the Zoom recording of our live Q&A session held on August 26th, 2025. To watch the recording, you will need to register for it. This is also how we will share the recordings of each of the Modules. 
+You can access the Zoom recording of our live Q&A session held on `r session_date`. To watch the recording, you will need to register for it. This is also how we will share the recordings of each of the Modules. 
 
 Register for the recording at this link: <https://ethz.zoom.us/rec/share/zb-eVgB8kPq0Mdp4-T51rx0Ft9ir7GEWqE9nbdWTp0QEMZnPYsIlv4yYrfS-Xtn0.lldOTA5KliYmDd-x?startTime=1756206416000>
 
