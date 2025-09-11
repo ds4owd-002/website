@@ -159,7 +159,7 @@
     "href": "modules/md-01.html#assignments",
     "title": "Module 1",
     "section": " Assignments",
-    "text": "Assignments\nDue date: Wednesday, 2025-09-17\nPlease complete the following assignments before the due date. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: GitHub Personal Access Token in preparation\nAssignment 4: Homework: Clone a GitHub repository in preparation\nAssignment 5: Homework: GitHub workflow in preparation\n\nThank you for working through these assignments.",
+    "text": "Assignments\nDue date: September 17, 2025\nPlease complete the following assignments before the due date. They are a pre-requisite for the second module.\n\nAssignment 1: In class: Working with R, RStudio on Posit Cloud\nAssignment 2: Homework: Communication in a chat\nAssignment 3: Homework: GitHub Personal Access Token\nAssignment 4: Homework: Clone a GitHub repository\nAssignment 5: Homework: GitHub workflow\n\nThank you for working through these assignments.",
     "crumbs": [
       "Module 01"
     ]
@@ -169,7 +169,7 @@
     "href": "modules/md-01.html#quiz",
     "title": "Module 1",
     "section": " Quiz",
-    "text": "Quiz\nDue date: Wednesday, 2025-09-24\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
+    "text": "Quiz\nDue date: September 24, 2025\nComplete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.\nQuiz in preparation",
     "crumbs": [
       "Module 01"
     ]
@@ -4486,5 +4486,15 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
+  },
+  {
+    "objectID": "modules/md-01.html#session-recording",
+    "href": "modules/md-01.html#session-recording",
+    "title": "Module 1",
+    "section": " Session Recording",
+    "text": "Session Recording\nYou can access the Zoom recording of Module 1 on September 11, 2025. To watch the recording, you will need to register for it.\nRegister for the recording at this link: provided after the session\nNote: The video link will be shared once the recording is available.",
+    "crumbs": [
+      "Module 01"
+    ]
   }
 ]
