@@ -29,6 +29,12 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
 
+# Read variables and format dates
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-01`$date), "%B %d, %Y")
+homework_due_date <- format(as.Date(vars$`md-01`$`homework-due`), "%B %d, %Y")
+quiz_due_date <- format(as.Date(vars$`md-01`$`quiz-due`), "%B %d, %Y")
+
 ```
 
 ```{epoxy}
@@ -46,26 +52,34 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 
 ## {{< fa book >}} Readings
 
-- Read the [Course Overview](../overview.html).
+- Read the [Course Overview](../index.html).
 
 ## {{< fa code >}} Assignments
 
-[Due date:]{.highlight-yellow} Wednesday, {{< var md-01.homework-due >}}
+[Due date:]{.highlight-yellow} `r homework_due_date`
 
 Please complete the following assignments before the due date. They are a pre-requisite for the second module.
 
 -   [Assignment 1](../assignments/md-01/am-01-1-posit.qmd): In class: Working with R, RStudio on Posit Cloud
 -   [Assignment 2](../assignments/md-01/am-01-2-element.qmd): Homework: Communication in a chat
--   [Assignment 3](../assignments/md-01/am-01-3-github-pat.qmd): Homework: GitHub Personal Access Token [in preparation]{.highlight-yellow}
--   [Assignment 4](../assignments/md-01/am-01-4-github-clone.qmd): Homework: Clone a GitHub repository [in preparation]{.highlight-yellow}
--   [Assignment 5](../assignments/md-01/am-01-5-github-workflow.qmd): Homework: GitHub workflow [in preparation]{.highlight-yellow}
+-   [Assignment 3](../assignments/md-01/am-01-3-github-pat.qmd): Homework: GitHub Personal Access Token 
+-   [Assignment 4](../assignments/md-01/am-01-4-github-clone.qmd): Homework: Clone a GitHub repository 
+-   [Assignment 5](../assignments/md-01/am-01-5-github-workflow.qmd): Homework: GitHub workflow
 
 Thank you for working through these assignments.
 
 ## {{< fa clipboard-question >}} Quiz
 
-[Due date:]{.highlight-yellow} Wednesday, {{< var md-01.quiz-due >}}
+[Due date:]{.highlight-yellow} `r quiz_due_date`
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
-[Quiz in preparation]{.highlight-yellow} 
+[In Preparation]{.highlight-yellow}
+
+## {{< fa video >}} Session Recording
+
+You can access the Zoom recording of Module 1 on `r session_date`. To watch the recording, you will need to register for it. 
+
+Register for the recording at this link: [provided after the session]{.highlight-yellow} 
+
+**Note: The video link will be shared once the recording is available.**

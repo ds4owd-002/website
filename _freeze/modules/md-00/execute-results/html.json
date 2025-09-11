@@ -1,0 +1,15 @@
+{
+  "hash": "4c70eb33dab4f1e17aaa7daf8e52c054",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Pre-Course Q&A\"\nsubtitle: \"{{< var md-00.title >}}\"\neditor: source\nexecute: \n  echo: false\n  warning: false\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\nWelcome to the pre-course Q&A session for the data science for openwashdata course! This session was held before the official start of the course to address questions about the course content, logistics, and expectations.\n\n## {{< fa display >}} Slides\n\n[View slides in full screen](../slides/lec-00-qa-session.html) | [Download slides as PDF](https://github.com/ds4owd-002/website/raw/main/slides/lec-00-qa-session.pdf)\n\n\n\n\n```{=html}\n<iframe class=\"slide-deck\" src=\"../slides/lec-00-qa-session.html\" height=\"420\" width=\"747\" style=\"border: 1px solid #123233;\"></iframe>\n```\n\n\n\n\n## {{< fa video >}} Session Recording\n\nYou can access the Zoom recording of our live Q&A session held on August 26, 2025. To watch the recording, you will need to register for it. This is also how we will share the recordings of each of the Modules. \n\nRegister for the recording at this link: <https://ethz.zoom.us/rec/share/zb-eVgB8kPq0Mdp4-T51rx0Ft9ir7GEWqE9nbdWTp0QEMZnPYsIlv4yYrfS-Xtn0.lldOTA5KliYmDd-x?startTime=1756206416000>\n\n*Note: The video link will be shared once the recording is available.*\n\n## {{< fa calendar >}} Event Details\n\nFor more information about the Q&A session, including the original event announcement and schedule, visit the [event page](https://openwashdata.org/pages/events/2025-08-26-ds4owd-qa/).\n\n## {{< fa file-lines >}} Shared Notes\n\nDuring the session, we used a collaborative Google Doc to capture questions and answers. Access the [Google Doc with shared notes](https://docs.google.com/document/d/1ryQ1H9lyU1TCmrAl-pjab3Vv4-sEa8cLir485uRjuuk/edit?tab=t.0#heading=h.scxq9z2ybmic) from our Q&A session.\n\n## {{< fa question-circle >}} Key Topics Covered\n\nDuring the Q&A session, we discussed:\n\n- Course prerequisites and technical requirements\n- Time commitment and course schedule\n- Capstone project expectations\n- GitHub setup and collaboration\n\n## {{< fa arrow-right >}} Next Steps\n\nAfter reviewing this Q&A session:\n\n1. Complete the pre-course survey and Zoom registration for the course: <https://ee-eu.kobotoolbox.org/single/7V3qeDYD>\n2. Join us for [Module 1: {{< var md-01.title >}}](../modules/md-01.qmd) on 11 September at 2 pm CET",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
