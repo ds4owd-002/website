@@ -249,7 +249,7 @@
     "href": "modules/md-02.html#assignments",
     "title": "Module 2",
     "section": " Assignments",
-    "text": "Assignments\nDue date: September 24, 2025\nPlease complete the following assignment before the due date.\n\nAssignment 1: Data visualisation\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: September 24, 2025\nPlease complete the following assignments before the due date.\n\nAssignment 1: Support yourself with bookmarks\nAssignment 2: Data visualisation\n\nThank you for working through these assignments.",
     "crumbs": [
       "Module 02"
     ]
@@ -1027,8 +1027,8 @@
     "objectID": "slides/lec-01-welcome.html#email-from-github",
     "href": "slides/lec-01-welcome.html#email-from-github",
     "title": "Welcome & get ready for the course",
-    "section": "",
-    "text": "While we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
+    "section": "Email from GitHub?",
+    "text": "Email from GitHub?\nWhile we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
   },
   {
     "objectID": "slides/lec-01-welcome.html#meet-the-team",
@@ -1119,7 +1119,7 @@
     "href": "slides/lec-01-welcome.html#learning-objectives-for-this-week",
     "title": "Welcome & get ready for the course",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can access the Posit Cloud workspace for the course.\nLearners can use the Element chat to introduce themselves.\nLearners can open an issue on GitHub and tag the course instructor.\nLearners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub."
+    "text": "Learning Objectives (for this week)\n\nLearners can access the Posit Cloud workspace for the course.\nLearners can use the Element chat to introduce themselves.\nLearners can open an issue on GitHub and tag the course instructor.\nLearners can clone a repository from GitHub and use the GitHub PAT to push a commit from their local repository to GitHub."
   },
   {
     "objectID": "slides/lec-01-welcome.html#section",
@@ -1203,7 +1203,7 @@
     "href": "slides/lec-01-welcome.html#quarto",
     "title": "Welcome & get ready for the course",
     "section": "Quarto …",
-    "text": "Quarto …\n\nis a new, open-source, scientific, and technical publishing system\naims to make the process of creating and collaborating dramatically better\n\n\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+    "text": "Quarto …\n\nis a new, open-source, scientific, and technical publishing system\naims to make the process of creating and collaborating dramatically better\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
   },
   {
     "objectID": "slides/lec-01-welcome.html#my-turn-a-tour-of-quarto",
@@ -1217,7 +1217,7 @@
     "href": "slides/lec-01-welcome.html#your-turn-log-into-posit-cloud-with-github-account",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Log into Posit Cloud with GitHub account",
-    "text": "Your turn: Log into Posit Cloud with GitHub account\n\nGo to the Posit Cloud Sign Up page: login.posit.cloud/register\nClick on the Sign Up with GitHub button.\nEnter your GitHub username and password when prompted.\nOpen and accept the workspace invitation (Link is in the Zoom chat now).\nBookmark the address of the open tab in your browser.\n\n\n\n\n\n\n\nGitHub Authorisation\n\n\n\n\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\n\n\n\nhttps://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu\n\n\n\n\n−+\n08:00"
+    "text": "Your turn: Log into Posit Cloud with GitHub account\n\nGo to the Posit Cloud Sign Up page: login.posit.cloud/register\nClick on the Sign Up with GitHub button.\nEnter your GitHub username and password when prompted.\nOpen and accept the workspace invitation (Link is in the Zoom chat now).\nBookmark the address of the open tab in your browser.\n\n\n\n\n\n\n\nGitHub Authorisation\n\n\n\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\n\n\n\n\nhttps://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu\n\n\n\n\n−+\n08:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#take-a-break",
@@ -1245,7 +1245,7 @@
     "href": "slides/lec-01-welcome.html#one-install-batteries-included",
     "title": "Welcome & get ready for the course",
     "section": "One install, “Batteries included”",
-    "text": "One install, “Batteries included”\n\nRMarkdown grew into a large ecosystem, with varying syntax.\n\n. . .\n\nQuarto comes “batteries included” straight out of the box\n\nHTML reports and websites\nPDF reports\nMS Office (Word, Powerpoint)\nPresentations (Powerpoint, Beamer, revealjs)\nBooks\n\n\n. . .\n\nAny language, exact same approach and syntax"
+    "text": "One install, “Batteries included”\n\nRMarkdown grew into a large ecosystem, with varying syntax.\n\n\n\nQuarto comes “batteries included” straight out of the box\n\nHTML reports and websites\nPDF reports\nMS Office (Word, Powerpoint)\nPresentations (Powerpoint, Beamer, revealjs)\nBooks\n\n\n\n\n\nAny language, exact same approach and syntax"
   },
   {
     "objectID": "slides/lec-01-welcome.html#many-quarto-formats",
@@ -1315,7 +1315,7 @@
     "href": "slides/lec-01-welcome.html#components",
     "title": "Welcome & get ready for the course",
     "section": "Components",
-    "text": "Components\n\nMetadata: YAML\nText: Markdown\nCode: Executed via knitr or jupyter\n\n. . .\nWeave it all together, and you have beautiful, powerful, and useful outputs!"
+    "text": "Components\n\nMetadata: YAML\nText: Markdown\nCode: Executed via knitr or jupyter\n\n\nWeave it all together, and you have beautiful, powerful, and useful outputs!"
   },
   {
     "objectID": "slides/lec-01-welcome.html#literate-programming",
@@ -1336,7 +1336,7 @@
     "href": "slides/lec-01-welcome.html#output-options",
     "title": "Welcome & get ready for the course",
     "section": "Output options",
-    "text": "Output options\n---\nformat: something\n---\n. . .\n\n---\nformat: html\n---\n---\nformat: pdf\n---\n---\nformat: revealjs\n---"
+    "text": "Output options\n---\nformat: something\n---\n\n\n---\nformat: html\n---\n---\nformat: pdf\n---\n---\nformat: revealjs\n---"
   },
   {
     "objectID": "slides/lec-01-welcome.html#output-option-arguments",
@@ -1364,7 +1364,7 @@
     "href": "slides/lec-01-welcome.html#packages",
     "title": "Welcome & get ready for the course",
     "section": "Packages",
-    "text": "Packages\n\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
+    "text": "Packages\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
   },
   {
     "objectID": "slides/lec-01-welcome.html#functions-arguments",
@@ -1399,14 +1399,14 @@
     "href": "slides/lec-01-welcome.html#rules",
     "title": "Welcome & get ready for the course",
     "section": "Rules",
-    "text": "Rules\nRules of dplyr functions:\n\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
+    "text": "Rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
   },
   {
     "objectID": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
     "href": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
     "title": "Welcome & get ready for the course",
     "section": "Does this look and sound foreign and confusing?",
-    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
+    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
   },
   {
     "objectID": "slides/lec-01-welcome.html#weekly-structure",
@@ -2033,171 +2033,47 @@
     ]
   },
   {
-    "objectID": "assignments/md-02/am-02-1-data-visualisation.html",
-    "href": "assignments/md-02/am-02-1-data-visualisation.html",
+    "objectID": "assignments/md-02/am-02-2-data-visualisation.html",
+    "href": "assignments/md-02/am-02-2-data-visualisation.html",
     "title": "Data visualisation with ggplot2",
     "section": "",
     "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
     "crumbs": [
       "Module 02",
-      "am-01: Data visualization"
+      "am-02-2: Data visualization"
     ]
   },
   {
-    "objectID": "assignments/md-02/am-02-1-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
-    "href": "assignments/md-02/am-02-1-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
+    "objectID": "assignments/md-02/am-02-2-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
+    "href": "assignments/md-02/am-02-2-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
     "title": "Data visualisation with ggplot2",
     "section": "Step 1: Clone your module 2 assignments repository",
     "text": "Step 1: Clone your module 2 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen md-02a-data-visualization.qmd and follow the instructions to work through the tasks.",
     "crumbs": [
       "Module 02",
-      "am-01: Data visualization"
+      "am-02-2: Data visualization"
     ]
   },
   {
-    "objectID": "assignments/md-02/am-02-1-data-visualisation.html#step-2-commit-and-push-your-changes",
-    "href": "assignments/md-02/am-02-1-data-visualisation.html#step-2-commit-and-push-your-changes",
+    "objectID": "assignments/md-02/am-02-2-data-visualisation.html#step-2-commit-and-push-your-changes",
+    "href": "assignments/md-02/am-02-2-data-visualisation.html#step-2-commit-and-push-your-changes",
     "title": "Data visualisation with ggplot2",
     "section": "Step 2: Commit and push your changes",
     "text": "Step 2: Commit and push your changes\nThe below is also described as Task 14 in md-02a-data-visualization.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data visualization tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
       "Module 02",
-      "am-01: Data visualization"
+      "am-02-2: Data visualization"
     ]
   },
   {
-    "objectID": "assignments/md-02/am-02-1-data-visualisation.html#step-3-open-an-issue-on-github",
-    "href": "assignments/md-02/am-02-1-data-visualisation.html#step-3-open-an-issue-on-github",
+    "objectID": "assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
+    "href": "assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
     "title": "Data visualisation with ggplot2",
     "section": "Step 3: Open an issue on GitHub",
     "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-02a-data-visualization.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 2 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. md-02a-boxplot.qmd 2. md-02b-visualize.qmd\nIf you have only completed md-02a-boxplot.qmd, please return to Posit Cloud and complete md-02b-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data visualization assignment and are now ready for the next module.",
     "crumbs": [
       "Module 02",
-      "am-01: Data visualization"
-    ]
-  },
-  {
-    "objectID": "assignments/md-03/am-03-1-data-transformation.html",
-    "href": "assignments/md-03/am-03-1-data-transformation.html",
-    "title": "Data transformation with dplyr",
-    "section": "",
-    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
-    "crumbs": [
-      "Module 03",
-      "am-01: Data transformation"
-    ]
-  },
-  {
-    "objectID": "assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
-    "href": "assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
-    "title": "Data transformation with dplyr",
-    "section": "Step 1: Clone your module 3 assignments repository",
-    "text": "Step 1: Clone your module 3 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course (or use your bookmark).\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green “Code” button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.\nOpen md-03a-penguins-practice.qmd & md-03b-sanitation-visualise.qmd and follow the instructions to work through the tasks.",
-    "crumbs": [
-      "Module 03",
-      "am-01: Data transformation"
-    ]
-  },
-  {
-    "objectID": "assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
-    "href": "assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
-    "title": "Data transformation with dplyr",
-    "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\nThe below is also described in md-03a-penguins-practice.qmd & md-03b-sanitation-visualise.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
-    "crumbs": [
-      "Module 03",
-      "am-01: Data transformation"
-    ]
-  },
-  {
-    "objectID": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
-    "href": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
-    "title": "Data transformation with dplyr",
-    "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
-    "crumbs": [
-      "Module 03",
-      "am-01: Data transformation"
-    ]
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "data science for openwashdata",
-    "section": "",
-    "text": "All of the material here is available under the Creative Commons Attribution license.\nYou are free:\n\nto Share - to copy and redistribute the material in any medium or format\nto Adapt - remix, transform, and build upon the material for any purpose, even commercially.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit using “(c) Copyright 2022, Lars Schöbitz”, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/4.0/.\n\nFor the full legal text of this license, please see: http://creativecommons.org/licenses/by/4.0/legalcode."
-  },
-  {
-    "objectID": "guide/index.html",
-    "href": "guide/index.html",
-    "title": "Guide",
-    "section": "",
-    "text": "This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can be settings that need to be made or tips that we communicate during the live sessions.\nIf you have a request, let us know and we will add guidance here.",
-    "crumbs": [
-      "Guide"
-    ]
-  },
-  {
-    "objectID": "guide/index.html#switch-pipe-operator",
-    "href": "guide/index.html#switch-pipe-operator",
-    "title": "Guide",
-    "section": "1 Switch pipe operator",
-    "text": "1 Switch pipe operator\nBy default, R uses %&gt;% as the pipe operator from the magrittr package. Since R 4.1.0, the pipe operator is also available as |&gt; without loading any packages. The |&gt; operator is recommended to be used instead of %&gt;%.\nTo switch to the native pipe operator, follow these steps:\n\nOpen your project on Posit Cloud\nOn the menu bar of RStudio, click on Tools &gt; Global Options... (see Figure 1)\nOn the left panel, click on Code\nOn the right panel, select the 4th check-box from the top next to ’Use native pipe operator, |&gt; (requires R 4.1+) (see Figure 2)\nClick on Apply and OK\n\n\n\n\n\n\n\n\n\nFigure 1: RStudio Global Options\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: RStudio Code Options",
-    "crumbs": [
-      "Guide"
-    ]
-  },
-  {
-    "objectID": "guide/index.html#zotero-reference-management",
-    "href": "guide/index.html#zotero-reference-management",
-    "title": "Guide",
-    "section": "2 Zotero reference management",
-    "text": "2 Zotero reference management\nWe recommend using Zotero as a tool for reference management, but do not teach how to use it in this course. The guidance below will support you in setting up Zotero.\n\n2.1 Get Zotero account\n\nOpen https://www.zotero.org/user/login/\nClick on Register for a free account\nChoose username, email, and password\nClick Register\nOpen your email and verify your account\n\n\n\n2.2 Install Zotero desktop client\n\nOpen https://www.zotero.org/download/\nDownload Zotero for your operating system\nInstall Zotero\nLog in to your Zotero account by opening Settings -&gt; Sync and typing the Username and Password you have previously set up\nClick on the green refresh button in the top-right corner of the Zotero window\n\n\n\n\n\n\n\n\n\n\n\n\n2.3 Install the Zotero Connector for your browser\n\nOpen https://www.zotero.org/download/\nDownload the Zotero Connector for your browser\nInstall the Zotero Connector\nLog in to your Zotero account\n\n\n\n2.4 Setup Add-ons and the citation key format\n\nGo to https://retorque.re/zotero-better-bibtex/installation/\nClick on the latest release so you are redirected to github\nFind the .xpi file and right-click it. Click on Save Link As… and choose your location for saving the file.\n\n\n\n\n\n\n\n\n\n\n\nOpen Zotero -&gt; Tools -&gt; Add-ons -&gt; (Gear icon) -&gt; Install Add-on From File… -&gt; choose the .xpi file you have just saved\n\n\n\n\n\n\n\n\n\n\n\nRestart Zotero\n\n\n\n\n\n\n\n\n\n\n\nWait until the database fully loads. Only the first time is long; the next interactions with Zotero will be much faster.\nYou may need to restart Zotero the second time. Please do so if you see a prompt after Better BibTeX is installed.\nGo to Zotero -&gt; Settings -&gt; Export -&gt; Default Format and change the default format to Better BibTeX Quick Copy: \n\n\n\n\n\n\n\n\n\n\n\nIn the same setting window, go to Better BibTeX -&gt; Open Better BibTeX preferences…\n\n\n\n\n\n\n\n\n\n\n\nIn the Citation keys tab, use the following Citation key formula for Better BibTeX: [auth:lower][year][veryshorttitle1_0:lower]\n\nThe line above means that the citation key will be built from:\n\nFirst author’s last name in lowercase\npublication year\nThe first word from the title in lowercase, not including the connectors such as “the” or “a”\n\n\n\n\n\n\n\n\n\n\n\nGo to Export -&gt; Quick-Copy in the Better BibTeX preferences. Select Pandoc citation.\n\n\n\n\n\n\n\n\n\n\n\n\n2.5 Change the setting for the citekey autopin delay\n\nOpen Zotero advanced preferences (Zotero -&gt; Settings -&gt; Advanced)\nOpen the Config Editor under the Advanced Configuration section\n\n\n\n\n\n\n\n\n\n\n\nClick I accept the risk!\nIn the search bar, search for autopin\n\n\n\n\n\n\n\n\n\n\n\nDouble-click into the field under Value\nIn the new window called Enter integer value, change the existing 0 to 2\n\n\n\n\n\n\n\n\n\n\n\nClick OK\nClose all setting windows",
-    "crumbs": [
-      "Guide"
-    ]
-  },
-  {
-    "objectID": "guide/index.html#publish-to-github-pages",
-    "href": "guide/index.html#publish-to-github-pages",
-    "title": "Guide",
-    "section": "3 Publish to GitHub Pages",
-    "text": "3 Publish to GitHub Pages\n\n3.1 Navigate to your repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course: &lt;https://github.com/ds4owd-002&gt;.\n\n\n\n\n\n\n\n\n\n\n\nUse the search field under “Repositories” to find your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\n\n3.2 Make repo public\nIf your repository’s visibility is set to “private” (indicated by a small padlock next to the repositories name), you first need to switch it to “public” by following these steps:\n\nClick on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nStay on “General” and scroll down to the bottom of the page “Danger Zone”.\n\n\n\n\n\n\n\n\n\n\n\nOn the first sub-heading “Change repository visibility”, click “Change visibility”, then “Change to public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I want to make this repository public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I have read and understand these effects”.\nClick “Make this repository public”.\nProvide the requested credentials.\nDone.\n\n\n\n3.3 Publish with GitHub Pages\n\nOpen your capstone project repository, and click on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nIn the left navigation pane, click on “Pages” under “Code and automation”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Build and deployment”, then under Branch, click the dropdown titled “None”.\n\n\n\n\n\n\n\n\n\n\n\nIn the dropdown, select “main”.\n\n\n\n\n\n\n\n\n\n\n\nClick on the dropdown titled “/ (root)”. In the dropdown, select “/docs”.\n\n\n\n\n\n\n\n\n\n\n\nClick “Save”.\n\n\n\n\n\n\n\n\n\n\n\n\n3.4 Edit “About” of repository\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOn right side, next to “About”, click on the gear icon.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Description” you can add “This project report was prepared for the Data Science for OpenWashData course.” or anything else that you would like to highlight.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Website”, click “Use your GitHub Pages website”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Include in the home page”, you can remove the checked boxes.\nClick “Save changes”.\nThe public URL of your repository will now be shown under “About” on the right side.\n\n\n\n\n\n\n\n\n\n\n\nOpen your published website and enjoy.",
-    "crumbs": [
-      "Guide"
-    ]
-  },
-  {
-    "objectID": "assignments/md-04/am-04-1-reading.html",
-    "href": "assignments/md-04/am-04-1-reading.html",
-    "title": "Module 4 - Assignment 1",
-    "section": "",
-    "text": "This course introduces learners to tools and workflows for data science with R. Learners are also introduced to the concept of collaborative writing and coding using git and GitHub within the context of reproducible documents (i.e. Quarto). So far we have used data that is well structured and ready to be used. However, in reality a lot of data entry and storage is still managed in spreadsheets. This is why we also touch on some (research) data management topics (Data Organization in Spreadsheet).\nThe reading for this assignment provides guidance for data entry and storage aspects. It offers practical recommendations for organizing spreadsheet data to reduce errors and ease later analyses.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data organization"
-    ]
-  },
-  {
-    "objectID": "assignments/md-04/am-04-1-reading.html#task-1-read-and-prepare-examples",
-    "href": "assignments/md-04/am-04-1-reading.html#task-1-read-and-prepare-examples",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 1: Read and prepare examples",
-    "text": "Task 1: Read and prepare examples\nFor this assignment, we ask you to:\n\nRead Broman and Woo (2018): “Data organization in spreadsheets”.\nChose two of the recommendations and come up with real-world examples or scenarios where the recommendations could be applied in your work.\nBe prepared to share these examples and explain how the recommendations would improve your workflows. This will be in a class setting as part of small discussion group (max 3 people).",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data organization"
-    ]
-  },
-  {
-    "objectID": "assignments/md-04/am-04-1-reading.html#task-2-apply-the-recommendations-to-your-samples-data-from-module-3",
-    "href": "assignments/md-04/am-04-1-reading.html#task-2-apply-the-recommendations-to-your-samples-data-from-module-3",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 2: Apply the recommendations to your samples data from Module 3",
-    "text": "Task 2: Apply the recommendations to your samples data from Module 3\n\n\n\n\n\n\nHave you completed the assignments for module 3?\n\n\n\nA pre-requisite for this homework is that you worked through the “Spreadsheet” assignment of module 3. If you have not done so, please do this first. https://ds4owd-002.github.io/website/assignments/md-03/am-03-2-spreadsheet.html\n\n\n\nOpen the ds4owd workspace on posit.cloud\nRe-open your samples-USERNAME repository.\nCreate a new .R file and save it as data_cleaning.R.\nAdd library(tidyverse) to the top of the file.\nAdd library(readxl) to the top of the file.\nAdd library(janitor) to the top of the file.\nUse the read_excel() function to read in your the .xlsx file and store it in an object called samples.\nUse the glimpse() function to inspect the data.\nTry to use R functions to apply the recommendations from the reading to your data.\n\n\n\n\n\n\n\nAsk questions on our Element Chat\n\n\n\nIf you would like support at different points of your data cleaning process, please ask questions on our Element Chat, we are happy to support.\n\n\n\nExample\nThe following is an example of a dataset that follows the recommendations from the reading.\n\n\n\n\n\nid\ndate_sample\nsystem\nlocation\nusers\nts\n\n\n\n\n1\n2023-11-01\npit latrine\nhousehold\n5\n136.24\n\n\n2\n2023-11-01\npit latrine\nhousehold\n7\n102.45\n\n\n3\n2023-11-01\npit latrine\nhousehold\nNA\n57.02\n\n\n4\n2023-11-01\npit latrine\nhousehold\n6\n27.03\n\n\n5\n2023-11-01\npit latrine\nhousehold\n12\n97.27\n\n\n6\n2023-11-02\nseptic tank\nhousehold\n7\n78.21\n\n\n7\n2023-11-02\nseptic tank\nhousehold\n14\n15.24\n\n\n8\n2023-11-02\nseptic tank\nhousehold\n4\n29.39\n\n\n9\n2023-11-02\nseptic tank\nhousehold\n10\n64.22\n\n\n10\n2023-11-02\nseptic tank\nhousehold\n12\n8.01\n\n\n11\n2023-11-03\npit latrine\npublic toilet\n50\n11.24\n\n\n12\n2023-11-03\npit latrine\npublic toilet\n32\n84.05\n\n\n13\n2023-11-03\npit latrine\npublic toilet\n41\n55.92\n\n\n14\n2023-11-03\npit latrine\npublic toilet\n160\n15.32\n\n\n15\n2023-11-03\npit latrine\npublic toilet\n20\n22.65\n\n\n16\n2023-11-04\nseptic tank\npublic toilet\n26\n8.72\n\n\n17\n2023-11-04\nseptic tank\npublic toilet\n91\n43.92\n\n\n18\n2023-11-04\nseptic tank\npublic toilet\n68\n10.37\n\n\n19\n2023-11-04\nseptic tank\npublic toilet\n112\n23.21\n\n\n20\n2023-11-04\nseptic tank\npublic toilet\n59\n15.64",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data organization"
+      "am-02-2: Data visualization"
     ]
   },
   {
@@ -2264,6 +2140,240 @@
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
+    ]
+  },
+  {
+    "objectID": "assignments/md-04/am-04-1-reading.html",
+    "href": "assignments/md-04/am-04-1-reading.html",
+    "title": "Module 4 - Assignment 1",
+    "section": "",
+    "text": "This course introduces learners to tools and workflows for data science with R. Learners are also introduced to the concept of collaborative writing and coding using git and GitHub within the context of reproducible documents (i.e. Quarto). So far we have used data that is well structured and ready to be used. However, in reality a lot of data entry and storage is still managed in spreadsheets. This is why we also touch on some (research) data management topics (Data Organization in Spreadsheet).\nThe reading for this assignment provides guidance for data entry and storage aspects. It offers practical recommendations for organizing spreadsheet data to reduce errors and ease later analyses.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data organization"
+    ]
+  },
+  {
+    "objectID": "assignments/md-04/am-04-1-reading.html#task-1-read-and-prepare-examples",
+    "href": "assignments/md-04/am-04-1-reading.html#task-1-read-and-prepare-examples",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 1: Read and prepare examples",
+    "text": "Task 1: Read and prepare examples\nFor this assignment, we ask you to:\n\nRead Broman and Woo (2018): “Data organization in spreadsheets”.\nChose two of the recommendations and come up with real-world examples or scenarios where the recommendations could be applied in your work.\nBe prepared to share these examples and explain how the recommendations would improve your workflows. This will be in a class setting as part of small discussion group (max 3 people).",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data organization"
+    ]
+  },
+  {
+    "objectID": "assignments/md-04/am-04-1-reading.html#task-2-apply-the-recommendations-to-your-samples-data-from-module-3",
+    "href": "assignments/md-04/am-04-1-reading.html#task-2-apply-the-recommendations-to-your-samples-data-from-module-3",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 2: Apply the recommendations to your samples data from Module 3",
+    "text": "Task 2: Apply the recommendations to your samples data from Module 3\n\n\n\n\n\n\nHave you completed the assignments for module 3?\n\n\n\nA pre-requisite for this homework is that you worked through the “Spreadsheet” assignment of module 3. If you have not done so, please do this first. https://ds4owd-002.github.io/website/assignments/md-03/am-03-2-spreadsheet.html\n\n\n\nOpen the ds4owd workspace on posit.cloud\nRe-open your samples-USERNAME repository.\nCreate a new .R file and save it as data_cleaning.R.\nAdd library(tidyverse) to the top of the file.\nAdd library(readxl) to the top of the file.\nAdd library(janitor) to the top of the file.\nUse the read_excel() function to read in your the .xlsx file and store it in an object called samples.\nUse the glimpse() function to inspect the data.\nTry to use R functions to apply the recommendations from the reading to your data.\n\n\n\n\n\n\n\nAsk questions on our Element Chat\n\n\n\nIf you would like support at different points of your data cleaning process, please ask questions on our Element Chat, we are happy to support.\n\n\n\nExample\nThe following is an example of a dataset that follows the recommendations from the reading.\n\n\n\n\n\nid\ndate_sample\nsystem\nlocation\nusers\nts\n\n\n\n\n1\n2023-11-01\npit latrine\nhousehold\n5\n136.24\n\n\n2\n2023-11-01\npit latrine\nhousehold\n7\n102.45\n\n\n3\n2023-11-01\npit latrine\nhousehold\nNA\n57.02\n\n\n4\n2023-11-01\npit latrine\nhousehold\n6\n27.03\n\n\n5\n2023-11-01\npit latrine\nhousehold\n12\n97.27\n\n\n6\n2023-11-02\nseptic tank\nhousehold\n7\n78.21\n\n\n7\n2023-11-02\nseptic tank\nhousehold\n14\n15.24\n\n\n8\n2023-11-02\nseptic tank\nhousehold\n4\n29.39\n\n\n9\n2023-11-02\nseptic tank\nhousehold\n10\n64.22\n\n\n10\n2023-11-02\nseptic tank\nhousehold\n12\n8.01\n\n\n11\n2023-11-03\npit latrine\npublic toilet\n50\n11.24\n\n\n12\n2023-11-03\npit latrine\npublic toilet\n32\n84.05\n\n\n13\n2023-11-03\npit latrine\npublic toilet\n41\n55.92\n\n\n14\n2023-11-03\npit latrine\npublic toilet\n160\n15.32\n\n\n15\n2023-11-03\npit latrine\npublic toilet\n20\n22.65\n\n\n16\n2023-11-04\nseptic tank\npublic toilet\n26\n8.72\n\n\n17\n2023-11-04\nseptic tank\npublic toilet\n91\n43.92\n\n\n18\n2023-11-04\nseptic tank\npublic toilet\n68\n10.37\n\n\n19\n2023-11-04\nseptic tank\npublic toilet\n112\n23.21\n\n\n20\n2023-11-04\nseptic tank\npublic toilet\n59\n15.64",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data organization"
+    ]
+  },
+  {
+    "objectID": "guide/index.html",
+    "href": "guide/index.html",
+    "title": "Guide",
+    "section": "",
+    "text": "This guide documents features of R, RStudio, Posit Cloud, and Quarto, which are relevant throughout the course. These can be settings that need to be made or tips that we communicate during the live sessions.\nIf you have a request, let us know and we will add guidance here.",
+    "crumbs": [
+      "Guide"
+    ]
+  },
+  {
+    "objectID": "guide/index.html#switch-pipe-operator",
+    "href": "guide/index.html#switch-pipe-operator",
+    "title": "Guide",
+    "section": "1 Switch pipe operator",
+    "text": "1 Switch pipe operator\nBy default, R uses %&gt;% as the pipe operator from the magrittr package. Since R 4.1.0, the pipe operator is also available as |&gt; without loading any packages. The |&gt; operator is recommended to be used instead of %&gt;%.\nTo switch to the native pipe operator, follow these steps:\n\nOpen your project on Posit Cloud\nOn the menu bar of RStudio, click on Tools &gt; Global Options... (see Figure 1)\nOn the left panel, click on Code\nOn the right panel, select the 4th check-box from the top next to ’Use native pipe operator, |&gt; (requires R 4.1+) (see Figure 2)\nClick on Apply and OK\n\n\n\n\n\n\n\n\n\nFigure 1: RStudio Global Options\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: RStudio Code Options",
+    "crumbs": [
+      "Guide"
+    ]
+  },
+  {
+    "objectID": "guide/index.html#zotero-reference-management",
+    "href": "guide/index.html#zotero-reference-management",
+    "title": "Guide",
+    "section": "2 Zotero reference management",
+    "text": "2 Zotero reference management\nWe recommend using Zotero as a tool for reference management, but do not teach how to use it in this course. The guidance below will support you in setting up Zotero.\n\n2.1 Get Zotero account\n\nOpen https://www.zotero.org/user/login/\nClick on Register for a free account\nChoose username, email, and password\nClick Register\nOpen your email and verify your account\n\n\n\n2.2 Install Zotero desktop client\n\nOpen https://www.zotero.org/download/\nDownload Zotero for your operating system\nInstall Zotero\nLog in to your Zotero account by opening Settings -&gt; Sync and typing the Username and Password you have previously set up\nClick on the green refresh button in the top-right corner of the Zotero window\n\n\n\n\n\n\n\n\n\n\n\n\n2.3 Install the Zotero Connector for your browser\n\nOpen https://www.zotero.org/download/\nDownload the Zotero Connector for your browser\nInstall the Zotero Connector\nLog in to your Zotero account\n\n\n\n2.4 Setup Add-ons and the citation key format\n\nGo to https://retorque.re/zotero-better-bibtex/installation/\nClick on the latest release so you are redirected to github\nFind the .xpi file and right-click it. Click on Save Link As… and choose your location for saving the file.\n\n\n\n\n\n\n\n\n\n\n\nOpen Zotero -&gt; Tools -&gt; Add-ons -&gt; (Gear icon) -&gt; Install Add-on From File… -&gt; choose the .xpi file you have just saved\n\n\n\n\n\n\n\n\n\n\n\nRestart Zotero\n\n\n\n\n\n\n\n\n\n\n\nWait until the database fully loads. Only the first time is long; the next interactions with Zotero will be much faster.\nYou may need to restart Zotero the second time. Please do so if you see a prompt after Better BibTeX is installed.\nGo to Zotero -&gt; Settings -&gt; Export -&gt; Default Format and change the default format to Better BibTeX Quick Copy: \n\n\n\n\n\n\n\n\n\n\n\nIn the same setting window, go to Better BibTeX -&gt; Open Better BibTeX preferences…\n\n\n\n\n\n\n\n\n\n\n\nIn the Citation keys tab, use the following Citation key formula for Better BibTeX: [auth:lower][year][veryshorttitle1_0:lower]\n\nThe line above means that the citation key will be built from:\n\nFirst author’s last name in lowercase\npublication year\nThe first word from the title in lowercase, not including the connectors such as “the” or “a”\n\n\n\n\n\n\n\n\n\n\n\nGo to Export -&gt; Quick-Copy in the Better BibTeX preferences. Select Pandoc citation.\n\n\n\n\n\n\n\n\n\n\n\n\n2.5 Change the setting for the citekey autopin delay\n\nOpen Zotero advanced preferences (Zotero -&gt; Settings -&gt; Advanced)\nOpen the Config Editor under the Advanced Configuration section\n\n\n\n\n\n\n\n\n\n\n\nClick I accept the risk!\nIn the search bar, search for autopin\n\n\n\n\n\n\n\n\n\n\n\nDouble-click into the field under Value\nIn the new window called Enter integer value, change the existing 0 to 2\n\n\n\n\n\n\n\n\n\n\n\nClick OK\nClose all setting windows",
+    "crumbs": [
+      "Guide"
+    ]
+  },
+  {
+    "objectID": "guide/index.html#publish-to-github-pages",
+    "href": "guide/index.html#publish-to-github-pages",
+    "title": "Guide",
+    "section": "3 Publish to GitHub Pages",
+    "text": "3 Publish to GitHub Pages\n\n3.1 Navigate to your repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course: &lt;https://github.com/ds4owd-002&gt;.\n\n\n\n\n\n\n\n\n\n\n\nUse the search field under “Repositories” to find your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\n\n3.2 Make repo public\nIf your repository’s visibility is set to “private” (indicated by a small padlock next to the repositories name), you first need to switch it to “public” by following these steps:\n\nClick on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nStay on “General” and scroll down to the bottom of the page “Danger Zone”.\n\n\n\n\n\n\n\n\n\n\n\nOn the first sub-heading “Change repository visibility”, click “Change visibility”, then “Change to public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I want to make this repository public”.\n\n\n\n\n\n\n\n\n\n\n\nClick “I have read and understand these effects”.\nClick “Make this repository public”.\nProvide the requested credentials.\nDone.\n\n\n\n3.3 Publish with GitHub Pages\n\nOpen your capstone project repository, and click on “Settings”.\n\n\n\n\n\n\n\n\n\n\n\nIn the left navigation pane, click on “Pages” under “Code and automation”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Build and deployment”, then under Branch, click the dropdown titled “None”.\n\n\n\n\n\n\n\n\n\n\n\nIn the dropdown, select “main”.\n\n\n\n\n\n\n\n\n\n\n\nClick on the dropdown titled “/ (root)”. In the dropdown, select “/docs”.\n\n\n\n\n\n\n\n\n\n\n\nClick “Save”.\n\n\n\n\n\n\n\n\n\n\n\n\n3.4 Edit “About” of repository\n\nOpen your capstone project repository.\n\n\n\n\n\n\n\n\n\n\n\nOn right side, next to “About”, click on the gear icon.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Description” you can add “This project report was prepared for the Data Science for OpenWashData course.” or anything else that you would like to highlight.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Website”, click “Use your GitHub Pages website”.\n\n\n\n\n\n\n\n\n\n\n\nUnder “Include in the home page”, you can remove the checked boxes.\nClick “Save changes”.\nThe public URL of your repository will now be shown under “About” on the right side.\n\n\n\n\n\n\n\n\n\n\n\nOpen your published website and enjoy.",
+    "crumbs": [
+      "Guide"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "data science for openwashdata",
+    "section": "",
+    "text": "All of the material here is available under the Creative Commons Attribution license.\nYou are free:\n\nto Share - to copy and redistribute the material in any medium or format\nto Adapt - remix, transform, and build upon the material for any purpose, even commercially.\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit using “(c) Copyright 2022, Lars Schöbitz”, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/4.0/.\n\nFor the full legal text of this license, please see: http://creativecommons.org/licenses/by/4.0/legalcode."
+  },
+  {
+    "objectID": "assignments/md-03/am-03-1-data-transformation.html",
+    "href": "assignments/md-03/am-03-1-data-transformation.html",
+    "title": "Data transformation with dplyr",
+    "section": "",
+    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
+    "crumbs": [
+      "Module 03",
+      "am-01: Data transformation"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
+    "href": "assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
+    "title": "Data transformation with dplyr",
+    "section": "Step 1: Clone your module 3 assignments repository",
+    "text": "Step 1: Clone your module 3 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course (or use your bookmark).\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green “Code” button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.\nOpen md-03a-penguins-practice.qmd & md-03b-sanitation-visualise.qmd and follow the instructions to work through the tasks.",
+    "crumbs": [
+      "Module 03",
+      "am-01: Data transformation"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
+    "href": "assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
+    "title": "Data transformation with dplyr",
+    "section": "Step 2: Commit and push your changes",
+    "text": "Step 2: Commit and push your changes\nThe below is also described in md-03a-penguins-practice.qmd & md-03b-sanitation-visualise.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "crumbs": [
+      "Module 03",
+      "am-01: Data transformation"
+    ]
+  },
+  {
+    "objectID": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
+    "href": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
+    "title": "Data transformation with dplyr",
+    "section": "Step 3: Open an issue on GitHub",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "crumbs": [
+      "Module 03",
+      "am-01: Data transformation"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html",
+    "href": "assignments/md-02/am-02-1-bookmarks.html",
+    "title": "Support yourself with bookmarks",
+    "section": "",
+    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
+    "title": "Support yourself with bookmarks",
+    "section": "",
+    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 1: Create a dedicated bookmarks folder in Chrome",
+    "text": "Step 1: Create a dedicated bookmarks folder in Chrome\n\nOpen Chrome.\n\n\n\nClick on the three dots menu in the top-right corner.\n\n\n\nClick on Bookmarks and Lists -&gt; Click on Show Bookmarks Bar.\n\n\n\nA bookmarks bar appears below the address bar in your browser. It might have already been there.\n\n\n\nRight-click on the bookmarks bar and select Add Folder….\n\n\n\nName the folder ds4owd-002 in the Name field. Ensure that in the window below, Bookmarks Bar is selected as the location. Click Save.\n\n\n\nThe folder ds4owd-002 should now appear in your bookmarks bar.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 2: Add course website to your folder",
+    "text": "Step 2: Add course website to your folder\n\nNavigate to the course website: https://ds4owd-002.github.io/website/.\n\n\n\nClick the star icon in the address bar.\n\n\n\nIn the popup, add course website for the Name field.\n\n\n\nClick the Folder dropdown and select your ds4owd-002 folder.\n\n\n\nClick Done.\n\n\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify the bookmark was added.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 3: Add other essential course links",
+    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - course org\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element chat",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-4-take-a-screenshot",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-4-take-a-screenshot",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 4: Take a screenshot",
+    "text": "Step 4: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly.\n\n\n\nTake a screenshot of your browser showing the expanded folder with all bookmarks.\nSave this screenshot as you will need it to complete this assignment.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-5-open-issue-on-github",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-5-open-issue-on-github",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 5: Open issue on GitHub",
+    "text": "Step 5: Open issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Bookmarks setup completed.\nIn the Leave a comment field:\n\nDrag and drop your screenshot from Step 4 into the comment field, or click Attach files by dragging & dropping.\nAdd a brief message like: “I have set up my bookmarks folder for ds4owd-002 with all essential course links.”\nTag the course instructors @seawaR @massarin @larnsce.\n\nScroll down the page a bit and click the green Submit new issue button.\n\nCongratulations! You have successfully organized your bookmarks and documented your setup.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-6-create-sub-folders-for-better-organization-in-chrome-optional",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-6-create-sub-folders-for-better-organization-in-chrome-optional",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 6: Create sub-folders for better organization in Chrome optional",
+    "text": "Step 6: Create sub-folders for better organization in Chrome optional\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder.\nSelect Add new folder.\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for openwashdata and other data sources\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nopenwashdata: https://openwashdata.org/",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#tips",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#tips",
+    "title": "Support yourself with bookmarks",
+    "section": "Tips",
+    "text": "Tips\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome. 2. Click Turn on sync. 3. Sign in with your Google account. 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome.\n\n\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
+    ]
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#next-steps",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#next-steps",
+    "title": "Support yourself with bookmarks",
+    "section": "Next steps",
+    "text": "Next steps\nNow that you have your bookmarks organized, continue with the next assignment where you’ll use these bookmarks to navigate between the course platforms efficiently.",
+    "crumbs": [
+      "Module 02",
+      "am-02-1: Bookmarks"
     ]
   },
   {
@@ -2624,7 +2734,7 @@
     "href": "slides/lec-02-visualisation.html#stack-overflow",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Stack Overflow",
-    "text": "Stack Overflow\n\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes\nThen, check out the “Linked” posts\nAlways give credit for the solution"
+    "text": "Stack Overflow\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes\nThen, check out the “Linked” posts\nAlways give credit for the solution"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools",
@@ -2638,7 +2748,7 @@
     "href": "slides/lec-02-visualisation.html#other-sources-for-help",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Other sources for help",
-    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon tag: #rstats\nQuarto GitHub Discussion: https://github.com/quarto-dev/quarto-cli/discussions\n\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon tag: #rstats\nQuarto GitHub Discussion: https://github.com/quarto-dev/quarto-cli/discussions\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-2",
@@ -2646,6 +2756,27 @@
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "",
     "text": "Artwork by @allison_horst"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#note",
+    "href": "slides/lec-02-visualisation.html#note",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Note",
+    "text": "Note\nFor every week, there will be two “projects”:\n\nmd-0X-exercises (this is for lectures and we only work with it during lectures)\nmd-0X-assignments-USERNAME (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#lecture-exercises",
+    "href": "slides/lec-02-visualisation.html#lecture-exercises",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Lecture Exercises",
+    "text": "Lecture Exercises\n\nClick “Start” the first time\nClick “Continue” the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#homework-assignments-module-1",
+    "href": "slides/lec-02-visualisation.html#homework-assignments-module-1",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Homework Assignments module 1",
+    "text": "Homework Assignments module 1"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#on-github-organisation",
@@ -2674,6 +2805,13 @@
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "on Posit Cloud",
     "text": "on Posit Cloud"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
+    "href": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Assignment 3: Bookmarks",
+    "text": "Assignment 3: Bookmarks\n\nthis week, you will have an assignment for creating bookmarks in your browser"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-3",
@@ -2890,7 +3028,7 @@
     "href": "slides/lec-02-visualisation.html#r-package-ggplot2",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "R Package ggplot2",
-    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n#knitr::include_graphics(here::here(\"slides/img/lec-02/ggplot2-part-of-tidyverse.png\"))\n\n\n\n\n\nSlide adapted from datasciencebox.org"
+    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n#knitr::include_graphics(here::here(\"slides/img/lec-02/ggplot2-part-of-tidyverse.png\"))\n\n\n\n\nSlide adapted from datasciencebox.org"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#my-turn-working-with-r",
@@ -2988,7 +3126,7 @@
     "href": "slides/lec-02-visualisation.html#boxplot-explained",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Boxplot, explained",
-    "text": "Boxplot, explained\n\n\n\n\n\n\n\n\nFigure 1: Diagram depicting how a boxplot is created.\n\n\n\n\n\n\nImage taken from: https://r4ds.hadley.nz/data-visualize#fig-eda-boxplot\n\n\n\nA box that indicates the range of the middle half of the data, a distance known as the interquartile range (IQR), stretching from the 25th percentile of the distribution to the 75th percentile.\nIn the middle of the box is a line that displays the median, i.e. 50th percentile, of the distribution.\nThese three lines give you a sense of the spread of the distribution and whether or not the distribution is symmetric about the median or skewed to one side.\nVisual points that display observations that fall more than 1.5 times the IQR from either edge of the box. These outlying points are unusual so are plotted individually.\nA line (or whisker) that extends from each end of the box and goes to the farthest non-outlier point in the distribution."
+    "text": "Boxplot, explained\n\n\nFigure 1: Diagram depicting how a boxplot is created.\n\nImage taken from: https://r4ds.hadley.nz/data-visualize#fig-eda-boxplot\n\n\n\nA box that indicates the range of the middle half of the data, a distance known as the interquartile range (IQR), stretching from the 25th percentile of the distribution to the 75th percentile.\nIn the middle of the box is a line that displays the median, i.e. 50th percentile, of the distribution.\nThese three lines give you a sense of the spread of the distribution and whether or not the distribution is symmetric about the median or skewed to one side.\nVisual points that display observations that fall more than 1.5 times the IQR from either edge of the box. These outlying points are unusual so are plotted individually.\nA line (or whisker) that extends from each end of the box and goes to the farthest non-outlier point in the distribution."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#our-turn-md-02-exercises",
@@ -3009,7 +3147,7 @@
     "href": "slides/lec-02-visualisation.html#types-of-variables",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Types of variables",
-    "text": "Types of variables\n\n\n\n\nnumerical\ndiscrete variables\n\nnon-negative\nwhole numbers\ne.g. number of students, roll of a dice\n\ncontinuous variables\n\ninfinite number of values\nalso dates and times\ne.g. length, weight, size\n\n\n\n\nnon-numerical\ncategorical variables\n\nfinite number of values\ndistinct groups (e.g. EU countries, continents)\nordinal if levels have natural ordering (e.g. week days, school grades)"
+    "text": "Types of variables\n\n\nnumerical\ndiscrete variables\n\nnon-negative\nwhole numbers\ne.g. number of students, roll of a dice\n\ncontinuous variables\n\ninfinite number of values\nalso dates and times\ne.g. length, weight, size\n\n\nnon-numerical\ncategorical variables\n\nfinite number of values\ndistinct groups (e.g. EU countries, continents)\nordinal if levels have natural ordering (e.g. week days, school grades)"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#histogram",
@@ -3317,7 +3455,7 @@
     "href": "slides/lec-03-transformation.html#dplyr-rules",
     "title": "Data transformation with dplyr",
     "section": "dplyr rules",
-    "text": "dplyr rules\nRules of dplyr functions:\n\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
+    "text": "dplyr rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
   },
   {
     "objectID": "slides/lec-03-transformation.html#functions-arguments",
@@ -3793,7 +3931,7 @@
     "href": "slides/lec-08-quarto.html#whats-a-citation",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "What’s a Citation?",
-    "text": "What’s a Citation?\n\n\nInequality underpins waste management systems, structuring who can or cannot access services (Kalina et al., 2023).\nMany visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nIn Tilley & Kalina (2021), the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.\n\n\n\nExplanation A citation is a reference to the source of information used in your research. Any time you directly quote, paraphrase, or summarize the essential elements of someone else’s idea in your work, an in-text citation should follow. For example, in APA style, a citation might look like this: (Tilley and Kalina, 2021).\nAnalogy Think of a citation as a signpost on a road trip. It tells you where the information came from and points you in the direction of the full details (the destination), which can be found in the reference list."
+    "text": "What’s a Citation?\n\nInequality underpins waste management systems, structuring who can or cannot access services (Kalina et al., 2023).\nMany visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nIn Tilley & Kalina (2021), the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.\n\n\nExplanation A citation is a reference to the source of information used in your research. Any time you directly quote, paraphrase, or summarize the essential elements of someone else’s idea in your work, an in-text citation should follow. For example, in APA style, a citation might look like this: (Tilley and Kalina, 2021).\nAnalogy Think of a citation as a signpost on a road trip. It tells you where the information came from and points you in the direction of the full details (the destination), which can be found in the reference list."
   },
   {
     "objectID": "slides/lec-08-quarto.html#whats-a-citation-1",
@@ -3856,7 +3994,7 @@
     "href": "slides/lec-08-quarto.html#scholarly-articles-in-quarto",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Scholarly Articles in Quarto",
-    "text": "Scholarly Articles in Quarto\nQuarto supports\n\n\na standardized schema for authors and affiliations that can be expressed once int the source document,\nthe use of Citation Style Language (CSL) to automate the formatting of citations and bibliographies, and\noutputting to pdf, html, and docx with custom formatting,\n\n\n\naccording to the styles required for various journals,\n\n\nand creating the LaTeX required for submission to multiple journals."
+    "text": "Scholarly Articles in Quarto\nQuarto supports\n\na standardized schema for authors and affiliations that can be expressed once int the source document,\nthe use of Citation Style Language (CSL) to automate the formatting of citations and bibliographies, and\noutputting to pdf, html, and docx with custom formatting,\n\n\naccording to the styles required for various journals,\n\n\nand creating the LaTeX required for submission to multiple journals."
   },
   {
     "objectID": "slides/lec-08-quarto.html#front-matter",
@@ -4578,185 +4716,10 @@
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html",
-    "href": "slides/lec-02-visualisation.html",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "",
-    "text": "gapminder_2007 &lt;- gapminder |&gt; \n  filter(year == 2007)"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#note",
-    "href": "slides/lec-02-visualisation.html#note",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Note",
-    "text": "Note\nFor every week, there will be two “projects”:\n\nmd-0X-exercises (this is for lectures and we only work with it during lectures)\nmd-0X-assignments-USERNAME (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#lecture-exercises",
-    "href": "slides/lec-02-visualisation.html#lecture-exercises",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Lecture Exercises",
-    "text": "Lecture Exercises\n\nClick “Start” the first time\nClick “Continue” the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#homework-assignments-module-1",
-    "href": "slides/lec-02-visualisation.html#homework-assignments-module-1",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Homework Assignments module 1",
-    "text": "Homework Assignments module 1"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
-    "href": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Assignment 3: Bookmarks",
-    "text": "Assignment 3: Bookmarks\n\nthis week, you will have an assignment for creating bookmarks in your browser"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html",
-    "href": "assignments/md-02/am-02-1-bookmarks.html",
-    "title": "Support yourself with bookmarks",
-    "section": "",
-    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
-    "title": "Support yourself with bookmarks",
-    "section": "",
-    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 1: Create a dedicated bookmarks folder in Chrome",
-    "text": "Step 1: Create a dedicated bookmarks folder in Chrome\n\nOpen Chrome.\n\n\n\nClick on the three dots menu in the top-right corner.\n\n\n\nClick on Bookmarks and Lists -&gt; Click on Show Bookmarks Bar.\n\n\n\nA bookmarks bar appears below the address bar in your browser. It might have already been there.\n\n\n\nRight-click on the bookmarks bar and select Add Folder….\n\n\n\nName the folder ds4owd-002 in the Name field. Ensure that in the window below, Bookmarks Bar is selected as the location. Click Save.\n\n\n\nThe folder ds4owd-002 should now appear in your bookmarks bar."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-essential-course-bookmarks-in-chrome",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-essential-course-bookmarks-in-chrome",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 2: Add essential course bookmarks in Chrome",
-    "text": "Step 2: Add essential course bookmarks in Chrome\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark: 1. Navigate to the URL in Chrome 2. Click the star icon in the address bar (or press Ctrl+D / Cmd+D) 3. In the popup, click Folder dropdown and select your ds4owd-002 folder 4. Edit the Name field to give it a descriptive title 5. Click Done\n\nEssential course links\n\nCourse website: https://ds4owd-002.github.io/website/\n\nName it: Course Home\n\n\n\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - Course Org\n\n\n\n\nElement chat: https://app.element.io\n\nName it: Element Chat\n\n\n\n\n\n\n\n\n\nPersonal repository bookmark\n\n\n\nOnce you’ve cloned your personal assignment repository, add it as a bookmark too. The URL will be: https://github.com/ds4owd-002/md-02-assignments-USERNAME\nReplace USERNAME with your GitHub username."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 3: Create sub-folders for better organization in Chrome",
-    "text": "Step 3: Create sub-folders for better organization in Chrome\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nIn the bookmark manager (Ctrl+Shift+O / Cmd+Shift+O)\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for OpenWashData and other data sources\n\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nOpenWashData: https://openwashdata.org/"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-4-use-chrome-bookmark-shortcuts-optional",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-4-use-chrome-bookmark-shortcuts-optional",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 4: Use Chrome bookmark shortcuts (optional)",
-    "text": "Step 4: Use Chrome bookmark shortcuts (optional)\nSpeed up your workflow with Chrome’s built-in shortcuts:\n\nOpen Chrome’s bookmark manager (Ctrl+Shift+O / Cmd+Shift+O)\nRight-click on frequently-used bookmarks\nSelect Edit\nIn the Name field, you can see the bookmark name\nUnfortunately, Chrome doesn’t support custom keywords directly, but you can:\n\nUse Ctrl+Shift+B to show/hide the bookmarks bar for quick access\nDrag frequently-used bookmarks to the leftmost positions on your bookmarks bar\nUse Chrome’s address bar autocomplete by typing the first few letters of the bookmark name\n\n\n\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome 2. Click Turn on sync 3. Sign in with your Google account 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-5-verify-your-setup",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-5-verify-your-setup",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 5: Verify your setup",
-    "text": "Step 5: Verify your setup\nCheck that you have easy access to all essential course resources:\n\nCan you reach the course website in 2 clicks or less?\nCan you access your Posit Cloud workspace quickly?\nIs your GitHub organization bookmark working?\nCan you open Element chat when you need help?\n\nIf you answered yes to all questions, you’re ready to focus on learning!\n\n\n\n\n\n\nKeep bookmarks updated\n\n\n\nAs you create new repositories for assignments, remember to bookmark them. Having quick access to your work will save time throughout the course."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#troubleshooting-chrome-bookmarks",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#troubleshooting-chrome-bookmarks",
-    "title": "Support yourself with bookmarks",
-    "section": "Troubleshooting Chrome bookmarks",
-    "text": "Troubleshooting Chrome bookmarks\nBookmarks bar not visible? - Press Ctrl+Shift+B (Windows/Linux) or Cmd+Shift+B (Mac) to toggle the bookmarks bar - Or: Three dots menu → Bookmarks and lists → Show bookmarks bar\nCan’t find your bookmarks? - Open bookmark manager: Ctrl+Shift+O / Cmd+Shift+O - Use the search box at the top to find specific bookmarks - Check if they’re in Other bookmarks or Mobile bookmarks folders\nBookmarks not syncing? - Click your profile icon and check if you’re signed in - Go to chrome://settings/syncSetup to verify sync is enabled for bookmarks\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#next-steps",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#next-steps",
-    "title": "Support yourself with bookmarks",
-    "section": "Next steps",
-    "text": "Next steps\nNow that you have your bookmarks organized, continue with the next assignment where you’ll use these bookmarks to navigate between the course platforms efficiently."
-  },
-  {
     "objectID": "CLAUDE.html#instructional-design-patterns",
     "href": "CLAUDE.html#instructional-design-patterns",
     "title": "CLAUDE.md",
     "section": "",
     "text": "Highlighting: Use [text]{.highlight-yellow} or [text]{.highlight-peach} to draw attention to specific UI elements, buttons, or important text\nScreenshots: Include descriptive images with {width=100%} for full-width display\nIcons: Use Font Awesome icons (e.g., ) for visual cues\n\n\n\n\n\nClear numbering: Use numbered lists for sequential steps\nAction-oriented language: Start with verbs (Click, Open, Navigate, Enter, Select)\nVisual references: Include what learners will see in brackets with highlighting\nContextual information: Provide the “why” when needed, but keep it brief\nProgressive disclosure: Reduce detail level as course progresses (explicitly noted in module 2+)\n\n\n\n\n\nNavigation: “Open [URL] in your browser” → “Navigate to…” → “Find the repository…”\nUI interactions: “Click on the Button Name button”\nForm fields: “In the Field Name field, enter…”\nVerification: “You can verify… by looking at…”\nSuccess indicators: “If you see…, then you have successfully…”\n\n\n\n\n\nCallout boxes for different purposes:\n\n{.callout-tip}: Optional information or helpful hints\n{.callout-important}: Critical information learners must know\n{.callout-warning}: Common pitfalls or issues to avoid\n{.callout-note}: Additional context or explanations\n\nTroubleshooting: Include “If you cannot…” sections with solutions\nSupport channels: Provide email links with pre-filled subjects for specific help\n\n\n\n\n\nRepository references: Always use USERNAME placeholder with clear substitution instructions\nAuthentication steps: Detailed PAT creation and usage with security warnings\nCommit process: Explicit staging → commit message → push sequence\nIssue creation: Structured format with instructor tagging (@seawaR @massarin @larnsce)\n\n\n\n\n\nModule 1: Extensive screenshots, detailed explanations, complete step-by-step guidance\nModule 2+: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail\nCross-references: Link back to earlier modules for detailed instructions when needed\n\n\n\n\n\nPAT storage: Explicit warnings against Word documents, recommend text files or password managers\nCredential handling: Clear distinction between GitHub password and PAT\nError prevention: Proactive warnings about common issues (spaces in PAT, wrong workspace)"
-  },
-  {
-    "objectID": "slides/lec-01-welcome.html",
-    "href": "slides/lec-01-welcome.html",
-    "title": "Welcome & get ready for the course",
-    "section": "",
-    "text": "While we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 2: Add course website to your folder",
-    "text": "Step 2: Add course website to your folder\n\nNavigate to the course website: https://ds4owd-002.github.io/website/.\n\n\n\nClick the star icon in the address bar.\n\n\n\nIn the popup, add course website for the Name field.\n\n\n\nClick the Folder dropdown and select your ds4owd-002 folder.\n\n\n\nClick Done.\n\n\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify the bookmark was added."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 3: Add other essential course links",
-    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - course org\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element chat"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome-optional",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome-optional",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 3: Create sub-folders for better organization in Chrome (optional)",
-    "text": "Step 3: Create sub-folders for better organization in Chrome (optional)\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for OpenWashData and other data sources\n\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nOpenWashData: https://openwashdata.org/"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-4-create-sub-folders-for-better-organization-in-chrome-optional",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-4-create-sub-folders-for-better-organization-in-chrome-optional",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 4: Create sub-folders for better organization in Chrome (optional)",
-    "text": "Step 4: Create sub-folders for better organization in Chrome (optional)\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for openwashdata and other data sources\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nopenwashdata: https://openwashdata.org/"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#tipps",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#tipps",
-    "title": "Support yourself with bookmarks",
-    "section": "Tipps",
-    "text": "Tipps\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome 2. Click Turn on sync 3. Sign in with your Google account 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome\n\n\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-5-create-sub-folders-for-better-organization-in-chrome-optional",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-5-create-sub-folders-for-better-organization-in-chrome-optional",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 5: Create sub-folders for better organization in Chrome optional",
-    "text": "Step 5: Create sub-folders for better organization in Chrome optional\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder.\nSelect Add new folder.\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for openwashdata and other data sources\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nopenwashdata: https://openwashdata.org/"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#tips",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#tips",
-    "title": "Support yourself with bookmarks",
-    "section": "Tips",
-    "text": "Tips\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome. 2. Click Turn on sync. 3. Sign in with your Google account. 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome.\n\n\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-5-open-issue-on-github",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-5-open-issue-on-github",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 5: Open issue on GitHub",
-    "text": "Step 5: Open issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Bookmarks setup completed.\nIn the Leave a comment field:\n\nDrag and drop your screenshot from Step 4 into the comment field, or click Attach files by dragging & dropping.\nAdd a brief message like: “I have set up my bookmarks folder for ds4owd-002 with all essential course links.”\nTag the course instructors @seawaR @massarin @larnsce.\n\nScroll down the page a bit and click the green Submit new issue button.\n\nCongratulations! You have successfully organized your bookmarks and documented your setup."
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-6-create-sub-folders-for-better-organization-in-chrome-optional",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-6-create-sub-folders-for-better-organization-in-chrome-optional",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 6: Create sub-folders for better organization in Chrome optional",
-    "text": "Step 6: Create sub-folders for better organization in Chrome optional\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder.\nSelect Add new folder.\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for openwashdata and other data sources\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nopenwashdata: https://openwashdata.org/"
-  },
-  {
-    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-4-take-a-screenshot",
-    "href": "assignments/md-02/am-02-1-bookmarks.html#step-4-take-a-screenshot",
-    "title": "Support yourself with bookmarks",
-    "section": "Step 4: Take a screenshot",
-    "text": "Step 4: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly.\n\n\n\nTake a screenshot of your browser showing the expanded folder with all bookmarks.\nSave this screenshot as you will need it to complete this assignment."
   }
 ]

@@ -58,11 +58,12 @@ quiz_due_date <- format(as.Date(vars$`md-02`$`quiz-due`), "%B %d, %Y")
 
 [Due date:]{.highlight-yellow} `r homework_due_date`
 
-Please complete the following assignment before the due date.
+Please complete the following assignments before the due date.
 
--   [Assignment 1](../assignments/md-02/am-02-1-data-visualisation.qmd): Data visualisation
+-   [Assignment 1](../assignments/md-02/am-02-1-bookmarks.qmd): Support yourself with bookmarks
+-   [Assignment 2](../assignments/md-02/am-02-2-data-visualisation.qmd): Data visualisation
 
-Thank you for working through this assignment.
+Thank you for working through these assignments.
 
 ## {{< fa clipboard-question >}} Quiz
 
