@@ -198,7 +198,36 @@ Add the following bookmarks to your [ds4owd-002]{.highlight-yellow} folder. For 
 
 ## Step 5: Open issue on GitHub
 
-## Step 5: Create sub-folders for better organization in Chrome [optional]{.highlight-yellow}
+1. Open <https://github.com/> in your browser.
+
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+
+3. Find the repository `md-02-assignments-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+   - Replace `USERNAME` with your actual GitHub username.
+   - For example, if your username is `johnsmith`, the repository will be `md-02-assignments-johnsmith`.
+
+::: {.callout-tip}
+You can search for your repository by typing your username in the search bar just below the Repository heading.
+:::
+
+4. Click on the [Issues]{.highlight-yellow} tab.
+
+5. Click on the green [New issue]{.highlight-yellow} button.
+
+6. In the [Title]{.highlight-yellow} field write: [Bookmarks setup completed]{.highlight-yellow}.
+
+7. In the [Leave a comment]{.highlight-yellow} field:
+   - Drag and drop your screenshot from Step 4 into the comment field, or click [Attach files by dragging & dropping]{.highlight-yellow}.
+   - Add a brief message like: "I have set up my bookmarks folder for ds4owd-002 with all essential course links."
+   - Tag the course instructors `@seawaR` `@massarin` `@larnsce`.
+
+![](images/bookmarks/screenshot-github-issue-with-image.png){width=100%}
+
+8. Scroll down the page a bit and click the green [Submit new issue]{.highlight-yellow} button.
+
+Congratulations! You have successfully organized your bookmarks and documented your setup.
+
+## Step 6: Create sub-folders for better organization in Chrome [optional]{.highlight-yellow}
 
 As the course progresses, organize your Chrome bookmarks with sub-folders:
 
