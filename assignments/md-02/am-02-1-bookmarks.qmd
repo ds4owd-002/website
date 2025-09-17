@@ -109,7 +109,16 @@ Throughout this course, you'll be frequently accessing various websites and plat
 Based on our course registration data, approximately `r chrome_percentage`% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you're using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.
 :::
 
-TODO: Write a call-out tip about browser hygiene. Recommend learners to close all open tabs before starting this assignment and also doing so before joining or watching each modules lectures. Add that clearing the browser history and cache is also a good idea to keep the browser running smoothly, though many people find this scary as you will be logged out of all your accounts. 
+::: {.callout-tip}
+## Browser hygiene for better focus and performance
+Before starting this assignment (and before each module's lectures), consider these browser hygiene practices:
+
+**Close unnecessary tabs**: Start fresh by closing all open tabs except the one you're currently using. This helps you focus and reduces memory usage.
+
+**Optional - Clear browsing data**: For optimal browser performance, you can clear your cache and browsing history ([Three dots menu]{.highlight-yellow} → [Settings]{.highlight-yellow} → [Privacy and security]{.highlight-yellow} → [Clear browsing data]{.highlight-yellow}).
+
+**Note**: Clearing browsing data will log you out of most websites, so only do this if you're comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers.
+::: 
 
 ## Step 1: Create a dedicated bookmarks folder in Chrome
 

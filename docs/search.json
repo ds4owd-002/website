@@ -4617,14 +4617,14 @@
     "href": "assignments/md-02/am-02-1-bookmarks.html",
     "title": "Support yourself with bookmarks",
     "section": "",
-    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ."
+    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers."
   },
   {
     "objectID": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
     "href": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
     "title": "Support yourself with bookmarks",
     "section": "",
-    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ."
+    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.\n\n\n\n\n\n\n\n\nBrowser hygiene for better focus and performance\n\n\n\nBefore starting this assignment (and before each module’s lectures), consider these browser hygiene practices:\nClose unnecessary tabs: Start fresh by closing all open tabs except the one you’re currently using. This helps you focus and reduces memory usage.\nOptional - Clear browsing data: For optimal browser performance, you can clear your cache and browsing history (Three dots menu → Settings → Privacy and security → Clear browsing data).\nNote: Clearing browsing data will log you out of most websites, so only do this if you’re comfortable signing back into your accounts. Many people find this intimidating, but it can significantly improve browser performance, especially on older computers."
   },
   {
     "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
@@ -4701,7 +4701,7 @@
     "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
     "title": "Support yourself with bookmarks",
     "section": "Step 3: Add other essential course links",
-    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - Course Org\n\n\n\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element Chat\n\n\n ## Step 3: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly."
+    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - course org\n\n\n\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element chat\n\n\n ## Step 3: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly.\nTake a Screenshot."
   },
   {
     "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome-optional",
@@ -4709,5 +4709,19 @@
     "title": "Support yourself with bookmarks",
     "section": "Step 3: Create sub-folders for better organization in Chrome (optional)",
     "text": "Step 3: Create sub-folders for better organization in Chrome (optional)\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for OpenWashData and other data sources\n\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nOpenWashData: https://openwashdata.org/"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-4-create-sub-folders-for-better-organization-in-chrome-optional",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-4-create-sub-folders-for-better-organization-in-chrome-optional",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 4: Create sub-folders for better organization in Chrome (optional)",
+    "text": "Step 4: Create sub-folders for better organization in Chrome (optional)\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for openwashdata and other data sources\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nopenwashdata: https://openwashdata.org/"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#tipps",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#tipps",
+    "title": "Support yourself with bookmarks",
+    "section": "Tipps",
+    "text": "Tipps\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome 2. Click Turn on sync 3. Sign in with your Google account 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome\n\n\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
   }
 ]
