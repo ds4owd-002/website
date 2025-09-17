@@ -124,49 +124,57 @@ Before starting this assignment (and before each module's lectures), consider th
 
 1. Open Chrome.
 
-![](images/bookmarks/screenshot-chrome-open.png){width=100%}
+![](images/01-bookmarks/screenshot-01-chrome-open.png){width=100%}
 
 2. Click on the [three dots menu]{.highlight-yellow} in the top-right corner.
 
-![](images/bookmarks/screenshot-three-dots-menu.png){width=100%}
+![](images/01-bookmarks/screenshot-02-three-dots-menu.png){width=100%}
 
-3. Click on [Bookmarks and Lists]{.highlight-yellow}.
+3. Click on [Bookmarks and Lists]{.highlight-yellow} -> Click on [Show Bookmarks Bar]{.highlight-yellow}.
 
-![](images/bookmarks/screenshot-bookmarks-and-lists.png){width=100%}
+![](images/01-bookmarks/screenshot-03-bookmarks-and-lists.png){width=100%}
 
-4. Click on [Show Bookmarks Bar]{.highlight-yellow}. A bookmarks bar appears below the address bar in your browser. It might have already been there.
+4. A bookmarks bar appears below the address bar in your browser. It might have already been there.
 
-![](images/bookmarks/screenshot-show-bookmarks-bar.png){width=100%}
+![](images/01-bookmarks/screenshot-04-show-bookmarks-bar.png){width=100%}
 
 5. Right-click on the bookmarks bar and select [Add Folder...]{.highlight-yellow}.
 
-![](images/bookmarks/screenshot-add-folder.png){width=100%}
+![](images/01-bookmarks/screenshot-05-add-folder.png){width=100%}
 
-6. Name the folder [ds4owd-002]{.highlight-yellow} in the Name field. Ensure that in the window below, [Bookmarks Bar]{.highlight-yellow} is selected as the location.
+6. Name the folder [ds4owd-002]{.highlight-yellow} in the Name field. Ensure that in the window below, [Bookmarks Bar]{.highlight-yellow} is selected as the location. Click [Save]{.highlight-yellow}.
 
-![](images/bookmarks/screenshot-name-folder.png){width=100%}
+![](images/01-bookmarks/screenshot-06-name-folder.png){width=100%}
 
-7. Click [Save]{.highlight-yellow}.
+7. The folder [ds4owd-002]{.highlight-yellow} should now appear in your bookmarks bar.
 
-![](images/bookmarks/screenshot-save-folder.png){width=100%}
-
-8. The folder [ds4owd-002]{.highlight-yellow} should now appear in your bookmarks bar.
-
-![](images/bookmarks/screenshot-folder-created.png){width=100%}
+![](images/01-bookmarks/screenshot-07-bookmarks-bar.png){width=100%}
 
 ## Step 2: Add course website to your folder
 
 1. Navigate to the course website: [{{< var course.website >}}]({{< var course.website >}}).
 
+![](images/01-bookmarks/screenshot-08-navigate-course.png){width=100%}
+
 2. Click the [star icon]{.highlight-yellow} in the address bar. 
+
+![](images/01-bookmarks/screenshot-09-click-star.png){width=100%}
 
 3. In the popup, add [course website]{.highlight-yellow} for the Name field.
 
+![](images/01-bookmarks/screenshot-10-name-bookmark.png){width=100%}
+
 4. Click the [Folder]{.highlight-yellow} dropdown and select your [ds4owd-002]{.highlight-yellow} folder.
+
+![](images/01-bookmarks/screenshot-11-select-folder.png){width=100%}
 
 5. Click [Done]{.highlight-yellow}.
 
+![](images/01-bookmarks/screenshot-12-click-done.png){width=100%}
+
 6. Click on your [ds4owd-002]{.highlight-yellow} folder in the bookmarks bar to verify the bookmark was added.
+
+![](images/01-bookmarks/screenshot-13-verify-bookmark.png){width=100%}
 
 ## Step 3: Add other essential course links
 
@@ -177,20 +185,17 @@ Add the following bookmarks to your [ds4owd-002]{.highlight-yellow} folder. For 
 1. [Posit Cloud workspace]{.highlight-yellow}: [{{< var platforms.posit-cloud >}}]({{< var platforms.posit-cloud >}})
    - Name it: [Posit Cloud - ds4owd]{.highlight-yellow}
 
-![](images/bookmarks/screenshot-add-posit-cloud.png){width=100%}
-
 2. [GitHub organization]{.highlight-yellow}: [{{< var course.github-org >}}]({{< var course.github-org >}})
    - Name it: [GitHub - course org]{.highlight-yellow}
-
-![](images/bookmarks/screenshot-add-github-org.png){width=100%}
 
 3. [Element chat]{.highlight-yellow}: <https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch>
    - Name it: [Element chat]{.highlight-yellow}
 
-![](images/bookmarks/screenshot-add-element.png){width=100%}
 ## Step 4: Take a screenshot
 
 1. Click on your [ds4owd-002]{.highlight-yellow} folder in the bookmarks bar to verify all bookmarks were added correctly.
+
+![](images/01-bookmarks/screenshot-14-expand-folder.png){width=100%}
 
 2. Take a screenshot of your browser showing the expanded folder with all bookmarks.
 
@@ -220,8 +225,6 @@ You can search for your repository by typing your username in the search bar jus
    - Drag and drop your screenshot from Step 4 into the comment field, or click [Attach files by dragging & dropping]{.highlight-yellow}.
    - Add a brief message like: "I have set up my bookmarks folder for ds4owd-002 with all essential course links."
    - Tag the course instructors `@seawaR` `@massarin` `@larnsce`.
-
-![](images/bookmarks/screenshot-github-issue-with-image.png){width=100%}
 
 8. Scroll down the page a bit and click the green [Submit new issue]{.highlight-yellow} button.
 
