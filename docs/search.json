@@ -4631,7 +4631,7 @@
     "href": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
     "title": "Support yourself with bookmarks",
     "section": "Step 1: Create a dedicated bookmarks folder in Chrome",
-    "text": "Step 1: Create a dedicated bookmarks folder in Chrome\n\nOpen Chrome.\n\n\n\nClick on the three dots menu in the top-right corner.\n\n\n\nClick on Bookmarks and Lists\n\n\n\nClick on Show Bookmarks Bar. A bookmarks bar appears below the address bar in your browser. It might have already been there.\n\n\n\nRight-click on the bookmarks bar and select Add Folder….\n\n\n\nName the folder ds4owd-002 in the Name files. Ensure that in the window below, Bookmarks Bar is selected as the location.\n\n\n\nClick Save.\n\n\n\nThe folder ds4owd-002 should now appear in your bookmarks bar."
+    "text": "Step 1: Create a dedicated bookmarks folder in Chrome\n\nOpen Chrome.\n\n\n\nClick on the three dots menu in the top-right corner.\n\n\n\nClick on Bookmarks and Lists.\n\n\n\nClick on Show Bookmarks Bar. A bookmarks bar appears below the address bar in your browser. It might have already been there.\n\n\n\nRight-click on the bookmarks bar and select Add Folder….\n\n\n\nName the folder ds4owd-002 in the Name field. Ensure that in the window below, Bookmarks Bar is selected as the location.\n\n\n\nClick Save.\n\n\n\nThe folder ds4owd-002 should now appear in your bookmarks bar."
   },
   {
     "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-essential-course-bookmarks-in-chrome",
@@ -4694,14 +4694,14 @@
     "href": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
     "title": "Support yourself with bookmarks",
     "section": "Step 2: Add course website to your folder",
-    "text": "Step 2: Add course website to your folder\n\nNavigate to the course website: https://ds4owd-002.github.io/website/\nClick the star icon in the address bar.\nIn the popup, add course website for the Name filed.\nClick the Folder dropdown and select your ds4owd-002 folder.\nClick Done.\nClick on your ds4owd-002 folder in the bookmarks bar to verify the bookmark was added."
+    "text": "Step 2: Add course website to your folder\n\nNavigate to the course website: https://ds4owd-002.github.io/website/.\nClick the star icon in the address bar.\nIn the popup, add course website for the Name field.\nClick the Folder dropdown and select your ds4owd-002 folder.\nClick Done.\nClick on your ds4owd-002 folder in the bookmarks bar to verify the bookmark was added."
   },
   {
     "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
     "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
     "title": "Support yourself with bookmarks",
     "section": "Step 3: Add other essential course links",
-    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - course org\n\n\n\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element chat\n\n\n ## Step 3: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly.\nTake a Screenshot."
+    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - course org\n\n\n\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element chat\n\n\n ## Step 4: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly.\nTake a screenshot of your browser showing the expanded folder with all bookmarks.\nSave this screenshot for future reference or to share with instructors if needed."
   },
   {
     "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome-optional",
@@ -4723,5 +4723,19 @@
     "title": "Support yourself with bookmarks",
     "section": "Tipps",
     "text": "Tipps\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome 2. Click Turn on sync 3. Sign in with your Google account 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome\n\n\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-5-create-sub-folders-for-better-organization-in-chrome-optional",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-5-create-sub-folders-for-better-organization-in-chrome-optional",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 5: Create sub-folders for better organization in Chrome optional",
+    "text": "Step 5: Create sub-folders for better organization in Chrome optional\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder.\nSelect Add new folder.\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for openwashdata and other data sources\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nopenwashdata: https://openwashdata.org/"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#tips",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#tips",
+    "title": "Support yourself with bookmarks",
+    "section": "Tips",
+    "text": "Tips\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome. 2. Click Turn on sync. 3. Sign in with your Google account. 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome.\n\n\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
   }
 ]
