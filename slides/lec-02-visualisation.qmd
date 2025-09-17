@@ -145,7 +145,23 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 Artwork by [@allison_horst](https://www.allisonhorst.com/)
 :::
 
-# Homework assignment module 1 {background-color="#4C326A"}
+# Exercises & Assignments
+
+## Note
+
+For every week, there will be two “projects”:
+
+- md-0X-exercises (this is for lectures and we only work with it during lectures)
+- md-0X-assignments-USERNAME (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)
+
+## Lecture Exercises
+
+- Click "Start" the first time
+- Click "Continue" the next time
+- It will look like two projects, but it is just one
+- It doesn't matter on which of the two you click
+
+## Homework Assignments module 1 {background-color="#4C326A"}
 
 ## on GitHub Organisation
 
@@ -179,6 +195,10 @@ Artwork by [@allison_horst](https://www.allisonhorst.com/)
 ![](img/lec-02/posit-cloud-project-link.png)
 
 :::
+
+## Assignment 3: Bookmarks
+
+- this week, you will have an assignment for creating bookmarks in your browser
 
 # Version Control - Terminology {background-color="#4C326A"}
 

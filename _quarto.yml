@@ -70,8 +70,10 @@ website:
       - section: "Module 02"
         href: modules/md-02.qmd
         contents:
-          - href: assignments/md-02/am-02-1-data-visualisation.qmd
-            text: "am-01: Data visualization"
+          - href: assignments/md-02/am-02-1-bookmarks.qmd
+            text: "am-02-1: Bookmarks"
+          - href: assignments/md-02/am-02-2-data-visualisation.qmd
+            text: "am-02-2: Data visualization"
       - section: "Module 03"
         href: modules/md-03.qmd
         contents:

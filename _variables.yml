@@ -9,7 +9,9 @@ course:
   long-title: "ds4owd - data science for openwashdata"
   site: "https://ds4owd-002.github.io/website/"
   site-short: "ds4owd-002.github.io/website/"
+  website: "https://ds4owd-002.github.io/website/"
   github-org: "https://github.com/ds4owd-002"
+  github-org-short: "ds4owd-002"
   
 platforms:
   posit-cloud: "https://posit.cloud/spaces/663318"

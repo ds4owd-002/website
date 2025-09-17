@@ -140,3 +140,49 @@ When modifying content, ensure consistency with the established module progressi
 - Maximum 80 characters per line
 - Use tidyverse style for R code (`dplyr`, `tidyr`, `purrr`)
 - Use snake_case for function and variable names
+
+## Instructional Design Patterns
+
+### Visual Enhancement and Accessibility
+- **Highlighting**: Use `[text]{.highlight-yellow}` or `[text]{.highlight-peach}` to draw attention to specific UI elements, buttons, or important text
+- **Screenshots**: Include descriptive images with `{width=100%}` for full-width display
+- **Icons**: Use Font Awesome icons (e.g., `{{< fa envelope-circle-check >}}`) for visual cues
+
+### Step-by-Step Instructions Structure
+1. **Clear numbering**: Use numbered lists for sequential steps
+2. **Action-oriented language**: Start with verbs (Click, Open, Navigate, Enter, Select)
+3. **Visual references**: Include what learners will see in brackets with highlighting
+4. **Contextual information**: Provide the "why" when needed, but keep it brief
+5. **Progressive disclosure**: Reduce detail level as course progresses (explicitly noted in module 2+)
+
+### Common Instruction Patterns
+- **Navigation**: "Open [URL] in your browser" → "Navigate to..." → "Find the repository..."
+- **UI interactions**: "Click on the [Button Name]{.highlight-yellow} button"
+- **Form fields**: "In the [Field Name]{.highlight-yellow} field, enter..."
+- **Verification**: "You can verify... by looking at..."
+- **Success indicators**: "If you see..., then you have successfully..."
+
+### Support Elements
+- **Callout boxes** for different purposes:
+  - `{.callout-tip}`: Optional information or helpful hints
+  - `{.callout-important}`: Critical information learners must know
+  - `{.callout-warning}`: Common pitfalls or issues to avoid
+  - `{.callout-note}`: Additional context or explanations
+- **Troubleshooting**: Include "If you cannot..." sections with solutions
+- **Support channels**: Provide email links with pre-filled subjects for specific help
+
+### GitHub Workflow Instructions
+- **Repository references**: Always use `USERNAME` placeholder with clear substitution instructions
+- **Authentication steps**: Detailed PAT creation and usage with security warnings
+- **Commit process**: Explicit staging → commit message → push sequence
+- **Issue creation**: Structured format with instructor tagging (@seawaR @massarin @larnsce)
+
+### Progressive Scaffolding
+- **Module 1**: Extensive screenshots, detailed explanations, complete step-by-step guidance
+- **Module 2+**: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail
+- **Cross-references**: Link back to earlier modules for detailed instructions when needed
+
+### Security and Best Practices
+- **PAT storage**: Explicit warnings against Word documents, recommend text files or password managers
+- **Credential handling**: Clear distinction between GitHub password and PAT
+- **Error prevention**: Proactive warnings about common issues (spaces in PAT, wrong workspace)
