@@ -74,4 +74,14 @@ You can search for your repository by typing your username in the search bar jus
 8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and [add a question about this module]{.highlight-yellow}. We would like to see [one question from every participant]{.highlight-yellow}. 
 9. Scroll down the page a bit and click the green [Submit new issue]{.highlight-yellow} button.
 
+::: {.callout-warning}
+## Two assignment files to complete
 
+This module has **two assignment files** that need to be completed:
+1. `md-02a-boxplot.qmd`
+2. `md-02b-visualize.qmd`
+
+If you have only completed `md-02a-boxplot.qmd`, please return to Posit Cloud and complete `md-02b-visualize.qmd` as well. You should create **two separate issues on GitHub** - one for each completed assignment file.
+:::
+
+Congratulations! You have completed the data visualization assignment and are now ready for the next module.
