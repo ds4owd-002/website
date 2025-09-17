@@ -2048,7 +2048,7 @@
     "href": "assignments/md-02/am-02-1-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
     "title": "Data visualisation with ggplot2",
     "section": "Step 1: Clone your module 2 assignments repository",
-    "text": "Step 1: Clone your module 2 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course (or use your bookmark).\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green “Code” button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.\nOpen md-02a-data-visualization.qmd and follow the instructions to work through the tasks.",
+    "text": "Step 1: Clone your module 2 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen md-02a-data-visualization.qmd and follow the instructions to work through the tasks.",
     "crumbs": [
       "Module 02",
       "am-01: Data visualization"
@@ -2059,7 +2059,7 @@
     "href": "assignments/md-02/am-02-1-data-visualisation.html#step-2-commit-and-push-your-changes",
     "title": "Data visualisation with ggplot2",
     "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\nThe below is also described as Task 14 in md-02a-data-visualization.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage then it for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "text": "Step 2: Commit and push your changes\nThe below is also described as Task 14 in md-02a-data-visualization.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data visualization tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
       "Module 02",
       "am-01: Data visualization"
@@ -2070,7 +2070,7 @@
     "href": "assignments/md-02/am-02-1-data-visualisation.html#step-3-open-an-issue-on-github",
     "title": "Data visualisation with ggplot2",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-02-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 1 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-02a-data-visualization.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 2 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.",
     "crumbs": [
       "Module 02",
       "am-01: Data visualization"
@@ -2638,7 +2638,7 @@
     "href": "slides/lec-02-visualisation.html#other-sources-for-help",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Other sources for help",
-    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon tag: #rstats\nQuarto GitHub Discussion: https://github.com/quarto-dev/quarto-cli/discussions\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon tag: #rstats\nQuarto GitHub Discussion: https://github.com/quarto-dev/quarto-cli/discussions\n\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-2",
@@ -2827,7 +2827,7 @@
     "href": "slides/lec-02-visualisation.html#learning-objectives-for-this-week",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can list the six elements of the data science lifecycle.\nLearners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.\nLearners can control the colour scaling applied to a plot using colour as an aesthetic mapping.\nLearners can compare three different geoms (bar/col, histogram, point) and their use case."
+    "text": "Learning Objectives (for this week)\n\nlobj &lt;- readr::read_csv(here::here(\"data/tbl-02-ds4owd-002-learning-objectives.csv\")) |&gt; \n  dplyr::filter(week == params$week) |&gt;\n  dplyr::pull(learning_objectives)\n\nRows: 36 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): title, learning_objectives\ndbl  (1): week\ndttm (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\nLearners can list the six elements of the data science lifecycle.\nLearners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.\nLearners can control the colour scaling applied to a plot using colour as an aesthetic mapping.\nLearners can compare three different geoms (bar/col, histogram, point) and their use case."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#deep-end",
@@ -2890,7 +2890,7 @@
     "href": "slides/lec-02-visualisation.html#r-package-ggplot2",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "R Package ggplot2",
-    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n\n\nSlide adapted from datasciencebox.org"
+    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n#knitr::include_graphics(here::here(\"slides/img/lec-02/ggplot2-part-of-tidyverse.png\"))\n\n\n\n\n\nSlide adapted from datasciencebox.org"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#my-turn-working-with-r",
@@ -2904,7 +2904,7 @@
     "href": "slides/lec-02-visualisation.html#take-a-break",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#code-structure",
@@ -2960,14 +2960,14 @@
     "href": "slides/lec-02-visualisation.html#poll-1-what-does-the-thick-line-inside-the-box-of-a-boxplot-represent",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Poll 1: What does the thick line inside the box of a boxplot represent?",
-    "text": "Poll 1: What does the thick line inside the box of a boxplot represent?\n\n\n\nthe mean of the observations\nthe middle of the box\nthe median of the observations\nnone of the above"
+    "text": "Poll 1: What does the thick line inside the box of a boxplot represent?\n\n\n\nthe mean of the observations\nthe middle of the box\nthe median of the observations\nnone of the above\n\n\n\nggplot(data = gapminder,\n       mapping = aes(x = continent,\n                     y = lifeExp)) +\n  geom_boxplot() +\n  theme_minimal(base_size = 14)"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#poll-2-what-percentage-of-observations-are-contained-inside-the-box-of-a-boxplot-interquartile-range",
     "href": "slides/lec-02-visualisation.html#poll-2-what-percentage-of-observations-are-contained-inside-the-box-of-a-boxplot-interquartile-range",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)?",
-    "text": "Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)?\n\n\n\n25%\ndepends on the median\n50%\nnone of the above"
+    "text": "Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)?\n\n\n\n25%\ndepends on the median\n50%\nnone of the above\n\n\n\nggplot(data = gapminder,\n       mapping = aes(x = continent,\n                     y = lifeExp)) +\n  geom_boxplot() +\n  theme_minimal(base_size = 14)"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#poll-3-what-is-the-median-of-a-set-of-observations",
@@ -2988,35 +2988,35 @@
     "href": "slides/lec-02-visualisation.html#boxplot-explained",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Boxplot, explained",
-    "text": "Boxplot, explained\n\n\nFigure 1: Diagram depicting how a boxplot is created.\n\nImage taken from: https://r4ds.hadley.nz/data-visualize#fig-eda-boxplot\n\n\n\nA box that indicates the range of the middle half of the data, a distance known as the interquartile range (IQR), stretching from the 25th percentile of the distribution to the 75th percentile.\nIn the middle of the box is a line that displays the median, i.e. 50th percentile, of the distribution.\nThese three lines give you a sense of the spread of the distribution and whether or not the distribution is symmetric about the median or skewed to one side.\nVisual points that display observations that fall more than 1.5 times the IQR from either edge of the box. These outlying points are unusual so are plotted individually.\nA line (or whisker) that extends from each end of the box and goes to the farthest non-outlier point in the distribution."
+    "text": "Boxplot, explained\n\n\n\n\n\n\n\n\nFigure 1: Diagram depicting how a boxplot is created.\n\n\n\n\n\n\nImage taken from: https://r4ds.hadley.nz/data-visualize#fig-eda-boxplot\n\n\n\nA box that indicates the range of the middle half of the data, a distance known as the interquartile range (IQR), stretching from the 25th percentile of the distribution to the 75th percentile.\nIn the middle of the box is a line that displays the median, i.e. 50th percentile, of the distribution.\nThese three lines give you a sense of the spread of the distribution and whether or not the distribution is symmetric about the median or skewed to one side.\nVisual points that display observations that fall more than 1.5 times the IQR from either edge of the box. These outlying points are unusual so are plotted individually.\nA line (or whisker) that extends from each end of the box and goes to the farthest non-outlier point in the distribution."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#our-turn-md-02-exercises",
     "href": "slides/lec-02-visualisation.html#our-turn-md-02-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Our turn: md-02-exercises",
-    "text": "Our turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02b-data-visualization.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "text": "Our turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02b-data-visualization.qmd file and click on it to open it in the top left window.\n\n\n\ncountdown(30)\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#take-a-break-1",
     "href": "slides/lec-02-visualisation.html#take-a-break-1",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#types-of-variables",
     "href": "slides/lec-02-visualisation.html#types-of-variables",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Types of variables",
-    "text": "Types of variables\n\n\n\nnumerical\ndiscrete variables\n\nnon-negative\nwhole numbers\ne.g. number of students, roll of a dice\n\ncontinuous variables\n\ninfinite number of values\nalso dates and times\ne.g. length, weight, size\n\n\nnon-numerical\ncategorical variables\n\nfinite number of values\ndistinct groups (e.g. EU countries, continents)\nordinal if levels have natural ordering (e.g. week days, school grades)"
+    "text": "Types of variables\n\n\n\n\nnumerical\ndiscrete variables\n\nnon-negative\nwhole numbers\ne.g. number of students, roll of a dice\n\ncontinuous variables\n\ninfinite number of values\nalso dates and times\ne.g. length, weight, size\n\n\n\n\nnon-numerical\ncategorical variables\n\nfinite number of values\ndistinct groups (e.g. EU countries, continents)\nordinal if levels have natural ordering (e.g. week days, school grades)"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#histogram",
     "href": "slides/lec-02-visualisation.html#histogram",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Histogram",
-    "text": "Histogram\n\nfor visualizing distribution of continuous (numerical) variables\n\n\nggplot(data = penguins,\n       mapping = aes(x = body_mass_g)) +\n  geom_histogram()"
+    "text": "Histogram\n\nfor visualizing distribution of continuous (numerical) variables\n\n\nggplot(data = penguins,\n       mapping = aes(x = body_mass_g)) +\n  geom_histogram()\n\n`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`)."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#barplot",
@@ -3037,7 +3037,7 @@
     "href": "slides/lec-02-visualisation.html#your-turn-md-02-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Your turn: md-02-exercises",
-    "text": "Your turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-02c-make-a-plot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n15:00"
+    "text": "Your turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-02c-make-a-plot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\ncountdown(15)\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#module-2-documentation",
@@ -4576,5 +4576,40 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Use 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html",
+    "href": "slides/lec-02-visualisation.html",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "",
+    "text": "gapminder_2007 &lt;- gapminder |&gt; \n  filter(year == 2007)"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#note",
+    "href": "slides/lec-02-visualisation.html#note",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Note",
+    "text": "Note\nFor every week, there will be two “projects”:\n\nmd-0X-exercises (this is for lectures and we only work with it during lectures)\nmd-0X-assignments-USERNAME (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#lecture-exercises",
+    "href": "slides/lec-02-visualisation.html#lecture-exercises",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Lecture Exercises",
+    "text": "Lecture Exercises\n\nClick “Start” the first time\nClick “Continue” the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#homework-assignments-module-1",
+    "href": "slides/lec-02-visualisation.html#homework-assignments-module-1",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Homework Assignments module 1",
+    "text": "Homework Assignments module 1"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
+    "href": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Assignment 3: Bookmarks",
+    "text": "Assignment 3: Bookmarks\n\nthis week, you will have an assignment for creating bookmarks in your browser"
   }
 ]
