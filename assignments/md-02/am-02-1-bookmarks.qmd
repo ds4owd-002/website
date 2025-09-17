@@ -1,4 +1,228 @@
 ---
 title: "Support yourself with bookmarks"
+editor_options: 
+  chunk_output_type: console
+execute:
+  eval: true
+  echo: false
+  warning: false
+  message: false
 ---
 
+```{r}
+#| label: setup
+#| include: false
+
+# Set global options
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
+
+# Load required libraries
+library(tidyverse)
+library(robotoolbox)
+library(readxl)
+library(labelled)
+
+# Define OWD color palette
+owd_palette <- c("#5b195b", "#9b2c60", "#ce525b",
+                 "#f08453", "#ffbd54", "#f9f871")
+
+background_color <- "#f5f5f2"
+```
+
+```{r}
+#| label: load-data
+
+form_id <- "ashaEDvw4ZLwGi9bqXGeqb"
+form_file <- here::here("registration_form.xlsx")
+
+# fetch data from Kobo with robotoolbox
+raw_data <- kobo_data(x = form_id,
+                      all_versions = TRUE)
+
+# read in questionnaire and labels from XLS form
+questionnaire <- read_xlsx(form_file,
+                           sheet = "survey")
+
+label_dict <- read_xlsx(form_file,
+                        sheet = "choices")
+```
+
+```{r}
+#| label: browser-usage
+#| fig-height: 5
+#| fig-cap: "Browser usage among course participants"
+
+# Process browser data
+browser_data <- raw_data |>
+  select(web_browser) |>
+  filter(!is.na(web_browser))
+```
+
+
+```{r}
+#| label: browser-plot
+#| eval: false
+# Create browser usage plot
+browser_plot <- browser_data |>
+  count(web_browser) |>
+  mutate(percentage = n / sum(n) * 100,
+         label = paste0(n, " (", round(percentage, 1), "%)")) |>
+  ggplot(aes(x = reorder(web_browser, n), y = n, fill = web_browser)) +
+  geom_col() +
+  geom_text(aes(label = label), hjust = -0.1, size = 3.5, fontface = "bold") +
+  coord_flip() +
+  labs(x = "Browser",
+       y = "Number of participants",
+       title = "Web browser preferences in ds4owd-002") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        plot.background = element_rect(fill = background_color, color = NA),
+        panel.background = element_rect(fill = background_color, color = NA)) +
+  #scale_fill_manual(values = owd_palette) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.25)))
+
+print(browser_plot)
+```
+
+
+```{r}
+# Get Chrome percentage for use in text
+chrome_percentage <- browser_data |>
+  count(web_browser) |>
+  mutate(percentage = n / sum(n) * 100) |>
+  filter(web_browser == "google_chrome") |>
+  pull(percentage) |>
+  round(0)
+```
+
+
+## Organize your digital workspace
+
+Throughout this course, you'll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.
+
+::: {.callout-note}
+## Chrome-focused instructions
+Based on our course registration data, approximately `r chrome_percentage`% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you're using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ.
+:::
+
+TODO: Write a call-out tip about browser hygiene. Recommend learners to close all open tabs before starting this assignment and also doing so before joining or watching each modules lectures. Add that clearing the browser history and cache is also a good idea to keep the browser running smoothly, though many people find this scary as you will be logged out of all your accounts. 
+
+## Step 1: Create a dedicated bookmarks folder in Chrome
+
+1. Open Chrome.
+
+![](images/bookmarks/screenshot-chrome-open.png){width=100%}
+
+2. Click on the *three dots menu* in the top-right corner.
+
+![](images/bookmarks/screenshot-three-dots-menu.png){width=100%}
+
+3. Click on *Bookmarks and Lists*
+
+![](images/bookmarks/screenshot-bookmarks-and-lists.png){width=100%}
+
+4. Click on *Show Bookmarks Bar*. A bookmarks bar appears below the address bar in your browser. It might have already been there.
+
+![](images/bookmarks/screenshot-show-bookmarks-bar.png){width=100%}
+
+5. Right-click on the bookmarks bar and select *Add Folder...*.
+
+![](images/bookmarks/screenshot-add-folder.png){width=100%}
+
+6. Name the folder `ds4owd-002` in the Name files. Ensure that in the window below, *Bookmarks Bar* is selected as the location.
+
+![](images/bookmarks/screenshot-name-folder.png){width=100%}
+
+7. Click *Save*.
+
+![](images/bookmarks/screenshot-save-folder.png){width=100%}
+
+8. The folder `ds4owd-002` should now appear in your bookmarks bar.
+
+![](images/bookmarks/screenshot-folder-created.png){width=100%}
+
+## Step 2: Add course website to your folder
+
+1. Navigate to the course website: [{{< var course.website >}}]({{< var course.website >}})
+
+2. Click the *star icon* in the address bar. 
+
+3. In the popup, add *course website* for the Name filed.
+
+4. Click the *Folder* dropdown and select your `ds4owd-002` folder.
+
+5. Click *Done*.
+
+6. Click on your `ds4owd-002` folder in the bookmarks bar to verify the bookmark was added.
+
+## Step 3: Add other essential course links
+
+Add the following bookmarks to your [ds4owd-002]{.highlight-yellow} folder. For each bookmark, follow the instructions as in Step 2.
+
+### Essential course links
+
+2. **Posit Cloud workspace**: [{{< var platforms.posit-cloud >}}]({{< var platforms.posit-cloud >}})
+   - Name it: [Posit Cloud - ds4owd]{.highlight-yellow}
+
+![](images/bookmarks/screenshot-add-posit-cloud.png){width=100%}
+
+3. **GitHub organization**: [{{< var course.github-org >}}]({{< var course.github-org >}})
+   - Name it: [GitHub - course org]{.highlight-yellow}
+
+![](images/bookmarks/screenshot-add-github-org.png){width=100%}
+
+4. **Element chat**: <https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch>
+   - Name it: [Element chat]{.highlight-yellow}
+
+![](images/bookmarks/screenshot-add-element.png){width=100%}
+## Step 3: Take a screenshot
+
+1. Click on your `ds4owd-002` folder in the bookmarks bar to verify all bookmarks were added correctly.
+
+2. Take a Screenshot.
+
+3. 
+
+## Step 4: Create sub-folders for better organization in Chrome *(optional)*
+
+As the course progresses, organize your Chrome bookmarks with sub-folders:
+
+1. Right-click on your [ds4owd-002]{.highlight-yellow} folder
+3. Select [Add new folder]{.highlight-yellow}
+3. Create these sub-folders:
+   - [Assignments]{.highlight-yellow} - for your personal assignment repositories
+   - [Resources]{.highlight-yellow} - for R documentation, package sites
+   - [Data]{.highlight-yellow} - for openwashdata and other data sources
+
+### Recommended additional bookmarks
+
+Add these to your [Resources]{.highlight-yellow} sub-folder:
+
+- **R for Data Science book**: <https://r4ds.hadley.nz/>
+- **ggplot2 documentation**: <https://ggplot2.tidyverse.org/>
+- **RStudio cheatsheets**: <https://posit.co/resources/cheatsheets/>
+- **openwashdata**: <https://openwashdata.org/>
+
+## Tipps
+
+::: {.callout-tip}
+## Sync Chrome bookmarks across devices
+To sync your bookmarks across all your devices:
+1. Click your [profile icon]{.highlight-yellow} in the top-right corner of Chrome
+2. Click [Turn on sync]{.highlight-yellow}
+3. Sign in with your Google account
+4. Your ds4owd-002 bookmarks will now be available on all devices where you're signed into Chrome
+:::
+
+::: {.callout-tip}
+## Need help?
+{{< fa envelope-circle-check >}} If you're having trouble setting up your bookmarks, post a message in the Element chat or email us at <a href="mailto:ghe@mavt.ethz.ch?subject=ds4owd support: bookmarks" target="_blank">ghe@mavt.ethz.ch</a>
+:::
+
+## Next steps
+
+Now that you have your bookmarks organized, continue with the next assignment where you'll use these bookmarks to navigate between the course platforms efficiently.

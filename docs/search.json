@@ -1027,8 +1027,8 @@
     "objectID": "slides/lec-01-welcome.html#email-from-github",
     "href": "slides/lec-01-welcome.html#email-from-github",
     "title": "Welcome & get ready for the course",
-    "section": "Email from GitHub?",
-    "text": "Email from GitHub?\nWhile we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
+    "section": "",
+    "text": "While we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
   },
   {
     "objectID": "slides/lec-01-welcome.html#meet-the-team",
@@ -1203,7 +1203,7 @@
     "href": "slides/lec-01-welcome.html#quarto",
     "title": "Welcome & get ready for the course",
     "section": "Quarto …",
-    "text": "Quarto …\n\nis a new, open-source, scientific, and technical publishing system\naims to make the process of creating and collaborating dramatically better\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+    "text": "Quarto …\n\nis a new, open-source, scientific, and technical publishing system\naims to make the process of creating and collaborating dramatically better\n\n\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
   },
   {
     "objectID": "slides/lec-01-welcome.html#my-turn-a-tour-of-quarto",
@@ -1217,7 +1217,7 @@
     "href": "slides/lec-01-welcome.html#your-turn-log-into-posit-cloud-with-github-account",
     "title": "Welcome & get ready for the course",
     "section": "Your turn: Log into Posit Cloud with GitHub account",
-    "text": "Your turn: Log into Posit Cloud with GitHub account\n\nGo to the Posit Cloud Sign Up page: login.posit.cloud/register\nClick on the Sign Up with GitHub button.\nEnter your GitHub username and password when prompted.\nOpen and accept the workspace invitation (Link is in the Zoom chat now).\nBookmark the address of the open tab in your browser.\n\n\n\n\n\n\n\nGitHub Authorisation\n\n\n\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\n\n\n\n\nhttps://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu\n\n\n\n\n−+\n08:00"
+    "text": "Your turn: Log into Posit Cloud with GitHub account\n\nGo to the Posit Cloud Sign Up page: login.posit.cloud/register\nClick on the Sign Up with GitHub button.\nEnter your GitHub username and password when prompted.\nOpen and accept the workspace invitation (Link is in the Zoom chat now).\nBookmark the address of the open tab in your browser.\n\n\n\n\n\n\n\nGitHub Authorisation\n\n\n\n\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\n\n\n\nhttps://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu\n\n\n\n\n−+\n08:00"
   },
   {
     "objectID": "slides/lec-01-welcome.html#take-a-break",
@@ -1245,7 +1245,7 @@
     "href": "slides/lec-01-welcome.html#one-install-batteries-included",
     "title": "Welcome & get ready for the course",
     "section": "One install, “Batteries included”",
-    "text": "One install, “Batteries included”\n\nRMarkdown grew into a large ecosystem, with varying syntax.\n\n\n\nQuarto comes “batteries included” straight out of the box\n\nHTML reports and websites\nPDF reports\nMS Office (Word, Powerpoint)\nPresentations (Powerpoint, Beamer, revealjs)\nBooks\n\n\n\n\n\nAny language, exact same approach and syntax"
+    "text": "One install, “Batteries included”\n\nRMarkdown grew into a large ecosystem, with varying syntax.\n\n. . .\n\nQuarto comes “batteries included” straight out of the box\n\nHTML reports and websites\nPDF reports\nMS Office (Word, Powerpoint)\nPresentations (Powerpoint, Beamer, revealjs)\nBooks\n\n\n. . .\n\nAny language, exact same approach and syntax"
   },
   {
     "objectID": "slides/lec-01-welcome.html#many-quarto-formats",
@@ -1315,7 +1315,7 @@
     "href": "slides/lec-01-welcome.html#components",
     "title": "Welcome & get ready for the course",
     "section": "Components",
-    "text": "Components\n\nMetadata: YAML\nText: Markdown\nCode: Executed via knitr or jupyter\n\n\nWeave it all together, and you have beautiful, powerful, and useful outputs!"
+    "text": "Components\n\nMetadata: YAML\nText: Markdown\nCode: Executed via knitr or jupyter\n\n. . .\nWeave it all together, and you have beautiful, powerful, and useful outputs!"
   },
   {
     "objectID": "slides/lec-01-welcome.html#literate-programming",
@@ -1336,7 +1336,7 @@
     "href": "slides/lec-01-welcome.html#output-options",
     "title": "Welcome & get ready for the course",
     "section": "Output options",
-    "text": "Output options\n---\nformat: something\n---\n\n\n---\nformat: html\n---\n---\nformat: pdf\n---\n---\nformat: revealjs\n---"
+    "text": "Output options\n---\nformat: something\n---\n. . .\n\n---\nformat: html\n---\n---\nformat: pdf\n---\n---\nformat: revealjs\n---"
   },
   {
     "objectID": "slides/lec-01-welcome.html#output-option-arguments",
@@ -1364,7 +1364,7 @@
     "href": "slides/lec-01-welcome.html#packages",
     "title": "Welcome & get ready for the course",
     "section": "Packages",
-    "text": "Packages\n\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
+    "text": "Packages\n\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
   },
   {
     "objectID": "slides/lec-01-welcome.html#functions-arguments",
@@ -1406,7 +1406,7 @@
     "href": "slides/lec-01-welcome.html#does-this-look-and-sound-foreign-and-confusing",
     "title": "Welcome & get ready for the course",
     "section": "Does this look and sound foreign and confusing?",
-    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
+    "text": "Does this look and sound foreign and confusing?\n\n\n\n\n\n\nThese concepts will be repeated many times\n\n\n\nWe’ll revisit these R fundamentals throughout the next 9 weeks:\n\nWeek by week, we’ll build on these concepts gradually\nPractice will help - you’ll see these patterns repeatedly\nNo need to memorize - understanding will come with practice\n\nYou’re not expected to remember or fully understand everything right now. This is your first exposure!"
   },
   {
     "objectID": "slides/lec-01-welcome.html#weekly-structure",
@@ -4505,7 +4505,7 @@
     "href": "CLAUDE.html",
     "title": "CLAUDE.md",
     "section": "",
-    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nThis is the website for the ds4owd-002 course iteration - the second offering of “Data Science for OpenWashData”. This Quarto-based educational website contains 9 progressive modules teaching data science using R with a focus on WASH (Water, Sanitation, Hygiene) data analysis.\n\n\n\n\n\n# Render entire website\nquarto render\n\n# Preview website with live reload  \nquarto preview\n\n# Render specific document\nquarto render filename.qmd\n\n# Render and serve (alternative preview)\nquarto preview --serve\n\n\n\n# Install dependencies (for Puppeteer PDF generation)\nnpm install\n\n# Update dependencies\nnpm update\n\n\n\n\n\n\n\nQuarto project with configuration in _quarto.yml\nCourse variables centralized in _variables.yml for easy updates\nModular content organized by progressive modules (md-01 through md-09)\nAssignment integration with individual assignment pages per module\nResponsive design using custom theme.scss and styles.css\n\n\n\n\n\nmodules/ - Core learning modules with progressive skill building\nassignments/ - Structured by module (md-XX/) with individual assignment files\nslides/ - Lecture presentations with reveal.js format\nguide/ - Setup and configuration instructions\nproject/ - Capstone project documentation\nimg/ - Course assets and diagrams\n\n\n\n\n\nSidebar navigation configured in _quarto.yml with collapsible sections\nProgressive disclosure - modules unlock sequentially\nAssignment tracking integrated into module structure\nGitHub integration links to course organization\n\n\n\n\n\n\n\n\nWebsite metadata and navigation structure\nTheme configuration (Litera + custom SCSS)\nOutput directory settings (docs/ for GitHub Pages)\nAnalytics integration (Plausible)\n\n\n\n\n\nCourse iteration details (ds4owd-002)\nModule dates and titles (2025-09-11 to 2025-12-04)\nPlatform URLs (Posit Cloud, GitHub organization)\nInstructor information\n\n\n\n\n\nModule naming: md-XX- prefix for sequential organization\nAssignment naming: am-XX-N-topic for module assignments\nDate formatting: ISO format (YYYY-MM-DD) in variables\nQuarto execution: Freeze mode for reproducible builds\n\n\n\n\n\n\n\n\nOutput directory: docs/ (configured in _quarto.yml)\nFreeze execution: Cached outputs in _freeze/ directory\nSite URL: https://ds4owd-002.github.io/website/\nRepository: Links to ds4owd-002 GitHub organization\n\n\n\n\n\nPosit Cloud workspace: Centralized R environment for students\nGitHub Classroom: Assignment distribution and collection\nMatrix chat: Course communication platform\nPlausible analytics: Privacy-focused website tracking\n\n\n\n\n\n\n\n\nmd-XX.qmd - Module overview pages\nam-XX-N-topic.qmd - Assignment files (N = assignment number)\nlec-XX-topic.qmd - Lecture slides\nComplete solutions use -complete suffix\n\n\n\n\n\nCourse schedule: tbl-01-ds4owd-002-course-schedule.csv\nLearning objectives: tbl-02-ds4owd-002-learning-objectives.csv\nProject elements: tbl-03-ds4owd-002-capstone-project-elements\n\n\n\n\n\nWhen working with this website:\n\nContent updates: Modify .qmd files and render to test\nVariable changes: Update _variables.yml for course-wide changes\nNavigation changes: Modify _quarto.yml sidebar structure\nStyling: Edit theme.scss or styles.css for visual changes\nTesting: Use quarto preview for live development\nDeployment: Render creates docs/ for GitHub Pages\n\n\n\n\nThe course runs from September 2025 to December 2025: - Module 01-09: Weekly sessions (Sep 11 - Nov 6) - Module 10: Graduation event (Dec 4) - Platform: Posit Cloud workspace with GitHub integration\nWhen modifying content, ensure consistency with the established module progression and maintain the educational scaffolding across the 9-week curriculum.\n\n\n\n\nCommit to dev, create branches from dev for issues\nList issues: gh issue list\nView issue details: gh issue view 80 (e.g., for issue #80 “Rename geographies parameter”)\nCreate branch for issue: gh issue develop 80\nCheckout branch: git checkout 80-rename-geographies-parameter-to-entities\nCreate pull request: gh pr create --title \"Rename geographies parameter to entities\" --body \"Implements #80\"\nList pull requests: gh pr list\nView pull request: gh pr view PR_NUMBER\n\n\n\n\n\nUse 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names"
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nThis is the website for the ds4owd-002 course iteration - the second offering of “Data Science for OpenWashData”. This Quarto-based educational website contains 9 progressive modules teaching data science using R with a focus on WASH (Water, Sanitation, Hygiene) data analysis.\n\n\n\n\n\n# Render entire website\nquarto render\n\n# Preview website with live reload  \nquarto preview\n\n# Render specific document\nquarto render filename.qmd\n\n# Render and serve (alternative preview)\nquarto preview --serve\n\n\n\n# Install dependencies (for Puppeteer PDF generation)\nnpm install\n\n# Update dependencies\nnpm update\n\n\n\n\n\n\n\nQuarto project with configuration in _quarto.yml\nCourse variables centralized in _variables.yml for easy updates\nModular content organized by progressive modules (md-01 through md-09)\nAssignment integration with individual assignment pages per module\nResponsive design using custom theme.scss and styles.css\n\n\n\n\n\nmodules/ - Core learning modules with progressive skill building\nassignments/ - Structured by module (md-XX/) with individual assignment files\nslides/ - Lecture presentations with reveal.js format\nguide/ - Setup and configuration instructions\nproject/ - Capstone project documentation\nimg/ - Course assets and diagrams\n\n\n\n\n\nSidebar navigation configured in _quarto.yml with collapsible sections\nProgressive disclosure - modules unlock sequentially\nAssignment tracking integrated into module structure\nGitHub integration links to course organization\n\n\n\n\n\n\n\n\nWebsite metadata and navigation structure\nTheme configuration (Litera + custom SCSS)\nOutput directory settings (docs/ for GitHub Pages)\nAnalytics integration (Plausible)\n\n\n\n\n\nCourse iteration details (ds4owd-002)\nModule dates and titles (2025-09-11 to 2025-12-04)\nPlatform URLs (Posit Cloud, GitHub organization)\nInstructor information\n\n\n\n\n\nModule naming: md-XX- prefix for sequential organization\nAssignment naming: am-XX-N-topic for module assignments\nDate formatting: ISO format (YYYY-MM-DD) in variables\nQuarto execution: Freeze mode for reproducible builds\n\n\n\n\n\n\n\n\nOutput directory: docs/ (configured in _quarto.yml)\nFreeze execution: Cached outputs in _freeze/ directory\nSite URL: https://ds4owd-002.github.io/website/\nRepository: Links to ds4owd-002 GitHub organization\n\n\n\n\n\nPosit Cloud workspace: Centralized R environment for students\nGitHub Classroom: Assignment distribution and collection\nMatrix chat: Course communication platform\nPlausible analytics: Privacy-focused website tracking\n\n\n\n\n\n\n\n\nmd-XX.qmd - Module overview pages\nam-XX-N-topic.qmd - Assignment files (N = assignment number)\nlec-XX-topic.qmd - Lecture slides\nComplete solutions use -complete suffix\n\n\n\n\n\nCourse schedule: tbl-01-ds4owd-002-course-schedule.csv\nLearning objectives: tbl-02-ds4owd-002-learning-objectives.csv\nProject elements: tbl-03-ds4owd-002-capstone-project-elements\n\n\n\n\n\nWhen working with this website:\n\nContent updates: Modify .qmd files and render to test\nVariable changes: Update _variables.yml for course-wide changes\nNavigation changes: Modify _quarto.yml sidebar structure\nStyling: Edit theme.scss or styles.css for visual changes\nTesting: Use quarto preview for live development\nDeployment: Render creates docs/ for GitHub Pages\n\n\n\n\nThe course runs from September 2025 to December 2025: - Module 01-09: Weekly sessions (Sep 11 - Nov 6) - Module 10: Graduation event (Dec 4) - Platform: Posit Cloud workspace with GitHub integration\nWhen modifying content, ensure consistency with the established module progression and maintain the educational scaffolding across the 9-week curriculum.\n\n\n\n\nCommit to dev, create branches from dev for issues\nList issues: gh issue list\nView issue details: gh issue view 80 (e.g., for issue #80 “Rename geographies parameter”)\nCreate branch for issue: gh issue develop 80\nCheckout branch: git checkout 80-rename-geographies-parameter-to-entities\nCreate pull request: gh pr create --title \"Rename geographies parameter to entities\" --body \"Implements #80\"\nList pull requests: gh pr list\nView pull request: gh pr view PR_NUMBER\n\n\n\n\n\nUse 2 spaces for indentation (no tabs)\nMaximum 80 characters per line\nUse tidyverse style for R code (dplyr, tidyr, purrr)\nUse snake_case for function and variable names\n\n\n\n\n\n\n\nHighlighting: Use [text]{.highlight-yellow} or [text]{.highlight-peach} to draw attention to specific UI elements, buttons, or important text\nScreenshots: Include descriptive images with {width=100%} for full-width display\nIcons: Use Font Awesome icons (e.g., ) for visual cues\n\n\n\n\n\nClear numbering: Use numbered lists for sequential steps\nAction-oriented language: Start with verbs (Click, Open, Navigate, Enter, Select)\nVisual references: Include what learners will see in brackets with highlighting\nContextual information: Provide the “why” when needed, but keep it brief\nProgressive disclosure: Reduce detail level as course progresses (explicitly noted in module 2+)\n\n\n\n\n\nNavigation: “Open [URL] in your browser” → “Navigate to…” → “Find the repository…”\nUI interactions: “Click on the Button Name button”\nForm fields: “In the Field Name field, enter…”\nVerification: “You can verify… by looking at…”\nSuccess indicators: “If you see…, then you have successfully…”\n\n\n\n\n\nCallout boxes for different purposes:\n\n{.callout-tip}: Optional information or helpful hints\n{.callout-important}: Critical information learners must know\n{.callout-warning}: Common pitfalls or issues to avoid\n{.callout-note}: Additional context or explanations\n\nTroubleshooting: Include “If you cannot…” sections with solutions\nSupport channels: Provide email links with pre-filled subjects for specific help\n\n\n\n\n\nRepository references: Always use USERNAME placeholder with clear substitution instructions\nAuthentication steps: Detailed PAT creation and usage with security warnings\nCommit process: Explicit staging → commit message → push sequence\nIssue creation: Structured format with instructor tagging (@seawaR @massarin @larnsce)\n\n\n\n\n\nModule 1: Extensive screenshots, detailed explanations, complete step-by-step guidance\nModule 2+: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail\nCross-references: Link back to earlier modules for detailed instructions when needed\n\n\n\n\n\nPAT storage: Explicit warnings against Word documents, recommend text files or password managers\nCredential handling: Clear distinction between GitHub password and PAT\nError prevention: Proactive warnings about common issues (spaces in PAT, wrong workspace)"
   },
   {
     "objectID": "CLAUDE.html#project-overview",
@@ -4611,5 +4611,103 @@
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Assignment 3: Bookmarks",
     "text": "Assignment 3: Bookmarks\n\nthis week, you will have an assignment for creating bookmarks in your browser"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html",
+    "href": "assignments/md-02/am-02-1-bookmarks.html",
+    "title": "Support yourself with bookmarks",
+    "section": "",
+    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#organize-your-digital-workspace",
+    "title": "Support yourself with bookmarks",
+    "section": "",
+    "text": "Throughout this course, you’ll be frequently accessing various websites and platforms. Setting up a well-organized bookmark system will save you time and help you stay focused on learning data science rather than searching for links.\n\n\n\n\n\n\nChrome-focused instructions\n\n\n\nBased on our course registration data, approximately 67% of participants use Google Chrome. These instructions are written specifically for Chrome users. If you’re using a different browser, the general concepts still apply but menu locations and keyboard shortcuts may differ."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-1-create-a-dedicated-bookmarks-folder-in-chrome",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 1: Create a dedicated bookmarks folder in Chrome",
+    "text": "Step 1: Create a dedicated bookmarks folder in Chrome\n\nOpen Chrome.\n\n\n\nClick on the three dots menu in the top-right corner.\n\n\n\nClick on Bookmarks and Lists\n\n\n\nClick on Show Bookmarks Bar. A bookmarks bar appears below the address bar in your browser. It might have already been there.\n\n\n\nRight-click on the bookmarks bar and select Add Folder….\n\n\n\nName the folder ds4owd-002 in the Name files. Ensure that in the window below, Bookmarks Bar is selected as the location.\n\n\n\nClick Save.\n\n\n\nThe folder ds4owd-002 should now appear in your bookmarks bar."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-essential-course-bookmarks-in-chrome",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-essential-course-bookmarks-in-chrome",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 2: Add essential course bookmarks in Chrome",
+    "text": "Step 2: Add essential course bookmarks in Chrome\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark: 1. Navigate to the URL in Chrome 2. Click the star icon in the address bar (or press Ctrl+D / Cmd+D) 3. In the popup, click Folder dropdown and select your ds4owd-002 folder 4. Edit the Name field to give it a descriptive title 5. Click Done\n\nEssential course links\n\nCourse website: https://ds4owd-002.github.io/website/\n\nName it: Course Home\n\n\n\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - Course Org\n\n\n\n\nElement chat: https://app.element.io\n\nName it: Element Chat\n\n\n\n\n\n\n\n\n\nPersonal repository bookmark\n\n\n\nOnce you’ve cloned your personal assignment repository, add it as a bookmark too. The URL will be: https://github.com/ds4owd-002/md-02-assignments-USERNAME\nReplace USERNAME with your GitHub username."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 3: Create sub-folders for better organization in Chrome",
+    "text": "Step 3: Create sub-folders for better organization in Chrome\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nIn the bookmark manager (Ctrl+Shift+O / Cmd+Shift+O)\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for OpenWashData and other data sources\n\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nOpenWashData: https://openwashdata.org/"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-4-use-chrome-bookmark-shortcuts-optional",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-4-use-chrome-bookmark-shortcuts-optional",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 4: Use Chrome bookmark shortcuts (optional)",
+    "text": "Step 4: Use Chrome bookmark shortcuts (optional)\nSpeed up your workflow with Chrome’s built-in shortcuts:\n\nOpen Chrome’s bookmark manager (Ctrl+Shift+O / Cmd+Shift+O)\nRight-click on frequently-used bookmarks\nSelect Edit\nIn the Name field, you can see the bookmark name\nUnfortunately, Chrome doesn’t support custom keywords directly, but you can:\n\nUse Ctrl+Shift+B to show/hide the bookmarks bar for quick access\nDrag frequently-used bookmarks to the leftmost positions on your bookmarks bar\nUse Chrome’s address bar autocomplete by typing the first few letters of the bookmark name\n\n\n\n\n\n\n\n\n\nSync Chrome bookmarks across devices\n\n\n\nTo sync your bookmarks across all your devices: 1. Click your profile icon in the top-right corner of Chrome 2. Click Turn on sync 3. Sign in with your Google account 4. Your ds4owd-002 bookmarks will now be available on all devices where you’re signed into Chrome"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-5-verify-your-setup",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-5-verify-your-setup",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 5: Verify your setup",
+    "text": "Step 5: Verify your setup\nCheck that you have easy access to all essential course resources:\n\nCan you reach the course website in 2 clicks or less?\nCan you access your Posit Cloud workspace quickly?\nIs your GitHub organization bookmark working?\nCan you open Element chat when you need help?\n\nIf you answered yes to all questions, you’re ready to focus on learning!\n\n\n\n\n\n\nKeep bookmarks updated\n\n\n\nAs you create new repositories for assignments, remember to bookmark them. Having quick access to your work will save time throughout the course."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#troubleshooting-chrome-bookmarks",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#troubleshooting-chrome-bookmarks",
+    "title": "Support yourself with bookmarks",
+    "section": "Troubleshooting Chrome bookmarks",
+    "text": "Troubleshooting Chrome bookmarks\nBookmarks bar not visible? - Press Ctrl+Shift+B (Windows/Linux) or Cmd+Shift+B (Mac) to toggle the bookmarks bar - Or: Three dots menu → Bookmarks and lists → Show bookmarks bar\nCan’t find your bookmarks? - Open bookmark manager: Ctrl+Shift+O / Cmd+Shift+O - Use the search box at the top to find specific bookmarks - Check if they’re in Other bookmarks or Mobile bookmarks folders\nBookmarks not syncing? - Click your profile icon and check if you’re signed in - Go to chrome://settings/syncSetup to verify sync is enabled for bookmarks\n\n\n\n\n\n\nNeed help?\n\n\n\n If you’re having trouble setting up your bookmarks, post a message in the Element chat or email us at ghe@mavt.ethz.ch"
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#next-steps",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#next-steps",
+    "title": "Support yourself with bookmarks",
+    "section": "Next steps",
+    "text": "Next steps\nNow that you have your bookmarks organized, continue with the next assignment where you’ll use these bookmarks to navigate between the course platforms efficiently."
+  },
+  {
+    "objectID": "CLAUDE.html#instructional-design-patterns",
+    "href": "CLAUDE.html#instructional-design-patterns",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Highlighting: Use [text]{.highlight-yellow} or [text]{.highlight-peach} to draw attention to specific UI elements, buttons, or important text\nScreenshots: Include descriptive images with {width=100%} for full-width display\nIcons: Use Font Awesome icons (e.g., ) for visual cues\n\n\n\n\n\nClear numbering: Use numbered lists for sequential steps\nAction-oriented language: Start with verbs (Click, Open, Navigate, Enter, Select)\nVisual references: Include what learners will see in brackets with highlighting\nContextual information: Provide the “why” when needed, but keep it brief\nProgressive disclosure: Reduce detail level as course progresses (explicitly noted in module 2+)\n\n\n\n\n\nNavigation: “Open [URL] in your browser” → “Navigate to…” → “Find the repository…”\nUI interactions: “Click on the Button Name button”\nForm fields: “In the Field Name field, enter…”\nVerification: “You can verify… by looking at…”\nSuccess indicators: “If you see…, then you have successfully…”\n\n\n\n\n\nCallout boxes for different purposes:\n\n{.callout-tip}: Optional information or helpful hints\n{.callout-important}: Critical information learners must know\n{.callout-warning}: Common pitfalls or issues to avoid\n{.callout-note}: Additional context or explanations\n\nTroubleshooting: Include “If you cannot…” sections with solutions\nSupport channels: Provide email links with pre-filled subjects for specific help\n\n\n\n\n\nRepository references: Always use USERNAME placeholder with clear substitution instructions\nAuthentication steps: Detailed PAT creation and usage with security warnings\nCommit process: Explicit staging → commit message → push sequence\nIssue creation: Structured format with instructor tagging (@seawaR @massarin @larnsce)\n\n\n\n\n\nModule 1: Extensive screenshots, detailed explanations, complete step-by-step guidance\nModule 2+: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail\nCross-references: Link back to earlier modules for detailed instructions when needed\n\n\n\n\n\nPAT storage: Explicit warnings against Word documents, recommend text files or password managers\nCredential handling: Clear distinction between GitHub password and PAT\nError prevention: Proactive warnings about common issues (spaces in PAT, wrong workspace)"
+  },
+  {
+    "objectID": "slides/lec-01-welcome.html",
+    "href": "slides/lec-01-welcome.html",
+    "title": "Welcome & get ready for the course",
+    "section": "",
+    "text": "While we are getting ready, please check for this email from GitHub and accept the invitation to join the GitHub organisation for the course. Used Gmail to sign up? Check the folders that aren’t your primary inbox (e.g Updates)."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-2-add-course-website-to-your-folder",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 2: Add course website to your folder",
+    "text": "Step 2: Add course website to your folder\n\nNavigate to the course website: https://ds4owd-002.github.io/website/\nClick the star icon in the address bar.\nIn the popup, add course website for the Name filed.\nClick the Folder dropdown and select your ds4owd-002 folder.\nClick Done.\nClick on your ds4owd-002 folder in the bookmarks bar to verify the bookmark was added."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-add-other-essential-course-links",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 3: Add other essential course links",
+    "text": "Step 3: Add other essential course links\nAdd the following bookmarks to your ds4owd-002 folder. For each bookmark, follow the instructions as in Step 2.\n\nEssential course links\n\nPosit Cloud workspace: https://posit.cloud/spaces/663318\n\nName it: Posit Cloud - ds4owd\n\n\n\n\nGitHub organization: https://github.com/ds4owd-002\n\nName it: GitHub - Course Org\n\n\n\n\nElement chat: https://app.element.io/#/room/#openwashdata-lobby:staffchat.ethz.ch\n\nName it: Element Chat\n\n\n ## Step 3: Take a screenshot\n\nClick on your ds4owd-002 folder in the bookmarks bar to verify all bookmarks were added correctly."
+  },
+  {
+    "objectID": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome-optional",
+    "href": "assignments/md-02/am-02-1-bookmarks.html#step-3-create-sub-folders-for-better-organization-in-chrome-optional",
+    "title": "Support yourself with bookmarks",
+    "section": "Step 3: Create sub-folders for better organization in Chrome (optional)",
+    "text": "Step 3: Create sub-folders for better organization in Chrome (optional)\nAs the course progresses, organize your Chrome bookmarks with sub-folders:\n\nRight-click on your ds4owd-002 folder\nSelect Add new folder\nCreate these sub-folders:\n\nAssignments - for your personal assignment repositories\nResources - for R documentation, package sites\nData - for OpenWashData and other data sources\n\n\n\n\nRecommended additional bookmarks\nAdd these to your Resources sub-folder:\n\nR for Data Science book: https://r4ds.hadley.nz/\nggplot2 documentation: https://ggplot2.tidyverse.org/\nRStudio cheatsheets: https://posit.co/resources/cheatsheets/\nOpenWashData: https://openwashdata.org/"
   }
 ]
