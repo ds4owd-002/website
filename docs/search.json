@@ -2713,7 +2713,7 @@
     "href": "slides/lec-02-visualisation.html#section",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "",
-    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and youwill receive a certificate of completion if you:\n\nComplete the quiz of each week by its due date\n\n2- Hand in a complete capstone project report that uses a dataset of your choice by 11 December 2025 (instructions will follow)\nWhile homework assignments are not required for completion, we highly recommend working on them and submitting it for feedback. This is the practice you need to become a data scientist."
+    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and you will receive a certificate of completion if you:\n\nComplete the quiz of each week by its due date\n\n2- Hand in a complete capstone project report that uses a dataset of your choice by 11 December 2025 (instructions will follow)\nWhile homework assignments are not required for completion, we highly recommend working on them and submitting it for feedback. This is the practice you need to become a data scientist."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-1",
@@ -2723,11 +2723,11 @@
     "text": "Artwork by @allison_horst"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
-    "href": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
+    "objectID": "slides/lec-02-visualisation.html#tips-for-search-engines-e.g.-duckduckgo.com",
+    "href": "slides/lec-02-visualisation.html#tips-for-search-engines-e.g.-duckduckgo.com",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Tipps for search engines (e.g. duckduckgo.com)",
-    "text": "Tipps for search engines (e.g. duckduckgo.com)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\nScroll through the top 5 results (don’t just pick the first)\n\nExample: “How to remove a legend from a plot in R ggplot2”"
+    "section": "Tips for search engines (e.g. duckduckgo.com)",
+    "text": "Tips for search engines (e.g. duckduckgo.com)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\nScroll through the top 5 results (don’t just pick the first)\n\nExample: “How to remove a legend from a plot in R ggplot2”"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#stack-overflow",
@@ -2737,11 +2737,11 @@
     "text": "Stack Overflow\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
-    "href": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
+    "objectID": "slides/lec-02-visualisation.html#tips-for-ai-tools-e.g.-duck.ai",
+    "href": "slides/lec-02-visualisation.html#tips-for-ai-tools-e.g.-duck.ai",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Tipps for AI tools (e.g. duck.ai)",
-    "text": "Tipps for AI tools (e.g. duck.ai)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\n\nExample: “How to remove a legend from a plot in R ggplot2”"
+    "section": "Tips for AI tools (e.g. duck.ai)",
+    "text": "Tips for AI tools (e.g. duck.ai)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\n\nExample: “How to remove a legend from a plot in R ggplot2”"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#other-sources-for-help",
@@ -3007,7 +3007,7 @@
     "href": "slides/lec-02-visualisation.html#section-20",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "-",
-    "text": "-\n\n\nModels are complementary tools to visualization. Once you have made your questions sufficiently precise, you can use a model to answer them.\nIn my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R lanuage."
+    "text": "-\n\n\nModels are complementary tools to visualization. Once you have made your questions sufficiently precise, you can use a model to answer them.\nIn my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R language."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-21",
