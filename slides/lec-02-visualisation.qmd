@@ -124,7 +124,7 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 ::: {.column width="50%"}
 - Posit Community Forum: <https://community.rstudio.com/>
 - Documentation websites: <https://ggplot2.tidyverse.org/>
-- Mastodon / bluesky tag: [#rstats](https://fosstodon.org/tags/rstats)
+- Mastodon / Bluesky tag: [#rstats](https://fosstodon.org/tags/rstats)
 :::
 
 ::: {.column width="50%"}
@@ -773,13 +773,15 @@ countdown(15)
 
 ## Homework due date
 
--   Homework assignment due: [Monday, September 22nd 2025]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, September 25th 2025 
+-   Homework assignment due: [Wednesday, {{< var md-02.homework-due >}}]{.highlight-yellow}
+-   Quiz due: [Wednesday, {{< var md-02.quiz-due >}}]{.highlight-yellow} 
 
 # Wrap-up {background-color="#4C326A"}
 
 ## Thanks! `r emo::ji("sunflower")` 
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-02-visualisation.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
+
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-02-visualisation.pdf)
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).

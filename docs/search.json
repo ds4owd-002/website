@@ -2748,7 +2748,7 @@
     "href": "slides/lec-02-visualisation.html#other-sources-for-help",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Other sources for help",
-    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon / bluesky tag: #rstats\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon / Bluesky tag: #rstats\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-2",
@@ -3189,14 +3189,14 @@
     "href": "slides/lec-02-visualisation.html#homework-due-date",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, September 22nd 2025\nCorrection & feedback phase up to: Thursday, September 25th 2025"
+    "text": "Homework due date\n\nHomework assignment due: Wednesday, 2025-09-24\nQuiz due: Wednesday, 2025-10-01"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#thanks",
     "href": "slides/lec-02-visualisation.html#thanks",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   },
   {
     "objectID": "slides/lec-04-tidy-data.html#exam-update",
