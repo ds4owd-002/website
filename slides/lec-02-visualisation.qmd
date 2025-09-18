@@ -48,7 +48,7 @@ gapminder_2007 <- gapminder |>
 Q: How do I successfully complete the course?
 :::
 
-You successfully complete the course and youwill receive a certificate of completion if you:
+You successfully complete the course and you will receive a certificate of completion if you:
 
 1. Complete the [quiz of each week by its due date]{.highlight-yellow}
 
@@ -64,7 +64,7 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 
 # Solving coding problems online {background-color="#4C326A"}
 
-## Tipps for search engines (e.g. [duckduckgo.com](https://duckduckgo.com/))
+## Tips for search engines (e.g. [duckduckgo.com](https://duckduckgo.com/))
 
 - Use actionable verbs that describe what you want to do
 - Be specific 
@@ -108,7 +108,7 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 
 :::
 
-## Tipps for AI tools (e.g. [duck.ai](https://duck.ai))
+## Tips for AI tools (e.g. [duck.ai](https://duck.ai))
 
 - Use actionable verbs that describe what you want to do
 - Be specific 
@@ -150,8 +150,8 @@ Artwork by [@allison_horst](https://www.allisonhorst.com/)
 
 For every week, there will be two “projects”:
 
-- [md-0X-exercises]{.highligh-yellow} (this is for lectures and we only work with it during lectures)
-- [md-0X-assignments-USERNAME]{.highligh-yellow} (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)
+- [md-0X-exercises]{.highlight-yellow} (this is for lectures and we only work with it during lectures)
+- [md-0X-assignments-USERNAME]{.highlight-yellow} (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)
 
 ## Lecture Exercises
 
@@ -159,8 +159,8 @@ For every week, there will be two “projects”:
 
 ::: {.column width="50%"}
 
-- Click [Start]{.highligh-yellow} the first time
-- Click [Continue]{.highligh-yellow} the next time
+- Click [Start]{.highlight-yellow} the first time
+- Click [Continue]{.highlight-yellow} the next time
 - It will look like two projects, but it is just one
 - It doesn't matter on which of the two you click
 
@@ -365,7 +365,7 @@ Together, tidying and transforming are called wrangling, because getting your da
 
 1. Models are complementary tools to visualization. Once you have made your questions sufficiently precise, you can use a model to answer them.
 
-2. In my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R lanuage.
+2. In my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R language.
 
 :::
 
