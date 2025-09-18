@@ -2748,7 +2748,7 @@
     "href": "slides/lec-02-visualisation.html#other-sources-for-help",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Other sources for help",
-    "text": "Other sources for help\n\n::: {.column width=“50%”}s - Posit Community Forum: https://community.rstudio.com/ - Documentation websites: https://ggplot2.tidyverse.org/ - Mastodon / bluesky tag: #rstats\n\n\n\n::::\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon / bluesky tag: #rstats\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-2",
@@ -2769,7 +2769,7 @@
     "href": "slides/lec-02-visualisation.html#lecture-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Lecture Exercises",
-    "text": "Lecture Exercises\nTODO: column left\n\nClick “Start” the first time\nClick “Continue” the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click\n\nTODO: column right\nslides/img/lec-02/posit-cloud-exercise.png"
+    "text": "Lecture Exercises\n\n\n\nClick Start the first time\nClick Continue the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#homework-assignments-module-1",
@@ -3028,7 +3028,7 @@
     "href": "slides/lec-02-visualisation.html#r-package-ggplot2",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "R Package ggplot2",
-    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n\n\nSlide adapted from datasciencebox.org"
+    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\n\n\n\n\n\n\nSlide adapted from datasciencebox.org"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#my-turn-working-with-r",
@@ -3042,7 +3042,7 @@
     "href": "slides/lec-02-visualisation.html#take-a-break",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move!\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#code-structure",
@@ -3133,14 +3133,14 @@
     "href": "slides/lec-02-visualisation.html#our-turn-md-02-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Our turn: md-02-exercises",
-    "text": "Our turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02b-data-visualization.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "text": "Our turn: md-02-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02b-visualize.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#take-a-break-1",
     "href": "slides/lec-02-visualisation.html#take-a-break-1",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move!\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#types-of-variables",
@@ -3175,7 +3175,7 @@
     "href": "slides/lec-02-visualisation.html#your-turn-md-02-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Your turn: md-02-exercises",
-    "text": "Your turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-02c-make-a-plot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n15:00"
+    "text": "Your turn: md-02-exercises\n\n\nIf you closed it, open posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Continue next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02c-boxplot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file.\n\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#module-2-documentation",
@@ -4741,6 +4741,20 @@
     "href": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Module 2 - Assignment 1: Bookmarks",
-    "text": "Module 2 - Assignment 1: Bookmarks\nThis week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond"
+    "text": "Module 2 - Assignment 1: Bookmarks\nThis week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond."
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#how-to-pick-a-plot",
+    "href": "slides/lec-02-visualisation.html#how-to-pick-a-plot",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "How to pick a plot?",
+    "text": "How to pick a plot?\n\ndata-to-viz.com"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#homework-assignments",
+    "href": "slides/lec-02-visualisation.html#homework-assignments",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Homework Assignments",
+    "text": "Homework Assignments"
   }
 ]

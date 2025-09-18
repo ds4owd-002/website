@@ -121,7 +121,7 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 
 :::: {.columns}
 
-::: {.column width="50%"}s
+::: {.column width="50%"}
 - Posit Community Forum: <https://community.rstudio.com/>
 - Documentation websites: <https://ggplot2.tidyverse.org/>
 - Mastodon / bluesky tag: [#rstats](https://fosstodon.org/tags/rstats)
@@ -150,23 +150,31 @@ Artwork by [@allison_horst](https://www.allisonhorst.com/)
 
 For every week, there will be two “projects”:
 
-- md-0X-exercises (this is for lectures and we only work with it during lectures)
-- md-0X-assignments-USERNAME (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)
+- [md-0X-exercises]{.highligh-yellow} (this is for lectures and we only work with it during lectures)
+- [md-0X-assignments-USERNAME]{.highligh-yellow} (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)
 
 ## Lecture Exercises
 
-TODO: column left
+:::: {.columns}
 
-- Click "Start" the first time
-- Click "Continue" the next time
+::: {.column width="50%"}
+
+- Click [Start]{.highligh-yellow} the first time
+- Click [Continue]{.highligh-yellow} the next time
 - It will look like two projects, but it is just one
 - It doesn't matter on which of the two you click
 
-TODO: column right
+:::
 
-slides/img/lec-02/posit-cloud-exercise.png
+::: {.column width="50%"}
 
-## Homework Assignments module 1 {background-color="#4C326A"}
+![](img/lec-02/posit-cloud-exercise.png)
+
+:::
+
+::::
+
+## Homework Assignments {background-color="#4C326A"}
 
 ## on GitHub Organisation
 
@@ -201,7 +209,7 @@ slides/img/lec-02/posit-cloud-exercise.png
 
 ## Module 2 - Assignment 1: Bookmarks
 
-This week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond
+This week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond.
 
 # Version Control - Terminology {background-color="#4C326A"}
 
@@ -383,7 +391,7 @@ Together, tidying and transforming are called wrangling, because getting your da
 
 - **ggplot2** is tidyverse's data visualization package 
 - `gg` in `ggplot2` stands for Grammar of Graphics 
-- Inspired by the book *[*Grammar of Graphics** by Leland Wilkinson](https://en.wikipedia.org/wiki/Wilkinson%27s_Grammar_of_Graphics)
+- Inspired by the book [Grammar of Graphics by Leland Wilkinson](https://en.wikipedia.org/wiki/Wilkinson%27s_Grammar_of_Graphics)
 - **Documentation:** <https://ggplot2.tidyverse.org/>
 
 :::
@@ -418,7 +426,7 @@ Sit back and enjoy!
 
 [Please get up and move!]{.highlight-yellow} 
 
-![](img/lec-02/emails-rest-in-peace.png){width="50%"}
+![](img/lec-04/pixel-art-tree.png){width="50%"}
 
 ```{r}
 countdown(minutes = 10)
@@ -576,13 +584,6 @@ ggplot(data = gapminder,
 3. The median is the point above and below which half (50%) of the observations falls.
 4. The median is the square root of the sum of the squares of each value in a dataset.
 
-## Poll 4: If you have the values: 1, 2, 3, and 10: which statistical measure best represents the "true" value? {.smaller}
-
-1. The mean
-2. The standard deviation
-3. The median
-4. The interquartile range
-
 ## Boxplot, explained
 
 ```{r}
@@ -618,10 +619,10 @@ Image taken from: <https://r4ds.hadley.nz/data-visualize#fig-eda-boxplot>
 ## Our turn: md-02-exercises
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-02-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-02b-data-visualization.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`md-02b-visualize.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
@@ -632,7 +633,7 @@ countdown(30)
 
 [Please get up and move!]{.highlight-yellow} 
 
-![](img/lec-02/emails-rest-in-peace.png){width="50%"}
+![](img/lec-04/pixel-art-tree.png){width="50%"}
 
 ```{r}
 countdown(minutes = 10)
@@ -737,14 +738,26 @@ ggplot(data = gapminder_2007,
 ## Your turn: md-02-exercises
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3. In the File Manager in the bottom right window, locate the [`md-02c-make-a-plot.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4. Follow instructions in the file
+1. [If you closed it]{.highlight-yellow}, open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Continue]{.highlight-yellow} next to [md-02-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-02c-boxplot.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+5. Follow instructions in the file.
 :::
 ```{r}
 countdown(15)
 ```
+
+## How to pick a plot?
+
+::: learn-more
+[data-to-viz.com](https://www.data-to-viz.com/)
+
+```{=html}
+<iframe src="https://www.data-to-viz.com/" width="100%" height="500" style="border:2px solid #123233;" title="From Data to Viz"></iframe>
+```
+:::
+
 
 # Homework assignments module 2 {background-color="#4C326A"}
 
