@@ -42,7 +42,7 @@ gapminder_2007 <- gapminder |>
 
 ```
 
-## {{< fa circle-question >}} {.center-align}
+## {{< fa circle-question >}} {.center-align .smaller}
 
 ::: {style="margin-top: 50px; font-size: 1.5em"}
 Q: How do I successfully complete the course?
