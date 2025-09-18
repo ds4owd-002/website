@@ -2723,11 +2723,11 @@
     "text": "Artwork by @allison_horst"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#tipps-for-search-engines",
-    "href": "slides/lec-02-visualisation.html#tipps-for-search-engines",
+    "objectID": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
+    "href": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Tipps for search engines",
-    "text": "Tipps for search engines\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\nScroll through the top 5 results (don’t just pick the first)\n\nExample: “How to remove a legend from a plot in R ggplot2”"
+    "section": "Tipps for search engines (e.g. duckduckgo.com)",
+    "text": "Tipps for search engines (e.g. duckduckgo.com)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\nScroll through the top 5 results (don’t just pick the first)\n\nExample: “How to remove a legend from a plot in R ggplot2”"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#stack-overflow",
@@ -2737,11 +2737,11 @@
     "text": "Stack Overflow\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools",
-    "href": "slides/lec-02-visualisation.html#tipps-for-ai-tools",
+    "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
+    "href": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Tipps for AI tools",
-    "text": "Tipps for AI tools\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\n\nExample: “How to remove a legend from a plot in R ggplot2”"
+    "section": "Tipps for AI tools (e.g. duck.ai)",
+    "text": "Tipps for AI tools (e.g. duck.ai)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\n\nExample: “How to remove a legend from a plot in R ggplot2”"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#other-sources-for-help",
@@ -2772,11 +2772,11 @@
     "text": "Lecture Exercises\n\n\n\nClick Start the first time\nClick Continue the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#homework-assignments-module-1",
-    "href": "slides/lec-02-visualisation.html#homework-assignments-module-1",
+    "objectID": "slides/lec-02-visualisation.html#homework-assignments",
+    "href": "slides/lec-02-visualisation.html#homework-assignments",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Homework Assignments module 1",
-    "text": "Homework Assignments module 1"
+    "section": "Homework Assignments",
+    "text": "Homework Assignments"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#on-github-organisation",
@@ -2807,11 +2807,11 @@
     "text": "on Posit Cloud"
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
-    "href": "slides/lec-02-visualisation.html#assignment-3-bookmarks",
+    "objectID": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
+    "href": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Assignment 3: Bookmarks",
-    "text": "Assignment 3: Bookmarks\n\nthis week, you will have an assignment for creating bookmarks in your browser"
+    "section": "Module 2 - Assignment 1: Bookmarks",
+    "text": "Module 2 - Assignment 1: Bookmarks\nThis week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-3",
@@ -2968,13 +2968,6 @@
     "text": "Learning Objectives (for this week)\n\n\nLearners can list the six elements of the data science lifecycle.\nLearners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.\nLearners can control the colour scaling applied to a plot using colour as an aesthetic mapping.\nLearners can compare three different geoms (bar/col, histogram, point) and their use case."
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#deep-end",
-    "href": "slides/lec-02-visualisation.html#deep-end",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Deep End",
-    "text": "Deep End\n\n\n\n\n\nvia GIPHY"
-  },
-  {
     "objectID": "slides/lec-02-visualisation.html#section-15",
     "href": "slides/lec-02-visualisation.html#section-15",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
@@ -3115,13 +3108,6 @@
     "text": "Poll 3: What is the median of a set of observations?\n\nThe median is the most frequently occurring value in a dataset.\nThe median is the sum of all values in a dataset divided by the number of observations.\nThe median is the point above and below which half (50%) of the observations falls.\nThe median is the square root of the sum of the squares of each value in a dataset."
   },
   {
-    "objectID": "slides/lec-02-visualisation.html#poll-4-if-you-have-the-values-1-2-3-and-10-which-statistical-measure-best-represents-the-true-value",
-    "href": "slides/lec-02-visualisation.html#poll-4-if-you-have-the-values-1-2-3-and-10-which-statistical-measure-best-represents-the-true-value",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Poll 4: If you have the values: 1, 2, 3, and 10: which statistical measure best represents the “true” value?",
-    "text": "Poll 4: If you have the values: 1, 2, 3, and 10: which statistical measure best represents the “true” value?\n\nThe mean\nThe standard deviation\nThe median\nThe interquartile range"
-  },
-  {
     "objectID": "slides/lec-02-visualisation.html#boxplot-explained",
     "href": "slides/lec-02-visualisation.html#boxplot-explained",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
@@ -3176,6 +3162,13 @@
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Your turn: md-02-exercises",
     "text": "Your turn: md-02-exercises\n\n\nIf you closed it, open posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Continue next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02c-boxplot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file.\n\n\n\n\n\n−+\n15:00"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#how-to-pick-a-plot",
+    "href": "slides/lec-02-visualisation.html#how-to-pick-a-plot",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "How to pick a plot?",
+    "text": "How to pick a plot?\n\ndata-to-viz.com"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#module-2-documentation",
@@ -4721,40 +4714,5 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Highlighting: Use [text]{.highlight-yellow} or [text]{.highlight-peach} to draw attention to specific UI elements, buttons, or important text\nScreenshots: Include descriptive images with {width=100%} for full-width display\nIcons: Use Font Awesome icons (e.g., ) for visual cues\n\n\n\n\n\nClear numbering: Use numbered lists for sequential steps\nAction-oriented language: Start with verbs (Click, Open, Navigate, Enter, Select)\nVisual references: Include what learners will see in brackets with highlighting\nContextual information: Provide the “why” when needed, but keep it brief\nProgressive disclosure: Reduce detail level as course progresses (explicitly noted in module 2+)\n\n\n\n\n\nNavigation: “Open [URL] in your browser” → “Navigate to…” → “Find the repository…”\nUI interactions: “Click on the Button Name button”\nForm fields: “In the Field Name field, enter…”\nVerification: “You can verify… by looking at…”\nSuccess indicators: “If you see…, then you have successfully…”\n\n\n\n\n\nCallout boxes for different purposes:\n\n{.callout-tip}: Optional information or helpful hints\n{.callout-important}: Critical information learners must know\n{.callout-warning}: Common pitfalls or issues to avoid\n{.callout-note}: Additional context or explanations\n\nTroubleshooting: Include “If you cannot…” sections with solutions\nSupport channels: Provide email links with pre-filled subjects for specific help\n\n\n\n\n\nRepository references: Always use USERNAME placeholder with clear substitution instructions\nAuthentication steps: Detailed PAT creation and usage with security warnings\nCommit process: Explicit staging → commit message → push sequence\nIssue creation: Structured format with instructor tagging (@seawaR @massarin @larnsce)\n\n\n\n\n\nModule 1: Extensive screenshots, detailed explanations, complete step-by-step guidance\nModule 2+: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail\nCross-references: Link back to earlier modules for detailed instructions when needed\n\n\n\n\n\nPAT storage: Explicit warnings against Word documents, recommend text files or password managers\nCredential handling: Clear distinction between GitHub password and PAT\nError prevention: Proactive warnings about common issues (spaces in PAT, wrong workspace)"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
-    "href": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Tipps for search engines (e.g. duckduckgo.com)",
-    "text": "Tipps for search engines (e.g. duckduckgo.com)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\nScroll through the top 5 results (don’t just pick the first)\n\nExample: “How to remove a legend from a plot in R ggplot2”"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
-    "href": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Tipps for AI tools (e.g. duck.ai)",
-    "text": "Tipps for AI tools (e.g. duck.ai)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\n\nExample: “How to remove a legend from a plot in R ggplot2”"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
-    "href": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Module 2 - Assignment 1: Bookmarks",
-    "text": "Module 2 - Assignment 1: Bookmarks\nThis week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond."
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#how-to-pick-a-plot",
-    "href": "slides/lec-02-visualisation.html#how-to-pick-a-plot",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "How to pick a plot?",
-    "text": "How to pick a plot?\n\ndata-to-viz.com"
-  },
-  {
-    "objectID": "slides/lec-02-visualisation.html#homework-assignments",
-    "href": "slides/lec-02-visualisation.html#homework-assignments",
-    "title": "Data science lifecycle & Exploratory data analysis using visualization",
-    "section": "Homework Assignments",
-    "text": "Homework Assignments"
   }
 ]
