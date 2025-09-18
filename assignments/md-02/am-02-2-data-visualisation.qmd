@@ -25,11 +25,9 @@ As we progress through the course, we're gradually reducing the level of instruc
 7. Click the blue button [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
 8. Paste the HTTPS URL from GitHub into the [URL of your Git Repository]{.highlight-yellow} field and click [OK]{.highlight-yellow}. Leave the checkbox under Packages checked.
 9. Wait until the project is deployed. This may take a few minutes, depending on your internet connection.
-10. Open `md-02a-data-visualization.qmd` and follow the instructions to work through the tasks.
+10. Open `md-02a-boxplot.qmd` and follow the instructions to work through the tasks.
 
 ## Step 2: Commit and push your changes
-
-The below is also described as Task 14 in `md-02a-data-visualization.qmd`
 
 1. Navigate to the Git pane in the top-right window of RStudio
 2. Check the box next to all files to stage them for a commit
@@ -67,7 +65,7 @@ You need to enter the GitHub Personal Access Token (PAT) you created in Module 1
 You can search for your repository by typing your username in the search bar just below the Repository heading.
 :::
 
-4. You can verify here that your changes have been pushed to the remote repository by looking at the text next to the `md-02a-data-visualization.qmd` file. It should display the commit message you entered in the previous step.
+4. You can verify here that your changes have been pushed to the remote repository by looking at the text next to the `md-02a-boxplot.qmd` file. It should display the commit message you entered in the previous step.
 5. Click on the [Issues]{.highlight-yellow} tab.
 6. Click on the green [New issue]{.highlight-yellow} button.
 7. In the [Title]{.highlight-yellow} field write: [Completed module 2 assignment]{.highlight-yellow}.
