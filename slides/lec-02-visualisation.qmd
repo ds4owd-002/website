@@ -15,6 +15,7 @@ footer: "[{{< fa link >}} {{< var course.site-short >}}]({{< var course.site >}}
 editor: source
 execute:
   freeze: auto
+  warning: false
 params:
     week: 2
 editor_options: 
@@ -47,11 +48,13 @@ gapminder_2007 <- gapminder |>
 Q: How do I successfully complete the course?
 :::
 
-You successfully complete the course and you  will receive a certificate of completion if you:
+You successfully complete the course and youwill receive a certificate of completion if you:
 
-[hand in a complete capstone project report that uses a dataset of your choice by 4 December 2025 (instructions will follow)]{.highlight-yellow}
+1. Complete the [quiz of each week by its due date]{.highlight-yellow}
 
-This is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed.
+2- Hand in a [complete capstone project report]{.highlight-yellow} that uses a dataset of your choice by [11 December 2025]{.highlight-yellow} (instructions will follow)
+
+While [homework assignments]{.highlight-yellow} are not required for completion, we [highly recommend working on them]{.highlight-yellow} and submitting it for feedback. This is the practice you need to become a data scientist.
 
 ## {background-image="img/lec-02/r_rollercoaster.png" background-size="contain"} 
 
@@ -59,9 +62,9 @@ This is the only requirement to successfully complete the course, independent of
 Artwork by [@allison_horst](https://twitter.com/allison_horst) 
 :::
 
-# Solving coding problems {background-color="#4C326A"}
+# Solving coding problems online {background-color="#4C326A"}
 
-## Tipps for search engines 
+## Tipps for search engines (e.g. [duckduckgo.com](https://duckduckgo.com/))
 
 - Use actionable verbs that describe what you want to do
 - Be specific 
@@ -98,8 +101,6 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 - First, briefly read the question that was posted
 - Then, read the answer marked as "correct"
 - Then, read one or two more answers with high votes
-- Then, check out the "Linked" posts 
-- Always give credit for the solution
 
 :::
 
@@ -107,7 +108,7 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 
 :::
 
-## Tipps for AI tools 
+## Tipps for AI tools (e.g. [duck.ai](https://duck.ai))
 
 - Use actionable verbs that describe what you want to do
 - Be specific 
@@ -120,12 +121,10 @@ Artwork by [@allison_horst](https://twitter.com/allison_horst)
 
 :::: {.columns}
 
-::: {.column width="50%"}
-
+::: {.column width="50%"}s
 - Posit Community Forum: <https://community.rstudio.com/>
 - Documentation websites: <https://ggplot2.tidyverse.org/>
-- Mastodon tag: [#rstats](https://fosstodon.org/tags/rstats)
-- Quarto GitHub Discussion: <https://github.com/quarto-dev/quarto-cli/discussions>
+- Mastodon / bluesky tag: [#rstats](https://fosstodon.org/tags/rstats)
 :::
 
 ::: {.column width="50%"}
@@ -145,7 +144,7 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 Artwork by [@allison_horst](https://www.allisonhorst.com/)
 :::
 
-# Exercises & Assignments
+# Exercises & Assignments {background-color="#4C326A"}
 
 ## Note
 
@@ -156,16 +155,22 @@ For every week, there will be two “projects”:
 
 ## Lecture Exercises
 
+TODO: column left
+
 - Click "Start" the first time
 - Click "Continue" the next time
 - It will look like two projects, but it is just one
 - It doesn't matter on which of the two you click
 
+TODO: column right
+
+slides/img/lec-02/posit-cloud-exercise.png
+
 ## Homework Assignments module 1 {background-color="#4C326A"}
 
 ## on GitHub Organisation
 
-[Bookmark this link in your browser!]{.highlight-yellow}
+[Assignment 1 of Module 2 is a Bookmark Folder assignment!]{.highlight-yellow}
 
 ::: learn-more
 [{{< var course.github-org >}}]({{< var course.github-org >}})
@@ -180,10 +185,8 @@ For every week, there will be two “projects”:
 
 ## on Posit Cloud
 
-[Bookmark this link in your browser!]{.highlight-yellow}
-
 ::: learn-more
-[posit.cloud/spaces/426916/content/](https://posit.cloud/spaces/426916/content/)
+[posit.cloud/spaces/663318/](https://posit.cloud/spaces/663318/)
 
 ![](img/lec-02/posit-cloud-new-project.png)
 
@@ -196,9 +199,9 @@ For every week, there will be two “projects”:
 
 :::
 
-## Assignment 3: Bookmarks
+## Module 2 - Assignment 1: Bookmarks
 
-- this week, you will have an assignment for creating bookmarks in your browser
+This week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond
 
 # Version Control - Terminology {background-color="#4C326A"}
 
@@ -279,10 +282,6 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 ```
 
 # Data Science Lifecycle {background-color="#4C326A"}
-
-## Deep End
-
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3pWRgRw86JyBa" width="75%" height="75%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/matthew-west-all-in-matthew-west-3pWRgRw86JyBa">via GIPHY</a></p>
 
 ## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.001.png" background-size="contain"}
 
@@ -384,9 +383,8 @@ Together, tidying and transforming are called wrangling, because getting your da
 
 - **ggplot2** is tidyverse's data visualization package 
 - `gg` in `ggplot2` stands for Grammar of Graphics 
-- Inspired by the book **Grammar of Graphics** by Leland Wilkinson
-- **Documentation:** https://ggplot2.tidyverse.org/
-- **Book**: https://ggplot2-book.org
+- Inspired by the book *[*Grammar of Graphics** by Leland Wilkinson](https://en.wikipedia.org/wiki/Wilkinson%27s_Grammar_of_Graphics)
+- **Documentation:** <https://ggplot2.tidyverse.org/>
 
 :::
 
@@ -418,7 +416,7 @@ Sit back and enjoy!
 
 ## Take a break
 
-[Please get up and move!]{.highlight-yellow} Let your emails rest in peace.
+[Please get up and move!]{.highlight-yellow} 
 
 ![](img/lec-02/emails-rest-in-peace.png){width="50%"}
 
@@ -632,7 +630,7 @@ countdown(30)
 
 ## Take a break
 
-[Please get up and move!]{.highlight-yellow} Let your emails rest in peace.
+[Please get up and move!]{.highlight-yellow} 
 
 ![](img/lec-02/emails-rest-in-peace.png){width="50%"}
 

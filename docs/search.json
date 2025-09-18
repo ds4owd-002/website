@@ -2713,7 +2713,7 @@
     "href": "slides/lec-02-visualisation.html#section",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "",
-    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and you will receive a certificate of completion if you:\nhand in a complete capstone project report that uses a dataset of your choice by 4 December 2025 (instructions will follow)\nThis is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed."
+    "text": "Q: How do I successfully complete the course?\n\nYou successfully complete the course and youwill receive a certificate of completion if you:\n\nComplete the quiz of each week by its due date\n\n2- Hand in a complete capstone project report that uses a dataset of your choice by 11 December 2025 (instructions will follow)\nWhile homework assignments are not required for completion, we highly recommend working on them and submitting it for feedback. This is the practice you need to become a data scientist."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-1",
@@ -2734,7 +2734,7 @@
     "href": "slides/lec-02-visualisation.html#stack-overflow",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Stack Overflow",
-    "text": "Stack Overflow\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes\nThen, check out the “Linked” posts\nAlways give credit for the solution"
+    "text": "Stack Overflow\n\n\nWhat is it?\n\nThe biggest support network for (coding) problems\nCan be intimidating at first\nUp-vote system\n\n\n\n\nWorkflow\n\nFirst, briefly read the question that was posted\nThen, read the answer marked as “correct”\nThen, read one or two more answers with high votes"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools",
@@ -2748,7 +2748,7 @@
     "href": "slides/lec-02-visualisation.html#other-sources-for-help",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Other sources for help",
-    "text": "Other sources for help\n\n\n\nPosit Community Forum: https://community.rstudio.com/\nDocumentation websites: https://ggplot2.tidyverse.org/\nMastodon tag: #rstats\nQuarto GitHub Discussion: https://github.com/quarto-dev/quarto-cli/discussions\n\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Other sources for help\n\n::: {.column width=“50%”}s - Posit Community Forum: https://community.rstudio.com/ - Documentation websites: https://ggplot2.tidyverse.org/ - Mastodon / bluesky tag: #rstats\n\n\n\n::::\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section-2",
@@ -2769,7 +2769,7 @@
     "href": "slides/lec-02-visualisation.html#lecture-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Lecture Exercises",
-    "text": "Lecture Exercises\n\nClick “Start” the first time\nClick “Continue” the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click"
+    "text": "Lecture Exercises\nTODO: column left\n\nClick “Start” the first time\nClick “Continue” the next time\nIt will look like two projects, but it is just one\nIt doesn’t matter on which of the two you click\n\nTODO: column right\nslides/img/lec-02/posit-cloud-exercise.png"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#homework-assignments-module-1",
@@ -2783,7 +2783,7 @@
     "href": "slides/lec-02-visualisation.html#on-github-organisation",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "on GitHub Organisation",
-    "text": "on GitHub Organisation\nBookmark this link in your browser!\n\nhttps://github.com/ds4owd-002"
+    "text": "on GitHub Organisation\nAssignment 1 of Module 2 is a Bookmark Folder assignment!\n\nhttps://github.com/ds4owd-002"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#on-your-repository",
@@ -2797,7 +2797,7 @@
     "href": "slides/lec-02-visualisation.html#on-posit-cloud",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "on Posit Cloud",
-    "text": "on Posit Cloud\nBookmark this link in your browser!\n\nposit.cloud/spaces/426916/content/"
+    "text": "on Posit Cloud\n\nposit.cloud/spaces/663318/"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#on-posit-cloud-1",
@@ -2965,7 +2965,7 @@
     "href": "slides/lec-02-visualisation.html#learning-objectives-for-this-week",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\nlobj &lt;- readr::read_csv(here::here(\"data/tbl-02-ds4owd-002-learning-objectives.csv\")) |&gt; \n  dplyr::filter(week == params$week) |&gt;\n  dplyr::pull(learning_objectives)\n\nRows: 36 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): title, learning_objectives\ndbl  (1): week\ndttm (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\nLearners can list the six elements of the data science lifecycle.\nLearners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.\nLearners can control the colour scaling applied to a plot using colour as an aesthetic mapping.\nLearners can compare three different geoms (bar/col, histogram, point) and their use case."
+    "text": "Learning Objectives (for this week)\n\n\nLearners can list the six elements of the data science lifecycle.\nLearners can describe the four main aesthetic mappings that can be used to visualise data using the ggplot2 R Package.\nLearners can control the colour scaling applied to a plot using colour as an aesthetic mapping.\nLearners can compare three different geoms (bar/col, histogram, point) and their use case."
   },
   {
     "objectID": "slides/lec-02-visualisation.html#deep-end",
@@ -3028,7 +3028,7 @@
     "href": "slides/lec-02-visualisation.html#r-package-ggplot2",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "R Package ggplot2",
-    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n#knitr::include_graphics(here::here(\"slides/img/lec-02/ggplot2-part-of-tidyverse.png\"))\n\n\n\n\nSlide adapted from datasciencebox.org"
+    "text": "R Package ggplot2\n\n\n\nggplot2 is tidyverse’s data visualization package\ngg in ggplot2 stands for Grammar of Graphics\nInspired by the book Grammar of Graphics by Leland Wilkinson\nDocumentation: https://ggplot2.tidyverse.org/\nBook: https://ggplot2-book.org\n\n\n\n\n\n\nSlide adapted from datasciencebox.org"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#my-turn-working-with-r",
@@ -3042,7 +3042,7 @@
     "href": "slides/lec-02-visualisation.html#take-a-break",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#code-structure",
@@ -3098,14 +3098,14 @@
     "href": "slides/lec-02-visualisation.html#poll-1-what-does-the-thick-line-inside-the-box-of-a-boxplot-represent",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Poll 1: What does the thick line inside the box of a boxplot represent?",
-    "text": "Poll 1: What does the thick line inside the box of a boxplot represent?\n\n\n\nthe mean of the observations\nthe middle of the box\nthe median of the observations\nnone of the above\n\n\n\nggplot(data = gapminder,\n       mapping = aes(x = continent,\n                     y = lifeExp)) +\n  geom_boxplot() +\n  theme_minimal(base_size = 14)"
+    "text": "Poll 1: What does the thick line inside the box of a boxplot represent?\n\n\n\nthe mean of the observations\nthe middle of the box\nthe median of the observations\nnone of the above"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#poll-2-what-percentage-of-observations-are-contained-inside-the-box-of-a-boxplot-interquartile-range",
     "href": "slides/lec-02-visualisation.html#poll-2-what-percentage-of-observations-are-contained-inside-the-box-of-a-boxplot-interquartile-range",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)?",
-    "text": "Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)?\n\n\n\n25%\ndepends on the median\n50%\nnone of the above\n\n\n\nggplot(data = gapminder,\n       mapping = aes(x = continent,\n                     y = lifeExp)) +\n  geom_boxplot() +\n  theme_minimal(base_size = 14)"
+    "text": "Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)?\n\n\n\n25%\ndepends on the median\n50%\nnone of the above"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#poll-3-what-is-the-median-of-a-set-of-observations",
@@ -3133,14 +3133,14 @@
     "href": "slides/lec-02-visualisation.html#our-turn-md-02-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Our turn: md-02-exercises",
-    "text": "Our turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02b-data-visualization.qmd file and click on it to open it in the top left window.\n\n\n\ncountdown(30)\n\n\n−+\n30:00"
+    "text": "Our turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-02-exercises.\nIn the File Manager in the bottom right window, locate the md-02b-data-visualization.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#take-a-break-1",
     "href": "slides/lec-02-visualisation.html#take-a-break-1",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#types-of-variables",
@@ -3154,7 +3154,7 @@
     "href": "slides/lec-02-visualisation.html#histogram",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Histogram",
-    "text": "Histogram\n\nfor visualizing distribution of continuous (numerical) variables\n\n\nggplot(data = penguins,\n       mapping = aes(x = body_mass_g)) +\n  geom_histogram()\n\n`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`)."
+    "text": "Histogram\n\nfor visualizing distribution of continuous (numerical) variables\n\n\nggplot(data = penguins,\n       mapping = aes(x = body_mass_g)) +\n  geom_histogram()"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#barplot",
@@ -3175,7 +3175,7 @@
     "href": "slides/lec-02-visualisation.html#your-turn-md-02-exercises",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Your turn: md-02-exercises",
-    "text": "Your turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-02c-make-a-plot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\ncountdown(15)\n\n\n−+\n15:00"
+    "text": "Your turn: md-02-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-02c-make-a-plot.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#module-2-documentation",
@@ -4721,5 +4721,26 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Highlighting: Use [text]{.highlight-yellow} or [text]{.highlight-peach} to draw attention to specific UI elements, buttons, or important text\nScreenshots: Include descriptive images with {width=100%} for full-width display\nIcons: Use Font Awesome icons (e.g., ) for visual cues\n\n\n\n\n\nClear numbering: Use numbered lists for sequential steps\nAction-oriented language: Start with verbs (Click, Open, Navigate, Enter, Select)\nVisual references: Include what learners will see in brackets with highlighting\nContextual information: Provide the “why” when needed, but keep it brief\nProgressive disclosure: Reduce detail level as course progresses (explicitly noted in module 2+)\n\n\n\n\n\nNavigation: “Open [URL] in your browser” → “Navigate to…” → “Find the repository…”\nUI interactions: “Click on the Button Name button”\nForm fields: “In the Field Name field, enter…”\nVerification: “You can verify… by looking at…”\nSuccess indicators: “If you see…, then you have successfully…”\n\n\n\n\n\nCallout boxes for different purposes:\n\n{.callout-tip}: Optional information or helpful hints\n{.callout-important}: Critical information learners must know\n{.callout-warning}: Common pitfalls or issues to avoid\n{.callout-note}: Additional context or explanations\n\nTroubleshooting: Include “If you cannot…” sections with solutions\nSupport channels: Provide email links with pre-filled subjects for specific help\n\n\n\n\n\nRepository references: Always use USERNAME placeholder with clear substitution instructions\nAuthentication steps: Detailed PAT creation and usage with security warnings\nCommit process: Explicit staging → commit message → push sequence\nIssue creation: Structured format with instructor tagging (@seawaR @massarin @larnsce)\n\n\n\n\n\nModule 1: Extensive screenshots, detailed explanations, complete step-by-step guidance\nModule 2+: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail\nCross-references: Link back to earlier modules for detailed instructions when needed\n\n\n\n\n\nPAT storage: Explicit warnings against Word documents, recommend text files or password managers\nCredential handling: Clear distinction between GitHub password and PAT\nError prevention: Proactive warnings about common issues (spaces in PAT, wrong workspace)"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
+    "href": "slides/lec-02-visualisation.html#tipps-for-search-engines-e.g.-duckduckgo.com",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Tipps for search engines (e.g. duckduckgo.com)",
+    "text": "Tipps for search engines (e.g. duckduckgo.com)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\nScroll through the top 5 results (don’t just pick the first)\n\nExample: “How to remove a legend from a plot in R ggplot2”"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
+    "href": "slides/lec-02-visualisation.html#tipps-for-ai-tools-e.g.-duck.ai",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Tipps for AI tools (e.g. duck.ai)",
+    "text": "Tipps for AI tools (e.g. duck.ai)\n\nUse actionable verbs that describe what you want to do\nBe specific\nAdd R to the search query\nAdd the name of the R package name to the search query\n\nExample: “How to remove a legend from a plot in R ggplot2”"
+  },
+  {
+    "objectID": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
+    "href": "slides/lec-02-visualisation.html#module-2---assignment-1-bookmarks",
+    "title": "Data science lifecycle & Exploratory data analysis using visualization",
+    "section": "Module 2 - Assignment 1: Bookmarks",
+    "text": "Module 2 - Assignment 1: Bookmarks\nThis week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond"
   }
 ]
