@@ -71,7 +71,7 @@ Thank you for working through these assignments.
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
-[Quiz in preparation]{.highlight-yellow}
+Access the quiz here: <https://u4x6xe-lars-sch0bitz.shinyapps.io/ds4owd-002-quiz/>
 
 ## {{< fa video >}} Session Recording
 
