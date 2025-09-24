@@ -2103,7 +2103,7 @@
     "href": "assignments/md-03/am-03-2-spreadsheet.html#step-2-create-a-new-repository-on-github-clone-to-posit-cloud",
     "title": "Create a spreadsheet",
     "section": "Step 2: Create a new repository on GitHub & clone to Posit Cloud",
-    "text": "Step 2: Create a new repository on GitHub & clone to Posit Cloud\n\nOpen the GitHub Organisation for the course &lt;https://github.com/ds4owd-002&gt;\nTo right of the field “Find a repository”, click on the green “New” button.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Repository name” field write samples-USERNAME. Replace USERNAME with your GitHub username. Avoid using spaces.\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click “Create repository”.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Quick setup” field, click on the clipboard next to the HTTPs URL\n\n\n\n\n\n\n\n\n\n\n\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.",
+    "text": "Step 2: Create a new repository on GitHub & clone to Posit Cloud\n\nStep 2.1: Create a new repository\n\nOpen the GitHub Organisation for the course: https://github.com/ds4owd-002\nTo right of the field “Find a repository”, click on the green New button.\n\n\n\n\n\n\n\n\n\n\n\nIn the Repository name field write samples-USERNAME.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\nAvoid using spaces in the repository name. Use a dash - instead.\n\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click Create repository.\n\n\n\n\n\n\n\n\n\n\n\n\nStep 2.2: Clone the repository to Posit Cloud\n\nIn the Quick setup section, ensure HTTPS is selected (not SSH)\nClick on the clipboard icon next to the HTTPS URL to copy it\n\n\n\n\n\n\n\n\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
@@ -2114,29 +2114,29 @@
     "href": "assignments/md-03/am-03-2-spreadsheet.html#step-3-upload-the-data",
     "title": "Create a spreadsheet",
     "section": "Step 3: Upload the data",
-    "text": "Step 3: Upload the data\n\nUse the Files tab in the bottom right window to upload your spreadsheet from Task 1 into the folder",
+    "text": "Step 3: Upload the data\n\nIn RStudio, navigate to the Files tab in the bottom right window\nClick on the Upload button\nClick Choose File and select your XLSX spreadsheet from Step 1\nClick OK to upload the file to your project",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
     ]
   },
   {
-    "objectID": "assignments/md-03/am-03-2-spreadsheet.html#step-3-commit-and-push-your-changes",
-    "href": "assignments/md-03/am-03-2-spreadsheet.html#step-3-commit-and-push-your-changes",
+    "objectID": "assignments/md-03/am-03-2-spreadsheet.html#step-4-commit-and-push-your-changes",
+    "href": "assignments/md-03/am-03-2-spreadsheet.html#step-4-commit-and-push-your-changes",
     "title": "Create a spreadsheet",
-    "section": "Step 3: Commit and push your changes",
-    "text": "Step 3: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "section": "Step 4: Commit and push your changes",
+    "text": "Step 4: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: Added spreadsheet with sample data\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
     ]
   },
   {
-    "objectID": "assignments/md-03/am-03-2-spreadsheet.html#step-4-open-an-issue-on-github",
-    "href": "assignments/md-03/am-03-2-spreadsheet.html#step-4-open-an-issue-on-github",
+    "objectID": "assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
+    "href": "assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
     "title": "Create a spreadsheet",
-    "section": "Step 4: Open an issue on GitHub",
-    "text": "Step 4: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Create spreadsheet and upload to cloud”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "section": "Step 5: Open an issue on GitHub",
+    "text": "Step 5: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository samples-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the uploaded XLSX file in your repository.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Create spreadsheet and upload to cloud.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.\n\nCongratulations! You have successfully created a spreadsheet, uploaded it to GitHub, and completed this assignment.",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
@@ -2238,7 +2238,7 @@
     "href": "assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
     "title": "Data transformation with dplyr",
     "section": "Step 1: Clone your module 3 assignments repository",
-    "text": "Step 1: Clone your module 3 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course (or use your bookmark).\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green “Code” button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.\nOpen md-03a-penguins-practice.qmd & md-03b-sanitation-visualise.qmd and follow the instructions to work through the tasks.",
+    "text": "Step 1: Clone your module 3 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen 01-penguins.qmd and 02-visualize.qmd and follow the instructions to work through the tasks.",
     "crumbs": [
       "Module 03",
       "am-01: Data transformation"
@@ -2249,7 +2249,7 @@
     "href": "assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
     "title": "Data transformation with dplyr",
     "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\nThe below is also described in md-03a-penguins-practice.qmd & md-03b-sanitation-visualise.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "text": "Step 2: Commit and push your changes\nThe below steps are also described in 01-penguins.qmd and 02-visualize.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data transformation tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
       "Module 03",
       "am-01: Data transformation"
@@ -2260,7 +2260,7 @@
     "href": "assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
     "title": "Data transformation with dplyr",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-03-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 3 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the 01-penguins.qmd and 02-visualize.qmd files. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 3 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. 01-penguins.qmd 2. 02-visualize.qmd\nIf you have only completed 01-penguins.qmd, please return to Posit Cloud and complete 02-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data transformation assignment and are now ready for the next module.",
     "crumbs": [
       "Module 03",
       "am-01: Data transformation"
@@ -3497,7 +3497,7 @@
     "href": "slides/lec-03-transformation.html#our-turn-md-03-exercises",
     "title": "Data transformation with dplyr",
     "section": "Our turn: md-03-exercises",
-    "text": "Our turn: md-03-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the md-03a-data-transformation.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n15:00"
+    "text": "Our turn: md-03-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 01-dplyr-our-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-03-transformation.html#your-turn-md-03b-your-turn-filter.qmd",
@@ -3542,11 +3542,11 @@
     "text": "Task 1.3 - Connected scatterplot"
   },
   {
-    "objectID": "slides/lec-03-transformation.html#our-turn-back-to-md-03a-data-transformation.qmd",
-    "href": "slides/lec-03-transformation.html#our-turn-back-to-md-03a-data-transformation.qmd",
+    "objectID": "slides/lec-03-transformation.html#our-turn-back-to-01-dplyr-our-turn.qmd",
+    "href": "slides/lec-03-transformation.html#our-turn-back-to-01-dplyr-our-turn.qmd",
     "title": "Data transformation with dplyr",
-    "section": "Our turn: back to md-03a-data-transformation.qmd",
-    "text": "Our turn: back to md-03a-data-transformation.qmd\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the md-03a-data-transformation.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "section": "Our turn: back to 01-dplyr-our-turn.qmd",
+    "text": "Our turn: back to 01-dplyr-our-turn.qmd\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 01-dplyr-our-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-03-transformation.html#take-a-break-1",
@@ -3574,7 +3574,7 @@
     "href": "slides/lec-03-transformation.html#homework-due-date",
     "title": "Data transformation with dplyr",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, September 29th 2025\nCorrection & feedback phase up to: Thursday, October 2nd 2025"
+    "text": "Homework due date\n\nHomework assignment due: Monday, September 29th 2025\nCorrection & feedback phase up to: Thursday, October 2nd 2025\nQuiz due: Tuesday, October 8th 2025"
   },
   {
     "objectID": "slides/lec-03-transformation.html#thanks",

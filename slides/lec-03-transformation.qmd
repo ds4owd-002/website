@@ -174,7 +174,7 @@ ggplot(data = gapminder_2007,
 
 ```{r}
 
-sanitation <- read_csv("https://raw.githubusercontent.com/ds4owd/md-03-exercises/master/data/jmp_wld_sanitation_long.csv")
+sanitation <- read_csv("https://raw.githubusercontent.com/ds4owd-dev/md-03-exercises/master/data/jmp_wld_sanitation_long.csv")
 
 ```
 
@@ -236,7 +236,7 @@ sanitation |>
 1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
 2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
 3. Click [Start]{.highlight-yellow} next to [md-03-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-03a-data-transformation.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`01-dplyr-our-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 ```{r}
 countdown(15)
@@ -332,13 +332,13 @@ ggplot(data = sanitation_nigeria_urban_rural,
   scale_color_colorblind() 
 ```
 
-## Our turn: back to md-03a-data-transformation.qmd
+## Our turn: back to 01-dplyr-our-turn.qmd
 
 ::: task
 1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
 2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
 3. Click [Start]{.highlight-yellow} next to [md-03-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-03a-data-transformation.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`01-dplyr-our-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 ```{r}
 countdown(30)
@@ -385,7 +385,8 @@ countdown(40)
 ## Homework due date
 
 -   Homework assignment due: [Monday, September 29th 2025]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, October 2nd 2025 
+-   Correction & feedback phase up to: Thursday, October 2nd 2025
+-   Quiz due: [Tuesday, October 8th 2025]{.highlight-yellow} 
 
 # Wrap-up {background-color="#4C326A"}
 
