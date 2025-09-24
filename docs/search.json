@@ -307,7 +307,7 @@
     "href": "slides/lec-06-vectors.html#course-calendar",
     "title": "Data types & Vectors & For Loops",
     "section": "Course calendar",
-    "text": "Course calendar\nChanges to the course calendar\n\n19th December 2023: no class\n23rd January 2024: openwashdata webinar: a data sharing workflow that may please the publishers\n13th February 2024: submission of capstone project report\n\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 Oktober 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 Oktober 2025\n5\nNo class\nNA\n\n\n16 Oktober 2025\n6\nNo class\nNA\n\n\n23 Oktober 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 Oktober 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 Dezember 2025\n13\nWork on Capstone project\nNA\n\n\n11 Dezember 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 Dezember 2025\n15\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course calendar\nChanges to the course calendar\n\n19th December 2023: no class\n23rd January 2024: openwashdata webinar: a data sharing workflow that may please the publishers\n13th February 2024: submission of capstone project report\n\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "slides/lec-06-vectors.html#learning-objectives-for-this-week",
@@ -338,11 +338,11 @@
     "text": "Figure cross references\nThe presence of the caption (A few penguins) and label (#fig-penguins) make this figure reference-able:\nSee @fig-penguins for data on a few penguins.\nbecomes:\nSee Figure 1 for data on a few penguins.\n\n```{r}\n#| label: fig-penguins\n#| fig-cap: A few penguins\n#| fig-width: 6\n#| fig-asp: 0.618\n\nggplot(penguins, aes(x = species, fill = species)) +\n  geom_bar(show.legend = FALSE)\n```\n\n\n\nFigure 1: A few penguins"
   },
   {
-    "objectID": "slides/lec-06-vectors.html#your-turn-md-06-exercises---cross-references",
-    "href": "slides/lec-06-vectors.html#your-turn-md-06-exercises---cross-references",
+    "objectID": "slides/lec-06-vectors.html#your-turn-md-06-exercises",
+    "href": "slides/lec-06-vectors.html#your-turn-md-06-exercises",
     "title": "Data types & Vectors & For Loops",
-    "section": "Your turn: md-06-exercises - cross-references",
-    "text": "Your turn: md-06-exercises - cross-references\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-06a-cross-references.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n10:00"
+    "section": "Your turn: md-06-exercises",
+    "text": "Your turn: md-06-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-06-exercises.\nIn the File Manager in the bottom right window, locate the md-06a-cref-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "slides/lec-06-vectors.html#why-care-about-data-types",
@@ -436,11 +436,11 @@
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
-    "objectID": "slides/lec-06-vectors.html#your-turn-md-06-exercises---types",
-    "href": "slides/lec-06-vectors.html#your-turn-md-06-exercises---types",
+    "objectID": "slides/lec-06-vectors.html#your-turn-md-06-exercises-1",
+    "href": "slides/lec-06-vectors.html#your-turn-md-06-exercises-1",
     "title": "Data types & Vectors & For Loops",
-    "section": "Your turn: md-06-exercises - types",
-    "text": "Your turn: md-06-exercises - types\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-06b-types-your-turn.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n35:00"
+    "section": "Your turn: md-06-exercises",
+    "text": "Your turn: md-06-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-06-exercises.\nIn the File Manager in the bottom right window, locate the md-06b-types-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n35:00"
   },
   {
     "objectID": "slides/lec-06-vectors.html#take-a-break-1",
@@ -580,7 +580,7 @@
     "href": "slides/lec-06-vectors.html#thanks",
     "title": "Data types & Vectors & For Loops",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "slides/lec-06-vectors.html#references",
@@ -646,11 +646,11 @@
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
-    "objectID": "slides/lec-05-conditions.html#your-turn-md-05-exercises---conditions",
-    "href": "slides/lec-05-conditions.html#your-turn-md-05-exercises---conditions",
+    "objectID": "slides/lec-05-conditions.html#your-turn-md-05-exercises",
+    "href": "slides/lec-05-conditions.html#your-turn-md-05-exercises",
     "title": "Conditions & Dates & Tables",
-    "section": "Your turn: md-05-exercises - conditions",
-    "text": "Your turn: md-05-exercises - conditions\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-05a-conditions-your-turn.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n20:00"
+    "section": "Your turn: md-05-exercises",
+    "text": "Your turn: md-05-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-05a-conditions-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "slides/lec-05-conditions.html#task-1",
@@ -716,11 +716,11 @@
     "text": "R packages for displaying tables\n\nMany packages for displaying tables in R\ngt package is one of the most popular and flexible\nkable() function of knitr package useful for simple tables"
   },
   {
-    "objectID": "slides/lec-05-conditions.html#our-turn-md-05-exercises---tables",
-    "href": "slides/lec-05-conditions.html#our-turn-md-05-exercises---tables",
+    "objectID": "slides/lec-05-conditions.html#our-turn-md-05-exercises",
+    "href": "slides/lec-05-conditions.html#our-turn-md-05-exercises",
     "title": "Conditions & Dates & Tables",
-    "section": "Our turn: md-05-exercises - tables",
-    "text": "Our turn: md-05-exercises - tables\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-03c-tables.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "section": "Our turn: md-05-exercises",
+    "text": "Our turn: md-05-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-05c-tables.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-05-conditions.html#cross-references-1",
@@ -762,14 +762,14 @@
     "href": "slides/lec-05-conditions.html#homework-due-date",
     "title": "Conditions & Dates & Tables",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, October 20th 2025\nCorrection & feedback phase up to: Thursday, October 23rd 2025"
+    "text": "Homework due date\n\nHomework assignment due: Monday, October 20th 2025"
   },
   {
     "objectID": "slides/lec-05-conditions.html#thanks",
     "href": "slides/lec-05-conditions.html#thanks",
     "title": "Conditions & Dates & Tables",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "slides/lec-05-conditions.html#references",
@@ -891,11 +891,11 @@
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
-    "objectID": "slides/lec-04-spreadsheets.html#your-turn-md-04a-exercises---factors",
-    "href": "slides/lec-04-spreadsheets.html#your-turn-md-04a-exercises---factors",
+    "objectID": "slides/lec-04-spreadsheets.html#your-turn-md-04-exercises",
+    "href": "slides/lec-04-spreadsheets.html#your-turn-md-04-exercises",
     "title": "Data import & Data organization in spreadsheets",
-    "section": "Your turn: md-04a-exercises - factors",
-    "text": "Your turn: md-04a-exercises - factors\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-04a-factors-your-turn.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n25:00"
+    "section": "Your turn: md-04-exercises",
+    "text": "Your turn: md-04-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-04-exercises.\nIn the File Manager in the bottom right window, locate the md-04a-factors-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n25:00"
   },
   {
     "objectID": "slides/lec-04-spreadsheets.html#reading-rectangular-data-into-r",
@@ -961,11 +961,11 @@
     "text": "My turn: Import data from XLSX\n\n\nSit back and enjoy!"
   },
   {
-    "objectID": "slides/lec-04-spreadsheets.html#your-turn-md-04a-exercises---import",
-    "href": "slides/lec-04-spreadsheets.html#your-turn-md-04a-exercises---import",
+    "objectID": "slides/lec-04-spreadsheets.html#your-turn-md-04-exercises-1",
+    "href": "slides/lec-04-spreadsheets.html#your-turn-md-04-exercises-1",
     "title": "Data import & Data organization in spreadsheets",
-    "section": "Your turn: md-04a-exercises - import",
-    "text": "Your turn: md-04a-exercises - import\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-04b-import-your-turn.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n20:00"
+    "section": "Your turn: md-04-exercises",
+    "text": "Your turn: md-04-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-04-exercises.\nIn the File Manager in the bottom right window, locate the md-04b-import-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "slides/lec-04-spreadsheets.html#data-organization-in-spreadsheets-1",
@@ -1014,14 +1014,14 @@
     "href": "slides/lec-04-spreadsheets.html#homework-due-date",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, October 6th 2025\nCorrection & feedback phase up to: Thursday, October 9th 2025"
+    "text": "Homework due date\n\nHomework assignment due: Monday, October 6th 2025"
   },
   {
     "objectID": "slides/lec-04-spreadsheets.html#thanks",
     "href": "slides/lec-04-spreadsheets.html#thanks",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "slides/lec-01-welcome.html#email-from-github",
@@ -1196,7 +1196,7 @@
     "href": "slides/lec-01-welcome.html#programming-experience",
     "title": "Welcome & get ready for the course",
     "section": "Programming experience",
-    "text": "Programming experience\n190 registrations on pre-course survey."
+    "text": "Programming experience\n192 registrations on pre-course survey."
   },
   {
     "objectID": "slides/lec-01-welcome.html#quarto",
@@ -1448,7 +1448,7 @@
     "href": "slides/lec-01-welcome.html#thanks",
     "title": "Welcome & get ready for the course",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#learning-objectives-for-this-week",
@@ -1549,11 +1549,11 @@
     "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
-    "objectID": "slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises---pivoting-data",
-    "href": "slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises---pivoting-data",
+    "objectID": "slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises",
+    "href": "slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises",
     "title": "Pivoting & joining data",
-    "section": "Your turn: md-07-exercises - pivoting data",
-    "text": "Your turn: md-07-exercises - pivoting data\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-07a-pivoting-your-turn.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n30:00"
+    "section": "Your turn: md-07-exercises",
+    "text": "Your turn: md-07-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-07-exercises.\nIn the File Manager in the bottom right window, locate the md-07a-pivoting-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-07-pivoting-joining.html#take-a-break",
@@ -1805,7 +1805,7 @@
     "href": "slides/lec-07-pivoting-joining.html#thanks",
     "title": "Pivoting & joining data",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub"
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "index.html",
@@ -2706,7 +2706,7 @@
     "href": "slides/lec-00-qa-session.html#thanks",
     "title": "Q&A Session - Questions about the course",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "slides/lec-02-visualisation.html#section",
@@ -3497,14 +3497,14 @@
     "href": "slides/lec-03-transformation.html#our-turn-md-03-exercises",
     "title": "Data transformation with dplyr",
     "section": "Our turn: md-03-exercises",
-    "text": "Our turn: md-03-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 01-dplyr-our-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n15:00"
+    "text": "Our turn: md-03-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 01-dplyr-our-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n15:00"
   },
   {
-    "objectID": "slides/lec-03-transformation.html#your-turn-md-03b-your-turn-filter.qmd",
-    "href": "slides/lec-03-transformation.html#your-turn-md-03b-your-turn-filter.qmd",
+    "objectID": "slides/lec-03-transformation.html#your-turn-md-03-exercises",
+    "href": "slides/lec-03-transformation.html#your-turn-md-03-exercises",
     "title": "Data transformation with dplyr",
-    "section": "Your turn: md-03b-your-turn-filter.qmd",
-    "text": "Your turn: md-03b-your-turn-filter.qmd\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-03b-your-turn-filter.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n20:00"
+    "section": "Your turn: md-03-exercises",
+    "text": "Your turn: md-03-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 02-dplyr-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "slides/lec-03-transformation.html#take-a-break",
@@ -3546,7 +3546,7 @@
     "href": "slides/lec-03-transformation.html#our-turn-back-to-01-dplyr-our-turn.qmd",
     "title": "Data transformation with dplyr",
     "section": "Our turn: back to 01-dplyr-our-turn.qmd",
-    "text": "Our turn: back to 01-dplyr-our-turn.qmd\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 01-dplyr-our-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "text": "Our turn: back to 01-dplyr-our-turn.qmd\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 01-dplyr-our-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "slides/lec-03-transformation.html#take-a-break-1",
@@ -3556,11 +3556,11 @@
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
-    "objectID": "slides/lec-03-transformation.html#your-turn-md-03c-your-turn-summarise.qmd",
-    "href": "slides/lec-03-transformation.html#your-turn-md-03c-your-turn-summarise.qmd",
+    "objectID": "slides/lec-03-transformation.html#your-turn-md-03-exercises-1",
+    "href": "slides/lec-03-transformation.html#your-turn-md-03-exercises-1",
     "title": "Data transformation with dplyr",
-    "section": "Your turn: md-03c-your-turn-summarise.qmd",
-    "text": "Your turn: md-03c-your-turn-summarise.qmd\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nIn the File Manager in the bottom right window, locate the md-03c-your-turn-summarise.qmd file and click on it to open it in the top left window.\nFollow instructions in the file\n\n\n\n\n\n−+\n40:00"
+    "section": "Your turn: md-03-exercises",
+    "text": "Your turn: md-03-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-03-exercises.\nIn the File Manager in the bottom right window, locate the 03-dplyr-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n40:00"
   },
   {
     "objectID": "slides/lec-03-transformation.html#module-3-documentation",
@@ -3574,14 +3574,14 @@
     "href": "slides/lec-03-transformation.html#homework-due-date",
     "title": "Data transformation with dplyr",
     "section": "Homework due date",
-    "text": "Homework due date\n\nHomework assignment due: Monday, September 29th 2025\nCorrection & feedback phase up to: Thursday, October 2nd 2025\nQuiz due: Tuesday, October 8th 2025"
+    "text": "Homework due date\n\nHomework assignment due: Monday, September 29th 2025\nQuiz due: Tuesday, October 8th 2025"
   },
   {
     "objectID": "slides/lec-03-transformation.html#thanks",
     "href": "slides/lec-03-transformation.html#thanks",
     "title": "Data transformation with dplyr",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "slides/lec-05-communicate.html#we",
@@ -3896,7 +3896,7 @@
     "href": "slides/lec-08-quarto.html#your-turn-md-08-exercises",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Your turn: md-08-exercises",
-    "text": "Your turn: md-08-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nClick Start next to md-08-exercises.\nIn the File Manager in the bottom right window, locate the md-08-markdown-syntax.qmd file and click on it to open it in the top left window.\nUse the source editor mode\nFollow the instructions in the document, then exchange one new thing you’ve learned with your neighbor.\n\n\n\n\n\n−+\n15:00"
+    "text": "Your turn: md-08-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-08-exercises.\nIn the File Manager in the bottom right window, locate the markdown-syntax.qmd file and click on it to open it in the top left window.\nUse the source editor mode\nFollow the instructions in the document, then exchange one new thing you’ve learned with your neighbor.\n\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-08-quarto.html#take-a-break",
@@ -4001,7 +4001,7 @@
     "href": "slides/lec-08-quarto.html#our-turn-md-08-exercises",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Our turn: md-08-exercises",
-    "text": "Our turn: md-08-exercises\n\n\nOpen posit.cloud in your browser (use your bookmark).\nOpen the ds4owd workspace for the course.\nOpen md-08-exercises.\nIn the File Manager in the bottom right window, locate the scholarly-writing.qmd file and click on it to open it in the top left window.\nFollow along on the screen using the instructions in the document.\n\n\n\n\n\n−+\n15:00"
+    "text": "Our turn: md-08-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-08-exercises.\nIn the File Manager in the bottom right window, locate the scholarly-writing.qmd file and click on it to open it in the top left window.\nFollow along on the screen using the instructions in the document.\n\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "slides/lec-08-quarto.html#our-turn-md-08-publish-username",
@@ -4113,7 +4113,7 @@
     "href": "slides/lec-08-quarto.html#thanks",
     "title": "Creating and publishing scholarly articles with Quarto and GitHub pages",
     "section": "Thanks! 🌻",
-    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as PDF on GitHub"
+    "text": "Thanks! 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
     "objectID": "code_of_conduct.html",

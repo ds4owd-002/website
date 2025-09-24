@@ -796,7 +796,9 @@ readr::read_csv("../data/tbl-01-ds4owd-002-course-schedule.csv") |>
 
 ## Thanks! `r emo::ji("sunflower")`
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-07-pivoting-joining.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
+
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-07-pivoting-joining.pdf)
 
 # References
 
