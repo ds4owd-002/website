@@ -42,6 +42,7 @@ library(ggthemes)
 
 - Original due date: ~~September 25th~~
 - New due date: [October 2nd, 2025]{.highlight-yellow} (as for Quiz 2)
+- Quiz completion rate currently at ~40%
 - Extra week to complete the quiz
 
 :::
@@ -51,16 +52,11 @@ library(ggthemes)
 ### Submission verification
 
 - We've created a table for you to verify your quiz submission
-- Currently shows the latest export from this morning
 - Check if your submission has been recorded
-
-<https://github.com/ds4owd-dev/quiz_verification_table>
-
+- Link will be provided on course website after today's module
 :::
 
 ::::
-
-
 
 ## Learning Objectives (for this week)
 
@@ -172,7 +168,7 @@ filter(.data = gapminder,
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` [What do do with the data]{.highlight-yellow}
+-   Arguments following: `year == 2007` [What to do with the data]{.highlight-yellow}
 
 
 ## Functions & Arguments {auto-animate="true"}
@@ -187,7 +183,7 @@ filter(gapminder, year == 2007)
 ```
 
 -   Function: `filter()`
--   Argument: `.data =` [Does not need to be be spelled out]{.highlight-yellow}
+-   Argument: `.data =` [Does not need to be spelled out]{.highlight-yellow}
 -   Arguments following: `year == 2007` 
 
 ## Objects {auto-animate="true"}
@@ -400,7 +396,7 @@ sanitation_nigeria_urban_rural <- sanitation |>
 
 2.  Use the `aes()` function to map the year variable to the x-axis, the `percent` variable to the y-axis, and the `varname_short` variable to color and group aesthetic.
 
-3.  Use `facet_wrap()` to create a separate plot urban and rural populations.
+3.  Use `facet_wrap()` to create a separate plot for urban and rural populations.
 
 4.  Change the colors using `scale_color_colorblind()`.
 

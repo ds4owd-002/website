@@ -224,16 +224,16 @@ Lars Schöbitz
 <ul>
 <li>Original due date: <del>September 25th</del></li>
 <li>New due date: <span class="highlight-yellow">October 2nd, 2025</span> (as for Quiz 2)</li>
+<li>Quiz completion rate currently at ~40%</li>
 <li>Extra week to complete the quiz</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <h3 id="submission-verification">Submission verification</h3>
 <ul>
 <li>We’ve created a table for you to verify your quiz submission</li>
-<li>Currently shows the latest export from this morning</li>
 <li>Check if your submission has been recorded</li>
+<li>Link will be provided on course website after today’s module</li>
 </ul>
-<p><a href="https://github.com/ds4owd-dev/quiz_verification_table" class="uri">https://github.com/ds4owd-dev/quiz_verification_table</a></p>
 </div></div>
 </section>
 <section id="learning-objectives-for-this-week" class="slide level2">
@@ -338,7 +338,7 @@ Lars Schöbitz
 <ul>
 <li>Function: <code>filter()</code></li>
 <li>Argument: <code>.data =</code></li>
-<li>Arguments following: <code>year == 2007</code> <span class="highlight-yellow">What do do with the data</span></li>
+<li>Arguments following: <code>year == 2007</code> <span class="highlight-yellow">What to do with the data</span></li>
 </ul>
 </section>
 <section id="functions-arguments-1" class="slide level2" data-auto-animate="true">
@@ -350,7 +350,7 @@ Lars Schöbitz
 </div>
 <ul>
 <li>Function: <code>filter()</code></li>
-<li>Argument: <code>.data =</code> <span class="highlight-yellow">Does not need to be be spelled out</span></li>
+<li>Argument: <code>.data =</code> <span class="highlight-yellow">Does not need to be spelled out</span></li>
 <li>Arguments following: <code>year == 2007</code></li>
 </ul>
 </section>
@@ -592,11 +592,27 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_63739156" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_aa5598df" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
+</div>
+</section>
+<section id="take-a-break" class="slide level2">
+<h2>Take a break</h2>
+<p><span class="highlight-yellow">Please get up and move!</span></p>
+
+<img data-src="img/lec-03/get-up-and-move.png" style="width:50.0%" class="r-stretch"><div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_5a095430" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Image generated with <a href="https://openai.com/blog/dall-e/">DALL-E 3 by OpenAI</a></p>
 </div>
 </section>
 <section id="your-turn-md-03-exercises" class="slide level2">
@@ -611,27 +627,11 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_3d4ad636" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_25d2e599" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+<code class="countdown-time"><span class="countdown-digits minutes">25</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
-</div>
-</section>
-<section id="take-a-break" class="slide level2">
-<h2>Take a break</h2>
-<p><span class="highlight-yellow">Please get up and move!</span> Let your emails rest in peace.</p>
-
-<img data-src="img/lec-03/get-up-and-move.png" style="width:50.0%" class="r-stretch"><div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_733794c5" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-<div class="footer">
-<p>Image generated with <a href="https://openai.com/blog/dall-e/">DALL-E 3 by OpenAI</a></p>
 </div>
 </section>
 <section id="r-terminology" class="slide level2">
@@ -670,7 +670,7 @@ Lars Schöbitz
 <ol type="1">
 <li><p>Use the <code>ggplot()</code> function to create a connected scatterplot with <code>geom_point()</code> and <code>geom_line()</code> for the data you created in Task 1.2.</p></li>
 <li><p>Use the <code>aes()</code> function to map the year variable to the x-axis, the <code>percent</code> variable to the y-axis, and the <code>varname_short</code> variable to color and group aesthetic.</p></li>
-<li><p>Use <code>facet_wrap()</code> to create a separate plot urban and rural populations.</p></li>
+<li><p>Use <code>facet_wrap()</code> to create a separate plot for urban and rural populations.</p></li>
 <li><p>Change the colors using <code>scale_color_colorblind()</code>.</p></li>
 </ol>
 </div>
@@ -707,7 +707,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_d844cc47" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_3eca0e6d" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">30</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -716,13 +716,13 @@ Lars Schöbitz
 </section>
 <section id="take-a-break-1" class="slide level2">
 <h2>Take a break</h2>
-<p><span class="highlight-yellow">Please get up and move!</span> Let your emails rest in peace.</p>
+<p><span class="highlight-yellow">Please get up and move!</span></p>
 
 <img data-src="img/lec-03/get-up-and-move.png" style="width:50.0%" class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_a7025816" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_f33b1a90" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>
@@ -742,9 +742,9 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_ce71b457" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_aa089df9" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">40</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>

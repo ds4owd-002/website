@@ -70,7 +70,8 @@ Thank you for working through these assignments.
 
 ## {{< fa clipboard-question >}} Quiz
 
-[Due date:]{.highlight-yellow} `r quiz_due_date`
+[Due date:]{.highlight-yellow} ~~`r quiz_due_date`~~ 
+[Due date extended:]{.highlight-yellow} October 02, 2025 (as for Quiz 2)
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
