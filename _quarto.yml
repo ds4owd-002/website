@@ -50,6 +50,8 @@ website:
         text: Course Calendar
       - href: guide/index.qmd
         text: Guide
+      - href: quiz-checker.qmd
+        text: "Live Quiz Checker"
       - text: "---"
       - href: modules/md-00.qmd
         text: "Pre-Course Q&A"
