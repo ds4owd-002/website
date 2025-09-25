@@ -485,13 +485,13 @@ countdown(minutes = 10)
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
 
-## Your turn: md-04a-exercises - factors
+## Your turn: md-04-exercises
 
 ::: task
-1.  Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2.  Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3.  In the File Manager in the bottom right window, locate the [`md-04a-factors-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4.  Follow instructions in the file
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-04-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-04a-factors-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
@@ -654,13 +654,13 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 Sit back and enjoy!
 :::
 
-## Your turn: md-04a-exercises - import 
+## Your turn: md-04-exercises 
 
 ::: task
-1.  Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2.  Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3.  In the File Manager in the bottom right window, locate the [`md-04b-import-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4.  Follow instructions in the file
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-04-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-04b-import-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
@@ -747,12 +747,11 @@ knitr::include_graphics("img/lec-04/data-org-license.png")
 ## Homework due date
 
 -   Homework assignment due: [Monday, October 6th 2025]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, October 9th 2025
 
 # Wrap-up {background-color="#4C326A"}
 
 ## Thanks! `r emo::ji("sunflower")`
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-04-spreadsheets.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-04-spreadsheets.pdf)

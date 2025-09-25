@@ -399,10 +399,10 @@ Ordered list:
 ## Your turn: md-08-exercises
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-08-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-08-markdown-syntax.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`markdown-syntax.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 5. Use the [source editor]{.highlight-yellow} mode
 6. Follow the instructions in the document, then exchange one new thing you've learned with your neighbor.
 
@@ -646,9 +646,9 @@ Quarto provides a rich set of YAML metadata keys to describe the details require
 ## Our turn: md-08-exercises 
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3. Open [md-08-exercises]{.highlight-yellow}.
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-08-exercises]{.highlight-yellow}.
 4. In the File Manager in the bottom right window, locate the [`scholarly-writing.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 5. Follow along on the screen using the instructions in the document.
 :::
@@ -797,4 +797,6 @@ Content was re-used from a workshop hosted by [Mine Çetinkaya-Rundel](https://m
 
 ## Thanks! `r emo::ji("sunflower")`
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-08-quarto.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
+
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-08-quarto.pdf)

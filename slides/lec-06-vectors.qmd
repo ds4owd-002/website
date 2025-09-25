@@ -237,13 +237,13 @@ ggplot(penguins, aes(x = species, fill = species)) +
 
 ```
 
-## Your turn: md-06-exercises - cross-references
+## Your turn: md-06-exercises
 
 ::: task
-1.  Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2.  Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3.  In the File Manager in the bottom right window, locate the [`md-06a-cross-references.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4.  Follow instructions in the file
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-06-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-06a-cref-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
@@ -426,13 +426,13 @@ countdown(minutes = 10)
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
 
-## Your turn: md-06-exercises - types
+## Your turn: md-06-exercises
 
 ::: task
-1.  Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2.  Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3.  In the File Manager in the bottom right window, locate the [`md-06b-types-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4.  Follow instructions in the file
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-06-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-06b-types-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
@@ -665,8 +665,8 @@ ggplot(data = waste_data_tidy,
 
 ## Thanks! `r emo::ji("sunflower")`
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-06-vectors.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-06-vectors.pdf)
 
 ## References

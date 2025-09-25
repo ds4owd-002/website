@@ -32,6 +32,32 @@ library(epoxy)
 library(ggthemes)
 ```
 
+## Quiz Module 1
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Due date extended!
+
+- Original due date: ~~September 25th~~
+- New due date: [October 2nd, 2025]{.highlight-yellow} (as for Quiz 2)
+- Quiz completion rate currently at ~40%
+- Extra week to complete the quiz
+
+:::
+
+::: {.column width="50%"}
+
+### Submission verification
+
+- We've created a table for you to verify your quiz submission
+- Check if your submission has been recorded
+- Link will be provided on course website after today's module
+:::
+
+::::
+
 ## Learning Objectives (for this week)
 
 ```{r}
@@ -82,17 +108,50 @@ knitr::include_graphics("img/lec-03/dplyr-part-of-tidyverse.png")
 Slide taken from [Data Science in a Box](https://datasciencebox.org/)
 :::
 
-## dplyr rules
+# R fundamentals {background-color="#4C326A"}
 
-Rules of `dplyr` functions:
+## Packages {auto-animate="true"}
 
-::: {.incremental}
+::: incremental
+::: columns
+::: {.column width="40%"}
+**base R**
 
-- First argument is always a data frame
-- Subsequent arguments say what to do with that data frame
-- Always return a data frame  
-- Don't modify in place 
+```{r}
+#| eval: false
+#| echo: true
+sqrt(49)
+sum(1, 2)
+```
 
+-   Functions come with R
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+**R Packages**
+
+```{r}
+#| eval: false
+#| echo: true
+library(dplyr)
+
+```
+
+-   Installed once in the Console: `install.packages("dplyr")`
+-   Loaded per script
+:::
+:::
+:::
+
+::: notes
+Packages
+
+-   Main way that reusable code is shared in R
+-   Combination of code, data, and documentation
+-   R has a rich ecosystem of packages for data manipulation & analysis
 :::
 
 ## Functions & Arguments {auto-animate="true"}
@@ -111,6 +170,22 @@ filter(.data = gapminder,
 -   Argument: `.data =`
 -   Arguments following: `year == 2007` [What to do with the data]{.highlight-yellow}
 
+
+## Functions & Arguments {auto-animate="true"}
+
+```{r}
+#| code-line-numbers: "3"
+#| eval: false
+#| echo: true
+library(dplyr)
+
+filter(gapminder, year == 2007)
+```
+
+-   Function: `filter()`
+-   Argument: `.data =` [Does not need to be spelled out]{.highlight-yellow}
+-   Arguments following: `year == 2007` 
+
 ## Objects {auto-animate="true"}
 
 ```{r}
@@ -119,14 +194,15 @@ filter(.data = gapminder,
 #| echo: true
 library(dplyr)
 
-gapminder_2007 <- filter(.data = gapminder, 
-                            year == 2007)
+gapminder_2007 <- filter(gapminder, year == 2007)
 ```
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` [What to do with the data]{.highlight-yellow}
--   Data (Object): `gapminder_2007`
+-   Arguments following: `year == 2007` 
+-   Assignment operator: `<-` [Assigns the result to an object]{.highlight-yellow} 
+-   Object: `gapminder_2007` [Name of the object that stores result]{.highlight-yellow}
+
 
 ## Operators {auto-animate="true"}
 
@@ -142,10 +218,21 @@ gapminder_2007 <- gapminder |>
 
 -   Function: `filter()`
 -   Argument: `.data =`
--   Arguments following: `year == 2007` [What to do with the data]{.highlight-yellow}
--   Data (Object): `gapminder_2007`
+-   Arguments following: `year == 2007`
+-   Object: `gapminder_2007`
 -   Assignment operator: `<-`
--   Pipe operator: `|>`
+-   Pipe operator: `|>` [Passes the result into the first argument of the next function]{.highlight-yellow}
+
+## Rules
+
+Rules of `dplyr` functions:
+
+::: incremental
+-   First argument is always a data frame
+-   Subsequent arguments say what to do with that data frame
+-   Always return a data frame\
+-   Don't modify in place
+:::
 
 ## Plot {auto-animate="true" .smaller}
 
@@ -160,7 +247,7 @@ library(dplyr)
 
 gapminder_2007 <- gapminder |> 
   filter(year == 2007) 
-
+  
 ggplot(data = gapminder_2007,
        mapping = aes(x = continent,
                      y = lifeExp,
@@ -174,7 +261,7 @@ ggplot(data = gapminder_2007,
 
 ```{r}
 
-sanitation <- read_csv("https://raw.githubusercontent.com/ds4owd/md-03-exercises/master/data/jmp_wld_sanitation_long.csv")
+sanitation <- read_csv("https://raw.githubusercontent.com/ds4owd-dev/md-03-exercises/master/data/jmp_wld_sanitation_long.csv")
 
 ```
 
@@ -233,30 +320,18 @@ sanitation |>
 ## Our turn: md-03-exercises
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-03-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-03a-data-transformation.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`01-dplyr-our-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 ```{r}
 countdown(15)
 ```
 
-## Your turn: md-03b-your-turn-filter.qmd
-
-::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3. In the File Manager in the bottom right window, locate the [`md-03b-your-turn-filter.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4. Follow instructions in the file
-:::
-```{r}
-countdown(20)
-```
-
 ## Take a break
 
-[Please get up and move!]{.highlight-yellow} Let your emails rest in peace.
+[Please get up and move!]{.highlight-yellow} 
 
 ![](img/lec-03/get-up-and-move.png){width="50%"}
 
@@ -267,6 +342,18 @@ countdown(minutes = 10)
 ::: footer
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
+
+## Your turn: md-03-exercises
+
+::: task
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-03-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`02-dplyr-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+:::
+```{r}
+countdown(25)
+```
 
 ## R Terminology
 
@@ -309,7 +396,7 @@ sanitation_nigeria_urban_rural <- sanitation |>
 
 2.  Use the `aes()` function to map the year variable to the x-axis, the `percent` variable to the y-axis, and the `varname_short` variable to color and group aesthetic.
 
-3.  Use `facet_wrap()` to create a separate plot urban and rural populations.
+3.  Use `facet_wrap()` to create a separate plot for urban and rural populations.
 
 4.  Change the colors using `scale_color_colorblind()`.
 
@@ -332,13 +419,13 @@ ggplot(data = sanitation_nigeria_urban_rural,
   scale_color_colorblind() 
 ```
 
-## Our turn: back to md-03a-data-transformation.qmd
+## Our turn: back to 01-dplyr-our-turn.qmd
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-03-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-03a-data-transformation.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`01-dplyr-our-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 ```{r}
 countdown(30)
@@ -346,28 +433,28 @@ countdown(30)
 
 ## Take a break
 
-[Please get up and move!]{.highlight-yellow} Let your emails rest in peace.
+[Please get up and move!]{.highlight-yellow} 
 
 ![](img/lec-03/get-up-and-move.png){width="50%"}
 
 ```{r}
-countdown(minutes = 10)
+countdown(minutes = 5)
 ```
 
 ::: footer
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
 
-## Your turn: md-03c-your-turn-summarise.qmd
+## Your turn: md-03-exercises
 
 ::: task
-1. Open [posit.cloud](https://posit.cloud) in your browser (use your bookmark).
-2. Open the [ds4owd workspace]{.highlight-yellow} for the course.
-3. In the File Manager in the bottom right window, locate the [`md-03c-your-turn-summarise.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
-4. Follow instructions in the file
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-03-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`03-dplyr-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 ```{r}
-countdown(40)
+countdown(20)
 ```
 
 # Homework assignments module 3 {background-color="#4C326A"}
@@ -385,12 +472,12 @@ countdown(40)
 ## Homework due date
 
 -   Homework assignment due: [Monday, September 29th 2025]{.highlight-yellow}
--   Correction & feedback phase up to: Thursday, October 2nd 2025 
+-   Quiz due: [Tuesday, October 8th 2025]{.highlight-yellow} 
 
 # Wrap-up {background-color="#4C326A"}
 
-## Thanks! `r emo::ji("sunflower")` 
+## Thanks! `r emo::ji("sunflower")`
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-03-transformation.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/slides/lec-03-transformation.pdf)
