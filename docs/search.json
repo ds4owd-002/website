@@ -3455,28 +3455,28 @@
     "href": "slides/lec-03-transformation.html#functions-arguments",
     "title": "Data transformation with dplyr",
     "section": "Functions & Arguments",
-    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(.data = gapminder, \n       year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What to do with the data"
+    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(.data = gapminder, \n       year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What do do with the data"
   },
   {
     "objectID": "slides/lec-03-transformation.html#objects",
     "href": "slides/lec-03-transformation.html#objects",
     "title": "Data transformation with dplyr",
     "section": "Objects",
-    "text": "Objects\n\nlibrary(dplyr)\n\ngapminder_2007 &lt;- filter(.data = gapminder, \n                            year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What to do with the data\nData (Object): gapminder_2007"
+    "text": "Objects\n\nlibrary(dplyr)\n\ngapminder_2007 &lt;- filter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007\nAssignment operator: &lt;- Assigns the result to an object\nObject: gapminder_2007 Name of the object that stores result"
   },
   {
     "objectID": "slides/lec-03-transformation.html#operators",
     "href": "slides/lec-03-transformation.html#operators",
     "title": "Data transformation with dplyr",
     "section": "Operators",
-    "text": "Operators\n\nlibrary(dplyr)\n\ngapminder_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007 What to do with the data\nData (Object): gapminder_2007\nAssignment operator: &lt;-\nPipe operator: |&gt;"
+    "text": "Operators\n\nlibrary(dplyr)\n\ngapminder_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\n\nFunction: filter()\nArgument: .data =\nArguments following: year == 2007\nObject: gapminder_2007\nAssignment operator: &lt;-\nPipe operator: |&gt; Passes the result into the first argument of the next function"
   },
   {
     "objectID": "slides/lec-03-transformation.html#plot",
     "href": "slides/lec-03-transformation.html#plot",
     "title": "Data transformation with dplyr",
     "section": "Plot",
-    "text": "Plot\n\nlibrary(dplyr)\n\ngapminder_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n\nggplot(data = gapminder_2007,\n       mapping = aes(x = continent,\n                     y = lifeExp,\n                     fill = continent)) +\n  geom_boxplot(outlier.shape = NA)"
+    "text": "Plot\n\nlibrary(dplyr)\n\ngapminder_2007 &lt;- gapminder |&gt; \n  filter(year == 2007) \n  \nggplot(data = gapminder_2007,\n       mapping = aes(x = continent,\n                     y = lifeExp,\n                     fill = continent)) +\n  geom_boxplot(outlier.shape = NA)"
   },
   {
     "objectID": "slides/lec-03-transformation.html#data",
@@ -4714,5 +4714,33 @@
     "title": "CLAUDE.md",
     "section": "",
     "text": "Highlighting: Use [text]{.highlight-yellow} or [text]{.highlight-peach} to draw attention to specific UI elements, buttons, or important text\nScreenshots: Include descriptive images with {width=100%} for full-width display\nIcons: Use Font Awesome icons (e.g., ) for visual cues\n\n\n\n\n\nClear numbering: Use numbered lists for sequential steps\nAction-oriented language: Start with verbs (Click, Open, Navigate, Enter, Select)\nVisual references: Include what learners will see in brackets with highlighting\nContextual information: Provide the “why” when needed, but keep it brief\nProgressive disclosure: Reduce detail level as course progresses (explicitly noted in module 2+)\n\n\n\n\n\nNavigation: “Open [URL] in your browser” → “Navigate to…” → “Find the repository…”\nUI interactions: “Click on the Button Name button”\nForm fields: “In the Field Name field, enter…”\nVerification: “You can verify… by looking at…”\nSuccess indicators: “If you see…, then you have successfully…”\n\n\n\n\n\nCallout boxes for different purposes:\n\n{.callout-tip}: Optional information or helpful hints\n{.callout-important}: Critical information learners must know\n{.callout-warning}: Common pitfalls or issues to avoid\n{.callout-note}: Additional context or explanations\n\nTroubleshooting: Include “If you cannot…” sections with solutions\nSupport channels: Provide email links with pre-filled subjects for specific help\n\n\n\n\n\nRepository references: Always use USERNAME placeholder with clear substitution instructions\nAuthentication steps: Detailed PAT creation and usage with security warnings\nCommit process: Explicit staging → commit message → push sequence\nIssue creation: Structured format with instructor tagging (@seawaR @massarin @larnsce)\n\n\n\n\n\nModule 1: Extensive screenshots, detailed explanations, complete step-by-step guidance\nModule 2+: Reduced screenshots, assumes familiarity with basic operations, includes notes about reduced detail\nCross-references: Link back to earlier modules for detailed instructions when needed\n\n\n\n\n\nPAT storage: Explicit warnings against Word documents, recommend text files or password managers\nCredential handling: Clear distinction between GitHub password and PAT\nError prevention: Proactive warnings about common issues (spaces in PAT, wrong workspace)"
+  },
+  {
+    "objectID": "slides/lec-03-transformation.html#quiz-module-1",
+    "href": "slides/lec-03-transformation.html#quiz-module-1",
+    "title": "Data transformation with dplyr",
+    "section": "Quiz Module 1",
+    "text": "Quiz Module 1\n\n\nDue date extended!\n\nOriginal due date: September 25th\nNew due date: October 2nd, 2025 (as for Quiz 2)\nExtra week to complete the quiz\n\n\nSubmission verification\n\nWe’ve created a table for you to verify your quiz submission\nCurrently shows the latest export from this morning\nCheck if your submission has been recorded\n\nhttps://github.com/ds4owd-dev/quiz_verification_table"
+  },
+  {
+    "objectID": "slides/lec-03-transformation.html#packages",
+    "href": "slides/lec-03-transformation.html#packages",
+    "title": "Data transformation with dplyr",
+    "section": "Packages",
+    "text": "Packages\n\n\nbase R\n\nsqrt(49)\nsum(1, 2)\n\n\nFunctions come with R\n\n\n\n\nR Packages\n\nlibrary(dplyr)\n\n\nInstalled once in the Console: install.packages(\"dplyr\")\nLoaded per script\n\n\n\nPackages\n\nMain way that reusable code is shared in R\nCombination of code, data, and documentation\nR has a rich ecosystem of packages for data manipulation & analysis"
+  },
+  {
+    "objectID": "slides/lec-03-transformation.html#functions-arguments-1",
+    "href": "slides/lec-03-transformation.html#functions-arguments-1",
+    "title": "Data transformation with dplyr",
+    "section": "Functions & Arguments",
+    "text": "Functions & Arguments\n\nlibrary(dplyr)\n\nfilter(gapminder, year == 2007)\n\n\nFunction: filter()\nArgument: .data = Does not need to be be spelled out\nArguments following: year == 2007"
+  },
+  {
+    "objectID": "slides/lec-03-transformation.html#rules",
+    "href": "slides/lec-03-transformation.html#rules",
+    "title": "Data transformation with dplyr",
+    "section": "Rules",
+    "text": "Rules\nRules of dplyr functions:\n\nFirst argument is always a data frame\nSubsequent arguments say what to do with that data frame\nAlways return a data frame\n\nDon’t modify in place"
   }
 ]
