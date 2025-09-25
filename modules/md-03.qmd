@@ -63,12 +63,18 @@ Thank you for working through this assignment.
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
-[Quiz in preparation]{.highlight-yellow}
+Access the quiz here: <https://u4x6xe-lars-sch0bitz.shinyapps.io/ds4owd-002-quiz/>
+
+You can verify your submissions using our [Live Quiz Checker](../quiz-checker.qmd).
 
 ## {{< fa video >}} Session Recording
 
 You can access the Zoom recording of Module 3 on `r session_date`. To watch the recording, you will need to register for it. 
 
-Register for the recording at this link: [provided after the session]{.highlight-yellow} 
+Register for the recording at this link: <https://ethz.zoom.us/rec/share/OqFP-AjAHoFLU3K_dXpGg3WKY0ZduktHQ_1sMDaCsSrmUPmu1QyH2upvadeGOBWc.JWrsSNEI4C6lpb9L>
+
+[Note: The video will show once the recording has been processed.]{.highlight-yellow}
+
+
 
 **Note: The video link will be shared once the recording is available.**

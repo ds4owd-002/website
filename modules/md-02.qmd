@@ -73,6 +73,8 @@ Complete this quiz after you have worked through the assignments. Completing the
 
 Access the quiz here: <https://u4x6xe-lars-sch0bitz.shinyapps.io/ds4owd-002-quiz/>
 
+You can verify your submissions using our [Live Quiz Checker](../quiz-checker.qmd).
+
 ## {{< fa video >}} Session Recording
 
 You can access the Zoom recording of Module 2 on `r session_date`. To watch the recording, you will need to register for it. 
