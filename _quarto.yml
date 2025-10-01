@@ -90,8 +90,8 @@ website:
       - section: "Module 04"
         href: content/modules/md-04.qmd
         contents:
-          - href: content/assignments/md-04/am-04-1-reading.qmd
-            text: "am-01: Data organization"
+          - href: content/assignments/md-04/am-04-1-data.qmd
+            text: "am-01: Data assessment"
       - section: "Module 05"
         href: content/modules/md-05.qmd
         contents:
