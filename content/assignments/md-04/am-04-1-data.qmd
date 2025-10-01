@@ -87,11 +87,33 @@ If your data contains sensitive information, consider these strategies:
 If you are uncertain whether specific variables or observations can be shared publicly, it's better to exclude them or aggregate to a higher level. Remember: once data is published online, it cannot be unpublished.
 :::
 
-## Task 4: Document your assessment
+## Task 4: Clone your module 4 assignments repository
 
-Create a document (Word, Google Docs, or text file) that includes:
+1. Open <https://github.com/> in your browser.
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+3. Find the repository `md-04-assignments-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+   - Replace `USERNAME` with your actual GitHub username.
+   - For example, if your username is `rainbow-train`, the repository will be `md-04-assignments-rainbow-train`.
 
-### For each dataset you're considering:
+::: {.callout-tip}
+You can search for your repository by typing your username in the search bar just below the Repository heading.
+:::
+
+4. Click on the green [Code]{.highlight-yellow} button.
+5. Copy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.
+6. Open the [Content]{.highlight-yellow} tab of the ds4owd-002 workspace on Posit Cloud: [{{< var platforms.posit-cloud >}}/content/all?sort=name_asc]({{< var platforms.posit-cloud >}}/content/all?sort=name_asc)
+7. Click the blue button [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
+8. Paste the HTTPS URL from GitHub into the [URL of your Git Repository]{.highlight-yellow} field and click [OK]{.highlight-yellow}.
+9. Wait until the project is deployed. This may take a few minutes, depending on your internet connection.
+
+## Task 5: Document your data assessment
+
+1. Open the file `data-assessment.qmd` in your cloned repository.
+2. Follow the instructions in the template to document your data assessment.
+
+The template will guide you through documenting:
+
+### For each dataset you're considering (1-2 datasets):
 
 1. **Dataset name and source**: What is it called and where does it come from?
 
@@ -123,13 +145,50 @@ Create a document (Word, Google Docs, or text file) that includes:
 
 After assessing all options, indicate which dataset you plan to use for your capstone project and explain why you chose it.
 
+::: {.callout-tip}
+## Questions? Ask on Element Chat
+
+If you have questions about whether your data is suitable for public sharing, or if you need help determining what modifications are needed, please ask on our Element Chat. We're happy to help you assess your data privacy considerations.
+:::
+
+## Task 6: Commit and push your changes
+
+1. Navigate to the Git pane in the top-right window of RStudio
+2. Check the box next to all files to stage them for a commit
+3. Click on the [Commit]{.highlight-yellow} button. A new window opens.
+4. Enter a commit message in the [Commit message]{.highlight-yellow} field in the top right corner. For example: `completed data assessment`
+5. Click on the [Commit]{.highlight-yellow} button
+6. If you see a message that confirms your commit, click on [Close]{.highlight-yellow}.
+7. Click on the [Push]{.highlight-yellow} button in the top right corner.
+8. Enter your GitHub username and click OK
+9. Enter your GitHub Personal Access Token (PAT) in the field and click OK.
+
+If you see a message that says `HEAD -> main`, then you have successfully pushed your changes to the remote repository on GitHub. Click Close.
+
+::: {.callout-important}
+## Do not use your GitHub password
+
+You need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.
+:::
+
+## Task 7: Open an issue on GitHub
+
+1. Open <https://github.com/> in your browser.
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+3. Find the repository `md-04-assignments-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+4. You can verify here that your changes have been pushed to the remote repository by looking at the text next to the `data-assessment.qmd` file. It should display the commit message you entered in the previous step.
+5. Click on the [Issues]{.highlight-yellow} tab.
+6. Click on the green [New issue]{.highlight-yellow} button.
+7. In the [Title]{.highlight-yellow} field write: [Completed data assessment for capstone project]{.highlight-yellow}.
+8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and briefly mention which dataset you selected.
+9. Scroll down the page and click the green [Create]{.highlight-yellow} button.
 
 ::: {.callout-note}
 ## What comes next?
 
 In Module 5, after your data has been reviewed and approved by instructors, you will:
 
-- Create a GitHub repository for your project
+- Create a GitHub repository for your capstone project
 - Upload your prepared data
 - Begin exploratory data analysis
 - Start your journey toward creating an openwashdata R package
