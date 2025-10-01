@@ -955,10 +955,10 @@ You're not expected to remember or fully understand everything right now. This i
 ## Module 1 documentation
 
 ::: learn-more
-[{{< var course.site-short >../modules/md-01.html]({{< var course.site >}}modules/md-01.html)
+[{{< var course.site-short >}}/modules/md-01.html]({{< var course.site >}}/modules/md-01.html)
 
 ```{=html}
-<iframe src="{{< var course.site >}}modules/md-01.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 1 documentation"></iframe>
+<iframe src="{{< var course.site >}}/modules/md-01.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 1 documentation"></iframe>
 ```
 :::
 
