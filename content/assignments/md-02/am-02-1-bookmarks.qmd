@@ -226,7 +226,7 @@ You can search for your repository by typing your username in the search bar jus
    - Add a brief message like: "I have set up my bookmarks folder for ds4owd-002 with all essential course links."
    - Tag the course instructors `@seawaR` `@massarin` `@larnsce`.
 
-8. Scroll down the page a bit and click the green [Submit new issue]{.highlight-yellow} button.
+8. Scroll down the page a bit and click the green [Create]{.highlight-yellow} button.
 
 Congratulations! You have successfully organized your bookmarks and documented your setup.
 

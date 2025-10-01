@@ -1659,7 +1659,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-7-open-an-issue-on-github",
     "title": "Documentation for your capstone project",
     "section": "Step 7: Open an issue on GitHub",
-    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -1677,15 +1677,81 @@
     ]
   },
   {
-    "objectID": "content/assignments/md-04/am-04-1-reading.html",
-    "href": "content/assignments/md-04/am-04-1-reading.html",
+    "objectID": "content/assignments/md-04/am-04-1-data.html",
+    "href": "content/assignments/md-04/am-04-1-data.html",
     "title": "Module 4 - Assignment 1",
     "section": "",
-    "text": "Assignment in preparation\n\n\n\nThis assignment is currently being prepared and is not yet available. Please check back later for the full assignment details.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data organization"
-    ]
+    "text": "The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that all capstone projects will be published openly, including both the data and the code. This aligns with our commitment to open science and the openwashdata community’s mission.\nAfter the course, we plan to support participants in packaging their data following the openwashdata workflow to create R data packages that can be shared with the wider community.\nThis assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#introduction",
+    "href": "content/assignments/md-04/am-04-1-data.html#introduction",
+    "title": "Module 4 - Assignment 1",
+    "section": "",
+    "text": "The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that all capstone projects will be published openly, including both the data and the code. This aligns with our commitment to open science and the openwashdata community’s mission.\nAfter the course, we plan to support participants in packaging their data following the openwashdata workflow to create R data packages that can be shared with the wider community.\nThis assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#learning-objectives",
+    "href": "content/assignments/md-04/am-04-1-data.html#learning-objectives",
+    "title": "Module 4 - Assignment 1",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy completing this assignment, you will be able to:\n\nIdentify appropriate datasets for open science projects\nAssess data for privacy and sensitivity concerns\nUnderstand how to prepare sensitive data for public sharing\nDescribe data characteristics and analysis goals"
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-1-read-and-understand-data-sharing-principles",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-1-read-and-understand-data-sharing-principles",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 1: Read and understand data sharing principles",
+    "text": "Task 1: Read and understand data sharing principles\nOpen by default: All data and code from your capstone project will be published publicly on GitHub. This is a requirement for completing the course.\nPrivacy first: Personal information, GPS coordinates, and other identifying information must be removed or aggregated before sharing."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-2-identify-potential-datasets",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-2-identify-potential-datasets",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 2: Identify potential datasets",
+    "text": "Task 2: Identify potential datasets\nIdentify 1-2 datasets that you might use for your capstone project. For each dataset, consider:\n\nData you have access to\n\nData from your work or research\nData you have collected\nData from your organization (with permission to share)\nPublic datasets you want to explore further\n\n\n\nData format\nYour data should be in one of these formats:\n\nCSV (comma-separated values)\nExcel (.xlsx or .xls)\nJSON"
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-3-assess-data-suitability-for-public-sharing",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-3-assess-data-suitability-for-public-sharing",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 3: Assess data suitability for public sharing",
+    "text": "Task 3: Assess data suitability for public sharing\nFor each dataset you identified, complete the following assessment:\n\nIs this data suitable for public sharing?\nAsk yourself these questions:\n\nPersonal identifiers: Does the data contain names, addresses, phone numbers, email addresses, or other information that could identify specific individuals?\nGPS coordinates: Does the data include exact GPS coordinates or precise locations that could identify households or individuals?\nSensitive information: Does the data include:\n\nHealth information\nFinancial information\nInformation about vulnerable populations\nProprietary or confidential business information\n\nPermissions: Do you have permission from your organization or the data owner to share this data publicly?\n\n\n\nMaking sensitive data suitable for sharing\nIf your data contains sensitive information, consider these strategies:\n\nRemoving sensitive variables\n\nDelete columns containing personal identifiers (names, IDs, phone numbers)\nRemove GPS coordinates or replace with general location information (e.g., district name instead of exact coordinates)\nRemove or aggregate variables that could be used to identify individuals when combined\n\n\n\nUsing a subset of data\n\nSelect only the variables (columns) needed for your analysis\nAggregate data to a higher level (e.g., village-level instead of household-level)\n\n\n\n\n\n\n\nWhen in doubt, aggregate or exclude\n\n\n\nIf you are uncertain whether specific variables or observations can be shared publicly, it’s better to exclude them or aggregate to a higher level. Remember: once data is published online, it cannot be unpublished."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-4-clone-your-module-4-assignments-repository",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-4-clone-your-module-4-assignments-repository",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 4: Clone your module 4 assignments repository",
+    "text": "Task 4: Clone your module 4 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-04-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is rainbow-train, the repository will be md-04-assignments-rainbow-train.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-5-document-your-data-assessment",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-5-document-your-data-assessment",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 5: Document your data assessment",
+    "text": "Task 5: Document your data assessment\n\nOpen the file data-assessment.qmd in your cloned repository.\nFollow the instructions in the template to document your data assessment.\n\nThe template will guide you through documenting:\n\nFor each dataset you’re considering (1-2 datasets):\n\nDataset name and source: What is it called and where does it come from?\nDescription: What does this data contain? (1-2 paragraphs)\nSize and scope:\n\nHow many observations (rows)?\nHow many variables (columns)?\nWhat time period does it cover?\n\nPrivacy assessment:\n\nDoes it contain personal identifiers? If yes, which ones?\nDoes it contain GPS coordinates?\nDoes it contain other sensitive information?\nCan you share it as-is, or does it need modification?\n\nRequired modifications (if any):\n\nWhich variables need to be removed?\nDo you need to use a subset of the data?\nDo any variables need to be aggregated or anonymized?\n\nAnalysis goals: What questions do you want to answer with this data? (2-3 sentences)\nPermission to share:\n\nDo you have permission to share this data publicly?\nIf it’s from your organization, have you confirmed you can share it?\n\n\n\n\nSelect your preferred dataset\nAfter assessing all options, indicate which dataset you plan to use for your capstone project and explain why you chose it.\n\n\n\n\n\n\nQuestions? Ask on Element Chat\n\n\n\nIf you have questions about whether your data is suitable for public sharing, or if you need help determining what modifications are needed, please ask on our Element Chat. We’re happy to help you assess your data privacy considerations."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-6-commit-and-push-your-changes",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-6-commit-and-push-your-changes",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 6: Commit and push your changes",
+    "text": "Task 6: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data assessment\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close.\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub."
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-7-open-an-issue-on-github",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-7-open-an-issue-on-github",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 7: Open an issue on GitHub",
+    "text": "Task 7: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-04-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the data-assessment.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed data assessment for capstone project.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and briefly mention which dataset you selected.\nScroll down the page and click the green Create button.\n\n\n\n\n\n\n\nWhat comes next?\n\n\n\nIn Module 5, after your data has been reviewed and approved by instructors, you will:\n\nCreate a GitHub repository for your capstone project\nUpload your prepared data\nBegin exploratory data analysis\nStart your journey toward creating an openwashdata R package"
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#references",
+    "href": "content/assignments/md-04/am-04-1-data.html#references",
+    "title": "Module 4 - Assignment 1",
+    "section": "References",
+    "text": "References"
   },
   {
     "objectID": "content/assignments/md-03/am-03-1-data-transformation.html",
@@ -1725,7 +1791,7 @@
     "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
     "title": "Data transformation with dplyr",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the 01-penguins.qmd and 02-visualize.qmd files. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 3 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. 01-penguins.qmd 2. 02-visualize.qmd\nIf you have only completed 01-penguins.qmd, please return to Posit Cloud and complete 02-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data transformation assignment and are now ready for the next module.",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the 01-penguins.qmd and 02-visualize.qmd files. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 3 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. 01-penguins.qmd 2. 02-visualize.qmd\nIf you have only completed 01-penguins.qmd, please return to Posit Cloud and complete 02-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data transformation assignment and are now ready for the next module.",
     "crumbs": [
       "Module 03",
       "am-01: Data transformation"
@@ -1802,7 +1868,7 @@
     "href": "content/assignments/md-02/am-02-1-bookmarks.html#step-5-open-issue-on-github",
     "title": "Support yourself with bookmarks",
     "section": "Step 5: Open issue on GitHub",
-    "text": "Step 5: Open issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Bookmarks setup completed.\nIn the Leave a comment field:\n\nDrag and drop your screenshot from Step 4 into the comment field, or click Attach files by dragging & dropping.\nAdd a brief message like: “I have set up my bookmarks folder for ds4owd-002 with all essential course links.”\nTag the course instructors @seawaR @massarin @larnsce.\n\nScroll down the page a bit and click the green Submit new issue button.\n\nCongratulations! You have successfully organized your bookmarks and documented your setup.",
+    "text": "Step 5: Open issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Bookmarks setup completed.\nIn the Leave a comment field:\n\nDrag and drop your screenshot from Step 4 into the comment field, or click Attach files by dragging & dropping.\nAdd a brief message like: “I have set up my bookmarks folder for ds4owd-002 with all essential course links.”\nTag the course instructors @seawaR @massarin @larnsce.\n\nScroll down the page a bit and click the green Create button.\n\nCongratulations! You have successfully organized your bookmarks and documented your setup.",
     "crumbs": [
       "Module 02",
       "am-02-1: Bookmarks"
@@ -2033,7 +2099,7 @@
     "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
     "title": "Data visualisation with ggplot2",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-02a-boxplot.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 2 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. md-02a-boxplot.qmd 2. md-02b-visualize.qmd\nIf you have only completed md-02a-boxplot.qmd, please return to Posit Cloud and complete md-02b-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data visualization assignment and are now ready for the next module.",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-02a-boxplot.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 2 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. md-02a-boxplot.qmd 2. md-02b-visualize.qmd\nIf you have only completed md-02a-boxplot.qmd, please return to Posit Cloud and complete md-02b-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data visualization assignment and are now ready for the next module.",
     "crumbs": [
       "Module 02",
       "am-02-2: Data visualization"
@@ -2099,7 +2165,7 @@
     "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
     "title": "Create a spreadsheet",
     "section": "Step 5: Open an issue on GitHub",
-    "text": "Step 5: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository samples-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the uploaded XLSX file in your repository.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Create spreadsheet and upload to cloud.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Submit new issue button.\n\nCongratulations! You have successfully created a spreadsheet, uploaded it to GitHub, and completed this assignment.",
+    "text": "Step 5: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository samples-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the uploaded XLSX file in your repository.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Create spreadsheet and upload to cloud.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\nCongratulations! You have successfully created a spreadsheet, uploaded it to GitHub, and completed this assignment.",
     "crumbs": [
       "Module 03",
       "am-02: Spreadsheet"
@@ -2187,7 +2253,7 @@
     "href": "content/assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
     "title": "Data for your capstone project",
     "section": "Step 6: Open an issue on GitHub",
-    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
     "crumbs": [
       "Module 05",
       "am-01: Project data"
@@ -2231,7 +2297,7 @@
     "href": "content/assignments/md-07/am-07-1-pivoting.html#step-3-open-an-issue-on-github",
     "title": "Data pivoting",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
