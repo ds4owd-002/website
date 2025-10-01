@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!CLAUDE.md"
 
 metadata-files:
   - _variables.yml

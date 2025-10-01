@@ -12,6 +12,34 @@ Ready to join the course? Sign up here: https://ee-eu.kobotoolbox.org/x/7V3qeDYD
 
 **Course dates:** September 11 - December 4, 2025
 
+## Development Setup
+
+This project uses [renv](https://rstudio.github.io/renv/) for R package management to ensure reproducible environments.
+
+### Setting up the R environment
+
+1. Clone the repository
+2. Open R/RStudio in the project directory
+3. Run `renv::restore()` to install all required R packages
+
+This will automatically install all packages specified in `renv.lock` into a project-local library.
+
+### Building the website
+
+```bash
+# Render entire website
+quarto render
+
+# Preview with live reload
+quarto preview
+```
+
+### Package management
+
+- Add new packages: `renv::install("package_name")`
+- Update lockfile: `renv::snapshot()`
+- Restore environment: `renv::restore()`
+
 ## Attribution
 
 The layout of the website and naming convention are based on [STA 210 at Duke University (Spring 2022)
