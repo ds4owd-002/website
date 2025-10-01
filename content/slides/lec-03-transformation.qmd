@@ -476,7 +476,7 @@ countdown(20)
 
 # Wrap-up {background-color="#4C326A"}
 
-## Thanks! `r emo::ji("sunflower")`
+## Thanks!
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 

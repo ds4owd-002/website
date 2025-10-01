@@ -620,7 +620,7 @@ tibble(
 - All material shared on website by Monday, 17th July
 - Due date for report: Friday, 28th July
 
-# Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
+# Thanks! {background-color="#0F4C81"}
 
 ## 
 

@@ -795,7 +795,7 @@ countdown(10)
 
 Content was re-used from a workshop hosted by [Mine Çetinkaya-Rundel](https://mine-cr.com/) at the 2025 Symposium on Data Science and Statistics and stored at <https://github.com/mine-cetinkaya-rundel/quarto-sdss>. The original content is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-## Thanks! `r emo::ji("sunflower")`
+## Thanks!
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 

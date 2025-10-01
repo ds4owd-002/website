@@ -794,7 +794,7 @@ readr::read_csv(here::here("data", "tbl-01-ds4owd-002-course-schedule.csv")) |>
   knitr::kable()
 ```
 
-## Thanks! `r emo::ji("sunflower")`
+## Thanks!
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 

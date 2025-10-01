@@ -96,7 +96,7 @@ While we are getting ready, please check for this email from GitHub and [accept 
 
 ![](img/lec-01/github-invitation.png)
 
-# Welcome! `r emo::ji("wave")` {background-color="#4C326A"}
+# Welcome! {background-color="#4C326A"}
 
 ## Meet the team
 
@@ -969,7 +969,7 @@ You're not expected to remember or fully understand everything right now. This i
 
 # Wrap-up {background-color="#4C326A"}
 
-## Thanks! `r emo::ji("sunflower")`
+## Thanks!
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 

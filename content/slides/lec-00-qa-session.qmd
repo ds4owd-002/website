@@ -92,7 +92,7 @@ total_registrations <- nrow(registration_data)
 ```
 
 
-# Welcome! `r emo::ji("wave")` {background-color="#4C326A"}
+# Welcome! {background-color="#4C326A"}
 
 ## Meet the team
 
@@ -298,7 +298,7 @@ print(plot_programming)
 
 # Wrap-up {background-color="#4C326A"}
 
-## Thanks! `r emo::ji("sunflower")`
+## Thanks!
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 

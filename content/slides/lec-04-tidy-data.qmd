@@ -589,7 +589,7 @@ ggplot(data = waste_data_tidy,
 -   All material on [course website]({{< var course.site >}})
 -   Homework assignment & learning reflection due: **Friday, 7th July**
 
-# Thanks! `r emo::ji("sunflower")` {background-color="#0F4C81"}
+# Thanks! {background-color="#0F4C81"}
 
 ## 
 
