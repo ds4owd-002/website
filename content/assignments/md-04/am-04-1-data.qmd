@@ -1,0 +1,138 @@
+---
+title: "Module 4 - Assignment 1"
+subtitle: "Identify and assess data for your capstone project"
+bibliography: "../../../ds4owd-002.bib"
+---
+
+## Introduction
+
+The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that **all capstone projects will be published openly**, including both the data and the code. This aligns with our commitment to open science and the openwashdata community's mission.
+
+After the course, we plan to support participants in packaging their data following the [openwashdata workflow](https://openwashdata.org/) to create R data packages that can be shared with the wider community.
+
+This assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.
+
+## Learning objectives
+
+By completing this assignment, you will be able to:
+
+1. Identify appropriate datasets for open science projects
+2. Assess data for privacy and sensitivity concerns
+3. Understand how to prepare sensitive data for public sharing
+4. Describe data characteristics and analysis goals
+
+## Task 1: Read and understand data sharing principles
+
+**Open by default**: All data and code from your capstone project will be published publicly on GitHub. This is a requirement for completing the course.
+
+**Privacy first**: Personal information, GPS coordinates, and other identifying information must be removed or aggregated before sharing.
+
+## Task 2: Identify potential datasets
+
+Identify 1-2 datasets that you might use for your capstone project. For each dataset, consider:
+
+### Data you have access to
+
+- Data from your work or research
+- Data you have collected
+- Data from your organization (with permission to share)
+- Public datasets you want to explore further
+
+### Data format
+
+Your data should be in one of these formats:
+
+- CSV (comma-separated values)
+- Excel (.xlsx or .xls)
+- JSON
+
+## Task 3: Assess data suitability for public sharing
+
+For each dataset you identified, complete the following assessment:
+
+### Is this data suitable for public sharing?
+
+Ask yourself these questions:
+
+1. **Personal identifiers**: Does the data contain names, addresses, phone numbers, email addresses, or other information that could identify specific individuals?
+
+2. **GPS coordinates**: Does the data include exact GPS coordinates or precise locations that could identify households or individuals?
+
+3. **Sensitive information**: Does the data include:
+   - Health information
+   - Financial information
+   - Information about vulnerable populations
+   - Proprietary or confidential business information
+
+4. **Permissions**: Do you have permission from your organization or the data owner to share this data publicly?
+
+### Making sensitive data suitable for sharing
+
+If your data contains sensitive information, consider these strategies:
+
+#### Removing sensitive variables
+
+- Delete columns containing personal identifiers (names, IDs, phone numbers)
+- Remove GPS coordinates or replace with general location information (e.g., district name instead of exact coordinates)
+- Remove or aggregate variables that could be used to identify individuals when combined
+
+#### Using a subset of data
+
+- Select only the variables (columns) needed for your analysis
+- Aggregate data to a higher level (e.g., village-level instead of household-level)
+
+::: {.callout-important}
+## When in doubt, aggregate or exclude
+
+If you are uncertain whether specific variables or observations can be shared publicly, it's better to exclude them or aggregate to a higher level. Remember: once data is published online, it cannot be unpublished.
+:::
+
+## Task 4: Document your assessment
+
+Create a document (Word, Google Docs, or text file) that includes:
+
+### For each dataset you're considering:
+
+1. **Dataset name and source**: What is it called and where does it come from?
+
+2. **Description**: What does this data contain? (1-2 paragraphs)
+
+3. **Size and scope**:
+   - How many observations (rows)?
+   - How many variables (columns)?
+   - What time period does it cover?
+
+4. **Privacy assessment**:
+   - Does it contain personal identifiers? If yes, which ones?
+   - Does it contain GPS coordinates?
+   - Does it contain other sensitive information?
+   - Can you share it as-is, or does it need modification?
+
+5. **Required modifications** (if any):
+   - Which variables need to be removed?
+   - Do you need to use a subset of the data?
+   - Do any variables need to be aggregated or anonymized?
+
+6. **Analysis goals**: What questions do you want to answer with this data? (2-3 sentences)
+
+7. **Permission to share**:
+   - Do you have permission to share this data publicly?
+   - If it's from your organization, have you confirmed you can share it?
+
+### Select your preferred dataset
+
+After assessing all options, indicate which dataset you plan to use for your capstone project and explain why you chose it.
+
+
+::: {.callout-note}
+## What comes next?
+
+In Module 5, after your data has been reviewed and approved by instructors, you will:
+
+- Create a GitHub repository for your project
+- Upload your prepared data
+- Begin exploratory data analysis
+- Start your journey toward creating an openwashdata R package
+:::
+
+## References
