@@ -1,0 +1,87 @@
+---
+title: "Module 1"
+subtitle: "{{< var md-01.title >}}"
+editor: source
+params:
+    week: 1
+execute: 
+  echo: false
+  warning: false
+bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+This first week will be used to get you set up for the course. 
+
+## Learning Objectives
+
+```{r}
+#| label: setup
+
+library(epoxy)
+```
+
+```{r}
+#| label: learning-objectives
+
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
+  dplyr::filter(week == params$week) |>
+  dplyr::pull(learning_objectives)
+
+# Read variables and format dates
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-01`$date), "%B %d, %Y")
+homework_due_date <- format(as.Date(vars$`md-01`$`homework-due`), "%B %d, %Y")
+quiz_due_date <- format(as.Date(vars$`md-01`$`quiz-due`), "%B %d, %Y")
+
+```
+
+```{epoxy}
+{1:length(lobj)}. {lobj[1:length(lobj)]}
+```
+
+## {{< fa display >}} Slides
+
+[View slides in full screen](../slides/lec-01-welcome.html) | [Download slides as PDF](https://github.com/ds4owd-002/website/raw/main/content/slides/lec-01-welcome.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="../slides/lec-01-welcome.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+## {{< fa book >}} Readings
+
+- Read the [Course Overview](../../index.html).
+
+## {{< fa code >}} Assignments
+
+[Due date:]{.highlight-yellow} `r homework_due_date`
+
+Please complete the following assignments before the due date. They are a pre-requisite for the second module.
+
+-   [Assignment 1](../assignments/md-01/am-01-1-posit.qmd): In class: Working with R, RStudio on Posit Cloud
+-   [Assignment 2](../assignments/md-01/am-01-2-element.qmd): Homework: Communication in a chat
+-   [Assignment 3](../assignments/md-01/am-01-3-github-pat.qmd): Homework: GitHub Personal Access Token 
+-   [Assignment 4](../assignments/md-01/am-01-4-github-clone.qmd): Homework: Clone a GitHub repository 
+-   [Assignment 5](../assignments/md-01/am-01-5-github-workflow.qmd): Homework: GitHub workflow
+
+Thank you for working through these assignments.
+
+## {{< fa clipboard-question >}} Quiz
+
+[Due date:]{.highlight-yellow} ~~`r quiz_due_date`~~ 
+[Due date extended:]{.highlight-yellow} October 02, 2025 (as for Quiz 2)
+
+Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
+
+Access the quiz here: <https://u4x6xe-lars-sch0bitz.shinyapps.io/ds4owd-002-quiz/>
+
+You can verify your submissions using our [Live Quiz Checker](../../quiz-checker.qmd).
+
+## {{< fa video >}} Session Recording
+
+You can access the Zoom recording of Module 1 on `r session_date`. To watch the recording, you will need to register for it. 
+
+Register for the recording and watch it at this link: <https://ethz.zoom.us/rec/share/aySDHB4KRgHmj-9NtrMyxbrwkBFCEqozQ-a8lyAKLLpumEoUFoI7mQNNSkrapDa_.jq3-cW0CP1qUYYNW>
+
+[Note: The video will show once the recording has been processed.]{.highlight-yellow}

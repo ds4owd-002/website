@@ -4,7 +4,7 @@ Find all details at: <https://ds4owd-002.github.io/website/>
 
 This course is offered by the [openwashdata community](https://openwashdata.org/). 
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](content/course/code_of_conduct.md)
 
 ## How to Sign Up
 

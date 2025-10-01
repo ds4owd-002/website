@@ -1,0 +1,787 @@
+---
+title: "{{< var md-02.title >}}"
+subtitle: "{{< var course.long-title >}}"
+author: "{{< var author >}}"
+date-format: "MMM D, YYYY"
+date: "2025-09-18"
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    logo: ../../img/OWD-logo-20.png
+    chalkboard: true
+footer: "[{{< fa link >}} {{< var course.site-short >}}]({{< var course.site >}})"
+editor: source
+execute:
+  freeze: auto
+  warning: false
+params:
+    week: 2
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| include: false
+library(countdown)
+library(ggplot2)
+library(ggthemes)
+library(readr)
+library(ggplot2)
+library(gapminder)
+library(dplyr)
+library(epoxy)
+library(palmerpenguins)
+```
+
+```{r} 
+
+gapminder_2007 <- gapminder |> 
+  filter(year == 2007)
+
+```
+
+## {{< fa circle-question >}} {.center-align .smaller}
+
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Q: How do I successfully complete the course?
+:::
+
+You successfully complete the course and you will receive a certificate of completion if you:
+
+1. Complete the [quiz of each week by its due date]{.highlight-yellow}
+
+2- Hand in a [complete capstone project report]{.highlight-yellow} that uses a dataset of your choice by [11 December 2025]{.highlight-yellow} (instructions will follow)
+
+While [homework assignments]{.highlight-yellow} are not required for completion, we [highly recommend working on them]{.highlight-yellow} and submitting it for feedback. This is the practice you need to become a data scientist.
+
+## {background-image="img/lec-02/r_rollercoaster.png" background-size="contain"} 
+
+::: {.aside}
+Artwork by [@allison_horst](https://twitter.com/allison_horst) 
+:::
+
+# Solving coding problems online {background-color="#4C326A"}
+
+## Tips for search engines (e.g. [duckduckgo.com](https://duckduckgo.com/))
+
+- Use actionable verbs that describe what you want to do
+- Be specific 
+- Add R to the search query 
+- Add the name of the R package name to the search query
+- Scroll through the top 5 results (don't just pick the first)
+
+**Example: "How to remove a legend from a plot in R ggplot2"**
+
+## Stack Overflow
+
+::: {.incremental}
+
+:::: {.columns}
+
+::: {.column width="47.5%"}
+
+**What is it?**
+
+- The biggest support network for (coding) problems 
+- Can be intimidating at first
+- Up-vote system 
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="47.5%"}
+
+**Workflow**
+
+- First, briefly read the question that was posted
+- Then, read the answer marked as "correct"
+- Then, read one or two more answers with high votes
+
+:::
+
+::::
+
+:::
+
+## Tips for AI tools (e.g. [duck.ai](https://duck.ai))
+
+- Use actionable verbs that describe what you want to do
+- Be specific 
+- Add R to the search query 
+- Add the name of the R package name to the search query
+
+**Example: "How to remove a legend from a plot in R ggplot2"**
+
+## Other sources for help
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Posit Community Forum: <https://community.rstudio.com/>
+- Documentation websites: <https://ggplot2.tidyverse.org/>
+- Mastodon / Bluesky tag: [#rstats](https://fosstodon.org/tags/rstats)
+:::
+
+::: {.column width="50%"}
+
+![](img/lec-02/dalle3-image-colorful-coding.png)
+
+::: 
+::::
+
+::: footer
+Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
+:::
+
+## {background-image="img/lec-02/code_hero.jpg" background-size="contain"} 
+
+::: footer
+Artwork by [@allison_horst](https://www.allisonhorst.com/)
+:::
+
+# Exercises & Assignments {background-color="#4C326A"}
+
+## Note
+
+For every week, there will be two “projects”:
+
+- [md-0X-exercises]{.highlight-yellow} (this is for lectures and we only work with it during lectures)
+- [md-0X-assignments-USERNAME]{.highlight-yellow} (this is your homework and every module will have your username at the end of it. You will clone this to Posit Cloud to work with it)
+
+## Lecture Exercises
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Click [Start]{.highlight-yellow} the first time
+- Click [Continue]{.highlight-yellow} the next time
+- It will look like two projects, but it is just one
+- It doesn't matter on which of the two you click
+
+:::
+
+::: {.column width="50%"}
+
+![](img/lec-02/posit-cloud-exercise.png)
+
+:::
+
+::::
+
+## Homework Assignments {background-color="#4C326A"}
+
+## on GitHub Organisation
+
+[Assignment 1 of Module 2 is a Bookmark Folder assignment!]{.highlight-yellow}
+
+::: learn-more
+[{{< var course.github-org >}}]({{< var course.github-org >}})
+
+![](img/lec-02/github-search-repo.png)
+
+:::
+
+## on your repository
+
+![](img/lec-02/github-assignment-repo.png)
+
+## on Posit Cloud
+
+::: learn-more
+[posit.cloud/spaces/663318/](https://posit.cloud/spaces/663318/)
+
+![](img/lec-02/posit-cloud-new-project.png)
+
+:::
+
+## on Posit Cloud
+
+::: learn-more
+![](img/lec-02/posit-cloud-project-link.png)
+
+:::
+
+## Module 2 - Assignment 1: Bookmarks
+
+This week, you will have an assignment for creating bookmarks in your browser. It is very useful and will support you through the course and beyond.
+
+# Version Control - Terminology {background-color="#4C326A"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.001.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.002.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.003.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.004.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.005.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.006.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.007.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.008.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.009.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.010.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.011.png" background-size="contain"}
+
+## - {background-image="img/lec-02/illustration-slides-git/illustration-slides-git.012.png" background-size="contain"}
+
+## remember: `git commit` 
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.002.png)
+
+## remember: `git push` 
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.003.png)
+
+## remember: `git push` 
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.004.png)
+
+## collaborate: `git clone`
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.005.png)
+
+## track work: `git commit` 
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.006.png)
+
+## update: `git ???` 
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.007.png)
+
+## update: `git push`
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.008.png)
+
+## `git ???` 
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.009.png)
+
+## new: `git pull`
+
+![](img/lec-02/illustration-slides-git-pull/illustration-slides-git-pull.010.png)
+
+## Learning Objectives (for this week)
+
+
+```{r}
+#| label: learning-objectives
+
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
+  dplyr::filter(week == params$week) |>
+  dplyr::pull(learning_objectives)
+
+```
+
+```{epoxy}
+{1:length(lobj)}. {lobj[1:length(lobj)]}
+```
+
+# Data Science Lifecycle {background-color="#4C326A"}
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.001.png" background-size="contain"}
+
+::: {.notes}
+
+Add notes
+
+:::
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.002.png" background-size="contain"}
+
+::: {.notes}
+
+1. First you must import your data into R. This typically means that you take data stored:
+
+- in a file
+- in a database, 
+- or web application, and load it into R. 
+
+2. If you can get your data into R, you can  do data science on it!
+
+:::
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.003.png" background-size="contain"}
+
+::: {.notes}
+
+1. Once you’ve imported your data, it is a good idea to tidy it. 
+
+2. This means to get it into a structure that lets you focus on the questions about your data and not the format it needs to be in
+
+3. This is the step where we spend by far the biggest amount of our time. 
+
+4. It has been estimated that we spend about 80% of our time with cleaning and tidying data, so that we can use it fo our analyses.
+
+5. In my courses you will learn how to structure your data in a tidy format as you collect it, and before you import it. A highly underestimated skill.
+
+:::
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.004.png" background-size="contain"}
+
+::: {.notes}
+
+1. Once your data is tidy, a common first step is to transform it.
+
+2. This includes 
+- narrowing in on what interests you (like all people without toilets in one district, or all data from last year)
+- creating new variables from existing (like toilet density, as in number of people per toilet) 
+- calculating summary statistics (like counts or the mean)
+
+Together, tidying and transforming are called wrangling, because getting your data in a form that’s natural to work with often feels like a fight!
+
+:::
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.005.png" background-size="contain"}
+
+::: {.notes}
+
+1. Once you have tidy data with the variables you need, there are two main engines of knowledge generation: 
+
+- visualization 
+- and modelling. 
+
+2. These have complementary strengths and weaknesses so any real analysis will iterate between them many times.
+
+3. Visualization is a fundamentally human activity. A good visualization will show you things that you did not expect, or raise new questions about the data.
+
+:::
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.006.png" background-size="contain"}
+
+::: {.notes}
+
+1. Models are complementary tools to visualization. Once you have made your questions sufficiently precise, you can use a model to answer them.
+
+2. In my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R language.
+
+:::
+
+## - {background-image="img/lec-02/data-science-lifecycle/data-science-lifecycle.007.png" background-size="contain"}
+
+::: {.notes}
+
+1. The last step of data science is communication, an absolutely critical part of any data analysis project. 
+
+2. It doesn’t matter how well your models and visualization have led you to understand the data, unless you can also communicate your results to others.
+
+3. And this is a part where R has become really strong.
+
+:::
+
+# Exploratory Data Analysis with `ggplot2` {background-color="#4C326A"}
+
+## R Package `ggplot2`
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- **ggplot2** is tidyverse's data visualization package 
+- `gg` in `ggplot2` stands for Grammar of Graphics 
+- Inspired by the book [Grammar of Graphics by Leland Wilkinson](https://en.wikipedia.org/wiki/Wilkinson%27s_Grammar_of_Graphics)
+- **Documentation:** <https://ggplot2.tidyverse.org/>
+
+:::
+
+::: {.column width="50%"}
+
+![](img/lec-02/ggplot2-part-of-tidyverse.png)
+
+```{r}
+#knitr::include_graphics(here::here("slides/img/lec-02/ggplot2-part-of-tidyverse.png"))
+```
+
+:::
+
+::::
+
+::: {.aside}
+
+Slide adapted from datasciencebox.org
+
+:::
+
+## My turn: Working with R 
+
+<br><br>
+
+::: {.hand-purple-large style="text-align: center;"}
+Sit back and enjoy!
+:::
+
+## Take a break
+
+[Please get up and move!]{.highlight-yellow} 
+
+![](img/lec-04/pixel-art-tree.png){width="50%"}
+
+```{r}
+countdown(minutes = 10)
+```
+
+::: footer
+Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
+:::
+
+## Code structure
+
+- `ggplot()` is the main function in ggplot2
+- Plots are constructed in layers
+- Structure of the code for plots can be summarized as
+
+```{r}
+#| eval: false
+#| echo: true
+
+ggplot(data = [dataset], 
+       mapping = aes(x = [x-variable], 
+                     y = [y-variable])) +
+  geom_xxx() +
+  other options
+```
+
+## Code structure {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot()
+```
+
+## Code structure {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder)
+```
+
+## Code structure {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder,
+       mapping = aes()) 
+
+```
+
+## Code structure {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder,
+       mapping = aes(x = continent,
+                     y = lifeExp))  
+
+```
+
+## Code structure {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder,
+       mapping = aes(x = continent,
+                     y = lifeExp)) +
+  geom_boxplot() 
+
+```
+
+## Code structure {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder,
+       mapping = aes(x = continent,
+                     y = lifeExp)) +
+  geom_boxplot() +
+  theme_minimal()
+
+```
+
+# Polls {background-color="#4C326A"}
+
+## Poll 1: What does the thick line inside the box of a boxplot represent? {.smaller}
+
+::: columns
+::: {.column width="30%"}
+
+1. the mean of the observations
+2. the middle of the box
+3. the median of the observations
+4. none of the above
+
+:::
+
+::: {.column width="70%"}
+
+```{r}
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder,
+       mapping = aes(x = continent,
+                     y = lifeExp)) +
+  geom_boxplot() +
+  theme_minimal(base_size = 14)
+```
+
+:::
+:::
+
+## Poll 2: What percentage of observations are contained inside the box of a boxplot (interquartile range)? {.smaller}
+
+::: columns
+::: {.column width="30%"}
+
+1. 25%
+2. depends on the median
+3. 50%
+4. none of the above
+
+:::
+
+::: {.column width="70%"}
+
+```{r}
+#| fig-width: 7
+#| fig-asp: 0.618
+ggplot(data = gapminder,
+       mapping = aes(x = continent,
+                     y = lifeExp)) +
+  geom_boxplot() +
+  theme_minimal(base_size = 14)
+```
+
+:::
+:::
+
+## Poll 3: What is the median of a set of observations? {.smaller}
+
+1. The median is the most frequently occurring value in a dataset.
+2. The median is the sum of all values in a dataset divided by the number of observations.
+3. The median is the point above and below which half (50%) of the observations falls.
+4. The median is the square root of the sum of the squares of each value in a dataset.
+
+## Boxplot, explained
+
+```{r}
+#| label: fig-eda-boxplot
+#| echo: false
+#| fig-cap: |
+#|   Diagram depicting how a boxplot is created.
+#| fig-alt: |
+#|   A diagram depicting how a boxplot is created following the steps outlined 
+#|   above.
+
+knitr::include_graphics("https://r4ds.hadley.nz/images/EDA-boxplot.png")
+```
+
+::: footer
+Image taken from: <https://r4ds.hadley.nz/data-visualize#fig-eda-boxplot>
+:::
+
+::: notes
+
+- A box that indicates the range of the middle half of the data, a distance known as the interquartile range (IQR), stretching from the 25th percentile of the distribution to the 75th percentile. 
+
+- In the middle of the box is a line that displays the median, i.e. 50th percentile, of the distribution.
+
+- These three lines give you a sense of the spread of the distribution and whether or not the distribution is symmetric about the median or skewed to one side.
+
+- Visual points that display observations that fall more than 1.5 times the IQR from either edge of the box. These outlying points are unusual so are plotted individually.
+
+- A line (or whisker) that extends from each end of the box and goes to the farthest non-outlier point in the distribution.
+
+:::
+
+## Our turn: md-02-exercises
+
+::: task
+1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-02-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-02b-visualize.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+:::
+
+```{r}
+countdown(30)
+```
+
+## Take a break
+
+[Please get up and move!]{.highlight-yellow} 
+
+![](img/lec-04/pixel-art-tree.png){width="50%"}
+
+```{r}
+countdown(minutes = 10)
+```
+
+::: footer
+Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
+:::
+
+# Visualizing data {background-color="#4C326A"}
+
+## Types of variables 
+
+::: {.incremental}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### numerical
+
+**discrete variables**
+
+- non-negative
+- whole numbers
+- e.g. number of students, roll of a dice
+
+**continuous variables**
+
+- infinite number of values
+- also dates and times
+- e.g. length, weight, size 
+
+:::
+
+::: {.column width="50%"}
+
+### non-numerical
+
+**categorical variables**
+
+- finite number of values 
+- distinct groups (e.g. EU countries, continents)
+- **ordinal** if levels have natural ordering (e.g. week days, school grades)
+
+:::
+
+::::
+
+:::
+
+## Histogram
+
+- for visualizing distribution of continuous (numerical) variables
+
+```{r}
+#| label: histogram-penguins
+#| fig-width: 6
+#| fig-asp: 0.618
+#| echo: true
+#| code-line-numbers: "|3"
+ggplot(data = penguins,
+       mapping = aes(x = body_mass_g)) +
+  geom_histogram()
+```
+
+## Barplot
+
+- for visualizing distribution of categorical (non-numerical) variables
+
+```{r}
+#| label: barplot-penguins
+#| fig-width: 6
+#| fig-asp: 0.618
+#| echo: true
+#| code-line-numbers: "|3"
+ggplot(data = penguins,
+       mapping = aes(x = species)) +
+  geom_bar()
+```
+
+## Scatterplot {.smallest}
+
+- for visualizing relationships between two continuous (numerical) variables
+
+```{r}
+#| label: scatterplot-gdp-lifeExp
+#| fig-width: 6
+#| fig-asp: 0.618
+#| echo: true
+#| code-line-numbers: "|6"
+ggplot(data = gapminder_2007,
+       mapping = aes(x = gdpPercap,
+                     y = lifeExp,
+                     size = pop,
+                     color = continent)) +
+  geom_point() +
+  scale_color_colorblind() +
+  theme_minimal()
+```
+
+## Your turn: md-02-exercises
+
+::: task
+1. [If you closed it]{.highlight-yellow}, open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Continue]{.highlight-yellow} next to [md-02-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`md-02c-boxplot.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+5. Follow instructions in the file.
+:::
+```{r}
+countdown(15)
+```
+
+## How to pick a plot?
+
+::: learn-more
+[data-to-viz.com](https://www.data-to-viz.com/)
+
+```{=html}
+<iframe src="https://www.data-to-viz.com/" width="100%" height="500" style="border:2px solid #123233;" title="From Data to Viz"></iframe>
+```
+:::
+
+
+# Homework assignments module 2 {background-color="#4C326A"}
+
+## Module 2 documentation
+
+::: learn-more
+[{{< var course.site-short >../modules/md-02.html]({{< var course.site >../modules/md-02.html)
+
+```{=html}
+<iframe src="{{< var course.site >../modules/md-02.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 2 documentation"></iframe>
+```
+:::
+
+## Homework due date
+
+-   Homework assignment due: [Wednesday, {{< var md-02.homework-due >}}]{.highlight-yellow}
+-   Quiz due: [Wednesday, {{< var md-02.quiz-due >}}]{.highlight-yellow} 
+
+# Wrap-up {background-color="#4C326A"}
+
+## Thanks! `r emo::ji("sunflower")` 
+
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
+
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-02-visualisation.pdf)
+
+All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
