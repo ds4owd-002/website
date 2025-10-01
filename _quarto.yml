@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!CLAUDE.md"
 
 metadata-files:
   - _variables.yml
@@ -19,7 +23,7 @@ website:
         [Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/)
     right:
       - text: Code of Conduct
-        href: code_of_conduct.qmd
+        href: content/course/code_of_conduct.qmd
       - icon: "envelope-at"
         href: "mailto:ghe@mavt.ethz.ch?subject=ds4owd support"
         aria-label: Email
@@ -46,73 +50,73 @@ website:
     contents: 
       - href: index.qmd
         text: Course Overview
-      - href: calendar.qmd
+      - href: content/course/calendar.qmd
         text: Course Calendar
-      - href: guide/index.qmd
+      - href: content/guide/index.qmd
         text: Guide
-      - href: quiz-checker.qmd
+      - href: content/course/quiz-checker.qmd
         text: "Live Quiz Checker"
       - text: "---"
-      - href: modules/md-00.qmd
+      - href: content/modules/md-00.qmd
         text: "Pre-Course Q&A"
       - text: "---"
       - section: "Module 01"
-        href: modules/md-01.qmd
+        href: content/modules/md-01.qmd
         contents:
-          - href: assignments/md-01/am-01-1-posit.qmd
+          - href: content/assignments/md-01/am-01-1-posit.qmd
             text: "am-01-1: Posit Cloud"
-          - href: assignments/md-01/am-01-2-element.qmd
+          - href: content/assignments/md-01/am-01-2-element.qmd
             text: "am-01-2: Element"
-          - href: assignments/md-01/am-01-3-github-pat.qmd
+          - href: content/assignments/md-01/am-01-3-github-pat.qmd
             text: "am-01-3: GitHub PAT"
-          - href: assignments/md-01/am-01-4-github-clone.qmd
+          - href: content/assignments/md-01/am-01-4-github-clone.qmd
             text: "am-01-4: GitHub Clone"
-          - href: assignments/md-01/am-01-5-github-workflow.qmd
+          - href: content/assignments/md-01/am-01-5-github-workflow.qmd
             text: "am-01-5: GitHub Workflow"
       - section: "Module 02"
-        href: modules/md-02.qmd
+        href: content/modules/md-02.qmd
         contents:
-          - href: assignments/md-02/am-02-1-bookmarks.qmd
+          - href: content/assignments/md-02/am-02-1-bookmarks.qmd
             text: "am-02-1: Bookmarks"
-          - href: assignments/md-02/am-02-2-data-visualisation.qmd
+          - href: content/assignments/md-02/am-02-2-data-visualisation.qmd
             text: "am-02-2: Data visualization"
       - section: "Module 03"
-        href: modules/md-03.qmd
+        href: content/modules/md-03.qmd
         contents:
-          - href: assignments/md-03/am-03-1-data-transformation.qmd
+          - href: content/assignments/md-03/am-03-1-data-transformation.qmd
             text: "am-01: Data transformation"
-          - href: assignments/md-03/am-03-2-spreadsheet.qmd
+          - href: content/assignments/md-03/am-03-2-spreadsheet.qmd
             text: "am-02: Spreadsheet"
       - section: "Module 04"
-        href: modules/md-04.qmd
+        href: content/modules/md-04.qmd
         contents:
-          - href: assignments/md-04/am-04-1-reading.qmd
+          - href: content/assignments/md-04/am-04-1-reading.qmd
             text: "am-01: Data organization"
       - section: "Module 05"
-        href: modules/md-05.qmd
+        href: content/modules/md-05.qmd
         contents:
-          - href: assignments/md-05/am-05-1-project-data.qmd
+          - href: content/assignments/md-05/am-05-1-project-data.qmd
             text: "am-01: Project data"
       - section: "Module 06"
-        href: modules/md-06.qmd
+        href: content/modules/md-06.qmd
         contents:
-          - href: assignments/md-06/am-06-1-reading.qmd
+          - href: content/assignments/md-06/am-06-1-reading.qmd
             text: "am-01: Good enough practices"
-          - href: assignments/md-05/am-05-1-project-data.qmd
+          - href: content/assignments/md-05/am-05-1-project-data.qmd
             text: "am-02: Project data"
       - section: "Module 07"
-        href: modules/md-07.qmd
+        href: content/modules/md-07.qmd
         contents:
-          - href: assignments/md-07/am-07-1-pivoting.qmd
+          - href: content/assignments/md-07/am-07-1-pivoting.qmd
             text: "am-01: Pivot data"
-          - href: assignments/md-07/am-07-2-project-metadata.qmd
+          - href: content/assignments/md-07/am-07-2-project-metadata.qmd
             text: "am-02: Capstone project"
-      - href: modules/md-08.qmd
+      - href: content/modules/md-08.qmd
         text: Module 08
-      - href: modules/md-09.qmd
+      - href: content/modules/md-09.qmd
         text: Module 09
       - text: "---"
-      - href: project/index.qmd
+      - href: content/project/index.qmd
         text: "Capstone project"
 format:
   html:

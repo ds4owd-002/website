@@ -104,4 +104,4 @@ We hope you can participate in the live lectures, as class participation improve
 
 # Code of Conduct
 
-This course and the openwashdata community follow a [code of conduct](code_of_conduct.html). Please ensure that you have read it.
+This course and the openwashdata community follow a [code of conduct](content/course/code_of_conduct.html). Please ensure that you have read it.

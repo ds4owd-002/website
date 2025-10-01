@@ -40,16 +40,23 @@ vignettes/*.pdf
 
 # ignore Mac files
 .DS_Store
+
+# Quarto build artifacts
 /.quarto/
+_freeze/
+.nojekyll
 
-# extentions
-_extensions/
-
+# Node.js
 node_modules/
+
+# R package management
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
 
 # CLAUDE.md files shouldn't be rendered
 CLAUDE.md
 docs/CLAUDE.html
-
-# registration form
-registration_form.xlsx
