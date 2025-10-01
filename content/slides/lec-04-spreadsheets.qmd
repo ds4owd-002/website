@@ -737,10 +737,10 @@ knitr::include_graphics("img/lec-04/data-org-license.png")
 ## Module 4 documentation
 
 ::: learn-more
-[{{< var course.site-short >../modules/md-04.html]({{< var course.site >../modules/md-04.html)
+[{{< var course.site-short >}}/modules/md-04.html]({{< var course.site >}}/modules/md-04.html)
 
 ```{=html}
-<iframe src="{{< var course.site >../modules/md-04.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 4 documentation"></iframe>
+<iframe src="{{< var course.site >}}/modules/md-04.html" width="100%" height="500" style="border:2px solid #123233;" title="Module 4 documentation"></iframe>
 ```
 :::
 
