@@ -54,7 +54,7 @@ website:
         text: Course Calendar
       - href: content/guide/index.qmd
         text: Guide
-      - href: quiz-checker.qmd
+      - href: content/course/quiz-checker.qmd
         text: "Live Quiz Checker"
       - text: "---"
       - href: content/modules/md-00.qmd

@@ -76,7 +76,7 @@ Complete this quiz after you have worked through the assignments. Completing the
 
 Access the quiz here: <https://u4x6xe-lars-sch0bitz.shinyapps.io/ds4owd-002-quiz/>
 
-You can verify your submissions using our [Live Quiz Checker](../../quiz-checker.qmd).
+You can verify your submissions using our [Live Quiz Checker](../course/quiz-checker.qmd).
 
 ## {{< fa video >}} Session Recording
 
