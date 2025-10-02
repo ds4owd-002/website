@@ -92,6 +92,8 @@ website:
         contents:
           - href: content/assignments/md-04/am-04-1-data.qmd
             text: "am-01: Data assessment"
+          - href: content/assignments/md-04/am-04-2-study-groups.qmd
+            text: "am-02: Study groups"
       - section: "Module 05"
         href: content/modules/md-05.qmd
         contents:

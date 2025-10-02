@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Lars Schöbitz">
+<meta name="author" content="Nicolo Massari">
 
-<title>Create a spreadsheet – data science for openwashdata</title>
+<title>Study groups – data science for openwashdata</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../../../content/modules/md-04.html" rel="next">
-<link href="../../../content/assignments/md-03/am-03-1-data-transformation.html" rel="prev">
+<link href="../../../content/modules/md-05.html" rel="next">
+<link href="../../../content/assignments/md-04/am-04-1-reading.html" rel="prev">
 <link href="../../../img/OWD-logo-18.png" rel="icon" type="image/png">
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-03.html">Module 03</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-03/am-03-2-spreadsheet.html">am-02: Spreadsheet</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-04.html">Module 04</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-04/am-04-2-study-groups.html">am-02: Study groups</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -196,11 +196,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../../content/modules/md-03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 03</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../content/assignments/md-03/am-03-1-data-transformation.html" class="sidebar-item-text sidebar-link">
@@ -209,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../content/assignments/md-03/am-03-2-spreadsheet.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../content/assignments/md-03/am-03-2-spreadsheet.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-02: Spreadsheet</span></a>
   </div>
 </li>
@@ -219,20 +219,20 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../../content/modules/md-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 04</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../content/assignments/md-04/am-04-1-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">am-01: Data assessment</span></a>
+  <a href="../../../content/assignments/md-04/am-04-1-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">am-01: Data organization</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../content/assignments/md-04/am-04-2-study-groups.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../content/assignments/md-04/am-04-2-study-groups.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">am-02: Study groups</span></a>
   </div>
 </li>
@@ -330,24 +330,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#step-1-make-a-spreadsheet-and-save-it" id="toc-step-1-make-a-spreadsheet-and-save-it" class="nav-link active" data-scroll-target="#step-1-make-a-spreadsheet-and-save-it">Step 1: Make a spreadsheet and save it</a></li>
-  <li><a href="#step-2-create-a-new-repository-on-github-clone-to-posit-cloud" id="toc-step-2-create-a-new-repository-on-github-clone-to-posit-cloud" class="nav-link" data-scroll-target="#step-2-create-a-new-repository-on-github-clone-to-posit-cloud">Step 2: Create a new repository on GitHub &amp; clone to Posit Cloud</a>
-  <ul class="collapse">
-  <li><a href="#step-2.1-create-a-new-repository" id="toc-step-2.1-create-a-new-repository" class="nav-link" data-scroll-target="#step-2.1-create-a-new-repository">Step 2.1: Create a new repository</a></li>
-  <li><a href="#step-2.2-clone-the-repository-to-posit-cloud" id="toc-step-2.2-clone-the-repository-to-posit-cloud" class="nav-link" data-scroll-target="#step-2.2-clone-the-repository-to-posit-cloud">Step 2.2: Clone the repository to Posit Cloud</a></li>
-  </ul></li>
-  <li><a href="#step-3-upload-the-data" id="toc-step-3-upload-the-data" class="nav-link" data-scroll-target="#step-3-upload-the-data">Step 3: Upload the data</a></li>
-  <li><a href="#step-4-commit-and-push-your-changes" id="toc-step-4-commit-and-push-your-changes" class="nav-link" data-scroll-target="#step-4-commit-and-push-your-changes">Step 4: Commit and push your changes</a></li>
-  <li><a href="#step-5-open-an-issue-on-github" id="toc-step-5-open-an-issue-on-github" class="nav-link" data-scroll-target="#step-5-open-an-issue-on-github">Step 5: Open an issue on GitHub</a></li>
+  <li><a href="#step-1-join-a-study-group" id="toc-step-1-join-a-study-group" class="nav-link active" data-scroll-target="#step-1-join-a-study-group">Step 1: Join a study group</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-03.html">Module 03</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-03/am-03-2-spreadsheet.html">am-02: Spreadsheet</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-04.html">Module 04</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-04/am-04-2-study-groups.html">am-02: Study groups</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Create a spreadsheet</h1>
+<h1 class="title">Study groups</h1>
 </div>
 
 
@@ -356,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Lars Schöbitz </p>
+    <p class="author">Nicolo Massari </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -377,197 +369,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Have you completed the assignments for module 1?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.</p>
-</div>
-</div>
-<section id="step-1-make-a-spreadsheet-and-save-it" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-make-a-spreadsheet-and-save-it">Step 1: Make a spreadsheet and save it</h2>
-<p>Layout a spreadsheet for data collection using a spreadsheet-based software (Google Sheets or MS Excel).</p>
-<p>You are taking 20 samples of 1 liter faecal sludge from pit latrines and septic tanks at households and public toilets (5 samples each). For each sample, you note the number of daily users of the sanitation system.</p>
-<p>Your sample collection starts on 1st November 2022. On day 5, you analyse the data in the laboratory for totals solids (TS) in g/L. In your spreadsheet, note the exact date of each collected sample.</p>
-<p>This is your data collection plan:</p>
-<ul>
-<li>Day 1: 5 samples at households using pit latrines</li>
-<li>Day 2: 5 samples at households using septic tanks</li>
-<li>Day 3: 5 samples at public toilets that are pit latrines</li>
-<li>Day 4: 5 samples at public toilets that are septic tanks</li>
-<li>Day 5: Analyses of all 20 samples for total solids (TS) in g/L on a lab scale with accuracy of 0.01 g</li>
-</ul>
-<p>Make up the results for the total solids (TS) analyses (e.g.&nbsp;12.48 g/L).</p>
-<p>Save the spreadsheet as XLSX with a file name of your choice.</p>
-</section>
-<section id="step-2-create-a-new-repository-on-github-clone-to-posit-cloud" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-create-a-new-repository-on-github-clone-to-posit-cloud">Step 2: Create a new repository on GitHub &amp; clone to Posit Cloud</h2>
-<section id="step-2.1-create-a-new-repository" class="level3">
-<h3 class="anchored" data-anchor-id="step-2.1-create-a-new-repository">Step 2.1: Create a new repository</h3>
-<ol type="1">
-<li>Open the GitHub Organisation for the course: <a href="https://github.com/ds4owd-002">https://github.com/ds4owd-002</a></li>
-<li>To right of the field <span class="highlight-yellow">“Find a repository”</span>, click on the green <span class="highlight-yellow">New</span> button.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/01-github-org.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>In the <span class="highlight-yellow">Repository name</span> field write <code>samples-USERNAME</code>.
-<ul>
-<li>Replace <code>USERNAME</code> with your actual GitHub username.</li>
-<li>For example, if your username is <code>johnsmith</code>, the repository will be <code>samples-johnsmith</code>.</li>
-<li>Avoid using spaces in the repository name. Use a dash <code>-</code> instead.</li>
-</ul></li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/02-repository-name.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="4" type="1">
-<li>Scroll down on the same page, and click <span class="highlight-yellow">Create repository</span>.</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/03-create-repository.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="step-2.2-clone-the-repository-to-posit-cloud" class="level3">
-<h3 class="anchored" data-anchor-id="step-2.2-clone-the-repository-to-posit-cloud">Step 2.2: Clone the repository to Posit Cloud</h3>
-<ol start="5" type="1">
-<li>In the <span class="highlight-yellow">Quick setup</span> section, ensure HTTPS is selected (not SSH)</li>
-<li>Click on the clipboard icon next to the HTTPS URL to copy it</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/04-copy-to-clipboard.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<ol start="7" type="1">
-<li>Open the <span class="highlight-yellow">Content</span> tab of the ds4owd-002 workspace on Posit Cloud: <a href="https://posit.cloud/spaces/663318/content/all?sort=name_asc">https://posit.cloud/spaces/663318/content/all?sort=name_asc</a></li>
-<li>Click the blue button <span class="highlight-yellow">New Project</span> &gt; <span class="highlight-yellow">New Project from Git Repository</span></li>
-<li>Paste the HTTPS URL from GitHub into the <span class="highlight-yellow">URL of your Git Repository</span> field and click <span class="highlight-yellow">OK</span>. Leave the checkbox under Packages checked.</li>
-<li>Wait until the project is deployed. This may take a few minutes, depending on your internet connection.</li>
-</ol>
-</section>
-</section>
-<section id="step-3-upload-the-data" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-upload-the-data">Step 3: Upload the data</h2>
-<ol type="1">
-<li>In RStudio, navigate to the Files tab in the bottom right window</li>
-<li>Click on the <span class="highlight-yellow">Upload</span> button</li>
-<li>Click <span class="highlight-yellow">Choose File</span> and select your XLSX spreadsheet from Step 1</li>
-<li>Click <span class="highlight-yellow">OK</span> to upload the file to your project</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/05-upload-file.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="step-4-commit-and-push-your-changes" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-commit-and-push-your-changes">Step 4: Commit and push your changes</h2>
-<ol type="1">
-<li>Navigate to the Git pane in the top-right window of RStudio</li>
-<li>Check the box next to all files to stage them for a commit</li>
-<li>Click on the <span class="highlight-yellow">Commit</span> button. A new window opens.</li>
-<li>Enter a commit message in the <span class="highlight-yellow">Commit message</span> field in the top right corner. For example: Added spreadsheet with sample data</li>
-<li>Click on the <span class="highlight-yellow">Commit</span> button</li>
-<li>If you see a message that confirms your commit, click on <span class="highlight-yellow">Close</span>. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.</li>
-<li>Click on the <span class="highlight-yellow">Push</span> button in the top right corner.</li>
-<li>Enter your GitHub username and click OK</li>
-<li>Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.</li>
-</ol>
-<p>If you see a message that says <code>HEAD -&gt; main</code>, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. <span class="highlight-yellow">If you do not see this message</span>, make sure you have entered your GitHub username and GitHub PAT correctly.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-PAT Storage Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Do not use your GitHub password
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.</p>
-</div>
-</div>
-</section>
-<section id="step-5-open-an-issue-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-open-an-issue-on-github">Step 5: Open an issue on GitHub</h2>
+<section id="step-1-join-a-study-group" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-join-a-study-group">Step 1: Join a study group</h2>
 <ol type="1">
 <li>Open <a href="https://github.com/" class="uri">https://github.com/</a> in your browser.</li>
 <li>Navigate to the GitHub organization for the course: <a href="https://github.com/ds4owd-002">https://github.com/ds4owd-002</a></li>
-<li>Find the repository <code>samples-USERNAME</code> that <span class="highlight-yellow">ends with your GitHub username</span>, and open it by clicking on the repository name.
-<ul>
-<li>Replace <code>USERNAME</code> with your actual GitHub username.</li>
-<li>For example, if your username is <code>johnsmith</code>, the repository will be <code>samples-johnsmith</code>.</li>
-</ul></li>
+<li>Find the <code>Discussions</code> tab in the top menu of the github organisation. Or follow the url <a href="https://github.com/orgs/ds4owd-002/discussions" target="_blank">https://github.com/orgs/ds4owd-002/discussions</a></li>
+<li>Find the <code>Group</code> category on the left. Or follow the url Or follow this link <a href="https://github.com/orgs/ds4owd-002/discussions/categories/group" target="_blank">https://github.com/orgs/ds4owd-002/discussions/categories/group</a></li>
+<li>Be mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! I estimate there should be an average of 5-6 members.</li>
+<li>Join one of the discussions to join a group!</li>
 </ol>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+Is your Github Username in this list?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can search for your repository by typing your username in the search bar just below the Repository heading.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Username</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>alazarnegash-horecha</td>
+</tr>
+<tr class="even">
+<td>hopechilunga</td>
+</tr>
+<tr class="odd">
+<td>quishqa</td>
+</tr>
+<tr class="even">
+<td>biyiemmy</td>
+</tr>
+<tr class="odd">
+<td>rebecca-lk</td>
+</tr>
+<tr class="even">
+<td>jngalamu</td>
+</tr>
+<tr class="odd">
+<td>squiebble</td>
+</tr>
+<tr class="even">
+<td>laigarve</td>
+</tr>
+<tr class="odd">
+<td>tangqiqing</td>
+</tr>
+<tr class="even">
+<td>prabhatjoshi007</td>
+</tr>
+<tr class="odd">
+<td>asimenye99</td>
+</tr>
+<tr class="even">
+<td>imegit</td>
+</tr>
+<tr class="odd">
+<td>chekwube-web</td>
+</tr>
+<tr class="even">
+<td>emmanuellmhango</td>
+</tr>
+</tbody>
+</table>
+<p>If so, our precourse survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.</p>
 </div>
 </div>
-<ol start="4" type="1">
-<li>You can verify here that your changes have been pushed to the remote repository by looking at the uploaded XLSX file in your repository.</li>
-<li>Click on the <span class="highlight-yellow">Issues</span> tab.</li>
-<li>Click on the green <span class="highlight-yellow">New issue</span> button.</li>
-<li>In the <span class="highlight-yellow">Title</span> field write: <span class="highlight-yellow">Create spreadsheet and upload to cloud</span>.</li>
-<li>In the <span class="highlight-yellow">Leave a comment</span> field, tag the course instructors <code>@seawaR</code> <code>@massarin</code> <code>@larnsce</code> and <span class="highlight-yellow">add a question about this module</span>. We would like to see <span class="highlight-yellow">one question from every participant</span>.</li>
-<li>Scroll down the page a bit and click the green <span class="highlight-yellow">Create</span> button.</li>
-</ol>
-<p>Congratulations! You have successfully created a spreadsheet, uploaded it to GitHub, and completed this assignment.</p>
+<p>Congratulations! You have completed the study group assignment and are now ready for the next module.</p>
 
 
 </section>
@@ -992,13 +868,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../content/assignments/md-03/am-03-1-data-transformation.html" class="pagination-link" aria-label="am-01: Data transformation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">am-01: Data transformation</span>
+      <a href="../../../content/assignments/md-04/am-04-1-reading.html" class="pagination-link" aria-label="am-01: Data organization">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">am-01: Data organization</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../content/modules/md-04.html" class="pagination-link" aria-label="Module 04">
-        <span class="nav-page-text">Module 04</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../content/modules/md-05.html" class="pagination-link" aria-label="Module 05">
+        <span class="nav-page-text">Module 05</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
