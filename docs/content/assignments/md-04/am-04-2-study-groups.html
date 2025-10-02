@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Lars Schöbitz">
+<meta name="author" content="Nicolo Massari">
 
-<title>GitHub workflow – data science for openwashdata</title>
+<title>Study groups – data science for openwashdata</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../../../content/modules/md-02.html" rel="next">
-<link href="../../../content/assignments/md-01/am-01-4-github-clone.html" rel="prev">
+<link href="../../../content/modules/md-05.html" rel="next">
+<link href="../../../content/assignments/md-04/am-04-1-reading.html" rel="prev">
 <link href="../../../img/OWD-logo-18.png" rel="icon" type="image/png">
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-01.html">Module 01</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-01/am-01-5-github-workflow.html">am-01-5: GitHub Workflow</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-04.html">Module 04</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-04/am-04-2-study-groups.html">am-02: Study groups</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -132,11 +132,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../../content/modules/md-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 01</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../content/assignments/md-01/am-01-1-posit.html" class="sidebar-item-text sidebar-link">
@@ -163,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../content/assignments/md-01/am-01-5-github-workflow.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../content/assignments/md-01/am-01-5-github-workflow.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">am-01-5: GitHub Workflow</span></a>
   </div>
 </li>
@@ -219,11 +219,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../../content/modules/md-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 04</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../content/assignments/md-04/am-04-1-reading.html" class="sidebar-item-text sidebar-link">
@@ -232,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../content/assignments/md-04/am-04-2-study-groups.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../content/assignments/md-04/am-04-2-study-groups.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">am-02: Study groups</span></a>
   </div>
 </li>
@@ -330,19 +330,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#complete-github-workflow" id="toc-complete-github-workflow" class="nav-link active" data-scroll-target="#complete-github-workflow">Complete GitHub workflow</a></li>
-  <li><a href="#step-1-introduce-yourself-to-git" id="toc-step-1-introduce-yourself-to-git" class="nav-link" data-scroll-target="#step-1-introduce-yourself-to-git">Step 1: Introduce yourself to git</a></li>
-  <li><a href="#step-2-commit-and-push-your-changes" id="toc-step-2-commit-and-push-your-changes" class="nav-link" data-scroll-target="#step-2-commit-and-push-your-changes">Step 2: Commit and push your changes</a></li>
-  <li><a href="#step-3-open-an-issue-on-github" id="toc-step-3-open-an-issue-on-github" class="nav-link" data-scroll-target="#step-3-open-an-issue-on-github">Step 3: Open an issue on GitHub</a></li>
+  <li><a href="#step-1-join-a-study-group" id="toc-step-1-join-a-study-group" class="nav-link active" data-scroll-target="#step-1-join-a-study-group">Step 1: Join a study group</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-01.html">Module 01</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-01/am-01-5-github-workflow.html">am-01-5: GitHub Workflow</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../content/modules/md-04.html">Module 04</a></li><li class="breadcrumb-item"><a href="../../../content/assignments/md-04/am-04-2-study-groups.html">am-02: Study groups</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">GitHub workflow</h1>
+<h1 class="title">Study groups</h1>
 </div>
 
 
@@ -351,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Lars Schöbitz </p>
+    <p class="author">Nicolo Massari </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -372,148 +369,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="complete-github-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="complete-github-workflow">Complete GitHub workflow</h2>
-<p>In this assignment, you will configure Git, commit changes, and create an issue on GitHub.</p>
-</section>
-<section id="step-1-introduce-yourself-to-git" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-introduce-yourself-to-git">Step 1: Introduce yourself to git</h2>
-<ol type="1">
-<li>In Posit Cloud, open the <span class="highlight-yellow">md-01-assignments-USERNAME</span> project that ends with your GitHub username. Ensure that you are in the workspace of <span class="highlight-yellow">ds4owd-002</span>. You can verify this by looking at the top left corner next to your repository name. If this says <span class="highlight-yellow">Your Workspace</span>, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the <span class="highlight-yellow">ds4owd-002</span> workspace.</li>
-</ol>
-<p><img src="images/github-workflow/screenshot-posit-cloud-project.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="2" type="1">
-<li>Open the <span class="highlight-yellow">git-configuration.qmd</span> file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.</li>
-</ol>
-<p><img src="images/github-workflow/screenshot-rstudio-files-pane.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="3" type="1">
-<li>Under the heading <span class="highlight-yellow">Git configuration</span> edit the code in the code chunk:</li>
-</ol>
-<ul>
-<li>Replace the placeholder <span class="highlight-yellow">Your Name</span> with your GitHub username</li>
-<li>Replace <span class="highlight-yellow">Your Email</span> with your email address<br>
-</li>
-<li>Keep the quotes!</li>
-</ul>
-<p>These will be the details that git will use to identify you when you make changes to your work.</p>
-<p><img src="images/github-workflow/screenshot-git-config-code.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="4" type="1">
-<li><p>Save the file by clicking on the <span class="highlight-yellow">Save</span> icon in the Source pane or by pressing <code>Ctrl + S</code> (Windows/Linux) or <code>Cmd + S</code> (Mac).</p></li>
-<li><p>Render the document by clicking the <span class="highlight-yellow">Render</span> button in the Source pane.</p></li>
-</ol>
-<p><img src="images/github-workflow/screenshot-render-button.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="6" type="1">
-<li>Continue with the next step</li>
-</ol>
-</section>
-<section id="step-2-commit-and-push-your-changes" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-commit-and-push-your-changes">Step 2: Commit and push your changes</h2>
-<ol type="1">
-<li>Navigate to the Git pane in the top-right window of RStudio</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-rstudio-git-pane.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="2" type="1">
-<li>Check the box next to the git-configuration.qmd file to stage it for commit</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-stage-file.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="3" type="1">
-<li>Click on the <span class="highlight-yellow">Commit</span> button. A new window opens.</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-commit-button.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="4" type="1">
-<li>Enter a commit message in the <span class="highlight-yellow">Commit message</span> field in the top right corner. For example: replaced placeholders with my details</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-commit-message.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="5" type="1">
-<li>Click on the <span class="highlight-yellow">Commit</span> button</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-commit-confirm.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="6" type="1">
-<li>If you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on <span class="highlight-yellow">Close</span>. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-commit-close.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="7" type="1">
-<li>Click on the <span class="highlight-yellow">Push</span> button in the top right corner.</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-push-button.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="8" type="1">
-<li>Enter your GitHub username and click OK</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-credentials.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="9" type="1">
-<li>Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in <a href="../../../content/assignments/md-01/am-01-3-github-pat.html">Assignment 1.3</a>.</li>
-</ol>
-<p><img src="images/github-workflow/step2/screenshot-git-credentials-pat.png" class="img-fluid" style="width:100.0%"></p>
-<p>If you see a message that says <code>HEAD -&gt; main</code>, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. <span class="highlight-yellow">If you do not see this message</span>, make sure you have entered your GitHub username and GitHub PAT correctly.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-PAT Storage Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.</p>
-</div>
-</div>
-</section>
-<section id="step-3-open-an-issue-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-open-an-issue-on-github">Step 3: Open an issue on GitHub</h2>
+<section id="step-1-join-a-study-group" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-join-a-study-group">Step 1: Join a study group</h2>
 <ol type="1">
 <li>Open <a href="https://github.com/" class="uri">https://github.com/</a> in your browser.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-homepage.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="2" type="1">
 <li>Navigate to the GitHub organization for the course: <a href="https://github.com/ds4owd-002">https://github.com/ds4owd-002</a></li>
+<li>Find the <code>Discussions</code> tab in the top menu of the github organisation. Or follow the url <a href="https://github.com/orgs/ds4owd-002/discussions" target="_blank">https://github.com/orgs/ds4owd-002/discussions</a></li>
+<li>Find the <code>Group</code> category on the left. Or follow the url Or follow this link <a href="https://github.com/orgs/ds4owd-002/discussions/categories/group" target="_blank">https://github.com/orgs/ds4owd-002/discussions/categories/group</a></li>
+<li>Be mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! I estimate there should be an average of 5-6 members.</li>
+<li>Join one of the discussions to join a group!</li>
 </ol>
-<p><img src="images/github-workflow/step3/screenshot-github-org-search.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="3" type="1">
-<li>Find the repository <code>md-01-assignments-USERNAME</code> that <span class="highlight-yellow">ends with your GitHub username</span>, and open it by clicking on the repository name.</li>
-</ol>
-<ul>
-<li>Replace <code>USERNAME</code> with your actual GitHub username.</li>
-<li>For example, if your username is <code>johnsmith</code>, the repository will be <code>md-01-assignments-johnsmith</code>.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+Is your Github Username in this list?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can search for your repository by typing your username in the search bar just below the Repository heading. See <span class="highlight-yellow">rainbow-train</span> in screenshot.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Username</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>alazarnegash-horecha</td>
+</tr>
+<tr class="even">
+<td>hopechilunga</td>
+</tr>
+<tr class="odd">
+<td>quishqa</td>
+</tr>
+<tr class="even">
+<td>biyiemmy</td>
+</tr>
+<tr class="odd">
+<td>rebecca-lk</td>
+</tr>
+<tr class="even">
+<td>jngalamu</td>
+</tr>
+<tr class="odd">
+<td>squiebble</td>
+</tr>
+<tr class="even">
+<td>laigarve</td>
+</tr>
+<tr class="odd">
+<td>tangqiqing</td>
+</tr>
+<tr class="even">
+<td>prabhatjoshi007</td>
+</tr>
+<tr class="odd">
+<td>asimenye99</td>
+</tr>
+<tr class="even">
+<td>imegit</td>
+</tr>
+<tr class="odd">
+<td>chekwube-web</td>
+</tr>
+<tr class="even">
+<td>emmanuellmhango</td>
+</tr>
+</tbody>
+</table>
+<p>If so, our precourse survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.</p>
 </div>
 </div>
-<p><img src="images/github-workflow/step3/screenshot-github-repo-list.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="4" type="1">
-<li>You can verify here that your changes have been pushed to the remote repository by looking at the text next to the <code>git-configuration.qmd</code> file. It should display the commit message you entered in the previous step, e.g., <span class="highlight-yellow">replaced placeholders with my details</span>. You can also verify by identifying the number of commits, here <span class="highlight-yellow">2 commits</span>. Click on it and you can see them.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-commits.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="5" type="1">
-<li>Click on the <span class="highlight-yellow">Issues</span> tab.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-issues-tab.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="6" type="1">
-<li>Click on the green <span class="highlight-yellow">New issue</span> button.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-new-issue.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="7" type="1">
-<li>In the <span class="highlight-yellow">Title</span> field write: <span class="highlight-yellow">Completed module 1 assignment</span>.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-issue-title.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="8" type="1">
-<li>In the <span class="highlight-yellow">Leave a comment</span> field, tag the course instructors <code>@seawaR</code> <code>@massarin</code> <code>@larnsce</code> and write a short message, e.g., <span class="highlight-yellow">I have completed the module 1 assignment. Please review my work.</span> You can also add any questions you have or other comments you would like to share with the instructors.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-issue-comment.png" class="img-fluid" style="width:100.0%"></p>
-<ol start="9" type="1">
-<li>Scroll down the page a bit and click the green <span class="highlight-yellow">Create</span> button.</li>
-</ol>
-<p><img src="images/github-workflow/step3/screenshot-github-submit-issue.png" class="img-fluid" style="width:100.0%"> Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation).</p>
+<p>Congratulations! You have completed the study group assignment and are now ready for the next module.</p>
 
 
 </section>
@@ -938,13 +868,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../content/assignments/md-01/am-01-4-github-clone.html" class="pagination-link" aria-label="am-01-4: GitHub Clone">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">am-01-4: GitHub Clone</span>
+      <a href="../../../content/assignments/md-04/am-04-1-reading.html" class="pagination-link" aria-label="am-01: Data organization">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">am-01: Data organization</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../content/modules/md-02.html" class="pagination-link" aria-label="Module 02">
-        <span class="nav-page-text">Module 02</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../content/modules/md-05.html" class="pagination-link" aria-label="Module 05">
+        <span class="nav-page-text">Module 05</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
