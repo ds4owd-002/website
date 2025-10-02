@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "*.md"
     - "!CLAUDE.md"
+    - "!CONTRIBUTING.md"
 
 metadata-files:
   - _variables.yml
