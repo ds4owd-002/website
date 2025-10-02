@@ -6,9 +6,9 @@ bibliography: "../../../ds4owd-002.bib"
 
 ## Introduction
 
-The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that **all capstone projects will be published openly**, including both the data and the code. This aligns with our commitment to open science and the openwashdata community's mission.
+The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that [all capstone projects will be published openly]{.highlight-yellow}, including both the data and the code. This aligns with our commitment to open science and the openwashdata community's mission.
 
-After the course, we plan to support participants in packaging their data following the [openwashdata workflow](https://openwashdata.org/) to create R data packages that can be shared with the wider community.
+After the course, we plan to support participants in packaging their data following the openwashdata workflowto create R data packages that can be shared with the wider community: <https://openwashdata.org/pages/gallery/data/>
 
 This assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.
 
@@ -165,13 +165,18 @@ If you have questions about whether your data is suitable for public sharing, or
 
 If you see a message that says `HEAD -> main`, then you have successfully pushed your changes to the remote repository on GitHub. Click Close.
 
-::: {.callout-important}
-## Do not use your GitHub password
-
-You need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.
-:::
-
 ## Task 7: Open an issue on GitHub
+
+::: {.callout-tip}
+## Having trouble finding suitable data?
+
+If you're having difficulty identifying a dataset that meets the requirements, or if you're uncertain about privacy considerations, please also let us know in your GitHub issue. We can help you:
+
+- Identify alternative datasets
+- Determine appropriate anonymization strategies
+- Connect you with publicly available datasets in your area of interest
+- Discuss options for aggregating sensitive data
+:::
 
 1. Open <https://github.com/> in your browser.
 2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
@@ -180,18 +185,9 @@ You need to enter the GitHub Personal Access Token (PAT) you created in Module 1
 5. Click on the [Issues]{.highlight-yellow} tab.
 6. Click on the green [New issue]{.highlight-yellow} button.
 7. In the [Title]{.highlight-yellow} field write: [Completed data assessment for capstone project]{.highlight-yellow}.
-8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and briefly mention which dataset you selected.
+8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and:
+   - Briefly mention which dataset you selected
+   - [If you encountered any challenges identifying a suitable dataset or have concerns about data privacy, please mention them here]{.highlight-yellow}. We're here to help you find an appropriate dataset for your project.
 9. Scroll down the page and click the green [Create]{.highlight-yellow} button.
 
-::: {.callout-note}
-## What comes next?
 
-In Module 5, after your data has been reviewed and approved by instructors, you will:
-
-- Create a GitHub repository for your capstone project
-- Upload your prepared data
-- Begin exploratory data analysis
-- Start your journey toward creating an openwashdata R package
-:::
-
-## References
