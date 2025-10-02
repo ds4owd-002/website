@@ -651,7 +651,7 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 ::: task
 1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
 2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
-3. Click [Start]{.highlight-yellow} next to [md-04-exercises]{.highlight-yellow}.
+3. Click [Continue]{.highlight-yellow} next to [md-04-exercises]{.highlight-yellow}.
 4. In the File Manager in the bottom right window, locate the [`03a-import-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
