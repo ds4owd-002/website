@@ -782,6 +782,6 @@ countdown(15)
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-02-visualisation.pdf)
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-02-visualisation.pdf)
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).

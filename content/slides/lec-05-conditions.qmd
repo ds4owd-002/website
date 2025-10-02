@@ -399,6 +399,6 @@ head(penguins) |>
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-05-conditions.pdf)
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-05-conditions.pdf)
 
 ## References

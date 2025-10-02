@@ -51,7 +51,7 @@ You successfully complete the course and you  will receive a certificate of comp
 
 [hand in a complete capstone project report that uses a dataset of your choice by 4th December 2025]{.highlight-yellow}
 
-Required items: <{{< var course.site >../project/>
+Required items: <{{< var course.site >}}content/project/>
 
 This is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed.
 
@@ -729,13 +729,13 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 - The submission due date is: [Wednesday, 4th December 2025]{.highlight-yellow}.
 - You will need to work through Module 5 & Module 7 homework assignments to get started.
 - We will use the GitHub issue tracker to communicate and ask questions about the capstone project.
-- A list of required items for submission is covered on the course website: <{{< var course.site >../project/>
+- A list of required items for submission is covered on the course website: <{{< var course.site >}}content/project/>
 - If you require an extension, please reach to us via email: <ghe@mavt.ethz.ch>
 
 ## Your turn: Capstone project - Read and take notes
 
 ::: task
-1. Open: <{{< var course.site >../project/>.
+1. Open: <{{< var course.site >}}content/project/>.
 2. Read through the page.
 3. For the list in "Required items" note down the numbers of those that are unclear to you and why.
 4. After the time is up, you will join a break-out room and discuss the unclear items with your peers.
@@ -799,4 +799,4 @@ Content was re-used from a workshop hosted by [Mine Çetinkaya-Rundel](https://m
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-08-quarto.pdf)
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-08-quarto.pdf)

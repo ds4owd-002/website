@@ -973,4 +973,4 @@ You're not expected to remember or fully understand everything right now. This i
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-01-welcome.pdf)
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-01-welcome.pdf)

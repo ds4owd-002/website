@@ -667,6 +667,6 @@ ggplot(data = waste_data_tidy,
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-06-vectors.pdf)
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-06-vectors.pdf)
 
 ## References
