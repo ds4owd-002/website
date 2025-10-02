@@ -7,10 +7,10 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+  <meta name="generator" content="quarto-1.7.32">
 
   <meta name="author" content="Lars Schöbitz">
   <title>data science for openwashdata – Data types &amp; Vectors &amp; For Loops</title>
@@ -32,8 +32,9 @@
       vertical-align: middle;
     }
     /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +45,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -117,7 +118,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-6d35a71bdcd98cb4a01c6cef18292e7f.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-7f6b17d4932a75d55a8e568aa6354d81.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -383,11 +384,11 @@ Lars Schöbitz
 <p>See <a href="#/tbl-penguins" class="quarto-xref">Table&nbsp;1</a> for data on a few penguins.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a></a><span class="in">#| label: tbl-penguins</span></span>
-<span id="cb1-3"><a></a><span class="in">#| tbl-cap: A few penguins</span></span>
+<span id="cb1-2"><a></a><span class="co">#| label: tbl-penguins</span></span>
+<span id="cb1-3"><a></a><span class="co">#| tbl-cap: A few penguins</span></span>
 <span id="cb1-4"><a></a></span>
-<span id="cb1-5"><a></a><span class="in">head(penguins) |&gt; </span></span>
-<span id="cb1-6"><a></a><span class="in">  gt()</span></span>
+<span id="cb1-5"><a></a><span class="fu">head</span>(penguins) <span class="sc">|&gt;</span> </span>
+<span id="cb1-6"><a></a>  <span class="fu">gt</span>()</span>
 <span id="cb1-7"><a></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="tbl-penguins" class="cell quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-tbl">
@@ -396,23 +397,23 @@ Table&nbsp;1: A few penguins
 </figcaption>
 <div aria-describedby="tbl-penguins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="knppbyimrl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#knppbyimrl table {
+<div id="jievnyadyz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jievnyadyz table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#knppbyimrl thead, #knppbyimrl tbody, #knppbyimrl tfoot, #knppbyimrl tr, #knppbyimrl td, #knppbyimrl th {
+#jievnyadyz thead, #jievnyadyz tbody, #jievnyadyz tfoot, #jievnyadyz tr, #jievnyadyz td, #jievnyadyz th {
   border-style: none;
 }
 
-#knppbyimrl p {
+#jievnyadyz p {
   margin: 0;
   padding: 0;
 }
 
-#knppbyimrl .gt_table {
+#jievnyadyz .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -438,12 +439,12 @@ Table&nbsp;1: A few penguins
   border-left-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_caption {
+#jievnyadyz .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#knppbyimrl .gt_title {
+#jievnyadyz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -455,7 +456,7 @@ Table&nbsp;1: A few penguins
   border-bottom-width: 0;
 }
 
-#knppbyimrl .gt_subtitle {
+#jievnyadyz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -467,7 +468,7 @@ Table&nbsp;1: A few penguins
   border-top-width: 0;
 }
 
-#knppbyimrl .gt_heading {
+#jievnyadyz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -479,13 +480,13 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_bottom_border {
+#jievnyadyz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_col_headings {
+#jievnyadyz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -500,7 +501,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_col_heading {
+#jievnyadyz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -520,7 +521,7 @@ Table&nbsp;1: A few penguins
   overflow-x: hidden;
 }
 
-#knppbyimrl .gt_column_spanner_outer {
+#jievnyadyz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -532,15 +533,15 @@ Table&nbsp;1: A few penguins
   padding-right: 4px;
 }
 
-#knppbyimrl .gt_column_spanner_outer:first-child {
+#jievnyadyz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#knppbyimrl .gt_column_spanner_outer:last-child {
+#jievnyadyz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#knppbyimrl .gt_column_spanner {
+#jievnyadyz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -552,11 +553,11 @@ Table&nbsp;1: A few penguins
   width: 100%;
 }
 
-#knppbyimrl .gt_spanner_row {
+#jievnyadyz .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#knppbyimrl .gt_group_heading {
+#jievnyadyz .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -582,7 +583,7 @@ Table&nbsp;1: A few penguins
   text-align: left;
 }
 
-#knppbyimrl .gt_empty_group_heading {
+#jievnyadyz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -597,15 +598,15 @@ Table&nbsp;1: A few penguins
   vertical-align: middle;
 }
 
-#knppbyimrl .gt_from_md > :first-child {
+#jievnyadyz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#knppbyimrl .gt_from_md > :last-child {
+#jievnyadyz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#knppbyimrl .gt_row {
+#jievnyadyz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -624,7 +625,7 @@ Table&nbsp;1: A few penguins
   overflow-x: hidden;
 }
 
-#knppbyimrl .gt_stub {
+#jievnyadyz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -637,7 +638,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#knppbyimrl .gt_stub_row_group {
+#jievnyadyz .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -651,15 +652,15 @@ Table&nbsp;1: A few penguins
   vertical-align: top;
 }
 
-#knppbyimrl .gt_row_group_first td {
+#jievnyadyz .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#knppbyimrl .gt_row_group_first th {
+#jievnyadyz .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#knppbyimrl .gt_summary_row {
+#jievnyadyz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -669,16 +670,16 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#knppbyimrl .gt_first_summary_row {
+#jievnyadyz .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_first_summary_row.thick {
+#jievnyadyz .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#knppbyimrl .gt_last_summary_row {
+#jievnyadyz .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -688,7 +689,7 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_grand_summary_row {
+#jievnyadyz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -698,7 +699,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#knppbyimrl .gt_first_grand_summary_row {
+#jievnyadyz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -708,7 +709,7 @@ Table&nbsp;1: A few penguins
   border-top-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_last_grand_summary_row_top {
+#jievnyadyz .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -718,11 +719,11 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_striped {
+#jievnyadyz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#knppbyimrl .gt_table_body {
+#jievnyadyz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -731,7 +732,7 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_footnotes {
+#jievnyadyz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -745,7 +746,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_footnote {
+#jievnyadyz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -754,7 +755,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#knppbyimrl .gt_sourcenotes {
+#jievnyadyz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -768,7 +769,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#knppbyimrl .gt_sourcenote {
+#jievnyadyz .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -776,72 +777,72 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#knppbyimrl .gt_left {
+#jievnyadyz .gt_left {
   text-align: left;
 }
 
-#knppbyimrl .gt_center {
+#jievnyadyz .gt_center {
   text-align: center;
 }
 
-#knppbyimrl .gt_right {
+#jievnyadyz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#knppbyimrl .gt_font_normal {
+#jievnyadyz .gt_font_normal {
   font-weight: normal;
 }
 
-#knppbyimrl .gt_font_bold {
+#jievnyadyz .gt_font_bold {
   font-weight: bold;
 }
 
-#knppbyimrl .gt_font_italic {
+#jievnyadyz .gt_font_italic {
   font-style: italic;
 }
 
-#knppbyimrl .gt_super {
+#jievnyadyz .gt_super {
   font-size: 65%;
 }
 
-#knppbyimrl .gt_footnote_marks {
+#jievnyadyz .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#knppbyimrl .gt_asterisk {
+#jievnyadyz .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#knppbyimrl .gt_indent_1 {
+#jievnyadyz .gt_indent_1 {
   text-indent: 5px;
 }
 
-#knppbyimrl .gt_indent_2 {
+#jievnyadyz .gt_indent_2 {
   text-indent: 10px;
 }
 
-#knppbyimrl .gt_indent_3 {
+#jievnyadyz .gt_indent_3 {
   text-indent: 15px;
 }
 
-#knppbyimrl .gt_indent_4 {
+#jievnyadyz .gt_indent_4 {
   text-indent: 20px;
 }
 
-#knppbyimrl .gt_indent_5 {
+#jievnyadyz .gt_indent_5 {
   text-indent: 25px;
 }
 
-#knppbyimrl .katex-display {
+#jievnyadyz .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#knppbyimrl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#jievnyadyz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -938,13 +939,13 @@ Table&nbsp;1: A few penguins
 <p>See <a href="#/fig-penguins" class="quarto-xref">Figure&nbsp;1</a> for data on a few penguins.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a><span class="in">```{r}</span></span>
-<span id="cb2-2"><a></a><span class="in">#| label: fig-penguins</span></span>
-<span id="cb2-3"><a></a><span class="in">#| fig-cap: A few penguins</span></span>
-<span id="cb2-4"><a></a><span class="in">#| fig-width: 6</span></span>
-<span id="cb2-5"><a></a><span class="in">#| fig-asp: 0.618</span></span>
+<span id="cb2-2"><a></a><span class="co">#| label: fig-penguins</span></span>
+<span id="cb2-3"><a></a><span class="co">#| fig-cap: A few penguins</span></span>
+<span id="cb2-4"><a></a><span class="co">#| fig-width: 6</span></span>
+<span id="cb2-5"><a></a><span class="co">#| fig-asp: 0.618</span></span>
 <span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a><span class="in">ggplot(penguins, aes(x = species, fill = species)) +</span></span>
-<span id="cb2-8"><a></a><span class="in">  geom_bar(show.legend = FALSE)</span></span>
+<span id="cb2-7"><a></a><span class="fu">ggplot</span>(penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> species)) <span class="sc">+</span></span>
+<span id="cb2-8"><a></a>  <span class="fu">geom_bar</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb2-9"><a></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
@@ -963,7 +964,7 @@ Figure&nbsp;1: A few penguins
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_353c5d3a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_1cc9a799" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1546,7 +1547,7 @@ Figure&nbsp;1: A few penguins
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_489e90c7" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_468688d0" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">25</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1559,7 +1560,7 @@ Figure&nbsp;1: A few penguins
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_7cb3f39c" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_0ee1a027" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1581,7 +1582,7 @@ Figure&nbsp;1: A few penguins
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_8ede27c5" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_f1770697" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">35</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1594,7 +1595,7 @@ Figure&nbsp;1: A few penguins
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_f637ea58" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_8c796998" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2869,190 +2870,172 @@ Ben Aleya, Ali, Daniel Biek, Lin Boynton, Julia Jaeggi, Sebastian Camilo Loos, C
     </script>
 
     <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
-        } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
-        }
-      }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
-        }
-      }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
-          }
-        }
-        return false;
-      }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
-          }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/ds4owd-002\.github\.io\/website\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          return false;
         }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
             }
-          }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
         }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
               }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/ds4owd-002\.github\.io\/website\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      }
-    });
-    </script>
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
     
 
 </body></html>
