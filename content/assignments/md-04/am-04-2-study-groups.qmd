@@ -1,0 +1,38 @@
+---
+title: "Study groups"
+author: "Nicolo Massari"
+---
+
+## Step 1: Join a study group
+
+1. Open <https://github.com/> in your browser.
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+3. Find the `Discussions` tab in the top menu of the github organisation. Or follow the url [https://github.com/orgs/ds4owd-002/discussions](https://github.com/orgs/ds4owd-002/discussions){target="_blank"}
+4. Find the `Group` category on the left. Or follow the url Or follow this link [https://github.com/orgs/ds4owd-002/discussions/group](https://github.com/orgs/ds4owd-002/discussions/group){target="_blank"} 
+5. Be mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! I estimate there should be an average of 5-6 members.
+5. Join one of the discussions to join a group!
+
+::: {.callout-important}
+## Is your Github Username in this list?
+
+| Username            |
+|---------------------|
+| alazarnegash-horecha|
+| hopechilunga        |
+| quishqa             |
+| biyiemmy            |
+| rebecca-lk          |
+| jngalamu            |
+| squiebble           |
+| laigarve            |
+| tangqiqing          |
+| prabhatjoshi007     |
+| asimenye99          |
+| imegit              |
+| chekwube-web        |
+| emmanuellmhango     |
+
+If so, our precourse survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.
+:::
+
+Congratulations! You have completed the study group assignment and are now ready for the next module.
