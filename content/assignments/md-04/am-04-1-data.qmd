@@ -1,0 +1,197 @@
+---
+title: "Module 4 - Assignment 1"
+subtitle: "Identify and assess data for your capstone project"
+bibliography: "../../../ds4owd-002.bib"
+---
+
+## Introduction
+
+The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that **all capstone projects will be published openly**, including both the data and the code. This aligns with our commitment to open science and the openwashdata community's mission.
+
+After the course, we plan to support participants in packaging their data following the [openwashdata workflow](https://openwashdata.org/) to create R data packages that can be shared with the wider community.
+
+This assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.
+
+## Learning objectives
+
+By completing this assignment, you will be able to:
+
+1. Identify appropriate datasets for open science projects
+2. Assess data for privacy and sensitivity concerns
+3. Understand how to prepare sensitive data for public sharing
+4. Describe data characteristics and analysis goals
+
+## Task 1: Read and understand data sharing principles
+
+**Open by default**: All data and code from your capstone project will be published publicly on GitHub. This is a requirement for completing the course.
+
+**Privacy first**: Personal information, GPS coordinates, and other identifying information must be removed or aggregated before sharing.
+
+## Task 2: Identify potential datasets
+
+Identify 1-2 datasets that you might use for your capstone project. For each dataset, consider:
+
+### Data you have access to
+
+- Data from your work or research
+- Data you have collected
+- Data from your organization (with permission to share)
+- Public datasets you want to explore further
+
+### Data format
+
+Your data should be in one of these formats:
+
+- CSV (comma-separated values)
+- Excel (.xlsx or .xls)
+- JSON
+
+## Task 3: Assess data suitability for public sharing
+
+For each dataset you identified, complete the following assessment:
+
+### Is this data suitable for public sharing?
+
+Ask yourself these questions:
+
+1. **Personal identifiers**: Does the data contain names, addresses, phone numbers, email addresses, or other information that could identify specific individuals?
+
+2. **GPS coordinates**: Does the data include exact GPS coordinates or precise locations that could identify households or individuals?
+
+3. **Sensitive information**: Does the data include:
+   - Health information
+   - Financial information
+   - Information about vulnerable populations
+   - Proprietary or confidential business information
+
+4. **Permissions**: Do you have permission from your organization or the data owner to share this data publicly?
+
+### Making sensitive data suitable for sharing
+
+If your data contains sensitive information, consider these strategies:
+
+#### Removing sensitive variables
+
+- Delete columns containing personal identifiers (names, IDs, phone numbers)
+- Remove GPS coordinates or replace with general location information (e.g., district name instead of exact coordinates)
+- Remove or aggregate variables that could be used to identify individuals when combined
+
+#### Using a subset of data
+
+- Select only the variables (columns) needed for your analysis
+- Aggregate data to a higher level (e.g., village-level instead of household-level)
+
+::: {.callout-important}
+## When in doubt, aggregate or exclude
+
+If you are uncertain whether specific variables or observations can be shared publicly, it's better to exclude them or aggregate to a higher level. Remember: once data is published online, it cannot be unpublished.
+:::
+
+## Task 4: Clone your module 4 assignments repository
+
+1. Open <https://github.com/> in your browser.
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+3. Find the repository `md-04-assignments-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+   - Replace `USERNAME` with your actual GitHub username.
+   - For example, if your username is `rainbow-train`, the repository will be `md-04-assignments-rainbow-train`.
+
+::: {.callout-tip}
+You can search for your repository by typing your username in the search bar just below the Repository heading.
+:::
+
+4. Click on the green [Code]{.highlight-yellow} button.
+5. Copy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.
+6. Open the [Content]{.highlight-yellow} tab of the ds4owd-002 workspace on Posit Cloud: [{{< var platforms.posit-cloud >}}/content/all?sort=name_asc]({{< var platforms.posit-cloud >}}/content/all?sort=name_asc)
+7. Click the blue button [New Project]{.highlight-yellow} > [New Project from Git Repository]{.highlight-yellow}
+8. Paste the HTTPS URL from GitHub into the [URL of your Git Repository]{.highlight-yellow} field and click [OK]{.highlight-yellow}.
+9. Wait until the project is deployed. This may take a few minutes, depending on your internet connection.
+
+## Task 5: Document your data assessment
+
+1. Open the file `data-assessment.qmd` in your cloned repository.
+2. Follow the instructions in the template to document your data assessment.
+
+The template will guide you through documenting:
+
+### For each dataset you're considering (1-2 datasets):
+
+1. **Dataset name and source**: What is it called and where does it come from?
+
+2. **Description**: What does this data contain? (1-2 paragraphs)
+
+3. **Size and scope**:
+   - How many observations (rows)?
+   - How many variables (columns)?
+   - What time period does it cover?
+
+4. **Privacy assessment**:
+   - Does it contain personal identifiers? If yes, which ones?
+   - Does it contain GPS coordinates?
+   - Does it contain other sensitive information?
+   - Can you share it as-is, or does it need modification?
+
+5. **Required modifications** (if any):
+   - Which variables need to be removed?
+   - Do you need to use a subset of the data?
+   - Do any variables need to be aggregated or anonymized?
+
+6. **Analysis goals**: What questions do you want to answer with this data? (2-3 sentences)
+
+7. **Permission to share**:
+   - Do you have permission to share this data publicly?
+   - If it's from your organization, have you confirmed you can share it?
+
+### Select your preferred dataset
+
+After assessing all options, indicate which dataset you plan to use for your capstone project and explain why you chose it.
+
+::: {.callout-tip}
+## Questions? Ask on Element Chat
+
+If you have questions about whether your data is suitable for public sharing, or if you need help determining what modifications are needed, please ask on our Element Chat. We're happy to help you assess your data privacy considerations.
+:::
+
+## Task 6: Commit and push your changes
+
+1. Navigate to the Git pane in the top-right window of RStudio
+2. Check the box next to all files to stage them for a commit
+3. Click on the [Commit]{.highlight-yellow} button. A new window opens.
+4. Enter a commit message in the [Commit message]{.highlight-yellow} field in the top right corner. For example: `completed data assessment`
+5. Click on the [Commit]{.highlight-yellow} button
+6. If you see a message that confirms your commit, click on [Close]{.highlight-yellow}.
+7. Click on the [Push]{.highlight-yellow} button in the top right corner.
+8. Enter your GitHub username and click OK
+9. Enter your GitHub Personal Access Token (PAT) in the field and click OK.
+
+If you see a message that says `HEAD -> main`, then you have successfully pushed your changes to the remote repository on GitHub. Click Close.
+
+::: {.callout-important}
+## Do not use your GitHub password
+
+You need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.
+:::
+
+## Task 7: Open an issue on GitHub
+
+1. Open <https://github.com/> in your browser.
+2. Navigate to the GitHub organization for the course: [{{< var course.github-org >}}]({{< var course.github-org >}})
+3. Find the repository `md-04-assignments-USERNAME` that [ends with your GitHub username]{.highlight-yellow}, and open it by clicking on the repository name.
+4. You can verify here that your changes have been pushed to the remote repository by looking at the text next to the `data-assessment.qmd` file. It should display the commit message you entered in the previous step.
+5. Click on the [Issues]{.highlight-yellow} tab.
+6. Click on the green [New issue]{.highlight-yellow} button.
+7. In the [Title]{.highlight-yellow} field write: [Completed data assessment for capstone project]{.highlight-yellow}.
+8. In the [Leave a comment]{.highlight-yellow} field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and briefly mention which dataset you selected.
+9. Scroll down the page and click the green [Create]{.highlight-yellow} button.
+
+::: {.callout-note}
+## What comes next?
+
+In Module 5, after your data has been reviewed and approved by instructors, you will:
+
+- Create a GitHub repository for your capstone project
+- Upload your prepared data
+- Begin exploratory data analysis
+- Start your journey toward creating an openwashdata R package
+:::
+
+## References
