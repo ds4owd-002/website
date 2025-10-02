@@ -798,7 +798,7 @@ readr::read_csv(here::here("data", "tbl-01-ds4owd-002-course-schedule.csv")) |>
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
 
-Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/ma../../slides/lec-07-pivoting-joining.pdf)
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-07-pivoting-joining.pdf)
 
 # References
 

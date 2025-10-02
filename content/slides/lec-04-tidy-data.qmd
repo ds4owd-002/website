@@ -593,7 +593,9 @@ ggplot(data = waste_data_tidy,
 
 ## 
 
-Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/ Access slides as [PDF on GitHub](https://github.com/cven5873-ss23/website/raw/ma../../slides/lec-04-tidy-data.pdf)
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
+
+Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-04-tidy-data.pdf)
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
