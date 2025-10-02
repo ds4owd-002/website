@@ -724,7 +724,65 @@ knitr::include_graphics("img/lec-04/data-org-license.png")
 [Screenshot taken on 2022-03-23](https://github.com/kbroman/Talk_DataOrg)
 :::
 
+
 # Homework assignments module 4 {background-color="#4C326A"}
+
+## Assignment 1: Identify and assess data {.smaller}
+
+::: {.callout-important}
+## This is the most important assignment!
+
+To support you efficiently through to the end of the course, [we need to identify your capstone project data now]{.highlight-yellow}.
+
+This gives us time to discuss data suitability with each of you individually.
+:::
+
+::: columns
+::: {.column width="50%"}
+**Your tasks:**
+
+1. Identify 1-2 potential datasets
+2. Assess privacy and sensitivity
+3. Document required modifications
+4. Open GitHub issue to discuss with instructors
+:::
+
+::: {.column width="50%"}
+**Remember:**
+
+- All capstone projects will be [published openly]{.highlight-yellow}
+- Personal identifiers must be removed
+- When in doubt, exclude or aggregate
+:::
+:::
+
+## Assignment 2: Study groups (Mentorship programme) {.smaller}
+
+::: columns
+::: {.column width="50%"}
+We've identified some participants with more experience who can help support others in the course.
+
+[Join a study group on GitHub Discussions!]{.highlight-yellow}
+
+- Groups will have 5-6 members
+- Meet with your group to discuss 
+- Support each other through the modules
+:::
+
+::: {.column width="50%"}
+::: task
+1. Navigate to [GitHub Discussions](https://github.com/orgs/ds4owd-002/discussions/categories/group)
+2. Find the [Group]{.highlight-yellow} category
+3. [Join one of the discussions]{.highlight-yellow} to join a group
+4. Be mindful to distribute evenly - aim for 5-6 members per group
+:::
+
+::: {.callout-important}
+If your username appears in the assignment instructions, please join the study group with your username in the title - you've been identified as someone with experience who can help others!
+:::
+:::
+:::
+
 
 ## Module 4 documentation
 
