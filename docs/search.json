@@ -627,7 +627,7 @@
     "href": "content/slides/lec-06-vectors.html#module-6-documentation",
     "title": "Data types & Vectors & For Loops",
     "section": "Module 6 documentation",
-    "text": "Module 6 documentation\n\nds4owd-002.github.io/website//modules/md-06.html"
+    "text": "Module 6 documentation\n\nds4owd-002.github.io/website/content/modules/md-06.html"
   },
   {
     "objectID": "content/slides/lec-06-vectors.html#homework-due-date",
@@ -830,7 +830,7 @@
     "href": "content/slides/lec-04-spreadsheets.html#your-turn-md-04-exercises-1",
     "title": "Data import & Data organization in spreadsheets",
     "section": "Your turn: md-04-exercises",
-    "text": "Your turn: md-04-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-04-exercises.\nIn the File Manager in the bottom right window, locate the 03a-import-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
+    "text": "Your turn: md-04-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Continue next to md-04-exercises.\nIn the File Manager in the bottom right window, locate the 03a-import-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "content/slides/lec-04-spreadsheets.html#data-organization-in-spreadsheets-1",
@@ -1376,7 +1376,7 @@
     "href": "content/slides/lec-02-visualisation.html#module-2-documentation",
     "title": "Data science lifecycle & Exploratory data analysis using visualization",
     "section": "Module 2 documentation",
-    "text": "Module 2 documentation\n\nds4owd-002.github.io/website//modules/md-02.html"
+    "text": "Module 2 documentation\n\nds4owd-002.github.io/website/content/modules/md-02.html"
   },
   {
     "objectID": "content/slides/lec-02-visualisation.html#homework-due-date",
@@ -3561,7 +3561,7 @@
     "href": "content/slides/lec-01-welcome.html#module-1-documentation",
     "title": "Welcome & get ready for the course",
     "section": "Module 1 documentation",
-    "text": "Module 1 documentation\n\nds4owd-002.github.io/website//modules/md-01.html"
+    "text": "Module 1 documentation\n\nds4owd-002.github.io/website/content/modules/md-01.html"
   },
   {
     "objectID": "content/slides/lec-01-welcome.html#homework-due-date",
@@ -3736,7 +3736,7 @@
     "href": "content/slides/lec-03-transformation.html#module-3-documentation",
     "title": "Data transformation with dplyr",
     "section": "Module 3 documentation",
-    "text": "Module 3 documentation\n\nds4owd-002.github.io/website//modules/md-03.html"
+    "text": "Module 3 documentation\n\nds4owd-002.github.io/website/content/modules/md-03.html"
   },
   {
     "objectID": "content/slides/lec-03-transformation.html#homework-due-date",
@@ -3904,7 +3904,7 @@
     "href": "content/slides/lec-05-conditions.html#module-5-documentation",
     "title": "Conditions & Dates & Tables",
     "section": "Module 5 documentation",
-    "text": "Module 5 documentation\n\nds4owd-002.github.io/website//modules/md-05.html"
+    "text": "Module 5 documentation\n\nds4owd-002.github.io/website/content/modules/md-05.html"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#bring-your-own-data-for-the-capstone-project",
@@ -4254,7 +4254,7 @@
     "href": "content/slides/lec-07-pivoting-joining.html#module-7-documentation",
     "title": "Pivoting & joining data",
     "section": "Module 7 documentation",
-    "text": "Module 7 documentation\n\nds4owd-002.github.io/website//modules/md-07.html"
+    "text": "Module 7 documentation\n\nds4owd-002.github.io/website/content/modules/md-07.html"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#homework-due-date",
