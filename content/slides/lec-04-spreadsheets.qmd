@@ -491,7 +491,7 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
 2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-04-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-04a-factors-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`02a-factors-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
@@ -646,21 +646,13 @@ countdown(minutes = 10)
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
 
-## My turn: Import data from XLSX
-
-<br><br>
-
-::: {.hand-purple-large style="text-align: center;"}
-Sit back and enjoy!
-:::
-
-## Your turn: md-04-exercises 
+## Your turn: md-04-exercises
 
 ::: task
 1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
 2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-04-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-04b-import-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`03a-import-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
