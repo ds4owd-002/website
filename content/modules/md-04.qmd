@@ -69,7 +69,8 @@ Complete this quiz after you have worked through the assignments. Completing the
 
 You can access the Zoom recording of Module 4 on `r session_date`. To watch the recording, you will need to register for it. 
 
-Register for the recording at this link: [provided after the session]{.highlight-yellow} 
+Register for the recording at this link: <https://ethz.zoom.us/rec/share/0TtwKqtouNhHcogovS1sQGqCWQz30GvvWzrhVsoG3jww3Rq-AuPqq9TIu66Q3tDf.FIYR3gCRaReqwZfk>
 
-**Note: The video link will be shared once the recording is available.**
+[Note: The video will show once the recording has been processed.]{.highlight-yellow}
+
 
