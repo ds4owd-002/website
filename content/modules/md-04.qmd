@@ -54,6 +54,7 @@ quiz_due_date <- format(as.Date(vars$`md-04`$`quiz-due`), "%B %d, %Y")
 [Due date:]{.highlight-yellow} `r homework_due_date`
 
 -   [Assignment 1](../assignments/md-04/am-04-1-data.qmd): Data assessment for capstone project
+-   [Assignment 2](../assignments/md-04/am-04-2-study-groups.qmd): Study groups
 
 Thank you for working through this assignment.
 
