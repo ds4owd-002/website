@@ -3756,8 +3756,8 @@
     "objectID": "content/slides/lec-05-conditions.html#learning-objectives-for-this-week",
     "href": "content/slides/lec-05-conditions.html#learning-objectives-for-this-week",
     "title": "Conditions & Dates & Tables",
-    "section": "",
-    "text": "Rows: 36 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): title, learning_objectives\ndbl  (1): week\ndttm (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\nLearners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports."
+    "section": "Learning Objectives (for this week)",
+    "text": "Learning Objectives (for this week)\n\n\nLearners can apply functions from dplyr to change specific values of a variable in a dataframe.\nLearners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.\nLearners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports."
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#part-1-reading",
@@ -3778,14 +3778,14 @@
     "href": "content/slides/lec-05-conditions.html#rules-for-variable-names",
     "title": "Conditions & Dates & Tables",
     "section": "Rules for variable names",
-    "text": "Rules for variable names\n\navoid spaces\navoid special characters\nuse consistent naming conventions (e.g. snake_case)\n\n. . .\n\n\nuse\n\nts\nusers\nsystem\n\n\navoid\n\nTotal Solids (g/L)\nNumber of users\nSystem (pit latrine / septic tank)"
+    "text": "Rules for variable names\n\navoid spaces\navoid special characters\nuse consistent naming conventions (e.g. snake_case)\n\n\n\n\nuse\n\nts\nusers\nsystem\n\n\navoid\n\nTotal Solids (g/L)\nNumber of users\nSystem (pit latrine / septic tank)"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#data-dictionary-codebook",
     "href": "content/slides/lec-05-conditions.html#data-dictionary-codebook",
     "title": "Conditions & Dates & Tables",
     "section": "Data dictionary / codebook",
-    "text": "Data dictionary / codebook\n\nvariable descriptions belong into a data dictionary / codebook (not into variable names)\ndata dictionaries / codebooks are separate files\n\n. . .\n\n\n\n\n\n\n\nvariable_name\ndescription\n\n\n\n\nts\nTotal solids in g/L.\n\n\nusers\nNumber of users per system.\n\n\nsystem\nSanitation system in use at sample location (septic tank / pit latrine)."
+    "text": "Data dictionary / codebook\n\nvariable descriptions belong into a data dictionary / codebook (not into variable names)\ndata dictionaries / codebooks are separate files\n\n\n\n\n\n\n\n\n\nvariable_name\ndescription\n\n\n\n\nts\nTotal solids in g/L.\n\n\nusers\nNumber of users per system.\n\n\nsystem\nSanitation system in use at sample location (septic tank / pit latrine)."
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#dplyr-functions-mutate-case_when",
@@ -3799,21 +3799,21 @@
     "href": "content/slides/lec-05-conditions.html#my-turn-conditional-statements",
     "title": "Conditions & Dates & Tables",
     "section": "My turn: Conditional statements",
-    "text": "My turn: Conditional statements\n\n\nSit back and enjoy!\n\n\ncountdown(20)\n\n\n−+\n20:00"
+    "text": "My turn: Conditional statements\n\n\nSit back and enjoy!\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#take-a-break",
     "href": "content/slides/lec-05-conditions.html#take-a-break",
     "title": "Conditions & Dates & Tables",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move!\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move!\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#your-turn-md-05-exercises",
     "href": "content/slides/lec-05-conditions.html#your-turn-md-05-exercises",
     "title": "Conditions & Dates & Tables",
     "section": "Your turn: md-05-exercises",
-    "text": "Your turn: md-05-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-05a-conditions-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\ncountdown(20)\n\n\n−+\n20:00"
+    "text": "Your turn: md-05-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-05a-conditions-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#task-1",
@@ -3862,14 +3862,14 @@
     "href": "content/slides/lec-05-conditions.html#my-turn-dates",
     "title": "Conditions & Dates & Tables",
     "section": "My turn: Dates",
-    "text": "My turn: Dates\n\n\nSit back and enjoy!\n\n\ncountdown(15)\n\n\n−+\n15:00"
+    "text": "My turn: Dates\n\n\nSit back and enjoy!\n\n\n\n\n−+\n15:00"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#take-a-break-1",
     "href": "content/slides/lec-05-conditions.html#take-a-break-1",
     "title": "Conditions & Dates & Tables",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#r-packages-for-displaying-tables",
@@ -3883,7 +3883,7 @@
     "href": "content/slides/lec-05-conditions.html#our-turn-md-05-exercises",
     "title": "Conditions & Dates & Tables",
     "section": "Our turn: md-05-exercises",
-    "text": "Our turn: md-05-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-05c-tables.qmd file and click on it to open it in the top left window.\n\n\n\ncountdown(30)\n\n\n−+\n30:00"
+    "text": "Our turn: md-05-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-05-exercises.\nIn the File Manager in the bottom right window, locate the md-05c-tables.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#cross-references-1",
@@ -4433,7 +4433,7 @@
     "href": "content/slides/lec-05-conditions.html#data-organization-in-spreadsheets",
     "title": "Conditions & Dates & Tables",
     "section": "Data Organization in Spreadsheets",
-    "text": "Data Organization in Spreadsheets\n\nknitr::include_graphics(\"img/lec-04/data-org-paper.png\")\n\n\n\n\n\n\n\n\n\nScreenshot taken on 2025-10-02"
+    "text": "Data Organization in Spreadsheets\n\n\nScreenshot taken on 2025-10-02"
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#dataset-for-capstone-project",
@@ -4447,7 +4447,7 @@
     "href": "content/slides/lec-05-conditions.html#dataset-selection-is-a-pre-condition",
     "title": "Conditions & Dates & Tables",
     "section": "Dataset selection is a pre-condition",
-    "text": "Dataset selection is a pre-condition\n\n\n\n\n\n\nImportant: Dataset must be selected before Module 5 homework\n\n\n\nIf you haven’t yet selected a dataset, please complete the Module 4 Assignment 1 now:\nds4owd-002.github.io/website/content/assignments/md-04/am-04-1-data.html\nThis is required before you can complete the Module 5 homework, where you will upload your data to your GitHub repository."
+    "text": "Dataset selection is a pre-condition\n\n\n\n\n\n\nImportant: Dataset must be selected before Module 5 homework\n\n\nIf you haven’t yet selected a dataset, please complete the Module 4 Assignment 1 now:\nds4owd-002.github.io/website/content/assignments/md-04/am-04-1-data.html\nThis is required before you can complete the Module 5 homework, where you will upload your data to your GitHub repository."
   },
   {
     "objectID": "content/slides/lec-05-conditions.html#questions-about-your-data",
