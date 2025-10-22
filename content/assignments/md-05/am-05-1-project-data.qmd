@@ -5,37 +5,7 @@ execute:
   warning: false
 ---
 
-## Step 1: Identify data for your capstone project
-
-Ideally, you or your organisation has a dataset that you can use for your capstone project. Note that we intend to publish the final capstone project reports as public websites and that the you chose can be shared publicly.
-
-Data that is **not** suitable:
-
-- household surveys with personal information about individuals
-- household surveys with GPS coordinates
-- sensitive data about individuals or organisations
-
-Data that is suitable
-
-- household surveys with aggregated data
-- household surveys with no personal information about individuals and no GPS coordinates
-- observational data
-- laboratory data
-- data from a public source
-
-Your data format should be one of:
-
-- CSV
-- Excel
-- JSON
-
-If you do not have a dataset, you can use the following resources for inspriation:
-
-- [World Bank DataBank](https://databank.worldbank.org/home.aspx)
-- [openwashdata long list of data resources](https://github.com/openwashdata/data/issues)
-- [UNICEF Data and Analytics](https://data.unicef.org/resources/resource-type/datasets//)
-
-## Step 2: Create a new repository on GitHub & clone to Posit Cloud
+## Step 1: Create a new repository on GitHub & clone to Posit Cloud
 
 1. Open the GitHub Organisation for the course <{{< var course.github-org >}}>
 2. To right of the field ["Find a repository"]{.highlight-yellow}, click on the green ["New"]{.highlight-yellow} button.
@@ -71,7 +41,7 @@ knitr::include_graphics("images/04-copy-to-clipboard.png")
 8. Paste the HTTPS URL from GitHub into the ["URL of your Git Repository"]{.highlight-yellow} field.
 9. Wait until the project is deployed.
 
-## Step 3: Create new folders
+## Step 2: Create new folders
 
 1. Navigate to the Files tab in the bottom right window of RStudio.
 2. Click on the "Folder" button.
@@ -116,9 +86,26 @@ knitr::include_graphics("images/09-name-folder-raw.png")
 knitr::include_graphics("images/10-click-folder-raw.png")
 ```
 
-## Step 3: Upload the data 
+## Step 3: Upload the data
 
-1. Use the Files tab in the bottom right window to upload your identified data from Task 1 into the `raw` folder.
+::: {.callout-note}
+## Pre-requisite: Module 4 Data Assessment
+
+Before uploading your data, you must have completed [Module 4 Assignment 1: Identify and assess data for your capstone project](../md-04/am-04-1-data.qmd). This assignment helps you select a suitable dataset and assess it for privacy concerns.
+
+**If you haven't completed Module 4 Assignment 1 yet:**
+
+- Complete the Module 4 data assessment first
+- Your dataset should be suitable for public sharing (CSV, Excel, or JSON format)
+- It should not contain personal identifiers, GPS coordinates, or sensitive information unless properly anonymized
+- Use the GitHub issue tracker in your `md-04-assignments-USERNAME` repository to discuss your dataset with instructors
+
+**If you're still finalizing your dataset selection:**
+
+You can skip this step for now and continue with Steps 4-6. You must complete Steps 4-6 even without having uploaded your data. Return to upload your data once it's ready, and push the updated files to GitHub. To fully complete this homework assignment, you will eventually need to upload your data.
+:::
+
+1. Use the Files tab in the bottom right window to upload your selected dataset into the `raw` folder.
 
 ```{r}
 #| echo: false
@@ -202,7 +189,7 @@ We recommend using the `here` R package to refer to files in your project. The `
 ::: callout-important
 ## Do not use your GitHub password
 
-You need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.
+You need to enter the GitHub Personal Access Token (PAT) you created in an earlier module to push your changes back to GitHub.
 :::
 
 ## Step 6: Open an issue on GitHub
