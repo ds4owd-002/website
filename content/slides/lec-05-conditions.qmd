@@ -16,7 +16,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 5
+    week: 7
 bibliography: "../../ds4owd-002.bib"
 editor_options: 
   chunk_output_type: console
@@ -61,23 +61,17 @@ lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.c
 {1:length(lobj)}. {lobj[1:length(lobj)]}
 ```
 
-# Homework module 4 {background-color="#4C326A"}
+# Looking back: Module 4 {background-color="#4C326A"}
 
-## Part 1: Reading
-
-1.  Read @broman2018data: ["Data organization in spreadsheets"](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989).
-2.  Chose two of the recommendations and come up with [real-world examples]{.highlight-yellow} or scenarios where the recommendations could be applied in your work.
-3.  Be prepared to share these examples and [explain how the recommendations would improve your workflows]{.highlight-yellow}. This will be in a class setting as part of small discussion group (max 3 people).
-
-## Your turn: Discuss the reading
-
-::: task
-In discussion groups of 3, share your examples and discuss how the recommendations would improve your workflows.
-:::
+## Data Organization in Spreadsheets
 
 ```{r}
-countdown(10)
+knitr::include_graphics("img/lec-04/data-org-paper.png")
 ```
+
+::: footer
+[Screenshot taken on 2025-10-02](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989?src=)
+:::
 
 ## Rules for variable names
 
@@ -140,7 +134,7 @@ countdown(20)
 
 ## Take a break
 
-[Please get up and move!]{.highlight-yellow} Let your emails rest in peace.
+[Please get up and move!]{.highlight-yellow} 
 
 ![](img/lec-05/pixel-art-beach.png){width="50%" fig-alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting."}
 
@@ -377,17 +371,33 @@ head(penguins) |>
 ```
 :::
 
-## Bring your own data for the capstone project
+## Dataset for capstone project
 
-1. Find a dataset that you would like to work with.
-2. Create a new repository on GitHub & clone to Posit Cloud.
-3. Upload your data. 
-4. Create a new Quarto document an describe why you have chose this data.
+- In Module 4, you completed an assignment to identify and assess a dataset for your capstone project
+- You documented your data assessment in `data-assessment.qmd`
+- You opened an issue on GitHub to share your dataset selection with us
 
-## Suitable datasets
+## Dataset selection is a pre-condition
 
-- non-sensitive data that can be shared openly
-- data that you have permission to use
+::: {.callout-important}
+## Important: Dataset must be selected before Module 5 homework
+
+If you haven't yet selected a dataset, please complete the Module 4 Assignment 1 now:
+
+[{{< var course.site-short >}}content/assignments/md-04/am-04-1-data.html]({{< var course.site >}}content/assignments/md-04/am-04-1-data.html)
+
+This is required before you can complete the Module 5 homework, where you will upload your data to your GitHub repository.
+:::
+
+## Questions about your data?
+
+- Use the GitHub issue tracker in your `md-04-assignments-USERNAME` repository
+- Tag the instructors: `@seawaR` `@massarin` `@larnsce`
+- We can help you with:
+  - Privacy and data sharing concerns
+  - Identifying alternative datasets
+  - Determining what modifications are needed
+  - Aggregation strategies for sensitive data
 
 ## Homework due date
 

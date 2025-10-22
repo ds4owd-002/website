@@ -16,7 +16,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 6
+    week: 8
 bibliography: "../../ds4owd-002.bib"
 editor_options: 
   chunk_output_type: console

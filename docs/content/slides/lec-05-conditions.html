@@ -240,7 +240,9 @@ Lars Schöbitz
 <h2>Learning Objectives (for this week)</h2>
 <div class="cell">
 <ol type="1">
-<li></li>
+<li>Learners can apply functions from dplyr to change specific values of a variable in a dataframe.</li>
+<li>Learners can apply functions from the lubridate package to convert dates not in ISO 8601 to the date class in R.</li>
+<li>Learners can apply functions from knitr and gt package to display and cross-reference tables in HTML output reports.</li>
 </ol>
 </div>
 </section>
@@ -264,7 +266,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_8fcfb6eb" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_3697bf44" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -353,7 +355,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_d92eefe5" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_bdb4798f" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -366,7 +368,7 @@ Lars Schöbitz
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_d5211193" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_3ac2a16a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -388,7 +390,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_821f607e" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_d1445045" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -409,23 +411,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="tyfnympfbs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tyfnympfbs table {
+<div id="rrkazcycvs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#rrkazcycvs table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#tyfnympfbs thead, #tyfnympfbs tbody, #tyfnympfbs tfoot, #tyfnympfbs tr, #tyfnympfbs td, #tyfnympfbs th {
+#rrkazcycvs thead, #rrkazcycvs tbody, #rrkazcycvs tfoot, #rrkazcycvs tr, #rrkazcycvs td, #rrkazcycvs th {
   border-style: none;
 }
 
-#tyfnympfbs p {
+#rrkazcycvs p {
   margin: 0;
   padding: 0;
 }
 
-#tyfnympfbs .gt_table {
+#rrkazcycvs .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -451,12 +453,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_caption {
+#rrkazcycvs .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#tyfnympfbs .gt_title {
+#rrkazcycvs .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -468,7 +470,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#tyfnympfbs .gt_subtitle {
+#rrkazcycvs .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -480,7 +482,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#tyfnympfbs .gt_heading {
+#rrkazcycvs .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -492,13 +494,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_bottom_border {
+#rrkazcycvs .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_col_headings {
+#rrkazcycvs .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -513,7 +515,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_col_heading {
+#rrkazcycvs .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -533,7 +535,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#tyfnympfbs .gt_column_spanner_outer {
+#rrkazcycvs .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -545,15 +547,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#tyfnympfbs .gt_column_spanner_outer:first-child {
+#rrkazcycvs .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tyfnympfbs .gt_column_spanner_outer:last-child {
+#rrkazcycvs .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tyfnympfbs .gt_column_spanner {
+#rrkazcycvs .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -565,11 +567,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#tyfnympfbs .gt_spanner_row {
+#rrkazcycvs .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#tyfnympfbs .gt_group_heading {
+#rrkazcycvs .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -595,7 +597,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#tyfnympfbs .gt_empty_group_heading {
+#rrkazcycvs .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -610,15 +612,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#tyfnympfbs .gt_from_md > :first-child {
+#rrkazcycvs .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tyfnympfbs .gt_from_md > :last-child {
+#rrkazcycvs .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tyfnympfbs .gt_row {
+#rrkazcycvs .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -637,7 +639,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#tyfnympfbs .gt_stub {
+#rrkazcycvs .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -650,7 +652,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#tyfnympfbs .gt_stub_row_group {
+#rrkazcycvs .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -664,15 +666,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#tyfnympfbs .gt_row_group_first td {
+#rrkazcycvs .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#tyfnympfbs .gt_row_group_first th {
+#rrkazcycvs .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#tyfnympfbs .gt_summary_row {
+#rrkazcycvs .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -682,16 +684,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#tyfnympfbs .gt_first_summary_row {
+#rrkazcycvs .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_first_summary_row.thick {
+#rrkazcycvs .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#tyfnympfbs .gt_last_summary_row {
+#rrkazcycvs .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -701,7 +703,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_grand_summary_row {
+#rrkazcycvs .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -711,7 +713,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#tyfnympfbs .gt_first_grand_summary_row {
+#rrkazcycvs .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -721,7 +723,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_last_grand_summary_row_top {
+#rrkazcycvs .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -731,11 +733,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_striped {
+#rrkazcycvs .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tyfnympfbs .gt_table_body {
+#rrkazcycvs .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -744,7 +746,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_footnotes {
+#rrkazcycvs .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -758,7 +760,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_footnote {
+#rrkazcycvs .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -767,7 +769,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#tyfnympfbs .gt_sourcenotes {
+#rrkazcycvs .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -781,7 +783,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#tyfnympfbs .gt_sourcenote {
+#rrkazcycvs .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -789,72 +791,72 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#tyfnympfbs .gt_left {
+#rrkazcycvs .gt_left {
   text-align: left;
 }
 
-#tyfnympfbs .gt_center {
+#rrkazcycvs .gt_center {
   text-align: center;
 }
 
-#tyfnympfbs .gt_right {
+#rrkazcycvs .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tyfnympfbs .gt_font_normal {
+#rrkazcycvs .gt_font_normal {
   font-weight: normal;
 }
 
-#tyfnympfbs .gt_font_bold {
+#rrkazcycvs .gt_font_bold {
   font-weight: bold;
 }
 
-#tyfnympfbs .gt_font_italic {
+#rrkazcycvs .gt_font_italic {
   font-style: italic;
 }
 
-#tyfnympfbs .gt_super {
+#rrkazcycvs .gt_super {
   font-size: 65%;
 }
 
-#tyfnympfbs .gt_footnote_marks {
+#rrkazcycvs .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#tyfnympfbs .gt_asterisk {
+#rrkazcycvs .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#tyfnympfbs .gt_indent_1 {
+#rrkazcycvs .gt_indent_1 {
   text-indent: 5px;
 }
 
-#tyfnympfbs .gt_indent_2 {
+#rrkazcycvs .gt_indent_2 {
   text-indent: 10px;
 }
 
-#tyfnympfbs .gt_indent_3 {
+#rrkazcycvs .gt_indent_3 {
   text-indent: 15px;
 }
 
-#tyfnympfbs .gt_indent_4 {
+#rrkazcycvs .gt_indent_4 {
   text-indent: 20px;
 }
 
-#tyfnympfbs .gt_indent_5 {
+#rrkazcycvs .gt_indent_5 {
   text-indent: 25px;
 }
 
-#tyfnympfbs .katex-display {
+#rrkazcycvs .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#tyfnympfbs div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#rrkazcycvs div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1052,23 +1054,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="vxluhmzryz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#vxluhmzryz table {
+<div id="jqghxlojze" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jqghxlojze table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#vxluhmzryz thead, #vxluhmzryz tbody, #vxluhmzryz tfoot, #vxluhmzryz tr, #vxluhmzryz td, #vxluhmzryz th {
+#jqghxlojze thead, #jqghxlojze tbody, #jqghxlojze tfoot, #jqghxlojze tr, #jqghxlojze td, #jqghxlojze th {
   border-style: none;
 }
 
-#vxluhmzryz p {
+#jqghxlojze p {
   margin: 0;
   padding: 0;
 }
 
-#vxluhmzryz .gt_table {
+#jqghxlojze .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1094,12 +1096,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_caption {
+#jqghxlojze .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#vxluhmzryz .gt_title {
+#jqghxlojze .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1111,7 +1113,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#vxluhmzryz .gt_subtitle {
+#jqghxlojze .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1123,7 +1125,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#vxluhmzryz .gt_heading {
+#jqghxlojze .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1135,13 +1137,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_bottom_border {
+#jqghxlojze .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_col_headings {
+#jqghxlojze .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1156,7 +1158,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_col_heading {
+#jqghxlojze .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1176,7 +1178,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#vxluhmzryz .gt_column_spanner_outer {
+#jqghxlojze .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1188,15 +1190,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#vxluhmzryz .gt_column_spanner_outer:first-child {
+#jqghxlojze .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vxluhmzryz .gt_column_spanner_outer:last-child {
+#jqghxlojze .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vxluhmzryz .gt_column_spanner {
+#jqghxlojze .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1208,11 +1210,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#vxluhmzryz .gt_spanner_row {
+#jqghxlojze .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#vxluhmzryz .gt_group_heading {
+#jqghxlojze .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1238,7 +1240,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#vxluhmzryz .gt_empty_group_heading {
+#jqghxlojze .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1253,15 +1255,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#vxluhmzryz .gt_from_md > :first-child {
+#jqghxlojze .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vxluhmzryz .gt_from_md > :last-child {
+#jqghxlojze .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vxluhmzryz .gt_row {
+#jqghxlojze .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1280,7 +1282,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#vxluhmzryz .gt_stub {
+#jqghxlojze .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1293,7 +1295,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#vxluhmzryz .gt_stub_row_group {
+#jqghxlojze .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1307,15 +1309,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#vxluhmzryz .gt_row_group_first td {
+#jqghxlojze .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#vxluhmzryz .gt_row_group_first th {
+#jqghxlojze .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#vxluhmzryz .gt_summary_row {
+#jqghxlojze .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1325,16 +1327,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#vxluhmzryz .gt_first_summary_row {
+#jqghxlojze .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_first_summary_row.thick {
+#jqghxlojze .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#vxluhmzryz .gt_last_summary_row {
+#jqghxlojze .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1344,7 +1346,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_grand_summary_row {
+#jqghxlojze .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1354,7 +1356,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#vxluhmzryz .gt_first_grand_summary_row {
+#jqghxlojze .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1364,7 +1366,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_last_grand_summary_row_top {
+#jqghxlojze .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1374,11 +1376,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_striped {
+#jqghxlojze .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vxluhmzryz .gt_table_body {
+#jqghxlojze .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1387,7 +1389,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_footnotes {
+#jqghxlojze .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1401,7 +1403,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_footnote {
+#jqghxlojze .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1410,7 +1412,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#vxluhmzryz .gt_sourcenotes {
+#jqghxlojze .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1424,7 +1426,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#vxluhmzryz .gt_sourcenote {
+#jqghxlojze .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1432,72 +1434,72 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#vxluhmzryz .gt_left {
+#jqghxlojze .gt_left {
   text-align: left;
 }
 
-#vxluhmzryz .gt_center {
+#jqghxlojze .gt_center {
   text-align: center;
 }
 
-#vxluhmzryz .gt_right {
+#jqghxlojze .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vxluhmzryz .gt_font_normal {
+#jqghxlojze .gt_font_normal {
   font-weight: normal;
 }
 
-#vxluhmzryz .gt_font_bold {
+#jqghxlojze .gt_font_bold {
   font-weight: bold;
 }
 
-#vxluhmzryz .gt_font_italic {
+#jqghxlojze .gt_font_italic {
   font-style: italic;
 }
 
-#vxluhmzryz .gt_super {
+#jqghxlojze .gt_super {
   font-size: 65%;
 }
 
-#vxluhmzryz .gt_footnote_marks {
+#jqghxlojze .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#vxluhmzryz .gt_asterisk {
+#jqghxlojze .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#vxluhmzryz .gt_indent_1 {
+#jqghxlojze .gt_indent_1 {
   text-indent: 5px;
 }
 
-#vxluhmzryz .gt_indent_2 {
+#jqghxlojze .gt_indent_2 {
   text-indent: 10px;
 }
 
-#vxluhmzryz .gt_indent_3 {
+#jqghxlojze .gt_indent_3 {
   text-indent: 15px;
 }
 
-#vxluhmzryz .gt_indent_4 {
+#jqghxlojze .gt_indent_4 {
   text-indent: 20px;
 }
 
-#vxluhmzryz .gt_indent_5 {
+#jqghxlojze .gt_indent_5 {
   text-indent: 25px;
 }
 
-#vxluhmzryz .katex-display {
+#jqghxlojze .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#vxluhmzryz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#jqghxlojze div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1704,23 +1706,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="scdzsymuds" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#scdzsymuds table {
+<div id="deshbpbjup" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#deshbpbjup table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#scdzsymuds thead, #scdzsymuds tbody, #scdzsymuds tfoot, #scdzsymuds tr, #scdzsymuds td, #scdzsymuds th {
+#deshbpbjup thead, #deshbpbjup tbody, #deshbpbjup tfoot, #deshbpbjup tr, #deshbpbjup td, #deshbpbjup th {
   border-style: none;
 }
 
-#scdzsymuds p {
+#deshbpbjup p {
   margin: 0;
   padding: 0;
 }
 
-#scdzsymuds .gt_table {
+#deshbpbjup .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1746,12 +1748,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_caption {
+#deshbpbjup .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#scdzsymuds .gt_title {
+#deshbpbjup .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1763,7 +1765,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#scdzsymuds .gt_subtitle {
+#deshbpbjup .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1775,7 +1777,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#scdzsymuds .gt_heading {
+#deshbpbjup .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1787,13 +1789,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_bottom_border {
+#deshbpbjup .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_col_headings {
+#deshbpbjup .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1808,7 +1810,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_col_heading {
+#deshbpbjup .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1828,7 +1830,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#scdzsymuds .gt_column_spanner_outer {
+#deshbpbjup .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1840,15 +1842,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#scdzsymuds .gt_column_spanner_outer:first-child {
+#deshbpbjup .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#scdzsymuds .gt_column_spanner_outer:last-child {
+#deshbpbjup .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#scdzsymuds .gt_column_spanner {
+#deshbpbjup .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1860,11 +1862,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#scdzsymuds .gt_spanner_row {
+#deshbpbjup .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#scdzsymuds .gt_group_heading {
+#deshbpbjup .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1890,7 +1892,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#scdzsymuds .gt_empty_group_heading {
+#deshbpbjup .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1905,15 +1907,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#scdzsymuds .gt_from_md > :first-child {
+#deshbpbjup .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#scdzsymuds .gt_from_md > :last-child {
+#deshbpbjup .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#scdzsymuds .gt_row {
+#deshbpbjup .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1932,7 +1934,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#scdzsymuds .gt_stub {
+#deshbpbjup .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1945,7 +1947,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#scdzsymuds .gt_stub_row_group {
+#deshbpbjup .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1959,15 +1961,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#scdzsymuds .gt_row_group_first td {
+#deshbpbjup .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#scdzsymuds .gt_row_group_first th {
+#deshbpbjup .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#scdzsymuds .gt_summary_row {
+#deshbpbjup .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1977,16 +1979,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#scdzsymuds .gt_first_summary_row {
+#deshbpbjup .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_first_summary_row.thick {
+#deshbpbjup .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#scdzsymuds .gt_last_summary_row {
+#deshbpbjup .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1996,7 +1998,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_grand_summary_row {
+#deshbpbjup .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2006,7 +2008,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#scdzsymuds .gt_first_grand_summary_row {
+#deshbpbjup .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2016,7 +2018,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_last_grand_summary_row_top {
+#deshbpbjup .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2026,11 +2028,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_striped {
+#deshbpbjup .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#scdzsymuds .gt_table_body {
+#deshbpbjup .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2039,7 +2041,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_footnotes {
+#deshbpbjup .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2053,7 +2055,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_footnote {
+#deshbpbjup .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2062,7 +2064,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#scdzsymuds .gt_sourcenotes {
+#deshbpbjup .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2076,7 +2078,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#scdzsymuds .gt_sourcenote {
+#deshbpbjup .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2084,72 +2086,72 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#scdzsymuds .gt_left {
+#deshbpbjup .gt_left {
   text-align: left;
 }
 
-#scdzsymuds .gt_center {
+#deshbpbjup .gt_center {
   text-align: center;
 }
 
-#scdzsymuds .gt_right {
+#deshbpbjup .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#scdzsymuds .gt_font_normal {
+#deshbpbjup .gt_font_normal {
   font-weight: normal;
 }
 
-#scdzsymuds .gt_font_bold {
+#deshbpbjup .gt_font_bold {
   font-weight: bold;
 }
 
-#scdzsymuds .gt_font_italic {
+#deshbpbjup .gt_font_italic {
   font-style: italic;
 }
 
-#scdzsymuds .gt_super {
+#deshbpbjup .gt_super {
   font-size: 65%;
 }
 
-#scdzsymuds .gt_footnote_marks {
+#deshbpbjup .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#scdzsymuds .gt_asterisk {
+#deshbpbjup .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#scdzsymuds .gt_indent_1 {
+#deshbpbjup .gt_indent_1 {
   text-indent: 5px;
 }
 
-#scdzsymuds .gt_indent_2 {
+#deshbpbjup .gt_indent_2 {
   text-indent: 10px;
 }
 
-#scdzsymuds .gt_indent_3 {
+#deshbpbjup .gt_indent_3 {
   text-indent: 15px;
 }
 
-#scdzsymuds .gt_indent_4 {
+#deshbpbjup .gt_indent_4 {
   text-indent: 20px;
 }
 
-#scdzsymuds .gt_indent_5 {
+#deshbpbjup .gt_indent_5 {
   text-indent: 25px;
 }
 
-#scdzsymuds .katex-display {
+#deshbpbjup .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#scdzsymuds div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#deshbpbjup div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2367,23 +2369,23 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="ikikzqoiyp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ikikzqoiyp table {
+<div id="yszpqasstt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#yszpqasstt table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ikikzqoiyp thead, #ikikzqoiyp tbody, #ikikzqoiyp tfoot, #ikikzqoiyp tr, #ikikzqoiyp td, #ikikzqoiyp th {
+#yszpqasstt thead, #yszpqasstt tbody, #yszpqasstt tfoot, #yszpqasstt tr, #yszpqasstt td, #yszpqasstt th {
   border-style: none;
 }
 
-#ikikzqoiyp p {
+#yszpqasstt p {
   margin: 0;
   padding: 0;
 }
 
-#ikikzqoiyp .gt_table {
+#yszpqasstt .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2409,12 +2411,12 @@ Lars Schöbitz
   border-left-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_caption {
+#yszpqasstt .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ikikzqoiyp .gt_title {
+#yszpqasstt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2426,7 +2428,7 @@ Lars Schöbitz
   border-bottom-width: 0;
 }
 
-#ikikzqoiyp .gt_subtitle {
+#yszpqasstt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2438,7 +2440,7 @@ Lars Schöbitz
   border-top-width: 0;
 }
 
-#ikikzqoiyp .gt_heading {
+#yszpqasstt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2450,13 +2452,13 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_bottom_border {
+#yszpqasstt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_col_headings {
+#yszpqasstt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2471,7 +2473,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_col_heading {
+#yszpqasstt .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2491,7 +2493,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#ikikzqoiyp .gt_column_spanner_outer {
+#yszpqasstt .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2503,15 +2505,15 @@ Lars Schöbitz
   padding-right: 4px;
 }
 
-#ikikzqoiyp .gt_column_spanner_outer:first-child {
+#yszpqasstt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ikikzqoiyp .gt_column_spanner_outer:last-child {
+#yszpqasstt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ikikzqoiyp .gt_column_spanner {
+#yszpqasstt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2523,11 +2525,11 @@ Lars Schöbitz
   width: 100%;
 }
 
-#ikikzqoiyp .gt_spanner_row {
+#yszpqasstt .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ikikzqoiyp .gt_group_heading {
+#yszpqasstt .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2553,7 +2555,7 @@ Lars Schöbitz
   text-align: left;
 }
 
-#ikikzqoiyp .gt_empty_group_heading {
+#yszpqasstt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2568,15 +2570,15 @@ Lars Schöbitz
   vertical-align: middle;
 }
 
-#ikikzqoiyp .gt_from_md > :first-child {
+#yszpqasstt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ikikzqoiyp .gt_from_md > :last-child {
+#yszpqasstt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ikikzqoiyp .gt_row {
+#yszpqasstt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2595,7 +2597,7 @@ Lars Schöbitz
   overflow-x: hidden;
 }
 
-#ikikzqoiyp .gt_stub {
+#yszpqasstt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2608,7 +2610,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#ikikzqoiyp .gt_stub_row_group {
+#yszpqasstt .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2622,15 +2624,15 @@ Lars Schöbitz
   vertical-align: top;
 }
 
-#ikikzqoiyp .gt_row_group_first td {
+#yszpqasstt .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ikikzqoiyp .gt_row_group_first th {
+#yszpqasstt .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ikikzqoiyp .gt_summary_row {
+#yszpqasstt .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2640,16 +2642,16 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#ikikzqoiyp .gt_first_summary_row {
+#yszpqasstt .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_first_summary_row.thick {
+#yszpqasstt .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ikikzqoiyp .gt_last_summary_row {
+#yszpqasstt .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2659,7 +2661,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_grand_summary_row {
+#yszpqasstt .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2669,7 +2671,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#ikikzqoiyp .gt_first_grand_summary_row {
+#yszpqasstt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2679,7 +2681,7 @@ Lars Schöbitz
   border-top-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_last_grand_summary_row_top {
+#yszpqasstt .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2689,11 +2691,11 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_striped {
+#yszpqasstt .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ikikzqoiyp .gt_table_body {
+#yszpqasstt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2702,7 +2704,7 @@ Lars Schöbitz
   border-bottom-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_footnotes {
+#yszpqasstt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2716,7 +2718,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_footnote {
+#yszpqasstt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2725,7 +2727,7 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#ikikzqoiyp .gt_sourcenotes {
+#yszpqasstt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2739,7 +2741,7 @@ Lars Schöbitz
   border-right-color: #D3D3D3;
 }
 
-#ikikzqoiyp .gt_sourcenote {
+#yszpqasstt .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2747,72 +2749,72 @@ Lars Schöbitz
   padding-right: 5px;
 }
 
-#ikikzqoiyp .gt_left {
+#yszpqasstt .gt_left {
   text-align: left;
 }
 
-#ikikzqoiyp .gt_center {
+#yszpqasstt .gt_center {
   text-align: center;
 }
 
-#ikikzqoiyp .gt_right {
+#yszpqasstt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ikikzqoiyp .gt_font_normal {
+#yszpqasstt .gt_font_normal {
   font-weight: normal;
 }
 
-#ikikzqoiyp .gt_font_bold {
+#yszpqasstt .gt_font_bold {
   font-weight: bold;
 }
 
-#ikikzqoiyp .gt_font_italic {
+#yszpqasstt .gt_font_italic {
   font-style: italic;
 }
 
-#ikikzqoiyp .gt_super {
+#yszpqasstt .gt_super {
   font-size: 65%;
 }
 
-#ikikzqoiyp .gt_footnote_marks {
+#yszpqasstt .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ikikzqoiyp .gt_asterisk {
+#yszpqasstt .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ikikzqoiyp .gt_indent_1 {
+#yszpqasstt .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ikikzqoiyp .gt_indent_2 {
+#yszpqasstt .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ikikzqoiyp .gt_indent_3 {
+#yszpqasstt .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ikikzqoiyp .gt_indent_4 {
+#yszpqasstt .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ikikzqoiyp .gt_indent_5 {
+#yszpqasstt .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ikikzqoiyp .katex-display {
+#yszpqasstt .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ikikzqoiyp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#yszpqasstt div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2866,7 +2868,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_b9e98fca" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_7e8117bb" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2879,7 +2881,7 @@ Lars Schöbitz
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_3f7b79b7" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_6f5bb281" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2914,7 +2916,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_fa7492f6" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_03134794" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">30</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -2959,23 +2961,23 @@ Table&nbsp;1: A few penguins
 </figcaption>
 <div aria-describedby="tbl-penguins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="geovihxpmp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#geovihxpmp table {
+<div id="psaquxgkyu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#psaquxgkyu table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#geovihxpmp thead, #geovihxpmp tbody, #geovihxpmp tfoot, #geovihxpmp tr, #geovihxpmp td, #geovihxpmp th {
+#psaquxgkyu thead, #psaquxgkyu tbody, #psaquxgkyu tfoot, #psaquxgkyu tr, #psaquxgkyu td, #psaquxgkyu th {
   border-style: none;
 }
 
-#geovihxpmp p {
+#psaquxgkyu p {
   margin: 0;
   padding: 0;
 }
 
-#geovihxpmp .gt_table {
+#psaquxgkyu .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3001,12 +3003,12 @@ Table&nbsp;1: A few penguins
   border-left-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_caption {
+#psaquxgkyu .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#geovihxpmp .gt_title {
+#psaquxgkyu .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3018,7 +3020,7 @@ Table&nbsp;1: A few penguins
   border-bottom-width: 0;
 }
 
-#geovihxpmp .gt_subtitle {
+#psaquxgkyu .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3030,7 +3032,7 @@ Table&nbsp;1: A few penguins
   border-top-width: 0;
 }
 
-#geovihxpmp .gt_heading {
+#psaquxgkyu .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3042,13 +3044,13 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_bottom_border {
+#psaquxgkyu .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_col_headings {
+#psaquxgkyu .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3063,7 +3065,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_col_heading {
+#psaquxgkyu .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3083,7 +3085,7 @@ Table&nbsp;1: A few penguins
   overflow-x: hidden;
 }
 
-#geovihxpmp .gt_column_spanner_outer {
+#psaquxgkyu .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3095,15 +3097,15 @@ Table&nbsp;1: A few penguins
   padding-right: 4px;
 }
 
-#geovihxpmp .gt_column_spanner_outer:first-child {
+#psaquxgkyu .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#geovihxpmp .gt_column_spanner_outer:last-child {
+#psaquxgkyu .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#geovihxpmp .gt_column_spanner {
+#psaquxgkyu .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3115,11 +3117,11 @@ Table&nbsp;1: A few penguins
   width: 100%;
 }
 
-#geovihxpmp .gt_spanner_row {
+#psaquxgkyu .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#geovihxpmp .gt_group_heading {
+#psaquxgkyu .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3145,7 +3147,7 @@ Table&nbsp;1: A few penguins
   text-align: left;
 }
 
-#geovihxpmp .gt_empty_group_heading {
+#psaquxgkyu .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3160,15 +3162,15 @@ Table&nbsp;1: A few penguins
   vertical-align: middle;
 }
 
-#geovihxpmp .gt_from_md > :first-child {
+#psaquxgkyu .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#geovihxpmp .gt_from_md > :last-child {
+#psaquxgkyu .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#geovihxpmp .gt_row {
+#psaquxgkyu .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3187,7 +3189,7 @@ Table&nbsp;1: A few penguins
   overflow-x: hidden;
 }
 
-#geovihxpmp .gt_stub {
+#psaquxgkyu .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3200,7 +3202,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#geovihxpmp .gt_stub_row_group {
+#psaquxgkyu .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3214,15 +3216,15 @@ Table&nbsp;1: A few penguins
   vertical-align: top;
 }
 
-#geovihxpmp .gt_row_group_first td {
+#psaquxgkyu .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#geovihxpmp .gt_row_group_first th {
+#psaquxgkyu .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#geovihxpmp .gt_summary_row {
+#psaquxgkyu .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3232,16 +3234,16 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#geovihxpmp .gt_first_summary_row {
+#psaquxgkyu .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_first_summary_row.thick {
+#psaquxgkyu .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#geovihxpmp .gt_last_summary_row {
+#psaquxgkyu .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3251,7 +3253,7 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_grand_summary_row {
+#psaquxgkyu .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3261,7 +3263,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#geovihxpmp .gt_first_grand_summary_row {
+#psaquxgkyu .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3271,7 +3273,7 @@ Table&nbsp;1: A few penguins
   border-top-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_last_grand_summary_row_top {
+#psaquxgkyu .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3281,11 +3283,11 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_striped {
+#psaquxgkyu .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#geovihxpmp .gt_table_body {
+#psaquxgkyu .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3294,7 +3296,7 @@ Table&nbsp;1: A few penguins
   border-bottom-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_footnotes {
+#psaquxgkyu .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3308,7 +3310,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_footnote {
+#psaquxgkyu .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3317,7 +3319,7 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#geovihxpmp .gt_sourcenotes {
+#psaquxgkyu .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3331,7 +3333,7 @@ Table&nbsp;1: A few penguins
   border-right-color: #D3D3D3;
 }
 
-#geovihxpmp .gt_sourcenote {
+#psaquxgkyu .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3339,72 +3341,72 @@ Table&nbsp;1: A few penguins
   padding-right: 5px;
 }
 
-#geovihxpmp .gt_left {
+#psaquxgkyu .gt_left {
   text-align: left;
 }
 
-#geovihxpmp .gt_center {
+#psaquxgkyu .gt_center {
   text-align: center;
 }
 
-#geovihxpmp .gt_right {
+#psaquxgkyu .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#geovihxpmp .gt_font_normal {
+#psaquxgkyu .gt_font_normal {
   font-weight: normal;
 }
 
-#geovihxpmp .gt_font_bold {
+#psaquxgkyu .gt_font_bold {
   font-weight: bold;
 }
 
-#geovihxpmp .gt_font_italic {
+#psaquxgkyu .gt_font_italic {
   font-style: italic;
 }
 
-#geovihxpmp .gt_super {
+#psaquxgkyu .gt_super {
   font-size: 65%;
 }
 
-#geovihxpmp .gt_footnote_marks {
+#psaquxgkyu .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#geovihxpmp .gt_asterisk {
+#psaquxgkyu .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#geovihxpmp .gt_indent_1 {
+#psaquxgkyu .gt_indent_1 {
   text-indent: 5px;
 }
 
-#geovihxpmp .gt_indent_2 {
+#psaquxgkyu .gt_indent_2 {
   text-indent: 10px;
 }
 
-#geovihxpmp .gt_indent_3 {
+#psaquxgkyu .gt_indent_3 {
   text-indent: 15px;
 }
 
-#geovihxpmp .gt_indent_4 {
+#psaquxgkyu .gt_indent_4 {
   text-indent: 20px;
 }
 
-#geovihxpmp .gt_indent_5 {
+#psaquxgkyu .gt_indent_5 {
   text-indent: 25px;
 }
 
-#geovihxpmp .katex-display {
+#psaquxgkyu .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#geovihxpmp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#psaquxgkyu div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
