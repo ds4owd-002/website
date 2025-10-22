@@ -51,9 +51,13 @@ codebook_long <- read_csv(
 ```{r}
 #| label: learning-objectives
 
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |>
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
+
+# Read variables and format dates
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+homework_due_date <- format(as.Date(vars$`md-04`$`homework-due`), "%B %d, %Y")
 
 ```
 
@@ -796,7 +800,7 @@ If your username appears in the assignment instructions, please join the study g
 
 ## Homework due date
 
--   Homework assignment due: [Wednesday, October 8th 2025]{.highlight-yellow}
+-   Homework assignment due: [`r homework_due_date`]{.highlight-yellow}
 -   Quiz due: [Wednesday, October 15th 2025]{.highlight-yellow}
 
 ## Course Calendar {.smallest .scrollable}
