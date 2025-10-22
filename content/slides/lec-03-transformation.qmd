@@ -63,9 +63,13 @@ library(ggthemes)
 ```{r}
 #| label: learning-objectives
 
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |>
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
+
+# Read variables and format dates
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+homework_due_date <- format(as.Date(vars$`md-03`$`homework-due`), "%B %d, %Y")
 
 ```
 
@@ -471,7 +475,7 @@ countdown(20)
 
 ## Homework due date
 
--   Homework assignment due: [Monday, September 29th 2025]{.highlight-yellow}
+-   Homework assignment due: [`r homework_due_date`]{.highlight-yellow}
 -   Quiz due: [Tuesday, October 8th 2025]{.highlight-yellow} 
 
 # Wrap-up {background-color="#4C326A"}

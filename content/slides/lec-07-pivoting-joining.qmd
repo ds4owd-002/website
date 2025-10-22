@@ -95,9 +95,13 @@ waste_data_tidy |>
 ```{r}
 #| label: learning-objectives
 #| echo: false
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |>
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
+
+# Read variables and format dates
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+homework_due_date <- format(as.Date(vars$`md-07`$`homework-due`), "%B %d, %Y")
 
 ```
 
@@ -755,8 +759,7 @@ countdown(10)
 
 ## Homework due date
 
-- Homework assignment due: [Monday, November 3rd 2025]{.highlight-yellow}
-- Feedback until: [Thursday, November 6th 2025]{.highlight-yellow}
+- Homework assignment due: [`r homework_due_date`]{.highlight-yellow}
 
 # Wrap-up {background-color="#4C326A"}
 
