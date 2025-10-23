@@ -65,12 +65,12 @@ Thank you for working through this assignment.
 
 Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course. 
 
-[Quiz in preparation]{.highlight-yellow}
+[Quiz in preparation]{.highlight-yellow} (this will be available from Monday, 27 October)
 
 ## {{< fa video >}} Session Recording
 
 You can access the Zoom recording of Module 5 on `r session_date`. To watch the recording, you will need to register for it. 
 
-Register for the recording at this link: [provided after the session]{.highlight-yellow} 
+Register for the recording at this link: <https://ethz.zoom.us/rec/share/UBzPyxx_m1u2G2ByHm64BbFkG4WXPJXZ_88AN2q2tTOXBuePaK1Drsx7SlAg5TOT.dJmY3XmLeck4nLez>
 
-**Note: The video link will be shared once the recording is available.**
+[Note: The video will show once the recording has been processed.]{.highlight-yellow}
