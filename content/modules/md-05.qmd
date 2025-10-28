@@ -63,9 +63,11 @@ Thank you for working through this assignment.
 
 [Due date:]{.highlight-yellow} `r quiz_due_date`
 
-Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course. 
+Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
 
-[Quiz in preparation]{.highlight-yellow} (this will be available from Monday, 27 October)
+Access the quiz here: <https://u4x6xe-lars-sch0bitz.shinyapps.io/md-05-quiz/>
+
+You can verify your submissions using our [Live Quiz Checker](../course/quiz-checker.qmd).
 
 ## {{< fa video >}} Session Recording
 
