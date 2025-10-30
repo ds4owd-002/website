@@ -1,0 +1,97 @@
+---
+title: "Module 6 - Assignment 1"
+subtitle: "Cross-references with Quarto"
+---
+
+## Step 1: Clone your module 6 assignments repository
+
+1. Open github.com in your browser and navigate to the GitHub organization for the course (or use your bookmark).
+
+2. Find the repository `md-06-assignments-USERNAME` that ends with your GitHub username, and open it.
+
+3. Click on the green "Code" button.
+
+4. Copy the HTTPS URL to your clipboard.
+
+5. Open the ds4owd workspace on [posit.cloud](https://posit.cloud/spaces/663318/content/all?sort=name_asc)
+
+6. Click New Project > New Project from Git Repository
+
+7. Paste the HTTPS URL from GitHub into the "URL of your Git Repository" field.
+
+8. Wait until the project is deployed.
+
+9. Open `cross-references.qmd` and follow the instructions to work through the tasks.
+
+::: {.callout-tip}
+## Cross-references in Quarto
+
+This assignment builds on the cross-references material covered in lecture 6. If you need a refresher:
+
+- Review the [lecture slides](../slides/lec-06-vectors.html#/part-1-cross-references)
+- Practice with the exercises in `md-06a-cref-your-turn.qmd` on Posit Cloud
+
+Remember the three steps for cross-referencing:
+
+1. Add a caption (`tbl-cap` or `fig-cap`)
+2. Add a label starting with `tbl-` or `fig-`
+3. Reference with `@tbl-...` or `@fig-...`
+:::
+
+## Step 2: Commit and push your changes
+
+The below is also described in `cross-references.qmd`.
+
+1. Navigate to the Git pane in the top-right window of RStudio
+
+2. Check the box next to all files to stage them for a commit
+
+3. Click on the "Commit" button. A new window opens.
+
+4. Enter a commit message in the "Commit message" field. For example: completed cross-references assignment
+
+5. Click on the "Commit" button
+
+6. If you see a message that confirms your commit, click on "Close". If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.
+
+7. Click on the "Push" button in the top right corner.
+
+8. Enter your GitHub username and click OK
+
+9. Enter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.
+
+If you see a message that says `HEAD -> main`, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.
+
+::: {.callout-warning}
+## PAT Storage Warning
+
+If you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.
+:::
+
+::: {.callout-important}
+## Do not use your GitHub password
+
+You need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.
+:::
+
+## Step 3: Open an issue on GitHub
+
+1. Open github.com in your browser.
+
+2. Navigate to the GitHub organization for the course.
+
+3. Find the repository `md-06-assignments-USERNAME` that ends with your GitHub username.
+
+4. You can verify here that your changes have been pushed to the remote repository by looking at the text next to the `cross-references.qmd` file. It should display the commit message you entered in the previous step.
+
+5. Click on the "Issues" tab.
+
+6. Click on the green "New issue" button.
+
+7. In the "Title" field write: "Completed module 6 assignment 1"
+
+8. In the "Leave a comment" field, tag the course instructors `@seawaR` `@massarin` `@larnsce` and add a question about this module or cross-references.
+
+9. Scroll down the page and click the green "Submit new issue" button.
+
+Congratulations! You have completed the cross-references assignment and are now ready for the next module.

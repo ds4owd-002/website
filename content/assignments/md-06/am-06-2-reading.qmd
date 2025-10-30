@@ -1,5 +1,5 @@
 ---
-title: "Module 6 - Assignment 1"
+title: "Module 6 - Assignment 2"
 subtitle: "Good enough practices in scientific computing"
 bibliography: "../../../ds4owd-002.bib"
 ---

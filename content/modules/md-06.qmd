@@ -54,8 +54,9 @@ quiz_due_date <- format(as.Date(vars$`md-06`$`quiz-due`), "%B %d, %Y")
 
 [Due date:]{.highlight-yellow} `r homework_due_date`
 
--   [Assignment 1](../assignments/md-06/am-06-1-reading.qmd): Good enough practices in scientific computing
--   If you haven't yet, then: [Assignment 2](../assignments/md-05/am-05-1-project-data.qmd): Identify data for your capstone project
+-   [Assignment 1](../assignments/md-06/am-06-1-cross-references.qmd): Cross-references with Quarto
+-   [Assignment 2](../assignments/md-06/am-06-2-reading.qmd): Good enough practices in scientific computing
+-   If you haven't yet, then: [Assignment 3](../assignments/md-05/am-05-1-project-data.qmd): Identify data for your capstone project
 
 Thank you for working through this assignment.
 
