@@ -47,8 +47,9 @@ quiz_due_date <- format(as.Date(vars$`md-06`$`quiz-due`), "%B %d, %Y")
 
 ## {{< fa book >}} Readings
 
-1. Read [R for Data Science - Section 7 - Data import](https://r4ds.hadley.nz/data-import)  
-2. Read [R for Data Science - Section 10 - Exploratory data analysis](https://r4ds.hadley.nz/eda)  
+1. Read [R for Data Science - Chapter 20 - Vectors](https://r4ds.hadley.nz/vectors)
+2. Read [R for Data Science - Chapter 26 - Iteration](https://r4ds.hadley.nz/iteration)
+3. Read [R for Data Science - Chapter 27 - A field guide to base R](https://r4ds.hadley.nz/base-r)  
 
 ## {{< fa code >}} Assignments
 
