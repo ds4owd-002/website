@@ -29,7 +29,7 @@ subtitle: "Cross-references with Quarto"
 This assignment builds on the cross-references material covered in lecture 6. If you need a refresher:
 
 - Review the [lecture slides](../slides/lec-06-vectors.html#/part-1-cross-references)
-- Practice with the exercises in `md-06a-cref-your-turn.qmd` on Posit Cloud
+- Practice with the exercises in `01a-cref-your-turn.qmd` on Posit Cloud
 
 Remember the three steps for cross-referencing:
 
