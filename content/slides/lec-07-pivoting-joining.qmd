@@ -130,7 +130,48 @@ In discussion groups of 3, share your examples and discuss how the recommendatio
 countdown(10)
 ```
 
-# Part 1: Pivoting data {background-color="#4C326A"}
+# Part 1: Tidy data and pivoting {background-color="#4C326A"}
+
+## . {background-image="img/lec-04/tidydata_1.jpg" background-size="contain"}
+
+::: aside
+Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by [Julia Lowndes](https://twitter.com/juliesquid) and [Allison Horst](https://twitter.com/allison_horst)
+:::
+
+## . {background-image="img/lec-04/tidydata_2.jpg" background-size="contain"}
+
+::: aside
+Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by [Julia Lowndes](https://twitter.com/juliesquid) and [Allison Horst](https://twitter.com/allison_horst)
+:::
+
+## . {background-image="img/lec-04/tidydata_3.jpg" background-size="contain"}
+
+::: aside
+Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by [Julia Lowndes](https://twitter.com/juliesquid) and [Allison Horst](https://twitter.com/allison_horst)
+:::
+
+## A grammar of data tidying {.smaller}
+
+::: columns
+::: {.column width="40%"}
+```{r dplyr-part-of-tidyverse, echo=FALSE, out.width="60%", caption = "tidyr is part of the tidyverse"}
+knitr::include_graphics("img/lec-04/tidyr-part-of-tidyverse.png")
+```
+:::
+
+::: {.column width="60%"}
+The goal of tidyr is to help you tidy your data via
+
+-   pivoting for going between wide and long data
+-   splitting and combining character columns
+-   nesting and unnesting columns
+-   clarifying how `NA`s should be treated
+:::
+:::
+
+::: aside
+Slide taken from [Data Science in a Box](https://datasciencebox.org/)
+:::
 
 ## Pivoting data
 

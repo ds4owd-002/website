@@ -37,136 +37,28 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 ```{r}
 
-waste_data_lord1 <- read_csv("https://raw.githubusercontent.com/rbtl-fs22/rbtl-fs22-data/main/raw_data/lord-of-the-bins/04-05-2022_rbtl_data_sheet1.csv")
-
-waste_data_lord2 <- read_csv("https://raw.githubusercontent.com/rbtl-fs22/rbtl-fs22-data/main/raw_data/lord-of-the-bins/04-05-2022_rbtl_data_sheet2.csv")
-
-survey_data <- read_csv("https://raw.githubusercontent.com/rbtl-fs22/rbtl-fs22-data/main/raw_data/partners-in-grime/2022-05-04_survey-data.csv") |> 
+survey_data <- read_csv("https://raw.githubusercontent.com/rbtl-fs22/rbtl-fs22-data/main/raw_data/partners-in-grime/2022-05-04_survey-data.csv") |>
   mutate(id = seq(1:n()))
 
-survey_data_small <- survey_data |> 
+survey_data_small <- survey_data |>
   select(id, job, price_glass)
 
-survey_data_tidy <- survey_data |> 
-  select(id, job, residence_situation, starts_with("price")) |> 
+survey_data_tidy <- survey_data |>
+  select(id, job, residence_situation, starts_with("price")) |>
   pivot_longer(cols = starts_with("price"),
                names_to = "waste_category",
-               values_to = "price") |> 
-  mutate(waste_category = str_remove(waste_category, pattern = "price_")) |> 
+               values_to = "price") |>
+  mutate(waste_category = str_remove(waste_category, pattern = "price_")) |>
   mutate(price_new = case_when(
     price == "5 to 10" ~ "7.5",
     price == "05-Oct" ~ "7.5",
     str_detect(price, pattern = "20") == TRUE ~ "20",
     str_detect(price, pattern = "See comment") == TRUE ~ NA_character_,
     TRUE ~ price
-  )) |> 
-  mutate(price = as.numeric(price_new)) |> 
+  )) |>
+  mutate(price = as.numeric(price_new)) |>
   select(-price_new)
 
-#survey_data_tidy |>
-#  count(job, residence_situation, waste_category, price) |>
-#  ggplot(aes(x = factor(price), y = n, fill = job)) +
-#  geom_col()
-# 
-```
-
-```{r}
-#| eval: true
-
-waste_data <- bind_rows(waste_data_lord1, waste_data_lord2)
-
-waste_data_untidy <- waste_data |> 
-  filter(!is.na(objid)) |> 
-  rename(non_recyclable_Kg = `non_recyclables_ Kg`,
-         recyclable_Kg = recyclables_Kg) |>
-  relocate(c(recyclable_Kg, non_recyclable_Kg), .before = weight_total_kg) |> 
-  select(objid, location, pet_Kg:weight_total_kg) |> 
-  mutate(objid = factor(objid)) |>
-  rename_with(~str_remove(.x, "_Kg|_kg")) |> 
-  rename_with(~str_remove(.x, "_content")) |> 
-  rename(total = weight_total)
-
-
-waste_category_levels <- c("glass", "metal_alu", "paper", "pet", "other")
-
-waste_data_tidy <- waste_data_untidy |> 
-  select(objid:paper, non_recyclable) |> 
-  rename(other = non_recyclable) |> 
-  mutate(objid = factor(objid)) |>
-  pivot_longer(cols = pet:other,
-               names_to = "waste_category",
-               values_to = "weight") |> 
-  mutate(waste_category = factor(waste_category, levels = waste_category_levels)) |> 
-  mutate(type = case_when(
-    waste_category == "other" ~ "non_recyclable",
-    TRUE ~ "recyclable")) |> 
-  relocate(type, .before = weight) |> 
-  group_by(objid) |> 
-  mutate(percent = weight / sum(weight) * 100)
-
-waste_data_tidy |> 
-  write_rds(here::here("content/slides/data/intermediate_data/waste-characterisation-lord-of-the-bins-tidy.rds"))
-
-```
-
-```{r}
-#| eval: false
-
-waste_data_tidy |> 
-  group_by(location, waste_category) |> 
-  summarise(weight = mean(weight)) |> 
-  group_by(location) |> 
-  mutate(percent = weight / sum(weight) * 100) 
-
-waste_data_tidy |> 
-  
-  ggplot(mapping = aes(x = waste_category, y = weight, color = type)) +
-  geom_boxplot() +
-  geom_jitter(width = 0.2) +
-  facet_wrap(~location)
-
-waste_data_tidy |> 
-  ggplot(mapping = aes(x = objid, y = weight)) +
-  geom_col() 
-
-waste_data_tidy |> 
-  ggplot(mapping = aes(x = objid, y = weight, fill = waste_category)) +
-  geom_col() 
-
-waste_data_tidy |> 
-  ggplot(mapping = aes(x = waste_category, y = percent, color = type)) +
-  geom_boxplot() +
-  geom_jitter(width = 0.2) +
-  facet_wrap(~location)
-
-
-waste_data_tidy |> 
-  ggplot(aes(x = objid, y = percent, fill = waste_category)) +
-  geom_col() 
-
-waste_data_tidy |> 
-  ggplot(aes(x = objid, y = percent, fill = type)) +
-  geom_col() 
-
-waste_data_tidy |> 
-  ggplot(aes(x = objid, y = percent, fill = location)) +
-  geom_col() +
-  facet_wrap(~waste_category, ncol = 5)
-```
-
-## Course calendar {.smallest .scrollable}
-
-[Changes to the course calendar]{.highlight-yellow}
-
-- 19th December 2023: no class
-- 23rd January 2024: openwashdata webinar: a data sharing workflow that may please the publishers
-- 13th February 2024: submission of capstone project report
-
-```{r}
-readr::read_csv(here::here("data", "tbl-01-ds4owd-002-course-schedule.csv")) |> 
-  dplyr::select(date, week, topic = title, module) |> 
-  dplyr::mutate(date = format(date, format = "%d %B %Y")) |> 
-  knitr::kable()
 ```
 
 ## Learning Objectives (for this week)
@@ -451,202 +343,6 @@ countdown(minutes = 35)
 
 ```{r}
 countdown(minutes = 10)
-```
-
-# Part 3: tidyr - long and wide formats {background-color="#4C326A"}
-
-## . {background-image="img/lec-04/tidydata_1.jpg" background-size="contain"}
-
-::: aside
-Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by [Julia Lowndes](https://twitter.com/juliesquid) and [Allison Horst](https://twitter.com/allison_horst)
-:::
-
-## . {background-image="img/lec-04/tidydata_2.jpg" background-size="contain"}
-
-::: aside
-Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by [Julia Lowndes](https://twitter.com/juliesquid) and [Allison Horst](https://twitter.com/allison_horst)
-:::
-
-## . {background-image="img/lec-04/tidydata_3.jpg" background-size="contain"}
-
-::: aside
-Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by [Julia Lowndes](https://twitter.com/juliesquid) and [Allison Horst](https://twitter.com/allison_horst)
-:::
-
-## A grammar of data tidying {.smaller}
-
-::: columns
-::: {.column width="40%"}
-```{r dplyr-part-of-tidyverse, echo=FALSE, out.width="60%", caption = "tidyr is part of the tidyverse"}
-knitr::include_graphics("img/lec-04/tidyr-part-of-tidyverse.png")
-```
-:::
-
-::: {.column width="60%"}
-The goal of tidyr is to help you tidy your data via
-
--   pivoting for going between wide and long data
--   splitting and combining character columns
--   nesting and unnesting columns
--   clarifying how `NA`s should be treated
-:::
-:::
-
-::: aside
-Slide taken from [Data Science in a Box](https://datasciencebox.org/)
-:::
-
-## Pivoting data
-
-```{r}
-knitr::include_graphics("img/lec-04/tidyr-longer-wider.gif")
-```
-
-## Waste characterisation data {.smaller}
-
-```{r, out.width="90%"}
-
-waste_data_untidy |> 
-  select(-recyclable) |> 
-  rename(other = non_recyclable) |> 
-  knitr::kable(digits = 2)
-```
-
-## How would you plot this?
-
-```{r}
-
-ggplot(data = waste_data_untidy,
-       mapping = aes(x = objid, y = total, fill = location)) +
-  geom_col() + 
-  scale_fill_brewer(type = "qual")
-
-```
-
-## Three variables
-
-```{r, out.width="90%"}
-
-waste_data_untidy |> 
-  select(objid, location, total) |> 
-  knitr::kable(digits = 2)
-
-```
-
-## Three variables -\> three aesthetics {.smaller}
-
-```{r}
-#| echo: true
-#| eval: true
-#| code-line-numbers: "2-4"
-ggplot(data = waste_data_untidy,
-       mapping = aes(x = objid, 
-                     y = total, 
-                     fill = location)) +
-  geom_col() + 
-  scale_fill_brewer(type = "qual")
-```
-
-## And how to plot this?
-
-```{r}
-
-ggplot(data = waste_data_tidy,
-       mapping = aes(x = objid, 
-                     y = weight, 
-                     fill = waste_category)) +
-  geom_col() + 
-  scale_fill_brewer(type = "qual")
-
-```
-
-## Reminder: Data (in wide format) {.smaller .scrollable}
-
-```{r}
-waste_data_untidy |> 
-  select(-recyclable, -total) |> 
-  rename(other = non_recyclable) |> 
-  knitr::kable(digits = 2)
-```
-
-## You need: A long format {.smaller .scrollable}
-
-```{r}
-
-waste_data_tidy |> 
-  select(-percent, -type) |> 
-  knitr::kable(digits = 2)
-
-```
-
-## Three variables -\> three aesthetics {.smaller}
-
-```{r}
-#| echo: true
-#| eval: true
-#| code-line-numbers: "2-4"
-ggplot(data = waste_data_tidy,
-       mapping = aes(x = objid, 
-                     y = weight, 
-                     fill = waste_category)) +
-  geom_col() + 
-  scale_fill_brewer(type = "qual")
-```
-
-## How to {.smaller .scrollable auto-animate="true"}
-
-```{r}
-waste_data_untidy <- waste_data_untidy |> 
-  select(-recyclable, -total) |> 
-  rename(other = non_recyclable)
-```
-
-```{r}
-#| echo: true
-#| eval: false
-waste_data_untidy 
-```
-
-```{r}
-#| echo: false
-waste_data_untidy |> 
-  knitr::kable(digits = 2)
-```
-
-## How to {.smaller .scrollable auto-animate="true"}
-
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "2-4"
-waste_data_untidy |> 
-  pivot_longer(cols = pet:other,
-               names_to = "waste_category",
-               values_to = "weight") 
-
-```
-
-```{r}
-#| echo: false
-waste_data_untidy |> 
-  pivot_longer(cols = pet:other,
-               names_to = "waste_category",
-               values_to = "weight") |> 
-  knitr::kable(digits = 2)
-```
-
-## Three variables -\> three aesthetics {.smaller}
-
-```{r}
-#| echo: true
-#| eval: true
-#| code-line-numbers: "2-4"
-ggplot(data = waste_data_tidy,
-       mapping = aes(x = objid, 
-                     y = weight, 
-                     fill = waste_category)) +
-  geom_col() + 
-  scale_fill_brewer(type = "qual")
 ```
 
 # Homework assignments module 6 {background-color="#4C326A"}
