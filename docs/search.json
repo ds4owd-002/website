@@ -1889,7 +1889,7 @@
     "href": "content/assignments/md-06/am-06-1-cross-references.html",
     "title": "Module 6 - Assignments",
     "section": "",
-    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
+    "text": "Open github.com in your browser and navigate to the GitHub organization for the course (or use your bookmark).\nFind the repository md-06-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field.\nWait until the project is deployed.",
     "crumbs": [
       "Module 06",
       "am-01: Cross-references (+ bonus)"
@@ -1899,8 +1899,8 @@
     "objectID": "content/assignments/md-06/am-06-1-cross-references.html#step-1-clone-your-module-6-assignments-repository",
     "href": "content/assignments/md-06/am-06-1-cross-references.html#step-1-clone-your-module-6-assignments-repository",
     "title": "Module 6 - Assignments",
-    "section": "Step 1: Clone your module 6 assignments repository",
-    "text": "Step 1: Clone your module 6 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organization for the course (or use your bookmark).\nFind the repository md-06-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field.\nWait until the project is deployed.",
+    "section": "",
+    "text": "Open github.com in your browser and navigate to the GitHub organization for the course (or use your bookmark).\nFind the repository md-06-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field.\nWait until the project is deployed.",
     "crumbs": [
       "Module 06",
       "am-01: Cross-references (+ bonus)"
