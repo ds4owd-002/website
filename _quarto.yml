@@ -103,10 +103,12 @@ website:
       - section: "Module 06"
         href: content/modules/md-06.qmd
         contents:
-          - href: content/assignments/md-06/am-06-1-reading.qmd
-            text: "am-01: Good enough practices"
+          - href: content/assignments/md-06/am-06-1-cross-references.qmd
+            text: "am-01: Cross-references (+ bonus)"
+          - href: content/assignments/md-06/am-06-2-reading.qmd
+            text: "am-02: Good enough practices"
           - href: content/assignments/md-05/am-05-1-project-data.qmd
-            text: "am-02: Project data"
+            text: "am-03: Project data"
       - section: "Module 07"
         href: content/modules/md-07.qmd
         contents:

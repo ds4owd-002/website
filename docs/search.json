@@ -364,18 +364,11 @@
     "text": "Thanks!\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
   },
   {
-    "objectID": "content/slides/lec-06-vectors.html#course-calendar",
-    "href": "content/slides/lec-06-vectors.html#course-calendar",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Course calendar",
-    "text": "Course calendar\nChanges to the course calendar\n\n19th December 2023: no class\n23rd January 2024: openwashdata webinar: a data sharing workflow that may please the publishers\n13th February 2024: submission of capstone project report\n\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
-  },
-  {
     "objectID": "content/slides/lec-06-vectors.html#learning-objectives-for-this-week",
     "href": "content/slides/lec-06-vectors.html#learning-objectives-for-this-week",
     "title": "Data types & Vectors & For Loops",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R."
+    "text": "Learning Objectives (for this week)\n\n\nLearners can identify different ways of accessing a vector from a dataframe\nLearners can list the four main atomic vector types in R.\nLearners can create cross-references to figures and tables using labels and captions in Quarto documents\nLearners can recognize when a for loop is appropriate for repetitive tasks in data analysis"
   },
   {
     "objectID": "content/slides/lec-06-vectors.html#cross-references",
@@ -403,7 +396,7 @@
     "href": "content/slides/lec-06-vectors.html#your-turn-md-06-exercises",
     "title": "Data types & Vectors & For Loops",
     "section": "Your turn: md-06-exercises",
-    "text": "Your turn: md-06-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-06-exercises.\nIn the File Manager in the bottom right window, locate the md-06a-cref-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: md-06-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-06-exercises.\nIn the File Manager in the bottom right window, locate the 01a-cref-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "content/slides/lec-06-vectors.html#why-care-about-data-types",
@@ -501,7 +494,7 @@
     "href": "content/slides/lec-06-vectors.html#your-turn-md-06-exercises-1",
     "title": "Data types & Vectors & For Loops",
     "section": "Your turn: md-06-exercises",
-    "text": "Your turn: md-06-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-06-exercises.\nIn the File Manager in the bottom right window, locate the md-06b-types-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n35:00"
+    "text": "Your turn: md-06-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-06-exercises.\nIn the File Manager in the bottom right window, locate the 03a-types-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n35:00"
   },
   {
     "objectID": "content/slides/lec-06-vectors.html#take-a-break-1",
@@ -509,118 +502,6 @@
     "title": "Data types & Vectors & For Loops",
     "section": "Take a break",
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#section",
-    "href": "content/slides/lec-06-vectors.html#section",
-    "title": "Data types & Vectors & For Loops",
-    "section": ".",
-    "text": ".\n\n\nIllustrations from the Openscapes blog Tidy Data for reproducibility, efficiency, and collaboration by Julia Lowndes and Allison Horst"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#section-1",
-    "href": "content/slides/lec-06-vectors.html#section-1",
-    "title": "Data types & Vectors & For Loops",
-    "section": ".",
-    "text": ".\n\n\nIllustrations from the Openscapes blog Tidy Data for reproducibility, efficiency, and collaboration by Julia Lowndes and Allison Horst"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#section-2",
-    "href": "content/slides/lec-06-vectors.html#section-2",
-    "title": "Data types & Vectors & For Loops",
-    "section": ".",
-    "text": ".\n\n\nIllustrations from the Openscapes blog Tidy Data for reproducibility, efficiency, and collaboration by Julia Lowndes and Allison Horst"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#a-grammar-of-data-tidying",
-    "href": "content/slides/lec-06-vectors.html#a-grammar-of-data-tidying",
-    "title": "Data types & Vectors & For Loops",
-    "section": "A grammar of data tidying",
-    "text": "A grammar of data tidying\n\n\n\n\n\n\n\n\n\n\n\n\nThe goal of tidyr is to help you tidy your data via\n\npivoting for going between wide and long data\nsplitting and combining character columns\nnesting and unnesting columns\nclarifying how NAs should be treated\n\n\n\n\nSlide taken from Data Science in a Box"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#pivoting-data",
-    "href": "content/slides/lec-06-vectors.html#pivoting-data",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Pivoting data",
-    "text": "Pivoting data"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#waste-characterisation-data",
-    "href": "content/slides/lec-06-vectors.html#waste-characterisation-data",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Waste characterisation data",
-    "text": "Waste characterisation data\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\ntotal\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n2.05\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n3.64\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n1.99\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n2.19\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n1.12\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n0.50\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n2.33\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99\n4.07"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#how-would-you-plot-this",
-    "href": "content/slides/lec-06-vectors.html#how-would-you-plot-this",
-    "title": "Data types & Vectors & For Loops",
-    "section": "How would you plot this?",
-    "text": "How would you plot this?"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#three-variables",
-    "href": "content/slides/lec-06-vectors.html#three-variables",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Three variables",
-    "text": "Three variables\n\n\n\n\n\nobjid\nlocation\ntotal\n\n\n\n\n900\neth\n2.05\n\n\n899\neth\n3.64\n\n\n921\nold_town\n1.99\n\n\n916\nold_town\n2.19\n\n\n900\neth\n1.12\n\n\n899\neth\n0.50\n\n\n921\nold_town\n2.33\n\n\n916\nold_town\n4.07"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#three-variables---three-aesthetics",
-    "href": "content/slides/lec-06-vectors.html#three-variables---three-aesthetics",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Three variables -> three aesthetics",
-    "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_untidy,\n       mapping = aes(x = objid, \n                     y = total, \n                     fill = location)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#and-how-to-plot-this",
-    "href": "content/slides/lec-06-vectors.html#and-how-to-plot-this",
-    "title": "Data types & Vectors & For Loops",
-    "section": "And how to plot this?",
-    "text": "And how to plot this?"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#reminder-data-in-wide-format",
-    "href": "content/slides/lec-06-vectors.html#reminder-data-in-wide-format",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Reminder: Data (in wide format)",
-    "text": "Reminder: Data (in wide format)\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#you-need-a-long-format",
-    "href": "content/slides/lec-06-vectors.html#you-need-a-long-format",
-    "title": "Data types & Vectors & For Loops",
-    "section": "You need: A long format",
-    "text": "You need: A long format\n\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#three-variables---three-aesthetics-1",
-    "href": "content/slides/lec-06-vectors.html#three-variables---three-aesthetics-1",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Three variables -> three aesthetics",
-    "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#how-to",
-    "href": "content/slides/lec-06-vectors.html#how-to",
-    "title": "Data types & Vectors & For Loops",
-    "section": "How to",
-    "text": "How to\n\nwaste_data_untidy \n\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#how-to-1",
-    "href": "content/slides/lec-06-vectors.html#how-to-1",
-    "title": "Data types & Vectors & For Loops",
-    "section": "How to",
-    "text": "How to\n\nwaste_data_untidy |&gt; \n  pivot_longer(cols = pet:other,\n               names_to = \"waste_category\",\n               values_to = \"weight\") \n\n\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
-  },
-  {
-    "objectID": "content/slides/lec-06-vectors.html#three-variables---three-aesthetics-2",
-    "href": "content/slides/lec-06-vectors.html#three-variables---three-aesthetics-2",
-    "title": "Data types & Vectors & For Loops",
-    "section": "Three variables -> three aesthetics",
-    "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "content/slides/lec-06-vectors.html#module-6-documentation",
@@ -1607,7 +1488,7 @@
     "href": "content/modules/md-06.html",
     "title": "Module 6",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can list the four main atomic vector types in R.\nLearners can create cross-references to figures and tables using labels and captions in Quarto documents\nLearners can recognize when a for loop is appropriate for repetitive tasks in data analysis",
     "crumbs": [
       "Module 06"
     ]
@@ -1617,7 +1498,7 @@
     "href": "content/modules/md-06.html#learning-objectives",
     "title": "Module 6",
     "section": "",
-    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can identify a for loop\nLearners can list the four main atomic vector types in R.",
+    "text": "Learners can identify different ways of accessing a vector from a dataframe\nLearners can list the four main atomic vector types in R.\nLearners can create cross-references to figures and tables using labels and captions in Quarto documents\nLearners can recognize when a for loop is appropriate for repetitive tasks in data analysis",
     "crumbs": [
       "Module 06"
     ]
@@ -1637,7 +1518,7 @@
     "href": "content/modules/md-06.html#readings",
     "title": "Module 6",
     "section": " Readings",
-    "text": "Readings\n\nRead R for Data Science - Section 7 - Data import\n\nRead R for Data Science - Section 10 - Exploratory data analysis",
+    "text": "Readings\n\nRead R for Data Science - Chapter 20 - Vectors\nRead R for Data Science - Chapter 26 - Iteration\nRead R for Data Science - Chapter 27 - A field guide to base R",
     "crumbs": [
       "Module 06"
     ]
@@ -1647,7 +1528,7 @@
     "href": "content/modules/md-06.html#assignments",
     "title": "Module 6",
     "section": " Assignments",
-    "text": "Assignments\nDue date: November 05, 2025\n\nAssignment 1: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 2: Identify data for your capstone project\n\nThank you for working through this assignment.",
+    "text": "Assignments\nDue date: November 05, 2025\n\nAssignment 1: Cross-references with Quarto (includes optional bonus on for-loops)\nAssignment 2: Good enough practices in scientific computing\nIf you haven’t yet, then: Assignment 3: Identify data for your capstone project\n\n\n\n\n\n\n\nAbout Assignment 1\n\n\n\nAssignment 1 includes a required section on cross-references and an optional bonus section on for-loops for those who want to deepen their understanding of iteration in R.\n\n\nThank you for working through these assignments.",
     "crumbs": [
       "Module 06"
     ]
@@ -2004,234 +1885,355 @@
     ]
   },
   {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html",
-    "href": "content/assignments/md-05/am-05-1-project-data.html",
-    "title": "Data for your capstone project",
+    "objectID": "content/assignments/md-06/am-06-1-cross-references.html",
+    "href": "content/assignments/md-06/am-06-1-cross-references.html",
+    "title": "Module 6 - Assignments",
     "section": "",
-    "text": "Open the GitHub Organisation for the course &lt;https://github.com/ds4owd-002&gt;\nTo right of the field “Find a repository”, click on the green “New” button.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Repository name” field write project-username. Replace username with your GitHub username. Avoid using spaces. For example: project-rainbow-train for the user with the username rainbow-train\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click “Create repository”.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Quick setup” field, click on the clipboard next to the HTTPs URL\n\n\n\n\n\n\n\n\n\n\n\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.",
+    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
     "crumbs": [
-      "Module 05",
-      "am-01: Project data"
+      "Module 06",
+      "am-01: Cross-references (+ bonus)"
     ]
   },
   {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-1-create-a-new-repository-on-github-clone-to-posit-cloud",
-    "href": "content/assignments/md-05/am-05-1-project-data.html#step-1-create-a-new-repository-on-github-clone-to-posit-cloud",
-    "title": "Data for your capstone project",
+    "objectID": "content/assignments/md-06/am-06-1-cross-references.html#step-1-clone-your-module-6-assignments-repository",
+    "href": "content/assignments/md-06/am-06-1-cross-references.html#step-1-clone-your-module-6-assignments-repository",
+    "title": "Module 6 - Assignments",
+    "section": "Step 1: Clone your module 6 assignments repository",
+    "text": "Step 1: Clone your module 6 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organization for the course (or use your bookmark).\nFind the repository md-06-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field.\nWait until the project is deployed.",
+    "crumbs": [
+      "Module 06",
+      "am-01: Cross-references (+ bonus)"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-06/am-06-1-cross-references.html#step-2-complete-the-cross-references-assignment",
+    "href": "content/assignments/md-06/am-06-1-cross-references.html#step-2-complete-the-cross-references-assignment",
+    "title": "Module 6 - Assignments",
+    "section": "Step 2: Complete the cross-references assignment",
+    "text": "Step 2: Complete the cross-references assignment\n\nIn the Files pane (bottom right), open 01a-cross-references.qmd and follow the instructions to work through the tasks.\n\n\n\n\n\n\n\nCross-references in Quarto\n\n\n\nThis assignment builds on the cross-references material covered in lecture 6. If you need a refresher:\n\nReview the lecture slides\nPractice with the exercises in 01a-cref-your-turn.qmd on Posit Cloud\n\nRemember the three steps for cross-referencing:\n\nAdd a caption (tbl-cap or fig-cap)\nAdd a label starting with tbl- or fig-\nReference with @tbl-... or @fig-...",
+    "crumbs": [
+      "Module 06",
+      "am-01: Cross-references (+ bonus)"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-06/am-06-1-cross-references.html#step-3-optional-bonus-assignment-on-for-loops",
+    "href": "content/assignments/md-06/am-06-1-cross-references.html#step-3-optional-bonus-assignment-on-for-loops",
+    "title": "Module 6 - Assignments",
+    "section": "Step 3: (Optional) Bonus assignment on for-loops",
+    "text": "Step 3: (Optional) Bonus assignment on for-loops\n\n\n\n\n\n\nBonus Assignment\n\n\n\nThis is an optional bonus assignment for students who want to deepen their understanding of iteration and for-loops in R. It is not required to complete the course, but it will help you become more proficient with R programming.\nYou can skip this step and proceed directly to Step 4 if you prefer.\n\n\n\nIn the Files pane (bottom right), open 02a-for-loops-iteration.qmd and follow the instructions to work through the tasks.\n\n\n\n\n\n\n\nFor-Loops in R\n\n\n\nThis assignment helps you understand when for-loops are necessary and when they are not. You will learn to:\n\nDistinguish between situations requiring for-loops and those that don’t\nWrite for-loops to create multiple separate outputs\nStore plots and tables in lists\nDebug common for-loop errors\n\nThe assignment uses global sanitation data to demonstrate practical applications of iteration.",
+    "crumbs": [
+      "Module 06",
+      "am-01: Cross-references (+ bonus)"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-06/am-06-1-cross-references.html#step-4-commit-and-push-your-changes",
+    "href": "content/assignments/md-06/am-06-1-cross-references.html#step-4-commit-and-push-your-changes",
+    "title": "Module 6 - Assignments",
+    "section": "Step 4: Commit and push your changes",
+    "text": "Step 4: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field. For example: completed module 6 assignments\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
+    "crumbs": [
+      "Module 06",
+      "am-01: Cross-references (+ bonus)"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-06/am-06-1-cross-references.html#step-5-open-an-issue-on-github",
+    "href": "content/assignments/md-06/am-06-1-cross-references.html#step-5-open-an-issue-on-github",
+    "title": "Module 6 - Assignments",
+    "section": "Step 5: Open an issue on GitHub",
+    "text": "Step 5: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organization for the course.\nFind the repository md-06-assignments-USERNAME that ends with your GitHub username.\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the 01a-cross-references.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 6 assignments\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and share:\n\nA question about cross-references or data types, OR\nIf you completed the bonus assignment: what you learned from working with for-loops\n\nScroll down the page and click the green Submit new issue button.\n\nCongratulations! You have completed the module 6 assignments and are now ready for the next module.",
+    "crumbs": [
+      "Module 06",
+      "am-01: Cross-references (+ bonus)"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-2-study-groups.html",
+    "href": "content/assignments/md-04/am-04-2-study-groups.html",
+    "title": "Study groups",
     "section": "",
-    "text": "Open the GitHub Organisation for the course &lt;https://github.com/ds4owd-002&gt;\nTo right of the field “Find a repository”, click on the green “New” button.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Repository name” field write project-username. Replace username with your GitHub username. Avoid using spaces. For example: project-rainbow-train for the user with the username rainbow-train\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click “Create repository”.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Quick setup” field, click on the clipboard next to the HTTPs URL\n\n\n\n\n\n\n\n\n\n\n\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.",
+    "text": "Open https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the Discussions tab in the top menu of the github organisation. Or follow the url https://github.com/orgs/ds4owd-002/discussions\nFind the Group category on the left. Or follow the url Or follow this link https://github.com/orgs/ds4owd-002/discussions/categories/group\nBe mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! There should be an average of 5-6 members.\nJoin one of the discussions to join a group!\n\n\n\n\n\n\n\nIs your Github Username in this list?\n\n\n\n\n\n\nUsername\n\n\n\n\nalazarnegash-horecha\n\n\nhopechilunga\n\n\nquishqa\n\n\nbiyiemmy\n\n\nrebecca-lk\n\n\njngalamu\n\n\nsquiebble\n\n\nlaigarve\n\n\ntangqiqing\n\n\nprabhatjoshi007\n\n\nasimenye99\n\n\nimegit\n\n\nchekwube-web\n\n\nemmanuellmhango\n\n\n\nIf so, our pre-course survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.\n\n\nCongratulations! You have completed the study group assignment and are now ready for the next module.",
     "crumbs": [
-      "Module 05",
-      "am-01: Project data"
+      "Module 04",
+      "am-02: Study groups"
     ]
   },
   {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-2-create-new-folders",
-    "href": "content/assignments/md-05/am-05-1-project-data.html#step-2-create-new-folders",
-    "title": "Data for your capstone project",
-    "section": "Step 2: Create new folders",
-    "text": "Step 2: Create new folders\n\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the “Folder” button.\n\n\n\n\n\n\n\n\n\n\n\nEnter the name “data” in field and click OK.\n\n\n\n\n\n\n\n\n\n\n\nClick on the new data folder in the bottom right window.\n\n\n\n\n\n\n\n\n\n\n\nClick on the “Folder” button.\n\n\n\n\n\n\n\n\n\n\n\nEnter the name “raw” in field and click OK.\n\n\n\n\n\n\n\n\n\n\n\nClick on the new raw folder in the bottom right window.",
-    "crumbs": [
-      "Module 05",
-      "am-01: Project data"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-3-upload-the-data",
-    "href": "content/assignments/md-05/am-05-1-project-data.html#step-3-upload-the-data",
-    "title": "Data for your capstone project",
-    "section": "Step 3: Upload the data",
-    "text": "Step 3: Upload the data\n\n\n\n\n\n\nPre-requisite: Module 4 Data Assessment\n\n\n\nBefore uploading your data, you must have completed Module 4 Assignment 1: Identify and assess data for your capstone project. This assignment helps you select a suitable dataset and assess it for privacy concerns.\nIf you haven’t completed Module 4 Assignment 1 yet:\n\nComplete the Module 4 data assessment first\nYour dataset should be suitable for public sharing (CSV, Excel, or JSON format)\nIt should not contain personal identifiers, GPS coordinates, or sensitive information unless properly anonymized\nUse the GitHub issue tracker in your md-04-assignments-USERNAME repository to discuss your dataset with instructors\n\nIf you’re still finalizing your dataset selection:\nYou can skip this step for now and continue with Steps 4-6. You must complete Steps 4-6 even without having uploaded your data. Return to upload your data once it’s ready, and push the updated files to GitHub. To fully complete this homework assignment, you will eventually need to upload your data.\n\n\n\nUse the Files tab in the bottom right window to upload your selected dataset into the raw folder.\n\n\n\n\n\n\n\n\n\n\n\nChoose the file from the place you have saved it on your computer.",
-    "crumbs": [
-      "Module 05",
-      "am-01: Project data"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-4-describe-your-data-and-goals",
-    "href": "content/assignments/md-05/am-05-1-project-data.html#step-4-describe-your-data-and-goals",
-    "title": "Data for your capstone project",
-    "section": "Step 4: Describe your data and goals",
-    "text": "Step 4: Describe your data and goals\n\nNavigate back to the root of your project folder by a click on the blue R cube.\n\n\n\n\n\n\n\n\n\n\n\nCreate a new folder “docs” in the root of your project folder.\n\n\n\n\n\n\n\n\n\n\n\nClick on the docs folder\n\n\n\n\n\n\n\n\n\n\n\nCreate a new Quarto document and save it as index.qmd inside the docs folder.\n\n\n\n\n\n\n\n\n\n\n\nIn the index.qmd file, write a short description of your analysis goals and the data you have uploaded.\n\n\n\n\n\n\n\n\n\n\n\nAdd a code chunk and write library(tidyverse) to load the R packages you have learned to work with.\n\n\n```{r}\nlibrary(tidyverse)\n```\n\n\nImport your data by writing the following inside another code chunk (in this example we are using a CSV file):\n\n\nread_csv(here::here(\"data/raw/your-file-name.csv\"))\n\n\n\n\n\n\n\nThe here R package\n\n\n\nWe recommend using the here R package to refer to files in your project. The here R package helps with finding the correct file path to your data. We will discuss file paths and the package itself in another module.",
-    "crumbs": [
-      "Module 05",
-      "am-01: Project data"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-5-commit-and-push-your-changes",
-    "href": "content/assignments/md-05/am-05-1-project-data.html#step-5-commit-and-push-your-changes",
-    "title": "Data for your capstone project",
-    "section": "Step 5: Commit and push your changes",
-    "text": "Step 5: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in an earlier module to push your changes back to GitHub.",
-    "crumbs": [
-      "Module 05",
-      "am-01: Project data"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
-    "href": "content/assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
-    "title": "Data for your capstone project",
-    "section": "Step 6: Open an issue on GitHub",
-    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
-    "crumbs": [
-      "Module 05",
-      "am-01: Project data"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html",
-    "href": "content/assignments/md-04/am-04-1-data.html",
-    "title": "Module 4 - Assignment 1",
+    "objectID": "content/assignments/md-04/am-04-2-study-groups.html#step-1-join-a-study-group",
+    "href": "content/assignments/md-04/am-04-2-study-groups.html#step-1-join-a-study-group",
+    "title": "Study groups",
     "section": "",
-    "text": "The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that all capstone projects will be published openly, including both the data and the code. This aligns with our commitment to open science and the openwashdata community’s mission.\nAfter the course, we plan to support participants in packaging their data following the openwashdata workflowto create R data packages that can be shared with the wider community: https://openwashdata.org/pages/gallery/data/\nThis assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.",
+    "text": "Open https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the Discussions tab in the top menu of the github organisation. Or follow the url https://github.com/orgs/ds4owd-002/discussions\nFind the Group category on the left. Or follow the url Or follow this link https://github.com/orgs/ds4owd-002/discussions/categories/group\nBe mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! There should be an average of 5-6 members.\nJoin one of the discussions to join a group!\n\n\n\n\n\n\n\nIs your Github Username in this list?\n\n\n\n\n\n\nUsername\n\n\n\n\nalazarnegash-horecha\n\n\nhopechilunga\n\n\nquishqa\n\n\nbiyiemmy\n\n\nrebecca-lk\n\n\njngalamu\n\n\nsquiebble\n\n\nlaigarve\n\n\ntangqiqing\n\n\nprabhatjoshi007\n\n\nasimenye99\n\n\nimegit\n\n\nchekwube-web\n\n\nemmanuellmhango\n\n\n\nIf so, our pre-course survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.\n\n\nCongratulations! You have completed the study group assignment and are now ready for the next module.",
     "crumbs": [
       "Module 04",
-      "am-01: Data assessment"
+      "am-02: Study groups"
     ]
   },
   {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#introduction",
-    "href": "content/assignments/md-04/am-04-1-data.html#introduction",
-    "title": "Module 4 - Assignment 1",
-    "section": "",
-    "text": "The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that all capstone projects will be published openly, including both the data and the code. This aligns with our commitment to open science and the openwashdata community’s mission.\nAfter the course, we plan to support participants in packaging their data following the openwashdata workflowto create R data packages that can be shared with the wider community: https://openwashdata.org/pages/gallery/data/\nThis assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#learning-objectives",
-    "href": "content/assignments/md-04/am-04-1-data.html#learning-objectives",
-    "title": "Module 4 - Assignment 1",
-    "section": "Learning objectives",
-    "text": "Learning objectives\nBy completing this assignment, you will be able to:\n\nIdentify appropriate datasets for open science projects\nAssess data for privacy and sensitivity concerns\nUnderstand how to prepare sensitive data for public sharing\nDescribe data characteristics and analysis goals",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-1-read-and-understand-data-sharing-principles",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-1-read-and-understand-data-sharing-principles",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 1: Read and understand data sharing principles",
-    "text": "Task 1: Read and understand data sharing principles\nOpen by default: All data and code from your capstone project will be published publicly on GitHub. This is a requirement for completing the course.\nPrivacy first: Personal information, GPS coordinates, and other identifying information must be removed or aggregated before sharing.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-2-identify-potential-datasets",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-2-identify-potential-datasets",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 2: Identify potential datasets",
-    "text": "Task 2: Identify potential datasets\nIdentify 1-2 datasets that you might use for your capstone project. For each dataset, consider:\n\nData you have access to\n\nData from your work or research\nData you have collected\nData from your organization (with permission to share)\nPublic datasets you want to explore further\n\n\n\nData format\nYour data should be in one of these formats:\n\nCSV (comma-separated values)\nExcel (.xlsx or .xls)\nJSON",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-3-assess-data-suitability-for-public-sharing",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-3-assess-data-suitability-for-public-sharing",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 3: Assess data suitability for public sharing",
-    "text": "Task 3: Assess data suitability for public sharing\nFor each dataset you identified, complete the following assessment:\n\nIs this data suitable for public sharing?\nAsk yourself these questions:\n\nPersonal identifiers: Does the data contain names, addresses, phone numbers, email addresses, or other information that could identify specific individuals?\nGPS coordinates: Does the data include exact GPS coordinates or precise locations that could identify households or individuals?\nSensitive information: Does the data include:\n\nHealth information\nFinancial information\nInformation about vulnerable populations\nProprietary or confidential business information\n\nPermissions: Do you have permission from your organization or the data owner to share this data publicly?\n\n\n\nMaking sensitive data suitable for sharing\nIf your data contains sensitive information, consider these strategies:\n\nRemoving sensitive variables\n\nDelete columns containing personal identifiers (names, IDs, phone numbers)\nRemove GPS coordinates or replace with general location information (e.g., district name instead of exact coordinates)\nRemove or aggregate variables that could be used to identify individuals when combined\n\n\n\nUsing a subset of data\n\nSelect only the variables (columns) needed for your analysis\nAggregate data to a higher level (e.g., village-level instead of household-level)\n\n\n\n\n\n\n\nWhen in doubt, aggregate or exclude\n\n\n\nIf you are uncertain whether specific variables or observations can be shared publicly, it’s better to exclude them or aggregate to a higher level. Remember: once data is published online, it cannot be unpublished.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-4-clone-your-module-4-assignments-repository",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-4-clone-your-module-4-assignments-repository",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 4: Clone your module 4 assignments repository",
-    "text": "Task 4: Clone your module 4 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-04-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is rainbow-train, the repository will be md-04-assignments-rainbow-train.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-5-document-your-data-assessment",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-5-document-your-data-assessment",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 5: Document your data assessment",
-    "text": "Task 5: Document your data assessment\n\nOpen the file data-assessment.qmd in your cloned repository.\nFollow the instructions in the template to document your data assessment.\n\nThe template will guide you through documenting:\n\nFor each dataset you’re considering (1-2 datasets):\n\nDataset name and source: What is it called and where does it come from?\nDescription: What does this data contain? (1-2 paragraphs)\nSize and scope:\n\nHow many observations (rows)?\nHow many variables (columns)?\nWhat time period does it cover?\n\nPrivacy assessment:\n\nDoes it contain personal identifiers? If yes, which ones?\nDoes it contain GPS coordinates?\nDoes it contain other sensitive information?\nCan you share it as-is, or does it need modification?\n\nRequired modifications (if any):\n\nWhich variables need to be removed?\nDo you need to use a subset of the data?\nDo any variables need to be aggregated or anonymized?\n\nAnalysis goals: What questions do you want to answer with this data? (2-3 sentences)\nPermission to share:\n\nDo you have permission to share this data publicly?\nIf it’s from your organization, have you confirmed you can share it?\n\n\n\n\nSelect your preferred dataset\nAfter assessing all options, indicate which dataset you plan to use for your capstone project and explain why you chose it.\n\n\n\n\n\n\nQuestions? Ask on Element Chat\n\n\n\nIf you have questions about whether your data is suitable for public sharing, or if you need help determining what modifications are needed, please ask on our Element Chat. We’re happy to help you assess your data privacy considerations.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-6-commit-and-push-your-changes",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-6-commit-and-push-your-changes",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 6: Commit and push your changes",
-    "text": "Task 6: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data assessment\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-1-data.html#task-7-open-an-issue-on-github",
-    "href": "content/assignments/md-04/am-04-1-data.html#task-7-open-an-issue-on-github",
-    "title": "Module 4 - Assignment 1",
-    "section": "Task 7: Open an issue on GitHub",
-    "text": "Task 7: Open an issue on GitHub\n\n\n\n\n\n\nHaving trouble finding suitable data?\n\n\n\nIf you’re having difficulty identifying a dataset that meets the requirements, or if you’re uncertain about privacy considerations, please also let us know in your GitHub issue. We can help you:\n\nIdentify alternative datasets\nDetermine appropriate anonymization strategies\nConnect you with publicly available datasets in your area of interest\nDiscuss options for aggregating sensitive data\n\n\n\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-04-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the data-assessment.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed data assessment for capstone project.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and:\n\nBriefly mention which dataset you selected\nIf you encountered any challenges identifying a suitable dataset or have concerns about data privacy, please mention them here. We’re here to help you find an appropriate dataset for your project.\n\nScroll down the page and click the green Create button.",
-    "crumbs": [
-      "Module 04",
-      "am-01: Data assessment"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html",
-    "href": "content/assignments/md-03/am-03-1-data-transformation.html",
-    "title": "Data transformation with dplyr",
+    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html",
+    "href": "content/assignments/md-03/am-03-2-spreadsheet.html",
+    "title": "Create a spreadsheet",
     "section": "",
     "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
     "crumbs": [
       "Module 03",
-      "am-01: Data transformation"
+      "am-02: Spreadsheet"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
-    "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
-    "title": "Data transformation with dplyr",
-    "section": "Step 1: Clone your module 3 assignments repository",
-    "text": "Step 1: Clone your module 3 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen 01-penguins.qmd and 02-visualize.qmd and follow the instructions to work through the tasks.",
+    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-1-make-a-spreadsheet-and-save-it",
+    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-1-make-a-spreadsheet-and-save-it",
+    "title": "Create a spreadsheet",
+    "section": "Step 1: Make a spreadsheet and save it",
+    "text": "Step 1: Make a spreadsheet and save it\nLayout a spreadsheet for data collection using a spreadsheet-based software (Google Sheets or MS Excel).\nYou are taking 20 samples of 1 liter faecal sludge from pit latrines and septic tanks at households and public toilets (5 samples each). For each sample, you note the number of daily users of the sanitation system.\nYour sample collection starts on 1st November 2022. On day 5, you analyse the data in the laboratory for totals solids (TS) in g/L. In your spreadsheet, note the exact date of each collected sample.\nThis is your data collection plan:\n\nDay 1: 5 samples at households using pit latrines\nDay 2: 5 samples at households using septic tanks\nDay 3: 5 samples at public toilets that are pit latrines\nDay 4: 5 samples at public toilets that are septic tanks\nDay 5: Analyses of all 20 samples for total solids (TS) in g/L on a lab scale with accuracy of 0.01 g\n\nMake up the results for the total solids (TS) analyses (e.g. 12.48 g/L).\nSave the spreadsheet as XLSX with a file name of your choice.",
     "crumbs": [
       "Module 03",
-      "am-01: Data transformation"
+      "am-02: Spreadsheet"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
-    "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
-    "title": "Data transformation with dplyr",
+    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-2-create-a-new-repository-on-github-clone-to-posit-cloud",
+    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-2-create-a-new-repository-on-github-clone-to-posit-cloud",
+    "title": "Create a spreadsheet",
+    "section": "Step 2: Create a new repository on GitHub & clone to Posit Cloud",
+    "text": "Step 2: Create a new repository on GitHub & clone to Posit Cloud\n\nStep 2.1: Create a new repository\n\nOpen the GitHub Organisation for the course: https://github.com/ds4owd-002\nTo right of the field “Find a repository”, click on the green New button.\n\n\n\n\n\n\n\n\n\n\n\nIn the Repository name field write samples-USERNAME.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\nAvoid using spaces in the repository name. Use a dash - instead.\n\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click Create repository.\n\n\n\n\n\n\n\n\n\n\n\n\nStep 2.2: Clone the repository to Posit Cloud\n\nIn the Quick setup section, ensure HTTPS is selected (not SSH)\nClick on the clipboard icon next to the HTTPS URL to copy it\n\n\n\n\n\n\n\n\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.",
+    "crumbs": [
+      "Module 03",
+      "am-02: Spreadsheet"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-3-upload-the-data",
+    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-3-upload-the-data",
+    "title": "Create a spreadsheet",
+    "section": "Step 3: Upload the data",
+    "text": "Step 3: Upload the data\n\nIn RStudio, navigate to the Files tab in the bottom right window\nClick on the Upload button\nClick Choose File and select your XLSX spreadsheet from Step 1\nClick OK to upload the file to your project",
+    "crumbs": [
+      "Module 03",
+      "am-02: Spreadsheet"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-4-commit-and-push-your-changes",
+    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-4-commit-and-push-your-changes",
+    "title": "Create a spreadsheet",
+    "section": "Step 4: Commit and push your changes",
+    "text": "Step 4: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: Added spreadsheet with sample data\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
+    "crumbs": [
+      "Module 03",
+      "am-02: Spreadsheet"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
+    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
+    "title": "Create a spreadsheet",
+    "section": "Step 5: Open an issue on GitHub",
+    "text": "Step 5: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository samples-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the uploaded XLSX file in your repository.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Create spreadsheet and upload to cloud.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\nCongratulations! You have successfully created a spreadsheet, uploaded it to GitHub, and completed this assignment.",
+    "crumbs": [
+      "Module 03",
+      "am-02: Spreadsheet"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html",
+    "href": "content/assignments/md-02/am-02-2-data-visualisation.html",
+    "title": "Data visualisation with ggplot2",
+    "section": "",
+    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
+    "crumbs": [
+      "Module 02",
+      "am-02-2: Data visualization"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
+    "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
+    "title": "Data visualisation with ggplot2",
+    "section": "Step 1: Clone your module 2 assignments repository",
+    "text": "Step 1: Clone your module 2 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen md-02a-boxplot.qmd and follow the instructions to work through the tasks.",
+    "crumbs": [
+      "Module 02",
+      "am-02-2: Data visualization"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html#step-2-commit-and-push-your-changes",
+    "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-2-commit-and-push-your-changes",
+    "title": "Data visualisation with ggplot2",
     "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\nThe below steps are also described in 01-penguins.qmd and 02-visualize.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data transformation tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data visualization tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
-      "Module 03",
-      "am-01: Data transformation"
+      "Module 02",
+      "am-02-2: Data visualization"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
-    "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
-    "title": "Data transformation with dplyr",
+    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
+    "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
+    "title": "Data visualisation with ggplot2",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the 01-penguins.qmd and 02-visualize.qmd files. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 3 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. 01-penguins.qmd 2. 02-visualize.qmd\nIf you have only completed 01-penguins.qmd, please return to Posit Cloud and complete 02-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data transformation assignment and are now ready for the next module.",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-02a-boxplot.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 2 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. md-02a-boxplot.qmd 2. md-02b-visualize.qmd\nIf you have only completed md-02a-boxplot.qmd, please return to Posit Cloud and complete md-02b-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data visualization assignment and are now ready for the next module.",
     "crumbs": [
-      "Module 03",
-      "am-01: Data transformation"
+      "Module 02",
+      "am-02-2: Data visualization"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html",
+    "href": "content/assignments/md-01/am-01-5-github-workflow.html",
+    "title": "GitHub workflow",
+    "section": "",
+    "text": "In this assignment, you will configure Git, commit changes, and create an issue on GitHub.",
+    "crumbs": [
+      "Module 01",
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#complete-github-workflow",
+    "href": "content/assignments/md-01/am-01-5-github-workflow.html#complete-github-workflow",
+    "title": "GitHub workflow",
+    "section": "",
+    "text": "In this assignment, you will configure Git, commit changes, and create an issue on GitHub.",
+    "crumbs": [
+      "Module 01",
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#step-1-introduce-yourself-to-git",
+    "href": "content/assignments/md-01/am-01-5-github-workflow.html#step-1-introduce-yourself-to-git",
+    "title": "GitHub workflow",
+    "section": "Step 1: Introduce yourself to git",
+    "text": "Step 1: Introduce yourself to git\n\nIn Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of ds4owd-002. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the ds4owd-002 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your GitHub username\nReplace Your Email with your email address\n\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\nContinue with the next step",
+    "crumbs": [
+      "Module 01",
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
+    "href": "content/assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
+    "title": "GitHub workflow",
+    "section": "Step 2: Commit and push your changes",
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details\n\n\n\nClick on the Commit button\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 1.3.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.",
+    "crumbs": [
+      "Module 01",
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
+    "href": "content/assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
+    "title": "GitHub workflow",
+    "section": "Step 3: Open an issue on GitHub",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See rainbow-train in screenshot.\n\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the git-configuration.qmd file. It should display the commit message you entered in the previous step, e.g., replaced placeholders with my details. You can also verify by identifying the number of commits, here 2 commits. Click on it and you can see them.\n\n\n\nClick on the Issues tab.\n\n\n\nClick on the green New issue button.\n\n\n\nIn the Title field write: Completed module 1 assignment.\n\n\n\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and write a short message, e.g., I have completed the module 1 assignment. Please review my work. You can also add any questions you have or other comments you would like to share with the instructors.\n\n\n\nScroll down the page a bit and click the green Create button.\n\n Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation).",
+    "crumbs": [
+      "Module 01",
+      "am-01-5: GitHub Workflow"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-3-github-pat.html",
+    "href": "content/assignments/md-01/am-01-3-github-pat.html",
+    "title": "GitHub Personal Access Token",
+    "section": "",
+    "text": "Struggling with the setup of GitHub?\n\n\n\n If we can support you to setup GitHub, get in touch with us via Email and we will schedule a call for a walk through.",
+    "crumbs": [
+      "Module 01",
+      "am-01-3: GitHub PAT"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
+    "href": "content/assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
+    "title": "GitHub Personal Access Token",
+    "section": "Create a GitHub Personal Access Token",
+    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g., in password management software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen. Copy it to your clipboard by clicking the copy icon next to the token. Make sure to copy it immediately, as you will not be able to see it again after you leave the page.\n\n\n\nDo not copy and store the token in a Word document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you can generate a new one.\n\n\nContinue with the next assignment: Clone a GitHub repository.",
+    "crumbs": [
+      "Module 01",
+      "am-01-3: GitHub PAT"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-1-posit.html",
+    "href": "content/assignments/md-01/am-01-1-posit.html",
+    "title": "Working with R, RStudio on Posit Cloud",
+    "section": "",
+    "text": "Log into Posit Cloud with GitHub account\nHere are the instructions to log in to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu",
+    "crumbs": [
+      "Module 01",
+      "am-01-1: Posit Cloud"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-2-element.html",
+    "href": "content/assignments/md-01/am-01-2-element.html",
+    "title": "Communication in a chat",
+    "section": "",
+    "text": "Emails are not a very quick, responsive way of communication. We avoid them by prioritizing other channels.\nWe want to communicate through a chat client called Element, providing the open source, free-of-charge Slack-like experience.\nOn Element, you can reach out to the course instructors and other students any time, and we have a way to stay in touch beyond the course itself.\nTo set it up, please follow the steps below:",
+    "crumbs": [
+      "Module 01",
+      "am-01-2: Element"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
+    "href": "content/assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
+    "title": "Communication in a chat",
+    "section": "Step 1: Join the chat",
+    "text": "Step 1: Join the chat\n\nOpen the following link in your browser: https://matrix.to/#/#openwashdata-lobby:staffchat.ethz.ch\nClick on Continue\n\n\n\nClick on Sign Up\n\n\n\nClick on the GitHub icon\n\n\n\nClick on Continue\n\n\n\nClick on the X to close the dialogue\n\n\n\nClick on “I’ll verify later” to close the dialogue\n\n 8. Click on “Join the Discussion”\n 9. Leave a message\nYou are now in the lobby of the openwashdata community. Leave a message to introduce yourself. You will be added to the room ds4owd-002 that is specifically for this course.",
+    "crumbs": [
+      "Module 01",
+      "am-01-2: Element"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
+    "href": "content/assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
+    "title": "Communication in a chat",
+    "section": "Step 2: Verify element session",
+    "text": "Step 2: Verify element session\n\nClick on the icon in the top left corner\n\n\n\nClick on All settings\n\n\n\nSelect Sessions in the navigation pane on the left, click Verify session\n\n 4. Click Proceed with reset\n 5. Select Generate a Security Key and click Continue\n 6. Click Download and save downloaded security-key.txt securely\n 7. Click Continue\n\n\nYou have successfully verified your session\n\nYou can download Element as an app for your computer and also your phone. If you proceed to do this, then use the stored security key to verify those additional sessions.",
+    "crumbs": [
+      "Module 01",
+      "am-01-2: Element"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
+    "href": "content/assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
+    "title": "Communication in a chat",
+    "section": "Step 3: Download Element (optional)",
+    "text": "Step 3: Download Element (optional)\n\nDownload and install Element: https://element.io/download\n\nIt’s available on Windows, Linux and Mac OS, as well as Android and iPhone.\n\nOpen the Element App on your device\nClick on Sign In\nSign in with GitHub\nClick on Verify with Security Key\n\n 6. Copy/paste the Security key from the downloaded security-key.txt you received when setting up the app in your browser. And hit Continue.\n\n\n\n\n\n\nI cannot click Continue\n\n\n\n\n\nIf a click on Continue does not work with your mouse, then hit the Return (Enter) key on your keyboard.\n\n\n\n 7. You have successfully verified your device",
+    "crumbs": [
+      "Module 01",
+      "am-01-2: Element"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-4-github-clone.html",
+    "href": "content/assignments/md-01/am-01-4-github-clone.html",
+    "title": "Clone a GitHub repository",
+    "section": "",
+    "text": "In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
+    "crumbs": [
+      "Module 01",
+      "am-01-4: GitHub Clone"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-01/am-01-4-github-clone.html#clone-a-repository",
+    "href": "content/assignments/md-01/am-01-4-github-clone.html#clone-a-repository",
+    "title": "Clone a GitHub repository",
+    "section": "",
+    "text": "In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
+    "crumbs": [
+      "Module 01",
+      "am-01-4: GitHub Clone"
     ]
   },
   {
@@ -2345,300 +2347,245 @@
     ]
   },
   {
-    "objectID": "content/assignments/md-01/am-01-4-github-clone.html",
-    "href": "content/assignments/md-01/am-01-4-github-clone.html",
-    "title": "Clone a GitHub repository",
-    "section": "",
-    "text": "In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
-    "crumbs": [
-      "Module 01",
-      "am-01-4: GitHub Clone"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-4-github-clone.html#clone-a-repository",
-    "href": "content/assignments/md-01/am-01-4-github-clone.html#clone-a-repository",
-    "title": "Clone a GitHub repository",
-    "section": "",
-    "text": "In this assignment, you will clone your personal assignment repository from GitHub to Posit Cloud.\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See “rainbow-train” in screenshot.\n\n\n\n\nClick on the green Code button.\n\n\n\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\n\n\n\nClick the blue button New Project &gt; New Project from Git Repository\n\n\n\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\n\n\n\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\n\n\n\nContinue with the next assignment: GitHub workflow.",
-    "crumbs": [
-      "Module 01",
-      "am-01-4: GitHub Clone"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-2-element.html",
-    "href": "content/assignments/md-01/am-01-2-element.html",
-    "title": "Communication in a chat",
-    "section": "",
-    "text": "Emails are not a very quick, responsive way of communication. We avoid them by prioritizing other channels.\nWe want to communicate through a chat client called Element, providing the open source, free-of-charge Slack-like experience.\nOn Element, you can reach out to the course instructors and other students any time, and we have a way to stay in touch beyond the course itself.\nTo set it up, please follow the steps below:",
-    "crumbs": [
-      "Module 01",
-      "am-01-2: Element"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
-    "href": "content/assignments/md-01/am-01-2-element.html#step-1-join-the-chat",
-    "title": "Communication in a chat",
-    "section": "Step 1: Join the chat",
-    "text": "Step 1: Join the chat\n\nOpen the following link in your browser: https://matrix.to/#/#openwashdata-lobby:staffchat.ethz.ch\nClick on Continue\n\n\n\nClick on Sign Up\n\n\n\nClick on the GitHub icon\n\n\n\nClick on Continue\n\n\n\nClick on the X to close the dialogue\n\n\n\nClick on “I’ll verify later” to close the dialogue\n\n 8. Click on “Join the Discussion”\n 9. Leave a message\nYou are now in the lobby of the openwashdata community. Leave a message to introduce yourself. You will be added to the room ds4owd-002 that is specifically for this course.",
-    "crumbs": [
-      "Module 01",
-      "am-01-2: Element"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
-    "href": "content/assignments/md-01/am-01-2-element.html#step-2-verify-element-session",
-    "title": "Communication in a chat",
-    "section": "Step 2: Verify element session",
-    "text": "Step 2: Verify element session\n\nClick on the icon in the top left corner\n\n\n\nClick on All settings\n\n\n\nSelect Sessions in the navigation pane on the left, click Verify session\n\n 4. Click Proceed with reset\n 5. Select Generate a Security Key and click Continue\n 6. Click Download and save downloaded security-key.txt securely\n 7. Click Continue\n\n\nYou have successfully verified your session\n\nYou can download Element as an app for your computer and also your phone. If you proceed to do this, then use the stored security key to verify those additional sessions.",
-    "crumbs": [
-      "Module 01",
-      "am-01-2: Element"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
-    "href": "content/assignments/md-01/am-01-2-element.html#step-3-download-element-optional",
-    "title": "Communication in a chat",
-    "section": "Step 3: Download Element (optional)",
-    "text": "Step 3: Download Element (optional)\n\nDownload and install Element: https://element.io/download\n\nIt’s available on Windows, Linux and Mac OS, as well as Android and iPhone.\n\nOpen the Element App on your device\nClick on Sign In\nSign in with GitHub\nClick on Verify with Security Key\n\n 6. Copy/paste the Security key from the downloaded security-key.txt you received when setting up the app in your browser. And hit Continue.\n\n\n\n\n\n\nI cannot click Continue\n\n\n\n\n\nIf a click on Continue does not work with your mouse, then hit the Return (Enter) key on your keyboard.\n\n\n\n 7. You have successfully verified your device",
-    "crumbs": [
-      "Module 01",
-      "am-01-2: Element"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-1-posit.html",
-    "href": "content/assignments/md-01/am-01-1-posit.html",
-    "title": "Working with R, RStudio on Posit Cloud",
-    "section": "",
-    "text": "Log into Posit Cloud with GitHub account\nHere are the instructions to log in to Posit Cloud using a GitHub account:\n\nGo to the Posit Cloud Sign Up page: https://login.posit.cloud/register\nClick on the “Sign Up with GitHub” button.\nEnter your GitHub username and password when prompted.\nIf this is your first time logging in to Posit Cloud with your GitHub account, you will be prompted to authorize Posit Cloud to access your GitHub account information.\nOnce you have authorized access, you will be redirected back to the Posit Cloud website and logged in to your account.\n\nNote that you will need to have a GitHub account in order to use this login method. If you do not have a GitHub account, you will need to create one before you can log in to Posit Cloud.\n\n\nJoin the course workspace on Posit Cloud\n\nOpen this link: https://posit.cloud/spaces/663318/join?access_code=8IiLL7Fi5kH6ElaW8G8njVf5kseZab61yqFMpnPu",
-    "crumbs": [
-      "Module 01",
-      "am-01-1: Posit Cloud"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-3-github-pat.html",
-    "href": "content/assignments/md-01/am-01-3-github-pat.html",
-    "title": "GitHub Personal Access Token",
-    "section": "",
-    "text": "Struggling with the setup of GitHub?\n\n\n\n If we can support you to setup GitHub, get in touch with us via Email and we will schedule a call for a walk through.",
-    "crumbs": [
-      "Module 01",
-      "am-01-3: GitHub PAT"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
-    "href": "content/assignments/md-01/am-01-3-github-pat.html#create-a-github-personal-access-token",
-    "title": "GitHub Personal Access Token",
-    "section": "Create a GitHub Personal Access Token",
-    "text": "Create a GitHub Personal Access Token\nHere are the step-by-step instructions to set up a GitHub personal access token (PAT):\n\n\n\n\n\n\nImportant\n\n\n\nTreat your access tokens like passwords and keep them secure (e.g., in password management software).\n\n\n\nLog in to your GitHub account.\n\n\n\nClick on your profile picture in the top-right corner of the page.\n\n\n\nSelect Settings from the dropdown menu.\n\n\n\nIn the left sidebar, click on Developer settings.\n\n\n\nClick on Personal access tokens.\n\n\n\nClick on “Tokens (classic)”.\n\n\n\nClick on Generate new token and from the dropdown menu select Generate new token (classic).\n\n\n\nIn the Note field, give your token the name: GITHUB_PAT\n\n\n\nUnder Expiration, select No expiration\n\n\n\nUnder Select scopes, select: repo, workflow\n\n\n\nAlso select user a bit further down the list.\n\n\n\nClick on Generate token.\n\n\n\nYour personal access token will be displayed on the screen. Copy it to your clipboard by clicking the copy icon next to the token. Make sure to copy it immediately, as you will not be able to see it again after you leave the page.\n\n\n\nDo not copy and store the token in a Word document (DOCX). Copy and store the token in an appropriate password manager. If you do not have a password manager, you can use a text file (.txt), but make sure to keep it secure and do not share it with anyone. On Windows, you can use Notepad, and on macOS, you can use TextEdit.\n\n\n\n\n\n\n\nTip\n\n\n\nYou will need this token in your pre-course work and throughout the course. Make sure to keep it secure and do not share it with anyone. If you lose the token, you can generate a new one.\n\n\nContinue with the next assignment: Clone a GitHub repository.",
-    "crumbs": [
-      "Module 01",
-      "am-01-3: GitHub PAT"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html",
-    "href": "content/assignments/md-01/am-01-5-github-workflow.html",
-    "title": "GitHub workflow",
-    "section": "",
-    "text": "In this assignment, you will configure Git, commit changes, and create an issue on GitHub.",
-    "crumbs": [
-      "Module 01",
-      "am-01-5: GitHub Workflow"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#complete-github-workflow",
-    "href": "content/assignments/md-01/am-01-5-github-workflow.html#complete-github-workflow",
-    "title": "GitHub workflow",
-    "section": "",
-    "text": "In this assignment, you will configure Git, commit changes, and create an issue on GitHub.",
-    "crumbs": [
-      "Module 01",
-      "am-01-5: GitHub Workflow"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#step-1-introduce-yourself-to-git",
-    "href": "content/assignments/md-01/am-01-5-github-workflow.html#step-1-introduce-yourself-to-git",
-    "title": "GitHub workflow",
-    "section": "Step 1: Introduce yourself to git",
-    "text": "Step 1: Introduce yourself to git\n\nIn Posit Cloud, open the md-01-assignments-USERNAME project that ends with your GitHub username. Ensure that you are in the workspace of ds4owd-002. You can verify this by looking at the top left corner next to your repository name. If this says Your Workspace, then you are in the wrong place. In this case, return to the previous assignment and ensure to clone the repository into the ds4owd-002 workspace.\n\n\n\nOpen the git-configuration.qmd file from the bottom right window of RStudio by clicking on the file name in the Files pane. The file opens in the Source pane in the top-left window of RStudio.\n\n\n\nUnder the heading Git configuration edit the code in the code chunk:\n\n\nReplace the placeholder Your Name with your GitHub username\nReplace Your Email with your email address\n\nKeep the quotes!\n\nThese will be the details that git will use to identify you when you make changes to your work.\n\n\nSave the file by clicking on the Save icon in the Source pane or by pressing Ctrl + S (Windows/Linux) or Cmd + S (Mac).\nRender the document by clicking the Render button in the Source pane.\n\n\n\nContinue with the next step",
-    "crumbs": [
-      "Module 01",
-      "am-01-5: GitHub Workflow"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
-    "href": "content/assignments/md-01/am-01-5-github-workflow.html#step-2-commit-and-push-your-changes",
-    "title": "GitHub workflow",
-    "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\n\n\n\nCheck the box next to the git-configuration.qmd file to stage it for commit\n\n\n\nClick on the Commit button. A new window opens.\n\n\n\nEnter a commit message in the Commit message field in the top right corner. For example: replaced placeholders with my details\n\n\n\nClick on the Commit button\n\n\n\nIf you see a message similar to the screenshot, you have successfully committed your changes to the local repository. Click on Close. If you do not see this message, make sure you have staged the file (checked the box next to it) for commit and entered a commit message.\n\n\n\nClick on the Push button in the top right corner.\n\n\n\nEnter your GitHub username and click OK\n\n\n\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Assignment 1.3.\n\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.",
-    "crumbs": [
-      "Module 01",
-      "am-01-5: GitHub Workflow"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
-    "href": "content/assignments/md-01/am-01-5-github-workflow.html#step-3-open-an-issue-on-github",
-    "title": "GitHub workflow",
-    "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\n\n\n\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\n\n\n\nFind the repository md-01-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-01-assignments-johnsmith.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading. See rainbow-train in screenshot.\n\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the git-configuration.qmd file. It should display the commit message you entered in the previous step, e.g., replaced placeholders with my details. You can also verify by identifying the number of commits, here 2 commits. Click on it and you can see them.\n\n\n\nClick on the Issues tab.\n\n\n\nClick on the green New issue button.\n\n\n\nIn the Title field write: Completed module 1 assignment.\n\n\n\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and write a short message, e.g., I have completed the module 1 assignment. Please review my work. You can also add any questions you have or other comments you would like to share with the instructors.\n\n\n\nScroll down the page a bit and click the green Create button.\n\n Congratulations! You have completed the GitHub workflow assignment and you are now ready for Module 2. To conclude this module, please complete the mandatory quiz (in preparation).",
-    "crumbs": [
-      "Module 01",
-      "am-01-5: GitHub Workflow"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html",
-    "href": "content/assignments/md-02/am-02-2-data-visualisation.html",
-    "title": "Data visualisation with ggplot2",
-    "section": "",
-    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
-    "crumbs": [
-      "Module 02",
-      "am-02-2: Data visualization"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
-    "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-1-clone-your-module-2-assignments-repository",
-    "title": "Data visualisation with ggplot2",
-    "section": "Step 1: Clone your module 2 assignments repository",
-    "text": "Step 1: Clone your module 2 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen md-02a-boxplot.qmd and follow the instructions to work through the tasks.",
-    "crumbs": [
-      "Module 02",
-      "am-02-2: Data visualization"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html#step-2-commit-and-push-your-changes",
-    "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-2-commit-and-push-your-changes",
-    "title": "Data visualisation with ggplot2",
-    "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data visualization tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
-    "crumbs": [
-      "Module 02",
-      "am-02-2: Data visualization"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
-    "href": "content/assignments/md-02/am-02-2-data-visualisation.html#step-3-open-an-issue-on-github",
-    "title": "Data visualisation with ggplot2",
-    "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-02-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-02-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-02a-boxplot.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 2 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. md-02a-boxplot.qmd 2. md-02b-visualize.qmd\nIf you have only completed md-02a-boxplot.qmd, please return to Posit Cloud and complete md-02b-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data visualization assignment and are now ready for the next module.",
-    "crumbs": [
-      "Module 02",
-      "am-02-2: Data visualization"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html",
-    "href": "content/assignments/md-03/am-03-2-spreadsheet.html",
-    "title": "Create a spreadsheet",
+    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html",
+    "href": "content/assignments/md-03/am-03-1-data-transformation.html",
+    "title": "Data transformation with dplyr",
     "section": "",
     "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
     "crumbs": [
       "Module 03",
-      "am-02: Spreadsheet"
+      "am-01: Data transformation"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-1-make-a-spreadsheet-and-save-it",
-    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-1-make-a-spreadsheet-and-save-it",
-    "title": "Create a spreadsheet",
-    "section": "Step 1: Make a spreadsheet and save it",
-    "text": "Step 1: Make a spreadsheet and save it\nLayout a spreadsheet for data collection using a spreadsheet-based software (Google Sheets or MS Excel).\nYou are taking 20 samples of 1 liter faecal sludge from pit latrines and septic tanks at households and public toilets (5 samples each). For each sample, you note the number of daily users of the sanitation system.\nYour sample collection starts on 1st November 2022. On day 5, you analyse the data in the laboratory for totals solids (TS) in g/L. In your spreadsheet, note the exact date of each collected sample.\nThis is your data collection plan:\n\nDay 1: 5 samples at households using pit latrines\nDay 2: 5 samples at households using septic tanks\nDay 3: 5 samples at public toilets that are pit latrines\nDay 4: 5 samples at public toilets that are septic tanks\nDay 5: Analyses of all 20 samples for total solids (TS) in g/L on a lab scale with accuracy of 0.01 g\n\nMake up the results for the total solids (TS) analyses (e.g. 12.48 g/L).\nSave the spreadsheet as XLSX with a file name of your choice.",
+    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
+    "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-1-clone-your-module-3-assignments-repository",
+    "title": "Data transformation with dplyr",
+    "section": "Step 1: Clone your module 3 assignments repository",
+    "text": "Step 1: Clone your module 3 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen 01-penguins.qmd and 02-visualize.qmd and follow the instructions to work through the tasks.",
     "crumbs": [
       "Module 03",
-      "am-02: Spreadsheet"
+      "am-01: Data transformation"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-2-create-a-new-repository-on-github-clone-to-posit-cloud",
-    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-2-create-a-new-repository-on-github-clone-to-posit-cloud",
-    "title": "Create a spreadsheet",
-    "section": "Step 2: Create a new repository on GitHub & clone to Posit Cloud",
-    "text": "Step 2: Create a new repository on GitHub & clone to Posit Cloud\n\nStep 2.1: Create a new repository\n\nOpen the GitHub Organisation for the course: https://github.com/ds4owd-002\nTo right of the field “Find a repository”, click on the green New button.\n\n\n\n\n\n\n\n\n\n\n\nIn the Repository name field write samples-USERNAME.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\nAvoid using spaces in the repository name. Use a dash - instead.\n\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click Create repository.\n\n\n\n\n\n\n\n\n\n\n\n\nStep 2.2: Clone the repository to Posit Cloud\n\nIn the Quick setup section, ensure HTTPS is selected (not SSH)\nClick on the clipboard icon next to the HTTPS URL to copy it\n\n\n\n\n\n\n\n\n\n\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.",
+    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
+    "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-2-commit-and-push-your-changes",
+    "title": "Data transformation with dplyr",
+    "section": "Step 2: Commit and push your changes",
+    "text": "Step 2: Commit and push your changes\nThe below steps are also described in 01-penguins.qmd and 02-visualize.qmd\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data transformation tasks\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
       "Module 03",
-      "am-02: Spreadsheet"
+      "am-01: Data transformation"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-3-upload-the-data",
-    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-3-upload-the-data",
-    "title": "Create a spreadsheet",
+    "objectID": "content/assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
+    "href": "content/assignments/md-03/am-03-1-data-transformation.html#step-3-open-an-issue-on-github",
+    "title": "Data transformation with dplyr",
+    "section": "Step 3: Open an issue on GitHub",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-03-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be md-03-assignments-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the 01-penguins.qmd and 02-visualize.qmd files. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 3 assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\n\n\n\n\n\n\nTwo assignment files to complete\n\n\n\nThis module has two assignment files that need to be completed: 1. 01-penguins.qmd 2. 02-visualize.qmd\nIf you have only completed 01-penguins.qmd, please return to Posit Cloud and complete 02-visualize.qmd as well. You should create two separate issues on GitHub - one for each completed assignment file.\n\n\nCongratulations! You have completed the data transformation assignment and are now ready for the next module.",
+    "crumbs": [
+      "Module 03",
+      "am-01: Data transformation"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html",
+    "href": "content/assignments/md-04/am-04-1-data.html",
+    "title": "Module 4 - Assignment 1",
+    "section": "",
+    "text": "The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that all capstone projects will be published openly, including both the data and the code. This aligns with our commitment to open science and the openwashdata community’s mission.\nAfter the course, we plan to support participants in packaging their data following the openwashdata workflowto create R data packages that can be shared with the wider community: https://openwashdata.org/pages/gallery/data/\nThis assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#introduction",
+    "href": "content/assignments/md-04/am-04-1-data.html#introduction",
+    "title": "Module 4 - Assignment 1",
+    "section": "",
+    "text": "The capstone project for this course will involve analyzing a dataset of your choice and creating a reproducible analysis report. An important aspect of this course is that all capstone projects will be published openly, including both the data and the code. This aligns with our commitment to open science and the openwashdata community’s mission.\nAfter the course, we plan to support participants in packaging their data following the openwashdata workflowto create R data packages that can be shared with the wider community: https://openwashdata.org/pages/gallery/data/\nThis assignment asks you to identify a dataset and assess whether it can be shared publicly, ensuring you understand data privacy considerations before we proceed with the actual data upload in Module 5.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#learning-objectives",
+    "href": "content/assignments/md-04/am-04-1-data.html#learning-objectives",
+    "title": "Module 4 - Assignment 1",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy completing this assignment, you will be able to:\n\nIdentify appropriate datasets for open science projects\nAssess data for privacy and sensitivity concerns\nUnderstand how to prepare sensitive data for public sharing\nDescribe data characteristics and analysis goals",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-1-read-and-understand-data-sharing-principles",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-1-read-and-understand-data-sharing-principles",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 1: Read and understand data sharing principles",
+    "text": "Task 1: Read and understand data sharing principles\nOpen by default: All data and code from your capstone project will be published publicly on GitHub. This is a requirement for completing the course.\nPrivacy first: Personal information, GPS coordinates, and other identifying information must be removed or aggregated before sharing.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-2-identify-potential-datasets",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-2-identify-potential-datasets",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 2: Identify potential datasets",
+    "text": "Task 2: Identify potential datasets\nIdentify 1-2 datasets that you might use for your capstone project. For each dataset, consider:\n\nData you have access to\n\nData from your work or research\nData you have collected\nData from your organization (with permission to share)\nPublic datasets you want to explore further\n\n\n\nData format\nYour data should be in one of these formats:\n\nCSV (comma-separated values)\nExcel (.xlsx or .xls)\nJSON",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-3-assess-data-suitability-for-public-sharing",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-3-assess-data-suitability-for-public-sharing",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 3: Assess data suitability for public sharing",
+    "text": "Task 3: Assess data suitability for public sharing\nFor each dataset you identified, complete the following assessment:\n\nIs this data suitable for public sharing?\nAsk yourself these questions:\n\nPersonal identifiers: Does the data contain names, addresses, phone numbers, email addresses, or other information that could identify specific individuals?\nGPS coordinates: Does the data include exact GPS coordinates or precise locations that could identify households or individuals?\nSensitive information: Does the data include:\n\nHealth information\nFinancial information\nInformation about vulnerable populations\nProprietary or confidential business information\n\nPermissions: Do you have permission from your organization or the data owner to share this data publicly?\n\n\n\nMaking sensitive data suitable for sharing\nIf your data contains sensitive information, consider these strategies:\n\nRemoving sensitive variables\n\nDelete columns containing personal identifiers (names, IDs, phone numbers)\nRemove GPS coordinates or replace with general location information (e.g., district name instead of exact coordinates)\nRemove or aggregate variables that could be used to identify individuals when combined\n\n\n\nUsing a subset of data\n\nSelect only the variables (columns) needed for your analysis\nAggregate data to a higher level (e.g., village-level instead of household-level)\n\n\n\n\n\n\n\nWhen in doubt, aggregate or exclude\n\n\n\nIf you are uncertain whether specific variables or observations can be shared publicly, it’s better to exclude them or aggregate to a higher level. Remember: once data is published online, it cannot be unpublished.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-4-clone-your-module-4-assignments-repository",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-4-clone-your-module-4-assignments-repository",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 4: Clone your module 4 assignments repository",
+    "text": "Task 4: Clone your module 4 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-04-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is rainbow-train, the repository will be md-04-assignments-rainbow-train.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-5-document-your-data-assessment",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-5-document-your-data-assessment",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 5: Document your data assessment",
+    "text": "Task 5: Document your data assessment\n\nOpen the file data-assessment.qmd in your cloned repository.\nFollow the instructions in the template to document your data assessment.\n\nThe template will guide you through documenting:\n\nFor each dataset you’re considering (1-2 datasets):\n\nDataset name and source: What is it called and where does it come from?\nDescription: What does this data contain? (1-2 paragraphs)\nSize and scope:\n\nHow many observations (rows)?\nHow many variables (columns)?\nWhat time period does it cover?\n\nPrivacy assessment:\n\nDoes it contain personal identifiers? If yes, which ones?\nDoes it contain GPS coordinates?\nDoes it contain other sensitive information?\nCan you share it as-is, or does it need modification?\n\nRequired modifications (if any):\n\nWhich variables need to be removed?\nDo you need to use a subset of the data?\nDo any variables need to be aggregated or anonymized?\n\nAnalysis goals: What questions do you want to answer with this data? (2-3 sentences)\nPermission to share:\n\nDo you have permission to share this data publicly?\nIf it’s from your organization, have you confirmed you can share it?\n\n\n\n\nSelect your preferred dataset\nAfter assessing all options, indicate which dataset you plan to use for your capstone project and explain why you chose it.\n\n\n\n\n\n\nQuestions? Ask on Element Chat\n\n\n\nIf you have questions about whether your data is suitable for public sharing, or if you need help determining what modifications are needed, please ask on our Element Chat. We’re happy to help you assess your data privacy considerations.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-6-commit-and-push-your-changes",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-6-commit-and-push-your-changes",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 6: Commit and push your changes",
+    "text": "Task 6: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed data assessment\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-04/am-04-1-data.html#task-7-open-an-issue-on-github",
+    "href": "content/assignments/md-04/am-04-1-data.html#task-7-open-an-issue-on-github",
+    "title": "Module 4 - Assignment 1",
+    "section": "Task 7: Open an issue on GitHub",
+    "text": "Task 7: Open an issue on GitHub\n\n\n\n\n\n\nHaving trouble finding suitable data?\n\n\n\nIf you’re having difficulty identifying a dataset that meets the requirements, or if you’re uncertain about privacy considerations, please also let us know in your GitHub issue. We can help you:\n\nIdentify alternative datasets\nDetermine appropriate anonymization strategies\nConnect you with publicly available datasets in your area of interest\nDiscuss options for aggregating sensitive data\n\n\n\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-04-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the data-assessment.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed data assessment for capstone project.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and:\n\nBriefly mention which dataset you selected\nIf you encountered any challenges identifying a suitable dataset or have concerns about data privacy, please mention them here. We’re here to help you find an appropriate dataset for your project.\n\nScroll down the page and click the green Create button.",
+    "crumbs": [
+      "Module 04",
+      "am-01: Data assessment"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html",
+    "href": "content/assignments/md-05/am-05-1-project-data.html",
+    "title": "Data for your capstone project",
+    "section": "",
+    "text": "Open the GitHub Organisation for the course\nTo right of the field “Find a repository”, click on the green “New” button.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Repository name” field write project-username. Replace username with your GitHub username. Avoid using spaces. For example: project-rainbow-train for the user with the username rainbow-train\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click “Create repository”.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Quick setup” field, click on the clipboard next to the HTTPs URL\n\n\n\n\n\n\n\n\n\n\n\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.",
+    "crumbs": [
+      "Module 05",
+      "am-01: Project data"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-1-create-a-new-repository-on-github-clone-to-posit-cloud",
+    "href": "content/assignments/md-05/am-05-1-project-data.html#step-1-create-a-new-repository-on-github-clone-to-posit-cloud",
+    "title": "Data for your capstone project",
+    "section": "",
+    "text": "Open the GitHub Organisation for the course\nTo right of the field “Find a repository”, click on the green “New” button.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Repository name” field write project-username. Replace username with your GitHub username. Avoid using spaces. For example: project-rainbow-train for the user with the username rainbow-train\n\n\n\n\n\n\n\n\n\n\n\nScroll down on the same page, and click “Create repository”.\n\n\n\n\n\n\n\n\n\n\n\nIn the “Quick setup” field, click on the clipboard next to the HTTPs URL\n\n\n\n\n\n\n\n\n\n\n\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.",
+    "crumbs": [
+      "Module 05",
+      "am-01: Project data"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-2-create-new-folders",
+    "href": "content/assignments/md-05/am-05-1-project-data.html#step-2-create-new-folders",
+    "title": "Data for your capstone project",
+    "section": "Step 2: Create new folders",
+    "text": "Step 2: Create new folders\n\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the “Folder” button.\n\n\n\n\n\n\n\n\n\n\n\nEnter the name “data” in field and click OK.\n\n\n\n\n\n\n\n\n\n\n\nClick on the new data folder in the bottom right window.\n\n\n\n\n\n\n\n\n\n\n\nClick on the “Folder” button.\n\n\n\n\n\n\n\n\n\n\n\nEnter the name “raw” in field and click OK.\n\n\n\n\n\n\n\n\n\n\n\nClick on the new raw folder in the bottom right window.",
+    "crumbs": [
+      "Module 05",
+      "am-01: Project data"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-3-upload-the-data",
+    "href": "content/assignments/md-05/am-05-1-project-data.html#step-3-upload-the-data",
+    "title": "Data for your capstone project",
     "section": "Step 3: Upload the data",
-    "text": "Step 3: Upload the data\n\nIn RStudio, navigate to the Files tab in the bottom right window\nClick on the Upload button\nClick Choose File and select your XLSX spreadsheet from Step 1\nClick OK to upload the file to your project",
+    "text": "Step 3: Upload the data\n\n\n\n\n\n\nPre-requisite: Module 4 Data Assessment\n\n\n\nBefore uploading your data, you must have completed Module 4 Assignment 1: Identify and assess data for your capstone project. This assignment helps you select a suitable dataset and assess it for privacy concerns.\nIf you haven’t completed Module 4 Assignment 1 yet:\n\nComplete the Module 4 data assessment first\nYour dataset should be suitable for public sharing (CSV, Excel, or JSON format)\nIt should not contain personal identifiers, GPS coordinates, or sensitive information unless properly anonymized\nUse the GitHub issue tracker in your md-04-assignments-USERNAME repository to discuss your dataset with instructors\n\nIf you’re still finalizing your dataset selection:\nYou can skip this step for now and continue with Steps 4-6. You must complete Steps 4-6 even without having uploaded your data. Return to upload your data once it’s ready, and push the updated files to GitHub. To fully complete this homework assignment, you will eventually need to upload your data.\n\n\n\nUse the Files tab in the bottom right window to upload your selected dataset into the raw folder.\n\n\n\n\n\n\n\n\n\n\n\nChoose the file from the place you have saved it on your computer.",
     "crumbs": [
-      "Module 03",
-      "am-02: Spreadsheet"
+      "Module 05",
+      "am-01: Project data"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-4-commit-and-push-your-changes",
-    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-4-commit-and-push-your-changes",
-    "title": "Create a spreadsheet",
-    "section": "Step 4: Commit and push your changes",
-    "text": "Step 4: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: Added spreadsheet with sample data\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-4-describe-your-data-and-goals",
+    "href": "content/assignments/md-05/am-05-1-project-data.html#step-4-describe-your-data-and-goals",
+    "title": "Data for your capstone project",
+    "section": "Step 4: Describe your data and goals",
+    "text": "Step 4: Describe your data and goals\n\nNavigate back to the root of your project folder by a click on the blue R cube.\n\n\n\n\n\n\n\n\n\n\n\nCreate a new folder “docs” in the root of your project folder.\n\n\n\n\n\n\n\n\n\n\n\nClick on the docs folder\n\n\n\n\n\n\n\n\n\n\n\nCreate a new Quarto document and save it as index.qmd inside the docs folder.\n\n\n\n\n\n\n\n\n\n\n\nIn the index.qmd file, write a short description of your analysis goals and the data you have uploaded.\n\n\n\n\n\n\n\n\n\n\n\nAdd a code chunk and write library(tidyverse) to load the R packages you have learned to work with.\n\n\n```{r}\nlibrary(tidyverse)\n```\n\n\nImport your data by writing the following inside another code chunk (in this example we are using a CSV file):\n\n\nread_csv(here::here(\"data/raw/your-file-name.csv\"))\n\n\n\n\n\n\n\nThe here R package\n\n\n\nWe recommend using the here R package to refer to files in your project. The here R package helps with finding the correct file path to your data. We will discuss file paths and the package itself in another module.",
     "crumbs": [
-      "Module 03",
-      "am-02: Spreadsheet"
+      "Module 05",
+      "am-01: Project data"
     ]
   },
   {
-    "objectID": "content/assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
-    "href": "content/assignments/md-03/am-03-2-spreadsheet.html#step-5-open-an-issue-on-github",
-    "title": "Create a spreadsheet",
-    "section": "Step 5: Open an issue on GitHub",
-    "text": "Step 5: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository samples-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\nFor example, if your username is johnsmith, the repository will be samples-johnsmith.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the uploaded XLSX file in your repository.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Create spreadsheet and upload to cloud.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce and add a question about this module. We would like to see one question from every participant.\nScroll down the page a bit and click the green Create button.\n\nCongratulations! You have successfully created a spreadsheet, uploaded it to GitHub, and completed this assignment.",
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-5-commit-and-push-your-changes",
+    "href": "content/assignments/md-05/am-05-1-project-data.html#step-5-commit-and-push-your-changes",
+    "title": "Data for your capstone project",
+    "section": "Step 5: Commit and push your changes",
+    "text": "Step 5: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in an earlier module to push your changes back to GitHub.",
     "crumbs": [
-      "Module 03",
-      "am-02: Spreadsheet"
+      "Module 05",
+      "am-01: Project data"
     ]
   },
   {
-    "objectID": "content/assignments/md-04/am-04-2-study-groups.html",
-    "href": "content/assignments/md-04/am-04-2-study-groups.html",
-    "title": "Study groups",
+    "objectID": "content/assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
+    "href": "content/assignments/md-05/am-05-1-project-data.html#step-6-open-an-issue-on-github",
+    "title": "Data for your capstone project",
+    "section": "Step 6: Open an issue on GitHub",
+    "text": "Step 6: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository project- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Identify project data and describe analysis goals.”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
+    "crumbs": [
+      "Module 05",
+      "am-01: Project data"
+    ]
+  },
+  {
+    "objectID": "content/assignments/md-06/am-06-2-reading.html",
+    "href": "content/assignments/md-06/am-06-2-reading.html",
+    "title": "Module 6 - Assignment 2",
     "section": "",
-    "text": "Open https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the Discussions tab in the top menu of the github organisation. Or follow the url https://github.com/orgs/ds4owd-002/discussions\nFind the Group category on the left. Or follow the url Or follow this link https://github.com/orgs/ds4owd-002/discussions/categories/group\nBe mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! There should be an average of 5-6 members.\nJoin one of the discussions to join a group!\n\n\n\n\n\n\n\nIs your Github Username in this list?\n\n\n\n\n\n\nUsername\n\n\n\n\nalazarnegash-horecha\n\n\nhopechilunga\n\n\nquishqa\n\n\nbiyiemmy\n\n\nrebecca-lk\n\n\njngalamu\n\n\nsquiebble\n\n\nlaigarve\n\n\ntangqiqing\n\n\nprabhatjoshi007\n\n\nasimenye99\n\n\nimegit\n\n\nchekwube-web\n\n\nemmanuellmhango\n\n\n\nIf so, our pre-course survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.\n\n\nCongratulations! You have completed the study group assignment and are now ready for the next module.",
-    "crumbs": [
-      "Module 04",
-      "am-02: Study groups"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-04/am-04-2-study-groups.html#step-1-join-a-study-group",
-    "href": "content/assignments/md-04/am-04-2-study-groups.html#step-1-join-a-study-group",
-    "title": "Study groups",
-    "section": "",
-    "text": "Open https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the Discussions tab in the top menu of the github organisation. Or follow the url https://github.com/orgs/ds4owd-002/discussions\nFind the Group category on the left. Or follow the url Or follow this link https://github.com/orgs/ds4owd-002/discussions/categories/group\nBe mindful of joining a discussions evenly, so that no group has only one member, whilst others might have 10! There should be an average of 5-6 members.\nJoin one of the discussions to join a group!\n\n\n\n\n\n\n\nIs your Github Username in this list?\n\n\n\n\n\n\nUsername\n\n\n\n\nalazarnegash-horecha\n\n\nhopechilunga\n\n\nquishqa\n\n\nbiyiemmy\n\n\nrebecca-lk\n\n\njngalamu\n\n\nsquiebble\n\n\nlaigarve\n\n\ntangqiqing\n\n\nprabhatjoshi007\n\n\nasimenye99\n\n\nimegit\n\n\nchekwube-web\n\n\nemmanuellmhango\n\n\n\nIf so, our pre-course survey analysis has identified you as an individual with more experience than other members of the course! You will find a Discussion that contains your username in the title, we kindly ask you to join this study group.\n\n\nCongratulations! You have completed the study group assignment and are now ready for the next module.",
-    "crumbs": [
-      "Module 04",
-      "am-02: Study groups"
-    ]
-  },
-  {
-    "objectID": "content/assignments/md-06/am-06-1-reading.html",
-    "href": "content/assignments/md-06/am-06-1-reading.html",
-    "title": "Module 6 - Assignment 1",
-    "section": "",
-    "text": "This course introduces participants to tools and workflows for collaborative writing within the context of reproducible documents. You find yourself within an environment for (scientific) computing. R is a programming language for scientific computing and the additionally taught tools (e.g. Quarto) and workflows (version control) to combine R in a writing and publishing workflow. We also briefly touch on some data management topics (Data Organisation in Spreadsheet) without getting into much detail about file management.\nThe following paper provides recommendations for some of the practices we use in class and puts them into the context of organising your data analysis work. That can be research and academic work, but is just as relevant if you are a consultant, working for an NGO, government, and others.\nFor this assignment, we ask you to:\n\nRead Wilson et al. (2017): “Good enough practices in scientific computing”.\nChose one of the recommended practices (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:\nCome up with a real-world example or scenario where the recommended practice could be applied in your research or academic work.\nBe prepared to explain how the recommended practices would improve your workflows. This will be in the class setting as part of small discussion group (max 3 people).\n\n\n\n\n\nReferences\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” PLOS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.",
+    "text": "This course introduces participants to tools and workflows for collaborative writing within the context of reproducible documents. You find yourself within an environment for (scientific) computing. R is a programming language for scientific computing and the additionally taught tools (e.g. Quarto) and workflows (version control) to combine R in a writing and publishing workflow. We also briefly touch on some data management topics (Data Organisation in Spreadsheet) without getting into much detail about file management.\nThe following paper provides recommendations for some of the practices we use in class and puts them into the context of organising your data analysis work. That can be research and academic work, but is just as relevant if you are a consultant, working for an NGO, government, and others.\nFor this assignment, we ask you to:\n\nRead Wilson et al. (2017): “Good enough practices in scientific computing”.\nChose one of the recommended practices (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:\nCome up with a real-world example or scenario where the recommended practice could be applied in your research or academic work.\nBe prepared to explain how the recommended practices would improve your workflows.\n\n\n\n\n\nReferences\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” PLOS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.",
     "crumbs": [
       "Module 06",
-      "am-01: Good enough practices"
+      "am-02: Good enough practices"
     ]
   },
   {
@@ -3975,42 +3922,70 @@
     "href": "content/slides/lec-07-pivoting-joining.html#learning-objectives-for-this-week",
     "title": "Pivoting & joining data",
     "section": "Learning Objectives (for this week)",
-    "text": "Learning Objectives (for this week)\n\n\nLearners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can apply functions from the dplyr R Package to join multiple data sets.\nLearners can understand the relevance a data dictionary to describe variable names in a data set."
+    "text": "Learning Objectives (for this week)\n\n\nRows: 37 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): title, learning_objectives\ndbl  (1): week\ndttm (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nWarning in readLines(file, warn = readLines.warn): incomplete final line found\non\n'/Users/lschoebitz/Documents/gitrepos/gh-org-ds4owd-002/website/_variables.yml'\n\n\n\n\nLearners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can apply functions from the dplyr R Package to join multiple data sets.\nLearners can understand the relevance a data dictionary to describe variable names in a data set."
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
     "href": "content/slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
     "title": "Pivoting & joining data",
     "section": "Your turn: Discuss the reading",
-    "text": "Your turn: Discuss the reading\n\nIn discussion groups of 3, share your examples and discuss how the recommendations would improve your workflows.\n\n\nIn your homework you have read Wilson et al. (2017): “Good enough practices in scientific computing”.\nYou chose one of the recommended practices (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:\nYou came up with a real-world example or scenario where the recommended practice could be applied in your research or academic work.\nYou are prepared to explain how the recommended practices would improve your workflows. This will be in the class setting as part of small discussion group (max 3 people).\n\n\n\n\n−+\n10:00"
+    "text": "Your turn: Discuss the reading\n\nIn discussion groups of 3, share your examples and discuss how the recommendations would improve your workflows.\n\n\nIn your homework you have read Wilson et al. (2017): “Good enough practices in scientific computing”.\nYou chose one of the recommended practices (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:\nYou came up with a real-world example or scenario where the recommended practice could be applied in your research or academic work.\nYou are prepared to explain how the recommended practices would improve your workflows. This will be in the class setting as part of small discussion group (max 3 people).\n\n\ncountdown(10)\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "content/slides/lec-07-pivoting-joining.html#section",
+    "href": "content/slides/lec-07-pivoting-joining.html#section",
+    "title": "Pivoting & joining data",
+    "section": ".",
+    "text": ".\n\n\nIllustrations from the Openscapes blog Tidy Data for reproducibility, efficiency, and collaboration by Julia Lowndes and Allison Horst"
+  },
+  {
+    "objectID": "content/slides/lec-07-pivoting-joining.html#section-1",
+    "href": "content/slides/lec-07-pivoting-joining.html#section-1",
+    "title": "Pivoting & joining data",
+    "section": ".",
+    "text": ".\n\n\nIllustrations from the Openscapes blog Tidy Data for reproducibility, efficiency, and collaboration by Julia Lowndes and Allison Horst"
+  },
+  {
+    "objectID": "content/slides/lec-07-pivoting-joining.html#section-2",
+    "href": "content/slides/lec-07-pivoting-joining.html#section-2",
+    "title": "Pivoting & joining data",
+    "section": ".",
+    "text": ".\n\n\nIllustrations from the Openscapes blog Tidy Data for reproducibility, efficiency, and collaboration by Julia Lowndes and Allison Horst"
+  },
+  {
+    "objectID": "content/slides/lec-07-pivoting-joining.html#a-grammar-of-data-tidying",
+    "href": "content/slides/lec-07-pivoting-joining.html#a-grammar-of-data-tidying",
+    "title": "Pivoting & joining data",
+    "section": "A grammar of data tidying",
+    "text": "A grammar of data tidying\n\n\n\n\n\n\n\n\n\n\n\n\nThe goal of tidyr is to help you tidy your data via\n\npivoting for going between wide and long data\nsplitting and combining character columns\nnesting and unnesting columns\nclarifying how NAs should be treated\n\n\n\n\nSlide taken from Data Science in a Box"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#pivoting-data",
     "href": "content/slides/lec-07-pivoting-joining.html#pivoting-data",
     "title": "Pivoting & joining data",
     "section": "Pivoting data",
-    "text": "Pivoting data"
+    "text": "Pivoting data\n\nknitr::include_graphics(\"img/lec-04/tidyr-longer-wider.gif\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#waste-characterisation-data",
     "href": "content/slides/lec-07-pivoting-joining.html#waste-characterisation-data",
     "title": "Pivoting & joining data",
     "section": "Waste characterisation data",
-    "text": "Waste characterisation data\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\ntotal\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n2.05\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n3.64\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n1.99\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n2.19\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n1.12\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n0.50\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n2.33\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99\n4.07"
+    "text": "Waste characterisation data\n\nwaste_data_untidy |&gt; \n  select(-recyclable) |&gt; \n  rename(other = non_recyclable) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\ntotal\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n2.05\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n3.64\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n1.99\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n2.19\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n1.12\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n0.50\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n2.33\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99\n4.07"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#how-would-you-plot-this",
     "href": "content/slides/lec-07-pivoting-joining.html#how-would-you-plot-this",
     "title": "Pivoting & joining data",
     "section": "How would you plot this?",
-    "text": "How would you plot this?"
+    "text": "How would you plot this?\n\nggplot(data = waste_data_untidy,\n       mapping = aes(x = objid, y = total, fill = location)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#three-variables",
     "href": "content/slides/lec-07-pivoting-joining.html#three-variables",
     "title": "Pivoting & joining data",
     "section": "Three variables",
-    "text": "Three variables\n\n\n\n\n\nobjid\nlocation\ntotal\n\n\n\n\n900\neth\n2.05\n\n\n899\neth\n3.64\n\n\n921\nold_town\n1.99\n\n\n916\nold_town\n2.19\n\n\n900\neth\n1.12\n\n\n899\neth\n0.50\n\n\n921\nold_town\n2.33\n\n\n916\nold_town\n4.07"
+    "text": "Three variables\n\nwaste_data_untidy |&gt; \n  select(objid, location, total) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\ntotal\n\n\n\n\n900\neth\n2.05\n\n\n899\neth\n3.64\n\n\n921\nold_town\n1.99\n\n\n916\nold_town\n2.19\n\n\n900\neth\n1.12\n\n\n899\neth\n0.50\n\n\n921\nold_town\n2.33\n\n\n916\nold_town\n4.07"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics",
@@ -4024,21 +3999,21 @@
     "href": "content/slides/lec-07-pivoting-joining.html#and-how-to-plot-this",
     "title": "Pivoting & joining data",
     "section": "And how to plot this?",
-    "text": "And how to plot this?"
+    "text": "And how to plot this?\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#reminder-data-in-wide-format",
     "href": "content/slides/lec-07-pivoting-joining.html#reminder-data-in-wide-format",
     "title": "Pivoting & joining data",
     "section": "Reminder: Data (in wide format)",
-    "text": "Reminder: Data (in wide format)\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
+    "text": "Reminder: Data (in wide format)\n\nwaste_data_untidy |&gt; \n  select(-recyclable, -total) |&gt; \n  rename(other = non_recyclable) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#you-need-a-long-format",
     "href": "content/slides/lec-07-pivoting-joining.html#you-need-a-long-format",
     "title": "Pivoting & joining data",
     "section": "You need: A long format",
-    "text": "You need: A long format\n\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
+    "text": "You need: A long format\n\nwaste_data_tidy |&gt; \n  select(-percent, -type) |&gt; \n  knitr::kable(digits = 2)\n\n\n\n\nobjid\nlocation\nwaste_category\nweight\n\n\n\n\n900\neth\npet\n0.06\n\n\n900\neth\nmetal_alu\n0.06\n\n\n900\neth\nglass\n0.58\n\n\n900\neth\npaper\n0.21\n\n\n900\neth\nother\n1.14\n\n\n899\neth\npet\n0.14\n\n\n899\neth\nmetal_alu\n0.01\n\n\n899\neth\nglass\n0.18\n\n\n899\neth\npaper\n0.28\n\n\n899\neth\nother\n3.04\n\n\n921\nold_town\npet\n0.00\n\n\n921\nold_town\nmetal_alu\n0.00\n\n\n921\nold_town\nglass\n0.00\n\n\n921\nold_town\npaper\n0.41\n\n\n921\nold_town\nother\n1.57\n\n\n916\nold_town\npet\n0.17\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.80\n\n\n916\nold_town\npaper\n0.55\n\n\n916\nold_town\nother\n0.62\n\n\n900\neth\npet\n0.10\n\n\n900\neth\nmetal_alu\n0.04\n\n\n900\neth\nglass\n0.00\n\n\n900\neth\npaper\n0.40\n\n\n900\neth\nother\n0.58\n\n\n899\neth\npet\n0.08\n\n\n899\neth\nmetal_alu\n0.03\n\n\n899\neth\nglass\n0.00\n\n\n899\neth\npaper\n0.05\n\n\n899\neth\nother\n0.34\n\n\n921\nold_town\npet\n0.08\n\n\n921\nold_town\nmetal_alu\n0.03\n\n\n921\nold_town\nglass\n0.30\n\n\n921\nold_town\npaper\n0.40\n\n\n921\nold_town\nother\n1.52\n\n\n916\nold_town\npet\n0.11\n\n\n916\nold_town\nmetal_alu\n0.04\n\n\n916\nold_town\nglass\n0.92\n\n\n916\nold_town\npaper\n1.01\n\n\n916\nold_town\nother\n1.99"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics-1",
@@ -4052,7 +4027,7 @@
     "href": "content/slides/lec-07-pivoting-joining.html#how-to",
     "title": "Pivoting & joining data",
     "section": "How to",
-    "text": "How to\n\nwaste_data_untidy \n\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
+    "text": "How to\n\nwaste_data_untidy &lt;- waste_data_untidy |&gt; \n  select(-recyclable, -total) |&gt; \n  rename(other = non_recyclable)\n\n\nwaste_data_untidy \n\n\n\n\n\n\nobjid\nlocation\npet\nmetal_alu\nglass\npaper\nother\n\n\n\n\n900\neth\n0.06\n0.06\n0.58\n0.21\n1.14\n\n\n899\neth\n0.14\n0.01\n0.18\n0.28\n3.04\n\n\n921\nold_town\n0.00\n0.00\n0.00\n0.41\n1.57\n\n\n916\nold_town\n0.17\n0.04\n0.80\n0.55\n0.62\n\n\n900\neth\n0.10\n0.04\n0.00\n0.40\n0.58\n\n\n899\neth\n0.08\n0.03\n0.00\n0.05\n0.34\n\n\n921\nold_town\n0.08\n0.03\n0.30\n0.40\n1.52\n\n\n916\nold_town\n0.11\n0.04\n0.92\n1.01\n1.99"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#how-to-1",
@@ -4073,21 +4048,21 @@
     "href": "content/slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises",
     "title": "Pivoting & joining data",
     "section": "Your turn: md-07-exercises",
-    "text": "Your turn: md-07-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-07-exercises.\nIn the File Manager in the bottom right window, locate the md-07a-pivoting-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "text": "Your turn: md-07-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-07-exercises.\nIn the File Manager in the bottom right window, locate the md-07a-pivoting-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\ncountdown(30)\n\n\n−+\n30:00"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#take-a-break",
     "href": "content/slides/lec-07-pivoting-joining.html#take-a-break",
     "title": "Pivoting & joining data",
     "section": "Take a break",
-    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+    "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\ncountdown(minutes = 10)\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#we",
     "href": "content/slides/lec-07-pivoting-joining.html#we",
     "title": "Pivoting & joining data",
     "section": "We…",
-    "text": "We…\n…have multiple data frames\n…want to bring them together\n\nprofessions &lt;- read_csv(here::here(\"data/scientists/professions.csv\")) \ndates &lt;- read_csv(here::here(\"data/scientists/dates.csv\")) \nworks &lt;- read_csv(here::here(\"scientists/works.csv\"))"
+    "text": "We…\n…have multiple data frames\n…want to bring them together\n\n\nRows: 10 Columns: 2\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): name, profession\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\nRows: 8 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (1): name\ndbl (2): birth_year, death_year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\nRows: 9 Columns: 2\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): name, known_for\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\nprofessions &lt;- read_csv(here::here(\"data/scientists/professions.csv\")) \ndates &lt;- read_csv(here::here(\"data/scientists/dates.csv\")) \nworks &lt;- read_csv(here::here(\"scientists/works.csv\"))"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#data-women-in-science",
@@ -4101,14 +4076,14 @@
     "href": "content/slides/lec-07-pivoting-joining.html#inputs",
     "title": "Pivoting & joining data",
     "section": "Inputs",
-    "text": "Inputs\n\nprofessionsdatesworks\n\n\n\n\n\n\n\nname\nprofession\n\n\n\n\nAda Lovelace\nMathematician\n\n\nMarie Curie\nPhysicist and Chemist\n\n\nJanaki Ammal\nBotanist\n\n\nChien-Shiung Wu\nPhysicist\n\n\nKatherine Johnson\nMathematician\n\n\nRosalind Franklin\nChemist\n\n\nVera Rubin\nAstronomer\n\n\nGladys West\nMathematician\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n\n\nJennifer Doudna\nBiochemist\n\n\n\n\n\n\n\n\n\n\n\n\nname\nbirth_year\ndeath_year\n\n\n\n\nJanaki Ammal\n1897\n1984\n\n\nChien-Shiung Wu\n1912\n1997\n\n\nKatherine Johnson\n1918\n2020\n\n\nRosalind Franklin\n1920\n1958\n\n\nVera Rubin\n1928\n2016\n\n\nGladys West\n1930\nNA\n\n\nFlossie Wong-Staal\n1947\nNA\n\n\nJennifer Doudna\n1964\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nknown_for\n\n\n\n\nAda Lovelace\nfirst computer algorithm\n\n\nMarie Curie\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nVera Rubin\nexistence of dark matter\n\n\nGladys West\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
+    "text": "Inputs\n\nprofessionsdatesworks\n\n\n\nprofessions |&gt; kable()\n\n\n\n\nname\nprofession\n\n\n\n\nAda Lovelace\nMathematician\n\n\nMarie Curie\nPhysicist and Chemist\n\n\nJanaki Ammal\nBotanist\n\n\nChien-Shiung Wu\nPhysicist\n\n\nKatherine Johnson\nMathematician\n\n\nRosalind Franklin\nChemist\n\n\nVera Rubin\nAstronomer\n\n\nGladys West\nMathematician\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n\n\nJennifer Doudna\nBiochemist\n\n\n\n\n\n\n\n\ndates |&gt; kable()\n\n\n\n\nname\nbirth_year\ndeath_year\n\n\n\n\nJanaki Ammal\n1897\n1984\n\n\nChien-Shiung Wu\n1912\n1997\n\n\nKatherine Johnson\n1918\n2020\n\n\nRosalind Franklin\n1920\n1958\n\n\nVera Rubin\n1928\n2016\n\n\nGladys West\n1930\nNA\n\n\nFlossie Wong-Staal\n1947\nNA\n\n\nJennifer Doudna\n1964\nNA\n\n\n\n\n\n\n\n\nworks |&gt; kable()\n\n\n\n\n\n\n\n\nname\nknown_for\n\n\n\n\nAda Lovelace\nfirst computer algorithm\n\n\nMarie Curie\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nVera Rubin\nexistence of dark matter\n\n\nGladys West\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#desired-output",
     "href": "content/slides/lec-07-pivoting-joining.html#desired-output",
     "title": "Pivoting & joining data",
     "section": "Desired output",
-    "text": "Desired output\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nBotanist\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\nMathematician\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\nChemist\n1920\n1958\nNA\n\n\nVera Rubin\nAstronomer\n1928\n2016\nexistence of dark matter\n\n\nGladys West\nMathematician\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\nBiochemist\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
+    "text": "Desired output\n\nprofessions %&gt;%\n  left_join(dates) %&gt;%\n  left_join(works) |&gt; \n  kable()\n\nJoining with `by = join_by(name)`\nJoining with `by = join_by(name)`\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nBotanist\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\nMathematician\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\nChemist\n1920\n1958\nNA\n\n\nVera Rubin\nAstronomer\n1928\n2016\nexistence of dark matter\n\n\nGladys West\nMathematician\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\nBiochemist\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#inputs-reminder",
@@ -4136,49 +4111,49 @@
     "href": "content/slides/lec-07-pivoting-joining.html#left_join",
     "title": "Pivoting & joining data",
     "section": "left_join()",
-    "text": "left_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nleft_join(x, y)\n\n# A tibble: 3 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     3 x3      &lt;NA&gt;"
+    "text": "left_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nleft_join(x, y)\n\nJoining with `by = join_by(id)`\n\n\n# A tibble: 3 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     3 x3      &lt;NA&gt;"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#left_join-1",
     "href": "content/slides/lec-07-pivoting-joining.html#left_join-1",
     "title": "Pivoting & joining data",
     "section": "left_join()",
-    "text": "left_join()\n\nprofessions %&gt;%\n  left_join(dates) \n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\n\n\nJanaki Ammal\nBotanist\n1897\n1984\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\n\n\nKatherine Johnson\nMathematician\n1918\n2020\n\n\nRosalind Franklin\nChemist\n1920\n1958\n\n\nVera Rubin\nAstronomer\n1928\n2016\n\n\nGladys West\nMathematician\n1930\nNA\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\n\n\nJennifer Doudna\nBiochemist\n1964\nNA"
+    "text": "left_join()\n\nprofessions %&gt;%\n  left_join(dates) \n\n\n\nJoining with `by = join_by(name)`\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\n\n\nJanaki Ammal\nBotanist\n1897\n1984\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\n\n\nKatherine Johnson\nMathematician\n1918\n2020\n\n\nRosalind Franklin\nChemist\n1920\n1958\n\n\nVera Rubin\nAstronomer\n1928\n2016\n\n\nGladys West\nMathematician\n1930\nNA\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\n\n\nJennifer Doudna\nBiochemist\n1964\nNA"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#right_join",
     "href": "content/slides/lec-07-pivoting-joining.html#right_join",
     "title": "Pivoting & joining data",
     "section": "right_join()",
-    "text": "right_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nright_join(x, y)\n\n# A tibble: 3 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     4 &lt;NA&gt;    y4"
+    "text": "right_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nright_join(x, y)\n\nJoining with `by = join_by(id)`\n\n\n# A tibble: 3 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     4 &lt;NA&gt;    y4"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#right_join-1",
     "href": "content/slides/lec-07-pivoting-joining.html#right_join-1",
     "title": "Pivoting & joining data",
     "section": "right_join()",
-    "text": "right_join()\n\nprofessions %&gt;%\n  right_join(dates)\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\n\n\n\n\nJanaki Ammal\nBotanist\n1897\n1984\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\n\n\nKatherine Johnson\nMathematician\n1918\n2020\n\n\nRosalind Franklin\nChemist\n1920\n1958\n\n\nVera Rubin\nAstronomer\n1928\n2016\n\n\nGladys West\nMathematician\n1930\nNA\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\n\n\nJennifer Doudna\nBiochemist\n1964\nNA"
+    "text": "right_join()\n\nprofessions %&gt;%\n  right_join(dates)\n\n\n\nJoining with `by = join_by(name)`\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\n\n\n\n\nJanaki Ammal\nBotanist\n1897\n1984\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\n\n\nKatherine Johnson\nMathematician\n1918\n2020\n\n\nRosalind Franklin\nChemist\n1920\n1958\n\n\nVera Rubin\nAstronomer\n1928\n2016\n\n\nGladys West\nMathematician\n1930\nNA\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\n\n\nJennifer Doudna\nBiochemist\n1964\nNA"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#full_join",
     "href": "content/slides/lec-07-pivoting-joining.html#full_join",
     "title": "Pivoting & joining data",
     "section": "full_join()",
-    "text": "full_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfull_join(x, y)\n\n# A tibble: 4 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     3 x3      &lt;NA&gt;   \n4     4 &lt;NA&gt;    y4"
+    "text": "full_join()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfull_join(x, y)\n\nJoining with `by = join_by(id)`\n\n\n# A tibble: 4 × 3\n     id value_x value_y\n  &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  \n1     1 x1      y1     \n2     2 x2      y2     \n3     3 x3      &lt;NA&gt;   \n4     4 &lt;NA&gt;    y4"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#full_join-1",
     "href": "content/slides/lec-07-pivoting-joining.html#full_join-1",
     "title": "Pivoting & joining data",
     "section": "full_join()",
-    "text": "full_join()\n\ndates %&gt;%\n  full_join(works) \n\n\n\n\n\n\n\n\n\n\n\n\nname\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nJanaki Ammal\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\n1920\n1958\nNA\n\n\nVera Rubin\n1928\n2016\nexistence of dark matter\n\n\nGladys West\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes\n\n\nAda Lovelace\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize"
+    "text": "full_join()\n\ndates %&gt;%\n  full_join(works) \n\n\n\nJoining with `by = join_by(name)`\n\n\n\n\n\n\n\n\n\n\n\nname\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nJanaki Ammal\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\n1920\n1958\nNA\n\n\nVera Rubin\n1928\n2016\nexistence of dark matter\n\n\nGladys West\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes\n\n\nAda Lovelace\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#putting-it-altogether",
     "href": "content/slides/lec-07-pivoting-joining.html#putting-it-altogether",
     "title": "Pivoting & joining data",
     "section": "Putting it altogether",
-    "text": "Putting it altogether\n\nprofessions %&gt;%\n  left_join(dates) %&gt;%\n  left_join(works) \n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nBotanist\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\nMathematician\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\nChemist\n1920\n1958\nNA\n\n\nVera Rubin\nAstronomer\n1928\n2016\nexistence of dark matter\n\n\nGladys West\nMathematician\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\nBiochemist\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
+    "text": "Putting it altogether\n\nprofessions %&gt;%\n  left_join(dates) %&gt;%\n  left_join(works) \n\n\n\nJoining with `by = join_by(name)`\nJoining with `by = join_by(name)`\n\n\n\n\n\n\n\n\n\n\n\n\nname\nprofession\nbirth_year\ndeath_year\nknown_for\n\n\n\n\nAda Lovelace\nMathematician\nNA\nNA\nfirst computer algorithm\n\n\nMarie Curie\nPhysicist and Chemist\nNA\nNA\ntheory of radioactivity, discovery of elements polonium and radium, first woman to win a Nobel Prize\n\n\nJanaki Ammal\nBotanist\n1897\n1984\nhybrid species, biodiversity protection\n\n\nChien-Shiung Wu\nPhysicist\n1912\n1997\nconfim and refine theory of radioactive beta decy, Wu experiment overturning theory of parity\n\n\nKatherine Johnson\nMathematician\n1918\n2020\ncalculations of orbital mechanics critical to sending the first Americans into space\n\n\nRosalind Franklin\nChemist\n1920\n1958\nNA\n\n\nVera Rubin\nAstronomer\n1928\n2016\nexistence of dark matter\n\n\nGladys West\nMathematician\n1930\nNA\nmathematical modeling of the shape of the Earth which served as the foundation of GPS technology\n\n\nFlossie Wong-Staal\nVirologist and Molecular Biologist\n1947\nNA\nfirst scientist to clone HIV and create a map of its genes which led to a test for the virus\n\n\nJennifer Doudna\nBiochemist\n1964\nNA\none of the primary developers of CRISPR, a ground-breaking technology for editing genomes"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#metadata-data-about-data",
@@ -4199,14 +4174,14 @@
     "href": "content/slides/lec-07-pivoting-joining.html#faecal-sludge-samples-1",
     "title": "Pivoting & joining data",
     "section": "Faecal sludge samples",
-    "text": "Faecal sludge samples\nYou download the XLSX file that contains the data and you open it in Excel. You see the following:"
+    "text": "Faecal sludge samples\nYou download the XLSX file that contains the data and you open it in Excel. You see the following:\n\nknitr::include_graphics(\"img/lec-07/sludge-xlsx.png\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#faecal-sludge-samples-2",
     "href": "content/slides/lec-07-pivoting-joining.html#faecal-sludge-samples-2",
     "title": "Pivoting & joining data",
     "section": "Faecal sludge samples",
-    "text": "Faecal sludge samples\n\n\nOpen questions:\n\nWhat unit does users refer to?\nWhat does ts stand for?\nThe date of what?\nWhere was this data collected?\nWhich method was used to collect the samples?\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestions that only the original author may have the answers to."
+    "text": "Faecal sludge samples\n\n\nOpen questions:\n\nWhat unit does users refer to?\nWhat does ts stand for?\nThe date of what?\nWhere was this data collected?\nWhich method was used to collect the samples?\n\n\n\nknitr::include_graphics(\"img/lec-07/sludge-xlsx.png\")\n\n\n\n\n\n\n\n\n\n\nQuestions that only the original author may have the answers to."
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#you-as-an-author",
@@ -4234,14 +4209,14 @@
     "href": "content/slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples",
     "title": "Pivoting & joining data",
     "section": "Data dictionary for faecal sludge samples",
-    "text": "Data dictionary for faecal sludge samples\n\nEdit in spreadsheet software (e.g. MS Excel)"
+    "text": "Data dictionary for faecal sludge samples\n\nEdit in spreadsheet software (e.g. MS Excel)\n\n\nknitr::include_graphics(\"img/lec-07/dictionary-xlsx.png\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples-1",
     "href": "content/slides/lec-07-pivoting-joining.html#data-dictionary-for-faecal-sludge-samples-1",
     "title": "Pivoting & joining data",
     "section": "Data dictionary for faecal sludge samples",
-    "text": "Data dictionary for faecal sludge samples\n\nSave as CSV file"
+    "text": "Data dictionary for faecal sludge samples\n\nSave as CSV file\n\n\nknitr::include_graphics(\"img/lec-07/dictionary-csv.png\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#directory-tree-of-a-project",
@@ -4276,7 +4251,7 @@
     "href": "content/slides/lec-07-pivoting-joining.html#my-turn-a-tour-of-rainbow-trains-project",
     "title": "Pivoting & joining data",
     "section": "My turn: A tour of Rainbow Train’s project",
-    "text": "My turn: A tour of Rainbow Train’s project\n\n\nSit back and enjoy!\n\n\n\n\n−+\n10:00"
+    "text": "My turn: A tour of Rainbow Train’s project\n\n\nSit back and enjoy!\n\n\ncountdown(10)\n\n\n−+\n10:00"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#module-7-documentation",
@@ -4318,7 +4293,7 @@
     "href": "content/slides/lec-07-pivoting-joining.html#course-calendar",
     "title": "Pivoting & joining data",
     "section": "Course calendar",
-    "text": "Course calendar\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
+    "text": "Course calendar\n\nreadr::read_csv(here::here(\"data\", \"tbl-01-ds4owd-002-course-schedule.csv\")) |&gt; \n  dplyr::select(date, week, topic = title, module) |&gt; \n  dplyr::mutate(date = format(date, format = \"%d %B %Y\")) |&gt; \n  knitr::kable()\n\nRows: 15 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (3): title, module, page_link\ndbl  (1): week\ndttm (1): date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\ndate\nweek\ntopic\nmodule\n\n\n\n\n11 September 2025\n1\nWelcome & get ready for the course\nmodule 1\n\n\n18 September 2025\n2\nData science lifecycle & Exploratory data analysis using visualization\nmodule 2\n\n\n25 September 2025\n3\nData transformation with dplyr\nmodule 3\n\n\n02 October 2025\n4\nData import & Data organization in spreadsheets\nmodule 4\n\n\n09 October 2025\n5\nNo class\nNA\n\n\n16 October 2025\n6\nNo class\nNA\n\n\n23 October 2025\n7\nConditions & Dates & Tables\nmodule 5\n\n\n30 October 2025\n8\nData types & Vectors & For Loops\nmodule 6\n\n\n06 November 2025\n9\nPivoting & joining data\nmodule 7\n\n\n13 November 2025\n10\nCreating and publishing scholarly articles with Quarto and GitHub pages\nmodule 8\n\n\n20 November 2025\n11\nBonus module: Use of AI for coding support\nmodule 9\n\n\n27 November 2025\n12\nWork on Capstone project\nNA\n\n\n04 December 2025\n13\nWork on Capstone project\nNA\n\n\n11 December 2025\n14\nFinal submission date of Capstone project\nNA\n\n\n18 December 2025\n15\nGraduation of openwashdata academy\nmodule 10"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#thanks",

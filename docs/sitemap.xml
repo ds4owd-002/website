@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/content/slides/lec-06-vectors.html</loc>
-    <lastmod>2025-10-22T20:11:16.171Z</lastmod>
+    <lastmod>2025-10-30T09:46:12.558Z</lastmod>
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/content/slides/lec-04-spreadsheets.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/content/modules/md-06.html</loc>
-    <lastmod>2025-10-22T20:02:58.336Z</lastmod>
+    <lastmod>2025-10-30T10:25:58.237Z</lastmod>
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/content/modules/md-04.html</loc>
@@ -69,31 +69,23 @@
     <lastmod>2025-10-02T10:49:45.057Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-05/am-05-1-project-data.html</loc>
-    <lastmod>2025-10-22T20:02:09.399Z</lastmod>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-06/am-06-1-cross-references.html</loc>
+    <lastmod>2025-10-30T10:25:45.967Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-04/am-04-1-data.html</loc>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-04/am-04-2-study-groups.html</loc>
     <lastmod>2025-10-07T09:27:41.860Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-03/am-03-1-data-transformation.html</loc>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-03/am-03-2-spreadsheet.html</loc>
+    <lastmod>2025-10-02T10:49:45.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-02/am-02-2-data-visualisation.html</loc>
     <lastmod>2025-10-02T10:49:45.056Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-02/am-02-1-bookmarks.html</loc>
-    <lastmod>2025-10-02T10:49:45.056Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-4-github-clone.html</loc>
-    <lastmod>2025-10-01T19:11:59.861Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-2-element.html</loc>
-    <lastmod>2025-10-01T19:11:59.861Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-1-posit.html</loc>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-5-github-workflow.html</loc>
     <lastmod>2025-10-01T19:11:59.861Z</lastmod>
   </url>
   <url>
@@ -101,24 +93,36 @@
     <lastmod>2025-10-01T19:11:59.861Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-5-github-workflow.html</loc>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-1-posit.html</loc>
     <lastmod>2025-10-01T19:11:59.861Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-02/am-02-2-data-visualisation.html</loc>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-2-element.html</loc>
+    <lastmod>2025-10-01T19:11:59.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-01/am-01-4-github-clone.html</loc>
+    <lastmod>2025-10-01T19:11:59.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-02/am-02-1-bookmarks.html</loc>
     <lastmod>2025-10-02T10:49:45.056Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-03/am-03-2-spreadsheet.html</loc>
-    <lastmod>2025-10-02T10:49:45.057Z</lastmod>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-03/am-03-1-data-transformation.html</loc>
+    <lastmod>2025-10-02T10:49:45.056Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-04/am-04-2-study-groups.html</loc>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-04/am-04-1-data.html</loc>
     <lastmod>2025-10-07T09:27:41.860Z</lastmod>
   </url>
   <url>
-    <loc>https://ds4owd-002.github.io/website/content/assignments/md-06/am-06-1-reading.html</loc>
-    <lastmod>2025-10-01T19:11:59.972Z</lastmod>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-05/am-05-1-project-data.html</loc>
+    <lastmod>2025-10-30T09:23:32.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ds4owd-002.github.io/website/content/assignments/md-06/am-06-2-reading.html</loc>
+    <lastmod>2025-10-30T10:31:58.082Z</lastmod>
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/content/assignments/md-07/am-07-2-project-metadata.html</loc>
@@ -174,7 +178,7 @@
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/content/slides/lec-07-pivoting-joining.html</loc>
-    <lastmod>2025-10-22T20:11:30.841Z</lastmod>
+    <lastmod>2025-10-30T09:27:51.019Z</lastmod>
   </url>
   <url>
     <loc>https://ds4owd-002.github.io/website/index.html</loc>
