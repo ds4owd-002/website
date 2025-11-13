@@ -110,27 +110,6 @@ homework_due_date <- format(as.Date(vars$`md-07`$`homework-due`), "%B %d, %Y")
 {1:length(lobj)}. {lobj[1:length(lobj)]}
 ```
 
-# Homework module 6 {background-color="#4C326A"}
-
-## Your turn: Discuss the reading
-
-::: task
-In discussion groups of 3, share your examples and discuss how the recommendations would improve your workflows.
-:::
-
-1. In your homework you have read @wilson2017good: "Good enough practices in scientific computing".
-
-2. You [chose one of the recommended practices]{.highlight-yellow} (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:
-
-3. You came up with a [real-world example]{.highlight-yellow} or scenario where the recommended practice could be applied in your research or academic work.
-
-4. You are prepared to [explain how the recommended practices would improve your workflows]{.highlight-yellow}. This will be [in the class setting]{.highlight-yellow} as part of small discussion group (max 3 people).
-
-
-```{r}
-countdown(10)
-```
-
 # Part 1: Tidy data and pivoting {background-color="#4C326A"}
 
 ## . {background-image="img/lec-04/tidydata_1.jpg" background-size="contain"}
@@ -735,8 +714,7 @@ knitr::include_graphics("img/lec-07/dictionary-csv.png")
 
 ## Directory tree of a project {.smaller}
 
-Capstone project of Rainbow Train:
-<{{< var course.github-org >}}/project-rainbow-train>
+Capstone project of Rainbow Train: [{{< var course.github-org >}}/project-rainbow-train]({{< var course.github-org >}}/project-rainbow-train)
 
 ```
 .
@@ -804,31 +782,6 @@ countdown(10)
 - Homework assignment due: [`r homework_due_date`]{.highlight-yellow}
 
 # Wrap-up {background-color="#4C326A"}
-
-## Student hours
-
-- Student hours continue as scheduled: [Fridays at 2 pm CET]{.highlight-yellow}
-
-## Christmas break {.smaller}
-
-- Lars will be on vacation from [December 22nd]{.highlight-yellow} until [January 15th]{.highlight-yellow}
-- Mian and Sophia will be on vacation from [December 22nd]{.highlight-yellow} until [January 8th]{.highlight-yellow}
-
-![](img/lec-07/christmas-break.png){width="50%" fig-alt="A pixel art image of a small person taking a break from coding for Christmas. The scene includes a cozy room with a computer displaying code on the screen, and the person is relaxing with a cup of hot chocolate. Decorations like a small Christmas tree, lights, and stockings are present, adding a festive atmosphere. The person is wearing casual clothes and a Santa hat, and there's a sense of warmth and holiday cheer in the room."}
-
-::: footer
-Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
-:::
-
-## Next module {.smaller}
-
-[Tuesday, January 16th]{.highlight-yellow} at 2 pm CET
-
-![](img/lec-07/new-year-coding.png){width="50%" fig-alt="A pixel art scene depicting a group of little people, both female and male, enthusiastically returning to their coding tasks after celebrating New Year's. They are sitting in front of computers with festive decorations around, like streamers and a 'Happy New Year' banner. The characters exhibit diversity in their appearances and attire, reflecting a joyful and inclusive environment. Each individual is engaged in typing or looking at their computer screens, with visible lines of code. The setting is a cozy office space with hints of the recent celebration still present."}
-
-::: footer
-Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
-:::
 
 ## Course calendar {.smallest .scrollable}
 

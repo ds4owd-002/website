@@ -22,17 +22,19 @@ date,week,title,learning_objectives
 2025-10-30T00:00:00Z,8,Data types & Vectors & For Loops,Learners can list the four main atomic vector types in R.
 2025-10-30T00:00:00Z,8,Data types & Vectors & For Loops,Learners can create cross-references to figures and tables using labels and captions in Quarto documents
 2025-10-30T00:00:00Z,8,Data types & Vectors & For Loops,Learners can recognize when a for loop is appropriate for repetitive tasks in data analysis
-2025-11-06T00:00:00Z,9,Pivoting & joining data,Learners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.
-2025-11-06T00:00:00Z,9,Pivoting & joining data,Learners can apply functions from the dplyr R Package to join multiple data sets.
-2025-11-06T00:00:00Z,9,Pivoting & joining data,Learners can understand the relevance a data dictionary to describe variable names in a data set.
-2025-11-13T00:00:00Z,10,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can add literature references to Quarto files using the navigation menu of RStudio visual editor.
-2025-11-13T00:00:00Z,10,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can cross-reference figures and tables within an Quarto file.
-2025-11-13T00:00:00Z,10,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can use the GitHub pages service to publish a repository as a standalone website.
-2025-11-20T00:00:00Z,11,Bonus module: Use of AI for coding support,Learners are aware of the responsibility for using AI and critically and evaluating all its output.
-2025-11-20T00:00:00Z,11,Bonus module: Use of AI for coding support,Learners can explain the basics of AI and its potential for improving software development workflows.
-2025-11-20T00:00:00Z,11,Bonus module: Use of AI for coding support,Implement strategies to write and debug code using AI-based tools
-2025-11-27T00:00:00Z,12,Work on Capstone project,Learners can apply the skills obtained during the course to write a short data analysis project report.
+2025-11-06T00:00:00Z,9,No class,NA
+2025-11-06T00:00:00Z,9,No class,NA
+2025-11-06T00:00:00Z,9,No class,NA
+2025-11-13T00:00:00Z,10,Pivoting & joining data,Learners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.
+2025-11-13T00:00:00Z,10,Pivoting & joining data,Learners can apply functions from the dplyr R Package to join multiple data sets.
+2025-11-13T00:00:00Z,10,Pivoting & joining data,Learners can understand the relevance a data dictionary to describe variable names in a data set.
+2025-11-20T00:00:00Z,11,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can add literature references to Quarto files using the navigation menu of RStudio visual editor.
+2025-11-20T00:00:00Z,11,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can cross-reference figures and tables within an Quarto file.
+2025-11-20T00:00:00Z,11,Creating and publishing scholarly articles with Quarto and GitHub pages,Learners can use the GitHub pages service to publish a repository as a standalone website.
+2025-11-27T00:00:00Z,12,Bonus module: Use of AI for coding support,Learners are aware of the responsibility for using AI and critically and evaluating all its output.
+2025-11-27T00:00:00Z,12,Bonus module: Use of AI for coding support,Learners can explain the basics of AI and its potential for improving software development workflows.
+2025-11-27T00:00:00Z,12,Bonus module: Use of AI for coding support,Leaners can Implement strategies to write and debug code using AI-based tools.
 2025-12-04T00:00:00Z,13,Work on Capstone project,Learners can apply the skills obtained during the course to write a short data analysis project report.
-2025-12-11T00:00:00Z,14,Final submission date of Capstone project,Learners can find resources to continue their data science journey.
-2025-12-11T00:00:00Z,14,Final submission date of Capstone project,Learners can identify where and how to contact the openwashdata team for support with data sharing.
-2025-12-11T00:00:00Z,14,Final submission date of Capstone project,Learners can describe the skills and compentencies they have obtained in this course.
+2025-12-11T00:00:00Z,15,Final submission date of Capstone project,Learners can find resources to continue their data science journey.
+2025-12-11T00:00:00Z,15,Final submission date of Capstone project,Learners can identify where and how to contact the openwashdata team for support with data sharing.
+2025-12-11T00:00:00Z,15,Final submission date of Capstone project,Learners can describe the skills and compentencies they have obtained in this course.
