@@ -3,9 +3,9 @@ title: "{{< var md-08.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 date-format: "MMM D, YYYY"
-date: "2025-11-13"
-format: 
-  revealjs: 
+date: "2025-11-20"
+format:
+  revealjs:
     theme: slides.scss
     transition: fade
     slide-number: true
@@ -16,7 +16,7 @@ editor: source
 execute:
   freeze: auto
 params:
-    week: 14
+    week: 11
 bibliography: references.bib
 csl: apa.csl
 editor_options: 

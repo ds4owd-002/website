@@ -60,21 +60,21 @@ md-06:
   
 md-07:
   title: "Pivoting & joining data"
-  date: "2025-11-06"
-  homework-due: "2025-11-12"
-  quiz-due: "2025-11-19"
-  
-md-08:
-  title: "Creating and publishing scholarly articles with Quarto and GitHub pages"
   date: "2025-11-13"
   homework-due: "2025-11-19"
   quiz-due: "2025-11-26"
-
-md-09:
-  title: "Bonus module: Use of AI for coding support"
+  
+md-08:
+  title: "Creating and publishing scholarly articles with Quarto and GitHub pages"
   date: "2025-11-20"
   homework-due: "2025-11-26"
   quiz-due: "2025-12-03"
+
+md-09:
+  title: "Bonus module: Use of AI for coding support"
+  date: "2025-11-27"
+  homework-due: "2025-12-03"
+  quiz-due: "2025-12-10"
 
 md-10:
   title: "Graduation of openwashdata academy"
