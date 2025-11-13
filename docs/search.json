@@ -1856,7 +1856,7 @@
     "href": "content/assignments/md-07/am-07-1-pivoting.html#step-1-clone-your-module-7-assignments-repository",
     "title": "Data pivoting",
     "section": "Step 1: Clone your module 7 assignments repository",
-    "text": "Step 1: Clone your module 7 assignments repository\n\nOpen github.com in your browser and navigate to the GitHub organisation for the course (or use your bookmark).\nFind the repository md-07-assignments-USERNAME that ends with your GitHub username, and open it.\nClick on the green “Code” button.\nCopy the HTTPS URL to your clipboard.\nOpen the ds4owd workspace on posit.cloud\nClick New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the “URL of your Git Repository” field.\nWait until the project is deployed.\nOpen md-07a-pivoting.qmd and follow the instructions to work through the tasks.",
+    "text": "Step 1: Clone your module 7 assignments repository\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-07-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\n\nClick on the green Code button.\nCopy the HTTPS URL to your clipboard by clicking on the clipboard icon next to the URL.\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nClick the blue button New Project &gt; New Project from Git Repository\nPaste the HTTPS URL from GitHub into the URL of your Git Repository field and click OK. Leave the checkbox under Packages checked.\nWait until the project is deployed. This may take a few minutes, depending on your internet connection.\nOpen md-07a-pivoting.qmd and follow the instructions to work through the tasks.",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
@@ -1867,7 +1867,7 @@
     "href": "content/assignments/md-07/am-07-1-pivoting.html#step-2-commit-and-push-your-changes",
     "title": "Data pivoting",
     "section": "Step 2: Commit and push your changes",
-    "text": "Step 2: Commit and push your changes\nThe below is also described in md-07a-pivoting.qmd.\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "text": "Step 2: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the Commit button. A new window opens.\nEnter a commit message in the Commit message field in the top right corner. For example: completed pivoting assignment\nClick on the Commit button\nIf you see a message that confirms your commit, click on Close. If you do not see this message, make sure you have staged the files (checked the box next to them) for commit and entered a commit message.\nClick on the Push button in the top right corner.\nEnter your GitHub username and click OK\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.\n\n\n\n\n\n\nPAT Storage Warning\n\n\n\nIf you have stored your PAT in a Word file, a blank space might have been copied along with the PAT. We recommend using a TXT file (Notepad on Windows or TextEdit on Mac) or a password manager to store your PAT securely.\n\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Module 1 to push your changes back to GitHub.",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
@@ -1878,7 +1878,7 @@
     "href": "content/assignments/md-07/am-07-1-pivoting.html#step-3-open-an-issue-on-github",
     "title": "Data pivoting",
     "section": "Step 3: Open an issue on GitHub",
-    "text": "Step 3: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository md-07-assignments that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Completed module 7 assignments”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
+    "text": "Step 3: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository md-07-assignments-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the text next to the md-07a-pivoting.qmd file. It should display the commit message you entered in the previous step.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Completed module 7 pivoting assignment.\nIn the Leave a comment field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.\n\nCongratulations! You have completed the data pivoting assignment.",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
@@ -2604,7 +2604,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-1-create-a-new-folder",
     "title": "Documentation for your capstone project",
     "section": "Step 1: Create a new folder",
-    "text": "Step 1: Create a new folder\n\nOpen your capstone project on posit.cloud.\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom wight window.\nClick on the “Folder” button to create a new folder.\nEnter the name “processed” in field and click OK.\nClick on the new processed folder in the bottom right window.",
+    "text": "Step 1: Create a new folder\n\nOpen your capstone project on posit.cloud. TODO: add the posit cloud variable here.\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom wight window. TODO: add hint to create it if it isn’t created yet\nClick on the “Folder” button to create a new folder.\nEnter the name “processed” in field and click OK.\nClick on the new processed folder in the bottom right window.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2615,7 +2615,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-2-create-a-readme.md-file",
     "title": "Documentation for your capstone project",
     "section": "Step 2: Create a README.md file",
-    "text": "Step 2: Create a README.md file\n\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom wight window.\nClick on the processed folder in the bottom wight window.\nClick on the “Blank File” button to create a new file.\nSelect the option “Text file”.\nEnter the name “README.md” in field and click OK.\nGo to: https://raw.githubusercontent.com/ds4owd-002/metadata-readme-template/main/README.md\nCopy the content that’s displayed in your browser and paste it into the README.md file you have just created.",
+    "text": "Step 2: Create a README.md file\n\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom wight window.\nClick on the processed folder in the bottom wight window.\nClick on the “Blank File” button to create a new file.\nSelect the option “Text file”.\nEnter the name “README.md” in field and click OK.\nGo to: https://raw.githubusercontent.com/ds4owd-002/metadata-readme-template/main/README.md TODO: Add more guidance to open this link in browser.\nCopy the content that’s displayed in your browser and paste it into the README.md file you have just created in your project folder. TODO: add more guidance, make this more clear",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2626,7 +2626,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-3-create-a-dictionary.xlsx",
     "title": "Documentation for your capstone project",
     "section": "Step 3: Create a dictionary.xlsx",
-    "text": "Step 3: Create a dictionary.xlsx\n\nUse a spreadsheet tool your choice and create a file called dictionary.xlsx.\nAdd two column names to the spreadsheet: variable_name and description. You do not need to describe all variables, yet.\nAlso save file as a dictionary.csv file.",
+    "text": "Step 3: Create a dictionary.xlsx\n\nUse a spreadsheet tool your choice and create a file called dictionary.xlsx.\nAdd two column names to the spreadsheet: variable_name and description. You do not need to describe all variables, yet.\nAlso save file as a dictionary.csv file. TODO: Add more guidance on how to save as CSV. Also add that anytime you want to edit, you edit the xlsx and then export to CSV and re-upload to project folder on posit cloud",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2637,7 +2637,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-4-upload-the-dictionary",
     "title": "Documentation for your capstone project",
     "section": "Step 4: Upload the dictionary",
-    "text": "Step 4: Upload the dictionary\n\nOpen your capstone project on posit.cloud.\nUse the Files tab in the bottom right window to upload the data dictionary in CSV format to the data/processed folder.",
+    "text": "Step 4: Upload the dictionary\n\nOpen your capstone project on posit.cloud. TODO: Add actual posit cloud workspace from variables.\nUse the Files tab in the bottom right window to upload the data dictionary in CSV format to the data/processed folder.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2648,7 +2648,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-5-prepare-your-analysis-ready-processed-data",
     "title": "Documentation for your capstone project",
     "section": "Step 5: Prepare your analysis-ready (processed) data",
-    "text": "Step 5: Prepare your analysis-ready (processed) data\n\n\n\n\n\n\nWe will re-iterate on this step several times.\n\n\n\nThis step will involve several iterations, depending on the complexity of your raw data. Important is that you do this for a first time for this homework assignment, so that we can start evaluating the complexity of your propject.\n\n\n\nOpen the index.qmd file in your capstone project.\nAdd a code chunk and write library(tidyverse) to load the R packages you have learned to work with.\nImport your data by writing the following inside another code chunk (in this example we are using a CSV file):\n\n\nread_csv(here::here(\"data/raw/your-file-name.csv\"))\n\n\nWrite code to bring your data into a state where it’s ready for analysis (e.g. rename columns, select columns that are relevant for your analysis, remove NAs, join several dataframes, etc.)\nOnce you have your data in a state where it’s ready for analysis, save it as a CSV file in the data/processed folder.",
+    "text": "Step 5: Prepare your analysis-ready (processed) data\n\n\n\n\n\n\nWe will re-iterate on this step several times. TODO: Highlight that this is important to start npw.\n\n\n\nThis step will involve several iterations, depending on the complexity of your raw data. Important is that you do this for a first time for this homework assignment, so that we can start evaluating the complexity of your propject.\n\n\n\nOpen the index.qmd file in your capstone project.\nAdd a code chunk and write library(tidyverse) to load the R packages you have learned to work with.\nImport your data by writing the following inside another code chunk (in this example we are using a CSV file):\n\n\nread_csv(here::here(\"data/raw/your-file-name.csv\"))\n\n\nWrite code to bring your data into a state where it’s ready for analysis (e.g. rename columns, select columns that are relevant for your analysis, remove NAs, join several dataframes, etc.)\nOnce you have your data in a state where it’s ready for analysis, save it as a CSV file in the data/processed folder. TODO: Adde some code below with write_csv() to show an examle.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2670,7 +2670,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-7-open-an-issue-on-github",
     "title": "Documentation for your capstone project",
     "section": "Step 7: Open an issue on GitHub",
-    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository samples- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
+    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository prohject- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
