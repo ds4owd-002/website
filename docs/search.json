@@ -1845,7 +1845,7 @@
     "href": "content/assignments/md-07/am-07-1-pivoting.html",
     "title": "Data pivoting",
     "section": "",
-    "text": "Have you completed the assignments for module 1?\n\n\n\nA pre-requisite for this homework is that you worked through the “Interaction with GitHub” assignment of module 1. You will need your GitHub Personal Access Token to push your committed changes back to GitHub.",
+    "text": "Reduced level of detail\n\n\n\nAs we progress through the course, we’re gradually reducing the level of instructional detail. This assignment follows the same steps as earlier modules. If you need detailed guidance, refer back to previous assignments.",
     "crumbs": [
       "Module 07",
       "am-01: Pivot data"
@@ -2593,18 +2593,18 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html",
     "title": "Documentation for your capstone project",
     "section": "",
-    "text": "Have you created a repository for your capstone project?\n\n\n\nA pre-requisite for this homework is that you worked created a repository for your capstone project. This was an assignment of module 5. If you haven’t yet, please work through the steps outlined in Assignment 1 of Module 5 before you start with the steps outlined here.",
+    "text": "Have you created a repository for your capstone project?\n\n\n\nA pre-requisite for this homework is that you created a repository for your capstone project. This was an assignment of module 5. If you haven’t yet, please work through the steps outlined in Assignment 1 of Module 5 before you start with the steps outlined here.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
     ]
   },
   {
-    "objectID": "content/assignments/md-07/am-07-2-project-metadata.html#step-1-create-a-new-folder",
-    "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-1-create-a-new-folder",
+    "objectID": "content/assignments/md-07/am-07-2-project-metadata.html#step-1-create-a-new-folder-for-processed-data",
+    "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-1-create-a-new-folder-for-processed-data",
     "title": "Documentation for your capstone project",
-    "section": "Step 1: Create a new folder",
-    "text": "Step 1: Create a new folder\n\nOpen your capstone project on posit.cloud. TODO: add the posit cloud variable here.\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom wight window. TODO: add hint to create it if it isn’t created yet\nClick on the “Folder” button to create a new folder.\nEnter the name “processed” in field and click OK.\nClick on the new processed folder in the bottom right window.",
+    "section": "Step 1: Create a new folder for processed data",
+    "text": "Step 1: Create a new folder for processed data\n\nOpen the Content tab of the ds4owd-002 workspace on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nOpen your capstone project by clicking on it. The project name starts with project-USERNAME where USERNAME is your GitHub username.\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom right window.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you don’t have a data folder yet, create it first by clicking the New Folder button and naming it data.\n\n\n\nClick on the New Folder button to create a new folder.\nEnter the name processed in the field and click OK.\nClick on the new processed folder in the bottom right window to open it.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2615,18 +2615,18 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-2-create-a-readme.md-file",
     "title": "Documentation for your capstone project",
     "section": "Step 2: Create a README.md file",
-    "text": "Step 2: Create a README.md file\n\nNavigate to the Files tab in the bottom right window of RStudio.\nClick on the data folder in the bottom wight window.\nClick on the processed folder in the bottom wight window.\nClick on the “Blank File” button to create a new file.\nSelect the option “Text file”.\nEnter the name “README.md” in field and click OK.\nGo to: https://raw.githubusercontent.com/ds4owd-002/metadata-readme-template/main/README.md TODO: Add more guidance to open this link in browser.\nCopy the content that’s displayed in your browser and paste it into the README.md file you have just created in your project folder. TODO: add more guidance, make this more clear",
+    "text": "Step 2: Create a README.md file\n\nMake sure you are in the data/processed folder in the Files tab (bottom right window of RStudio).\nClick on the Blank File button (with a plus icon) to create a new file.\nSelect the option Text File.\nEnter the name README.md in the field and click OK.\nOpen this link in a new browser tab: https://github.com/ds4owd-002/metadata-readme-template\nClick on the Raw button in the top right corner of the file view to see the raw markdown content.\nSelect all the content (Ctrl+A on Windows or Cmd+A on Mac) and copy it (Ctrl+C or Cmd+C).\nReturn to your Posit Cloud project and paste the content into the empty README.md file you created in the data/processed folder.\nSave the file by clicking File &gt; Save or using Ctrl+S (Cmd+S on Mac).\nCommit this change:\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to README.md to stage it\nClick Commit\nEnter commit message: add README template to processed data folder\nClick Commit and then Close",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
     ]
   },
   {
-    "objectID": "content/assignments/md-07/am-07-2-project-metadata.html#step-3-create-a-dictionary.xlsx",
-    "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-3-create-a-dictionary.xlsx",
+    "objectID": "content/assignments/md-07/am-07-2-project-metadata.html#step-3-create-a-data-dictionary",
+    "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-3-create-a-data-dictionary",
     "title": "Documentation for your capstone project",
-    "section": "Step 3: Create a dictionary.xlsx",
-    "text": "Step 3: Create a dictionary.xlsx\n\nUse a spreadsheet tool your choice and create a file called dictionary.xlsx.\nAdd two column names to the spreadsheet: variable_name and description. You do not need to describe all variables, yet.\nAlso save file as a dictionary.csv file. TODO: Add more guidance on how to save as CSV. Also add that anytime you want to edit, you edit the xlsx and then export to CSV and re-upload to project folder on posit cloud",
+    "section": "Step 3: Create a data dictionary",
+    "text": "Step 3: Create a data dictionary\n\nOpen a spreadsheet tool of your choice (Microsoft Excel, Google Sheets, or LibreOffice Calc).\nCreate a new spreadsheet and add two column names in the first row:\n\nvariable_name\ndescription\n\nYou do not need to describe all variables yet. Start with at least 3-5 key variables from your dataset.\nSave the file as dictionary.xlsx on your computer.\nAlso save the file as a CSV by selecting File &gt; Save As or Export, then choose CSV format and name it dictionary.csv.\n\n\n\n\n\n\n\nWorking with your data dictionary\n\n\n\nWhen you need to edit your data dictionary in the future: 1. Edit the .xlsx file in your spreadsheet software 2. Export/save it as .csv again 3. Re-upload the updated .csv file to your Posit Cloud project folder",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2637,7 +2637,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-4-upload-the-dictionary",
     "title": "Documentation for your capstone project",
     "section": "Step 4: Upload the dictionary",
-    "text": "Step 4: Upload the dictionary\n\nOpen your capstone project on posit.cloud. TODO: Add actual posit cloud workspace from variables.\nUse the Files tab in the bottom right window to upload the data dictionary in CSV format to the data/processed folder.",
+    "text": "Step 4: Upload the dictionary\n\nReturn to your capstone project on Posit Cloud: https://posit.cloud/spaces/663318/content/all?sort=name_asc\nNavigate to the Files tab in the bottom right window.\nNavigate to the data/processed folder by clicking on it.\nClick the Upload button (with an up arrow icon).\nClick Choose File, select your dictionary.csv file, and click OK.\n\n\n\n\n\n\n\nWarning\n\n\n\nUpload only the .csv version of your dictionary to your project. The .xlsx file should remain on your local computer for editing purposes.\n\n\n\nCommit this change:\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to dictionary.csv to stage it\nClick Commit\nEnter commit message: add data dictionary for processed data\nClick Commit and then Close",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2648,18 +2648,18 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-5-prepare-your-analysis-ready-processed-data",
     "title": "Documentation for your capstone project",
     "section": "Step 5: Prepare your analysis-ready (processed) data",
-    "text": "Step 5: Prepare your analysis-ready (processed) data\n\n\n\n\n\n\nWe will re-iterate on this step several times. TODO: Highlight that this is important to start npw.\n\n\n\nThis step will involve several iterations, depending on the complexity of your raw data. Important is that you do this for a first time for this homework assignment, so that we can start evaluating the complexity of your propject.\n\n\n\nOpen the index.qmd file in your capstone project.\nAdd a code chunk and write library(tidyverse) to load the R packages you have learned to work with.\nImport your data by writing the following inside another code chunk (in this example we are using a CSV file):\n\n\nread_csv(here::here(\"data/raw/your-file-name.csv\"))\n\n\nWrite code to bring your data into a state where it’s ready for analysis (e.g. rename columns, select columns that are relevant for your analysis, remove NAs, join several dataframes, etc.)\nOnce you have your data in a state where it’s ready for analysis, save it as a CSV file in the data/processed folder. TODO: Adde some code below with write_csv() to show an examle.",
+    "text": "Step 5: Prepare your analysis-ready (processed) data\n\n\n\n\n\n\nStart now, iterate later\n\n\n\nIt’s important to start this step now, even if your data preparation is not perfect yet. This step will involve several iterations, depending on the complexity of your raw data. For this homework assignment, create a first version so that we can start evaluating the complexity of your project.\n\n\n\nOpen the index.qmd file in your capstone project on Posit Cloud.\nAdd a code chunk at the beginning of your document to load the necessary R packages:\n\n```{r}\nlibrary(tidyverse)\nlibrary(here)\n```\n\nIn a new code chunk, import your raw data. In this example we are using a CSV file:\n\n```{r}\nraw_data &lt;- read_csv(here::here(\"data/raw/your-file-name.csv\"))\n```\n\nWrite code to bring your data into a state where it’s ready for analysis. For example:\n\nRename columns with rename()\nSelect columns that are relevant with select()\nRemove missing values with filter() or drop_na()\nJoin several dataframes with left_join(), right_join(), etc.\nCreate new variables with mutate()\n\nOnce you have your data in a state where it’s ready for analysis, save it as a CSV file in the data/processed folder:\n\n```{r}\nprocessed_data &lt;- raw_data |&gt;\n  select(column1, column2, column3) |&gt;\n  filter(!is.na(column1)) |&gt;\n  rename(new_name = old_name)\n\nwrite_csv(processed_data,\n          here::here(\"data/processed/my-processed-data.csv\"))\n```\n\n\n\n\n\n\nTip\n\n\n\nReplace my-processed-data.csv with a descriptive name for your processed dataset. This is the file that your data dictionary should describe.\n\n\n\nCommit these changes:\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the boxes next to index.qmd and your processed data file to stage them\nClick Commit\nEnter commit message: create processed data and update analysis document\nClick Commit and then Close",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
     ]
   },
   {
-    "objectID": "content/assignments/md-07/am-07-2-project-metadata.html#step-6-commit-and-push-your-changes",
-    "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-6-commit-and-push-your-changes",
+    "objectID": "content/assignments/md-07/am-07-2-project-metadata.html#step-6-push-your-changes-to-github",
+    "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-6-push-your-changes-to-github",
     "title": "Documentation for your capstone project",
-    "section": "Step 6: Commit and push your changes",
-    "text": "Step 6: Commit and push your changes\n\nNavigate to the Git pane in the top-right window of RStudio\nCheck the box next to all files to stage them for a commit\nClick on the “Commit” button\nEnter a commit message in the “Commit message” field\nClick on the “Commit” button\nClick on the “Push” button\nEnter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields\n\n\n\n\n\n\n\nDo not use your GitHub password\n\n\n\nYou need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.",
+    "section": "Step 6: Push your changes to GitHub",
+    "text": "Step 6: Push your changes to GitHub\nYou have made several commits in the previous steps. Now it’s time to push all of these commits to GitHub.\n\nNavigate to the Git pane in the top-right window of RStudio.\nClick on the Push button (with an up arrow icon).\nEnter your GitHub username and click OK.\nEnter your GitHub Personal Access Token (PAT) in the field and click OK. This is the personal access token you created in Module 1.\n\nIf you see a message that says HEAD -&gt; main, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. If you do not see this message, make sure you have entered your GitHub username and GitHub PAT correctly.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -2670,7 +2670,7 @@
     "href": "content/assignments/md-07/am-07-2-project-metadata.html#step-7-open-an-issue-on-github",
     "title": "Documentation for your capstone project",
     "section": "Step 7: Open an issue on GitHub",
-    "text": "Step 7: Open an issue on GitHub\n\nOpen github.com in your browser.\nNavigate to the GitHub organisation for the course.\nFind the repository prohject- that ends with your GitHub username.\nClick on the “Issues” tab.\nClick on the green “New issue” button.\nIn the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.\nIn the “Leave a comment” field, tag the course instructors @seawaR @massarin @larnsce\nScroll down the page and click the green Create button.",
+    "text": "Step 7: Open an issue on GitHub\n\nOpen https://github.com/ in your browser.\nNavigate to the GitHub organization for the course: https://github.com/ds4owd-002\nFind the repository project-USERNAME that ends with your GitHub username, and open it by clicking on the repository name.\n\nReplace USERNAME with your actual GitHub username.\n\n\n\n\n\n\n\n\nTip\n\n\n\nYou can search for your repository by typing your username in the search bar just below the Repository heading.\n\n\n\nYou can verify here that your changes have been pushed to the remote repository by looking at the commit messages and files in your project.\nClick on the Issues tab.\nClick on the green New issue button.\nIn the Title field write: Prepared first iteration of analysis-ready (processed) data.\nIn the Leave a comment field, tag the course instructors @seawaR @larnsce and briefly describe what you’ve added (README, dictionary, processed data).\nScroll down the page and click the green Submit new issue button.\n\nCongratulations! You have completed the project metadata documentation assignment.",
     "crumbs": [
       "Module 07",
       "am-02: Capstone project"
@@ -3945,13 +3945,6 @@
     "text": "Learning Objectives (for this week)\n\n\nLearners can apply functions from the tidyr R Package to transform their data from a wide to a long format and vice versa.\nLearners can apply functions from the dplyr R Package to join multiple data sets.\nLearners can understand the relevance a data dictionary to describe variable names in a data set."
   },
   {
-    "objectID": "content/slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
-    "href": "content/slides/lec-07-pivoting-joining.html#your-turn-discuss-the-reading",
-    "title": "Pivoting & joining data",
-    "section": "Your turn: Discuss the reading",
-    "text": "Your turn: Discuss the reading\n\nIn discussion groups of 3, share your examples and discuss how the recommendations would improve your workflows.\n\n\nIn your homework you have read Wilson et al. (2017): “Good enough practices in scientific computing”.\nYou chose one of the recommended practices (Data Management, Software, Collaboration, Project organization, Keeping track of changes, Manuscripts), then:\nYou came up with a real-world example or scenario where the recommended practice could be applied in your research or academic work.\nYou are prepared to explain how the recommended practices would improve your workflows. This will be in the class setting as part of small discussion group (max 3 people).\n\n\n\n\n−+\n10:00"
-  },
-  {
     "objectID": "content/slides/lec-07-pivoting-joining.html#section",
     "href": "content/slides/lec-07-pivoting-joining.html#section",
     "title": "Pivoting & joining data",
@@ -4061,14 +4054,14 @@
     "href": "content/slides/lec-07-pivoting-joining.html#three-variables---three-aesthetics-2",
     "title": "Pivoting & joining data",
     "section": "Three variables -> three aesthetics",
-    "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid, \n                     y = weight, \n                     fill = waste_category)) +\n  geom_col() + \n  scale_fill_brewer(type = \"qual\")"
+    "text": "Three variables -&gt; three aesthetics\n\nggplot(data = waste_data_tidy,\n       mapping = aes(x = objid,\n                     y = weight,\n                     fill = waste_category)) +\n  geom_col() +\n  scale_fill_brewer(type = \"qual\")"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises",
     "href": "content/slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises",
     "title": "Pivoting & joining data",
     "section": "Your turn: md-07-exercises",
-    "text": "Your turn: md-07-exercises\n\n\nOpen posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-07-exercises.\nIn the File Manager in the bottom right window, locate the md-07a-pivoting-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n30:00"
+    "text": "Your turn: md-07-exercises\n\n\nOpen https://posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-07-exercises.\nIn the File Manager in the bottom right window, locate the 01a-pivot-longer-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#take-a-break",
@@ -4076,6 +4069,13 @@
     "title": "Pivoting & joining data",
     "section": "Take a break",
     "text": "Take a break\nPlease get up and move! Let your emails rest in peace.\n\n\n\n\n−+\n10:00\n\n\n\n\nImage generated with DALL-E 3 by OpenAI"
+  },
+  {
+    "objectID": "content/slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises-1",
+    "href": "content/slides/lec-07-pivoting-joining.html#your-turn-md-07-exercises-1",
+    "title": "Pivoting & joining data",
+    "section": "Your turn: md-07-exercises",
+    "text": "Your turn: md-07-exercises\n\n\nOpen https://posit.cloud/spaces/663318/content in your browser.\nVerify that the ds4owd workspace is open.\nClick Start next to md-07-exercises.\nIn the File Manager in the bottom right window, locate the 02a-pivot-wider-your-turn.qmd file and click on it to open it in the top left window.\n\n\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "content/slides/lec-07-pivoting-joining.html#we",
@@ -4288,27 +4288,6 @@
     "text": "Homework due date\n\nHomework assignment due: November 19, 2025"
   },
   {
-    "objectID": "content/slides/lec-07-pivoting-joining.html#student-hours",
-    "href": "content/slides/lec-07-pivoting-joining.html#student-hours",
-    "title": "Pivoting & joining data",
-    "section": "Student hours",
-    "text": "Student hours\n\nStudent hours continue as scheduled: Fridays at 2 pm CET"
-  },
-  {
-    "objectID": "content/slides/lec-07-pivoting-joining.html#christmas-break",
-    "href": "content/slides/lec-07-pivoting-joining.html#christmas-break",
-    "title": "Pivoting & joining data",
-    "section": "Christmas break",
-    "text": "Christmas break\n\nLars will be on vacation from December 22nd until January 15th\nMian and Sophia will be on vacation from December 22nd until January 8th\n\n\n\nImage generated with DALL-E 3 by OpenAI"
-  },
-  {
-    "objectID": "content/slides/lec-07-pivoting-joining.html#next-module",
-    "href": "content/slides/lec-07-pivoting-joining.html#next-module",
-    "title": "Pivoting & joining data",
-    "section": "Next module",
-    "text": "Next module\nTuesday, January 16th at 2 pm CET\n\n\nImage generated with DALL-E 3 by OpenAI"
-  },
-  {
     "objectID": "content/slides/lec-07-pivoting-joining.html#course-calendar",
     "href": "content/slides/lec-07-pivoting-joining.html#course-calendar",
     "title": "Pivoting & joining data",
@@ -4321,6 +4300,13 @@
     "title": "Pivoting & joining data",
     "section": "Thanks!",
     "text": "Thanks!\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
+  },
+  {
+    "objectID": "content/slides/lec-07-pivoting-joining.html#references",
+    "href": "content/slides/lec-07-pivoting-joining.html#references",
+    "title": "Pivoting & joining data",
+    "section": "References",
+    "text": "References\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   },
   {
     "objectID": "index.html",
@@ -4388,12 +4374,5 @@
     "title": "data science for openwashdata",
     "section": "",
     "text": "Part 1 (46)\n\nGitHub email (5)\n\nLate start: 5 minutes\n\nWelcome (20)\n\nMeet the team (5)\nLearning Goals (1)\nAbout you (7)\n\nNotes\nBreak-out\n\nCourse Calendar (1)\nCourse structure (2)\n\nMy turn\nOur turn\nYour turn\n\nGetting help (1)\nPlatforms and Tools (1)\nBookmark website (0.5)\nLearning Objectives (1)\nMagic (0.5)\n\nPosit Cloud (3)\n\nScreenshots (2)\nScreen setup (1)\n\nPoll\n\n\nHello Quarto (1)\n\nMeeting you where you are (1)\n\nWhat is Quarto Part 1 (17)\n\nQuarto … (1)\nMy turn: A tour of Quarto (10)\n\nVisual editor\n\nYAML Metadata\nHeadings\n\nAdd Heading 2: Analysis\n\nText\n\nBold text\nAdd hyperlink\n\nhttps://jennybc.github.io/gapminder/\n\n\nBullets\nCode chunk\n\nCode-chunk options\nRun code\n\nRender\n\nHTML\n\nYAML metadta\n\nAdd author\nAdd date: today\n\nRender\n\nHTML\n\nAdd table of contents and code-fold\n\nformat: html: toc: true code-fold: true\n\nRender\n\nHTML\n\nAdd pdf: default\n\nformat: html: toc: true code-fold: true pdf: default\n\nRender\n\n\nYour turn: Log into Posit Cloud with GitHub account (5)\n\n\nBreak (10)\nPart 2 (46)\n\nWhat is Quarto Part 2 (11)\n\nYour turn: md-01-exercises (10)\nFrom the comfort of your own workspace (1)\n\nQuarto formats (12)\n\nOne install, “Batteries included” (1)\nMany Quarto formats (1)\nYour Turn: Create a new Quarto document (10)\n\n\nVersion Control (23)\n\nVersion Control with Git and GitHub (1)\nWhy is it useful? (1)\nGit and GitHub (1)\nMy turn: A tour of GitHub (5)\n\nDashboard\nMy account\nGitHub organisation\nIssue tracker\n\nOur turn: Configure Notifications settings (5)\nYour turn: Create an issue on GitHub (10)\n\n\nBreak (10)\nPart 3 (20)\n\nAnatomy of a Quarto document (2)\n\nComponents (0.5)\nLiterate programming (1.5)\n\nMetadata (7)\n\nYAML (0.5)\nOutput options (1.5)\nOutput option arguments (1)\nYAML validation (2)\nQuarto linting (1)\nQuarto YAML Intelligence (1)\n\nR fundamentals (5)\n\nPackages (1)\nFunctions & Arguments (1)\nObjects (1)\nOperators (1)\nRules (1)\n\nCourse information (3)\n\nWeekly structure (1)\nHomework assignments (1)\nCapstone Project (1)\n\nHomework assignments module 1 (2)\n\nModule 1 documentation (1.5)\nHomework due date (0.5)\n\nWrap-up (1)\n\nThanks (1)"
-  },
-  {
-    "objectID": "content/slides/lec-07-pivoting-joining.html#references",
-    "href": "content/slides/lec-07-pivoting-joining.html#references",
-    "title": "Pivoting & joining data",
-    "section": "References",
-    "text": "References\nAll material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   }
 ]

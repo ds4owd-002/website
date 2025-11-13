@@ -372,12 +372,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#step-1-create-a-new-folder" id="toc-step-1-create-a-new-folder" class="nav-link active" data-scroll-target="#step-1-create-a-new-folder">Step 1: Create a new folder</a></li>
+  <li><a href="#step-1-create-a-new-folder-for-processed-data" id="toc-step-1-create-a-new-folder-for-processed-data" class="nav-link active" data-scroll-target="#step-1-create-a-new-folder-for-processed-data">Step 1: Create a new folder for processed data</a></li>
   <li><a href="#step-2-create-a-readme.md-file" id="toc-step-2-create-a-readme.md-file" class="nav-link" data-scroll-target="#step-2-create-a-readme.md-file">Step 2: Create a <code>README.md</code> file</a></li>
-  <li><a href="#step-3-create-a-dictionary.xlsx" id="toc-step-3-create-a-dictionary.xlsx" class="nav-link" data-scroll-target="#step-3-create-a-dictionary.xlsx">Step 3: Create a <code>dictionary.xlsx</code></a></li>
+  <li><a href="#step-3-create-a-data-dictionary" id="toc-step-3-create-a-data-dictionary" class="nav-link" data-scroll-target="#step-3-create-a-data-dictionary">Step 3: Create a data dictionary</a></li>
   <li><a href="#step-4-upload-the-dictionary" id="toc-step-4-upload-the-dictionary" class="nav-link" data-scroll-target="#step-4-upload-the-dictionary">Step 4: Upload the dictionary</a></li>
   <li><a href="#step-5-prepare-your-analysis-ready-processed-data" id="toc-step-5-prepare-your-analysis-ready-processed-data" class="nav-link" data-scroll-target="#step-5-prepare-your-analysis-ready-processed-data">Step 5: Prepare your analysis-ready (processed) data</a></li>
-  <li><a href="#step-6-commit-and-push-your-changes" id="toc-step-6-commit-and-push-your-changes" class="nav-link" data-scroll-target="#step-6-commit-and-push-your-changes">Step 6: Commit and push your changes</a></li>
+  <li><a href="#step-6-push-your-changes-to-github" id="toc-step-6-push-your-changes-to-github" class="nav-link" data-scroll-target="#step-6-push-your-changes-to-github">Step 6: Push your changes to GitHub</a></li>
   <li><a href="#step-7-open-an-issue-on-github" id="toc-step-7-open-an-issue-on-github" class="nav-link" data-scroll-target="#step-7-open-an-issue-on-github">Step 7: Open an issue on GitHub</a></li>
   </ul>
 </nav>
@@ -427,46 +427,116 @@ Have you created a repository for your capstone project?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A pre-requisite for this homework is that you worked created a repository for your capstone project. This was an assignment of module 5. If you haven’t yet, please work through the steps outlined in <a href="../../../content/assignments/md-05/am-05-1-project-data.html">Assignment 1 of Module 5</a> before you start with the steps outlined here.</p>
+<p>A pre-requisite for this homework is that you created a repository for your capstone project. This was an assignment of module 5. If you haven’t yet, please work through the steps outlined in <a href="../../../content/assignments/md-05/am-05-1-project-data.html">Assignment 1 of Module 5</a> before you start with the steps outlined here.</p>
 </div>
 </div>
-<section id="step-1-create-a-new-folder" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-create-a-new-folder">Step 1: Create a new folder</h2>
+<section id="step-1-create-a-new-folder-for-processed-data" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-create-a-new-folder-for-processed-data">Step 1: Create a new folder for processed data</h2>
 <ol type="1">
-<li><p>Open your capstone project on posit.cloud.</p></li>
-<li><p>Navigate to the Files tab in the bottom right window of RStudio.</p></li>
-<li><p>Click on the <code>data</code> folder in the bottom wight window.</p></li>
-<li><p>Click on the “Folder” button to create a new folder.</p></li>
-<li><p>Enter the name “processed” in field and click OK.</p></li>
-<li><p>Click on the new <code>processed</code> folder in the bottom right window.</p></li>
+<li><p>Open the <span class="highlight-yellow">Content</span> tab of the ds4owd-002 workspace on Posit Cloud: <a href="https://posit.cloud/spaces/663318/content/all?sort=name_asc">https://posit.cloud/spaces/663318/content/all?sort=name_asc</a></p></li>
+<li><p>Open your capstone project by clicking on it. The project name starts with <code>project-USERNAME</code> where <code>USERNAME</code> is your GitHub username.</p></li>
+<li><p>Navigate to the <span class="highlight-yellow">Files</span> tab in the bottom right window of RStudio.</p></li>
+<li><p>Click on the <code>data</code> folder in the bottom right window.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you don’t have a <code>data</code> folder yet, create it first by clicking the <span class="highlight-yellow">New Folder</span> button and naming it <code>data</code>.</p>
+</div>
+</div>
+<ol start="5" type="1">
+<li><p>Click on the <span class="highlight-yellow">New Folder</span> button to create a new folder.</p></li>
+<li><p>Enter the name <span class="highlight-yellow">processed</span> in the field and click <span class="highlight-yellow">OK</span>.</p></li>
+<li><p>Click on the new <code>processed</code> folder in the bottom right window to open it.</p></li>
 </ol>
 </section>
 <section id="step-2-create-a-readme.md-file" class="level2">
 <h2 class="anchored" data-anchor-id="step-2-create-a-readme.md-file">Step 2: Create a <code>README.md</code> file</h2>
 <ol type="1">
-<li><p>Navigate to the Files tab in the bottom right window of RStudio.</p></li>
-<li><p>Click on the <code>data</code> folder in the bottom wight window.</p></li>
-<li><p>Click on the <code>processed</code> folder in the bottom wight window.</p></li>
-<li><p>Click on the “Blank File” button to create a new file.</p></li>
-<li><p>Select the option “Text file”.</p></li>
-<li><p>Enter the name “README.md” in field and click OK.</p></li>
-<li><p>Go to: <a href="https://raw.githubusercontent.com/ds4owd-002/metadata-readme-template/main/README.md" class="uri">https://raw.githubusercontent.com/ds4owd-002/metadata-readme-template/main/README.md</a></p></li>
-<li><p>Copy the content that’s displayed in your browser and paste it into the <code>README.md</code> file you have just created.</p></li>
+<li><p>Make sure you are in the <code>data/processed</code> folder in the <span class="highlight-yellow">Files</span> tab (bottom right window of RStudio).</p></li>
+<li><p>Click on the <span class="highlight-yellow">Blank File</span> button (with a plus icon) to create a new file.</p></li>
+<li><p>Select the option <span class="highlight-yellow">Text File</span>.</p></li>
+<li><p>Enter the name <span class="highlight-yellow">README.md</span> in the field and click <span class="highlight-yellow">OK</span>.</p></li>
+<li><p>Open this link in a new browser tab: <a href="https://github.com/ds4owd-002/metadata-readme-template/blob/main/README.md">https://github.com/ds4owd-002/metadata-readme-template</a></p></li>
+<li><p>Click on the <span class="highlight-yellow">Raw</span> button in the top right corner of the file view to see the raw markdown content.</p></li>
+<li><p>Select all the content (Ctrl+A on Windows or Cmd+A on Mac) and copy it (Ctrl+C or Cmd+C).</p></li>
+<li><p>Return to your Posit Cloud project and paste the content into the empty <code>README.md</code> file you created in the <code>data/processed</code> folder.</p></li>
+<li><p>Save the file by clicking <span class="highlight-yellow">File</span> &gt; <span class="highlight-yellow">Save</span> or using Ctrl+S (Cmd+S on Mac).</p></li>
+<li><p>Commit this change:</p>
+<ul>
+<li>Navigate to the <span class="highlight-yellow">Git</span> pane in the top-right window of RStudio</li>
+<li>Check the box next to <code>README.md</code> to stage it</li>
+<li>Click <span class="highlight-yellow">Commit</span></li>
+<li>Enter commit message: <code>add README template to processed data folder</code></li>
+<li>Click <span class="highlight-yellow">Commit</span> and then <span class="highlight-yellow">Close</span></li>
+</ul></li>
 </ol>
 </section>
-<section id="step-3-create-a-dictionary.xlsx" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-create-a-dictionary.xlsx">Step 3: Create a <code>dictionary.xlsx</code></h2>
+<section id="step-3-create-a-data-dictionary" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-create-a-data-dictionary">Step 3: Create a data dictionary</h2>
 <ol type="1">
-<li><p>Use a spreadsheet tool your choice and create a file called <code>dictionary.xlsx</code>.</p></li>
-<li><p>Add two column names to the spreadsheet: <code>variable_name</code> and <code>description</code>. You do not need to describe all variables, yet.</p></li>
-<li><p>Also save file as a <code>dictionary.csv</code> file.</p></li>
+<li><p>Open a spreadsheet tool of your choice (Microsoft Excel, Google Sheets, or LibreOffice Calc).</p></li>
+<li><p>Create a new spreadsheet and add two column names in the first row:</p>
+<ul>
+<li><code>variable_name</code></li>
+<li><code>description</code></li>
+</ul></li>
+<li><p>You do not need to describe all variables yet. Start with at least 3-5 key variables from your dataset.</p></li>
+<li><p>Save the file as <span class="highlight-yellow">dictionary.xlsx</span> on your computer.</p></li>
+<li><p>Also save the file as a CSV by selecting <span class="highlight-yellow">File</span> &gt; <span class="highlight-yellow">Save As</span> or <span class="highlight-yellow">Export</span>, then choose <span class="highlight-yellow">CSV</span> format and name it <span class="highlight-yellow">dictionary.csv</span>.</p></li>
 </ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Working with your data dictionary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When you need to edit your data dictionary in the future: 1. Edit the <code>.xlsx</code> file in your spreadsheet software 2. Export/save it as <code>.csv</code> again 3. Re-upload the updated <code>.csv</code> file to your Posit Cloud project folder</p>
+</div>
+</div>
 </section>
 <section id="step-4-upload-the-dictionary" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-upload-the-dictionary">Step 4: Upload the dictionary</h2>
 <ol type="1">
-<li><p>Open your capstone project on posit.cloud.</p></li>
-<li><p>Use the Files tab in the bottom right window to upload the data dictionary in CSV format to the <code>data/processed</code> folder.</p></li>
+<li><p>Return to your capstone project on Posit Cloud: <a href="https://posit.cloud/spaces/663318/content/all?sort=name_asc">https://posit.cloud/spaces/663318/content/all?sort=name_asc</a></p></li>
+<li><p>Navigate to the <span class="highlight-yellow">Files</span> tab in the bottom right window.</p></li>
+<li><p>Navigate to the <code>data/processed</code> folder by clicking on it.</p></li>
+<li><p>Click the <span class="highlight-yellow">Upload</span> button (with an up arrow icon).</p></li>
+<li><p>Click <span class="highlight-yellow">Choose File</span>, select your <code>dictionary.csv</code> file, and click <span class="highlight-yellow">OK</span>.</p></li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Upload only the <code>.csv</code> version of your dictionary to your project. The <code>.xlsx</code> file should remain on your local computer for editing purposes.</p>
+</div>
+</div>
+<ol start="6" type="1">
+<li>Commit this change:
+<ul>
+<li>Navigate to the <span class="highlight-yellow">Git</span> pane in the top-right window of RStudio</li>
+<li>Check the box next to <code>dictionary.csv</code> to stage it</li>
+<li>Click <span class="highlight-yellow">Commit</span></li>
+<li>Enter commit message: <code>add data dictionary for processed data</code></li>
+<li>Click <span class="highlight-yellow">Commit</span> and then <span class="highlight-yellow">Close</span></li>
+</ul></li>
 </ol>
 </section>
 <section id="step-5-prepare-your-analysis-ready-processed-data" class="level2">
@@ -477,63 +547,114 @@ Have you created a repository for your capstone project?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-We will re-iterate on this step several times.
+Start now, iterate later
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This step will involve several iterations, depending on the complexity of your raw data. Important is that you do this for a first time for this homework assignment, so that we can start evaluating the complexity of your propject.</p>
+<p><span class="highlight-yellow">It’s important to start this step now</span>, even if your data preparation is not perfect yet. This step will involve several iterations, depending on the complexity of your raw data. For this homework assignment, create a first version so that we can start evaluating the complexity of your project.</p>
 </div>
 </div>
 <ol type="1">
-<li><p>Open the <code>index.qmd</code> file in your capstone project.</p></li>
-<li><p>Add a code chunk and write <code>library(tidyverse)</code> to load the R packages you have learned to work with.</p></li>
-<li><p>Import your data by writing the following inside another code chunk (in this example we are using a CSV file):</p></li>
+<li><p>Open the <code>index.qmd</code> file in your capstone project on Posit Cloud.</p></li>
+<li><p>Add a code chunk at the beginning of your document to load the necessary R packages:</p></li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">read_csv</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data/raw/your-file-name.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="3" type="1">
+<li>In a new code chunk, import your raw data. In this example we are using a CSV file:</li>
+</ol>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>raw_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data/raw/your-file-name.csv"</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="4" type="1">
-<li><p>Write code to bring your data into a state where it’s ready for analysis (e.g.&nbsp;rename columns, select columns that are relevant for your analysis, remove NAs, join several dataframes, etc.)</p></li>
-<li><p>Once you have your data in a state where it’s ready for analysis, save it as a CSV file in the <code>data/processed</code> folder.</p></li>
+<li>Write code to bring your data into a state where it’s ready for analysis. For example:
+<ul>
+<li>Rename columns with <code>rename()</code></li>
+<li>Select columns that are relevant with <code>select()</code></li>
+<li>Remove missing values with <code>filter()</code> or <code>drop_na()</code></li>
+<li>Join several dataframes with <code>left_join()</code>, <code>right_join()</code>, etc.</li>
+<li>Create new variables with <code>mutate()</code></li>
+</ul></li>
+<li>Once you have your data in a state where it’s ready for analysis, save it as a CSV file in the <code>data/processed</code> folder:</li>
 </ol>
-</section>
-<section id="step-6-commit-and-push-your-changes" class="level2">
-<h2 class="anchored" data-anchor-id="step-6-commit-and-push-your-changes">Step 6: Commit and push your changes</h2>
-<ol type="1">
-<li>Navigate to the Git pane in the top-right window of RStudio</li>
-<li>Check the box next to all files to stage them for a commit</li>
-<li>Click on the “Commit” button</li>
-<li>Enter a commit message in the “Commit message” field</li>
-<li>Click on the “Commit” button</li>
-<li>Click on the “Push” button</li>
-<li>Enter your GitHub username and GitHub Personal Access Token (PAT) in the “Username” and “Password” fields</li>
-</ol>
-<div class="callout callout-style-default callout-important callout-titled">
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>processed_data <span class="ot">&lt;-</span> raw_data <span class="sc">|&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(column1, column2, column3) <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(column1)) <span class="sc">|&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">new_name =</span> old_name)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(processed_data,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>          here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data/processed/my-processed-data.csv"</span>))</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Do not use your GitHub password
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You need to enter the GitHub Personal Access Token (PAT) you created in Step 1 to push your changes back to GitHub.</p>
+<p>Replace <code>my-processed-data.csv</code> with a descriptive name for your processed dataset. This is the file that your data dictionary should describe.</p>
 </div>
 </div>
+<ol start="6" type="1">
+<li>Commit these changes:
+<ul>
+<li>Navigate to the <span class="highlight-yellow">Git</span> pane in the top-right window of RStudio</li>
+<li>Check the boxes next to <code>index.qmd</code> and your processed data file to stage them</li>
+<li>Click <span class="highlight-yellow">Commit</span></li>
+<li>Enter commit message: <code>create processed data and update analysis document</code></li>
+<li>Click <span class="highlight-yellow">Commit</span> and then <span class="highlight-yellow">Close</span></li>
+</ul></li>
+</ol>
+</section>
+<section id="step-6-push-your-changes-to-github" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-push-your-changes-to-github">Step 6: Push your changes to GitHub</h2>
+<p>You have made several commits in the previous steps. Now it’s time to push all of these commits to GitHub.</p>
+<ol type="1">
+<li>Navigate to the <span class="highlight-yellow">Git</span> pane in the top-right window of RStudio.</li>
+<li>Click on the <span class="highlight-yellow">Push</span> button (with an up arrow icon).</li>
+<li>Enter your GitHub username and click <span class="highlight-yellow">OK</span>.</li>
+<li>Enter your GitHub Personal Access Token (PAT) in the field and click <span class="highlight-yellow">OK</span>. This is the personal access token you created in Module 1.</li>
+</ol>
+<p>If you see a message that says <code>HEAD -&gt; main</code>, then you have successfully pushed your changes to the remote repository on GitHub. Click Close. <span class="highlight-yellow">If you do not see this message</span>, make sure you have entered your GitHub username and GitHub PAT correctly.</p>
 </section>
 <section id="step-7-open-an-issue-on-github" class="level2">
 <h2 class="anchored" data-anchor-id="step-7-open-an-issue-on-github">Step 7: Open an issue on GitHub</h2>
 <ol type="1">
-<li>Open <a href="https://github.com/">github.com</a> in your browser.</li>
-<li>Navigate to the GitHub organisation for the course.</li>
-<li>Find the repository samples- that ends with your GitHub username.</li>
-<li>Click on the “Issues” tab.</li>
-<li>Click on the green “New issue” button.</li>
-<li>In the “Title” field write: “Prepared first iteration of analysis-ready (processed) data”.</li>
-<li>In the “Leave a comment” field, tag the course instructors <code>@seawaR</code> <code>@massarin</code> <code>@larnsce</code></li>
-<li>Scroll down the page and click the green <span class="highlight-yellow">Create</span> button.</li>
+<li>Open <a href="https://github.com/" class="uri">https://github.com/</a> in your browser.</li>
+<li>Navigate to the GitHub organization for the course: <a href="https://github.com/ds4owd-002">https://github.com/ds4owd-002</a></li>
+<li>Find the repository <code>project-USERNAME</code> that <span class="highlight-yellow">ends with your GitHub username</span>, and open it by clicking on the repository name.
+<ul>
+<li>Replace <code>USERNAME</code> with your actual GitHub username.</li>
+</ul></li>
 </ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can search for your repository by typing your username in the search bar just below the Repository heading.</p>
+</div>
+</div>
+<ol start="4" type="1">
+<li>You can verify here that your changes have been pushed to the remote repository by looking at the commit messages and files in your project.</li>
+<li>Click on the <span class="highlight-yellow">Issues</span> tab.</li>
+<li>Click on the green <span class="highlight-yellow">New issue</span> button.</li>
+<li>In the <span class="highlight-yellow">Title</span> field write: <span class="highlight-yellow">Prepared first iteration of analysis-ready (processed) data</span>.</li>
+<li>In the <span class="highlight-yellow">Leave a comment</span> field, tag the course instructors <code>@seawaR</code> <code>@larnsce</code> and briefly describe what you’ve added (README, dictionary, processed data).</li>
+<li>Scroll down the page and click the green <span class="highlight-yellow">Submit new issue</span> button.</li>
+</ol>
+<p>Congratulations! You have completed the project metadata documentation assignment.</p>
 
 
 </section>
