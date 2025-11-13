@@ -3,7 +3,7 @@ title: "{{< var md-07.title >}}"
 subtitle: "{{< var course.long-title >}}"
 author: "{{< var author >}}"
 date-format: "MMM D, YYYY"
-date: "2025-11-06"
+date: "2025-11-13"
 format: 
   revealjs: 
     theme: slides.scss
@@ -15,8 +15,9 @@ footer: "[{{< fa link >}} {{< var course.site-short >}}]({{< var course.site >}}
 editor: source
 execute:
   freeze: auto
+  echo: false
 params:
-    week: 9
+    week: 10
 bibliography: "../../ds4owd-002.bib"
 editor_options: 
   chunk_output_type: console
