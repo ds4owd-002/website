@@ -798,7 +798,7 @@ Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/r
 
 Access slides as [PDF on GitHub]({{< var course.github-org >}}/website/raw/main/content/slides/lec-07-pivoting-joining.pdf)
 
-# References
+## References
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
