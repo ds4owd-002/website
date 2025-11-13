@@ -301,25 +301,24 @@ waste_data_untidy |>
 #| eval: true
 #| code-line-numbers: "2-4"
 ggplot(data = waste_data_tidy,
-       mapping = aes(x = objid, 
-                     y = weight, 
+       mapping = aes(x = objid,
+                     y = weight,
                      fill = waste_category)) +
-  geom_col() + 
+  geom_col() +
   scale_fill_brewer(type = "qual")
 ```
-
 
 ## Your turn: md-07-exercises
 
 ::: task
-1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
+1. Open [{{< var platforms.posit-cloud >}}/content]({{< var platforms.posit-cloud >}}/content) in your browser.
 2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
 3. Click [Start]{.highlight-yellow} next to [md-07-exercises]{.highlight-yellow}.
-4. In the File Manager in the bottom right window, locate the [`md-07a-pivoting-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+4. In the File Manager in the bottom right window, locate the [`01a-pivot-longer-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 :::
 
 ```{r}
-countdown(30)
+countdown(20)
 ```
 
 ## Take a break
@@ -335,6 +334,19 @@ countdown(minutes = 10)
 ::: footer
 Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 :::
+
+## Your turn: md-07-exercises
+
+::: task
+1. Open [{{< var platforms.posit-cloud >}}/content]({{< var platforms.posit-cloud >}}/content) in your browser.
+2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
+3. Click [Start]{.highlight-yellow} next to [md-07-exercises]{.highlight-yellow}.
+4. In the File Manager in the bottom right window, locate the [`02a-pivot-wider-your-turn.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
+:::
+
+```{r}
+countdown(20)
+```
 
 # Part 2: Joining data {background-color="#4C326A"}
 

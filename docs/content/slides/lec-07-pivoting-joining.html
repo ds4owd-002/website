@@ -1191,10 +1191,10 @@ Lars Schöbitz
 <h2>Three variables -&gt; three aesthetics</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5" data-code-line-numbers="2-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> waste_data_tidy,</span>
-<span id="cb5-2"><a></a>       <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> objid, </span>
-<span id="cb5-3"><a></a>                     <span class="at">y =</span> weight, </span>
+<span id="cb5-2"><a></a>       <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> objid,</span>
+<span id="cb5-3"><a></a>                     <span class="at">y =</span> weight,</span>
 <span id="cb5-4"><a></a>                     <span class="at">fill =</span> waste_category)) <span class="sc">+</span></span>
-<span id="cb5-5"><a></a>  <span class="fu">geom_col</span>() <span class="sc">+</span> </span>
+<span id="cb5-5"><a></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
 <span id="cb5-6"><a></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">type =</span> <span class="st">"qual"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
@@ -1203,17 +1203,17 @@ Lars Schöbitz
 <h2>Your turn: md-07-exercises</h2>
 <div class="task">
 <ol type="1">
-<li>Open <a href="https://posit.cloud/spaces/663318/content">posit.cloud/spaces/663318/content</a> in your browser.</li>
+<li>Open <a href="https://posit.cloud/spaces/663318/content">https://posit.cloud/spaces/663318/content</a> in your browser.</li>
 <li>Verify that the <span class="highlight-yellow">ds4owd workspace</span> is open.</li>
 <li>Click <span class="highlight-yellow">Start</span> next to <span class="highlight-yellow">md-07-exercises</span>.</li>
-<li>In the File Manager in the bottom right window, locate the <span class="highlight-yellow"><code>md-07a-pivoting-your-turn.qmd</code></span> file and click on it to open it in the top left window.</li>
+<li>In the File Manager in the bottom right window, locate the <span class="highlight-yellow"><code>01a-pivot-longer-your-turn.qmd</code></span> file and click on it to open it in the top left window.</li>
 </ol>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_b54e2727" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_1bcad740" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">30</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>
@@ -1224,7 +1224,7 @@ Lars Schöbitz
 
 <img data-src="img/lec-05/pixel-art-beach.png" style="width:50.0%" alt="A pixel art style image of a serene beach scene. The beach is lined with tall, lush palm trees swaying gently in the breeze. The sand is golden and pristine, meeting the clear blue waters of the ocean. The sky is a gradient of soft blues, with a few fluffy white clouds drifting lazily. The sun is setting in the background, casting warm orange and pink hues across the sky and sea, creating a tranquil and picturesque setting." class="r-stretch"><div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_63a072da" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_330ceba9" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1232,6 +1232,25 @@ Lars Schöbitz
 </div>
 <div class="footer">
 <p>Image generated with <a href="https://openai.com/blog/dall-e/">DALL-E 3 by OpenAI</a></p>
+</div>
+</section>
+<section id="your-turn-md-07-exercises-1" class="slide level2">
+<h2>Your turn: md-07-exercises</h2>
+<div class="task">
+<ol type="1">
+<li>Open <a href="https://posit.cloud/spaces/663318/content">https://posit.cloud/spaces/663318/content</a> in your browser.</li>
+<li>Verify that the <span class="highlight-yellow">ds4owd workspace</span> is open.</li>
+<li>Click <span class="highlight-yellow">Start</span> next to <span class="highlight-yellow">md-07-exercises</span>.</li>
+<li>In the File Manager in the bottom right window, locate the <span class="highlight-yellow"><code>02a-pivot-wider-your-turn.qmd</code></span> file and click on it to open it in the top left window.</li>
+</ol>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_4c8284a6" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
 </div>
 </section></section>
 <section>
@@ -2249,7 +2268,7 @@ Lars Schöbitz
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_d7b54105" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_98868b0a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
