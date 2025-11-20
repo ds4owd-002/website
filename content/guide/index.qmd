@@ -41,6 +41,11 @@ knitr:::include_graphics("images/rstudio-code-native-pipe.png")
 
 We recommend using Zotero as a tool for reference management, but do not teach how to use it in this course. The guidance below will support you in setting up Zotero.
 
+::: {.callout-note}
+## Screenshots outdated
+The screenshots in this guide are outdated and we are planning to update them by 26th November 2025.
+:::
+
 ### Get Zotero account
 
 1. Open <https://www.zotero.org/user/login/>
