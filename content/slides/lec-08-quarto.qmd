@@ -47,13 +47,13 @@ library(knitr)
 Q: How do I successfully complete the course?
 :::
 
-You successfully complete the course and you  will receive a certificate of completion if you:
+You successfully complete the course and you will receive a certificate of completion, if you:
 
-[hand in a complete capstone project report that uses a dataset of your choice by 4th December 2025]{.highlight-yellow}
+1. [hand in a complete capstone project report that uses a dataset of your choice by 11th December 2025]{.highlight-yellow}. Required items: [{{< var course.site >}}content/project/]({{< var course.site >}}content/project/)
 
-Required items: <{{< var course.site >}}content/project/>
+2. Complete all quizzes from module 1 through to module 6. [no more quizzes will be hosted for module 7 and module 8]{.highlight-yellow}.
 
-This is the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed.
+These are the only requirement to successfully complete the course, independent of how many classes you attended or how many homework assignments you completed.
 
 ## Learning Objectives (for this week)
 
@@ -206,26 +206,6 @@ format:
     toc: true
 ```
 
-## Quarto linting
-
-Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs.
-
-<br>
-
-![](img/lec-08/lint-rstudio.png){fig-alt="Linter showing message for badly formatted YAML."}
-
-::: aside
-Source: <https://en.wikipedia.org/wiki/Lint_(software)>
-:::
-
-## Quarto YAML Intelligence
-
-RStudio + VSCode provide rich tab-completion - start a word and tab to complete, or <kbd>`Ctrl + space`</kbd> to see all available options.
-
-<br>
-
-![](img/lec-08/quarto-tab-complete.png){fig-align="center" width="600"}
-
 ## My turn: A tour of Quarto (once again)
 
 <br><br>
@@ -237,14 +217,6 @@ Sit back and enjoy!
 ```{r}
 countdown(10)
 ```
-
-## List of valid YAML fields
-
--   Many YAML fields are common across various outputs
-
--   But also each output type has its own set of valid YAML fields and options
-
--   Definitive list: [quarto.org/docs/reference/formats/html](https://quarto.org/docs/reference/formats/html.html)
 
 # Text (in Markdown) {background-color="#4C326A"}
 
@@ -588,7 +560,7 @@ Photo by [Sincerely Media](https://unsplash.com/@sincerelymedia) on [unsplash.co
 **EndNote**
 
 1. EndNote doesn't come free, you need to buy a license. 
-2. They also used a prioprietary citation style files that could only be opened by EndNote.
+2. They also used a proprietary citation style files that could only be opened by EndNote.
 
 :::
 
@@ -596,14 +568,14 @@ Photo by [Sincerely Media](https://unsplash.com/@sincerelymedia) on [unsplash.co
 ## Zotero setup guide
 
 - Not teaching how to use Zotero, but encourage you to learn and use it.
-- Prepared a setup guide: <{{< var course.site >}}/guide/#zotero-reference-management>
+- Prepared a setup guide: [{{< var course.site >}}/guide/#zotero-reference-management]({{< var course.site >}}/guide/#zotero-reference-management)
 
 ## Scholarly Articles in Quarto
 
 Quarto supports
 
 ::: incremental
--   a standardized schema for authors and affiliations that can be expressed once int the source document,
+-   a standardized schema for authors and affiliations that can be expressed once in the source document,
 
 -   the use of Citation Style Language (CSL) to automate the formatting of citations and bibliographies, and
 
@@ -648,7 +620,7 @@ Quarto provides a rich set of YAML metadata keys to describe the details require
 ::: task
 1. Open [posit.cloud/spaces/663318/content](https://posit.cloud/spaces/663318/content) in your browser.
 2. Verify that the [ds4owd workspace]{.highlight-yellow} is open.
-3. Click [Start]{.highlight-yellow} next to [md-08-exercises]{.highlight-yellow}.
+3. Click [Continue]{.highlight-yellow} next to [md-08-exercises]{.highlight-yellow}.
 4. In the File Manager in the bottom right window, locate the [`scholarly-writing.qmd`]{.highlight-yellow} file and click on it to open it in the top left window.
 5. Follow along on the screen using the instructions in the document.
 :::
@@ -660,18 +632,9 @@ countdown(15)
 
 ## Our turn: md-08-publish-USERNAME {.smaller}
 
-[Clone the repository from GitHub]{.highlight-yellow}
-
-1. Open github.com in your browser and navigate to the [GitHub organisation for the course]({{< var course.github-org >}}): {{< var course.github-org >}}.
-2. Find the repository md-08-publish-USERNAME that [ends with your GitHub username]{.highlight-yellow}, and open it.
-3. Click on the green "Code" button.
-4. Copy the HTTPS URL to your clipboard.
-5. Open the ds4owd workspace on [posit.cloud](https://posit.cloud/spaces/426916/content/all?sort=name_asc)
-6. Click New Project > New Project from Git Repository
-7. Paste the HTTPS URL from GitHub into the "URL of your Git Repository" field.
-8. Wait until the project is deployed.
-9. From the Files Manager in the bottom right window, open [`docs`]{.highlight-yellow} folder, then click on [`index.qmd`]{.highlight-yellow}.
-10. Indicate the open Poll with ["ready to go"]{.highlight-yellow} when you are ready.
+1. Clone the [md-08-publish-USERNAME repository]({{< var course.github-org >}}) from the GitHub organisation to Posit Cloud.
+2. From the Files Manager in the bottom right window, open [`docs`]{.highlight-yellow} folder, then click on [`index.qmd`]{.highlight-yellow}.
+3. Indicate the open Poll with ["ready to go"]{.highlight-yellow} when you are ready.
 
 ```{r}
 countdown::countdown(20)
@@ -696,8 +659,7 @@ knitr::include_graphics("img/lec-08/screenshot-gh-pages.png")
 
 ## Course Guide
 
-- Steps for publishing the capstone project report are described in course guide
-- <{{< var course.site >}}/guide/#publish-to-github-pages>
+- Steps for publishing the capstone project report are described in the [course guide]({{< var course.site >}}/guide/#publish-to-github-pages)
 
 ## Take a break
 
@@ -726,16 +688,15 @@ Image generated with [DALL-E 3 by OpenAI](https://openai.com/blog/dall-e/)
 
 ## Submission
 
-- The submission due date is: [Wednesday, 4th December 2025]{.highlight-yellow}.
-- You will need to work through Module 5 & Module 7 homework assignments to get started.
+- The submission due date is: [Wednesday, 11th December 2025]{.highlight-yellow}.
 - We will use the GitHub issue tracker to communicate and ask questions about the capstone project.
-- A list of required items for submission is covered on the course website: <{{< var course.site >}}content/project/>
+- A list of required items for submission is covered on the [course website]({{< var course.site >}}content/project/)
 - If you require an extension, please reach to us via email: <ghe@mavt.ethz.ch>
 
 ## Your turn: Capstone project - Read and take notes
 
 ::: task
-1. Open: <{{< var course.site >}}content/project/>.
+1. Open: [{{< var course.site >}}content/project/]({{< var course.site >}}content/project/)
 2. Read through the page.
 3. For the list in "Required items" note down the numbers of those that are unclear to you and why.
 4. After the time is up, you will join a break-out room and discuss the unclear items with your peers.
@@ -762,7 +723,7 @@ countdown(10)
 
 ::: task
 
-1. Open this repository: <{{< var course.github-org >}}/project>.
+1. Open this repository: [{{< var course.github-org >}}/project]({{< var course.github-org >}}/project)
 2. Add your questions for unclear items to the issue tracker as described.
 
 :::
@@ -778,18 +739,14 @@ countdown(10)
 - No more homework assignments
 - Use the time to work on your capstone project
 
-## Student hours
-
-- Every Friday, 2:00 to 3:30 PM (CET)
-- Final student hours: Friday, November 29, 2:00 to 3:30 PM (CET)
 
 ## Module 09: Using AI for software development in R
 
-- **Date:** Thursday, November 20, 2:00 - 4:30 PM (CET)
+- **Date:** Thursday, November 27, 2:00 - 4:30 PM (CET)
 
 ## Module 10: Graduation party
 
-- **Date:** Tuesday, February 20, 2:00 - 3:00 PM (CET)
+- **Date:** Wednesday, December 18, 2:00 - 3:00 PM (CET)
 
 ## Attribution
 

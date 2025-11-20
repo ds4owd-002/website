@@ -62,13 +62,11 @@ Thank you for working through this assignment.
 
 ## {{< fa clipboard-question >}} Quiz
 
-[Due date:]{.highlight-yellow} `r quiz_due_date`
+[No quiz for Module 7]{.highlight-yellow}
 
-Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
- 
-[Quiz in preparation. The quiz is delayed and will be prepared by Monday 17 November.]{.highlight-yellow}
+Completing quizzes 1 through 6 is sufficient to successfully complete the course. No additional quiz will be prepared for Module 7.
 
-## {{< fa video >}} Sessi.n Recording
+## {{< fa video >}} Session Recording
 
 You can access the Zoom recording of Module 7 on `r session_date`. To watch the recording, you will need to register for it. 
 

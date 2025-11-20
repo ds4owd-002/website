@@ -50,11 +50,9 @@ quiz_due_date <- format(as.Date(vars$`md-09`$`quiz-due`), "%B %d, %Y")
 
 ## {{< fa clipboard-question >}} Quiz
 
-[Due date:]{.highlight-yellow} `r quiz_due_date`
+[No quiz for Module 9]{.highlight-yellow}
 
-Complete this quiz after you have worked through the assignments. Completing the quiz of each week is required to receive a course certificate at the end of the course.
-
-[Quiz in preparation]{.highlight-yellow}
+Completing quizzes 1 through 6 is sufficient to successfully complete the course. No additional quiz will be prepared for Module 9.
 
 ## {{< fa video >}} Session Recording
 
