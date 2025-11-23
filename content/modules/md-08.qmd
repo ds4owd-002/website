@@ -65,5 +65,5 @@ Completing quizzes 1 through 6 is sufficient to successfully complete the course
 
 You can access the Zoom recording of Module 8 on `r session_date`. To watch the recording, you will need to register for it. 
 
-Register for the recording at this link: <https://ethz.zoom.us/rec/share/cr-NCsCxzdYGWxExusXWmChBua941_dwEoz7Xs5qU-0ygvXsHlqdfIzyPg9yC3C0.jqJOJY8ja6i_WyYI> 
+Register for the recording at this link: <https://ethz.zoom.us/rec/share/f-tbDk3ptzcamW0ksX5qOtwb3e7VGWFtBsfwQ-4SHp_JH4ojyI_P0d5-sGv8Z18.iwwKVFT81LwXRuIT?startTime=1763643925000> 
 
