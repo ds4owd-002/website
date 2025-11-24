@@ -4,10 +4,13 @@ subtitle: "{{< var md-09.title >}}"
 editor: source
 params:
     week: 12
-execute: 
+execute:
   echo: false
   warning: false
+bibliography: references.bib
 ---
+
+In this bonus module, we explore how artificial intelligence is transforming software development workflows in R. You'll learn about different AI-powered tools and approaches that can enhance your productivity, from conversational chatbots to agentic coding assistants and R packages that integrate AI capabilities directly into your data science workflows.
 
 ## {{< fa bullseye >}} Learning Objectives
 
@@ -20,7 +23,7 @@ library(epoxy)
 ```{r}
 #| label: learning-objectives
 
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |> 
+lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |>
   dplyr::filter(week == params$week) |>
   dplyr::pull(learning_objectives)
 
@@ -36,17 +39,61 @@ quiz_due_date <- format(as.Date(vars$`md-09`$`quiz-due`), "%B %d, %Y")
 {1:length(lobj)}. {lobj[1:length(lobj)]}
 ```
 
-
 ## {{< fa display >}} Slides
 
-- In preparation
+<iframe class="slide-deck" src="../slides/lec-09-ai-for-r.html" height="420" width="747" style="border: 1px solid #2e3846;">
 
-## {{< fa code >}} Assignments
+</iframe>
+
+[{{< fa arrow-up-right-from-square >}} View slides in full screen](../slides/lec-09-ai-for-r.html)
+
+[{{< fa file-pdf >}} Download PDF of slides](../slides/lec-09-ai-for-r.pdf)
+
+## {{< fa book >}} Readings
+
+### Essential Reading
+
+1.  **Posit AI Blog** - [Getting Started with AI in R](https://posit.co/blog/): Posit's official blog regularly features articles on AI integration with R and RStudio. Browse recent posts tagged with "AI".
+
+2.  **ellmer Package Documentation** - [https://ellmer.tidyverse.org/](https://ellmer.tidyverse.org/): Official documentation for the ellmer package, including vignettes on structured data extraction and working with different LLMs.
+
+3.  **GitHub Copilot in RStudio** - [GitHub Copilot Documentation](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot): Learn how to set up and use GitHub Copilot in your RStudio environment.
+
+### Additional Resources
+
+4.  **Claude Code Documentation** - [https://claude.com/code](https://claude.com/code): Learn about agentic AI tools and how they can assist with complex coding tasks.
+
+5.  **Responsible AI Use** - [AI Ethics in Data Science](https://datasciencebox.org/): Consider ethical implications of using AI in your data science work, including attribution, privacy, and bias considerations.
+
+6.  **Posit AI Newsletter** - [Subscribe here](https://posit.co/products/cloud/ai/): Stay updated with the latest AI developments for R and data science from Posit.
+
+## {{< fa code >}} Exercises
 
 [Due date:]{.highlight-yellow} `r homework_due_date`
 
-- No assignments
-- You can work on your [capstone project report](../project/)
+::: {.callout-note}
+## Exercise Repository
+
+All exercises for this module are in the separate `md-10-exercises` repository. Clone it from your GitHub account to get started.
+:::
+
+### Exercise 1: Chatbot for WASH Data Analysis
+
+Use duck.ai or another AI chatbot to solve a data transformation and visualization task with a WASH dataset. Practice writing effective prompts and iterating on AI-generated code.
+
+**Time:** ~30 minutes
+
+### Exercise 2: PDF Data Extraction with ellmer
+
+Use the ellmer R package to extract structured information from SFD (Shit Flow Diagram) PDF reports. Extract data about primary data generation, secondary data usage, and qualitative research methods.
+
+**Time:** ~45 minutes
+
+::: {.callout-tip}
+## API Keys Required
+
+For Exercise 2, you'll need to set up an API key for Claude or GPT. See the exercise instructions for details on how to obtain and configure your API key securely.
+:::
 
 ## {{< fa clipboard-question >}} Quiz
 
@@ -56,8 +103,39 @@ Completing quizzes 1 through 6 is sufficient to successfully complete the course
 
 ## {{< fa video >}} Session Recording
 
-You can access the Zoom recording of Module 9 on `r session_date`. To watch the recording, you will need to register for it. 
+You can access the Zoom recording of Module 9 on `r session_date`. To watch the recording, you will need to register for it.
 
-Register for the recording at this link: [provided after the session]{.highlight-yellow} 
+Register for the recording at this link: [provided after the session]{.highlight-yellow}
 
 **Note: The video link will be shared once the recording is available.**
+
+## {{< fa comments >}} Discussion & Support
+
+Have questions about using AI tools for R development? Want to share your experiences or challenges?
+
+::: columns
+::: {.column width="50%"}
+**Matrix Chat**
+
+Join the course Matrix channel for real-time discussions with instructors and peers.
+:::
+
+::: {.column width="50%"}
+**Email Support**
+
+For technical issues or private questions, contact the instructors: @seawaR, @massarin, or @larnsce
+:::
+:::
+
+## {{< fa lightbulb >}} Key Takeaways
+
+::: {.callout-important}
+## Remember
+
+1.  **AI is a tool, not a replacement** - Understanding R fundamentals remains essential
+2.  **Always review AI output** - You're responsible for code quality and correctness
+3.  **Start simple, iterate** - Break complex tasks into smaller AI-friendly prompts
+4.  **Consider costs** - API-based tools have usage costs; monitor and optimize
+5.  **Respect privacy** - Never share confidential or sensitive data with AI services
+6.  **Learn continuously** - Use AI as a teaching tool to deepen your understanding
+:::
