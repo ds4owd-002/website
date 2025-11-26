@@ -23,69 +23,35 @@ editor_options:
   chunk_output_type: console
 ---
 
+
 ```{r}
-#| include: false
 library(countdown)
-library(epoxy)
 ```
 
-## Learning Objectives
+# Five Approaches
 
-```{r}
-#| label: learning-objectives
-#| echo: false
-lobj <- readr::read_csv(here::here("data/tbl-02-ds4owd-002-learning-objectives.csv")) |>
-  dplyr::filter(week == params$week) |>
-  dplyr::pull(learning_objectives)
-```
-
-```{epoxy}
-{1:length(lobj)}. {lobj[1:length(lobj)]}
-```
-
-# The AI Revolution in Software Development {background-color="#4C326A"}
-
-## Why AI for R Development?
-
-::: columns
-::: {.column width="50%"}
-**Traditional Workflow**
-
-- Search Stack Overflow
-- Read documentation
-- Trial and error
-- Debug manually
-- Write boilerplate code
-:::
-
-::: {.column width="50%"}
-**AI-Enhanced Workflow**
-
-- Ask AI conversationally
-- Get code suggestions in real-time
-- Automate repetitive tasks
-- Intelligent debugging
-- Generate code from descriptions
-:::
-:::
-
-## Four Approaches to AI Assistance
+## Five Approaches to AI Assistance
 
 ::: {.incremental}
 1. **Chatbots** - Conversational code generation (e.g., duck.ai, ChatGPT)
 2. **Code Completion** - Real-time suggestions (e.g., GitHub Copilot)
-3. **Agentic Tools** - Autonomous coding assistance (e.g., Claude Code)
-4. **R Packages** - Programmatic AI integration (e.g., ellmer, gptstudio)
+3. **In-IDE Chat** - Context-aware assistance within your IDE
+4. **Agentic Tools** - Autonomous coding assistance (e.g., Claude Code)
+5. **R Packages** - Programmatic AI integration (e.g., ellmer)
 :::
 
-## Today's Agenda
+::: .notes
 
-- **10 min** - Chatbot approach (My Turn: duck.ai demo)
-- **15 min** - Chatbot approach (Your Turn: WASH data task)
-- **5 min** - GitHub Copilot overview
-- **10 min** - Agentic work mode (My Turn: Claude Code demo)
-- **15 min** - R packages (My Turn: ellmer for PDF extraction)
-- **5 min** - Resources and best practices
+1. Chatbots: here is the problem, write R code for that
+
+2. Inline autocomplete: modern IDEs bring in autocomplete, one of the skills of programming today is to ignore it when it's bad and accept it when it's good
+
+3. In-IDE chat: that's mostly for convenience and is like chatting with a Chat provider like duck.ai, the chat knows more about what you are doing because it can see what you are working on
+
+4. Agentic coding: newest trend, Cursor, Claude Code, LLM goes off and writes a bunch of code
+
+5. R Packages: programmatic access to AI capabilities, ellmer, gptstudio, openai, anthropic
+::: 
 
 # Approach 1: Chatbot Assistance {background-color="#4C326A"}
 
@@ -129,7 +95,9 @@ Conversational interfaces that:
 
 ## {{< fa person-chalkboard >}} My Turn: duck.ai Demo {.center-align}
 
-**Task:** Transform and visualize WASH data
+::: {.hand-purple-large style="text-align: center;"}
+Sit back and enjoy!
+:::
 
 ::: {style="margin-top: 30px"}
 I'll demonstrate:
@@ -142,407 +110,39 @@ I'll demonstrate:
 :::
 
 ```{r}
-#| echo: false
-countdown(minutes = 10, seconds = 0)
+countdown(10)
 ```
 
-## Tips for Effective Chatbot Prompts
+# Approach 2: Code Completion {background-color="#4C326A"}
 
-::: {.incremental}
-1. **Be specific** - "Create a ggplot2 bar chart" vs "Make a chart"
-2. **Provide context** - Share data structure, column names, goal
-3. **Iterate** - Start simple, then refine
-4. **Review carefully** - AI can make mistakes
-5. **Ask for explanations** - Understand the code, don't just copy
+# Approach 3: In-IDE Chat {background-color="#4C326A"}
+
+# Approach 4: Agentic Tools {background-color="#4C326A"}
+
+# Approach 5: R Packages {background-color="#4C326A"}
+ 
+
+## Clear win: translations
+
+- Pseudo code -> code
+- Latex -> Quarto
+- SQL -> dplyr
+- SAS / STATA / SPSS -> R
+- Words -> regular expressions
+- Image to shiny app / Quarto dashboard
+
+::: {.notes}
+Keynote: I Wrote This Talk with an LLM - Hadley Wickham
 :::
 
-## {{< fa users >}} Your Turn: Chatbot Exercise {.center-align}
+## LLM concerns
 
-::: {style="margin-top: 30px"}
-**Time:** 15 minutes
+- **Cost/equality of access**: $5 on Claude gets you pretty far; Gemini has a generous free tier. Local models not worth it IMO (but maybe gpt-oss changes that).
 
-**Task:** Use duck.ai to solve a WASH data problem
+- **Environmental concerns**: worth considering, but small and decreasing on individual level. More impactful ways to save energy/water.
 
-See the exercise instructions in your repository:
-`md-10-exercises`
-:::
+- **Data privacy**: legit as individual. Not a problem for most bigger orgs as most data already lives in some cloud, and cloud providers run LLMs.
 
-```{r}
-#| echo: false
-countdown(minutes = 15, seconds = 0)
-```
-
-# Approach 2: GitHub Copilot {background-color="#4C326A"}
-
-## What is GitHub Copilot?
-
-An AI pair programmer that:
-
-- Suggests code as you type
-- Completes entire functions
-- Adapts to your coding style
-- Works within your IDE
-- Learns from context in your files
-
-. . .
-
-**Availability:** Free for students, paid for others
-
-## How Copilot Works
-
-::: columns
-::: {.column width="50%"}
-**You write:**
-
-```r
-# Calculate mean water quality
-# by district and year
-```
-:::
-
-::: {.column width="50%"}
-**Copilot suggests:**
-
-```r
-# Calculate mean water quality
-# by district and year
-water_summary <- water_data |>
-  group_by(district, year) |>
-  summarise(
-    mean_quality = mean(quality,
-                       na.rm = TRUE)
-  )
-```
-:::
-:::
-
-## When to Use Copilot
-
-::: {.incremental}
-✅ **Good for:**
-
-- Writing repetitive code patterns
-- Boilerplate function structures
-- Common data transformations
-- Test case generation
-
-⚠️ **Be cautious:**
-
-- Always review suggestions
-- May suggest outdated approaches
-- Not always idiomatic R
-- Security implications with sensitive data
-:::
-
-## Copilot in RStudio
-
-::: {.callout-note}
-## Setting up Copilot in RStudio
-
-1. Install the Copilot extension (Tools → Global Options → Copilot)
-2. Sign in with your GitHub account
-3. Start typing - suggestions appear as grey text
-4. Press Tab to accept, Esc to reject
-:::
-
-Learn more: [docs.github.com/copilot](https://docs.github.com/en/copilot)
-
-# Approach 3: Agentic Work Mode {background-color="#4C326A"}
-
-## What are Agentic AI Tools?
-
-AI assistants that can:
-
-- Execute complex multi-step tasks
-- Read and write files autonomously
-- Run code and review results
-- Debug and iterate automatically
-- Manage entire workflows
-
-. . .
-
-**Example:** Claude Code (formerly Cascade)
-
-## Claude Code Overview
-
-::: columns
-::: {.column width="50%"}
-**Capabilities**
-
-- File system access
-- Code execution
-- Git operations
-- Multi-file editing
-- Autonomous debugging
-- Context-aware decisions
-:::
-
-::: {.column width="50%"}
-**Use Cases**
-
-- Refactoring projects
-- Building new features
-- Debugging complex issues
-- Setting up workflows
-- Analyzing codebases
-:::
-:::
-
-## {{< fa person-chalkboard >}} My Turn: Claude Code Demo {.center-align}
-
-::: {style="margin-top: 30px"}
-**Task:** Automated code analysis and improvement
-
-I'll demonstrate:
-
-1. Giving Claude Code a high-level task
-2. Watching it read and analyze files
-3. Seeing autonomous code improvements
-4. Reviewing the changes
-5. Understanding when to use this approach
-:::
-
-```{r}
-#| echo: false
-countdown(minutes = 10, seconds = 0)
-```
-
-## When to Use Agentic Tools
-
-::: {.incremental}
-**Best for:**
-
-- Complex refactoring tasks
-- Multi-file modifications
-- Exploratory analysis of large codebases
-- Automating repetitive workflows
-- Learning unfamiliar code
-
-**Consider carefully:**
-
-- Requires trust in AI decisions
-- Review all changes before committing
-- More expensive than other approaches
-- Needs clear task descriptions
-:::
-
-# Approach 4: R Packages for AI {background-color="#4C326A"}
-
-## AI-Powered R Packages
-
-Programmatic access to AI capabilities:
-
-::: columns
-::: {.column width="50%"}
-**ellmer**
-
-- New package from Posit
-- Interface to multiple LLMs
-- Structured data extraction
-- Function calling support
-- Cost-effective for batch tasks
-:::
-
-::: {.column width="50%"}
-**Others to explore**
-
-- gptstudio (RStudio addins)
-- tidychatmodels (tidy interface)
-- openai (direct API access)
-- anthropic (Claude API)
-:::
-:::
-
-## Why Use R Packages?
-
-::: {.incremental}
-1. **Reproducibility** - Code-based workflows you can rerun
-2. **Automation** - Process many files/tasks programmatically
-3. **Integration** - Seamless with existing R pipelines
-4. **Control** - Fine-tune model parameters and prompts
-5. **Cost tracking** - Monitor and optimize API usage
-:::
-
-## {{< fa person-chalkboard >}} My Turn: ellmer Demo {.center-align}
-
-::: {style="margin-top: 30px"}
-**Task:** Extract structured data from SFD PDF reports
-
-I'll demonstrate:
-
-1. Installing and setting up ellmer
-2. Reading PDF documents
-3. Creating extraction prompts
-4. Extracting structured information
-5. Processing results into data frames
-:::
-
-```{r}
-#| echo: false
-countdown(minutes = 15, seconds = 0)
-```
-
-## ellmer: Data Extraction Example
-
-```{r}
-#| eval: false
-#| echo: true
-#| code-line-numbers: "|1-2|4-9|11-13|15-17"
-library(ellmer)
-library(pdftools)
-
-# Read PDF content
-pdf_text <- pdftools::pdf_text(
-  "3-2351-7-1448552001.pdf"
-) |>
-  paste(collapse = "\n")
-
-# Create chat with extraction prompt
-chat <- chat_claude() |>
-  chat_append("Extract data availability from this SFD report...")
-
-# Get structured response
-result <- chat_perform(chat, data = pdf_text)
-
-# Process into dataframe
-extract_data_frame(result)
-```
-
-## API Costs Overview {.smaller}
-
-Using AI programmatically has costs. Here's what to expect:
-
-| Model | Input (per 1M tokens) | Output (per 1M tokens) | Typical PDF |
-|-------|----------------------|------------------------|-------------|
-| Claude Haiku | $0.25 | $1.25 | ~$0.01 |
-| Claude Sonnet | $3.00 | $15.00 | ~$0.15 |
-| GPT-4o mini | $0.15 | $0.60 | ~$0.01 |
-| GPT-4o | $2.50 | $10.00 | ~$0.12 |
-
-::: {.callout-tip}
-## Cost Management
-
-- Start with cheaper models (Haiku, mini)
-- Process in batches
-- Cache common queries
-- Monitor usage with API dashboards
-:::
-
-## Setting Up API Access
-
-::: columns
-::: {.column width="50%"}
-**Claude (Anthropic)**
-
-1. Go to console.anthropic.com
-2. Create account
-3. Add payment method
-4. Generate API key
-5. Set `ANTHROPIC_API_KEY` in .Renviron
-:::
-
-::: {.column width="50%"}
-**GPT (OpenAI)**
-
-1. Go to platform.openai.com
-2. Create account
-3. Add payment method
-4. Generate API key
-5. Set `OPENAI_API_KEY` in .Renviron
-:::
-:::
-
-. . .
-
-**Security:** Never commit API keys to Git! Use `.Renviron` or password manager.
-
-# Resources & Best Practices {background-color="#4C326A"}
-
-## Key Resources
-
-::: {.incremental}
-1. **[Posit AI Newsletter](https://www.rstudio.com/tags/ai/)** - Latest AI tools for R
-2. **[ellmer documentation](https://ellmer.tidyverse.org/)** - Package guides and examples
-3. **[GitHub Copilot docs](https://docs.github.com/en/copilot)** - Setup and usage
-4. **[Claude Code](https://claude.com/code)** - Agentic AI assistant
-5. **[duck.ai](https://duck.ai)** - Free privacy-focused chatbot
-:::
-
-## Best Practices for AI-Assisted Coding
-
-::: {.incremental}
-1. **Always review** - Don't blindly trust AI output
-2. **Understand the code** - Ask for explanations
-3. **Start simple** - Iterate towards complexity
-4. **Version control** - Commit before major AI changes
-5. **Test thoroughly** - AI can introduce subtle bugs
-6. **Learn continuously** - Use AI as a teaching tool
-7. **Respect privacy** - Be careful with sensitive data
-:::
-
-## When to Use Which Approach?
-
-| Approach | Best For | Time Investment |
-|----------|----------|-----------------|
-| **Chatbot** | Learning, quick tasks, brainstorming | Low |
-| **Copilot** | Writing code, repetitive patterns | Medium |
-| **Agentic** | Complex refactoring, large projects | High |
-| **R Packages** | Batch processing, automation, APIs | Medium-High |
-
-. . .
-
-**Pro tip:** Combine approaches! Use chatbots to learn, Copilot while coding, packages for production.
-
-## Ethical Considerations
-
-::: {.incremental}
-- **Attribution** - Understand licensing of AI-generated code
-- **Privacy** - Don't share confidential data with AI services
-- **Dependency** - Balance AI assistance with skill development
-- **Bias** - AI models can reflect biases in training data
-- **Verification** - You're responsible for code quality and correctness
-:::
-
-## Looking Forward
-
-AI for coding is rapidly evolving:
-
-::: {.incremental}
-- Models are getting better and cheaper
-- More R-specific tools emerging
-- Integration becoming seamless
-- Agentic capabilities expanding
-- But fundamentals still matter!
-:::
-
-. . .
-
-::: {.callout-important}
-## Remember
-
-AI is a powerful tool, but **you** are the programmer. Understanding R, data science principles, and problem-solving remains essential.
-:::
-
-# Questions? {background-color="#4C326A"}
-
-## Next Steps
-
-::: {style="margin-top: 50px"}
-1. Complete the chatbot exercise if you haven't finished
-2. Try ellmer for PDF extraction (see exercise repository)
-3. Explore the resources shared today
-4. Experiment with different AI approaches
-5. Share your experiences in the Matrix chat
-:::
-
-## Course Completion
-
-::: {.callout-note}
-## Final Reminders
-
-- **Capstone project due:** December 11, 2025
-- **Quizzes 1-6:** Required for completion
-- **Module 10:** Graduation event on December 18, 2025
-
-You're almost there! 🎉
+::: {.notes}
+Keynote: I Wrote This Talk with an LLM - Hadley Wickham
 :::
