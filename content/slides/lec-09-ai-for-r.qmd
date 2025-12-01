@@ -113,6 +113,24 @@ I'll demonstrate:
 countdown(10)
 ```
 
+## Example: Good Prompt for EDA
+
+::: {.callout-tip icon=false}
+## Your Turn: Try this prompt
+
+I have a CSV dataset available at this GitHub raw link: [PASTE URL HERE]
+
+Please help me perform exploratory data analysis using R tidyverse packages. Specifically:
+
+1. Load the data and display its structure
+2. Summarize key variables (numeric and categorical)
+3. Check for missing values
+4. Create visualizations to understand distributions and relationships
+5. Identify any unusual patterns or potential data quality issues
+
+Please provide well-commented R code using tidyverse packages (dplyr, ggplot2, etc.) that I can run in RStudio.
+:::
+
 # Approach 2: Code Completion {background-color="#4C326A"}
 
 # Approach 3: In-IDE Chat {background-color="#4C326A"}

@@ -1,0 +1,40 @@
+---
+title: "initial-prompt"
+format: html
+---
+
+##  Start
+
+Before you get going review this entire repo and all exercises and assignments I have developed for this class. It's all available to you in your workspace. Then use my conventions for everything you do. I have also given you permission to 4 additional folders.
+
+## Module 10 development
+
+I am developing a new module on "Using AI for Software Development in R". 
+
+I want to highlight the usage of different approaches:
+
+- Chatbot (duck.ai)
+- GitHub Copilot code completion
+- Agentic work mode (Claude Code)
+- R packages like ellmer
+- Resources Posit Cloud AI newsletter
+
+I want you to develop a set of slides, a module page with readings and resources and then some md-10-exercises which will be in a separate repository that is in your conrtext permissions. 
+
+## - Chatbot (duck.ai)
+
+I want to use some task description and completely copy/paste. Then review the code. That will be a live my turn exercise (10 minutes). I then need a short your turn exercise (15 minutes).
+
+## GitHub Copilot code completion
+
+This might just be a few slides
+
+## Agentic work mode (Claude Code)
+
+This could only be a my turn exercise.
+
+## R packages like ellmer
+
+I want a my turn exercise in which we extract data from PDFs. We are going to use the SFD PDF reports. I have downloaded four of them. I want ellmer to extract information specifically on the data availability in these reports. Was primary data generated for the report? If not, was other primary data accessed? Or is the reports largely based on secondary data and other reports? Or even on key informant interviews and focsu group discussions?
+
+For this I also need a few slides explaining the costs on a few slidxes.

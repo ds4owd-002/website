@@ -4346,5 +4346,446 @@
     "title": "data science for openwashdata",
     "section": "",
     "text": "Part 1 (46)\n\nGitHub email (5)\n\nLate start: 5 minutes\n\nWelcome (20)\n\nMeet the team (5)\nLearning Goals (1)\nAbout you (7)\n\nNotes\nBreak-out\n\nCourse Calendar (1)\nCourse structure (2)\n\nMy turn\nOur turn\nYour turn\n\nGetting help (1)\nPlatforms and Tools (1)\nBookmark website (0.5)\nLearning Objectives (1)\nMagic (0.5)\n\nPosit Cloud (3)\n\nScreenshots (2)\nScreen setup (1)\n\nPoll\n\n\nHello Quarto (1)\n\nMeeting you where you are (1)\n\nWhat is Quarto Part 1 (17)\n\nQuarto … (1)\nMy turn: A tour of Quarto (10)\n\nVisual editor\n\nYAML Metadata\nHeadings\n\nAdd Heading 2: Analysis\n\nText\n\nBold text\nAdd hyperlink\n\nhttps://jennybc.github.io/gapminder/\n\n\nBullets\nCode chunk\n\nCode-chunk options\nRun code\n\nRender\n\nHTML\n\nYAML metadta\n\nAdd author\nAdd date: today\n\nRender\n\nHTML\n\nAdd table of contents and code-fold\n\nformat: html: toc: true code-fold: true\n\nRender\n\nHTML\n\nAdd pdf: default\n\nformat: html: toc: true code-fold: true pdf: default\n\nRender\n\n\nYour turn: Log into Posit Cloud with GitHub account (5)\n\n\nBreak (10)\nPart 2 (46)\n\nWhat is Quarto Part 2 (11)\n\nYour turn: md-01-exercises (10)\nFrom the comfort of your own workspace (1)\n\nQuarto formats (12)\n\nOne install, “Batteries included” (1)\nMany Quarto formats (1)\nYour Turn: Create a new Quarto document (10)\n\n\nVersion Control (23)\n\nVersion Control with Git and GitHub (1)\nWhy is it useful? (1)\nGit and GitHub (1)\nMy turn: A tour of GitHub (5)\n\nDashboard\nMy account\nGitHub organisation\nIssue tracker\n\nOur turn: Configure Notifications settings (5)\nYour turn: Create an issue on GitHub (10)\n\n\nBreak (10)\nPart 3 (20)\n\nAnatomy of a Quarto document (2)\n\nComponents (0.5)\nLiterate programming (1.5)\n\nMetadata (7)\n\nYAML (0.5)\nOutput options (1.5)\nOutput option arguments (1)\nYAML validation (2)\nQuarto linting (1)\nQuarto YAML Intelligence (1)\n\nR fundamentals (5)\n\nPackages (1)\nFunctions & Arguments (1)\nObjects (1)\nOperators (1)\nRules (1)\n\nCourse information (3)\n\nWeekly structure (1)\nHomework assignments (1)\nCapstone Project (1)\n\nHomework assignments module 1 (2)\n\nModule 1 documentation (1.5)\nHomework due date (0.5)\n\nWrap-up (1)\n\nThanks (1)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#learning-objectives",
+    "href": "content/slides/lec-09-ai-for-r.html#learning-objectives",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\nLearners are aware of the responsibility for using AI and critically and evaluating all its output.\nLearners can explain the basics of AI and its potential for improving software development workflows.\nLeaners can Implement strategies to write and debug code using AI-based tools."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#why-ai-for-r-development",
+    "href": "content/slides/lec-09-ai-for-r.html#why-ai-for-r-development",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Why AI for R Development?",
+    "text": "Why AI for R Development?\n\n\nTraditional Workflow\n\nSearch Stack Overflow\nRead documentation\nTrial and error\nDebug manually\nWrite boilerplate code\n\n\nAI-Enhanced Workflow\n\nAsk AI conversationally\nGet code suggestions in real-time\nAutomate repetitive tasks\nIntelligent debugging\nGenerate code from descriptions"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#four-approaches-to-ai-assistance",
+    "href": "content/slides/lec-09-ai-for-r.html#four-approaches-to-ai-assistance",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Four Approaches to AI Assistance",
+    "text": "Four Approaches to AI Assistance\n\nChatbots - Conversational code generation (e.g., duck.ai, ChatGPT)\nCode Completion - Real-time suggestions (e.g., GitHub Copilot)\nAgentic Tools - Autonomous coding assistance (e.g., Claude Code)\nR Packages - Programmatic AI integration (e.g., ellmer, gptstudio)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#todays-agenda",
+    "href": "content/slides/lec-09-ai-for-r.html#todays-agenda",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Today’s Agenda",
+    "text": "Today’s Agenda\n\n10 min - Chatbot approach (My Turn: duck.ai demo)\n15 min - Chatbot approach (Your Turn: WASH data task)\n5 min - GitHub Copilot overview\n10 min - Agentic work mode (My Turn: Claude Code demo)\n15 min - R packages (My Turn: ellmer for PDF extraction)\n5 min - Resources and best practices"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#what-are-ai-chatbots",
+    "href": "content/slides/lec-09-ai-for-r.html#what-are-ai-chatbots",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "What are AI Chatbots?",
+    "text": "What are AI Chatbots?\nConversational interfaces that:\n\nUnderstand natural language questions\nGenerate code based on descriptions\nExplain existing code\nDebug and suggest improvements\nIterate based on your feedback\n\n\nExamples: ChatGPT, Claude, duck.ai, Perplexity"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#duck.ai-overview",
+    "href": "content/slides/lec-09-ai-for-r.html#duck.ai-overview",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "duck.ai Overview",
+    "text": "duck.ai Overview\n\n\nFeatures\n\nFree and privacy-focused\nMultiple AI models\nCode-aware responses\nNo account required\nBuilt by DuckDuckGo\n\n\nBest for\n\nQuick code generation\nLearning new functions\nUnderstanding errors\nExploring approaches\nDocumentation assistance"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#my-turn-duck.ai-demo",
+    "href": "content/slides/lec-09-ai-for-r.html#my-turn-duck.ai-demo",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " My Turn: duck.ai Demo",
+    "text": "My Turn: duck.ai Demo\n\n\nSit back and enjoy!\n\n\nI’ll demonstrate:\n\nDescribing the task clearly\nProviding context about the data\nReviewing generated code\nIterating to improve the solution\nTesting the code in RStudio\n\n\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#tips-for-effective-chatbot-prompts",
+    "href": "content/slides/lec-09-ai-for-r.html#tips-for-effective-chatbot-prompts",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Tips for Effective Chatbot Prompts",
+    "text": "Tips for Effective Chatbot Prompts\n\nBe specific - “Create a ggplot2 bar chart” vs “Make a chart”\nProvide context - Share data structure, column names, goal\nIterate - Start simple, then refine\nReview carefully - AI can make mistakes\nAsk for explanations - Understand the code, don’t just copy"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#your-turn-chatbot-exercise",
+    "href": "content/slides/lec-09-ai-for-r.html#your-turn-chatbot-exercise",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " Your Turn: Chatbot Exercise",
+    "text": "Your Turn: Chatbot Exercise\n\nTime: 15 minutes\nTask: Use duck.ai to solve a WASH data problem\nSee the exercise instructions in your repository: md-10-exercises\n\n\n\n\n−+\n15:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#what-is-github-copilot",
+    "href": "content/slides/lec-09-ai-for-r.html#what-is-github-copilot",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "What is GitHub Copilot?",
+    "text": "What is GitHub Copilot?\nAn AI pair programmer that:\n\nSuggests code as you type\nCompletes entire functions\nAdapts to your coding style\nWorks within your IDE\nLearns from context in your files\n\n\nAvailability: Free for students, paid for others"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#how-copilot-works",
+    "href": "content/slides/lec-09-ai-for-r.html#how-copilot-works",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "How Copilot Works",
+    "text": "How Copilot Works\n\n\nYou write:\n# Calculate mean water quality\n# by district and year\n\nCopilot suggests:\n# Calculate mean water quality\n# by district and year\nwater_summary &lt;- water_data |&gt;\n  group_by(district, year) |&gt;\n  summarise(\n    mean_quality = mean(quality,\n                       na.rm = TRUE)\n  )"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#when-to-use-copilot",
+    "href": "content/slides/lec-09-ai-for-r.html#when-to-use-copilot",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "When to Use Copilot",
+    "text": "When to Use Copilot\n✅ Good for:\n\nWriting repetitive code patterns\nBoilerplate function structures\nCommon data transformations\nTest case generation\n\n⚠️ Be cautious:\n\nAlways review suggestions\nMay suggest outdated approaches\nNot always idiomatic R\nSecurity implications with sensitive data"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#copilot-in-rstudio",
+    "href": "content/slides/lec-09-ai-for-r.html#copilot-in-rstudio",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Copilot in RStudio",
+    "text": "Copilot in RStudio\n\n\n\n\n\n\nSetting up Copilot in RStudio\n\n\n\nInstall the Copilot extension (Tools → Global Options → Copilot)\nSign in with your GitHub account\nStart typing - suggestions appear as grey text\nPress Tab to accept, Esc to reject\n\n\n\n\nLearn more: docs.github.com/copilot"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#what-are-agentic-ai-tools",
+    "href": "content/slides/lec-09-ai-for-r.html#what-are-agentic-ai-tools",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "What are Agentic AI Tools?",
+    "text": "What are Agentic AI Tools?\nAI assistants that can:\n\nExecute complex multi-step tasks\nRead and write files autonomously\nRun code and review results\nDebug and iterate automatically\nManage entire workflows\n\n\nExample: Claude Code (formerly Cascade)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#claude-code-overview",
+    "href": "content/slides/lec-09-ai-for-r.html#claude-code-overview",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Claude Code Overview",
+    "text": "Claude Code Overview\n\n\nCapabilities\n\nFile system access\nCode execution\nGit operations\nMulti-file editing\nAutonomous debugging\nContext-aware decisions\n\n\nUse Cases\n\nRefactoring projects\nBuilding new features\nDebugging complex issues\nSetting up workflows\nAnalyzing codebases"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#my-turn-claude-code-demo",
+    "href": "content/slides/lec-09-ai-for-r.html#my-turn-claude-code-demo",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " My Turn: Claude Code Demo",
+    "text": "My Turn: Claude Code Demo\n\nTask: Automated code analysis and improvement\nI’ll demonstrate:\n\nGiving Claude Code a high-level task\nWatching it read and analyze files\nSeeing autonomous code improvements\nReviewing the changes\nUnderstanding when to use this approach\n\n\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#when-to-use-agentic-tools",
+    "href": "content/slides/lec-09-ai-for-r.html#when-to-use-agentic-tools",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "When to Use Agentic Tools",
+    "text": "When to Use Agentic Tools\nBest for:\n\nComplex refactoring tasks\nMulti-file modifications\nExploratory analysis of large codebases\nAutomating repetitive workflows\nLearning unfamiliar code\n\nConsider carefully:\n\nRequires trust in AI decisions\nReview all changes before committing\nMore expensive than other approaches\nNeeds clear task descriptions"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#ai-powered-r-packages",
+    "href": "content/slides/lec-09-ai-for-r.html#ai-powered-r-packages",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "AI-Powered R Packages",
+    "text": "AI-Powered R Packages\nProgrammatic access to AI capabilities:\n\n\nellmer\n\nNew package from Posit\nInterface to multiple LLMs\nStructured data extraction\nFunction calling support\nCost-effective for batch tasks\n\n\nOthers to explore\n\ngptstudio (RStudio addins)\ntidychatmodels (tidy interface)\nopenai (direct API access)\nanthropic (Claude API)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#why-use-r-packages",
+    "href": "content/slides/lec-09-ai-for-r.html#why-use-r-packages",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Why Use R Packages?",
+    "text": "Why Use R Packages?\n\nReproducibility - Code-based workflows you can rerun\nAutomation - Process many files/tasks programmatically\nIntegration - Seamless with existing R pipelines\nControl - Fine-tune model parameters and prompts\nCost tracking - Monitor and optimize API usage"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#my-turn-ellmer-demo",
+    "href": "content/slides/lec-09-ai-for-r.html#my-turn-ellmer-demo",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " My Turn: ellmer Demo",
+    "text": "My Turn: ellmer Demo\n\nTask: Extract structured data from SFD PDF reports\nI’ll demonstrate:\n\nInstalling and setting up ellmer\nReading PDF documents\nCreating extraction prompts\nExtracting structured information\nProcessing results into data frames\n\n\n\n\n\n−+\n15:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#ellmer-data-extraction-example",
+    "href": "content/slides/lec-09-ai-for-r.html#ellmer-data-extraction-example",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "ellmer: Data Extraction Example",
+    "text": "ellmer: Data Extraction Example\n\nlibrary(ellmer)\nlibrary(pdftools)\n\n# Read PDF content\npdf_text &lt;- pdftools::pdf_text(\n  \"3-2351-7-1448552001.pdf\"\n) |&gt;\n  paste(collapse = \"\\n\")\n\n# Create chat with extraction prompt\nchat &lt;- chat_claude() |&gt;\n  chat_append(\"Extract data availability from this SFD report...\")\n\n# Get structured response\nresult &lt;- chat_perform(chat, data = pdf_text)\n\n# Process into dataframe\nextract_data_frame(result)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#api-costs-overview",
+    "href": "content/slides/lec-09-ai-for-r.html#api-costs-overview",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "API Costs Overview",
+    "text": "API Costs Overview\nUsing AI programmatically has costs. Here’s what to expect:\n\n\n\nModel\nInput (per 1M tokens)\nOutput (per 1M tokens)\nTypical PDF\n\n\n\n\nClaude Haiku\n$0.25\n$1.25\n~$0.01\n\n\nClaude Sonnet\n$3.00\n$15.00\n~$0.15\n\n\nGPT-4o mini\n$0.15\n$0.60\n~$0.01\n\n\nGPT-4o\n$2.50\n$10.00\n~$0.12\n\n\n\n\n\n\n\n\n\nCost Management\n\n\n\nStart with cheaper models (Haiku, mini)\nProcess in batches\nCache common queries\nMonitor usage with API dashboards"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#setting-up-api-access",
+    "href": "content/slides/lec-09-ai-for-r.html#setting-up-api-access",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Setting Up API Access",
+    "text": "Setting Up API Access\n\n\nClaude (Anthropic)\n\nGo to console.anthropic.com\nCreate account\nAdd payment method\nGenerate API key\nSet ANTHROPIC_API_KEY in .Renviron\n\n\nGPT (OpenAI)\n\nGo to platform.openai.com\nCreate account\nAdd payment method\nGenerate API key\nSet OPENAI_API_KEY in .Renviron\n\n\n\nSecurity: Never commit API keys to Git! Use .Renviron or password manager."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#key-resources",
+    "href": "content/slides/lec-09-ai-for-r.html#key-resources",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Key Resources",
+    "text": "Key Resources\n\nPosit AI Newsletter - Latest AI tools for R\nellmer documentation - Package guides and examples\nGitHub Copilot docs - Setup and usage\nClaude Code - Agentic AI assistant\nduck.ai - Free privacy-focused chatbot"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#best-practices-for-ai-assisted-coding",
+    "href": "content/slides/lec-09-ai-for-r.html#best-practices-for-ai-assisted-coding",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Best Practices for AI-Assisted Coding",
+    "text": "Best Practices for AI-Assisted Coding\n\nAlways review - Don’t blindly trust AI output\nUnderstand the code - Ask for explanations\nStart simple - Iterate towards complexity\nVersion control - Commit before major AI changes\nTest thoroughly - AI can introduce subtle bugs\nLearn continuously - Use AI as a teaching tool\nRespect privacy - Be careful with sensitive data"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#when-to-use-which-approach",
+    "href": "content/slides/lec-09-ai-for-r.html#when-to-use-which-approach",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "When to Use Which Approach?",
+    "text": "When to Use Which Approach?\n\n\n\nApproach\nBest For\nTime Investment\n\n\n\n\nChatbot\nLearning, quick tasks, brainstorming\nLow\n\n\nCopilot\nWriting code, repetitive patterns\nMedium\n\n\nAgentic\nComplex refactoring, large projects\nHigh\n\n\nR Packages\nBatch processing, automation, APIs\nMedium-High\n\n\n\n\nPro tip: Combine approaches! Use chatbots to learn, Copilot while coding, packages for production."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#ethical-considerations",
+    "href": "content/slides/lec-09-ai-for-r.html#ethical-considerations",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\n\nAttribution - Understand licensing of AI-generated code\nPrivacy - Don’t share confidential data with AI services\nDependency - Balance AI assistance with skill development\nBias - AI models can reflect biases in training data\nVerification - You’re responsible for code quality and correctness"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#looking-forward",
+    "href": "content/slides/lec-09-ai-for-r.html#looking-forward",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Looking Forward",
+    "text": "Looking Forward\nAI for coding is rapidly evolving:\n\nModels are getting better and cheaper\nMore R-specific tools emerging\nIntegration becoming seamless\nAgentic capabilities expanding\nBut fundamentals still matter!\n\n\n\n\n\n\n\n\nRemember\n\n\nAI is a powerful tool, but you are the programmer. Understanding R, data science principles, and problem-solving remains essential."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#next-steps",
+    "href": "content/slides/lec-09-ai-for-r.html#next-steps",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Next Steps",
+    "text": "Next Steps\n\n\nComplete the chatbot exercise if you haven’t finished\nTry ellmer for PDF extraction (see exercise repository)\nExplore the resources shared today\nExperiment with different AI approaches\nShare your experiences in the Matrix chat"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#course-completion",
+    "href": "content/slides/lec-09-ai-for-r.html#course-completion",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Course Completion",
+    "text": "Course Completion\n\n\n\n\n\n\nFinal Reminders\n\n\n\nCapstone project due: December 11, 2025\nQuizzes 1-6: Required for completion\nModule 10: Graduation event on December 18, 2025\n\nYou’re almost there! 🎉"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#learning-objectives",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#learning-objectives",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\nLearners are aware of the responsibility for using AI and critically and evaluating all its output.\nLearners can explain the basics of AI and its potential for improving software development workflows.\nLeaners can Implement strategies to write and debug code using AI-based tools."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#why-ai-for-r-development",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#why-ai-for-r-development",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Why AI for R Development?",
+    "text": "Why AI for R Development?\n\n\nTraditional Workflow\n\nSearch Stack Overflow\nRead documentation\nTrial and error\nDebug manually\nWrite boilerplate code\n\n\nAI-Enhanced Workflow\n\nAsk AI conversationally\nGet code suggestions in real-time\nAutomate repetitive tasks\nIntelligent debugging\nGenerate code from descriptions"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#four-approaches-to-ai-assistance",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#four-approaches-to-ai-assistance",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Four Approaches to AI Assistance",
+    "text": "Four Approaches to AI Assistance\n\nChatbots - Conversational code generation (e.g., duck.ai, ChatGPT)\nCode Completion - Real-time suggestions (e.g., GitHub Copilot)\nAgentic Tools - Autonomous coding assistance (e.g., Claude Code)\nR Packages - Programmatic AI integration (e.g., ellmer, gptstudio)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#todays-agenda",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#todays-agenda",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Today’s Agenda",
+    "text": "Today’s Agenda\n\n10 min - Chatbot approach (My Turn: duck.ai demo)\n15 min - Chatbot approach (Your Turn: WASH data task)\n5 min - GitHub Copilot overview\n10 min - Agentic work mode (My Turn: Claude Code demo)\n15 min - R packages (My Turn: ellmer for PDF extraction)\n5 min - Resources and best practices"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#what-are-ai-chatbots",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#what-are-ai-chatbots",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "What are AI Chatbots?",
+    "text": "What are AI Chatbots?\nConversational interfaces that:\n\nUnderstand natural language questions\nGenerate code based on descriptions\nExplain existing code\nDebug and suggest improvements\nIterate based on your feedback\n\n\nExamples: ChatGPT, Claude, duck.ai, Perplexity"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#duck.ai-overview",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#duck.ai-overview",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "duck.ai Overview",
+    "text": "duck.ai Overview\n\n\nFeatures\n\nFree and privacy-focused\nMultiple AI models\nCode-aware responses\nNo account required\nBuilt by DuckDuckGo\n\n\nBest for\n\nQuick code generation\nLearning new functions\nUnderstanding errors\nExploring approaches\nDocumentation assistance"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#my-turn-duck.ai-demo",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#my-turn-duck.ai-demo",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " My Turn: duck.ai Demo",
+    "text": "My Turn: duck.ai Demo\nTask: Transform and visualize WASH data\n\nI’ll demonstrate:\n\nDescribing the task clearly\nProviding context about the data\nReviewing generated code\nIterating to improve the solution\nTesting the code in RStudio\n\n\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#tips-for-effective-chatbot-prompts",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#tips-for-effective-chatbot-prompts",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Tips for Effective Chatbot Prompts",
+    "text": "Tips for Effective Chatbot Prompts\n\nBe specific - “Create a ggplot2 bar chart” vs “Make a chart”\nProvide context - Share data structure, column names, goal\nIterate - Start simple, then refine\nReview carefully - AI can make mistakes\nAsk for explanations - Understand the code, don’t just copy"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#your-turn-chatbot-exercise",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#your-turn-chatbot-exercise",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " Your Turn: Chatbot Exercise",
+    "text": "Your Turn: Chatbot Exercise\n\nTime: 15 minutes\nTask: Use duck.ai to solve a WASH data problem\nSee the exercise instructions in your repository: md-10-exercises\n\n\n\n\n−+\n15:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#what-is-github-copilot",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#what-is-github-copilot",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "What is GitHub Copilot?",
+    "text": "What is GitHub Copilot?\nAn AI pair programmer that:\n\nSuggests code as you type\nCompletes entire functions\nAdapts to your coding style\nWorks within your IDE\nLearns from context in your files\n\n\nAvailability: Free for students, paid for others"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#how-copilot-works",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#how-copilot-works",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "How Copilot Works",
+    "text": "How Copilot Works\n\n\nYou write:\n# Calculate mean water quality\n# by district and year\n\nCopilot suggests:\n# Calculate mean water quality\n# by district and year\nwater_summary &lt;- water_data |&gt;\n  group_by(district, year) |&gt;\n  summarise(\n    mean_quality = mean(quality,\n                       na.rm = TRUE)\n  )"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#when-to-use-copilot",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#when-to-use-copilot",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "When to Use Copilot",
+    "text": "When to Use Copilot\n✅ Good for:\n\nWriting repetitive code patterns\nBoilerplate function structures\nCommon data transformations\nTest case generation\n\n⚠️ Be cautious:\n\nAlways review suggestions\nMay suggest outdated approaches\nNot always idiomatic R\nSecurity implications with sensitive data"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#copilot-in-rstudio",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#copilot-in-rstudio",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Copilot in RStudio",
+    "text": "Copilot in RStudio\n\n\n\n\n\n\nSetting up Copilot in RStudio\n\n\n\nInstall the Copilot extension (Tools → Global Options → Copilot)\nSign in with your GitHub account\nStart typing - suggestions appear as grey text\nPress Tab to accept, Esc to reject\n\n\n\n\nLearn more: docs.github.com/copilot"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#what-are-agentic-ai-tools",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#what-are-agentic-ai-tools",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "What are Agentic AI Tools?",
+    "text": "What are Agentic AI Tools?\nAI assistants that can:\n\nExecute complex multi-step tasks\nRead and write files autonomously\nRun code and review results\nDebug and iterate automatically\nManage entire workflows\n\n\nExample: Claude Code (formerly Cascade)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#claude-code-overview",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#claude-code-overview",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Claude Code Overview",
+    "text": "Claude Code Overview\n\n\nCapabilities\n\nFile system access\nCode execution\nGit operations\nMulti-file editing\nAutonomous debugging\nContext-aware decisions\n\n\nUse Cases\n\nRefactoring projects\nBuilding new features\nDebugging complex issues\nSetting up workflows\nAnalyzing codebases"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#my-turn-claude-code-demo",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#my-turn-claude-code-demo",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " My Turn: Claude Code Demo",
+    "text": "My Turn: Claude Code Demo\n\nTask: Automated code analysis and improvement\nI’ll demonstrate:\n\nGiving Claude Code a high-level task\nWatching it read and analyze files\nSeeing autonomous code improvements\nReviewing the changes\nUnderstanding when to use this approach\n\n\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#when-to-use-agentic-tools",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#when-to-use-agentic-tools",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "When to Use Agentic Tools",
+    "text": "When to Use Agentic Tools\nBest for:\n\nComplex refactoring tasks\nMulti-file modifications\nExploratory analysis of large codebases\nAutomating repetitive workflows\nLearning unfamiliar code\n\nConsider carefully:\n\nRequires trust in AI decisions\nReview all changes before committing\nMore expensive than other approaches\nNeeds clear task descriptions"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#ai-powered-r-packages",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#ai-powered-r-packages",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "AI-Powered R Packages",
+    "text": "AI-Powered R Packages\nProgrammatic access to AI capabilities:\n\n\nellmer\n\nNew package from Posit\nInterface to multiple LLMs\nStructured data extraction\nFunction calling support\nCost-effective for batch tasks\n\n\nOthers to explore\n\ngptstudio (RStudio addins)\ntidychatmodels (tidy interface)\nopenai (direct API access)\nanthropic (Claude API)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#why-use-r-packages",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#why-use-r-packages",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Why Use R Packages?",
+    "text": "Why Use R Packages?\n\nReproducibility - Code-based workflows you can rerun\nAutomation - Process many files/tasks programmatically\nIntegration - Seamless with existing R pipelines\nControl - Fine-tune model parameters and prompts\nCost tracking - Monitor and optimize API usage"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#my-turn-ellmer-demo",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#my-turn-ellmer-demo",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": " My Turn: ellmer Demo",
+    "text": "My Turn: ellmer Demo\n\nTask: Extract structured data from SFD PDF reports\nI’ll demonstrate:\n\nInstalling and setting up ellmer\nReading PDF documents\nCreating extraction prompts\nExtracting structured information\nProcessing results into data frames\n\n\n\n\n\n−+\n15:00"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#ellmer-data-extraction-example",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#ellmer-data-extraction-example",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "ellmer: Data Extraction Example",
+    "text": "ellmer: Data Extraction Example\n\nlibrary(ellmer)\nlibrary(pdftools)\n\n# Read PDF content\npdf_text &lt;- pdftools::pdf_text(\n  \"3-2351-7-1448552001.pdf\"\n) |&gt;\n  paste(collapse = \"\\n\")\n\n# Create chat with extraction prompt\nchat &lt;- chat_claude() |&gt;\n  chat_append(\"Extract data availability from this SFD report...\")\n\n# Get structured response\nresult &lt;- chat_perform(chat, data = pdf_text)\n\n# Process into dataframe\nextract_data_frame(result)"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#api-costs-overview",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#api-costs-overview",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "API Costs Overview",
+    "text": "API Costs Overview\nUsing AI programmatically has costs. Here’s what to expect:\n\n\n\nModel\nInput (per 1M tokens)\nOutput (per 1M tokens)\nTypical PDF\n\n\n\n\nClaude Haiku\n$0.25\n$1.25\n~$0.01\n\n\nClaude Sonnet\n$3.00\n$15.00\n~$0.15\n\n\nGPT-4o mini\n$0.15\n$0.60\n~$0.01\n\n\nGPT-4o\n$2.50\n$10.00\n~$0.12\n\n\n\n\n\n\n\n\n\nCost Management\n\n\n\nStart with cheaper models (Haiku, mini)\nProcess in batches\nCache common queries\nMonitor usage with API dashboards"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#setting-up-api-access",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#setting-up-api-access",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Setting Up API Access",
+    "text": "Setting Up API Access\n\n\nClaude (Anthropic)\n\nGo to console.anthropic.com\nCreate account\nAdd payment method\nGenerate API key\nSet ANTHROPIC_API_KEY in .Renviron\n\n\nGPT (OpenAI)\n\nGo to platform.openai.com\nCreate account\nAdd payment method\nGenerate API key\nSet OPENAI_API_KEY in .Renviron\n\n\n\nSecurity: Never commit API keys to Git! Use .Renviron or password manager."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#key-resources",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#key-resources",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Key Resources",
+    "text": "Key Resources\n\nPosit AI Newsletter - Latest AI tools for R\nellmer documentation - Package guides and examples\nGitHub Copilot docs - Setup and usage\nClaude Code - Agentic AI assistant\nduck.ai - Free privacy-focused chatbot"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#best-practices-for-ai-assisted-coding",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#best-practices-for-ai-assisted-coding",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Best Practices for AI-Assisted Coding",
+    "text": "Best Practices for AI-Assisted Coding\n\nAlways review - Don’t blindly trust AI output\nUnderstand the code - Ask for explanations\nStart simple - Iterate towards complexity\nVersion control - Commit before major AI changes\nTest thoroughly - AI can introduce subtle bugs\nLearn continuously - Use AI as a teaching tool\nRespect privacy - Be careful with sensitive data"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#when-to-use-which-approach",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#when-to-use-which-approach",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "When to Use Which Approach?",
+    "text": "When to Use Which Approach?\n\n\n\nApproach\nBest For\nTime Investment\n\n\n\n\nChatbot\nLearning, quick tasks, brainstorming\nLow\n\n\nCopilot\nWriting code, repetitive patterns\nMedium\n\n\nAgentic\nComplex refactoring, large projects\nHigh\n\n\nR Packages\nBatch processing, automation, APIs\nMedium-High\n\n\n\n\nPro tip: Combine approaches! Use chatbots to learn, Copilot while coding, packages for production."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#ethical-considerations",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#ethical-considerations",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\n\nAttribution - Understand licensing of AI-generated code\nPrivacy - Don’t share confidential data with AI services\nDependency - Balance AI assistance with skill development\nBias - AI models can reflect biases in training data\nVerification - You’re responsible for code quality and correctness"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#looking-forward",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#looking-forward",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Looking Forward",
+    "text": "Looking Forward\nAI for coding is rapidly evolving:\n\nModels are getting better and cheaper\nMore R-specific tools emerging\nIntegration becoming seamless\nAgentic capabilities expanding\nBut fundamentals still matter!\n\n\n\n\n\n\n\n\nRemember\n\n\nAI is a powerful tool, but you are the programmer. Understanding R, data science principles, and problem-solving remains essential."
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#next-steps",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#next-steps",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Next Steps",
+    "text": "Next Steps\n\n\nComplete the chatbot exercise if you haven’t finished\nTry ellmer for PDF extraction (see exercise repository)\nExplore the resources shared today\nExperiment with different AI approaches\nShare your experiences in the Matrix chat"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r-draft.html#course-completion",
+    "href": "content/slides/lec-09-ai-for-r-draft.html#course-completion",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Course Completion",
+    "text": "Course Completion\n\n\n\n\n\n\nFinal Reminders\n\n\n\nCapstone project due: December 11, 2025\nQuizzes 1-6: Required for completion\nModule 10: Graduation event on December 18, 2025\n\nYou’re almost there! 🎉"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#five-approaches-to-ai-assistance",
+    "href": "content/slides/lec-09-ai-for-r.html#five-approaches-to-ai-assistance",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Five Approaches to AI Assistance",
+    "text": "Five Approaches to AI Assistance\n\nChatbots - Conversational code generation (e.g., duck.ai, ChatGPT)\nCode Completion - Real-time suggestions (e.g., GitHub Copilot)\nIn-IDE Chat - Context-aware assistance within your IDE\nAgentic Tools - Autonomous coding assistance (e.g., Claude Code)\nR Packages - Programmatic AI integration (e.g., ellmer)\n\n\n\nChatbots: here is the problem, write R code for that\nInline autocomplete: modern IDEs bring in autocomplete, one of the skills of programming today is to ignore it when it’s bad and accept it when it’s good\nIn-IDE chat: that’s mostly for convenience and is like chatting with a Chat provider like duck.ai, the chat knows more about what you are doing because it can see what you are working on\nAgentic coding: newest trend, Cursor, Claude Code, LLM goes off and writes a bunch of code\nR Packages: programmatic access to AI capabilities, ellmer, gptstudio, openai, anthropic"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#clear-win-translations",
+    "href": "content/slides/lec-09-ai-for-r.html#clear-win-translations",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "Clear win: translations",
+    "text": "Clear win: translations\n\nPseudo code -&gt; code\nLatex -&gt; Quarto\nSQL -&gt; dplyr\nSAS / STATA / SPSS -&gt; R\nWords -&gt; regular expressions\nImage to shiny app / Quarto dashboard\n\n\nKeynote: I Wrote This Talk with an LLM - Hadley Wickham"
+  },
+  {
+    "objectID": "content/slides/lec-09-ai-for-r.html#llm-concerns",
+    "href": "content/slides/lec-09-ai-for-r.html#llm-concerns",
+    "title": "Bonus module: Use of AI for coding support",
+    "section": "LLM concerns",
+    "text": "LLM concerns\n\nCost/equality of access: $5 on Claude gets you pretty far; Gemini has a generous free tier. Local models not worth it IMO (but maybe gpt-oss changes that).\nEnvironmental concerns: worth considering, but small and decreasing on individual level. More impactful ways to save energy/water.\nData privacy: legit as individual. Not a problem for most bigger orgs as most data already lives in some cloud, and cloud providers run LLMs.\n\n\nKeynote: I Wrote This Talk with an LLM - Hadley Wickham"
   }
 ]

@@ -286,3 +286,173 @@ knitr::include_graphics("images/gh-pages-17-about.png")
 ```
 
 8. Open your published website and enjoy.
+
+## GitHub Copilot Pro subscription
+
+### Get GitHub Copilot Pro
+
+GitHub Copilot is an AI-powered code completion tool that can help you write code faster. GitHub Copilot Pro is available for free to verified teachers and students through GitHub Education.
+
+::: {.callout-tip}
+## Free access for students and teachers
+Teachers and students can get free access to GitHub Copilot Pro through GitHub Education. Learn more at [GitHub Copilot for Education](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro).
+:::
+
+Follow these steps to get GitHub Copilot Pro:
+
+1. Open <https://github.com/settings/copilot> in your browser while logged into your GitHub account.
+
+```{r}
+# Placeholder for screenshot: GitHub Copilot settings page
+knitr::include_graphics("images/copilot/screenshot-copilot-settings-page.png")
+```
+
+2. If you are eligible for free access through GitHub Education, you will see a message indicating your eligibility. Click on [Get access to GitHub Copilot]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Eligibility message and button
+knitr::include_graphics("images/copilot/screenshot-copilot-eligibility.png")
+```
+
+3. If you are not eligible for free access, you can start a free trial or subscribe to GitHub Copilot Pro. Click on [Start free trial]{.highlight-yellow} or [Subscribe]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Subscription options
+knitr::include_graphics("images/copilot/screenshot-copilot-subscription.png")
+```
+
+4. Follow the on-screen instructions to complete your subscription or activate your free access.
+
+5. Once activated, you will see a confirmation message.
+
+```{r}
+# Placeholder for screenshot: Confirmation message
+knitr::include_graphics("images/copilot/screenshot-copilot-activated.png")
+```
+
+::: {.callout-important}
+## Installing Copilot extensions
+After subscribing, you will need to install the GitHub Copilot extension in your code editor (VS Code, RStudio, etc.) to start using it.
+:::
+
+### Activate Copilot in RStudio
+
+Once you have subscribed to GitHub Copilot Pro, you can activate it in RStudio to start using AI-powered code completion.
+
+::: {.callout-note}
+## RStudio version requirement
+GitHub Copilot is available in RStudio version 2023.09.0 or later. If you are using an older version, you will need to update RStudio first.
+:::
+
+Follow these steps to activate GitHub Copilot in RStudio:
+
+1. Open RStudio on your computer or in Posit Cloud.
+
+2. On the menu bar, click on [Tools]{.highlight-yellow} > [Global Options...]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Tools menu with Global Options
+knitr::include_graphics("images/copilot/screenshot-rstudio-tools-global-options.png")
+```
+
+3. In the left panel, click on [Copilot]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Global Options with Copilot in left panel
+knitr::include_graphics("images/copilot/screenshot-rstudio-copilot-panel.png")
+```
+
+4. Check the box next to [Enable GitHub Copilot]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Enable GitHub Copilot checkbox
+knitr::include_graphics("images/copilot/screenshot-rstudio-enable-copilot.png")
+```
+
+5. Click [Sign In]{.highlight-yellow} to authenticate with your GitHub account.
+
+```{r}
+# Placeholder for screenshot: Sign In button
+knitr::include_graphics("images/copilot/screenshot-rstudio-copilot-sign-in.png")
+```
+
+6. A browser window will open asking you to authorize RStudio to access GitHub Copilot. Click [Authorize]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: GitHub authorization page
+knitr::include_graphics("images/copilot/screenshot-github-authorize-rstudio.png")
+```
+
+7. You will see a confirmation message that GitHub Copilot is now connected. Return to RStudio.
+
+```{r}
+# Placeholder for screenshot: Confirmation message
+knitr::include_graphics("images/copilot/screenshot-copilot-connected.png")
+```
+
+8. Click [Apply]{.highlight-yellow} and [OK]{.highlight-yellow} to save your settings.
+
+9. GitHub Copilot is now active in RStudio. As you type code, you will see AI-powered suggestions appear in gray text. Press [Tab]{.highlight-yellow} to accept a suggestion.
+
+```{r}
+# Placeholder for screenshot: Copilot suggestion in RStudio editor
+knitr::include_graphics("images/copilot/screenshot-rstudio-copilot-suggestion.png")
+```
+
+::: {.callout-tip}
+## Using Copilot effectively
+- Copilot works best when you provide clear comments or function names describing what you want to accomplish
+- You can press `Esc` to dismiss a suggestion you don't want to use
+- Try writing a comment like `# Calculate the mean of column x` and see what Copilot suggests
+:::
+
+### Cancel GitHub Copilot Pro subscription
+
+If you need to cancel your GitHub Copilot Pro subscription, follow these steps:
+
+1. Open <https://github.com/settings/copilot> in your browser while logged into your GitHub account.
+
+```{r}
+# Placeholder for screenshot: GitHub Copilot settings page
+knitr::include_graphics("images/copilot/screenshot-copilot-settings-cancel.png")
+```
+
+2. Scroll down to the [Subscription]{.highlight-yellow} section.
+
+```{r}
+# Placeholder for screenshot: Subscription section
+knitr::include_graphics("images/copilot/screenshot-copilot-subscription-section.png")
+```
+
+3. Click on [Manage subscription]{.highlight-yellow} or [Cancel subscription]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Manage/Cancel subscription button
+knitr::include_graphics("images/copilot/screenshot-copilot-cancel-button.png")
+```
+
+4. You may be redirected to a billing page. On the billing page, find the GitHub Copilot section and click [Cancel]{.highlight-yellow}.
+
+```{r}
+# Placeholder for screenshot: Billing page with cancel option
+knitr::include_graphics("images/copilot/screenshot-copilot-billing-cancel.png")
+```
+
+5. Confirm your cancellation by following the on-screen prompts.
+
+```{r}
+# Placeholder for screenshot: Cancellation confirmation
+knitr::include_graphics("images/copilot/screenshot-copilot-cancel-confirm.png")
+```
+
+6. You will receive a confirmation that your subscription has been cancelled. You will retain access to GitHub Copilot Pro until the end of your billing period.
+
+```{r}
+# Placeholder for screenshot: Final confirmation message
+knitr::include_graphics("images/copilot/screenshot-copilot-cancelled.png")
+```
+
+::: {.callout-note}
+## Free tier users
+If you are using GitHub Copilot through GitHub Education, your access will not require cancellation and will remain active as long as you maintain your student or teacher status.
+:::
