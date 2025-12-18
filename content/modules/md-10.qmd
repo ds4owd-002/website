@@ -1,0 +1,85 @@
+---
+title: "Module 10"
+subtitle: "{{< var md-10.title >}}"
+editor: source
+execute:
+  echo: false
+  warning: false
+---
+
+## {{< fa graduation-cap >}} Graduation Event
+
+```{r}
+#| label: setup
+
+library(epoxy)
+```
+
+```{r}
+#| label: event-info
+
+# Read variables and format date
+vars <- yaml::read_yaml(here::here("_variables.yml"))
+session_date <- format(as.Date(vars$`md-10`$date), "%B %d, %Y")
+```
+
+Congratulations on completing the ds4owd-002 course! Join us for our graduation celebration on `r session_date`.
+
+## {{< fa display >}} Slides
+
+[View slides in full screen](../slides/lec-10-graduation.html) | [Download slides as PDF](https://github.com/ds4owd-002/website/raw/main/content/slides/lec-10-graduation.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="../slides/lec-10-graduation.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+## {{< fa calendar >}} Event Agenda
+
+```{r}
+agenda <- readr::read_csv(here::here("data/tbl-04-ds4owd-002-graduation.csv"))
+
+agenda |>
+    dplyr::mutate(
+      time = format(start_time, "%H:%M"),
+      # Create hyperlinked title if project_link exists
+      title = ifelse(
+        !is.na(project_link),
+        paste0("[", title, "](", project_link, ")"),
+        title
+      )
+    ) |>
+    dplyr::select(time, duration, title, speaker) |>
+    dplyr::mutate(
+      duration = format(duration, "%M min"),
+      speaker = ifelse(is.na(speaker), "", speaker)
+    ) |>
+    dplyr::rename_with(~stringr::str_to_title(.x), everything()) |>
+    knitr::kable()
+```
+
+## {{< fa trophy >}} Course Completion
+
+You successfully complete the course and receive a certificate of completion if you:
+
+1. [Hand in a complete capstone project report]{.highlight-yellow} that uses a dataset of your choice
+2. Complete all quizzes from module 1 through module 6
+
+## {{< fa clipboard-check >}} Post-Course Survey
+
+We would appreciate your feedback! Please complete the short post-course survey:
+
+<https://forms.gle/cahqbLBoGt4eKu7K8>
+
+Without the free-text questions, the survey will take a maximum of 5 minutes to complete.
+
+## {{< fa newspaper >}} Stay Connected
+
+Subscribe to the [openwashdata newsletter](https://buttondown.com/openwashdata) to receive:
+
+- Updates on future workshops
+- Insights into data collected during the course
+- News about the openwashdata community
+
+## {{< fa video >}} Session Recording
+
+We will not record this session.

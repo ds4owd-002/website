@@ -60,3 +60,6 @@ renv/staging/
 # CLAUDE.md files shouldn't be rendered
 CLAUDE.md
 docs/CLAUDE.html
+
+# issues data
+data/all_issues.rds

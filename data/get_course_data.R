@@ -39,4 +39,9 @@ link_project <- "https://docs.google.com/spreadsheets/d/1CZGESzUGO9fWWM15gs_f1NL
 googlesheets4::read_sheet("18-onMxZi0sBf-fEMR7bR5RuT4Qy4t7D-bZ12gdoNYXI") |> 
   write_csv(here::here("data/tbl-03-ds4owd-002-capstone-project-elements"))
 
+# graduation
 
+link_graduation <- "https://docs.google.com/spreadsheets/d/1PwxAdwrkjFBWLpVk8wuV23EI8Nfb1Za8LS0uvXgoqGQ/edit?gid=0#gid=0"
+
+googlesheets4::read_sheet(link_graduation) |> 
+  write_csv(here::here("data/tbl-04-ds4owd-002-graduation.csv"))
