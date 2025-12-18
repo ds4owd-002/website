@@ -4346,5 +4346,257 @@
     "title": "data science for openwashdata",
     "section": "",
     "text": "Part 1 (46)\n\nGitHub email (5)\n\nLate start: 5 minutes\n\nWelcome (20)\n\nMeet the team (5)\nLearning Goals (1)\nAbout you (7)\n\nNotes\nBreak-out\n\nCourse Calendar (1)\nCourse structure (2)\n\nMy turn\nOur turn\nYour turn\n\nGetting help (1)\nPlatforms and Tools (1)\nBookmark website (0.5)\nLearning Objectives (1)\nMagic (0.5)\n\nPosit Cloud (3)\n\nScreenshots (2)\nScreen setup (1)\n\nPoll\n\n\nHello Quarto (1)\n\nMeeting you where you are (1)\n\nWhat is Quarto Part 1 (17)\n\nQuarto … (1)\nMy turn: A tour of Quarto (10)\n\nVisual editor\n\nYAML Metadata\nHeadings\n\nAdd Heading 2: Analysis\n\nText\n\nBold text\nAdd hyperlink\n\nhttps://jennybc.github.io/gapminder/\n\n\nBullets\nCode chunk\n\nCode-chunk options\nRun code\n\nRender\n\nHTML\n\nYAML metadta\n\nAdd author\nAdd date: today\n\nRender\n\nHTML\n\nAdd table of contents and code-fold\n\nformat: html: toc: true code-fold: true\n\nRender\n\nHTML\n\nAdd pdf: default\n\nformat: html: toc: true code-fold: true pdf: default\n\nRender\n\n\nYour turn: Log into Posit Cloud with GitHub account (5)\n\n\nBreak (10)\nPart 2 (46)\n\nWhat is Quarto Part 2 (11)\n\nYour turn: md-01-exercises (10)\nFrom the comfort of your own workspace (1)\n\nQuarto formats (12)\n\nOne install, “Batteries included” (1)\nMany Quarto formats (1)\nYour Turn: Create a new Quarto document (10)\n\n\nVersion Control (23)\n\nVersion Control with Git and GitHub (1)\nWhy is it useful? (1)\nGit and GitHub (1)\nMy turn: A tour of GitHub (5)\n\nDashboard\nMy account\nGitHub organisation\nIssue tracker\n\nOur turn: Configure Notifications settings (5)\nYour turn: Create an issue on GitHub (10)\n\n\nBreak (10)\nPart 3 (20)\n\nAnatomy of a Quarto document (2)\n\nComponents (0.5)\nLiterate programming (1.5)\n\nMetadata (7)\n\nYAML (0.5)\nOutput options (1.5)\nOutput option arguments (1)\nYAML validation (2)\nQuarto linting (1)\nQuarto YAML Intelligence (1)\n\nR fundamentals (5)\n\nPackages (1)\nFunctions & Arguments (1)\nObjects (1)\nOperators (1)\nRules (1)\n\nCourse information (3)\n\nWeekly structure (1)\nHomework assignments (1)\nCapstone Project (1)\n\nHomework assignments module 1 (2)\n\nModule 1 documentation (1.5)\nHomework due date (0.5)\n\nWrap-up (1)\n\nThanks (1)"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#agenda",
+    "href": "content/slides/lec-10-graduation.html#agenda",
+    "title": "Graduation of openwashdata academy",
+    "section": " Agenda",
+    "text": "Agenda\n\n\n\n\n\nTime\nDuration\nTitle\nSpeaker\n\n\n\n\n02:00\n15 min\nProject reviews, certificates, post-course survey, data publication\nLars Schöbitz\n\n\n02:15\n05 min\nWelcome\nElizabeth Tilley\n\n\n02:20\n05 min\nWater inequalities across CPLP member states\nSílvia Paiva\n\n\n02:25\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:28\n05 min\nAir quality trends in the last decade\nMario Gavidia-Calderón\n\n\n02:33\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:36\n05 min\nClimate Variability in Kisumu County: An Analysis of Rainfall, Temperature, and Humidity (2021–2024)\nElisha Ochieng Okoth\n\n\n02:41\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:44\n05 min\nWater Insecurity Experiences Among Rural Households in Chaharmahal and Bakhtiari Province, Iran\nAli Yousefi\n\n\n02:49\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:52\n05 min\nFaecal sludge truck logistics analysis in Kampala, Uganda\nJos van der Ent\n\n\n02:57\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:00\n05 min\nWater, Sanitation, and Hygiene (WASH) Indicators in North African Countries\nFarah Arbi\n\n\n03:05\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:08\n05 min\nEvaluating the performance of fecal sludge treatment technologies in Rohingya refugee camps\nMejbah Uddin Chowdhury\n\n\n03:13\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:16\n14 min\nClosing\nLars Schöbitz"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#capstone-project-reviews",
+    "href": "content/slides/lec-10-graduation.html#capstone-project-reviews",
+    "title": "Graduation of openwashdata academy",
+    "section": "Capstone project reviews",
+    "text": "Capstone project reviews\n\nReviews completed end of January 2026\nReviews are relatively minimal and support your needs (there is no pass/fail)\nPlease ask for specific advice if you would like help\nOpen an issue in your project repository to ask questions\nTag instructors: @seawaR @larnsce"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#setup",
+    "href": "content/slides/lec-10-graduation.html#setup",
+    "title": "Graduation of openwashdata academy",
+    "section": "Setup",
+    "text": "Setup"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#repositories-by-module",
+    "href": "content/slides/lec-10-graduation.html#repositories-by-module",
+    "title": "Graduation of openwashdata academy",
+    "section": "Repositories by Module",
+    "text": "Repositories by Module"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#student-retention-curve",
+    "href": "content/slides/lec-10-graduation.html#student-retention-curve",
+    "title": "Graduation of openwashdata academy",
+    "section": "Student Retention Curve",
+    "text": "Student Retention Curve"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#issues-by-module-and-state",
+    "href": "content/slides/lec-10-graduation.html#issues-by-module-and-state",
+    "title": "Graduation of openwashdata academy",
+    "section": "Issues by Module and State",
+    "text": "Issues by Module and State"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#distribution-of-submissions",
+    "href": "content/slides/lec-10-graduation.html#distribution-of-submissions",
+    "title": "Graduation of openwashdata academy",
+    "section": "Distribution of Submissions",
+    "text": "Distribution of Submissions"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#student-participation-timeline",
+    "href": "content/slides/lec-10-graduation.html#student-participation-timeline",
+    "title": "Graduation of openwashdata academy",
+    "section": "Student Participation Timeline",
+    "text": "Student Participation Timeline"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#assignment-submission-counts",
+    "href": "content/slides/lec-10-graduation.html#assignment-submission-counts",
+    "title": "Graduation of openwashdata academy",
+    "section": "Assignment Submission Counts",
+    "text": "Assignment Submission Counts"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#issue-resolution-time-by-module",
+    "href": "content/slides/lec-10-graduation.html#issue-resolution-time-by-module",
+    "title": "Graduation of openwashdata academy",
+    "section": "Issue Resolution Time by Module",
+    "text": "Issue Resolution Time by Module"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#your-turn-complete-post-course-survey",
+    "href": "content/slides/lec-10-graduation.html#your-turn-complete-post-course-survey",
+    "title": "Graduation of openwashdata academy",
+    "section": "Your Turn: Complete post-course survey",
+    "text": "Your Turn: Complete post-course survey\n5 Minutes Countdown\nWe would like to ask you to complete a short post-course survey. Without the free-text questions, the survey will take a maximum of 5 minutes to complete, and it would be very helpful to receive as many responses as possible:\nhttps://forms.gle/cahqbLBoGt4eKu7K8\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#subscribe-to-openwashdata-newsletter",
+    "href": "content/slides/lec-10-graduation.html#subscribe-to-openwashdata-newsletter",
+    "title": "Graduation of openwashdata academy",
+    "section": "Subscribe to openwashdata newsletter",
+    "text": "Subscribe to openwashdata newsletter\nWe would like to invite you to subscribe to our openwashdata newsletter. You will receive the latest updates on future workshops and insights into the data collected as part of the course. We have not published much recently, but will resume in the new year.\nhttps://buttondown.com/openwashdata"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#thanks",
+    "href": "content/slides/lec-10-graduation.html#thanks",
+    "title": "Graduation of openwashdata academy",
+    "section": "Thanks!",
+    "text": "Thanks!\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#graduates-table-todo",
+    "href": "content/slides/lec-10-graduation.html#graduates-table-todo",
+    "title": "Graduation of openwashdata academy",
+    "section": "Graduates table (TODO)",
+    "text": "Graduates table (TODO)\n\nadd all completed projects to openwashdata.org\nhttps://openwashdata.org/pages/academy/graduates/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#data-packages-todo",
+    "href": "content/slides/lec-10-graduation.html#data-packages-todo",
+    "title": "Graduation of openwashdata academy",
+    "section": "Data Packages (TODO)",
+    "text": "Data Packages (TODO)\n\nthose with their own primary data\nwork on data publication following our workflows\nhttps://github.com/openwashdata/fairenough"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#repositories-with-issues-by-module",
+    "href": "content/slides/lec-10-graduation.html#repositories-with-issues-by-module",
+    "title": "Graduation of openwashdata academy",
+    "section": "Repositories with Issues by Module",
+    "text": "Repositories with Issues by Module"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#your-turn-complete-post-course-survey-todo-put-this-and-newsletter-subscription-on-same-slide.-reduce-text-to-two-bullet-point-instructions",
+    "href": "content/slides/lec-10-graduation.html#your-turn-complete-post-course-survey-todo-put-this-and-newsletter-subscription-on-same-slide.-reduce-text-to-two-bullet-point-instructions",
+    "title": "Graduation of openwashdata academy",
+    "section": "Your Turn: Complete post-course survey (TODO: Put this and newsletter subscription on same slide. reduce text to two bullet point instructions )",
+    "text": "Your Turn: Complete post-course survey (TODO: Put this and newsletter subscription on same slide. reduce text to two bullet point instructions )\nWe would like to ask you to complete a short post-course survey. Without the free-text questions, the survey will take a maximum of 5 minutes to complete, and it would be very helpful to receive as many responses as possible:\nhttps://forms.gle/cahqbLBoGt4eKu7K8\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "content/modules/md-10.html",
+    "href": "content/modules/md-10.html",
+    "title": "Module 10",
+    "section": "",
+    "text": "Congratulations on completing the ds4owd-002 course! Join us for our graduation celebration on December 18, 2025."
+  },
+  {
+    "objectID": "content/modules/md-10.html#graduation-event",
+    "href": "content/modules/md-10.html#graduation-event",
+    "title": "Module 10",
+    "section": "",
+    "text": "Congratulations on completing the ds4owd-002 course! Join us for our graduation celebration on December 18, 2025."
+  },
+  {
+    "objectID": "content/modules/md-10.html#slides",
+    "href": "content/modules/md-10.html#slides",
+    "title": "Module 10",
+    "section": " Slides",
+    "text": "Slides\nView slides in full screen | Download slides as PDF"
+  },
+  {
+    "objectID": "content/modules/md-10.html#event-agenda",
+    "href": "content/modules/md-10.html#event-agenda",
+    "title": "Module 10",
+    "section": " Event Agenda",
+    "text": "Event Agenda\n\n\n\n\n\nTime\nDuration\nTitle\nSpeaker\n\n\n\n\n02:00\n15 min\nProject reviews, certificates, post-course survey, data publication\nLars Schöbitz\n\n\n02:15\n05 min\nWelcome\nElizabeth Tilley\n\n\n02:20\n05 min\nWater inequalities across CPLP member states\nSílvia Paiva\n\n\n02:25\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:28\n05 min\nAir quality trends in the last decade\nMario Gavidia-Calderón\n\n\n02:33\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:36\n05 min\nClimate Variability in Kisumu County: An Analysis of Rainfall, Temperature, and Humidity (2021–2024)\nElisha Ochieng Okoth\n\n\n02:41\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:44\n05 min\nWater Insecurity Experiences Among Rural Households in Chaharmahal and Bakhtiari Province, Iran\nAli Yousefi\n\n\n02:49\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:52\n05 min\nFaecal sludge truck logistics analysis in Kampala, Uganda\nJos van der Ent\n\n\n02:57\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:00\n05 min\nWater, Sanitation, and Hygiene (WASH) Indicators in North African Countries\nFarah Arbi\n\n\n03:05\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:08\n05 min\nEvaluating the performance of fecal sludge treatment technologies in Rohingya refugee camps\nMejbah Uddin Chowdhury\n\n\n03:13\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:16\n14 min\nClosing\nLars Schöbitz"
+  },
+  {
+    "objectID": "content/modules/md-10.html#course-completion",
+    "href": "content/modules/md-10.html#course-completion",
+    "title": "Module 10",
+    "section": " Course Completion",
+    "text": "Course Completion\nYou successfully complete the course and receive a certificate of completion if you:\n\nHand in a complete capstone project report that uses a dataset of your choice\nComplete all quizzes from module 1 through module 6"
+  },
+  {
+    "objectID": "content/modules/md-10.html#post-course-survey",
+    "href": "content/modules/md-10.html#post-course-survey",
+    "title": "Module 10",
+    "section": " Post-Course Survey",
+    "text": "Post-Course Survey\nWe would appreciate your feedback! Please complete the short post-course survey:\nhttps://forms.gle/cahqbLBoGt4eKu7K8\nWithout the free-text questions, the survey will take a maximum of 5 minutes to complete."
+  },
+  {
+    "objectID": "content/modules/md-10.html#stay-connected",
+    "href": "content/modules/md-10.html#stay-connected",
+    "title": "Module 10",
+    "section": " Stay Connected",
+    "text": "Stay Connected\nSubscribe to the openwashdata newsletter to receive:\n\nUpdates on future workshops\nInsights into data collected during the course\nNews about the openwashdata community"
+  },
+  {
+    "objectID": "content/modules/md-10.html#session-recording",
+    "href": "content/modules/md-10.html#session-recording",
+    "title": "Module 10",
+    "section": " Session Recording",
+    "text": "Session Recording\nWe will not record this session."
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#graduates-recognition",
+    "href": "content/slides/lec-10-graduation.html#graduates-recognition",
+    "title": "Graduation of openwashdata academy",
+    "section": "Graduates Recognition",
+    "text": "Graduates Recognition\nWe will showcase course graduates on the openwashdata website:\n\nAll completed projects will be featured\nLink to your report, GitHub profile, LinkedIn, ORCID\nVisit: openwashdata.org/pages/academy/graduates"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#data-package-publication",
+    "href": "content/slides/lec-10-graduation.html#data-package-publication",
+    "title": "Graduation of openwashdata academy",
+    "section": "Data Package Publication",
+    "text": "Data Package Publication\nFor students with primary data in their capstone projects:\n\nWe support data publication following open science workflows\nCreate FAIR data packages with proper documentation\nLearn more: github.com/openwashdata/fairenough"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#your-turn-survey-newsletter",
+    "href": "content/slides/lec-10-graduation.html#your-turn-survey-newsletter",
+    "title": "Graduation of openwashdata academy",
+    "section": "Your Turn: Survey & Newsletter",
+    "text": "Your Turn: Survey & Newsletter\n\nComplete the [post-course survey: https://forms.gle/cahqbLBoGt4eKu7K8 (5 minutes)\nSubscribe to the openwashdata newsletter: https://buttondown.com/openwashdata for future updates\n\n\n\n\n−+\n06:00"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html",
+    "href": "content/slides/lec-10-graduation.html",
+    "title": "Graduation of openwashdata academy",
+    "section": "",
+    "text": "Rows: 17 Columns: 8\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (5): title, project_link, speaker, speaker_link, affiliation\ndttm (3): start_time, end_time, duration\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\n\n\n\n\n\nTime\nDuration\nTitle\nSpeaker\n\n\n\n\n02:00\n15 min\nProject reviews, certificates, post-course survey, data publication\nLars Schöbitz\n\n\n02:15\n05 min\nWelcome\nElizabeth Tilley\n\n\n02:20\n05 min\nWater inequalities across CPLP member states\nSílvia Paiva\n\n\n02:25\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:28\n05 min\nAir quality trends in the last decade\nMario Gavidia-Calderón\n\n\n02:33\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:36\n05 min\nClimate Variability in Kisumu County: An Analysis of Rainfall, Temperature, and Humidity (2021–2024)\nElisha Ochieng Okoth\n\n\n02:41\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:44\n05 min\nWater Insecurity Experiences Among Rural Households in Chaharmahal and Bakhtiari Province, Iran\nAli Yousefi\n\n\n02:49\n03 min\n1 Comment / Question & Speaker change\n\n\n\n02:52\n05 min\nFaecal sludge truck logistics analysis in Kampala, Uganda\nJos van der Ent\n\n\n02:57\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:00\n05 min\nWater, Sanitation, and Hygiene (WASH) Indicators in North African Countries\nFarah Arbi\n\n\n03:05\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:08\n05 min\nEvaluating the performance of fecal sludge treatment technologies in Rohingya refugee camps\nMejbah Uddin Chowdhury\n\n\n03:13\n03 min\n1 Comment / Question & Speaker change\n\n\n\n03:16\n14 min\nClosing\nLars Schöbitz\n\n\n\n\n\n\n\n\n\nReviews completed end of January 2026\nReviews are relatively minimal and support your needs (there is no pass/fail)\nPlease ask for specific advice if you would like help\nOpen an issue in your project repository to ask questions\nTag instructors: @seawaR @larnsce\n\n\n\n\nWe will showcase course graduates on the openwashdata website:\n\nAll completed projects will be featured\nOptional: Link to your report, GitHub profile, LinkedIn, ORCID\nVisit: openwashdata.org/pages/academy/graduates\n\n\n\n\nFor students with primary data in their capstone projects:\n\nWe support data publication following open science workflows\nCreate FAIR data packages with proper documentation\nLearn more: github.com/openwashdata/fairenough"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#sílvia-paiva",
+    "href": "content/slides/lec-10-graduation.html#sílvia-paiva",
+    "title": "Graduation of openwashdata academy",
+    "section": "Sílvia Paiva",
+    "text": "Sílvia Paiva\nWater inequalities across CPLP member states\nhttps://ds4owd-002.github.io/project-iamsilvia/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#mario-gavidia-calderón",
+    "href": "content/slides/lec-10-graduation.html#mario-gavidia-calderón",
+    "title": "Graduation of openwashdata academy",
+    "section": "Mario Gavidia-Calderón",
+    "text": "Mario Gavidia-Calderón\nAir quality trends in the last decade\nhttps://ds4owd-002.github.io/project-quishqa/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#elisha-ochieng-okoth",
+    "href": "content/slides/lec-10-graduation.html#elisha-ochieng-okoth",
+    "title": "Graduation of openwashdata academy",
+    "section": "Elisha Ochieng Okoth",
+    "text": "Elisha Ochieng Okoth\nClimate Variability in Kisumu County: An Analysis of Rainfall, Temperature, and Humidity (2021–2024)\nhttps://ds4owd-002.github.io/project-ElishaOkoth/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#ali-yousefi",
+    "href": "content/slides/lec-10-graduation.html#ali-yousefi",
+    "title": "Graduation of openwashdata academy",
+    "section": "Ali Yousefi",
+    "text": "Ali Yousefi\nWater Insecurity Experiences Among Rural Households in Chaharmahal and Bakhtiari Province, Iran\nhttps://ds4owd-002.github.io/project-yousefia601/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#jos-van-der-ent",
+    "href": "content/slides/lec-10-graduation.html#jos-van-der-ent",
+    "title": "Graduation of openwashdata academy",
+    "section": "Jos van der Ent",
+    "text": "Jos van der Ent\nFaecal sludge truck logistics analysis in Kampala, Uganda\nhttps://ds4owd-002.github.io/project-yozgoesdigital/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#farah-arbi",
+    "href": "content/slides/lec-10-graduation.html#farah-arbi",
+    "title": "Graduation of openwashdata academy",
+    "section": "Farah Arbi",
+    "text": "Farah Arbi\nWater, Sanitation, and Hygiene (WASH) Indicators in North African Countries\nhttps://ds4owd-002.github.io/project-FarahArbi/"
+  },
+  {
+    "objectID": "content/slides/lec-10-graduation.html#mejbah-uddin-chowdhury",
+    "href": "content/slides/lec-10-graduation.html#mejbah-uddin-chowdhury",
+    "title": "Graduation of openwashdata academy",
+    "section": "Mejbah Uddin Chowdhury",
+    "text": "Mejbah Uddin Chowdhury\nEvaluating the performance of fecal sludge treatment technologies in Rohingya refugee camps\nhttps://ds4owd-002.github.io/projectfstp-mejbahce1991/"
   }
 ]
