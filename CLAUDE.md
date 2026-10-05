@@ -42,11 +42,11 @@ npm update
 - **Responsive design** using custom `theme.scss` and `styles.css`
 
 ### Content Organization
-- **`modules/`** - Core learning modules with progressive skill building
-- **`assignments/`** - Structured by module (`md-XX/`) with individual assignment files
-- **`slides/`** - Lecture presentations with reveal.js format
-- **`guide/`** - Setup and configuration instructions
-- **`project/`** - Capstone project documentation
+- **`content/modules/`** - Core learning modules with progressive skill building
+- **`content/assignments/`** - Structured by module (`md-XX/`) with individual assignment files
+- **`content/slides/`** - Lecture presentations with reveal.js format
+- **`content/guide/`** - Setup and configuration instructions
+- **`content/project/`** - Capstone project documentation
 - **`img/`** - Course assets and diagrams
 
 ### Navigation System
